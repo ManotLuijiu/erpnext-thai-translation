@@ -1,0 +1,266 @@
+# Thai translations for Thai Google Sheets.
+# Copyright (C) 2025 Manot L.
+# This file is distributed under the same license as the Thai Google Sheets project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Thai Google Sheets VERSION\n"
+"Report-Msgid-Bugs-To: moocoding@gmail.com\n"
+"POT-Creation-Date: 2025-04-06 01:21+0642\n"
+"PO-Revision-Date: 2025-04-30 02:09\n"
+"Last-Translator: moocoding@gmail.com\n"
+"Language-Team: moocoding@gmail.com\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Label of a Link field in DocType 'Google Sheets Account Selection'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_account_selection/google_sheets_account_selection.json
+msgid "Account"
+msgstr "บัญชี"
+
+#. Label of a Table field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Accounts"
+msgstr "บัญชี"
+
+#. Option for the 'Report Type' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Balance Sheet"
+msgstr "งบแสดงฐานะการเงิน"
+
+#. Label of a Link field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Company"
+msgstr "บริษัท"
+
+#. Option for the 'Report Type' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Custom Accounts"
+msgstr "เพิ่มบัญชี"
+
+#. Label of a Data field in DocType 'Google Sheets Account Selection'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_account_selection/google_sheets_account_selection.json
+msgid "Custom Label (Optional)"
+msgstr "แก้ไขป้ายชื่อ (ไม่บังคับ)"
+
+#. Option for the 'Export Frequency' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Daily"
+msgstr "รายวัน"
+
+#. Label of a Section Break field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Data Selection"
+msgstr "เลือกข้อมูล"
+
+#. Label of a Check field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Enabled"
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:62
+msgid "Export Failed"
+msgstr "ส่งออกไฟล์ไม่สำเร็จ"
+
+#: thai_google_sheets/public/js/company_export_button.js:4
+msgid "Export Fixed Expenses to Google Sheets"
+msgstr ""
+
+#. Label of a Select field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Export Frequency"
+msgstr "ความถี่ในการส่งออกไฟล์"
+
+#. Label of a Section Break field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Export History"
+msgstr "ประวัติการส่งออกข้อมูล"
+
+#. Label of a Data field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Export Name"
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:45
+msgid "Export Now"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Export Settings"
+msgstr ""
+
+#. Label of a Select field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Export Status"
+msgstr ""
+
+#: thai_google_sheets/public/js/company_export_button.js:9
+msgid "Export complete!"
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:56
+msgid "Export successful"
+msgstr ""
+
+#: thai_google_sheets/google_sheets_export.py:88
+msgid "Exporter {0} is disabled"
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:52
+msgid "Exporting to Google Sheets..."
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:96
+msgid "Extracted Sheet ID from URL"
+msgstr ""
+
+#. Option for the 'Export Status' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Failed"
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:64
+msgid "Failed to export data. Please check error logs."
+msgstr ""
+
+#. Label of a Code field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Google Service Account Credentials (JSON)"
+msgstr ""
+
+#. Label of a Data field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Google Sheet ID"
+msgstr ""
+
+#. Name of a DocType
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_account_selection/google_sheets_account_selection.json
+msgid "Google Sheets Account Selection"
+msgstr ""
+
+#. Name of a DocType
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Google Sheets Exporter"
+msgstr ""
+
+#: thai_google_sheets/public/js/company_extension.js:6
+msgid "Google Sheets Exports"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Google Sheets Settings"
+msgstr ""
+
+#. Description of the 'Google Sheet ID' (Data) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "ID of the Google Sheet (found in the URL)"
+msgstr ""
+
+#. Label of a Check field in DocType 'Google Sheets Account Selection'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_account_selection/google_sheets_account_selection.json
+msgid "Include Child Accounts"
+msgstr ""
+
+#. Label of a Datetime field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Last Export"
+msgstr ""
+
+#. Option for the 'Export Frequency' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Monthly"
+msgstr ""
+
+#. Option for the 'Report Type' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Monthly Expenses"
+msgstr ""
+
+#: thai_google_sheets/google_sheets_export.py:77
+msgid "No exporter specified for manual export"
+msgstr ""
+
+#. Option for the 'Report Type' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "P&L Statement"
+msgstr ""
+
+#. Description of the 'Google Service Account Credentials (JSON)' (Code) field
+#. in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Paste your Google Service Account credentials JSON here"
+msgstr ""
+
+#. Option for the 'Export Status' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Pending"
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:11
+msgid "Please enter Google Service Account credentials first"
+msgstr ""
+
+#. Option for the 'Export Frequency' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Quarterly"
+msgstr ""
+
+#. Label of a Select field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Report Type"
+msgstr ""
+
+#: thai_google_sheets/public/js/company_extension.js:12
+msgid "Reports"
+msgstr ""
+
+#. Option for the 'Export Status' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Success"
+msgstr ""
+
+#. Name of a role
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "System Manager"
+msgstr ""
+
+#: thai_google_sheets/google_sheets_export.py:104
+msgid "Unsupported report type: {0}"
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:8
+msgid "Validate Google Credentials"
+msgstr ""
+
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:34
+msgid "Validation Failed"
+msgstr ""
+
+#. Option for the 'Export Frequency' (Select) field in DocType 'Google Sheets
+#. Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Weekly"
+msgstr ""
+
+#. Label of a Data field in DocType 'Google Sheets Exporter'
+#: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
+msgid "Worksheet Name"
+msgstr ""
