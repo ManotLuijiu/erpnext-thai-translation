@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Thai Google Sheets VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-04-06 01:21+0642\n"
-"PO-Revision-Date: 2025-04-30 02:09\n"
+"PO-Revision-Date: 2025-04-30 02:12\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -64,7 +64,7 @@ msgstr "เลือกข้อมูล"
 #. Label of a Check field in DocType 'Google Sheets Exporter'
 #: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.json
 msgid "Enabled"
-msgstr ""
+msgstr "เปิดใช้งาน"
 
 #: thai_google_sheets/thai_google_sheets/doctype/google_sheets_exporter/google_sheets_exporter.js:62
 msgid "Export Failed"
