@@ -1,0 +1,1115 @@
+# Translations template for PROJECT Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT Thai Business Suite VERSION\n"
+"Report-Msgid-Bugs-To: mooocding@gmail.com\n"
+"POT-Creation-Date: 2025-03-21 00:36+0642\n"
+"PO-Revision-Date: 2025-04-30 03:25\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:87
+msgid " ZKTeco service..."
+msgstr "บริการสแกนลายนิ้วมือ"
+
+#. Option for the 'Allowed Exceptions' (Select) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "1,2"
+msgstr ""
+
+#. Option for the 'Allowed Exceptions' (Select) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "1,2,3"
+msgstr ""
+
+#. Option for the 'Allowed Exceptions' (Select) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "1,3"
+msgstr ""
+
+#. Option for the 'Allowed Exceptions' (Select) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "2,3"
+msgstr ""
+
+#. Content of the 'Exception Settings Help' (HTML) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid ""
+"<div class=\"alert alert-info\">\n"
+"<strong>Exception codes:</strong><br>\n"
+"1. No Employee found for the given employee User ID<br>\n"
+"2. Employee is inactive for the given employee User ID<br>\n"
+"3. Duplicate Employee Checkin found\n"
+"</div>"
+msgstr ""
+
+#. Header text in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "<span class=\"h4\">Thai Business Suite</span>"
+msgstr ""
+
+#. Header text in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "<span class=\"h4\">ZKTeco Biometric Attendance</span>"
+msgstr ""
+
+#. Label of a Data field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "API Key"
+msgstr "รหัส API"
+
+#. Label of a Password field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "API Secret"
+msgstr "รหัสลับ API"
+
+#. Option for the 'Punch Direction' (Select) field in DocType 'ZKTeco
+#. Biometric
+#. Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "AUTO"
+msgstr ""
+
+#. Description of the 'Punch Direction' (Select) field in DocType 'ZKTeco
+#. Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "AUTO will determine IN/OUT based on punch value"
+msgstr ""
+
+#. Name of a role
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Accounts Manager"
+msgstr ""
+
+#. Name of a role
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Accounts User"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.js:82
+msgid "Action not defined for this area"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "Active"
+msgstr "ใช้งาน"
+
+#. Label of a Section Break field in DocType 'MCP Settings'
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+msgid "Additional Settings"
+msgstr ""
+
+#. Label of a Select field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Allowed Exceptions"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Assets"
+msgstr "สินทรัพย์"
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Attendance Failed"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Attendance Statistics"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Attendance Success"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:160
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:54
+msgid "Audit trail of petty cash transactions"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.py:49
+msgid "Base Amount"
+msgstr "จำนวนเงินฐาน"
+
+#. Description of the 'Pull Frequency (minutes)' (Int) field in DocType
+#. 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid ""
+"Base frequency in minutes between device polls (dynamic settings will "
+"override this at busy times)"
+msgstr ""
+
+#. Label of a Date field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Bill Date"
+msgstr "วันที่บิล"
+
+#. Label of a Data field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Bill No"
+msgstr "เลขที่บิล"
+
+#. Label of a Data field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Bill Series"
+msgstr ""
+
+#. Label of a Link in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Biometric Devices"
+msgstr ""
+
+#. Label of a Link in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Biometric Settings"
+msgstr ""
+
+#. Description of the 'Bill Series' (Data) field in DocType 'Thai Purchase
+#. VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Book number of the tax invoice"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.py:43
+msgid "Branch"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:7
+msgid "Check Connection"
+msgstr "ตรวจสอบการเชื่อมต่อ"
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:19
+msgid "Check Service Status"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:60
+msgid "Checking connection to ERPNext..."
+msgstr ""
+
+#. Label of a Check field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "Clear From Device On Fetch"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:25
+msgid "Company"
+msgstr ""
+
+#. Label of a Card Break in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Configuration"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:49
+msgid "Configuration File Generated"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:202
+msgid "Configuration file generated successfully at: "
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:51
+msgid "Configuration file has been generated at: "
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:98
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:33
+msgid "Configure petty cash settings and limits"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:53
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:77
+msgid "Connection failed: "
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:72
+msgid "Connection successful!"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:48
+msgid "Connection successful! Device info: "
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:145
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:49
+msgid "Current petty cash balance report"
+msgstr ""
+
+#. Label of a Link in the ZKTeco Attendance Workspace
+#. Label of a shortcut in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Dashboard"
+msgstr "แดชบอร์ด"
+
+#: thai_business_suite/api.py:28
+msgid "Data received and processed"
+msgstr ""
+
+#: thai_business_suite/public/js/api.js:32
+msgid "Data submitted successfully"
+msgstr "ส่งข้อมูลเรียบร้อยแล้ว"
+
+#. Description of the 'Port' (Int) field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "Default port is 4370"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Delivery Note"
+msgstr ""
+
+#. Label of a Link field in DocType 'ZKTeco Device Link'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_device_link/zkteco_device_link.json
+msgid "Device"
+msgstr ""
+
+#. Label of a Data field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:224
+msgid "Device ID"
+msgstr "รหัสอุปกรณ์"
+
+#. Label of a Section Break field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "Device Options"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Device Statistics"
+msgstr ""
+
+#. Label of a Table MultiSelect field in DocType 'ZKTeco Shift Device Mapping'
+#. Label of a Link in the ZKTeco Attendance Workspace
+#. Label of a shortcut in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.json
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Devices"
+msgstr ""
+
+#. Description of the 'Logs Directory' (Data) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Directory where logs will be stored"
+msgstr ""
+
+#. Description of the 'API Key' (Data) field in DocType 'ZKTeco Biometric
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "ERPNext API Key"
+msgstr ""
+
+#. Description of the 'API Secret' (Password) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "ERPNext API Secret"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "ERPNext Connection"
+msgstr "การเชื่อมต่อ ERPNext"
+
+#. Label of a Data field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "ERPNext URL"
+msgstr "URL ของ ERPNext"
+
+#. Label of a Int field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "ERPNext Version"
+msgstr "เวอร์ชัน ERPNext"
+
+#. Label of a Link in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Employee Checkin"
+msgstr "การลงเวลาของพนักงาน"
+
+#. Label of a Link in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Employee Checkin Report"
+msgstr ""
+
+#. Label of a Check field in DocType 'MCP Settings'
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+msgid "Enable MCP Integration"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:20
+msgid ""
+"Enabling this option will delete attendance data from the device after "
+"fetching. This can lead to data loss if there are issues with the sync "
+"process. Are you sure you want to enable this?"
+msgstr ""
+
+#. Description of the 'Environment Variables' (Code) field in DocType 'MCP
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+msgid "Enter environment variables as JSON, e.g. {\"KEY\": \"VALUE\"}"
+msgstr ""
+
+#. Label of a Code field in DocType 'MCP Settings'
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+msgid "Environment Variables"
+msgstr ""
+
+#. Option for the 'Service Status' (Select) field in DocType 'ZKTeco Biometric
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Error"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Error Logs"
+msgstr "บันทึกข้อผิดพลาด"
+
+#. Label of a Section Break field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Exception Settings"
+msgstr ""
+
+#. Label of a HTML field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Exception Settings Help"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:109
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:188
+msgid "Failed to  service: "
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:83
+msgid "Failed to fetch attendance: "
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:207
+msgid "Failed to generate configuration file"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.js:32
+msgid "Failed to update shift timestamp: "
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:7
+msgid "Fetch Attendance Now"
+msgstr "ดึงข้อมูลการเข้างานตอนนี้"
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:66
+msgid "Fetching attendance data..."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:5
+msgid "From Date"
+msgstr ""
+
+#. Description of the 'ERPNext URL' (Data) field in DocType 'ZKTeco Biometric
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Full URL to your ERPNext instance (e.g., https://example.erpnext.com)"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:25
+msgid "Generate Config"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:3
+msgid "Generate Config File"
+msgstr "สร้างไฟล์การตั้งค่า"
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "HR"
+msgstr "ทรัพยากรบุคคล"
+
+#. Label of a Card Break in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "HR Management"
+msgstr ""
+
+#. Name of a role
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.json
+msgid "HR Manager"
+msgstr ""
+
+#. Name of a role
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.json
+msgid "HR User"
+msgstr ""
+
+#. Option for the 'Punch Direction' (Select) field in DocType 'ZKTeco
+#. Biometric
+#. Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "IN"
+msgstr "เข้างาน"
+
+#. Label of a Data field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:224
+msgid "IP Address"
+msgstr "ที่อยู่ IP"
+
+#. Description of the 'IP Address' (Data) field in DocType 'ZKTeco Biometric
+#. Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "IP Address of the biometric device"
+msgstr ""
+
+#. Description of the 'Clear From Device On Fetch' (Check) field in DocType
+#. 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid ""
+"If checked, attendance data will be deleted from device after successful "
+"fetch. Be careful as this can lead to data loss."
+msgstr ""
+
+#. Label of a Date field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Import Start Date"
+msgstr ""
+
+#. Description of the 'Import Start Date' (Date) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid ""
+"Import attendance data from this date (format: YYYY-MM-DD). Leave empty to "
+"import from the last sync point."
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "Inactive"
+msgstr "ไม่ใช้งาน"
+
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:33
+msgid "Include Cancelled"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Info Logs"
+msgstr "บันทึกข้อมูล"
+
+#. Label of a Check field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Is VAT Exempt"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:224
+msgid "Last Connection"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Last Sync"
+msgstr "ซิงค์ล่าสุด"
+
+#. Label of a Datetime field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Last Sync Time"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.js:12
+msgid "Last Sync Timestamp"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
+msgid "Last successful sync"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Loading attendance stats..."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Loading devices..."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Loading logs..."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Loading..."
+msgstr ""
+
+#. Label of a Data field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Logs Directory"
+msgstr "ไดเรกทอรีบันทึก"
+
+#. Label of a Section Break field in DocType 'MCP Settings'
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+msgid "MCP Configuration"
+msgstr ""
+
+#. Label of a Data field in DocType 'MCP Settings'
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+msgid "MCP Server Executable"
+msgstr ""
+
+#. Label of a Data field in DocType 'MCP Settings'
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+msgid "MCP Server Script Path"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+msgid "MCP Settings"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:16
+msgid "Manage Devices"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:5
+msgid "Manage small cash transactions and reimbursements"
+msgstr ""
+
+#. Label of a Card Break in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Management"
+msgstr ""
+
+#. Label of a Link in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Monthly Attendance Sheet"
+msgstr "แผ่นการเข้างานรายเดือน"
+
+#. Description of the 'Device ID' (Data) field in DocType 'ZKTeco Biometric
+#. Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "Must be unique, strictly alphanumerical chars only. No space allowed."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:160
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:239
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
+msgid "N/A"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:259
+msgid "No devices configured"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:315
+msgid "No logs found or error reading logs"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.py:17
+msgid "No."
+msgstr ""
+
+#. Option for the 'Punch Direction' (Select) field in DocType 'ZKTeco
+#. Biometric
+#. Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "None"
+msgstr ""
+
+#. Option for the 'Punch Direction' (Select) field in DocType 'ZKTeco
+#. Biometric
+#. Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "OUT"
+msgstr "ออกงาน"
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:75
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:88
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:101
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:114
+msgid "Open"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.js:44
+msgid "Opening Petty Cash Payment Report..."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.js:30
+msgid "Opening Petty Cash Payment..."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.js:23
+msgid "Opening Petty Cash Receipts..."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.js:37
+msgid "Opening Petty Cash Settings..."
+msgstr ""
+
+#. Label of a Section Break field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Operational Settings"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:3
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.js:4
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash"
+msgstr "เงินสดย่อย"
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:158
+msgid "Petty Cash Audit"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:143
+msgid "Petty Cash Balance"
+msgstr ""
+
+#. Label of a Card Break in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash Management"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash Payment"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:83
+msgid "Petty Cash Payments"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash Receipt"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:70
+msgid "Petty Cash Received"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:96
+msgid "Petty Cash Setting"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash Settings"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:128
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash Summary"
+msgstr ""
+
+#. Label of a Int field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "Port"
+msgstr "พอร์ต"
+
+#. Label of a Date field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Posting Date"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:109
+msgid "Print Petty Cash Payments"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:111
+msgid "Print reports and vouchers for petty cash payments"
+msgstr ""
+
+#. Label of a Int field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Pull Frequency (minutes)"
+msgstr ""
+
+#. Label of a Select field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "Punch Direction"
+msgstr "ทิศทางการบันทึกเวลา"
+
+#. Label of a Section Break field in DocType 'Thai Purchase VAT'
+#. Label of a Link field in DocType 'Thai Purchase VAT'
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Purchase Invoice"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Purchase Order"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Purchase Receipt"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Purchasing"
+msgstr "การซื้อ"
+
+#. Label of a Card Break in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Purchasing Management"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Recent Logs"
+msgstr "บันทึกล่าสุด"
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:85
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:28
+msgid "Record payments made from petty cash"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:72
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:23
+msgid "Record petty cash received from various sources"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Refresh Logs"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:29
+msgid "Refresh Status"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'ZKTeco Shift Device Mapping'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.json
+msgid "Related Devices"
+msgstr ""
+
+#. Label of a Card Break in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:123
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Reports"
+msgstr "รายงาน"
+
+#. Option for the 'Service Status' (Select) field in DocType 'ZKTeco Biometric
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Running"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Sales Invoice"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Sales Order"
+msgstr ""
+
+#. Description of the 'Allowed Exceptions' (Select) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Select which exceptions to ignore (1,2,3 is recommended)"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Selling"
+msgstr "การขาย"
+
+#. Label of a Card Break in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Selling Management"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:99
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:178
+msgid "Service  successfully!"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'ZKTeco Biometric Settings'
+#. Label of a Select field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Service Status"
+msgstr "สถานะบริการ"
+
+#. Label of a Link in the ZKTeco Attendance Workspace
+#. Label of a shortcut in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:12
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#. Label of a Link in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:20
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Shift Mappings"
+msgstr ""
+
+#. Label of a Link field in DocType 'ZKTeco Shift Device Mapping'
+#. Label of a Link in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.json
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "Shift Type"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.js:27
+msgid "Shift timestamp updated successfully"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:11
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:26
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Start Service"
+msgstr "เริ่มบริการ"
+
+#. Label of a Select field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:224
+msgid "Status"
+msgstr "สถานะ"
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Stock"
+msgstr "สินค้าคงคลัง"
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:15
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:29
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
+msgid "Stop Service"
+msgstr "หยุดบริการ"
+
+#. Option for the 'Service Status' (Select) field in DocType 'ZKTeco Biometric
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Stopped"
+msgstr ""
+
+#: thai_business_suite/public/js/api.js:27
+msgid "Submitting..."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:78
+msgid "Successfully fetched  attendance records"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:130
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:44
+msgid "Summary of petty cash transactions"
+msgstr ""
+
+#. Label of a Link field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:19
+msgid "Supplier"
+msgstr "ผู้จำหน่าย"
+
+#. Label of a Data field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Supplier Branch"
+msgstr ""
+
+#. Label of a Data field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.py:31
+msgid "Supplier Name"
+msgstr "ชื่อผู้จำหน่าย"
+
+#. Label of a Data field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.py:37
+msgid "Supplier Tax ID"
+msgstr "เลขประจำตัวผู้เสียภาษีของผู้จำหน่าย"
+
+#. Name of a role
+#: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.json
+msgid "System Manager"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.py:25
+msgid "Tax Invoice Book No."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.py:19
+msgid "Tax Invoice Date"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Tax Invoice Details"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:3
+msgid "Test Connection"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:36
+msgid "Testing connection to device..."
+msgstr ""
+
+#. Name of a Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Thai Business Suite"
+msgstr "ชุดธุรกิจไทย"
+
+#. Name of a report
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.json
+msgid "Thai Input VAT Report"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Thai Purchase VAT"
+msgstr "ภาษีมูลค่าเพิ่มสำหรับการซื้อไทย"
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
+msgid "This Month"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
+msgid "This Week"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:63
+msgid ""
+"This will manually trigger an attendance fetch from the device. Continue?"
+msgstr ""
+
+#. Label of a Data field in DocType 'ZKTeco Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Timezone"
+msgstr ""
+
+#. Description of the 'Timezone' (Data) field in DocType 'ZKTeco Biometric
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Timezone for the attendance records"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:12
+msgid "To Date"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
+msgid "Today"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "Total Amount"
+msgstr "จำนวนเงินรวม"
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.js:38
+msgid "Update"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.js:3
+msgid "Update Shift Last Sync Timestamp"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.js:38
+msgid "Update Shift Timestamp"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.py:55
+msgid "VAT Amount"
+msgstr "จำนวนภาษีมูลค่าเพิ่ม"
+
+#. Label of a Section Break field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+msgid "VAT Details"
+msgstr ""
+
+#. Description of the 'ERPNext Version' (Int) field in DocType 'ZKTeco
+#. Biometric Settings'
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "Version of ERPNext (e.g., 13, 14, 15)"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:135
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:150
+#: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:163
+msgid "View Report"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:13
+msgid ""
+"Warning: This device is configured to clear attendance data after fetching. "
+"Use with caution to prevent data loss."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
+msgid "Yesterday"
+msgstr ""
+
+#. Name of a Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "ZKTeco Attendance"
+msgstr "การเข้างาน ZKTeco"
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
+msgid "ZKTeco Biometric Device"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
+msgid "ZKTeco Biometric Settings"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "ZKTeco Dashboard"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/zkteco_device_link/zkteco_device_link.json
+msgid "ZKTeco Device Link"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "ZKTeco Devices"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "ZKTeco Settings"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.json
+msgid "ZKTeco Shift Device Mapping"
+msgstr ""
+
+#. Count format of shortcut in the ZKTeco Attendance Workspace
+#: thai_business_suite/thai_business_suite/workspace/zkteco_attendance/zkteco_attendance.json
+msgid "{} Devices"
+msgstr ""
