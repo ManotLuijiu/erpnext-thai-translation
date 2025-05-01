@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Translation Tools VERSION 0.1.0\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-04-24 21:12+0642\n"
-"PO-Revision-Date: 2025-04-30 22:07\n"
+"PO-Revision-Date: 2025-05-01 23:57\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -26,6 +26,9 @@ msgid ""
 "            <p>For help and documentation, please refer to the README.md file in the app directory.</p>\n"
 "            "
 msgstr ""
+"<p>ติดตั้งเครื่องมือแปลภาษาสำเร็จ</p>\n"
+"            <p>คุณสามารถเข้าใช้งานผ่าน sidebar มองหา <strong>เครื่องมือแปลภาษาไทย</strong>.</p>\n"
+"            <p>สามารถศึกษาวิธีการใช้งานจาก README.md บน Github Repo ของแอ็พนี้</p>"
 
 #: translation_tools/api/notifications.py:40
 msgid ""
@@ -41,7 +44,7 @@ msgstr ""
 #. Content of the 'Signature Preview' (HTML) field in DocType 'User Signature'
 #: translation_tools/translation_tools/doctype/user_signature/user_signature.json
 msgid "<img src=\"{{ doc.signature_image }}\" style=\"max-height: 100px;\">"
-msgstr ""
+msgstr "<img src=\"{{ doc.signature_image }}\" style=\"max-height: 100px;\">"
 
 #. Content of the 'help_html' (HTML) field in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
@@ -53,11 +56,17 @@ msgid ""
 "target='_blank'>GitHub Settings</a></li><li>Give it the 'repo' "
 "permission</li><li>Copy the token and paste it above</li></ol>"
 msgstr ""
+"<p>การรวม GitHub "
+"ช่วยให้การแปลถูกแชร์โดยอัตโนมัติไปยังที่เก็บกลาง.</p><p>วิธีตั้งค่าการรวม "
+"GitHub:</p><ol><li>สร้างบัญชี GitHub หากคุณยังไม่มี</li><li>สร้าง Personal "
+"Access Token (Classic) ที่ <a href='https://github.com/settings/tokens' "
+"target='_blank'>การตั้งค่า GitHub</a></li><li>ให้สิทธิ์ "
+"'repo'</li><li>คัดลอกโทเค็นและวางไว้ด้านบน</li></ol>"
 
 #. Header text in the Integrations Workspace
 #: translation_tools/translation_tools/workspace/integrations/integrations.json
 msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>รายงาน &amp; มาสเตอร์</b></span>"
 
 #: translation_tools/public/dist/js/chat.bundle.OAHEVCLF.js:3975
 #: translation_tools/public/js/components/chat_bot.js:33
@@ -138,7 +147,7 @@ msgstr "ชื่อโปรแกรม"
 #: translation_tools/public/dist/js/chat.bundle.OAHEVCLF.js:5108
 #: translation_tools/public/js/components/chat_welcome_screen.js:16
 msgid "Ask me anything about your tax and accounting needs."
-msgstr ""
+msgstr "ถามฉันได้ทุกเรื่องเกี่ยวกับความต้องการด้านบัญชี และภาษีของคุณ"
 
 #. Label of a Check field in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
@@ -190,7 +199,7 @@ msgstr "หน่วยติดต่อระบบ Chat"
 #. Name of a DocType
 #: translation_tools/translation_tools/doctype/chat_profile/chat_profile.json
 msgid "Chat Profile"
-msgstr ""
+msgstr "โปรไฟล์แชท"
 
 #. Name of a DocType
 #: translation_tools/translation_tools/doctype/chat_room/chat_room.json
@@ -200,7 +209,7 @@ msgstr "ห้องคุย"
 #. Name of a DocType
 #: translation_tools/translation_tools/doctype/chat_room_user/chat_room_user.json
 msgid "Chat Room User"
-msgstr ""
+msgstr "ผู้ใช้ห้องแชท"
 
 #. Name of a DocType
 #: translation_tools/translation_tools/doctype/chat_settings/chat_settings.json
@@ -219,26 +228,26 @@ msgstr "สนทนา"
 
 #: translation_tools/translation_tools/doctype/translation_tools_settings/translation_tools_settings.js:75
 msgid "Claude API connection failed: {0}"
-msgstr ""
+msgstr "การเชื่อมต่อ Claude API ล้มเหลว: {0}"
 
 #: translation_tools/translation_tools/doctype/translation_tools_settings/translation_tools_settings.js:66
 msgid "Claude API connection successful! Translation: {0}"
-msgstr ""
+msgstr "การเชื่อมต่อ Claude API สำเร็จ! การแปล: {0}"
 
 #: translation_tools/public/dist/js/chat.bundle.OAHEVCLF.js:4110
 #: translation_tools/public/js/components/chat_bubble.js:12
 msgid "Close Chat"
-msgstr ""
+msgstr "ปิดแชท"
 
 #: translation_tools/api/components.py:189
 msgid "Configuration Warning"
-msgstr ""
+msgstr "คำเตือนการตั้งค่า"
 
 #. Label of a Text field in DocType 'Chat Message'
 #: translation_tools/translation_tools/doctype/chat_message/chat_message.json
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:73
 msgid "Content"
-msgstr ""
+msgstr "เนื้อหา"
 
 #. Label of a Small Text field in DocType 'Translation Glossary Term'
 #: translation_tools/translation_tools/doctype/translation_glossary_term/translation_glossary_term.json
@@ -248,19 +257,19 @@ msgstr "บริบท"
 #: translation_tools/public/dist/js/chat.bundle.OAHEVCLF.js:4828
 #: translation_tools/public/js/components/chat_add_room.js:58
 msgid "Create"
-msgstr ""
+msgstr "สร้าง"
 
 #. Description of the 'GitHub Personal Access Token (Classic)' (Password)
 #. field
 #. in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
 msgid "Create a token with 'repo' scope at https://github.com/settings/tokens"
-msgstr ""
+msgstr "สร้างโทเค็นที่มีขอบเขต 'repo' ที่ https://github.com/settings/tokens"
 
 #. Label of a Table field in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
 msgid "Custom Fonts"
-msgstr ""
+msgstr "แบบอักษรที่กำหนดเอง"
 
 #. Option for the 'Category' (Select) field in DocType 'Translation Glossary
 #. Term'
@@ -271,27 +280,27 @@ msgstr "วันที่/เวลา"
 #. Label of a Select field in DocType 'PDF Settings'
 #: translation_tools/translation_tools/doctype/pdf_settings/pdf_settings.json
 msgid "Default Font"
-msgstr ""
+msgstr "แบบอักษรเริ่มต้น"
 
 #. Label of a Data field in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
 msgid "Default Model"
-msgstr ""
+msgstr "โมเดลเริ่มต้น"
 
 #. Label of a Select field in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
 msgid "Default Model Provider"
-msgstr ""
+msgstr "ผู้ให้บริการโมเดลเริ่มต้น"
 
 #. Label of a Data field in DocType 'Translation Tools Settings'
 #: translation_tools/translation_tools/doctype/translation_tools_settings/translation_tools_settings.json
 msgid "Default Source Language"
-msgstr ""
+msgstr "ภาษาแหล่งข้อมูลเริ่มต้น"
 
 #. Label of a Data field in DocType 'Translation Tools Settings'
 #: translation_tools/translation_tools/doctype/translation_tools_settings/translation_tools_settings.json
 msgid "Default Target Language"
-msgstr ""
+msgstr "ภาษาปลายทางเริ่มต้น"
 
 #. Label of a Small Text field in DocType 'ERPNext Module'
 #: translation_tools/translation_tools/doctype/erpnext_module/erpnext_module.json
@@ -301,27 +310,27 @@ msgstr "รายละเอียด"
 #. Option for the 'Type' (Select) field in DocType 'Chat Room'
 #: translation_tools/translation_tools/doctype/chat_room/chat_room.json
 msgid "Direct"
-msgstr ""
+msgstr "โดยตรง"
 
 #: translation_tools/api/room.py:82
 msgid "Direct Room already exists!"
-msgstr ""
+msgstr "ห้องสนทนาโดยตรงมีอยู่แล้ว!"
 
 #: translation_tools/public/dist/pdf_generator.bundle.H7TIRT3V.js:19649
 msgid "Document Name"
-msgstr ""
+msgstr "ชื่อเอกสาร"
 
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:73
 msgid "Document Title"
-msgstr ""
+msgstr "หัวข้อเอกสาร"
 
 #: translation_tools/public/dist/pdf_generator.bundle.H7TIRT3V.js:19636
 msgid "Document Type"
-msgstr ""
+msgstr "ประเภทเอกสาร"
 
 #: translation_tools/public/js/translation_tools.client.js:3
 msgid "Download PDF (PDFMake)"
-msgstr ""
+msgstr "ดาวน์โหลด PDF (PDFMake)"
 
 #. Name of a DocType
 #: translation_tools/translation_tools/doctype/erpnext_module/erpnext_module.json
@@ -331,26 +340,26 @@ msgstr "โมดูล ERPNext"
 #. Label of a Data field in DocType 'Chat Profile'
 #: translation_tools/translation_tools/doctype/chat_profile/chat_profile.json
 msgid "Email"
-msgstr ""
+msgstr "อีเมล"
 
 #: translation_tools/public/js/components/chat_form.js:36
 msgid "Email Address"
-msgstr ""
+msgstr "ที่อยู่อีเมล"
 
 #. Label of a Check field in DocType 'Chat Settings'
 #: translation_tools/translation_tools/doctype/chat_settings/chat_settings.json
 msgid "Enable Chat"
-msgstr ""
+msgstr "เปิดใช้งานแชท"
 
 #. Label of a Check field in DocType 'Translation Tools Settings'
 #: translation_tools/translation_tools/doctype/translation_tools_settings/translation_tools_settings.json
 msgid "Enable Chat Features"
-msgstr ""
+msgstr "เปิดใช้งานฟีเจอร์แชท"
 
 #. Label of a Check field in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
 msgid "Enable GitHub Integration"
-msgstr ""
+msgstr "เปิดใช้งานการรวม GitHub"
 
 #. Label of a Check field in DocType 'Chat User Settings'
 #. Label of a Check field in DocType 'Translation User Settings'
@@ -359,7 +368,7 @@ msgstr ""
 #: translation_tools/translation_tools/doctype/chat_user_settings/chat_user_settings.json
 #: translation_tools/translation_tools/doctype/translation_user_settings/translation_user_settings.json
 msgid "Enable Message Tone"
-msgstr ""
+msgstr "เปิดใช้งานเสียงข้อความ"
 
 #. Label of a Check field in DocType 'Chat User Settings'
 #. Label of a Check field in DocType 'Translation User Settings'
@@ -368,17 +377,17 @@ msgstr ""
 #: translation_tools/translation_tools/doctype/chat_user_settings/chat_user_settings.json
 #: translation_tools/translation_tools/doctype/translation_user_settings/translation_user_settings.json
 msgid "Enable Notifications"
-msgstr ""
+msgstr "เปิดใช้งานการแจ้งเตือน"
 
 #. Label of a Check field in DocType 'Translation Tools Settings'
 #: translation_tools/translation_tools/doctype/translation_tools_settings/translation_tools_settings.json
 msgid "Enable Translation Service"
-msgstr ""
+msgstr "เปิดใช้งานบริการแปล"
 
 #. Label of a Time field in DocType 'Chat Settings'
 #: translation_tools/translation_tools/doctype/chat_settings/chat_settings.json
 msgid "End Time"
-msgstr ""
+msgstr "เวลาสิ้นสุด"
 
 #: translation_tools/public/dist/js/chat.bundle.OAHEVCLF.js:4233
 #: translation_tools/public/dist/js/chat.bundle.OAHEVCLF.js:4366
@@ -387,103 +396,103 @@ msgstr ""
 #: translation_tools/public/js/components/chat_space.js:70
 #: translation_tools/public/js/components/chat_utils.js:83
 msgid "Error"
-msgstr ""
+msgstr "ข้อผิดพลาด"
 
 #: translation_tools/utils/thai_in_words.py:30
 msgid "Error converting amount to Thai words: {0}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการแปลงจำนวนเป็นคำภาษาไทย: {0}"
 
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:236
 msgid "Error loading fonts ครับ: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการโหลดฟอนต์ ครับ: {0}"
 
 #: translation_tools/public/dist/js/translation_tools.app.bundle.CC6IJVFD.js:51
 #: translation_tools/public/js/app.js:74
 msgid "Error: "
-msgstr ""
+msgstr "ข้อผิดพลาด:"
 
 #: translation_tools/utils/thai_in_words.py:31
 msgid "Error: Cannot convert to Thai words"
-msgstr ""
+msgstr "ข้อผิดพลาด: ไม่สามารถแปลงเป็นคำภาษาไทยได้"
 
 #: translation_tools/override/custom_sales_invoice.py:78
 msgid "Failed to generate PDF. Please check the error log."
-msgstr ""
+msgstr "ไม่สามารถสร้าง PDF ได้ กรุณาตรวจสอบบันทึกข้อผิดพลาด"
 
 #. Label of a Data field in DocType 'PO File'
 #: translation_tools/translation_tools/doctype/po_file/po_file.json
 msgid "File Path"
-msgstr ""
+msgstr "เส้นทางไฟล์"
 
 #: translation_tools/api/po_files.py:487 translation_tools/api/po_files.py:549
 #: translation_tools/api/po_files.py:644
 #: translation_tools/api/translation.py:147
 #: translation_tools/api/translation.py:259
 msgid "File not found: {0}"
-msgstr ""
+msgstr "ไม่พบไฟล์: {0}"
 
 #: translation_tools/public/dist/js/chat.bundle.OAHEVCLF.js:4483
 #: translation_tools/public/js/components/chat_space.js:200
 msgid "File upload failed!"
-msgstr ""
+msgstr "การอัปโหลดไฟล์ล้มเหลว!"
 
 #. Label of a Data field in DocType 'PO File'
 #: translation_tools/translation_tools/doctype/po_file/po_file.json
 msgid "Filename"
-msgstr ""
+msgstr "ชื่อไฟล์"
 
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:73
 msgid "Font"
-msgstr ""
+msgstr "ฟอนต์"
 
 #. Label of a Data field in DocType 'Translation Settings Custom Font'
 #: translation_tools/translation_tools/doctype/translation_settings_custom_font/translation_settings_custom_font.json
 msgid "Font Name"
-msgstr ""
+msgstr "ชื่อฟอนต์"
 
 #: translation_tools/public/js/components/chat_form.js:36
 msgid "Full Name"
-msgstr ""
+msgstr "ชื่อเต็ม"
 
 #: translation_tools/api/user.py:12
 msgid "Full Name is required"
-msgstr ""
+msgstr "ต้องระบุชื่อเต็ม"
 
 #. Label of a Section Break field in DocType 'Translation Tools Settings'
 #: translation_tools/translation_tools/doctype/translation_tools_settings/translation_tools_settings.json
 msgid "General Settings"
-msgstr ""
+msgstr "การตั้งค่าทั่วไป"
 
 #: translation_tools/public/dist/pdf_generator.bundle.H7TIRT3V.js:19676
 #: translation_tools/public/dist/pdf_override.bundle.PN6XWT5J.js:19634
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:73
 msgid "Generate PDF"
-msgstr ""
+msgstr "สร้าง PDF"
 
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:73
 msgid "Generate PDFs with Thai language support."
-msgstr ""
+msgstr "สร้าง PDF ที่รองรับภาษาไทย"
 
 #: translation_tools/public/dist/pdf_generator.bundle.H7TIRT3V.js:19698
 msgid "Generate Sample PDF"
-msgstr ""
+msgstr "สร้าง PDF ตัวอย่าง"
 
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:64
 msgid "Generate Test PDF"
-msgstr ""
+msgstr "สร้าง PDF ทดสอบ"
 
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:73
 msgid "Generate from Document"
-msgstr ""
+msgstr "สร้างจากเอกสาร"
 
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:185
 msgid "Generating PDF..."
-msgstr ""
+msgstr "กำลังสร้าง PDF..."
 
 #. Label of a Section Break field in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
 msgid "GitHub Integration"
-msgstr ""
+msgstr "การรวมระบบ GitHub"
 
 #. Label of a Password field in DocType 'Translation Settings'
 #: translation_tools/translation_tools/doctype/translation_settings/translation_settings.json
