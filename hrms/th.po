@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:28+0642\n"
-"PO-Revision-Date: 2025-05-04 18:47\n"
+"PO-Revision-Date: 2025-05-04 19:13\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: contact@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -1131,7 +1131,7 @@ msgstr ""
 msgid ""
 "An attendance record is linked to this checkin. Please cancel the attendance"
 " before modifying time."
-msgstr ""
+msgstr "โปรดยกเลิกการเข้างานที่ลิงค์ไปที่ระบบ เช็คอิน ก่อนจะแก้ไขเวลาเข้า/ออก"
 
 #. Label of a Float field in DocType 'Leave Policy Detail'
 #: hrms/hr/doctype/leave_policy_detail/leave_policy_detail.json
@@ -1591,17 +1591,17 @@ msgstr ""
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 #: hrms/templates/emails/training_event.html:9
 msgid "Attendance"
-msgstr "การดูแลรักษา"
+msgstr "การเข้างาน"
 
 #. Label of a chart in the Shift & Attendance Workspace
 #: hrms/hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Attendance Count"
-msgstr ""
+msgstr "นับการเข้างาน"
 
 #. Label of a shortcut in the HR Workspace
 #: hrms/hr/workspace/hr/hr.json
 msgid "Attendance Dashboard"
-msgstr ""
+msgstr "กระดานข้อมูลแสดงการเข้างาน"
 
 #. Label of a Date field in DocType 'Attendance'
 #: hrms/hr/doctype/attendance/attendance.json
@@ -1621,7 +1621,7 @@ msgstr ""
 
 #: hrms/hr/report/shift_attendance/shift_attendance.py:123
 msgid "Attendance ID"
-msgstr ""
+msgstr "หมายเลขเข้างาน"
 
 #. Label of a Link field in DocType 'Employee Checkin'
 #: hrms/hr/doctype/attendance/attendance_list.js:115
@@ -1648,7 +1648,7 @@ msgstr ""
 #. Label of a Section Break field in DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Attendance Settings"
-msgstr ""
+msgstr "ตั้งค่าระบบการเข้างาน"
 
 #. Label of a Date field in DocType 'Upload Attendance'
 #: hrms/hr/doctype/upload_attendance/upload_attendance.json
@@ -1657,11 +1657,11 @@ msgstr "วันที่เข้าร่วมประชุมเพื่
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:114
 msgid "Attendance Updated"
-msgstr ""
+msgstr "ปรับปรุงข้อมูลการเข้างาน"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.js:19
 msgid "Attendance Warnings"
-msgstr ""
+msgstr "ข้อความเตือน ระบบเข้างาน"
 
 #: hrms/hr/doctype/attendance/attendance.py:55
 msgid ""
