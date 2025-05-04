@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-02-24 14:51+0000\n"
-"PO-Revision-Date: 2025-05-03 20:30\n"
+"PO-Revision-Date: 2025-05-04 18:41\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -1522,7 +1522,7 @@ msgstr ""
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "After Save"
-msgstr ""
+msgstr "หลังการบันทึก"
 
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
@@ -3363,7 +3363,7 @@ msgstr ""
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
 msgid "Before Save"
-msgstr ""
+msgstr "ก่อนการบันทึก"
 
 #. Option for the 'DocType Event' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/server_script/server_script.json
@@ -4134,7 +4134,7 @@ msgstr ""
 
 #: frappe/core/doctype/file/file.py:150
 msgid "Cannot delete Home and Attachments folders"
-msgstr ""
+msgstr "ไม่สามารถลบหน้าหลัก และโฟลเดอร์ที่แนบ"
 
 #: frappe/model/delete_doc.py:384
 msgid "Cannot delete or cancel because {0} {1} is linked with {2} {3} {4}"
@@ -6772,7 +6772,7 @@ msgstr ""
 #. Label of a Data field in DocType 'Portal Settings'
 #: frappe/website/doctype/portal_settings/portal_settings.json
 msgid "Default Portal Home"
-msgstr ""
+msgstr "ค่าเริ่มต้นของ หน้าแรก"
 
 #. Label of a Data field in DocType 'DocType'
 #. Label of a Link field in DocType 'Customize Form'
@@ -7789,7 +7789,7 @@ msgstr ""
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:420
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:439
 msgid "Document Saved"
-msgstr ""
+msgstr "บันทึกเอกสาร"
 
 #. Label of a Check field in DocType 'Notification Settings'
 #: frappe/desk/doctype/notification_settings/notification_settings.json
@@ -10362,7 +10362,7 @@ msgstr ""
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:189
 msgid "Filters saved"
-msgstr ""
+msgstr "กรองเอกสารที่บันทึกแล้ว"
 
 #. Description of the 'Script' (Code) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
@@ -11924,7 +11924,7 @@ msgstr ""
 
 #: frappe/public/js/frappe/list/list_filter.js:87
 msgid "Hide Saved"
-msgstr ""
+msgstr "ซ่อนเอกสารที่บันทึกแล้ว"
 
 #. Label of a Check field in DocType 'DocField'
 #. Label of a Check field in DocType 'Custom Field'
@@ -12019,26 +12019,26 @@ msgstr "หน้าแรก"
 #: frappe/core/doctype/role/role.json
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Home Page"
-msgstr ""
+msgstr "หน้าหลัก"
 
 #. Label of a Code field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Home Settings"
-msgstr ""
+msgstr "ตั้งแค่สำหรับหน้าแรก"
 
 #: frappe/core/doctype/file/test_file.py:303
 #: frappe/core/doctype/file/test_file.py:305
 #: frappe/core/doctype/file/test_file.py:369
 msgid "Home/Test Folder 1"
-msgstr ""
+msgstr "หน้าแรก/โฟลเดอร์ทดสอบ 1"
 
 #: frappe/core/doctype/file/test_file.py:358
 msgid "Home/Test Folder 1/Test Folder 3"
-msgstr ""
+msgstr "หน้าแรก/โฟลเดอร์ทดสอบ 1/โฟลเดอร์ทดสอบ 3"
 
 #: frappe/core/doctype/file/test_file.py:314
 msgid "Home/Test Folder 2"
-msgstr ""
+msgstr "หน้าแรก/โฟลเดอร์ทดสอบ 2"
 
 #. Option for the 'Frequency' (Select) field in DocType 'Scheduled Job Type'
 #. Option for the 'Event Frequency' (Select) field in DocType 'Server Script'
@@ -13228,7 +13228,7 @@ msgstr ""
 
 #: frappe/website/doctype/website_settings/website_settings.py:83
 msgid "Invalid Home Page"
-msgstr ""
+msgstr "หน้าหลัก ใช้ไม่ได้"
 
 #: frappe/utils/verified_command.py:48 frappe/www/update-password.html:151
 msgid "Invalid Link"
@@ -13504,7 +13504,7 @@ msgstr ""
 #. Label of a Check field in DocType 'File'
 #: frappe/core/doctype/file/file.json
 msgid "Is Home Folder"
-msgstr ""
+msgstr "โฟลเดอร์หลัก?"
 
 #. Label of a Check field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
@@ -14676,6 +14676,8 @@ msgid ""
 "Link that is the website home page. Standard Links (home, login, products, "
 "blog, about, contact)"
 msgstr ""
+"ลิงค์ที่อยู่ในกลุ่ม ลิงค์มาตรฐาน (หน้าแรก, ลงชื่อเข้าใช้, สินค้า, บล็อก, "
+"เกี่ยบกับเรา, ติดต่อเรา) ซึ่งลิงค์เหล่านี้จะอยู่ในหน้าแรก/หน้าหลัก"
 
 #. Description of the 'URL' (Data) field in DocType 'Top Bar Item'
 #: frappe/website/doctype/top_bar_item/top_bar_item.json
@@ -17119,7 +17121,7 @@ msgstr ""
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:39
 #: frappe/website/doctype/web_form/templates/web_form.html:75
 msgid "Not Saved"
-msgstr ""
+msgstr "ยังไม่ได้บันทึก"
 
 #: frappe/core/doctype/error_log/error_log_list.js:7
 msgid "Not Seen"
@@ -18319,7 +18321,7 @@ msgstr ""
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:1544
 msgid "Page Saved Successfully"
-msgstr ""
+msgstr "บันทึกเสร็จสมบูรณ์"
 
 #. Label of a Section Break field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -19145,11 +19147,11 @@ msgstr ""
 
 #: frappe/public/js/frappe/form/form.js:342
 msgid "Please save before attaching."
-msgstr ""
+msgstr "โปรดบันทึกก่อนแนบเอกสาร"
 
 #: frappe/email/doctype/newsletter/newsletter.py:133
 msgid "Please save the Newsletter before sending"
-msgstr ""
+msgstr "โปรดบันทึกจดหมายเวียนก่อนส่ง"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:51
 msgid "Please save the document before assignment"
