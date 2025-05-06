@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext MCP Server VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-05-06 16:06+0642\n"
-"PO-Revision-Date: 2025-05-06 16:41\n"
+"PO-Revision-Date: 2025-05-06 16:44\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -78,7 +78,7 @@ msgstr "แจ้งเตือนเป็นรายแผนก"
 #. Regulation'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law_related_regulation/thai_tax_law_related_regulation.json
 msgid "Departmental Regulation"
-msgstr ""
+msgstr "ข้อกำหนดของแต่ละแผนก"
 
 #. Label of a Small Text field in DocType 'Thai Tax Law Related Regulation'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law_related_regulation/thai_tax_law_related_regulation.json
@@ -89,7 +89,7 @@ msgstr "รายละเอียด"
 #. Regulation'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law_related_regulation/thai_tax_law_related_regulation.json
 msgid "Director-General Notification"
-msgstr ""
+msgstr "การแจ้งเตือนจาก ผู้อำนวยการ"
 
 #. Label of a Date field in DocType 'Thai Tax Law'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law/thai_tax_law.json
@@ -99,33 +99,33 @@ msgstr "วันที่ มีผลบังคับใช้"
 #. Label of a Date field in DocType 'Thai Tax Rate'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_rate/thai_tax_rate.json
 msgid "Effective From"
-msgstr ""
+msgstr "มีผลจากวันที่"
 
 #. Label of a Date field in DocType 'Thai Tax Rate'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_rate/thai_tax_rate.json
 msgid "Effective To"
-msgstr ""
+msgstr "มีผลถึงวันที่"
 
 #. Description of the 'Content (English)' (Text Editor) field in DocType 'Thai
 #. Tax Law'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law/thai_tax_law.json
 msgid "English translation of the tax law"
-msgstr ""
+msgstr "แปลกฏหมายภาษีไทยให้เป็นภาษาอังกฤษ"
 
 #. Option for the 'Tax Category' (Select) field in DocType 'Thai Tax Law'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law/thai_tax_law.json
 msgid "Exemptions"
-msgstr ""
+msgstr "ยกเว้น"
 
 #. Label of a Date field in DocType 'Thai Tax Law'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law/thai_tax_law.json
 msgid "Expiry Date"
-msgstr ""
+msgstr "วันหมดอายุ"
 
 #. Option for the 'Status' (Select) field in DocType 'Tax Law Update Log'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/tax_law_update_log/tax_law_update_log.json
 msgid "Failed"
-msgstr ""
+msgstr "ไม่สำเร็จ"
 
 #. Description of the 'Content (Thai)' (Text Editor) field in DocType 'Thai
 #. Tax
@@ -137,7 +137,7 @@ msgstr ""
 #. Option for the 'Tax Category' (Select) field in DocType 'Thai Tax Law'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law/thai_tax_law.json
 msgid "General"
-msgstr ""
+msgstr "ทั่วไป"
 
 #. Label of a Check field in DocType 'Thai Tax Law'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law/thai_tax_law.json
@@ -152,18 +152,18 @@ msgstr ""
 #. Label of a Check field in DocType 'Thai Tax Law'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law/thai_tax_law.json
 msgid "Is Active"
-msgstr ""
+msgstr "กำลังใช้งาน"
 
 #. Option for the 'Type' (Select) field in DocType 'Thai Tax Law Related
 #. Regulation'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law_related_regulation/thai_tax_law_related_regulation.json
 msgid "Law"
-msgstr ""
+msgstr "กฎหมาย"
 
 #. Label of a Data field in DocType 'Thai Tax Law'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/thai_tax_law/thai_tax_law.json
 msgid "Legal Reference"
-msgstr ""
+msgstr "กฎหมายที่ใช้อ้างอิง"
 
 #. Label of a Code field in DocType 'Tax Law Update Log'
 #: erpnext_mcp_server/erpnext_mcp_server/doctype/tax_law_update_log/tax_law_update_log.json
