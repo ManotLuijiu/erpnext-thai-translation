@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-02-24 14:51+0000\n"
-"PO-Revision-Date: 2025-05-04 18:41\n"
+"PO-Revision-Date: 2025-05-06 16:25\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -13082,7 +13082,7 @@ msgstr ""
 #: frappe/integrations/workspace/integrations/integrations.json
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Integrations"
-msgstr ""
+msgstr "ระบบเชื่อมต่อเครื่องมือภายนอก (Frappe)"
 
 #. Description of the 'Delivery Status' (Select) field in DocType
 #. 'Communication'
