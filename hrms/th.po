@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:28+0642\n"
-"PO-Revision-Date: 2025-06-29 17:17\n"
+"PO-Revision-Date: 2025-06-29 17:18\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: contact@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -282,6 +282,9 @@ msgid ""
 "\n"
 "Holiday List is a list which contains the dates of holidays. Most organizations have a standard Holiday List for their employees. However, some of them may have different holiday lists based on different Locations or Departments. In ERPNext, you can configure multiple Holiday Lists."
 msgstr ""
+"<h3>รายการวันหยุด</h3>\n"
+"\n"
+"รายการวันหยุดคือรายการที่ประกอบด้วยวันที่ของวันหยุด องค์กรส่วนใหญ่มักมีรายการวันหยุดมาตรฐานสำหรับพนักงานของตน อย่างไรก็ตาม บางองค์กรอาจมีรายการวันหยุดที่แตกต่างกันตามสถานที่หรือตามแผนก ใน ERPNext คุณสามารถกำหนดค่ารายการวันหยุดได้หลายรายการ"
 
 #. Description of the Onboarding Step 'Create Leave Allocation'
 #: hrms/hr/onboarding_step/create_leave_allocation/create_leave_allocation.json
