@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:28+0642\n"
-"PO-Revision-Date: 2025-06-29 15:55\n"
+"PO-Revision-Date: 2025-06-29 17:04\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: contact@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -465,6 +465,8 @@ msgid ""
 "Account type cannot be set for payroll payable account {0}, please remove "
 "and try again"
 msgstr ""
+"ไม่สามารถตั้งค่าประเภทบัญชีสำหรับบัญชีเงินเดือนค้างจ่าย {0} ได้ "
+"กรุณาลบออกแล้วลองใหม่อีกครั้ง"
 
 #: hrms/overrides/company.py:124
 msgid "Account {0} does not belong to company: {1}"
@@ -643,6 +645,9 @@ msgid ""
 "different leave allocations. You can still apply for leaves which would be "
 "compensated during the next allocation."
 msgstr ""
+"ยอดคงเหลือจริงไม่สามารถใช้งานได้เนื่องจากคำขอลาหยุดครอบคลุมการจัดสรรวันลาต่าง"
+" ๆ "
+"คุณยังสามารถยื่นคำขอลาหยุดซึ่งจะได้รับการชดเชยในระหว่างการจัดสรรครั้งถัดไปได้อยู่ดี"
 
 #. Label of a Button field in DocType 'Leave Block List'
 #: hrms/hr/doctype/leave_block_list/leave_block_list.json
