@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:28+0642\n"
-"PO-Revision-Date: 2025-06-29 17:23\n"
+"PO-Revision-Date: 2025-06-29 17:24\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: contact@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -425,7 +425,7 @@ msgstr "วันที่ขาด"
 
 #: hrms/hr/report/shift_attendance/shift_attendance.py:174
 msgid "Absent Records"
-msgstr ""
+msgstr "บันทึกเป็น ไม่มาทำงาน"
 
 #. Name of a role
 #: hrms/hr/doctype/interest/interest.json
