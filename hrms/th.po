@@ -400,7 +400,7 @@ msgstr "{0} อยู่ระหว่าง {1} ถึง {2} ("
 #: hrms/payroll/doctype/salary_component/salary_component.json
 #: hrms/payroll/doctype/salary_detail/salary_detail.json
 msgid "Abbr"
-msgstr ""
+msgstr "คำย่อ"
 
 #. Option for the 'Status' (Select) field in DocType 'Attendance'
 #. Option for the 'Status' (Select) field in DocType 'Employee Attendance
