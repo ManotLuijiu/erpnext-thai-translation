@@ -430,7 +430,7 @@ msgstr "บันทึกเป็น ไม่มาทำงาน"
 #. Name of a role
 #: hrms/hr/doctype/interest/interest.json
 msgid "Academics User"
-msgstr ""
+msgstr "ผู้ใช้ด้านวิชาการ"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Referral'
 #. Option for the 'Status' (Select) field in DocType 'Job Applicant'
