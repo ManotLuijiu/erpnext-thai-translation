@@ -388,7 +388,7 @@ msgstr "ตำแหน่งงาน {0} ที่ {1} ขอ เป็นค�
 #: hrms/controllers/employee_reminders.py:123
 #: hrms/controllers/employee_reminders.py:216
 msgid "A friendly reminder of an important date for our team."
-msgstr ""
+msgstr "การเตือนความจำอย่างเป็นมิตรเกี่ยวกับวันที่สำคัญสำหรับทีมของเรา"
 
 #: hrms/hr/utils.py:237
 #: hrms/payroll/doctype/payroll_period/payroll_period.py:49
