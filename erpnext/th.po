@@ -31341,7 +31341,7 @@ msgstr "แจ้งเตือนทางอีเมล"
 #. Label of a Check field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Notify by Email on Creation of Automatic Material Request"
-msgstr "แจ้งทางอีเมลเมื่อสร้างคำขอวัสดุอัตโนมัติ"
+msgstr "แจ้งทางอีเมลเมื่อสร้างคำขอซื้อวัสดุอัตโนมัติ"
 
 #. Description of the 'Notify Via Email' (Check) field in DocType 'Appointment
 #. Booking Settings'
