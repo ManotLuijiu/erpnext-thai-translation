@@ -5232,7 +5232,7 @@ msgstr "โมดูลที่ใช้งานได้"
 #: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.json
 #: erpnext/accounts/doctype/applicable_on_account/applicable_on_account.json
 msgid "Applicable On Account"
-msgstr ""
+msgstr "ใช้ได้กับ บัญชี"
 
 #. Label of a Link field in DocType 'Authorization Rule'
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
