@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-02-24 14:51+0000\n"
-"PO-Revision-Date: 2025-05-06 16:25\n"
+"PO-Revision-Date: 2025-07-04 15:58\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -93,7 +93,7 @@ msgstr "ไม่ระบุผู้รับ"
 
 #: frappe/utils/__init__.py:242
 msgid "'{0}' is not a valid URL"
-msgstr ""
+msgstr "'{0}' ไม่ใช่ URL ที่ถูกต้อง"
 
 #: frappe/core/doctype/doctype/doctype.py:1310
 msgid "'{0}' not allowed for type {1} in row {2}"
@@ -13073,7 +13073,7 @@ msgstr ""
 #. Name of a DocType
 #: frappe/integrations/doctype/integration_request/integration_request.json
 msgid "Integration Request"
-msgstr ""
+msgstr "ขอเชื่อมต่อเครื่องมือภายนอก"
 
 #. Group in User's connections
 #. Name of a Workspace
@@ -13082,13 +13082,13 @@ msgstr ""
 #: frappe/integrations/workspace/integrations/integrations.json
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Integrations"
-msgstr "ระบบเชื่อมต่อเครื่องมือภายนอก (Frappe)"
+msgstr "เครื่องมือที่ใช้ร่วมกับ Frappe"
 
 #. Description of the 'Delivery Status' (Select) field in DocType
 #. 'Communication'
 #: frappe/core/doctype/communication/communication.json
 msgid "Integrations can use this field to set email delivery status"
-msgstr ""
+msgstr "ระบบจะใช้ ฟีลด์ข้อมูลนี้แสดงสถานะการส่งอีเมล"
 
 #. Option for the 'Font' (Select) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -27201,7 +27201,7 @@ msgstr ""
 #. Label of a Code field in DocType 'Translation'
 #: frappe/core/doctype/translation/translation.json
 msgid "Translated Text"
-msgstr ""
+msgstr "คำที่แปลแล้ว"
 
 #. Name of a DocType
 #: frappe/core/doctype/translation/translation.json
@@ -27409,6 +27409,8 @@ msgid ""
 "URIs for receiving authorization code once the user allows access, as well as failure responses. Typically a REST endpoint exposed by the Client App.\n"
 "<br>e.g. http://hostname/api/method/frappe.integrations.oauth2_logins.login_via_facebook"
 msgstr ""
+"URIs ที่ใช้สำหรับรับรหัสในการเชื่อมต่อ ซึ่งจะได้รับหลังจากระบบได้อนุญาตให้ชื่อผู้ใช้สามารถเข้าใช้งานได้ (รวมถึงการตอบปฏิเสธ ในกรณีไม่ได้รับอนุญาต) โดยปกติเป็น REST ของแอ็พนั้นๆ\n"
+"<br>e.g. http://hostname/api/method/frappe.integrations.oauth2_logins.login_via_facebook"
 
 #. Option for the 'Type' (Select) field in DocType 'Workspace Shortcut'
 #. Label of a Data field in DocType 'Workspace Shortcut'
