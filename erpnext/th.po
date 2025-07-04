@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:16\n"
+"PO-Revision-Date: 2025-07-04 16:17\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -22806,7 +22806,7 @@ msgstr "เพิกเฉยเวลาซ้อนทับของพนั
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js:140
 msgid "Ignore Empty Stock"
-msgstr ""
+msgstr "เพิกเฉยสต็อกที่ว่างเปล่า"
 
 #. Label of a Check field in DocType 'Process Statement Of Accounts'
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
