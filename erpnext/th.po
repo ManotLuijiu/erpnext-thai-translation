@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:43\n"
+"PO-Revision-Date: 2025-07-04 17:46\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -1723,7 +1723,7 @@ msgstr "ยอดเงินในบัญชี"
 #. Label of a Currency field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Account Balance (From)"
-msgstr ""
+msgstr "ยอดบัญชีคงเหลือ (จาก)"
 
 #. Label of a Currency field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
