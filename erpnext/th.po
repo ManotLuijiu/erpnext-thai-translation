@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:58\n"
+"PO-Revision-Date: 2025-07-04 18:00\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -5068,7 +5068,7 @@ msgstr "จำนวนเงินในรูปที่"
 #: erpnext/accounts/doctype/payment_ledger_entry/payment_ledger_entry.json
 #: erpnext/accounts/report/payment_ledger/payment_ledger.py:206
 msgid "Amount in Account Currency"
-msgstr ""
+msgstr "จำนวนเงินตามสกุลเงินของบัญชี"
 
 #: erpnext/accounts/print_format/sales_invoice_print/sales_invoice_print.html:119
 msgid "Amount in Words"
