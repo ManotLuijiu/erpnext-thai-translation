@@ -2253,7 +2253,7 @@ msgstr "เข้าบัญชีสำหรับสต็อก"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:668
 msgid "Accounting Entry for {0}"
-msgstr ""
+msgstr "รายการบัญชีสำหรับ {0}"
 
 #: erpnext/controllers/accounts_controller.py:2227
 msgid "Accounting Entry for {0}: {1} can only be made in currency: {2}"
