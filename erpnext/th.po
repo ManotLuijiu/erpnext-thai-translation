@@ -46,7 +46,7 @@ msgstr "อัตรา"
 
 #: erpnext/projects/doctype/project_update/project_update.py:104
 msgid " Summary"
-msgstr ""
+msgstr "สรุป"
 
 #: erpnext/stock/doctype/item/item.py:233
 msgid "\"Customer Provided Item\" cannot be Purchase Item also"
