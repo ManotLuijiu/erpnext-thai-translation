@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:02\n"
+"PO-Revision-Date: 2025-07-04 17:03\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -35676,7 +35676,7 @@ msgstr "กรุณากรอก {0} แรก"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:413
 msgid "Please fill the Material Requests table"
-msgstr "กรุณากรอกตารางคำขอวัสดุ"
+msgstr "กรุณากรอกตารางคำขอซื้อวัสดุ"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:324
 msgid "Please fill the Sales Orders table"
