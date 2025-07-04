@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:01\n"
+"PO-Revision-Date: 2025-07-04 17:02\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -29004,7 +29004,7 @@ msgstr "จองวัสดุ"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:413
 msgid "Material Requests Required"
-msgstr "คำขอวัสดุที่จำเป็น"
+msgstr "จำเป็นต้องทำใบขอซื้อวัสดุ"
 
 #. Label of a Link in the Buying Workspace
 #. Name of a report
