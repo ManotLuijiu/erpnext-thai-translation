@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:10\n"
+"PO-Revision-Date: 2025-07-04 16:11\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -6684,7 +6684,7 @@ msgstr "ปริมาณที่มี"
 #. Name of a report
 #: erpnext/stock/report/available_serial_no/available_serial_no.json
 msgid "Available Serial No"
-msgstr ""
+msgstr "เลข Serial ที่ใช้ได้"
 
 #: erpnext/selling/report/customer_wise_item_price/customer_wise_item_price.py:38
 msgid "Available Stock"
