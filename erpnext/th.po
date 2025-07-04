@@ -30654,7 +30654,7 @@ msgstr "อีเมล์ถัดไปจะถูกส่งเมื่อ
 #: erpnext/stock/doctype/shipment/shipment.json
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "No"
-msgstr "ไม่"
+msgstr "ลำดับที่"
 
 #: erpnext/setup/doctype/company/test_company.py:94
 msgid "No Account matched these filters: {}"
