@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 18:04\n"
+"PO-Revision-Date: 2025-07-04 18:05\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -7538,7 +7538,7 @@ msgstr "ข้อผิดพลาดในการสร้างธุรก
 #. Label of a Link field in DocType 'Process Payment Reconciliation'
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
 msgid "Bank/Cash Account"
-msgstr ""
+msgstr "บัญชี ธนาคาร/เงินสด"
 
 #: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.py:57
 msgid "Bank/Cash Account {0} doesn't belong to company {1}"
