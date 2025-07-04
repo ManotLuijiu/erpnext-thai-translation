@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:48\n"
+"PO-Revision-Date: 2025-07-04 17:50\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -1937,7 +1937,7 @@ msgstr "บัญชี กับการทำธุรกรรม ที่�
 
 #: erpnext/accounts/doctype/tax_withholding_category/tax_withholding_category.py:67
 msgid "Account {0} added multiple times"
-msgstr ""
+msgstr "มีการเพิ่ม บัญชี {0} มากกว่า 1 ครั้ง"
 
 #: erpnext/setup/doctype/company/company.py:191
 msgid "Account {0} does not belong to company: {1}"
