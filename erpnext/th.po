@@ -28959,7 +28959,7 @@ msgstr "แผนขอซื้อวัสดุแยกตามรายก
 #. Label of a Section Break field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 msgid "Material Request Planning"
-msgstr "การวางแผนคำขอวัสดุ"
+msgstr "การวางแผนคำขอซื้อวัสดุ"
 
 #. Label of a Select field in DocType 'Item Reorder'
 #: erpnext/stock/doctype/item_reorder/item_reorder.json
