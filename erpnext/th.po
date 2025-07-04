@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:00\n"
+"PO-Revision-Date: 2025-07-04 17:01\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -28982,7 +28982,7 @@ msgstr "ขอ วัสดุ สูงสุด {0} สามารถทำ �
 #. Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Material Request used to make this Stock Entry"
-msgstr "ขอวัสดุที่ใช้เพื่อให้รายการสินค้านี้"
+msgstr "คำขอซื้อวัสดุที่ใช้เพื่อ คีย์รายการสินค้านี้"
 
 #: erpnext/controllers/subcontracting_controller.py:1118
 msgid "Material Request {0} is cancelled or stopped"
