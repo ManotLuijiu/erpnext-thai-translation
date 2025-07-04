@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:04\n"
+"PO-Revision-Date: 2025-07-04 17:39\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -14497,7 +14497,7 @@ msgstr "ข้อมูลอย่างย่อ Timesheet ประจำว�
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Dashboard"
-msgstr ""
+msgstr "กระดานข้อมูล"
 
 #: erpnext/crm/report/opportunity_summary_by_sales_stage/opportunity_summary_by_sales_stage.js:15
 msgid "Data Based On"
@@ -38661,7 +38661,7 @@ msgstr "สั่งซื้อ {0} ไม่ได้ ส่ง"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:848
 msgid "Purchase Orders"
-msgstr "คำสั่งซื้อ"
+msgstr "ใบสั่งซื้อ"
 
 #. Label of a Check field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
