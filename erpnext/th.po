@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 18:11\n"
+"PO-Revision-Date: 2025-07-04 18:12\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -8338,6 +8338,8 @@ msgid ""
 "Book Advance Payments as Liability option is chosen. Paid From account "
 "changed from {0} to {1}."
 msgstr ""
+"เลือกบันทึกการชำระเงินล่วงหน้าเป็นหนี้สิน บัญชีที่ชำระเงิน เปลี่ยนจาก {0} "
+"เป็น {1} แล้ว"
 
 #. Label of a Check field in DocType 'Payment Entry'
 #. Label of a Check field in DocType 'Company'
