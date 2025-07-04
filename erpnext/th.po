@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 18:01\n"
+"PO-Revision-Date: 2025-07-04 18:02\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -6233,6 +6233,8 @@ msgstr ""
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:84
 msgid "At least one account with exchange gain or loss is required"
 msgstr ""
+"อย่างน้อยต้องระบุบัญชี \"กำไรจากอัตราแลกเปลี่ยน\" หรือ "
+"\"ขาดทุนจากอัตราแลกเปลี่ยน\""
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:434
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:515
