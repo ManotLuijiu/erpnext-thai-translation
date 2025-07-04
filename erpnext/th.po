@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:44\n"
+"PO-Revision-Date: 2025-07-04 16:45\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -5585,7 +5585,8 @@ msgstr ""
 msgid ""
 "As there are sufficient raw materials, Material Request is not required for "
 "Warehouse {0}."
-msgstr "เนื่องจากมีวัตถุดิบเพียงพอจึงไม่จำเป็นต้องขอวัสดุสำหรับคลังสินค้า {0}"
+msgstr ""
+"เนื่องจากมีวัตถุดิบเพียงพอจึงไม่จำเป็นต้องขอซื้อวัสดุสำหรับคลังสินค้า {0}"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:166
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:178
