@@ -1763,7 +1763,7 @@ msgstr "สกุลเงินของบัญชี"
 #. Label of a Link field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Account Currency (From)"
-msgstr ""
+msgstr "สกุลเงิน (จาก)"
 
 #. Label of a Link field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
