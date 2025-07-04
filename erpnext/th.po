@@ -6538,7 +6538,7 @@ msgstr ""
 #. DocType 'CRM Settings'
 #: erpnext/crm/doctype/crm_settings/crm_settings.json
 msgid "Auto close Opportunity Replied after the no. of days mentioned above"
-msgstr ""
+msgstr "ปิดโอกาสโดยอัตโนมัติเมื่อมีการตอบกลับหลังจากจำนวนวันที่ระบุไว้ข้างต้น"
 
 #. Description of the 'Enable Automatic Party Matching' (Check) field in
 #. DocType 'Accounts Settings'
