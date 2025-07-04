@@ -2490,7 +2490,7 @@ msgstr "บัญชีลูกหนี้ที่ยังไม่ได้
 #. Label of a Int field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Accounts Receivable/Payable"
-msgstr ""
+msgstr "บัญชีลูกหนี้/เจ้าหนี้"
 
 #. Name of a DocType
 #. Title of an Onboarding Step
