@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:30\n"
+"PO-Revision-Date: 2025-07-04 16:31\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -31010,7 +31010,7 @@ msgstr "ลำดับ"
 #. Label of a Select field in DocType 'Prospect'
 #: erpnext/crm/doctype/prospect/prospect.json
 msgid "No. of Employees"
-msgstr ""
+msgstr "จำนวนพนักงาน"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:66
 msgid ""
