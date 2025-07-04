@@ -17080,7 +17080,7 @@ msgstr "คุณต้องการแจ้งให้ลูกค้าท
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:221
 msgid "Do you want to submit the material request"
-msgstr "คุณต้องการส่งคำขอวัสดุหรือไม่"
+msgstr "คุณต้องการส่งคำขอซื้อวัสดุหรือไม่"
 
 #. Label of a Data field in DocType 'Transaction Deletion Record Details'
 #: erpnext/accounts/doctype/transaction_deletion_record_details/transaction_deletion_record_details.json
