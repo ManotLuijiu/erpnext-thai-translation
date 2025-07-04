@@ -26351,7 +26351,7 @@ msgstr "รายการ {0}: {1} จำนวนที่ผลิต"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1337
 msgid "Item {} does not exist."
-msgstr ""
+msgstr "ไม่มีสินค้านี้ในระบบ"
 
 #. Subtitle of the Module Onboarding 'Home'
 #: erpnext/setup/module_onboarding/home/home.json
