@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:51\n"
+"PO-Revision-Date: 2025-07-04 17:52\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -2214,7 +2214,7 @@ msgstr "มิติทางการบัญชี"
 #. Label of a Section Break field in DocType 'Payment Reconciliation'
 #: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
 msgid "Accounting Dimensions Filter"
-msgstr ""
+msgstr "ตัวกรองมิติทาง บัญชี"
 
 #. Label of a Table field in DocType 'Journal Entry'
 #. Label of a Table field in DocType 'Journal Entry Template'
