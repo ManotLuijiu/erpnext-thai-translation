@@ -7867,7 +7867,7 @@ msgstr "ชุดหน่วย"
 #. Label of a Section Break field in DocType 'Asset Capitalization Stock Item'
 #: erpnext/assets/doctype/asset_capitalization_stock_item/asset_capitalization_stock_item.json
 msgid "Batch and Serial No"
-msgstr ""
+msgstr "เลขที่ Batch และ Serial"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:519
 msgid "Batch not created for item {} since it does not have a batch series."
