@@ -2106,7 +2106,7 @@ msgstr "รายละเอียดมิติทางการบัญช
 #. Name of a DocType
 #: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.json
 msgid "Accounting Dimension Filter"
-msgstr ""
+msgstr "ตัวกรองมิติทาง บัญชี"
 
 #. Label of a Section Break field in DocType 'Advance Taxes and Charges'
 #. Label of a Section Break field in DocType 'Journal Entry Account'
