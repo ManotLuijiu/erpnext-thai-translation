@@ -35237,7 +35237,7 @@ msgstr "แผน"
 #. Label of a HTML field in DocType 'Plant Floor'
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
 msgid "Plant Dashboard"
-msgstr ""
+msgstr "กระดานข้อมูล การผลิต"
 
 #. Name of a DocType
 #. Label of a Link field in DocType 'Workstation'
