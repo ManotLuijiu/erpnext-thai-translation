@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:18\n"
+"PO-Revision-Date: 2025-07-04 16:19\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -30654,7 +30654,7 @@ msgstr "อีเมล์ถัดไปจะถูกส่งเมื่อ
 #: erpnext/stock/doctype/shipment/shipment.json
 #: erpnext/stock/doctype/stock_entry/stock_entry.json
 msgid "No"
-msgstr "ลำดับที่"
+msgstr "ไม่"
 
 #: erpnext/setup/doctype/company/test_company.py:94
 msgid "No Account matched these filters: {}"
