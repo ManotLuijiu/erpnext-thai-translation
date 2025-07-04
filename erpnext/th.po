@@ -20728,7 +20728,7 @@ msgstr "จากรายละเอียดใบสำคัญเลขท
 #: erpnext/stock/report/reserved_stock/reserved_stock.js:103
 #: erpnext/stock/report/reserved_stock/reserved_stock.py:164
 msgid "From Voucher No"
-msgstr ""
+msgstr "จากใบสำคัญเลขที่"
 
 #. Label of a Select field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
