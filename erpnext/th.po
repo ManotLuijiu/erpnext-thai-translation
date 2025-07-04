@@ -1733,7 +1733,7 @@ msgstr "ยอดบัญชีคงเหลือ (ไป)"
 #. Name of a DocType
 #: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.json
 msgid "Account Closing Balance"
-msgstr ""
+msgstr "ยอดปิดบัญชี"
 
 #. Label of a Link field in DocType 'Account Closing Balance'
 #. Label of a Link field in DocType 'Advance Taxes and Charges'
