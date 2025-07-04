@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:53\n"
+"PO-Revision-Date: 2025-07-04 17:54\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -2608,7 +2608,7 @@ msgstr "บัญชีที่ต้องการรวม"
 #. Subtitle of the Module Onboarding 'Accounts'
 #: erpnext/accounts/module_onboarding/accounts/accounts.json
 msgid "Accounts, Invoices, Taxation, and more."
-msgstr ""
+msgstr "บัญชี, ใบส่งของ, ภาษี, และอื่นๆ"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
