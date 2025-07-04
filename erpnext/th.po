@@ -7817,7 +7817,7 @@ msgstr ""
 #. Label of a Int field in DocType 'BOM Update Batch'
 #: erpnext/manufacturing/doctype/bom_update_batch/bom_update_batch.json
 msgid "Batch No."
-msgstr ""
+msgstr "เลขที่ Batch"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:16
 #: erpnext/public/js/utils/serial_no_batch_selector.js:190
