@@ -39912,7 +39912,7 @@ msgstr "RFQs ไม่ได้รับอนุญาตสำหรับ {0}
 #. Label of a Check field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Raise Material Request When Stock Reaches Re-order Level"
-msgstr "เพิ่มคำขอวัสดุเมื่อสต็อกถึงระดับการสั่งซื้อใหม่"
+msgstr "เพิ่มคำขอซื้อวัสดุ เมื่อสต็อกถึงระดับการสั่งซื้อใหม่"
 
 #. Label of a Data field in DocType 'Warranty Claim'
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
