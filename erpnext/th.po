@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:03\n"
+"PO-Revision-Date: 2025-07-04 17:04\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -37715,7 +37715,7 @@ msgstr "แผนการผลิตวัสดุที่ขอ"
 #. Name of a DocType
 #: erpnext/manufacturing/doctype/production_plan_material_request_warehouse/production_plan_material_request_warehouse.json
 msgid "Production Plan Material Request Warehouse"
-msgstr "คลังสินค้าขอวัสดุแผนการผลิต"
+msgstr "คลังสินค้า สำหรับคำขอซื้อวัสดุ ตามแผนการผลิต"
 
 #. Label of a Float field in DocType 'Sales Order Item'
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
