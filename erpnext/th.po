@@ -1768,7 +1768,7 @@ msgstr "สกุลเงิน (จาก)"
 #. Label of a Link field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Account Currency (To)"
-msgstr ""
+msgstr "สกุลเงิน (ไป)"
 
 #. Label of a Section Break field in DocType 'Bank Account'
 #. Label of a Section Break field in DocType 'GL Entry'
