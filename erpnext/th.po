@@ -21706,7 +21706,7 @@ msgstr "จัดกลุ่มตามรายการ"
 
 #: erpnext/buying/report/requested_items_to_order_and_receive/requested_items_to_order_and_receive.js:61
 msgid "Group by Material Request"
-msgstr "จัดกลุ่มตามคำขอวัสดุ"
+msgstr "จัดกลุ่มตามคำขอซื้อวัสดุ"
 
 #: erpnext/accounts/report/general_ledger/general_ledger.js:133
 #: erpnext/accounts/report/payment_ledger/payment_ledger.js:83
