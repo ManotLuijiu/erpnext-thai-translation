@@ -28964,7 +28964,7 @@ msgstr "การวางแผนคำขอซื้อวัสดุ"
 #. Label of a Select field in DocType 'Item Reorder'
 #: erpnext/stock/doctype/item_reorder/item_reorder.json
 msgid "Material Request Type"
-msgstr "ประเภทของการขอวัสดุ"
+msgstr "ประเภทของคำขอซื้อวัสดุ"
 
 #: erpnext/selling/doctype/sales_order/sales_order.py:1592
 msgid ""
