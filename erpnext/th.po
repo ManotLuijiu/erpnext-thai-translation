@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:58\n"
+"PO-Revision-Date: 2025-07-04 16:59\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -28954,7 +28954,7 @@ msgstr "เลขคำขอซื้อวัสดุ"
 #: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
 msgid "Material Request Plan Item"
-msgstr "รายการแผนขอวัสดุ"
+msgstr "แผนขอซื้อวัสดุแยกตามรายการ"
 
 #. Label of a Section Break field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
