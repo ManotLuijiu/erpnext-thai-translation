@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:32\n"
+"PO-Revision-Date: 2025-07-04 16:33\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -31018,6 +31018,8 @@ msgid ""
 " 2 would mean this workstation can process production for two Work Orders at"
 " a time."
 msgstr ""
+"จำนวนบัตรงานคู่ขนานที่อนุญาตให้ใช้ในสถานีงานนี้ ตัวอย่าง: 2 "
+"หมายความว่าสถานีงานนี้สามารถดำเนินการผลิตสำหรับใบสั่งงานสองใบพร้อมกันได้ในเวลาเดียวกัน"
 
 #. Name of a DocType
 #. Linked DocType in Quality Procedure's connections
