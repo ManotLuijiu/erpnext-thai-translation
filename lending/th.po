@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Lending VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-07-04 16:37+0642\n"
-"PO-Revision-Date: 2025-07-04 16:39\n"
+"PO-Revision-Date: 2025-07-04 16:40\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: contact@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -2041,7 +2041,7 @@ msgstr ""
 #. Name of a Workspace
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Lending"
-msgstr "การกู้ยืม"
+msgstr "ระบบสินเชื่อ"
 
 #. Label of a Currency field in DocType 'Loan Restructure Limit Log'
 #: lending/loan_management/doctype/loan_restructure_limit_log/loan_restructure_limit_log.json
