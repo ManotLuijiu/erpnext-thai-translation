@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-04-30 02:05\n"
+"PO-Revision-Date: 2025-07-04 16:08\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -1189,7 +1189,7 @@ msgstr ""
 #. Header text in the ERPNext Integrations Workspace
 #: erpnext/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
 msgid "<span class=\"h4\"><b>Integrations</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>เครื่องมือภายนอก</b></span>"
 
 #. Header text in the Stock Workspace
 #: erpnext/stock/workspace/stock/stock.json
@@ -1875,7 +1875,7 @@ msgstr "บัญชีไม่ถูกตั้งค่าสำหรับ
 
 #: erpnext/assets/doctype/asset/asset.py:734
 msgid "Account not Found"
-msgstr ""
+msgstr "ไม่พบบัญชีนี้"
 
 #: erpnext/accounts/doctype/account/account.py:392
 msgid "Account with child nodes cannot be converted to ledger"
@@ -11045,7 +11045,7 @@ msgstr ""
 #. Description of the 'Tag Line' (Data) field in DocType 'Homepage'
 #: erpnext/portal/doctype/homepage/homepage.json
 msgid "Company Tagline for website homepage"
-msgstr "บริษัท สโลแกนสำหรับหน้าแรกของเว็บไซต์"
+msgstr "สโลแกนของบริษัท สำหรับหน้าแรกของเว็บไซต์"
 
 #. Label of a Data field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -17645,7 +17645,7 @@ msgstr ""
 #. Name of a Workspace
 #: erpnext/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
 msgid "ERPNext Integrations"
-msgstr "บูรณาการ ERPNext"
+msgstr "เครื่องมือที่ใช้ร่วมกับ ERPNext"
 
 #. Name of a Workspace
 #: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
@@ -22140,7 +22140,7 @@ msgstr "วันหยุด"
 #. Name of a Workspace
 #: erpnext/setup/workspace/home/home.json
 msgid "Home"
-msgstr "บ้าน"
+msgstr "หน้าแรก"
 
 #. Name of a DocType
 #: erpnext/portal/doctype/homepage/homepage.json
@@ -22153,7 +22153,7 @@ msgstr "หน้าแรก"
 #: erpnext/portal/doctype/homepage/homepage.json
 #: erpnext/portal/doctype/homepage_section/homepage_section.json
 msgid "Homepage Section"
-msgstr "มาตราโฮมเพจ"
+msgstr "ส่วนของหน้าแรก"
 
 #. Name of a DocType
 #: erpnext/portal/doctype/homepage_section_card/homepage_section_card.json
@@ -22163,7 +22163,7 @@ msgstr "การ์ดส่วนของหน้าแรก"
 #. Label of a Link field in DocType 'Homepage'
 #: erpnext/portal/doctype/homepage/homepage.json
 msgid "Homepage Slideshow"
-msgstr "สไลด์โชว์โฮมเพจ"
+msgstr "สไลด์โชว์สำหรับหน้าแรก"
 
 #. Label of a Currency field in DocType 'BOM Operation'
 #. Label of a Currency field in DocType 'Job Card'
@@ -23972,12 +23972,12 @@ msgstr "บริษัท ประกันภัย"
 #. Label of a Section Break field in DocType 'Bank Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 msgid "Integration Details"
-msgstr "รายละเอียดการรวม"
+msgstr "รายละเอียดเครื่องมือที่ใช้ร่วมกับ ERPNext"
 
 #. Label of a Data field in DocType 'Bank Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 msgid "Integration ID"
-msgstr "ID การรวม"
+msgstr "หมายเลข ของเครื่องมือที่ใช้งานบน ERPNext"
 
 #. Label of a Link field in DocType 'POS Invoice'
 #. Label of a Link field in DocType 'Purchase Invoice'
@@ -26953,7 +26953,7 @@ msgstr ""
 #. Label of a Date field in DocType 'Bank Account'
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 msgid "Last Integration Date"
-msgstr "วันที่รวมล่าสุด"
+msgstr "วันที่ ที่ใช้เครื่องมือร่วมกับ ERPNext ล่าสุด"
 
 #: erpnext/manufacturing/dashboard_fixtures.py:138
 msgid "Last Month Downtime Analysis"
@@ -27238,6 +27238,8 @@ msgid ""
 "Leave blank for home.\n"
 "This is relative to site URL, for example \"about\" will redirect to \"https://yoursitename.com/about\""
 msgstr ""
+"ชื่อเพจที่เติมจะไปต่อท้ายเว็บ URL เช่น ถ้าเติมคำว่า \"about\" จะได้ \"https://yoursitename.com/about\"\n"
+"แต่สำหรับหน้าแรก (Home page) ไม่จำเป็นต้องกรอกในส่วนนี้"
 
 #. Description of the 'Release Date' (Date) field in DocType 'Supplier'
 #: erpnext/buying/doctype/supplier/supplier.json
@@ -52127,8 +52129,8 @@ msgid ""
 "This action will unlink this account from any external service integrating "
 "ERPNext with your bank accounts. It cannot be undone. Are you certain ?"
 msgstr ""
-"การกระทำนี้จะยกเลิกการเชื่อมโยงบัญชีนี้จากบริการภายนอกใด ๆ ที่รวม ERPNext "
-"กับบัญชีธนาคารของคุณ ไม่สามารถยกเลิกได้ คุณแน่ใจหรือ"
+"การกระทำนี้จะยกเลิกการเชื่อมต่อระหว่าง ERPNext กับบัญชีธนาคารของคุณ "
+"ไม่สามารถยกเลิกได้ คุณแน่ใจหรือไม่"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard_dashboard.py:7
 msgid "This covers all scorecards tied to this Setup"
@@ -54825,7 +54827,7 @@ msgstr "ยกเลิกการเชื่อมโยงการชำร
 
 #: erpnext/accounts/doctype/bank_account/bank_account.js:33
 msgid "Unlink external integrations"
-msgstr "ยกเลิกการรวมการเชื่อมโยงภายนอก"
+msgstr "ยกเลิกการเชื่อมต่อเครื่องมือภายนอกกับ ERPNext"
 
 #. Label of a Check field in DocType 'Unreconcile Payment Entries'
 #: erpnext/accounts/doctype/unreconcile_payment_entries/unreconcile_payment_entries.json
@@ -56339,6 +56341,8 @@ msgid ""
 "WARNING: Exotel app has been separated from ERPNext, please install the app "
 "to continue using Exotel integration."
 msgstr ""
+"คำเตือน: แอ็พ Exotel ไม่ได้เป็นส่วนหนึ่งส่วนใดของ ERPNext "
+"ถ้าต้องการใช้แอ็พนี้โปรดติดตั้งก่อนค่ะ "
 
 #. Label of a Link field in DocType 'Purchase Invoice Item'
 #. Label of a Link field in DocType 'Purchase Order Item'
