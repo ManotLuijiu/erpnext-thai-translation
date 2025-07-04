@@ -5079,7 +5079,7 @@ msgstr ""
 #. Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 msgid "Amount in party's bank account currency"
-msgstr "จำนวนเงินตามสกุลเงินของบัญชีธนาคารคู่ค้า"
+msgstr "จำนวนเงินตามสกุลเงินของบัญชีธนาคารของคู่ค้า"
 
 #. Description of the 'Amount' (Currency) field in DocType 'Payment Request'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
