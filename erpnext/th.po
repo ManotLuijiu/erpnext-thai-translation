@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:31\n"
+"PO-Revision-Date: 2025-07-04 16:32\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -736,7 +736,7 @@ msgstr "โปรดระบุ “วันที่สิ้นสุด\""
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:94
 msgid "'To Package No.' cannot be less than 'From Package No.'"
-msgstr ""
+msgstr "'ถึงหมายเลขแพ็กเกจ' ต้องไม่ต่ำกว่า 'จากหมายเลขแพ็กเกจ'"
 
 #: erpnext/controllers/sales_and_purchase_return.py:67
 msgid ""
