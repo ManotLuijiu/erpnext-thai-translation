@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 17:54\n"
+"PO-Revision-Date: 2025-07-04 17:56\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -3656,6 +3656,8 @@ msgid ""
 "Advance Account: {0} must be in either customer billing currency: {1} or "
 "Company default currency: {2}"
 msgstr ""
+"บัญชีเบิกล่วงหน้า: {0} ต้องมีสกุลเงินเหมือนบิลของลูกค้า: {1} "
+"หรือสกุลเงินของบริษัท: {2}"
 
 #. Label of a Currency field in DocType 'Purchase Invoice Advance'
 #: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
