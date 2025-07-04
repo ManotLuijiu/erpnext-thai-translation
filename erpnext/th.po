@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:12\n"
+"PO-Revision-Date: 2025-07-04 16:16\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -20621,7 +20621,7 @@ msgstr "จากช่องทาง"
 #: erpnext/accounts/doctype/share_balance/share_balance.json
 #: erpnext/accounts/doctype/share_transfer/share_transfer.json
 msgid "From No"
-msgstr "จากไม่มี"
+msgstr "จากเลขที่"
 
 #. Label of a Link field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
