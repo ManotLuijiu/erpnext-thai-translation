@@ -2603,7 +2603,7 @@ msgstr "ตารางบัญชีต้องไม่ว่างเปล
 #. Label of a Table field in DocType 'Ledger Merge'
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.json
 msgid "Accounts to Merge"
-msgstr ""
+msgstr "บัญชีที่ต้องการรวม"
 
 #. Subtitle of the Module Onboarding 'Accounts'
 #: erpnext/accounts/module_onboarding/accounts/accounts.json
