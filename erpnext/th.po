@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 18:03\n"
+"PO-Revision-Date: 2025-07-04 18:04\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -7355,7 +7355,7 @@ msgstr "ประเภทบัญชีธนาคาร"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:338
 msgid ""
 "Bank Account {} in Bank Transaction {} is not matching with Bank Account {}"
-msgstr ""
+msgstr "บัญชีธนาคาร {} ตามสเตทเม้นท์ {} ไม่ชนกับบัญชี {}"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:13
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:16
