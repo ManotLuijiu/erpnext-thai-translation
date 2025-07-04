@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:55\n"
+"PO-Revision-Date: 2025-07-04 16:57\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -27653,7 +27653,7 @@ msgstr "ลิงก์ไปยังคำขอ Material"
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:408
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.js:54
 msgid "Link to Material Requests"
-msgstr "ลิงก์ไปยังคำขอวัสดุ"
+msgstr "ลิงก์ไปยังคำขอซื้อวัสดุ"
 
 #: erpnext/buying/doctype/supplier/supplier.js:133
 msgid "Link with Customer"
