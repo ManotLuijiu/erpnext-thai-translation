@@ -28990,7 +28990,7 @@ msgstr "คำขอใช้วัสดุ {0} ถูกยกเลิก ห
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:1046
 msgid "Material Request {0} submitted."
-msgstr "ส่งคำขอวัสดุ {0} แล้ว"
+msgstr "ส่งคำขอซื้อวัสดุ {0} แล้ว"
 
 #. Option for the 'Status' (Select) field in DocType 'Production Plan'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
