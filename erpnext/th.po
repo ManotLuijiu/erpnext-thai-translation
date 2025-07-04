@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:34\n"
+"PO-Revision-Date: 2025-07-04 16:35\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "จำนวน"
 #. Label of a Check field in DocType 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 msgid " Is Child Table"
-msgstr ""
+msgstr "เป็นตารางย่อย"
 
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:184
 #: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:107
