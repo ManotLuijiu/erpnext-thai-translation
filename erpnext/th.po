@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:33\n"
+"PO-Revision-Date: 2025-07-04 16:34\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -42062,7 +42062,7 @@ msgstr "ปริมาณที่จองไว้สำหรับการ
 
 #: erpnext/stock/stock_ledger.py:2160
 msgid "Reserved Serial No."
-msgstr ""
+msgstr "สำรองเลขซีเรียล"
 
 #. Label of a Float field in DocType 'Bin'
 #. Name of a report
