@@ -33723,7 +33723,7 @@ msgstr "พรรคบัญชีเงินฝากเงินตรา"
 #. Label of a Data field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 msgid "Party Account No. (Bank Statement)"
-msgstr ""
+msgstr "หมายเลขบัญชีคู่สัญญา (รายงานธนาคาร)"
 
 #: erpnext/controllers/accounts_controller.py:2258
 msgid ""
