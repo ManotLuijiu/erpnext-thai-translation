@@ -28947,7 +28947,7 @@ msgstr "รายการวัสดุที่ขอ"
 
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:25
 msgid "Material Request No"
-msgstr "เลขการขอวัสดุ"
+msgstr "เลขคำขอซื้อวัสดุ"
 
 #. Name of a DocType
 #. Label of a Data field in DocType 'Material Request Item'
