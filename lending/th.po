@@ -967,7 +967,7 @@ msgstr ""
 #. Label of a Card Break in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Co-Lending"
-msgstr ""
+msgstr "การให้สินเชื่อร่วม"
 
 #. Label of a Section Break field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
