@@ -20721,7 +20721,7 @@ msgstr "จากมูลค่า"
 #. Label of a Data field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
 msgid "From Voucher Detail No"
-msgstr ""
+msgstr "จากรายละเอียดใบสำคัญเลขที่"
 
 #. Label of a Dynamic Link field in DocType 'Stock Reservation Entry'
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
