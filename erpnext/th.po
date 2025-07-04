@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:57\n"
+"PO-Revision-Date: 2025-07-04 16:58\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -28903,7 +28903,7 @@ msgstr "ใบเสร็จรับเงินวัสดุ"
 #: erpnext/subcontracting/doctype/subcontracting_order_item/subcontracting_order_item.json
 #: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
 msgid "Material Request"
-msgstr "ขอวัสดุ"
+msgstr "ขอซื้อวัสดุ"
 
 #. Label of a Date field in DocType 'Production Plan Material Request'
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:19
