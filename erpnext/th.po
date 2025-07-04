@@ -18275,6 +18275,7 @@ msgid ""
 "Enabling this ensures each Purchase Invoice has a unique value in Supplier "
 "Invoice No. field within a particular fiscal year"
 msgstr ""
+"การเปิดใช้งานนี้จะทำให้แต่ละใบกำกับภาษีซื้อมีค่าที่ไม่ซ้ำกันในช่องหมายเลขใบกำกับภาษีผู้จำหน่ายภายในปีงบประมาณที่กำหนด"
 
 #. Description of the 'Book Advance Payments in Separate Party Account'
 #. (Check)
