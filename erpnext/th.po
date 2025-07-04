@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-04-22 00:27+0642\n"
-"PO-Revision-Date: 2025-07-04 16:35\n"
+"PO-Revision-Date: 2025-07-04 16:44\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -6440,7 +6440,7 @@ msgstr ""
 #. Label of a Section Break field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Auto Material Request"
-msgstr "ขอวัสดุอัตโนมัติ"
+msgstr "ขอซื้อวัสดุอัตโนมัติ"
 
 #: erpnext/stock/reorder_item.py:329
 msgid "Auto Material Requests Generated"
@@ -6560,7 +6560,7 @@ msgstr "อัปเดตเอกสารซ้ำอัตโนมัติ
 #. Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Auto write off precision loss while consolidation"
-msgstr ""
+msgstr "สูญเสียความแม่นยำในการปัดเศษอัตโนมัติขณะรวมข้อมูล"
 
 #. Label of a Check field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
@@ -57462,7 +57462,7 @@ msgstr "ห่อ"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/setup/doctype/company/company.py:536
 msgid "Write Off"
-msgstr "เขียนปิด"
+msgstr "ปัดเศษทิ้ง"
 
 #. Label of a Link field in DocType 'POS Invoice'
 #. Label of a Link field in DocType 'POS Profile'
@@ -57530,7 +57530,7 @@ msgstr "เขียนปิดเข้า"
 #. Label of a Currency field in DocType 'POS Profile'
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 msgid "Write Off Limit"
-msgstr ""
+msgstr "การปัดเศษสูงสุด"
 
 #. Label of a Check field in DocType 'POS Invoice'
 #. Label of a Check field in DocType 'Sales Invoice'
