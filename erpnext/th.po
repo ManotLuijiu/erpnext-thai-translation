@@ -30962,7 +30962,7 @@ msgstr ""
 
 #: erpnext/public/js/controllers/buying.js:463
 msgid "No pending Material Requests found to link for the given items."
-msgstr "ไม่พบคำร้องขอวัสดุที่รอการค้นหาสำหรับรายการที่ระบุ"
+msgstr "ไม่พบคำร้องขอซื้อวัสดุ สำหรับรายการที่ระบุ"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.py:435
 msgid "No primary email found for customer: {0}"
