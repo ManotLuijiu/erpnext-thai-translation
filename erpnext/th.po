@@ -26195,7 +26195,7 @@ msgstr "รายการและรายละเอียดการรั
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:2526
 msgid "Item for row {0} does not match Material Request"
-msgstr "รายการสำหรับแถว {0} ไม่ตรงกับคำขอวัสดุ"
+msgstr "รายการสำหรับแถว {0} ไม่ตรงกับคำขอซื้อวัสดุ"
 
 #: erpnext/stock/doctype/item/item.py:793
 msgid "Item has variants."
