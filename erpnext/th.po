@@ -31005,7 +31005,7 @@ msgstr "ไม่พบ {0} รายการระหว่าง บริษ
 
 #: erpnext/assets/doctype/asset/asset.js:284
 msgid "No."
-msgstr ""
+msgstr "ลำดับ"
 
 #. Label of a Select field in DocType 'Prospect'
 #: erpnext/crm/doctype/prospect/prospect.json
