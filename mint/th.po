@@ -1,0 +1,413 @@
+# Thai translations for Mint.
+# Copyright (C) 2025 The Commit Company (Algocode Technologies Pvt. Ltd.)
+# This file is distributed under the same license as the Mint project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mint VERSION\n"
+"Report-Msgid-Bugs-To: support@thecommit.company\n"
+"POT-Creation-Date: 2025-09-04 18:48+0642\n"
+"PO-Revision-Date: 2025-09-05 19:15\n"
+"Last-Translator: support@thecommit.company\n"
+"Language-Team: support@thecommit.company\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Label of a Link field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Account"
+msgstr "บัญชี"
+
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:71
+msgid "Account company does not match with the rule company."
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Action"
+msgstr ""
+
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.py:80
+msgid "All rows must have an amount and a type. Missing in row {0}"
+msgstr ""
+
+#. Label of a Link field in DocType 'Mint Bank Statement Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "Amended From"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Mint Bank Statement Import
+#. Transactions'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "Amount"
+msgstr ""
+
+#. Option for the 'Transaction Type' (Select) field in DocType 'Mint Bank
+#. Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Any"
+msgstr ""
+
+#. Label of a Check field in DocType 'Mint Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "Automatically run rules on unreconciled transactions"
+msgstr ""
+
+#. Label of a Link field in DocType 'Mint Bank Statement Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "Bank Account"
+msgstr ""
+
+#. Option for the 'Classify As' (Select) field in DocType 'Mint Bank
+#. Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Bank Entry"
+msgstr ""
+
+#: mint/apis/google_ai.py:132
+msgid "Bank Statement Processor is not set in Mint Settings"
+msgstr ""
+
+#: mint/apis/bank_reconciliation.py:31
+msgid "Bank Transaction {0} is already fully reconciled"
+msgstr ""
+
+#. Description of the 'String Amount' (Data) field in DocType 'Mint Bank
+#. Statement Import Transactions'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "Can be \"1200 Dr\" and will be translated to 1200 in amount and \"Withdrawal\""
+msgstr ""
+
+#. Label of a Select field in DocType 'Mint Bank Transaction Description
+#. Rules'
+#: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
+msgid "Check"
+msgstr ""
+
+#. Label of a Select field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Classify As"
+msgstr ""
+
+#. Label of a Link field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Company"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Mint Bank Statement
+#. Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "Completed"
+msgstr ""
+
+#. Option for the 'Check' (Select) field in DocType 'Mint Bank Transaction
+#. Description Rules'
+#: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
+msgid "Contains"
+msgstr ""
+
+#. Label of a Date field in DocType 'Mint Bank Statement Import Transactions'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "Date"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Mint Bank Statement Import
+#. Transactions'
+#. Option for the 'Transaction Type' (Select) field in DocType 'Mint Bank
+#. Transaction Rule'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Deposit"
+msgstr ""
+
+#. Label of a Small Text field in DocType 'Mint Bank Statement Import
+#. Transactions'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "Description"
+msgstr ""
+
+#. Label of a Table field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Description Rules"
+msgstr ""
+
+#. Option for the 'Check' (Select) field in DocType 'Mint Bank Transaction
+#. Description Rules'
+#: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
+msgid "Ends With"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Mint Bank Statement
+#. Import'
+#. Label of a Code field in DocType 'Mint Bank Statement Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "Error"
+msgstr ""
+
+#: mint/apis/google_ai.py:116
+msgid "Failed to create document processor"
+msgstr ""
+
+#: mint/apis/google_ai.py:104
+msgid "Failed to create processor"
+msgstr ""
+
+#. Label of a Attach field in DocType 'Mint Bank Statement Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "File"
+msgstr ""
+
+#. Label of a Select field in DocType 'Mint Bank Statement Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "File Type"
+msgstr ""
+
+#: mint/apis/google_ai.py:78
+msgid "Google APIs are not enabled. Please enable them in Mint Settings."
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Mint Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "Google Document AI"
+msgstr ""
+
+#. Label of a Data field in DocType 'Mint Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "Google Document Processor - Bank Statement"
+msgstr ""
+
+#. Label of a Select field in DocType 'Mint Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "Google Processor Location"
+msgstr ""
+
+#. Label of a Data field in DocType 'Mint Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "Google Project ID"
+msgstr ""
+
+#: mint/apis/google_ai.py:126
+msgid "Google Project ID is not set in Mint Settings"
+msgstr ""
+
+#: mint/apis/google_ai.py:17
+msgid "Google Project ID is not set. Please set it in the Mint Settings."
+msgstr ""
+
+#. Label of a Password field in DocType 'Mint Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "Google Service Account JSON Key"
+msgstr ""
+
+#: mint/apis/google_ai.py:129
+msgid "Google Service Account JSON Key is not set in Mint Settings"
+msgstr ""
+
+#. Description of the 'Automatically run rules on unreconciled transactions'
+#. (Check) field in DocType 'Mint Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "If checked, this job will run every 30 minutes"
+msgstr ""
+
+#. Label of a Check field in DocType 'Mint Bank Statement Import Transactions'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "Imported"
+msgstr ""
+
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.py:56
+msgid "Invalid file type"
+msgstr ""
+
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:67
+msgid "Invalid regex pattern."
+msgstr ""
+
+#. Label of a Currency field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Max Amount"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Min Amount"
+msgstr ""
+
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:52
+msgid "Min amount cannot be greater than max amount."
+msgstr ""
+
+#. Name of a DocType
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "Mint Bank Statement Import"
+msgstr ""
+
+#. Name of a DocType
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "Mint Bank Statement Import Transactions"
+msgstr ""
+
+#. Name of a DocType
+#: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
+msgid "Mint Bank Transaction Description Rules"
+msgstr ""
+
+#. Name of a DocType
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Mint Bank Transaction Rule"
+msgstr ""
+
+#. Name of a DocType
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "Mint Settings"
+msgstr ""
+
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.py:84
+msgid "No transactions found"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Mint Bank Statement
+#. Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "Not Started"
+msgstr ""
+
+#. Option for the 'File Type' (Select) field in DocType 'Mint Bank Statement
+#. Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "PDF"
+msgstr ""
+
+#. Label of a Dynamic Link field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Party"
+msgstr ""
+
+#. Label of a Link field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Party Type"
+msgstr ""
+
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:59
+msgid "Party is required create a payment entry."
+msgstr ""
+
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:56
+msgid "Party type is required to create a payment entry."
+msgstr ""
+
+#. Option for the 'Classify As' (Select) field in DocType 'Mint Bank
+#. Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Payment Entry"
+msgstr ""
+
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.py:51
+msgid "Please upload a file"
+msgstr ""
+
+#. Label of a Int field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Priority"
+msgstr ""
+
+#. Label of a Data field in DocType 'Mint Bank Statement Import Transactions'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "Reference"
+msgstr ""
+
+#. Option for the 'Check' (Select) field in DocType 'Mint Bank Transaction
+#. Description Rules'
+#: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
+msgid "Regex"
+msgstr ""
+
+#. Label of a Small Text field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Rule Description"
+msgstr ""
+
+#. Label of a Data field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Rule Name"
+msgstr ""
+
+#. Option for the 'Check' (Select) field in DocType 'Mint Bank Transaction
+#. Description Rules'
+#: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
+msgid "Starts With"
+msgstr ""
+
+#. Label of a Select field in DocType 'Mint Bank Statement Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "Status"
+msgstr ""
+
+#. Label of a Data field in DocType 'Mint Bank Statement Import Transactions'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "String Amount"
+msgstr ""
+
+#. Name of a role
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "System Manager"
+msgstr ""
+
+#. Label of a Select field in DocType 'Mint Bank Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Transaction Type"
+msgstr ""
+
+#. Label of a Table field in DocType 'Mint Bank Statement Import'
+#: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
+msgid "Transactions"
+msgstr ""
+
+#. Option for the 'Classify As' (Select) field in DocType 'Mint Bank
+#. Transaction Rule'
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Transfer"
+msgstr ""
+
+#. Label of a Select field in DocType 'Mint Bank Statement Import
+#. Transactions'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+msgid "Type"
+msgstr ""
+
+#. Label of a Small Text field in DocType 'Mint Bank Transaction Description
+#. Rules'
+#: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
+msgid "Value"
+msgstr ""
+
+#. Option for the 'Type' (Select) field in DocType 'Mint Bank Statement Import
+#. Transactions'
+#. Option for the 'Transaction Type' (Select) field in DocType 'Mint Bank
+#. Transaction Rule'
+#: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
+#: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
+msgid "Withdrawal"
+msgstr ""
+
+#. Option for the 'Google Processor Location' (Select) field in DocType 'Mint
+#. Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "eu"
+msgstr ""
+
+#. Option for the 'Google Processor Location' (Select) field in DocType 'Mint
+#. Settings'
+#: mint/mint/doctype/mint_settings/mint_settings.json
+msgid "us"
+msgstr ""
+
+#: mint/apis/bank_reconciliation.py:387
+msgid "{0} {1} does not exist"
+msgstr ""
