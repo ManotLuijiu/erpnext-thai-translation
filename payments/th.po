@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Payments VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-09-04 18:48+0642\n"
-"PO-Revision-Date: 2025-09-05 19:02\n"
+"PO-Revision-Date: 2025-09-05 19:03\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "Language: th\n"
@@ -31,7 +31,7 @@ msgstr "API คีย์"
 #. Label of a Password field in DocType 'PayPal Settings'
 #: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgid "API Password"
-msgstr ""
+msgstr "รหัสผ่านสำหรับ API"
 
 #. Label of a Password field in DocType 'Razorpay Settings'
 #: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
