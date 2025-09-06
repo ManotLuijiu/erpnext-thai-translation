@@ -123,8 +123,9 @@ msgid ""
 "\n"
 "A Sales Invoice is a bill that you send to your Customers against which the Customer makes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice, the system updates the receivable and books income against a Customer Account."
 msgstr ""
-"# "
-"\\u0e17\\u0e31\\u0e49\\u0e07\\u0e17\\u0e35\\u0e48\\u0e0a\\u0e32\\u0e22\\u0e2a\\u0e34\\u0e19\\u0e41\\u0e08\\u0e49\\u0e07\\u0e2b\\u0e19\\u0e35\\u0e49"
+"# ทุกเรื่องเกี่ยวกับ ใบแจ้งหนี้ขาย\n"
+"\n"
+"ใบแจ้งหนี้ขาย คือ ใบเสร็จที่คุณส่งให้กับ ลูกค้าของคุณ ซึ่ง ลูกค้าจะทำการชำระเงินตามใบแจ้งหนี้ขาย ใบแจ้งหนี้ขายเป็นรายการทาง การบัญชี เมื่อมีการส่งใบแจ้งหนี้ขาย ระบบจะทำการอัปเดตยอดค้างรับและบันทึกรายได้ใน บัญชีลูกค้า"
 
 #. Description of the Onboarding Step 'Create Your First Sales Invoice '
 #: erpnext/accounts/onboarding_step/create_your_first_sales_invoice/create_your_first_sales_invoice.json
