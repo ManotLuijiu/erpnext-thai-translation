@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-09-04 18:47+0642\n"
-"PO-Revision-Date: 2025-09-06 08:57\n"
+"PO-Revision-Date: 2025-09-06 09:14\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: erpnext/selling/doctype/quotation/quotation.js:73
 msgid " Address"
-msgstr ""
+msgstr "ที่อยู่"
 
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:676
 msgid " Amount"
@@ -349,6 +349,11 @@ msgid ""
 "\n"
 "<b>[Check Accounting reports](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-reports)</b>"
 msgstr ""
+"# งบการเงิน\n"
+"\n"
+"ใน ERPNext คุณสามารถรับรายงานทางการเงินที่สำคัญ เช่น [งบดุล] และ [งบกำไรขาดทุน] ได้ด้วยการคลิกเพียงปุ่มเดียว คุณสามารถเรียกใช้รายงานในช่วงเวลาที่แตกต่างกันและสร้างกราฟวิเคราะห์โดยอิงจากข้อมูลในงบการเงิน สำหรับรายงานเพิ่มเติม ให้ตรวจสอบส่วนต่างๆ เช่น งบการเงิน, สมุดรายวันทั่วไป และรายงานความสามารถในการทำกำไร\n"
+"\n"
+"<b>[ตรวจสอบรายงาน\\u0e01\\u0e32\\u0e23\\u0e1a\\u0e31\\u0e0d\\u0e0a\\u0e35](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-reports)</b>"
 
 #. Description of the Onboarding Step 'Review Fixed Asset Accounts'
 #: erpnext/assets/onboarding_step/fixed_asset_accounts/fixed_asset_accounts.json
