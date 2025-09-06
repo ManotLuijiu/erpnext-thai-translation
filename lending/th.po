@@ -951,12 +951,12 @@ msgstr ""
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Co Lending"
-msgstr ""
+msgstr "กู้ร่วม"
 
 #. Label of a Link in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Co Lending Partner"
-msgstr ""
+msgstr "ผู้ให้กู้ร่วม"
 
 #. Name of a DocType
 #: lending/loan_management/doctype/co_lender_schedule/co_lender_schedule.json
@@ -966,7 +966,7 @@ msgstr ""
 #. Label of a Card Break in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Co-Lending"
-msgstr ""
+msgstr "การกู้ร่วม"
 
 #. Label of a Section Break field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
