@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 68,
-  "last_updated": "2025-09-06T18:18:07.126912",
+  "terms_count": 67,
+  "last_updated": "2025-09-06T18:18:38.608312",
   "terms": {
     "Account": {
       "translation": "บัญชี",
@@ -421,13 +421,6 @@
       "translation": "ใบกำกับภาษี",
       "context": "",
       "category": "Business",
-      "module": "",
-      "is_approved": 1
-    },
-    "Test Term": {
-      "translation": "คำทดสอบ",
-      "context": "Testing context",
-      "category": "Technical",
       "module": "",
       "is_approved": 1
     },
