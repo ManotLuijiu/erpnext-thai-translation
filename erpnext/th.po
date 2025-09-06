@@ -138,6 +138,14 @@ msgid ""
 "\n"
 "![Sales Flow](https://docs.erpnext.com/docs/assets/img/accounts/so-flow.png)"
 msgstr ""
+"# ทุกเรื่องเกี่ยวกับใบแจ้งหนี้ขาย\n"
+"\n"
+"ใบแจ้งหนี้ขาย คือ ใบเสร็จรับเงินที่คุณส่งให้กับ ลูกค้า ซึ่ง ลูกค้า จะทำการชำระเงิน ใบแจ้งหนี้ขายเป็นรายการทาง การบัญชี เมื่อมีการส่ง ใบแจ้งหนี้ขาย ระบบจะทำการอัปเดตยอดเงินรับและบันทึกรายได้ใน บัญชีลูกค้า\n"
+"\n"
+"นี่คือขั้นตอนการสร้างใบแจ้งหนี้ขายโดยทั่วไป\n"
+"\n"
+"\n"
+"![Sales Flow](https://docs.erpnext.com/docs/assets/img/accounts/so-flow.png)"
 
 #. Description of the Onboarding Step 'Define Asset Category'
 #: erpnext/assets/onboarding_step/asset_category/asset_category.json
