@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-09-04 18:47+0642\n"
-"PO-Revision-Date: 2025-09-06 09:58\n"
+"PO-Revision-Date: 2025-09-06 09:59\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -138,8 +138,6 @@ msgid ""
 "\n"
 "![Sales Flow](https://docs.erpnext.com/docs/assets/img/accounts/so-flow.png)"
 msgstr ""
-"# "
-"\\u0e17\\u0e31\\u0e49\\u0e07\\u0e17\\u0e35\\u0e48\\u0e0a\\u0e32\\u0e22\\u0e2a\\u0e34\\u0e19\\u0e41\\u0e08\\u0e49\\u0e07\\u0e2b\\u0e19\\u0e35\\u0e49"
 
 #. Description of the Onboarding Step 'Define Asset Category'
 #: erpnext/assets/onboarding_step/asset_category/asset_category.json
