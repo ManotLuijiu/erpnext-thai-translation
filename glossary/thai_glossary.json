@@ -1,0 +1,477 @@
+{
+  "version": "1.0",
+  "language": "th",
+  "terms_count": 67,
+  "last_updated": "2025-09-06T18:15:47.681815",
+  "terms": {
+    "Account": {
+      "translation": "บัญชี",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Account Freezing": {
+      "translation": "การอายัดบัญชี / ระงับบัญชี",
+      "context": "ERPNext มีฟีเจอร์ Account Freezing สำหรับป้องกันไม่ให้มีการบันทึกหรือแก้ไขเอกสารบัญชีย้อนหลังหลังจากวันที่กำหนด",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Accounting": {
+      "translation": "การบัญชี",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "All": {
+      "translation": "ทั้งหมด",
+      "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Assets": {
+      "translation": "สินทรัพย์",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Business": {
+      "translation": "ธุรกิจ",
+      "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Buying": {
+      "translation": "การซื้อ",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Cancelled": {
+      "translation": "ยกเลิก",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "Category": {
+      "translation": "หมวดหมู่",
+      "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Completed": {
+      "translation": "เสร็จสิ้น",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "Context": {
+      "translation": "บริบท",
+      "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Cr.": {
+      "translation": "เครดิต",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "CRM": {
+      "translation": "การบริหารลูกค้าสัมพันธ์",
+      "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Customer": {
+      "translation": "ลูกค้า",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Date": {
+      "translation": "วันที่",
+      "context": "",
+      "category": "Date/Time",
+      "module": "",
+      "is_approved": 1
+    },
+    "Date and Time": {
+      "translation": "วันที่และเวลา",
+      "context": "",
+      "category": "Date/Time",
+      "module": "",
+      "is_approved": 1
+    },
+    "Date/Time": {
+      "translation": "วัน/เวลา",
+      "context": "",
+      "category": "Date/Time",
+      "module": "",
+      "is_approved": 1
+    },
+    "Day": {
+      "translation": "วัน",
+      "context": "",
+      "category": "Date/Time",
+      "module": "",
+      "is_approved": 1
+    },
+    "Delivery Note": {
+      "translation": "ใบส่งสินค้า",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Description": {
+      "translation": "รายละเอียด",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "doesn't belong to Company": {
+      "translation": "ไม่ได้เป็นส่วนหนึ่งของบริษัท",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Dr.": {
+      "translation": "เดบิต",
+      "context": "Using as Debit transaction in Accounting flow.",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Draft": {
+      "translation": "ฉบับร่าง",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "ERPNext Module": {
+      "translation": "โมดูล ERPNext",
+      "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Human Resources": {
+      "translation": "ทรัพยากรบุคคล",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Inventory": {
+      "translation": "คลังสินค้า",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Invoice": {
+      "translation": "ใบแจ้งหนี้",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Is Approved": {
+      "translation": "อนุมัติแล้ว",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "Is Rejected": {
+      "translation": "ปฏิเสธแล้ว",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "Item": {
+      "translation": "สินค้า",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Journal Entry": {
+      "translation": "บันทึกทางบัญชี",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Loading translation dashboard...": {
+      "translation": "กำลังโหลดกระดานข้อมูลแปลภาษา",
+      "context": "",
+      "category": "UI",
+      "module": "",
+      "is_approved": 1
+    },
+    "Manufacturing": {
+      "translation": "การผลิต",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Module": {
+      "translation": "โมดูล",
+      "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Module Name": {
+      "translation": "ชื่อ โมดูล",
+      "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Month": {
+      "translation": "เดือน",
+      "context": "",
+      "category": "Date/Time",
+      "module": "",
+      "is_approved": 1
+    },
+    "Paid": {
+      "translation": "ชำระแล้ว",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "Payment": {
+      "translation": "การชำระเงิน",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Pending": {
+      "translation": "รอดำเนินการ",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "Print Message": {
+      "translation": "พิมพ์ข้อความ",
+      "context": "",
+      "category": "UI",
+      "module": "",
+      "is_approved": 1
+    },
+    "Priority": {
+      "translation": "ลำดับความสำคัญ",
+      "context": "",
+      "category": "UI",
+      "module": "",
+      "is_approved": 1
+    },
+    "Projects": {
+      "translation": "โครงการ",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Purchase Invoice": {
+      "translation": "ใบแจ้งหนี้ซื้อ",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Purchase Order": {
+      "translation": "ใบสั่งซื้อ",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Purchases": {
+      "translation": "ซื้อ",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Quantity": {
+      "translation": "จำนวน",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Quotation": {
+      "translation": "ใบเสนอราคา",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Receipt": {
+      "translation": "ใบเสร็จรับเงิน",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Refresh": {
+      "translation": "ดึงข้อมูลใหม่",
+      "context": "",
+      "category": "UI",
+      "module": "",
+      "is_approved": 1
+    },
+    "Sales": {
+      "translation": "ขาย",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Sales Invoice": {
+      "translation": "ใบแจ้งหนี้ขาย",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Sales Order": {
+      "translation": "ใบสั่งขาย",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Selling": {
+      "translation": "การขาย",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Source Term": {
+      "translation": "แหล่งข้อมูล",
+      "context": "",
+      "category": "UI",
+      "module": "",
+      "is_approved": 1
+    },
+    "Status": {
+      "translation": "สถานะ",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "Stock": {
+      "translation": "คลังสินค้า",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Submitted": {
+      "translation": "ส่งแล้ว",
+      "context": "",
+      "category": "Status",
+      "module": "",
+      "is_approved": 1
+    },
+    "Supplier": {
+      "translation": "ผู้จัดจำหน่าย",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Tax": {
+      "translation": "ภาษี",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Tax Invoice": {
+      "translation": "ใบกำกับภาษี",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Thai Translation": {
+      "translation": "แปลเป็นไทย",
+      "context": "",
+      "category": "UI",
+      "module": "",
+      "is_approved": 1
+    },
+    "Time": {
+      "translation": "เวลา",
+      "context": "",
+      "category": "Date/Time",
+      "module": "",
+      "is_approved": 1
+    },
+    "Translation Dashboard": {
+      "translation": "กระดานข้อมูลแปลภาษา",
+      "context": "",
+      "category": "UI",
+      "module": "",
+      "is_approved": 1
+    },
+    "Unit Price": {
+      "translation": "ราคาต่อหน่วย",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "VAT": {
+      "translation": "ภาษีมูลค่าเพิ่ม",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Withholding Tax": {
+      "translation": "ภาษีหัก ณ ที่จ่าย",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Year": {
+      "translation": "ปี",
+      "context": "",
+      "category": "Date/Time",
+      "module": "",
+      "is_approved": 1
+    }
+  }
+}
