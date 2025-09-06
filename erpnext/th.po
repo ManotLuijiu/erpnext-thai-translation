@@ -27,7 +27,7 @@ msgstr "ที่อยู่"
 
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:676
 msgid " Amount"
-msgstr ""
+msgstr "จำนวน"
 
 #. Label of a Check field in DocType 'Inventory Dimension'
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
