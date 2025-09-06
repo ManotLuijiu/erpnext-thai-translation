@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Mint VERSION\n"
 "Report-Msgid-Bugs-To: support@thecommit.company\n"
 "POT-Creation-Date: 2025-09-04 18:48+0642\n"
-"PO-Revision-Date: 2025-09-05 19:15\n"
+"PO-Revision-Date: 2025-09-07 06:09\n"
 "Last-Translator: support@thecommit.company\n"
 "Language-Team: support@thecommit.company\n"
 "Language: th\n"
@@ -25,96 +25,96 @@ msgstr "บัญชี"
 
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:71
 msgid "Account company does not match with the rule company."
-msgstr ""
+msgstr "บัญชีของบริษัทไม่ตรงกับกฎของบริษัท"
 
 #. Label of a Section Break field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Action"
-msgstr ""
+msgstr "ดำเนินการ"
 
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.py:80
 msgid "All rows must have an amount and a type. Missing in row {0}"
-msgstr ""
+msgstr "ทุกรายการต้องมีจำนวนเงินและประเภท ขาดในแถวที่ {0}"
 
 #. Label of a Link field in DocType 'Mint Bank Statement Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "Amended From"
-msgstr ""
+msgstr "แก้ไขจาก"
 
 #. Label of a Currency field in DocType 'Mint Bank Statement Import
 #. Transactions'
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "Amount"
-msgstr ""
+msgstr "จำนวนเงิน"
 
 #. Option for the 'Transaction Type' (Select) field in DocType 'Mint Bank
 #. Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Any"
-msgstr ""
+msgstr "ทั้งหมด"
 
 #. Label of a Check field in DocType 'Mint Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "Automatically run rules on unreconciled transactions"
-msgstr ""
+msgstr "เรียกใช้กฎโดยอัตโนมัติบนรายการที่ยังไม่ได้กระทบยอด"
 
 #. Label of a Link field in DocType 'Mint Bank Statement Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "Bank Account"
-msgstr ""
+msgstr "บัญชีธนาคาร"
 
 #. Option for the 'Classify As' (Select) field in DocType 'Mint Bank
 #. Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Bank Entry"
-msgstr ""
+msgstr "รายการบัญชีธนาคาร"
 
 #: mint/apis/google_ai.py:132
 msgid "Bank Statement Processor is not set in Mint Settings"
-msgstr ""
+msgstr "โปรแกรมประมวลผลรายการเดินบัญชีธนาคารยังไม่ได้ตั้งค่าในการตั้งค่า Mint"
 
 #: mint/apis/bank_reconciliation.py:31
 msgid "Bank Transaction {0} is already fully reconciled"
-msgstr ""
+msgstr "รายการธุรกรรมธนาคาร {0} ได้ถูกปรับปรุงสถานะสมดุลเรียบร้อยแล้ว"
 
 #. Description of the 'String Amount' (Data) field in DocType 'Mint Bank
 #. Statement Import Transactions'
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "Can be \"1200 Dr\" and will be translated to 1200 in amount and \"Withdrawal\""
-msgstr ""
+msgstr "1200 เดบ การซื้อ"
 
 #. Label of a Select field in DocType 'Mint Bank Transaction Description
 #. Rules'
 #: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
 msgid "Check"
-msgstr ""
+msgstr "ตรวจสอบ"
 
 #. Label of a Select field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Classify As"
-msgstr ""
+msgstr "จัดประเภทเป็น"
 
 #. Label of a Link field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Company"
-msgstr ""
+msgstr "บริษัท"
 
 #. Option for the 'Status' (Select) field in DocType 'Mint Bank Statement
 #. Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "Completed"
-msgstr ""
+msgstr "เสร็จสมบูรณ์"
 
 #. Option for the 'Check' (Select) field in DocType 'Mint Bank Transaction
 #. Description Rules'
 #: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
 msgid "Contains"
-msgstr ""
+msgstr "ประกอบด้วย"
 
 #. Label of a Date field in DocType 'Mint Bank Statement Import Transactions'
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "Date"
-msgstr ""
+msgstr "วันที่"
 
 #. Option for the 'Type' (Select) field in DocType 'Mint Bank Statement Import
 #. Transactions'
@@ -123,269 +123,270 @@ msgstr ""
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Deposit"
-msgstr ""
+msgstr "เงินมัดจำ"
 
 #. Label of a Small Text field in DocType 'Mint Bank Statement Import
 #. Transactions'
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "Description"
-msgstr ""
+msgstr "คำอธิบาย"
 
 #. Label of a Table field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Description Rules"
-msgstr ""
+msgstr "กฎเกณฑ์คำอธิบาย"
 
 #. Option for the 'Check' (Select) field in DocType 'Mint Bank Transaction
 #. Description Rules'
 #: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
 msgid "Ends With"
-msgstr ""
+msgstr "ลงท้ายด้วย"
 
 #. Option for the 'Status' (Select) field in DocType 'Mint Bank Statement
 #. Import'
 #. Label of a Code field in DocType 'Mint Bank Statement Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "Error"
-msgstr ""
+msgstr "ข้อผิดพลาด"
 
 #: mint/apis/google_ai.py:116
 msgid "Failed to create document processor"
-msgstr ""
+msgstr "ไม่สามารถสร้างโปรเซสเซอร์เอกสารได้"
 
 #: mint/apis/google_ai.py:104
 msgid "Failed to create processor"
-msgstr ""
+msgstr "ไม่สามารถสร้างโปรเซสเซอร์ได้"
 
 #. Label of a Attach field in DocType 'Mint Bank Statement Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "File"
-msgstr ""
+msgstr "แฟ้มข้อมูล"
 
 #. Label of a Select field in DocType 'Mint Bank Statement Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "File Type"
-msgstr ""
+msgstr "ประเภทไฟล์"
 
 #: mint/apis/google_ai.py:78
 msgid "Google APIs are not enabled. Please enable them in Mint Settings."
-msgstr ""
+msgstr "Google APIs ยังไม่ได้เปิดใช้งาน กรุณาเปิดใช้งานใน การตั้งค่า Mint"
 
 #. Label of a Section Break field in DocType 'Mint Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "Google Document AI"
-msgstr ""
+msgstr "Google Document AI"
 
 #. Label of a Data field in DocType 'Mint Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "Google Document Processor - Bank Statement"
-msgstr ""
+msgstr "โปรแกรมประมวลผลเอกสารของ Google - รายการเดินบัญชีธนาคาร"
 
 #. Label of a Select field in DocType 'Mint Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "Google Processor Location"
-msgstr ""
+msgstr "สถานที่ตั้งโปรเซสเซอร์ของ Google"
 
 #. Label of a Data field in DocType 'Mint Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "Google Project ID"
-msgstr ""
+msgstr "รหัสโครงการ Google"
 
 #: mint/apis/google_ai.py:126
 msgid "Google Project ID is not set in Mint Settings"
-msgstr ""
+msgstr "รหัสโครงการ Google ยังไม่ได้ตั้งค่าใน การตั้งค่า Mint"
 
 #: mint/apis/google_ai.py:17
 msgid "Google Project ID is not set. Please set it in the Mint Settings."
-msgstr ""
+msgstr "ยังไม่ได้ตั้งค่า Google Project ID กรุณาตั้งค่าใน การตั้งค่า Mint"
 
 #. Label of a Password field in DocType 'Mint Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "Google Service Account JSON Key"
-msgstr ""
+msgstr "กุญแจ JSON บัญชีบริการของ Google"
 
 #: mint/apis/google_ai.py:129
 msgid "Google Service Account JSON Key is not set in Mint Settings"
-msgstr ""
+msgstr "ไม่ได้ตั้งค่า Google Service Account JSON Key ในการตั้งค่า Mint"
 
 #. Description of the 'Automatically run rules on unreconciled transactions'
 #. (Check) field in DocType 'Mint Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "If checked, this job will run every 30 minutes"
-msgstr ""
+msgstr "หากเลือก ตัวงานนี้จะทำงานทุก 30 นาที"
 
 #. Label of a Check field in DocType 'Mint Bank Statement Import Transactions'
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "Imported"
-msgstr ""
+msgstr "นำเข้าแล้ว"
 
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.py:56
 msgid "Invalid file type"
-msgstr ""
+msgstr "ประเภทไฟล์ไม่ถูกต้อง"
 
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:67
 msgid "Invalid regex pattern."
-msgstr ""
+msgstr "รูปแบบ regex ไม่ถูกต้อง"
 
 #. Label of a Currency field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Max Amount"
-msgstr ""
+msgstr "จำนวนสูงสุด"
 
 #. Label of a Currency field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Min Amount"
-msgstr ""
+msgstr "จำนวนเงินขั้นต่ำ"
 
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:52
 msgid "Min amount cannot be greater than max amount."
-msgstr ""
+msgstr "จำนวนขั้นต่ำไม่สามารถมากกว่าจำนวนสูงสุดได้"
 
 #. Name of a DocType
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "Mint Bank Statement Import"
-msgstr ""
+msgstr "นำเข้ารายงานธนาคาร Mint"
 
 #. Name of a DocType
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "Mint Bank Statement Import Transactions"
-msgstr ""
+msgstr "นำเข้าธุรกรรมรายการเดินบัญชี Mint"
 
 #. Name of a DocType
 #: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
 msgid "Mint Bank Transaction Description Rules"
-msgstr ""
+msgstr "กฎการอธิบายรายการธุรกรรมธนาคาร Mint"
 
 #. Name of a DocType
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Mint Bank Transaction Rule"
-msgstr ""
+msgstr "กฎรายการธนาคาร Mint"
 
 #. Name of a DocType
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "Mint Settings"
-msgstr ""
+msgstr "การตั้งค่า Mint"
 
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.py:84
 msgid "No transactions found"
-msgstr ""
+msgstr "ไม่พบรายการธุรกรรม"
 
 #. Option for the 'Status' (Select) field in DocType 'Mint Bank Statement
 #. Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "Not Started"
-msgstr ""
+msgstr "ยังไม่เริ่มต้น"
 
 #. Option for the 'File Type' (Select) field in DocType 'Mint Bank Statement
 #. Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #. Label of a Dynamic Link field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Party"
-msgstr ""
+msgstr "คู่สัญญา"
 
 #. Label of a Link field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Party Type"
-msgstr ""
+msgstr "ประเภทฝ่าย"
 
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:59
 msgid "Party is required create a payment entry."
-msgstr ""
+msgstr "ฝ่ายที่เกี่ยวข้องจำเป็นต้องสร้างรายการชำระเงิน"
 
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.py:56
 msgid "Party type is required to create a payment entry."
 msgstr ""
+"ประเภทฝ่ายที่เกี่ยวข้องเป็นข้อมูลที่จำเป็นสำหรับการสร้างรายการชำระเงิน"
 
 #. Option for the 'Classify As' (Select) field in DocType 'Mint Bank
 #. Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Payment Entry"
-msgstr ""
+msgstr "รายการชำระเงิน"
 
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.py:51
 msgid "Please upload a file"
-msgstr ""
+msgstr "กรุณาอัปโหลดไฟล์"
 
 #. Label of a Int field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Priority"
-msgstr ""
+msgstr "ลำดับความสำคัญ"
 
 #. Label of a Data field in DocType 'Mint Bank Statement Import Transactions'
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "Reference"
-msgstr ""
+msgstr "อ้างอิง"
 
 #. Option for the 'Check' (Select) field in DocType 'Mint Bank Transaction
 #. Description Rules'
 #: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
 msgid "Regex"
-msgstr ""
+msgstr "เร็กซ์"
 
 #. Label of a Small Text field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Rule Description"
-msgstr ""
+msgstr "คำอธิบายกฎ"
 
 #. Label of a Data field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Rule Name"
-msgstr ""
+msgstr "ชื่อกฎ"
 
 #. Option for the 'Check' (Select) field in DocType 'Mint Bank Transaction
 #. Description Rules'
 #: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
 msgid "Starts With"
-msgstr ""
+msgstr "ขึ้นต้นด้วย"
 
 #. Label of a Select field in DocType 'Mint Bank Statement Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "Status"
-msgstr ""
+msgstr "สถานะ"
 
 #. Label of a Data field in DocType 'Mint Bank Statement Import Transactions'
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "String Amount"
-msgstr ""
+msgstr "จำนวนเงิน"
 
 #. Name of a role
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "System Manager"
-msgstr ""
+msgstr "ผู้จัดการระบบ"
 
 #. Label of a Select field in DocType 'Mint Bank Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Transaction Type"
-msgstr ""
+msgstr "ประเภทธุรกรรม"
 
 #. Label of a Table field in DocType 'Mint Bank Statement Import'
 #: mint/mint/doctype/mint_bank_statement_import/mint_bank_statement_import.json
 msgid "Transactions"
-msgstr ""
+msgstr "รายการเคลื่อนไหวทางธุรกรรม"
 
 #. Option for the 'Classify As' (Select) field in DocType 'Mint Bank
 #. Transaction Rule'
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Transfer"
-msgstr ""
+msgstr "โอนย้าย"
 
 #. Label of a Select field in DocType 'Mint Bank Statement Import
 #. Transactions'
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 msgid "Type"
-msgstr ""
+msgstr "ประเภท"
 
 #. Label of a Small Text field in DocType 'Mint Bank Transaction Description
 #. Rules'
 #: mint/mint/doctype/mint_bank_transaction_description_rules/mint_bank_transaction_description_rules.json
 msgid "Value"
-msgstr ""
+msgstr "ค่า"
 
 #. Option for the 'Type' (Select) field in DocType 'Mint Bank Statement Import
 #. Transactions'
@@ -394,20 +395,20 @@ msgstr ""
 #: mint/mint/doctype/mint_bank_statement_import_transactions/mint_bank_statement_import_transactions.json
 #: mint/mint/doctype/mint_bank_transaction_rule/mint_bank_transaction_rule.json
 msgid "Withdrawal"
-msgstr ""
+msgstr "ถอนเงิน"
 
 #. Option for the 'Google Processor Location' (Select) field in DocType 'Mint
 #. Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "eu"
-msgstr ""
+msgstr "eu"
 
 #. Option for the 'Google Processor Location' (Select) field in DocType 'Mint
 #. Settings'
 #: mint/mint/doctype/mint_settings/mint_settings.json
 msgid "us"
-msgstr ""
+msgstr "สหรัฐอเมริกา"
 
 #: mint/apis/bank_reconciliation.py:387
 msgid "{0} {1} does not exist"
-msgstr ""
+msgstr "{0} {1} ไม่มีอยู่จริง"
