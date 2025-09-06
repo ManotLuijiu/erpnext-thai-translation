@@ -1,2 +1,0 @@
-# Test file to check write permissions
-This is a test.
