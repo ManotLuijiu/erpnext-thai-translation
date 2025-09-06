@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 70,
-  "last_updated": "2025-09-07T06:15:19.645083",
+  "terms_count": 71,
+  "last_updated": "2025-09-07T06:17:00.657975",
   "terms": {
     "Account": {
       "translation": "บัญชี",
@@ -175,6 +175,13 @@
     "ERPNext Module": {
       "translation": "โมดูล ERPNext",
       "context": "",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Generator": {
+      "translation": "สร้างฟอร์ม/รายงาน",
+      "context": "In Print Designer context: Generator mean generate the form/report not electricity.",
       "category": "Technical",
       "module": "",
       "is_approved": 1
