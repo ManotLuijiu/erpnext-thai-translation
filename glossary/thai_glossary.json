@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 68,
-  "last_updated": "2025-09-06T18:29:09.681884",
+  "terms_count": 69,
+  "last_updated": "2025-09-06T18:31:52.613431",
   "terms": {
     "Account": {
       "translation": "บัญชี",
@@ -428,6 +428,13 @@
       "translation": "ใบกำกับภาษี",
       "context": "",
       "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Test Static URL": {
+      "translation": "ทดสอบ URL คงที่",
+      "context": "Testing static repository URL",
+      "category": "Technical",
       "module": "",
       "is_approved": 1
     },
