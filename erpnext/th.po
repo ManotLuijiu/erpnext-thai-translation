@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-09-04 18:47+0642\n"
-"PO-Revision-Date: 2025-09-06 09:15\n"
+"PO-Revision-Date: 2025-09-06 09:16\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "อัตรา"
 
 #: erpnext/projects/doctype/project_update/project_update.py:104
 msgid " Summary"
-msgstr ""
+msgstr "สรุปย่อ"
 
 #: erpnext/stock/doctype/item/item.py:235
 msgid "\"Customer Provided Item\" cannot be Purchase Item also"
