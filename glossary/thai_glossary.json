@@ -2,7 +2,7 @@
   "version": "1.0",
   "language": "th",
   "terms_count": 68,
-  "last_updated": "2025-09-06T18:26:48.161367",
+  "last_updated": "2025-09-06T18:29:09.681884",
   "terms": {
     "Account": {
       "translation": "บัญชี",
@@ -279,7 +279,7 @@
     },
     "PND.": {
       "translation": "ภงด.",
-      "context": "Updated context test with GitHub",
+      "context": "Updated with static repo URL",
       "category": "Technical",
       "module": "",
       "is_approved": 1
