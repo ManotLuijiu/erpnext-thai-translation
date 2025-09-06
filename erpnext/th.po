@@ -43,7 +43,7 @@ msgstr "ชื่อ"
 
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:667
 msgid " Rate"
-msgstr ""
+msgstr "อัตรา"
 
 #: erpnext/projects/doctype/project_update/project_update.py:104
 msgid " Summary"
