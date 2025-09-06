@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-09-04 18:47+0642\n"
-"PO-Revision-Date: 2025-09-06 09:16\n"
+"PO-Revision-Date: 2025-09-06 09:42\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -80,6 +80,13 @@ msgid ""
 " - Taxation preferences\n"
 " - Deferred accounting preferences\n"
 msgstr ""
+"# การตั้งค่า \\u0e1a\\u0e31\\u0e0d\\u0e0a\\u0e35\n"
+"\n"
+"ใน ERPNext, \\u0e01\\u0e32\\u0e23\\u0e1a\\u0e31\\u0e0d\\u0e0a\\u0e35 \\u0e40\\u0e1b\\u0e47\\u0e19\\u0e44\\u0e17\\u0e22\\u0e02\\u0e32\\u0e22\\u0e2d\\u0e2d\\u0e01\\u0e14\\u0e35\\u0e48\\u0e21\\u0e35\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e04\\u0e38\\u0e13\\u0e40\\u0e2a\\u0e23\\u0e37\\u0e2d\\u0e01\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e2a\\u0e31\\u0e19\\u0e02\\u0e32\\u0e22\\u0e2d\\u0e2d\\u0e01\\u0e14\\u0e35\\u0e48\\u0e21\\u0e35\\u0e17\\u0e35\\u0e48. \\u0e1a\\u0e31\\u0e0d\\u0e0a\\u0e35 \\u0e02\\u0e2d\\u0e1a\\u0e01\\u0e32\\u0e23\\u0e14\\u0e35\\u0e48\\u0e21\\u0e35 \\u0e27\\u0e31\\u0e19\\u0e02\\u0e2d\\u0e1a\\u0e2a\\u0e34\\u0e19\\u0e04\\u0e49\\u0e32 \\u0e2a\\u0e48\\u0e27\\u0e19\\u0e2a\\u0e31\\u0e19\\u0e14\\u0e35\\u0e48\\u0e21\\u0e35 \\u0e40\\u0e1b\\u0e47\\u0e19\\u0e02\\u0e2d\\u0e1a\\u0e01\\u0e32\\u0e23\\u0e1a\\u0e31\\u0e0d\\u0e0a\\u0e35 \\u0e40\\u0e1b\\u0e47\\u0e19\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e17\\u0e35\\u0e48\\u0e21\\u0e35\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e14\\u0e35\\u0e48\\u0e1e\\u0e38\\u0e18\\u0e23\\u0e30:\n"
+"\n"
+" - \\u0e0a\\u0e34\\u0e27\\u0e23\\u0e0a\\u0e34\\u0e27\\u0e23\\u0e15\\u0e31\\u0e14 \\u0e01\\u0e32\\u0e23\\u0e0a\\u0e37\\u0e48\\u0e2d \\u0e43\\u0e0a\\u0e49 \\u0e40\\u0e25\\u0e34\\u0e01\\u0e40\\u0e25\\u0e34\\u0e01\\u0e15\\u0e4c\\u0e2a\\u0e31\\u0e19\n"
+" - \\u0e40\\u0e20\\u0e29\\u0e35\\u0e22\\u0e01\\u0e44\\u0e17\\u0e22\\u0e40\\u0e1b\\u0e47\\u0e19\n"
+" - \\u0e40\\u0e1b\\u0e47\\u0e19\\u0e02\\u0e2d\\u0e1a\\u0e01\\u0e32\\u0e23\\u0e14\\u0e35\\u0e48\\u0e21\\u0e35\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e40\\u0e25\\u0e34\\u0e01"
 
 #. Description of the Onboarding Step 'Configure Account Settings'
 #: erpnext/accounts/onboarding_step/configure_account_settings/configure_account_settings.json
@@ -96,7 +103,7 @@ msgid ""
 "4. Balance Sheet configurations\n"
 "\n"
 "There's much more, you can check it all out in this step"
-msgstr ""
+msgstr "# การตั้งค่า \\u0e1a\\u0e31\\u0e0d\\u0e0a\\u0e35"
 
 #. Description of the Onboarding Step 'Add an Existing Asset'
 #: erpnext/assets/onboarding_step/existing_asset/existing_asset.json
@@ -105,6 +112,9 @@ msgid ""
 "\n"
 "If you are just starting with ERPNext, you will need to enter Assets you already possess. You can add them as existing fixed assets in ERPNext. Please note that you will have to make a Journal Entry separately updating the opening balance in the fixed asset account."
 msgstr ""
+"# "
+"\\u0e40\\u0e1b\\u0e47\\u0e19\\u0e1b\\u0e23\\u0e30\\u0e1a\\u0e23\\u0e34\\u0e1a\\u0e17"
+" \\u0e2a\\u0e34\\u0e19\\u0e17\\u0e23\\u0e31\\u0e1e\\u0e22\\u0e4c"
 
 #. Description of the Onboarding Step 'Create Your First Sales Invoice '
 #: erpnext/setup/onboarding_step/create_your_first_sales_invoice/create_your_first_sales_invoice.json
@@ -113,6 +123,8 @@ msgid ""
 "\n"
 "A Sales Invoice is a bill that you send to your Customers against which the Customer makes the payment. Sales Invoice is an accounting transaction. On submission of Sales Invoice, the system updates the receivable and books income against a Customer Account."
 msgstr ""
+"# "
+"\\u0e17\\u0e31\\u0e49\\u0e07\\u0e17\\u0e35\\u0e48\\u0e0a\\u0e32\\u0e22\\u0e2a\\u0e34\\u0e19\\u0e41\\u0e08\\u0e49\\u0e07\\u0e2b\\u0e19\\u0e35\\u0e49"
 
 #. Description of the Onboarding Step 'Create Your First Sales Invoice '
 #: erpnext/accounts/onboarding_step/create_your_first_sales_invoice/create_your_first_sales_invoice.json
@@ -126,6 +138,8 @@ msgid ""
 "\n"
 "![Sales Flow](https://docs.erpnext.com/docs/assets/img/accounts/so-flow.png)"
 msgstr ""
+"# "
+"\\u0e17\\u0e31\\u0e49\\u0e07\\u0e17\\u0e35\\u0e48\\u0e0a\\u0e32\\u0e22\\u0e2a\\u0e34\\u0e19\\u0e41\\u0e08\\u0e49\\u0e07\\u0e2b\\u0e19\\u0e35\\u0e49"
 
 #. Description of the Onboarding Step 'Define Asset Category'
 #: erpnext/assets/onboarding_step/asset_category/asset_category.json
@@ -138,7 +152,7 @@ msgid ""
 " - Depreciation type and duration\n"
 " - Fixed asset account\n"
 " - Depreciation account\n"
-msgstr ""
+msgstr "# \\u0e2b\\u0e21\\u0e27\\u0e14 \\u0e2a\\u0e34\\u0e19\\u0e17\\u0e23\\u0e31\\u0e1e\\u0e22\\u0e4c"
 
 #. Description of the Onboarding Step 'Create an Asset Item'
 #: erpnext/assets/onboarding_step/asset_item/asset_item.json
@@ -147,6 +161,8 @@ msgid ""
 "\n"
 "Asset items are created based on Asset Category. You can create one or multiple items against once Asset Category. The sales and purchase transaction for Asset is done via Asset Item. "
 msgstr ""
+"# \\u0e2a\\u0e34\\u0e19\\u0e17\\u0e23\\u0e31\\u0e1e\\u0e22\\u0e4c "
+"\\u0e2a\\u0e34\\u0e19\\u0e17\\u0e23\\u0e31\\u0e1e\\u0e22\\u0e4c"
 
 #. Description of the Onboarding Step 'Buying Settings'
 #: erpnext/buying/onboarding_step/introduction_to_buying/introduction_to_buying.json
@@ -160,7 +176,7 @@ msgid ""
 "- Billing and shipping preference in buying transactions\n"
 "\n"
 "\n"
-msgstr ""
+msgstr "# \\u0e01\\u0e32\\u0e23\\u0e0b\\u0e37\\u0e49\\u0e2d\\u0e15\\u0e31\\u0e48\\u0e07"
 
 #. Description of the Onboarding Step 'CRM Settings'
 #: erpnext/crm/onboarding_step/crm_settings/crm_settings.json
@@ -173,6 +189,9 @@ msgid ""
 "- Opportunity\n"
 "- Quotation"
 msgstr ""
+"# "
+"\\u0e01\\u0e32\\u0e23\\u0e1a\\u0e23\\u0e34\\u0e2b\\u0e32\\u0e23\\u0e25\\u0e39\\u0e01"
+" (CRM) \\u0e15\\u0e31\\u0e48\\u0e07\\u0e02\\u0e2d\\u0e07"
 
 #. Description of the Onboarding Step 'Review Chart of Accounts'
 #: erpnext/accounts/onboarding_step/chart_of_accounts/chart_of_accounts.json
@@ -193,6 +212,8 @@ msgid ""
 "# Check Stock Reports\n"
 "Based on the various stock transactions, you can get a host of one-click Stock Reports in ERPNext like Stock Ledger, Stock Balance, Projected Quantity, and Ageing analysis."
 msgstr ""
+"# ตรวจสอบรายงานสต็อก  \n"
+"จากรายการเคลื่อนไหวสต็อกต่างๆ คุณสามารถรับรายงานสต็อกแบบคลิกเดียวได้หลากหลายประเภทใน ERPNext เช่น สมุดรายวันสต็อก, ยอดคงเหลือสต็อก, ปริมาณที่คาดการณ์ และการวิเคราะห์อายุสต็อก"
 
 #. Description of the Onboarding Step 'Cost Centers for Budgeting and
 #. Analysis'
