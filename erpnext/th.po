@@ -39,7 +39,7 @@ msgstr "เป็นตารางลูกหรือไม่"
 #: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.py:107
 #: erpnext/selling/report/sales_analytics/sales_analytics.py:87
 msgid " Name"
-msgstr ""
+msgstr "ชื่อ"
 
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:667
 msgid " Rate"
