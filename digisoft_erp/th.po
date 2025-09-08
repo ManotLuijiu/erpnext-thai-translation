@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:32\n"
+"PO-Revision-Date: 2025-09-08 21:33\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -4656,39 +4656,39 @@ msgstr ""
 
 #: digisoft_erp/thai_tax/utils/base_report.py:241
 msgid "ประเภท"
-msgstr ""
+msgstr "ประเภท"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:75
 msgid "ประเภทบรรจุภัณฑ์"
-msgstr ""
+msgstr "ประเภทบรรจุภัณฑ์"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:144
 #: digisoft_erp/thai_tax/utils/base_report.py:151
 msgid "ประเภทเงินได้"
-msgstr ""
+msgstr "ประเภทเงินได้"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:81
 msgid "ปลายทาง"
-msgstr ""
+msgstr "ปลายทาง"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:139
 #: digisoft_erp/thai_tax/utils/base_report.py:146
 #: digisoft_erp/thai_tax/utils/base_report.py:154
 msgid "ภาษีที่หัก"
-msgstr ""
+msgstr "ภาษีที่หัก"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:62
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:120
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:120
 #: digisoft_erp/thai_tax/utils/base_report.py:250
 msgid "ภาษีมูลค่าเพิ่ม"
-msgstr ""
+msgstr "ภาษีมูลค่าเพิ่ม"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:92
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:80
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:74
 msgid "ภาษีมูลค่าเพิ่ม (฿)"
-msgstr ""
+msgstr "ภาษีมูลค่าเพิ่ม (฿)"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:114
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:114
@@ -4696,17 +4696,19 @@ msgid ""
 "มูลค่าสินค้า\n"
 "หรือบริการ"
 msgstr ""
+"มูลค่าสินค้า\n"
+"หรือบริการ"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:56
 #: digisoft_erp/thai_tax/utils/base_report.py:249
 msgid "มูลค่าสินค้า/บริการ"
-msgstr ""
+msgstr "มูลค่าสินค้า/บริการ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:86
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:74
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:68
 msgid "มูลค่าสินค้า/บริการ (฿)"
-msgstr ""
+msgstr "มูลค่าสินค้า/บริการ (฿)"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:80
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:68
