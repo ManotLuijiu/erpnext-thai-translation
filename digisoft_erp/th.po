@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:33\n"
+"PO-Revision-Date: 2025-09-08 21:35\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -4763,19 +4763,19 @@ msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:86
 msgid "วันที่ส่งมอบ"
-msgstr ""
+msgstr "วันที่ส่งมอบ"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:247
 msgid "วันที่ใบกำกับผู้ขาย"
-msgstr ""
+msgstr "วันที่ใบกำกับผู้ขาย"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:87
 msgid "วิธีการขนส่ง"
-msgstr ""
+msgstr "วิธีการขนส่ง"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:248
 msgid "สถานประกอบการ"
-msgstr ""
+msgstr "สถานประกอบการ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:104
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:92
@@ -4784,32 +4784,32 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:145
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:145
 msgid "สถานะ"
-msgstr ""
+msgstr "สถานะ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:62
 msgid "สมุด"
-msgstr ""
+msgstr "สมุด"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:108
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:108
 msgid "สาขาที่"
-msgstr ""
+msgstr "สาขาที่"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:102
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:102
 msgid "สำนักงานใหญ่"
-msgstr ""
+msgstr "สำนักงานใหญ่"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:44
 msgid "หมวดหมู่"
-msgstr ""
+msgstr "หมวดหมู่"
 
 #. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "หัก ณ ที่จ่าย"
-msgstr ""
+msgstr "หัก ณ ที่จ่าย"
 
 #. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
