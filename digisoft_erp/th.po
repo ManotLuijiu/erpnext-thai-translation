@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:35\n"
+"PO-Revision-Date: 2025-09-08 21:36\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -4864,47 +4864,47 @@ msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:99
 msgid "เลขที่ seal"
-msgstr ""
+msgstr "เลขที่ seal"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:93
 msgid "เลขที่คอนเทนเนอร์"
-msgstr ""
+msgstr "เลขที่คอนเทนเนอร์"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:56
 msgid "เลขที่อ้างอิง"
-msgstr ""
+msgstr "เลขที่อ้างอิง"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:242
 msgid "เลขที่เอกสาร"
-msgstr ""
+msgstr "เลขที่เอกสาร"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:246
 msgid "เลขที่ใบกำกับผู้ขาย"
-msgstr ""
+msgstr "เลขที่ใบกำกับผู้ขาย"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:49
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:49
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:84
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:84
 msgid "เลขที่ใบกำกับภาษี"
-msgstr ""
+msgstr "เลขที่ใบกำกับภาษี"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:24
 msgid "เลขที่ใบรายการบรรจุ"
-msgstr ""
+msgstr "เลขที่ใบรายการบรรจุ"
 
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:49
 msgid "เลขที่ใบสั่งขาย"
-msgstr ""
+msgstr "เลขที่ใบสั่งขาย"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:55
 msgid "เลขที่ใบแจ้งหนี้"
-msgstr ""
+msgstr "เลขที่ใบแจ้งหนี้"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:132
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:132
 msgid "เลขที่ใบแจ้งหนี้ระบบ"
-msgstr ""
+msgstr "เลขที่ใบแจ้งหนี้ระบบ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:74
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:62
