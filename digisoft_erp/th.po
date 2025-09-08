@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:37\n"
+"PO-Revision-Date: 2025-09-08 21:38\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -4912,7 +4912,7 @@ msgstr "เลขที่ใบแจ้งหนี้ระบบ"
 #: digisoft_erp/thai_tax/utils/base_report.py:127
 #: digisoft_erp/thai_tax/utils/base_report.py:245
 msgid "เลขประจำตัวผู้เสียภาษี"
-msgstr ""
+msgstr "เลขประจำตัวผู้เสียภาษี"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:96
 msgid ""
@@ -4920,6 +4920,9 @@ msgid ""
 "ของผู้ขายสินค้า\n"
 "หรือผู้ให้บริการ"
 msgstr ""
+"เลขประจำตัวผู้เสียภาษีอากร\n"
+"ของผู้ขายสินค้า\n"
+"หรือผู้ให้บริการ"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:96
 msgid ""
@@ -4927,10 +4930,13 @@ msgid ""
 "ของผู้ซื้อสินค้า\n"
 "หรือผู้รับบริการ"
 msgstr ""
+"เลขประจำตัวผู้เสียภาษีอากร\n"
+"ของผู้ซื้อสินค้า\n"
+"หรือผู้รับบริการ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:104
 msgid "ใบลดหนี้"
-msgstr ""
+msgstr "ใบลดหนี้"
 
 #. Label of a Card Break in the Manufacturing - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/manufacturing___th/manufacturing___th.json
