@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:28\n"
+"PO-Revision-Date: 2025-09-08 21:30\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -96,7 +96,7 @@ msgstr "40(2) ค่านายหน้า ค่าคอมมิชชั�
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(3) ค่าลิขสิทธิ์"
-msgstr ""
+msgstr "40(3) ค่าลิขสิทธิ์"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -109,7 +109,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(4)ก ดอกเบี้ย"
-msgstr ""
+msgstr "40(4)ก ดอกเบี้ย"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -122,7 +122,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(4)ข เงินปันผล"
-msgstr ""
+msgstr "40(4)ข เงินปันผล"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -135,7 +135,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(5) ค่าเช่า"
-msgstr ""
+msgstr "40(5) ค่าเช่า"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -148,7 +148,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(6) รางวัล ส่วนลด"
-msgstr ""
+msgstr "40(6) รางวัล ส่วนลด"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -161,7 +161,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(7) ค่าจ้างทำของ"
-msgstr ""
+msgstr "40(7) ค่าจ้างทำของ"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -174,7 +174,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าขนส่ง 1%"
-msgstr ""
+msgstr "40(8) ค่าขนส่ง 1%"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -187,7 +187,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าบริการ/ค่าวิชาชีพอิสระ"
-msgstr ""
+msgstr "40(8) ค่าบริการ/ค่าวิชาชีพอิสระ"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -200,7 +200,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าบริการนิติบุคคล 3%"
-msgstr ""
+msgstr "40(8) ค่าบริการนิติบุคคล 3%"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -213,7 +213,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าบริการนิติบุคคล 5%"
-msgstr ""
+msgstr "40(8) ค่าบริการนิติบุคคล 5%"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -226,7 +226,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าเบี้ยประกัน 1%"
-msgstr ""
+msgstr "40(8) ค่าเบี้ยประกัน 1%"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
@@ -239,7 +239,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าโฆษณา 2%"
-msgstr ""
+msgstr "40(8) ค่าโฆษณา 2%"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.html:334
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.py:112
