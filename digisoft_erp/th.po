@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:36\n"
+"PO-Revision-Date: 2025-09-08 21:37\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -4814,53 +4814,53 @@ msgstr "หัก ณ ที่จ่าย"
 #. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "ห้างหุ้นส่วนจำกัด"
-msgstr ""
+msgstr "ห้างหุ้นส่วนจำกัด"
 
 #. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "ห้างหุ้นส่วนสามัญ"
-msgstr ""
+msgstr "ห้างหุ้นส่วนสามัญ"
 
 #. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "ออกให้ครั้งเดียว"
-msgstr ""
+msgstr "ออกให้ครั้งเดียว"
 
 #. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "ออกให้ตลอดไป"
-msgstr ""
+msgstr "ออกให้ตลอดไป"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:152
 msgid "อัตราภาษี"
-msgstr ""
+msgstr "อัตราภาษี"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:80
 msgid "อัตราภาษีเฉลี่ย (%)"
-msgstr ""
+msgstr "อัตราภาษีเฉลี่ย (%)"
 
 #. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "อื่นๆ"
-msgstr ""
+msgstr "อื่นๆ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:110
 msgid "อ้างอิงใบแจ้งหนี้"
-msgstr ""
+msgstr "อ้างอิงใบแจ้งหนี้"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:138
 msgid "เงินเดือน/ค่าจ้าง"
-msgstr ""
+msgstr "เงินเดือน/ค่าจ้าง"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:240
 msgid "เดือนภาษี"
-msgstr ""
+msgstr "เดือนภาษี"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:99
 msgid "เลขที่ seal"
