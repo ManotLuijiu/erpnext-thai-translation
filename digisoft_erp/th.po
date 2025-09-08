@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:30\n"
+"PO-Revision-Date: 2025-09-08 21:32\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -4548,61 +4548,65 @@ msgstr "{} เพื่อรับ"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:128
 msgid "คำนำหน้า"
-msgstr ""
+msgstr "คำนำหน้า"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:86
 msgid "งวดภาษี"
-msgstr ""
+msgstr "งวดภาษี"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:74
 msgid "จำนวนรายการ"
-msgstr ""
+msgstr "จำนวนรายการ"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:69
 msgid "จำนวนหีบห่อ"
-msgstr ""
+msgstr "จำนวนหีบห่อ"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:126
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:126
 #: digisoft_erp/thai_tax/utils/base_report.py:145
 #: digisoft_erp/thai_tax/utils/base_report.py:153
 msgid "จำนวนเงิน"
-msgstr ""
+msgstr "จำนวนเงิน"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:68
 #: digisoft_erp/thai_tax/utils/base_report.py:251
 msgid "จำนวนเงินรวม"
-msgstr ""
+msgstr "จำนวนเงินรวม"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:98
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:86
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:80
 msgid "จำนวนเงินรวม (฿)"
-msgstr ""
+msgstr "จำนวนเงินรวม (฿)"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:129
 msgid "ชื่อ"
-msgstr ""
+msgstr "ชื่อ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:68
 msgid "ชื่อผู้ขาย"
-msgstr ""
+msgstr "ชื่อผู้ขาย"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:90
 msgid ""
 "ชื่อผู้ขายสินค้า\n"
 "หรือผู้ให้บริการ"
 msgstr ""
+"ชื่อผู้ขายสินค้า\n"
+"หรือผู้ให้บริการ"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:244
 msgid "ชื่อผู้ซื้อ/ผู้ขาย"
-msgstr ""
+msgstr "ชื่อผู้ซื้อ/ผู้ขาย"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:90
 msgid ""
 "ชื่อผู้ซื้อสินค้า\n"
 "หรือผู้รับบริการ"
 msgstr ""
+"ชื่อผู้ซื้อสินค้า\n"
+"หรือผู้รับบริการ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:56
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:44
