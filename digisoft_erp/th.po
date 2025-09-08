@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:38\n"
+"PO-Revision-Date: 2025-09-08 21:40\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -4612,47 +4612,47 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:44
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:56
 msgid "ชื่อลูกค้า"
-msgstr ""
+msgstr "ชื่อลูกค้า"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:131
 msgid "ที่อยู่"
-msgstr ""
+msgstr "ที่อยู่"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:50
 msgid "ที่อยู่จัดส่ง"
-msgstr ""
+msgstr "ที่อยู่จัดส่ง"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:98
 msgid "ที่อยู่ลูกค้า"
-msgstr ""
+msgstr "ที่อยู่ลูกค้า"
 
 #. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "นาง"
-msgstr ""
+msgstr "นาง"
 
 #. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "นางสาว"
-msgstr ""
+msgstr "นางสาว"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:130
 msgid "นามสกุล"
-msgstr ""
+msgstr "นามสกุล"
 
 #. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "นาย"
-msgstr ""
+msgstr "นาย"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:63
 msgid "น้ำหนักรวม (กก.)"
-msgstr ""
+msgstr "น้ำหนักรวม (กก.)"
 
 #. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "บริษัท"
-msgstr ""
+msgstr "บริษัท"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:241
 msgid "ประเภท"
@@ -4713,25 +4713,25 @@ msgstr "มูลค่าสินค้า/บริการ (฿)"
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:80
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:68
 msgid "รหัสสาขา"
-msgstr ""
+msgstr "รหัสสาขา"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:50
 msgid "รายการ"
-msgstr ""
+msgstr "รายการ"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:126
 msgid "ลำดับ"
-msgstr ""
+msgstr "ลำดับ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:260
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:72
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:72
 msgid "ลำดับที่"
-msgstr ""
+msgstr "ลำดับที่"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:37
 msgid "ลูกค้า/ผู้ส่งออก"
-msgstr ""
+msgstr "ลูกค้า/ผู้ส่งออก"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:78
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:78
@@ -4739,27 +4739,29 @@ msgid ""
 "วัน เดือน ปี\n"
 "ของใบกำกับภาษี"
 msgstr ""
+"วัน เดือน ปี\n"
+"ของใบกำกับภาษี"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:43
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:43
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:43
 #: digisoft_erp/thai_tax/utils/base_report.py:243
 msgid "วันที่"
-msgstr ""
+msgstr "วันที่"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:143
 #: digisoft_erp/thai_tax/utils/base_report.py:150
 msgid "วันที่จ่าย"
-msgstr ""
+msgstr "วันที่จ่าย"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:139
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:139
 msgid "วันที่บันทึก"
-msgstr ""
+msgstr "วันที่บันทึก"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:31
 msgid "วันที่สร้าง"
-msgstr ""
+msgstr "วันที่สร้าง"
 
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:86
 msgid "วันที่ส่งมอบ"
