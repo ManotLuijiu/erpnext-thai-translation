@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
-"POT-Creation-Date: 2025-09-04 18:48+0642\n"
-"PO-Revision-Date: 2025-09-08 19:12\n"
+"POT-Creation-Date: 2025-09-08 20:23+0642\n"
+"PO-Revision-Date: 2025-09-08 20:38\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -34,10 +34,15 @@ msgstr ""
 "<p><strong>หมายเหตุ:</strong> ประเภทเงินได้ 40(1) และ 40(2) ต้องคำนวณอย่างซับซ้อนตามมาตรา 50 แห่งประมวลรัษฎากรไทย</p>\n"
 "<p><strong>เพื่อการคำนวณที่ถูกต้อง:</strong></p>\n"
 "<ul>\n"
-"    <li>40(1) เงินเดือน: คูณด้วยความถี่การจ่ายเงิน ใช้อัตราภาษีขั้นบันได แล้วหารกลับ</li>\n"
+"    <li>40(1) เงินเดือน: คูณด้วยความถี่การจ่ายเงิน ใช้อัตราก้าวหน้า แล้วหารกลับ</li>\n"
 "    <li>40(2) ค่าบริการ: 3% สำหรับผู้มีถิ่นที่อยู่ในประเทศ, 15% สำหรับผู้ไม่มีถิ่นที่อยู่ในประเทศ</li>\n"
 "</ul>\n"
-"<p>ระบบให้ค่าอัตราภาษีเริ่มต้นที่ง่ายขึ้น โปรดพิจารณาปรับแก้ไขด้วยตนเองในกรณีเฉพาะ</p>"
+"<p>ระบบให้ค่าอัตราเริ่มต้นที่ง่ายขึ้น โปรดพิจารณาปรับแก้ด้วยตนเองในกรณีเฉพาะ</p>"
+
+#: digisoft_erp/digisoft_erp/report/thai_accounts_payable/thai_accounts_payable.py:136
+#: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.py:149
+msgid " Days"
+msgstr "วัน"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.html:326
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.py:110
@@ -342,7 +347,7 @@ msgid "Actual Cash"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:192
-msgid "Additional Information / ข้อมูลเพิ่มเติม"
+msgid "Additional Information"
 msgstr ""
 
 #. Label of a Link in the Value Added Tax Workspace
@@ -353,454 +358,455 @@ msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.py:90
 msgid "Advance Amount"
-msgstr ""
+msgstr "จำนวนเงินล่วงหน้า"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:736
 msgid "Against Account"
-msgstr ""
+msgstr "บัญชีคู่ค้า"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:769
 msgid "Against Voucher"
-msgstr ""
+msgstr "ตัดกับใบสำคัญ"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:767
 msgid "Against Voucher Type"
-msgstr ""
+msgstr "เทียบกับประเภทใบสำคัญ"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_payable/thai_accounts_payable.py:110
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.py:110
-msgid "Age (Days)"
-msgstr ""
-
 #: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:76
-msgid "Age (Days) / อายุหนี้ (วัน)"
-msgstr ""
+msgid "Age (Days)"
+msgstr "อายุ (วัน)"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:23
 msgid "Ageing Based On"
-msgstr ""
+msgstr "อายุคงเหลือตาม"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:37
 msgid "Ageing Range"
-msgstr ""
+msgstr "ช่วงอายุหนี้"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:193
 msgid "All Thai tax system components are properly installed!"
-msgstr ""
+msgstr "ส่วนประกอบระบบภาษีไทยทั้งหมดถูกติดตั้งอย่างถูกต้องครบถ้วนแล้ว!"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.py:82
 msgid "Allocated Amount"
-msgstr ""
+msgstr "จำนวนเงินที่จัดสรรแล้ว"
 
 #. Label of a Link field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "Amended From"
-msgstr ""
+msgstr "แก้ไขจาก"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:155
 msgid "Amounts not Reflected"
-msgstr ""
+msgstr "จำนวนเงินที่ไม่ได้แสดงผล"
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:149
-msgid "Approval & Workflow / การอนุมัติและขั้นตอนการทำงาน"
-msgstr ""
+msgid "Approval & Workflow"
+msgstr "การอนุมัติและกระบวนการทำงาน"
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:183
-msgid "Approval Date / วันที่อนุมัติ"
-msgstr ""
+msgid "Approval Date"
+msgstr "วันที่อนุมัต"
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:176
-msgid "Approved By / อนุมัติโดย"
-msgstr ""
+msgid "Approved By"
+msgstr "อนุมัติโดย"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:16
 msgid "As On Date"
-msgstr ""
+msgstr "ณ วันที่"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #. Label of a shortcut in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset"
-msgstr ""
+msgstr "สินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Capitalization"
-msgstr ""
+msgstr "การตั้งบัญชีสินทรัพย์ถาวร"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Category"
-msgstr ""
+msgstr "หมวดหมู่สินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Depreciation Ledger"
-msgstr ""
+msgstr "บัญชีค่าเสื่อมราคาสินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Depreciations and Balances"
-msgstr ""
+msgstr "ค่าเสื่อมราคาและยอดคงเหลือของสินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #. Label of a shortcut in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Maintenance"
-msgstr ""
+msgstr "การบำรุงรักษาสินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Maintenance Log"
-msgstr ""
+msgstr "บันทึกการบำรุงรักษาสินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #. Label of a shortcut in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Movement"
-msgstr ""
+msgstr "การเคลื่อนไหวของสินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Repair"
-msgstr ""
+msgstr "การซ่อมแซมสินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Shift Allocation"
-msgstr ""
+msgstr "การจัดสรรการย้ายสินทรัพย์"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Asset Value Adjustment"
-msgstr ""
+msgstr "การปรับมูลค่าสินทรัพย์"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.py:396
 msgid "Assets"
-msgstr ""
+msgstr "สินทรัพย์"
 
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.js:219
 msgid "At least one income item is required"
-msgstr ""
+msgstr "จำเป็นต้องมีรายการรายได้อย่างน้อยหนึ่งรายการ"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:112
 msgid "Attachments"
-msgstr ""
+msgstr "ไฟล์แนบ"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Auto Apply Thai Format to Documents"
-msgstr ""
+msgstr "ตั้งค่ารูปแบบภาษาไทยอัตโนมัติสำหรับเอกสาร"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Auto Calculate VAT on Transactions"
-msgstr ""
+msgstr "คำนวณ VAT อัตโนมัติในรายการธุรกรรม"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Auto Create WHT Certificate on Payment"
-msgstr ""
+msgstr "สร้างใบรับรองภาษีหัก ณ ที่จ่ายอัตโนมัติเมื่อชำระเงิน"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Auto Generate Monthly PND Reports"
-msgstr ""
+msgstr "สร้างรายงาน ภ.ง.ด. รายเดือน อัตโนมัติ"
 
 #. Label of a Check field in DocType 'Thai Company Settings'
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Auto Generate Tax Invoice Number"
-msgstr ""
+msgstr "สร้างหมายเลขใบกำกับภาษีโดยอัตโนมัติ"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:369
 msgid "Auto Refresh"
-msgstr ""
+msgstr "รีเฟรชอัตโนมัติ"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:384
 msgid "Auto refresh disabled."
-msgstr ""
+msgstr "การรีเฟรชอัตโนมัติถูกปิดใช้งานแล้ว"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:374
 msgid "Auto refresh enabled. Report will update every 30 seconds."
-msgstr ""
+msgstr "เปิดใช้งานการรีเฟรชอัตโนมัติ รายงานจะอัปเดตทุก 30 วินาที"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:40
 msgid "Auto-Create Accounts Enabled"
-msgstr ""
+msgstr "เปิดใช้งานการสร้างบัญชีอัตโนมัติ"
 
 #: digisoft_erp/public/js/supplier.js:95
 #, python-format
 msgid "Auto-calculated WHT rate: {0}% using {1}"
-msgstr ""
+msgstr "อัตราภาษีหัก ณ ที่จ่ายที่คำนวณอัตโนมัติ: {0}% โดยใช้ {1}"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:28
 msgid ""
 "Auto-create accounts is enabled. Tax accounts will be created automatically "
 "when you save this document."
 msgstr ""
+"เปิดใช้งานการสร้างบัญชีอัตโนมัติ "
+"บัญชีภาษีจะถูกสร้างขึ้นโดยอัตโนมัติเมื่อคุณบันทึกเอกสารนี้"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Automatically create Thai tax accounts if they don't exist"
-msgstr ""
+msgstr "สร้างบัญชีภาษีไทยโดยอัตโนมัติหากยังไม่มีอยู่"
 
 #. Label of a Link in the Manufacturing - TH Workspace
 #. Label of a shortcut in the Manufacturing - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/manufacturing___th/manufacturing___th.json
 msgid "BOM"
-msgstr ""
+msgstr "สูตรวัสดุ (BOM)"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:688
 msgid "Balance ({0})"
-msgstr ""
+msgstr "ยอดคงเหลือ ({0})"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:155
 msgid "Balance as per Books"
-msgstr ""
+msgstr "ยอดคงเหลือตามบัญชี"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.py:179
 msgid "Balanced"
-msgstr ""
+msgstr "สมดุล"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:8
 msgid "Bank Account"
-msgstr ""
+msgstr "บัญชีธนาคาร"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:146
 msgid "Bank Reconciliation Summary"
-msgstr ""
+msgstr "สรุปการกระทบยอดบัญชีธนาคาร"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.py:134
 msgid "Bank Statement balance as per General Ledger"
-msgstr ""
+msgstr "ยอดเงินในบัญชีธนาคารตามบัญชีแยกประเภททั่วไป"
 
 #: digisoft_erp/public/js/purchase_invoice.js:173
 msgid "Base Amount"
-msgstr ""
+msgstr "จำนวนเงินฐาน"
 
 #: digisoft_erp/digisoft_erp/report/thai_production_report/thai_production_report.js:16
 msgid "Based On"
-msgstr ""
+msgstr "อ้างอิงจาก"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:74
 msgid "Based On Payment Terms"
-msgstr ""
+msgstr "อ้างอิงตามเงื่อนไขการชำระเงิน"
 
 #. Label of a Link in the Manufacturing - TH Workspace
 #. Label of a Link in the Warehouse Management Workspace
 #: digisoft_erp/digisoft_erp/workspace/manufacturing___th/manufacturing___th.json
 #: digisoft_erp/digisoft_erp/workspace/warehouse_management/warehouse_management.json
 msgid "Batch"
-msgstr ""
+msgstr "ชุดข้อมูล"
 
 #: digisoft_erp/digisoft_erp/report/thai_picking_list/thai_picking_list.py:89
 msgid "Batch No"
-msgstr ""
+msgstr "หมายเลขชุด"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.js:42
 msgid "Bill No"
-msgstr ""
+msgstr "ใบกำ"
 
 #: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.js:36
 msgid "Billing Type / ประเภทการวางบิล"
-msgstr ""
+msgstr "ประเภทการวางบิล"
 
 #. Option for the 'Entity Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
 msgid "Both"
-msgstr ""
+msgstr "ทั้งสอง"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.js:60
 msgid "Both Formats"
-msgstr ""
+msgstr "ทั้งสองรูปแบบ"
 
 #. Label of a Data field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.py:127
 msgid "Branch Code"
-msgstr ""
+msgstr "รหัสสาขา"
 
 #. Label of a Data field in DocType 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "Branch Code (รหัสสาขา)"
-msgstr ""
+msgstr "รหัสสาขา"
 
 #: digisoft_erp/thai_tax/utils/validators.py:149
 msgid "Branch code must be 5 digits"
-msgstr ""
+msgstr "รหัสสาขาต้องเป็นตัวเลข 5 หลัก"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:119
 msgid "Bulk Upload Attachments"
-msgstr ""
+msgstr "อัปโหลดไฟล์แนบจำนวนมาก"
 
 #: digisoft_erp/config/desk.py:63
 msgid "Business Management"
-msgstr ""
+msgstr "การจัดการธุรกิจ"
 
 #. Label of a Card Break in the Digisoft ERP Workspace
 #: digisoft_erp/digisoft_erp/workspace/digisoft_erp/digisoft_erp.json
 msgid "Business Operations"
-msgstr ""
+msgstr "ธุรกิจ สวนที่สารก"
 
 #. Label of a Data field in DocType 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "Business Registration Number"
-msgstr ""
+msgstr "หมายเลขทะเบียนธุรกิจ"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:30
 msgid "Calculate Ageing With"
-msgstr ""
+msgstr "คำนวณอายุเจ้าหนี้ด้วย"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:155
 msgid "Calculated Bank Balance"
-msgstr ""
+msgstr "ยอดเงินคงเหลือในธนาคารที่คำนวณแล้ว"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.py:154
 msgid "Calculated Bank Statement balance"
-msgstr ""
+msgstr "ยอดคงเหลือในใบแจ้งยอดบัญชีธนาคารที่คำนวณแล้ว"
 
 #: digisoft_erp/public/js/supplier.js:56
 msgid "Calculating WHT rate..."
-msgstr ""
+msgstr "กำลังคำนวณอัตรา ภาษีหัก ณ ที่จ่าย..."
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:75
 msgid "Can not filter based on Child Account, if grouped by Account"
-msgstr ""
+msgstr "ไม่สามารถกรองโดยใช้ บัญชีย่อย ได้หากจัดกลุ่มตาม บัญชี"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:78
 msgid "Can not filter based on Voucher No, if grouped by Voucher"
-msgstr ""
+msgstr "ไม่สามารถกรองตาม เลขที่ใบสำคัญ ได้ หากจัดกลุ่มตาม ใบสำคัญ"
 
 #. Option for the 'Status' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:194
 msgid "Cancelled"
-msgstr ""
+msgstr "ยกเลิกแล้ว"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.py:69
 msgid "Card Sales"
-msgstr ""
+msgstr "บัตรขาย"
 
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:196
 msgid "Cash Flow from Financing"
-msgstr ""
+msgstr "กระแสเงินสดจากการจัดหาเงินทุน"
 
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:187
 msgid "Cash Flow from Investing"
-msgstr ""
+msgstr "กระแสเงินสดจากการลงทุน"
 
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:175
 msgid "Cash Flow from Operations"
-msgstr ""
+msgstr "กระแสเงินสดจากการดำเนินงาน"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.py:63
 msgid "Cash Sales"
-msgstr ""
+msgstr "ขายเงินสด"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.js:42
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.py:52
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.js:36
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.py:44
 msgid "Cashier"
-msgstr ""
+msgstr "พนักงานเก็บเงิน"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.js:62
 msgid "Categorize by"
-msgstr ""
+msgstr "จัดหมวดหมู่ตาม"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:320
 msgid "Certificate Count"
-msgstr ""
+msgstr "จำนวนใบรับรอง"
 
 #. Label of a Section Break field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "Certificate Details"
-msgstr ""
+msgstr "รายละเอียดใบรับรอง"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.py:47
 #: digisoft_erp/digisoft_erp/report/tax_withholding_summary/tax_withholding_summary.py:104
 msgid "Certificate No"
-msgstr ""
+msgstr "ตัวเบลรี"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:50
 msgid "Certificate No."
-msgstr ""
+msgstr "เลขที่ใบรับรอง"
 
 #. Label of a Data field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "Certificate Number"
-msgstr ""
+msgstr "หมายเลขใบรับรอง"
 
 #: digisoft_erp/digisoft_erp/report/tax_withholding_summary/tax_withholding_summary.py:145
 msgid "Certificates"
-msgstr ""
+msgstr "ใบรับรอง"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.py:89
 msgid "Change Amount"
-msgstr ""
+msgstr "เปลี่ยนจำนวนเงิน"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:127
 msgid "Check Compliance"
-msgstr ""
+msgstr "ตรวจสอบความสอดคล้อง"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:20
 msgid "Check System Status"
-msgstr ""
+msgstr "ตรวจสอบสถานะระบบ"
 
 #: digisoft_erp/public/js/supplier.js:223
 msgid ""
 "Check if this supplier is typically a non-resident for tax purposes (affects"
 " WHT rates)."
 msgstr ""
+"ตรวจสอบว่าสินค้าผู้จำหน่ายนี้โดยทั่วไปเป็นผู้ไม่มีถิ่นที่อยู่เพื่อวัตถุประสงค์ทางภาษีหรือไม่"
+" (ส่งผลต่ออัตรา ภาษีหัก ณ ที่จ่าย)"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:164
 msgid "Checking Thai Tax System..."
-msgstr ""
+msgstr "กำลังตรวจสอบระบบภาษีไทย..."
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.py:69
 msgid "Cheque Date"
-msgstr ""
+msgstr "วันที่ขิน"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.py:63
 msgid "Cheque No"
-msgstr ""
+msgstr "เลขที่เช็ค"
 
 #: digisoft_erp/thai_tax/overrides/payment_entry.py:48
 msgid "Cheque Number is required for cheque payments"
-msgstr ""
+msgstr "หมายเลขเช็คเป็นข้อมูลที่จำเป็นสำหรับการชำระเงินด้วยเช็ค"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.py:147
 msgid "Cheques and Deposits incorrectly cleared"
-msgstr ""
+msgstr "เช็คและเงินฝากถูกเคลียร์ผิดพลาด"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.js:63
 msgid "Choose currency display format"
-msgstr ""
+msgstr "เลือกฟอร์แมตการแสดงสกุลเงิน"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.py:87
 msgid "Clearance Date"
-msgstr ""
+msgstr "วันที่ เป็น"
 
 #: digisoft_erp/overrides/bank_reconciliation_tool.py:141
 msgid "Clearance date cannot be before posting date for {0}"
-msgstr ""
+msgstr "วันที่เคลียร์ไม่สามารถน้อยกว่าวันที่บันทึกสำหรับ {0} ได้"
 
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:314
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:315
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:461
 msgid "Closing (Opening + Total)"
-msgstr ""
+msgstr "ปิดบัญชี (ยอดยกมา + ยอดรวม)"
 
 #: digisoft_erp/digisoft_erp/report/thai_trial_balance/thai_trial_balance.py:73
 msgid "Closing Balance"
-msgstr ""
+msgstr "ยอดคงเหลือปิดบัญชี"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:40
 msgid "Comma separated ageing range in days (e.g., 30, 60, 90, 120)"
-msgstr ""
+msgstr "ช่วงอายุหนี้แยกด้วยเครื่องหมายจุลภาคในหน่วยวัน (เช่น 30, 60, 90, 120)"
 
 #. Label of a Link field in DocType 'Thai Company Settings'
 #. Option for the 'Entity Type' (Select) field in DocType 'Thai WHT Rate
@@ -835,11 +841,13 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:8
 #: digisoft_erp/digisoft_erp/workspace/value_added_tax/value_added_tax.json
 msgid "Company"
-msgstr ""
+msgstr "บริษัท"
 
 #: digisoft_erp/thai_tax/utils/tax_calculator.py:172
 msgid "Company Tax ID is required to create withholding tax certificate"
 msgstr ""
+"รหัสประจำตัวผู้เสียภาษีของบริษัทจำเป็นต้องใช้ในการสร้างหนังสือรับรองการหักภาษี"
+" ณ ที่จ่าย"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.py:31
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:29
@@ -850,38 +858,38 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:32
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:32
 msgid "Company is mandatory"
-msgstr ""
+msgstr "บริษัทเป็นข้อมูลที่จำเป็น"
 
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:44
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:27
 msgid "Company is required"
-msgstr ""
+msgstr "จำเป็นต้องระบุบริษัท"
 
 #: digisoft_erp/config/desk.py:107
 msgid "Company master data with Thai tax configuration"
-msgstr ""
+msgstr "ข้อมูลหลักบริษัทพร้อมการตั้งค่าภาษีไทย"
 
 #: digisoft_erp/digisoft_erp/report/thai_production_report/thai_production_report.html:356
 msgid "Completed"
-msgstr ""
+msgstr "เสร็จสมบูรณ์"
 
 #: digisoft_erp/public/js/supplier.js:172
 msgid "Complex WHT Calculation"
-msgstr ""
+msgstr "การคำนวณภาษีหัก ณ ที่จ่ายขั้นสูง"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:133
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:148
 msgid "Compliance Check"
-msgstr ""
+msgstr "การตรวจสอบความสอดคล้อง"
 
 #. Count format of shortcut in the Value Added Tax Workspace
 #: digisoft_erp/digisoft_erp/workspace/value_added_tax/value_added_tax.json
 msgid "Configure VAT"
-msgstr ""
+msgstr "ตั้งค่าภาษีมูลค่าเพิ่ม (VAT)"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:183
 msgid "Container No"
-msgstr ""
+msgstr "หมายเลขตู้คอนเทนเนอร์"
 
 #. Label of a Link in the Financial Statement Workspace
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.html:286
@@ -892,44 +900,44 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:43
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "Cost Center"
-msgstr ""
+msgstr "ศูนย์ต้นทุน"
 
 #: digisoft_erp/digisoft_erp/report/monthly_cost_and_expenses_chart/monthly_cost_and_expenses_chart.py:28
 msgid "Costs (Direct)"
-msgstr ""
+msgstr "ต้นทุน (โดยตรง)"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:8
 msgid "Create Thai Tax Accounts"
-msgstr ""
+msgstr "สร้างบัญชีภาษีไทย"
 
 #: digisoft_erp/config/desk.py:25
 msgid "Create and manage withholding tax certificates"
-msgstr ""
+msgstr "สร้างและจัดการใบรับรองภาษีหัก ณ ที่จ่าย"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:114
 msgid "Created Thai tax accounts: {0}"
-msgstr ""
+msgstr "สร้างบัญชีภาษีไทย: {0}"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:88
 msgid "Creating Thai Tax Accounts..."
-msgstr ""
+msgstr "กำลังสร้างบัญชีภาษีไทย..."
 
 #: digisoft_erp/digisoft_erp/report/thai_picking_list/thai_picking_list.py:25
 msgid "Creation Date"
-msgstr ""
+msgstr "วันที่สร้าง"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.py:81
 #: digisoft_erp/digisoft_erp/report/thai_trial_balance/thai_trial_balance.py:67
 msgid "Credit"
-msgstr ""
+msgstr "เครดิต"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:706
 msgid "Credit (Transaction)"
-msgstr ""
+msgstr "เครดิต (รายการ)"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:681
 msgid "Credit ({0})"
-msgstr ""
+msgstr "เครดิต ({0})"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.py:128
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.py:314
@@ -938,7 +946,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.py:94
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:40
 msgid "Currency"
-msgstr ""
+msgstr "สกุลเงิน"
 
 #. Label of a Link in the Accounts Receivable - TH Workspace
 #. Label of a Link in the Sales Order - TH Workspace
@@ -957,56 +965,56 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/workspace/accounts_receivable___th/accounts_receivable___th.json
 #: digisoft_erp/digisoft_erp/workspace/sales_order___th/sales_order___th.json
 msgid "Customer"
-msgstr ""
+msgstr "ลูกค้า"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.js:231
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.js:289
 msgid "Customer Analysis"
-msgstr ""
+msgstr "การวิเคราะห์ลูกค้า"
 
 #: digisoft_erp/overrides/sales_invoice.py:49
 msgid "Customer Branch Code must be 5 digits"
-msgstr ""
+msgstr "รหัสสาขาลูกค้าต้องเป็นตัวเลข 5 หลัก"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:50
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.py:129
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.py:146
 msgid "Customer Group"
-msgstr ""
+msgstr "กลุ่มลูกค้า"
 
 #. Label of a Link in the Accounts Receivable - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/accounts_receivable___th/accounts_receivable___th.json
 msgid "Customer Ledger Summary"
-msgstr ""
+msgstr "สรุปบัญชีแยกประเภทลูกค้า"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.py:52
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.py:81
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:134
 msgid "Customer Name"
-msgstr ""
+msgstr "ชื่อลูกค้า"
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:58
-msgid "Customer Tax ID / เลขประจำตัวผู้เสียภาษีลูกค้า"
-msgstr ""
+msgid "Customer Tax ID"
+msgstr "เลขประจำตัวผู้เสียภาษีของลูกค้า"
 
 #: digisoft_erp/config/desk.py:116
 msgid "Customer master data with Thai tax ID"
-msgstr ""
+msgstr "ข้อมูลหลักลูกค้าพร้อมเลขประจำตัวผู้เสียภาษีไทย"
 
 #: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:46
 msgid "Customer/Supplier / ลูกค้า/ผู้จำหน่าย"
-msgstr ""
+msgstr "ลูกค้า/ผู้จำหน่าย"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.js:179
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.js:242
 msgid "Daily Summary"
-msgstr ""
+msgstr "สรุปรายวัน"
 
 #. Label of a Link in the Digisoft ERP Workspace
 #: digisoft_erp/config/desk.py:136
 #: digisoft_erp/digisoft_erp/workspace/digisoft_erp/digisoft_erp.json
 msgid "Data Import"
-msgstr ""
+msgstr "นำเข้าข้อมูล"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.py:53
 #: digisoft_erp/digisoft_erp/report/tax_withholding_summary/tax_withholding_summary.py:111
@@ -1017,46 +1025,48 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.py:25
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.py:31
 msgid "Date"
-msgstr ""
+msgstr "วันที่"
 
 #: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:33
 msgid "Date / วันที่"
-msgstr ""
+msgstr "Date / วันที่"
 
+#: digisoft_erp/digisoft_erp/report/thai_accounts_payable/thai_accounts_payable.py:153
+#: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.py:166
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.html:355
 msgid "Days"
-msgstr ""
+msgstr "วัน"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.py:75
 #: digisoft_erp/digisoft_erp/report/thai_trial_balance/thai_trial_balance.py:61
 msgid "Debit"
-msgstr ""
+msgstr "Dr."
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:699
 msgid "Debit (Transaction)"
-msgstr ""
+msgstr "เดบิต (รายการ)"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:674
 msgid "Debit ({0})"
-msgstr ""
+msgstr "เดบิต ({0})"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:75
 msgid "Default Advance Account"
-msgstr ""
+msgstr "บัญชีเงินล่วงหน้ามาตรฐาน"
 
 #. Label of a Link field in DocType 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "Default Currency"
-msgstr ""
+msgstr "สกุลเงินเริ่มต้น"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.js:58
 msgid "Default Format"
-msgstr ""
+msgstr "รูปแบบเริ่มต้น"
 
 #. Label of a Data field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Default Tax Branch Code"
-msgstr ""
+msgstr "รหัสสาขาภาษีเริ่มต้น"
 
 #. Label of a Link field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:108
@@ -1064,7 +1074,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:40
 #: digisoft_erp/digisoft_erp/utils/thai_tax_integration.py:160
 msgid "Default VAT Input Account"
-msgstr ""
+msgstr "บัญชีภาษีมูลค่าเพิ่มขาเข้าตั้งต้น"
 
 #. Label of a Link field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:109
@@ -1072,7 +1082,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:45
 #: digisoft_erp/digisoft_erp/utils/thai_tax_integration.py:163
 msgid "Default VAT Output Account"
-msgstr ""
+msgstr "บัญชีภาษีมูลค่าเพิ่มขาออกเริ่มต้น"
 
 #. Label of a Link field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:106
@@ -1080,12 +1090,12 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:30
 #: digisoft_erp/digisoft_erp/utils/thai_tax_integration.py:154
 msgid "Default WHT Payable Account"
-msgstr ""
+msgstr "บัญชีเจ้าหนี้ภาษีหัก ณ ที่จ่ายเริ่มต้น"
 
 #. Label of a Table field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Default WHT Rates"
-msgstr ""
+msgstr "อัตราภาษีหัก ณ ที่จ่ายเริ่มต้น"
 
 #. Label of a Link field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:107
@@ -1093,37 +1103,37 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:35
 #: digisoft_erp/digisoft_erp/utils/thai_tax_integration.py:157
 msgid "Default WHT Receivable Account"
-msgstr ""
+msgstr "บัญชีลูกหนี้ภาษีหัก ณ ที่จ่ายเริ่มต้น"
 
 #. Description of the 'Default WHT Payable Account' (Link) field in DocType
 #. 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Default account for recording WHT payable (liability)"
-msgstr ""
+msgstr "บัญชีນอกเบิ่งระบอรางภาษีหัก ณ ที่จ่าย (WHT) เบิ่งลาง (Liability)"
 
 #. Description of the 'Default WHT Receivable Account' (Link) field in DocType
 #. 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Default account for recording WHT receivable (asset)"
-msgstr ""
+msgstr "ปีบัญชีไม่ระบระบริษัทเสยร์ WHT (สินทรัพย์)"
 
 #. Description of the 'Default VAT Input Account' (Link) field in DocType
 #. 'Thai
 #. Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Default account for recording input VAT"
-msgstr ""
+msgstr "บัญชีใหม่ราคาต่อหน่วย VAT ซื้อ"
 
 #. Description of the 'Default VAT Output Account' (Link) field in DocType
 #. 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Default account for recording output VAT"
-msgstr ""
+msgstr "บัญชีไม่อยการชำระเงิน VAT ไทย"
 
 #. Label of a Link in the Accounts Receivable - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/accounts_receivable___th/accounts_receivable___th.json
 msgid "Delivered Items To Be Billed"
-msgstr ""
+msgstr "รายการส่งมอบที่ต้องออกใบแจ้งหนี้"
 
 #. Label of a Link in the Sales Order - TH Workspace
 #. Label of a Link in the Warehouse Management Workspace
@@ -1133,237 +1143,237 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/workspace/sales_order___th/sales_order___th.json
 #: digisoft_erp/digisoft_erp/workspace/warehouse_management/warehouse_management.json
 msgid "Delivery Note"
-msgstr ""
+msgstr "ใบส่งสินค้า"
 
 #: digisoft_erp/digisoft_erp/report/thai_production_report/thai_production_report.py:194
 msgid "Delivery Status"
-msgstr ""
+msgstr "สถานะการจัดส่ง"
 
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:177
 msgid "Depreciation"
-msgstr ""
+msgstr "ค่าเสื่อมราคา"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Depreciation Schedule"
-msgstr ""
+msgstr "ตารางค่าเสื่อมราคา"
 
 #. Label of a Data field in DocType 'Thai WHT Rate Setting'
 #. Label of a Data field in DocType 'Withholding Tax Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "Description"
-msgstr ""
+msgstr "คำอธิบาย"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.js:48
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:171
 msgid "Destination"
-msgstr ""
+msgstr "ปลายทาง"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.js:228
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.js:287
 msgid "Destination Analysis"
-msgstr ""
+msgstr "การวิเคราะห์จุดหมายปลายทาง"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.py:88
 msgid "Difference"
-msgstr ""
+msgstr "ความแตกต่าง"
 
 #. Name of a Workspace
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:20
 #: digisoft_erp/config/desktop.py:21
 #: digisoft_erp/digisoft_erp/workspace/digisoft_erp/digisoft_erp.json
 msgid "Digisoft ERP"
-msgstr ""
+msgstr "Digisoft ERP"
 
 #. Name of a Workspace
 #: digisoft_erp/digisoft_erp/workspace/digisoft_settings/digisoft_settings.json
 msgid "Digisoft Settings"
-msgstr ""
+msgstr "การตั้งค่า Digisoft"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.py:71
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.py:81
 msgid "Discount"
-msgstr ""
+msgstr "ส่วนลด"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.js:50
 msgid "Display Thai translations alongside English account names"
-msgstr ""
+msgstr "แสดงคำแปลภาษาไทยควบคู่กับชื่อบัญชีภาษาอังกฤษ"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.py:44
 msgid "Document No"
-msgstr ""
+msgstr "เลขที่เอกสาร"
 
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.js:42
 msgid "Document Status"
-msgstr ""
+msgstr "สถานะเอกสาร"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.py:38
 msgid "Document Type"
-msgstr ""
+msgstr "ประเภทเอกสาร"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.js:136
 #: digisoft_erp/digisoft_erp/report/thai_production_report/thai_production_report.js:225
 msgid "Download PDF"
-msgstr ""
+msgstr "ดาวน์โหลด PDF"
 
 #. Option for the 'Status' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:192
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:397
 msgid "Draft"
-msgstr ""
+msgstr "ฉบับร่าง"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_payable/thai_accounts_payable.py:72
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.py:72
 msgid "Due Date"
-msgstr ""
+msgstr "กำหนดส่ง"
 
 #: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:58
 msgid "Due Date / วันครบกำหนด"
-msgstr ""
+msgstr "Due Date / วันครบกำหนด"
 
 #. Label of a Link in the Accounts Receivable - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/accounts_receivable___th/accounts_receivable___th.json
 msgid "Dunning"
-msgstr ""
+msgstr "การทวงถามหนี้"
 
 #: digisoft_erp/digisoft_erp/report/thai_production_report/thai_production_report.py:188
 msgid "Efficiency"
-msgstr ""
+msgstr "ประสิทธิภาพ"
 
 #. Label of a Data field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.js:11
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "Email"
-msgstr ""
+msgstr "อีเมล"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Enable PND1 (Salary/Wages)"
-msgstr ""
+msgstr "เปิดใช้งาน ภ.ง.ด.1 (เงินเดือน/ค่าจ้าง)"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Enable PND3 (Individual Services)"
-msgstr ""
+msgstr "เปิดใช้งาน ภ.ง.ด.3 (บริการบุคคลธรรมดา)"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Enable PND53 (Company Services)"
-msgstr ""
+msgstr "เปิดใช้งาน PND53 (บริการของบริษัท)"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Enable Reverse Charge VAT"
-msgstr ""
+msgstr "เปิดใช้งาน VAT ภาระผันกลับ"
 
 #. Label of a Check field in DocType 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "Enable Thai Tax Features"
-msgstr ""
+msgstr "เปิดใช้งานฟีเจอร์ภาษีไทย"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:120
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.js:45
 msgid "Enable Thai formatting and analysis features"
-msgstr ""
+msgstr "เปิดใช้งานฟีเจอร์การจัดรูปแบบและวิเคราะห์ภาษาไทย"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.js:57
 msgid "Enable Thai formatting and receipt features"
-msgstr ""
+msgstr "เปิดใช้งานการจัดรูปแบบภาษาไทยและฟีเจอร์ใบเสร็จ"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.js:57
 msgid "Enable Thai formatting and specialized import/export features"
-msgstr ""
+msgstr "เปิดใช้งานการจัดรูปแบบภาษาไทยและฟีเจอร์นำเข้า/ส่งออกเฉพาะทาง"
 
 #: digisoft_erp/digisoft_erp/report/thai_picking_list/thai_picking_list.js:69
 msgid "Enable Thai formatting and warehouse features"
-msgstr ""
+msgstr "เปิดใช้งานรูปแบบภาษาไทยและฟีเจอร์คลังสินค้า"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.js:42
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:53
 msgid "Enable Thai formatting features"
-msgstr ""
+msgstr "เปิดใช้งานคุณสมบัติการจัดรูปแบบภาษาไทย"
 
 #. Label of a Check field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Enable Withholding Tax"
-msgstr ""
+msgstr "เปิดใช้งาน ภาษีหัก ณ ที่จ่าย"
 
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:28
 msgid "End Date"
-msgstr ""
+msgstr "วันที่สิ้นสุด"
 
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:34
 msgid "End Year"
-msgstr ""
+msgstr "สิ้นปี"
 
 #. Label of a Select field in DocType 'Thai WHT Rate Setting'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
 msgid "Entity Type"
-msgstr ""
+msgstr "ประเภทนิติบุคคล"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.py:400
 msgid "Equity"
-msgstr ""
+msgstr "ส่วนของผู้ถือหุ้น"
 
 #. Label of a Link in the Digisoft ERP Workspace
 #: digisoft_erp/config/desk.py:153
 #: digisoft_erp/digisoft_erp/workspace/digisoft_erp/digisoft_erp.json
 msgid "Error Log"
-msgstr ""
+msgstr "บันทึกข้อผิดพลาด"
 
 #: digisoft_erp/public/js/supplier.js:102
 msgid "Error calculating WHT rate"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการคำนวณอัตรา ภาษีหัก ณ ที่จ่าย"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:208
 msgid "Error checking Thai tax system: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการตรวจสอบระบบภาษีไทย: {0}"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:121
 msgid "Error creating Thai tax accounts. Please check error logs."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการสร้างบัญชีภาษีไทย กรุณาตรวจสอบบันทึกข้อผิดพลาด"
 
 #: digisoft_erp/thai_tax/report/pnd_reports/pnd_reports.py:28
 msgid "Error generating PND report: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการสร้างรายงาน ภ.ง.ด.: {0}"
 
 #: digisoft_erp/thai_tax/report/vat_pp30/vat_pp30.py:110
 msgid "Error generating PP30 report: {0}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการสร้างรายงาน PP30: {0}"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:35
 msgid "Error generating report: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการสร้างรายงาน: {0}"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:241
 msgid "Error installing Thai tax fields: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการติดตั้งฟิลด์ภาษีไทย: {0}"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:259
 msgid "Error loading attachments"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการโหลดไฟล์แนบ"
 
 #: digisoft_erp/thai_tax/report/vat_pp30/vat_pp30.py:36
 msgid "Error retrieving VAT data: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการดึงข้อมูล VAT: {0}"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:226
 msgid "Error retrieving withholding tax data: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการดึงข้อมูลภาษีหัก ณ ที่จ่าย: {0}"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.py:116
 msgid "Est. Annual Income (฿)"
-msgstr ""
+msgstr "รายได้ประจำปีโดยประมาณ (฿)"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.py:99
 msgid "Expected Cash"
-msgstr ""
+msgstr "เงินสดที่คาดว่าจะได้รับ"
 
 #: digisoft_erp/digisoft_erp/report/monthly_cost_and_expenses_chart/monthly_cost_and_expenses_chart.py:34
 msgid "Expenses (Operating)"
-msgstr ""
+msgstr "ค่าใช้จ่าย (ดำเนินงาน)"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.js:90
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.js:94
@@ -1374,59 +1384,59 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:122
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:243
 msgid "Export"
-msgstr ""
+msgstr "ส่งออก"
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:94
-msgid "Export Eligible (VAT Exempt) / มีสิทธิ์ยกเว้นภาษีส่งออก"
-msgstr ""
+msgid "Export Eligible (VAT Exempt)"
+msgstr "ส่งออกที่มีสิทธิ์ (ยกเว้น VAT)"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.js:153
 #: digisoft_erp/digisoft_erp/report/thai_production_report/thai_production_report.js:242
 msgid "Export Excel"
-msgstr ""
+msgstr "ส่งออก Excel"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.js:79
 msgid "Export PP30 Report"
-msgstr ""
+msgstr "ส่งออกรายงาน PP30"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.js:109
 msgid "Export Purchase VAT"
-msgstr ""
+msgstr "ส่งออก VAT การซื้อ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.js:93
 msgid "Export Sales VAT"
-msgstr ""
+msgstr "ส่งออก VAT ขาย"
 
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:139
 msgid "Export Thai P&L"
-msgstr ""
+msgstr "ส่งออก งบกำไรขาดทุน ภาษาไทย"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:173
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.js:109
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:101
 msgid "Export Thai PDF"
-msgstr ""
+msgstr "ส่งออก PDF ภาษาไทย"
 
 #: digisoft_erp/overrides/sales_invoice.py:56
 msgid "Export invoices cannot be VAT eligible"
-msgstr ""
+msgstr "ใบกำกับภาษีที่ส่งออกไม่สามารถใช้สิทธิ์ภาษีมูลค่าเพิ่มได้"
 
 #: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.js:83
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.js:174
 msgid "Export to Excel"
-msgstr ""
+msgstr "ส่งออกเป็น Excel"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.js:88
 msgid "Export ภงด1"
-msgstr ""
+msgstr "ส่งออก ภงด.1"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.js:92
 msgid "Export ภงด3"
-msgstr ""
+msgstr "ส่งออก ภงด3"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.js:96
 msgid "Export ภงด53"
-msgstr ""
+msgstr "ส่งออก ภงด53"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_payable/thai_accounts_payable.py:284
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.py:297
@@ -1434,31 +1444,31 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.py:354
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.py:365
 msgid "Failed to generate PDF"
-msgstr ""
+msgstr "ไม่สามารถสร้างไฟล์ PDF ได้"
 
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:167
 msgid "Feature coming soon"
-msgstr ""
+msgstr "ฟีเจอร์จะมาในเร็วๆ นี้"
 
 #: digisoft_erp/thai_tax/utils/validators.py:81
 msgid "Field '{0}' is required"
-msgstr ""
+msgstr "ฟิลด์ '{0}' จำเป็นต้องระบุ"
 
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:22
 msgid "Filter Based On"
-msgstr ""
+msgstr "กรองตาม"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:36
 msgid "Filter by Reference Date"
-msgstr ""
+msgstr "กรองตามวันที่อ้างอิง"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:46
 msgid "Filter by certificate status"
-msgstr ""
+msgstr "กรองตามสถานะใบรับรอง"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:33
 msgid "Filter by specific PND type"
-msgstr ""
+msgstr "กรองตามประเภท ภ.ง.ด. เฉพาะ"
 
 #. Label of a Link in the Financial Statement Workspace
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.js:74
@@ -1466,53 +1476,53 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:19
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "Finance Book"
-msgstr ""
+msgstr "สมุดบัญชีการเงิน"
 
 #. Label of a Card Break in the Digisoft ERP Workspace
 #: digisoft_erp/digisoft_erp/workspace/digisoft_erp/digisoft_erp.json
 msgid "Financial Reports"
-msgstr ""
+msgstr "รายงานทางการเงิน"
 
 #. Name of a Workspace
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "Financial Statement"
-msgstr ""
+msgstr "งบการเงิน"
 
 #. Label of a Data field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "First Name"
-msgstr ""
+msgstr "ชื่อจริง"
 
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.js:208
 msgid "First Name and Last Name are required for Individual payee"
-msgstr ""
+msgstr "ชื่อและนามสกุลเป็นข้อมูลที่จำเป็นสำหรับผู้รับเงินบุคคลธรรมดา"
 
 #. Label of a Select field in DocType 'Thai Company Settings'
 #. Label of a Select field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Fiscal Year Start Month"
-msgstr ""
+msgstr "เดือนเริ่มต้นปีงบประมาณ"
 
 #. Label of a Link in the Fixed Assets - TH Workspace
 #. Label of a shortcut in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Fixed Asset Register"
-msgstr ""
+msgstr "ทะเบียนสินทรัพย์ถาวร"
 
 #. Name of a Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Fixed Assets - TH"
-msgstr ""
+msgstr "สินทรัพย์ถาวร"
 
 #. Label of a chart in the Fixed Assets - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/fixed_assets___th/fixed_assets___th.json
 msgid "Fixed Assets Summary"
-msgstr ""
+msgstr "สรุปสินทรัพย์ถาวร"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:367
 msgid "Follow Up List"
-msgstr ""
+msgstr "รายการติดตามผล"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.js:16
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.js:16
@@ -1529,7 +1539,7 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.js:16
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:16
 msgid "From Date"
-msgstr ""
+msgstr "จากวันที่"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.py:34
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:32
@@ -1538,11 +1548,11 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/tax_withholding_summary/tax_withholding_summary.py:35
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:31
 msgid "From Date and To Date are mandatory"
-msgstr ""
+msgstr "วันที่เริ่มต้นและวันที่สิ้นสุดเป็นข้อมูลที่ต้องระบุ"
 
 #: digisoft_erp/overrides/bank_reconciliation_tool.py:33
 msgid "From Date cannot be after To Date"
-msgstr ""
+msgstr "วันที่เริ่มต้นต้องไม่เกินวันที่สิ้นสุด"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.py:37
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:35
@@ -1552,113 +1562,113 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:34
 #: digisoft_erp/thai_tax/utils/base_report.py:45
 msgid "From Date cannot be greater than To Date"
-msgstr ""
+msgstr "วันที่เริ่มต้นต้องไม่มากกว่าวันที่สิ้นสุด"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:81
 msgid "From Date must be before To Date"
-msgstr ""
+msgstr "วันที่เริ่มต้นต้องน้อยกว่าวันที่สิ้นสุด"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:90
 msgid "From Invoice Date"
-msgstr ""
+msgstr "จากวันที่ใบแจ้งหนี้"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:100
 msgid "From Payment Date"
-msgstr ""
+msgstr "จากวันที่ชำระเงิน"
 
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:47
 msgid "From Reference Date"
-msgstr ""
+msgstr "จากวันที่อ้างอิง"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:659
 msgid "GL Entry"
-msgstr ""
+msgstr "รายการสมุดรายวัน"
 
 #. Label of a Link in the Value Added Tax Workspace
 #: digisoft_erp/digisoft_erp/workspace/value_added_tax/value_added_tax.json
 msgid "GST Balance"
-msgstr ""
+msgstr "ยอดคงเหลือภาษีมูลค่าเพิ่ม"
 
 #. Label of a Section Break field in DocType 'Thai Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "General Settings"
-msgstr ""
+msgstr "การตั้งค่าทั่วไป"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:286
 msgid "Generate Follow Up List"
-msgstr ""
+msgstr "สร้างรายการติดตามผล"
 
 #: digisoft_erp/config/desk.py:50
 msgid "Generate PND1, PND3, and PND53 withholding tax reports"
-msgstr ""
+msgstr "สร้างรายงานภาษีหัก ณ ที่จ่าย PND1, PND3 และ PND53"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable_payable_ageing/thai_accounts_receivable_payable_ageing.html:418
 #: digisoft_erp/digisoft_erp/report/thai_production_report/thai_production_report.html:448
 msgid "Generated on"
-msgstr ""
+msgstr "สร้างเมื่อ"
 
 #: digisoft_erp/config/desk.py:34
 msgid "Global Thai tax configuration settings"
-msgstr ""
+msgstr "การตั้งค่าการกำหนดค่าภาษีไทยทั่วโลก"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.py:77
 msgid "Grand Total"
-msgstr ""
+msgstr "ยอดรวมทั้งหมด"
 
 #: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:64
 msgid "Grand Total / ยอดรวม"
-msgstr ""
+msgstr "ยอดรวมสุทธิ"
 
 #. Label of a Currency field in DocType 'Withholding Tax Item'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:87
 msgid "Gross Amount"
-msgstr ""
+msgstr "จำนวนเงินรวม"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.py:84
 #: digisoft_erp/digisoft_erp/report/tax_withholding_summary/tax_withholding_summary.py:151
 msgid "Gross Amount (฿)"
-msgstr ""
+msgstr "จำนวนรวม (฿)"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:111
 msgid "Group by Party"
-msgstr ""
+msgstr "จัดกลุ่มตามฝ่าย"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.js:16
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:60
 msgid "Growth View"
-msgstr ""
+msgstr "มุมมองการเติบโต"
 
 #: digisoft_erp/public/js/supplier.js:200
 msgid "HRMS Progressive Tax Slabs"
-msgstr ""
+msgstr "เกณฑ์ภาษีก้าวหน้าในระบบทรัพยากรบุคคล (HRMS)"
 
 #: digisoft_erp/digisoft_erp/report/pnd_reports/pnd_reports.js:103
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.js:86
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.js:116
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.js:100
 msgid "Help"
-msgstr ""
+msgstr "ช่วยเหลือ"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:105
 msgid "Ignore Zero Balance"
-msgstr ""
+msgstr "ไม่สนใจยอดคงเหลือเป็นศูนย์"
 
 #: digisoft_erp/overrides/purchase_invoice.py:57
 msgid "Import Declaration Number should be provided for import transactions"
-msgstr ""
+msgstr "ต้องระบุหมายเลขใบแจ้งการนำเข้าสำหรับรายการนำเข้า"
 
 #: digisoft_erp/config/desk.py:141
 msgid "Import tax data and master records"
-msgstr ""
+msgstr "นำเข้าข้อมูลภาษีและข้อมูลหลัก"
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:99
 msgid "In Party Currency"
-msgstr ""
+msgstr "ในสกุลเงินคู่ค้า"
 
 #: digisoft_erp/digisoft_erp/report/thai_production_report/thai_production_report.html:360
 msgid "In Progress"
-msgstr ""
+msgstr "กำลังดำเนินการ"
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.js:31
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.js:119
@@ -1715,7 +1725,7 @@ msgid "Income Type Code"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:139
-msgid "Income Type for WHT / ประเภทเงินได้สำหรับภาษีหัก ณ ที่จ่าย"
+msgid "Income Type for WHT"
 msgstr ""
 
 #: digisoft_erp/overrides/purchase_invoice.py:51
@@ -1755,11 +1765,11 @@ msgstr ""
 msgid "Install Thai Tax Fields"
 msgstr ""
 
-#: digisoft_erp/install.py:57
+#: digisoft_erp/install.py:129
 msgid "Installation failed: {0}"
 msgstr ""
 
-#: digisoft_erp/install.py:571
+#: digisoft_erp/install.py:643
 msgid "Installation validation failed. Check error logs for details."
 msgstr ""
 
@@ -1831,7 +1841,7 @@ msgid "Invoice No / เลขที่เอกสาร"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:33
-msgid "Invoice Type / ประเภทใบแจ้งหนี้"
+msgid "Invoice Type"
 msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice/thai_pos_invoice.py:365
@@ -1901,6 +1911,10 @@ msgstr ""
 msgid "Journal Entry"
 msgstr ""
 
+#: digisoft_erp/patches/v1_11_0/migrate_dual_language_labels_to_english.py:176
+msgid "Label Migration Complete"
+msgstr ""
+
 #. Label of a Data field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "Last Name"
@@ -1953,6 +1967,10 @@ msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:125
 msgid "Maximum Payment Amount"
+msgstr ""
+
+#: digisoft_erp/patches/v1_11_0/migrate_dual_language_labels_to_english.py:188
+msgid "Migration Error"
 msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:110
@@ -2178,12 +2196,9 @@ msgstr ""
 msgid "Output VAT (Sales)"
 msgstr ""
 
+#: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:70
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.py:292
 msgid "Outstanding"
-msgstr ""
-
-#: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:70
-msgid "Outstanding / ยอดค้างชำระ"
 msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_payable/thai_accounts_payable.py:92
@@ -2497,7 +2512,7 @@ msgid "Payment Ref"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:110
-msgid "Payment Terms / เงื่อนไขการชำระเงิน"
+msgid "Payment Terms"
 msgstr ""
 
 #. Label of a Link in the Accounts Payable - TH Workspace
@@ -2610,7 +2625,7 @@ msgid "Posting Date"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:156
-msgid "Prepared By / จัดทำโดย"
+msgid "Prepared By"
 msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_balance_sheet/thai_balance_sheet.py:197
@@ -2901,7 +2916,7 @@ msgid "Returns"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:164
-msgid "Reviewed By / ตรวจสอบโดย"
+msgid "Reviewed By"
 msgstr ""
 
 #. Label of a Link in the Manufacturing - TH Workspace
@@ -2920,7 +2935,7 @@ msgid "Sales Analytics"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:199
-msgid "Sales Channel / ช่องทางการขาย"
+msgid "Sales Channel"
 msgstr ""
 
 #. Label of a Link in the Accounts Receivable - TH Workspace
@@ -2975,12 +2990,9 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:62
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.py:116
 #: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.js:49
+#: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:88
 #: digisoft_erp/digisoft_erp/workspace/sales_order___th/sales_order___th.json
 msgid "Sales Person"
-msgstr ""
-
-#: digisoft_erp/digisoft_erp/report/thai_billing/thai_billing.py:88
-msgid "Sales Person / พนักงานขาย"
 msgstr ""
 
 #. Label of a Link in the Accounts Receivable - TH Workspace
@@ -3182,7 +3194,7 @@ msgid "Signature Information"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:207
-msgid "Special Notes / หมายเหตุพิเศษ"
+msgid "Special Notes"
 msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/thai_accounts_receivable/thai_accounts_receivable.js:77
@@ -3305,7 +3317,7 @@ msgstr ""
 msgid "Success"
 msgstr ""
 
-#: digisoft_erp/overrides/bank_reconciliation_tool.py:158
+#: digisoft_erp/overrides/bank_reconciliation_tool.py:157
 msgid "Successfully reconciled {0} entries"
 msgstr ""
 
@@ -3432,7 +3444,7 @@ msgid "Tax Amount in Words"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:80
-msgid "Tax Compliance / การปฏิบัติตามกฎหมายภาษี"
+msgid "Tax Compliance"
 msgstr ""
 
 #. Label of a Link in the Value Added Tax Workspace
@@ -3456,7 +3468,7 @@ msgid "Tax ID must be 13 digits"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:50
-msgid "Tax Invoice Date / วันที่ใบกำกับภาษี"
+msgid "Tax Invoice Date"
 msgstr ""
 
 #. Label of a Select field in DocType 'Withholding Tax Cert'
@@ -3636,7 +3648,7 @@ msgid "Thai Currency Format"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:71
-msgid "Thai Customer Address / ที่อยู่ลูกค้าไทย"
+msgid "Thai Customer Address"
 msgstr ""
 
 #: digisoft_erp/overrides/sales_invoice.py:42
@@ -3800,11 +3812,11 @@ msgid "Thai Tax Fields:"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:26
-msgid "Thai Tax Information / ข้อมูลภาษีไทย"
+msgid "Thai Tax Information"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:42
-msgid "Thai Tax Invoice Number / เลขที่ใบกำกับภาษีไทย"
+msgid "Thai Tax Invoice Number"
 msgstr ""
 
 #: digisoft_erp/public/js/supplier.js:206
@@ -3908,6 +3920,10 @@ msgstr ""
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:238
 msgid "Thai tax fields installation completed successfully"
+msgstr ""
+
+#: digisoft_erp/patches/v1_11_0/migrate_dual_language_labels_to_english.py:174
+msgid "Thai translations will now be handled by the translation_tools app."
 msgstr ""
 
 #: digisoft_erp/public/js/purchase_invoice.js:173
@@ -4156,7 +4172,7 @@ msgid "VAT Comparison Chart"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:87
-msgid "VAT Eligible / มีสิทธิ์เสียภาษีมูลค่าเพิ่ม"
+msgid "VAT Eligible"
 msgstr ""
 
 #: digisoft_erp/overrides/sales_invoice.py:156
@@ -4179,7 +4195,7 @@ msgid "VAT Rate"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:101
-msgid "VAT Rate (%) / อัตราภาษีมูลค่าเพิ่ม"
+msgid "VAT Rate (%)"
 msgstr ""
 
 #. Label of a Data field in DocType 'Thai Company Settings'
@@ -4300,7 +4316,7 @@ msgid "WHT Certificates by PND Type"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:130
-msgid "WHT Rate (%) / อัตราภาษีหัก ณ ที่จ่าย"
+msgid "WHT Rate (%)"
 msgstr ""
 
 #: digisoft_erp/public/js/supplier.js:89
@@ -4375,7 +4391,7 @@ msgid "With Attachments"
 msgstr ""
 
 #: digisoft_erp/commands/install_sales_invoice_thai_fields.py:123
-msgid "Withholding Tax Applicable / ต้องหักภาษี ณ ที่จ่าย"
+msgid "Withholding Tax Applicable"
 msgstr ""
 
 #. Name of a DocType
