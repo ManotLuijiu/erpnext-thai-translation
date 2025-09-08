@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2025-09-08 21:24+0642\n"
-"PO-Revision-Date: 2025-09-08 21:27\n"
+"PO-Revision-Date: 2025-09-08 21:28\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -83,7 +83,7 @@ msgstr "40(1) เงินเดือน ค่าจ้าง"
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(2) ค่านายหน้า ค่าคอมมิชชั่น"
-msgstr ""
+msgstr "40(2) ค่านายหน้า ค่าคอมมิชชั่น"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
