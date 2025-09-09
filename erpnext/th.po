@@ -298,7 +298,10 @@ msgid ""
 "# Create Workstations\n"
 "\n"
 "A Workstation stores information regarding the place where the workstation operations are performed. As an example, if you have ten sewing machines doing stitching jobs, each machine will be added as a workstation."
-msgstr "# สร้างสถานีงาน"
+msgstr ""
+"# สร้างสถานีงาน\n"
+"\n"
+"สถานีงานใช้เก็บข้อมูลเกี่ยวกับสถานที่ที่ดำเนินการปฏิบัติงานของสถานีงาน ตัวอย่างเช่น หากคุณมีเครื่องจักรเย็บผ้าสิบเครื่องที่ทำงานเย็บแต่ละเครื่องจะถูกเพิ่มเป็นสถานีงานหนึ่งแห่ง"
 
 #. Description of the Onboarding Step 'Bill of Materials'
 #: erpnext/manufacturing/onboarding_step/create_bom/create_bom.json
