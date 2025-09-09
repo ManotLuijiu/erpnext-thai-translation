@@ -276,7 +276,10 @@ msgid ""
 "# Create Items for Bill of Materials\n"
 "\n"
 "One of the prerequisites of a BOM is the creation of raw materials, sub-assembly, and finished items. Once these items are created, you will be able to proceed to the Bill of Materials master, which is composed of items and routing.\n"
-msgstr "# สร้างรายการสำหรับใบกำกับวัสดุ"
+msgstr ""
+"# สร้างรายการสำหรับสูตรวัสดุ\n"
+"\n"
+"หนึ่งในข้อกำหนดเบื้องต้นของสูตรวัสดุคือการสร้างวัตถุดิบ ชิ้นส่วนประกอบย่อย และรายการสินค้าสำเร็จรูป เมื่อสร้างรายการเหล่านี้แล้ว คุณจะสามารถดำเนินการต่อไปยังหน้าหลักสูตรวัสดุ ซึ่งประกอบด้วยรายการสินค้าและเส้นทางการผลิตได้"
 
 #. Description of the Onboarding Step 'Operation'
 #: erpnext/manufacturing/onboarding_step/operation/operation.json
