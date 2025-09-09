@@ -329,7 +329,15 @@ msgid ""
 " - Customer’s multiple address and contacts\n"
 " - Account Receivables\n"
 " - Credit Limit and Credit Period\n"
-msgstr "# สร้างลูกค้า"
+msgstr ""
+"# สร้างลูกค้า\n"
+"\n"
+"ข้อมูลหลักลูกค้าเป็นหัวใจสำคัญของธุรกรรมการขายของคุณ ลูกค้าจะถูกเชื่อมโยงในใบเสนอราคา ใบสั่งขาย ใบแจ้งหนี้ และการชำระเงิน ลูกค้าสามารถระบุได้ทั้งโดยหมายเลขหรือตามชื่อ (โดยปกติจะเลือกวิธีนี้ตามจำนวนลูกค้าที่คุณมี)\n"
+"\n"
+"ผ่านข้อมูลหลักลูกค้า คุณสามารถติดตามข้อมูลสำคัญได้อย่างมีประสิทธิภาพ เช่น:\n"
+" - ที่อยู่และข้อมูลติดต่อหลายแห่งของลูกค้า\n"
+" - ลูกหนี้การค้า\n"
+" - ขีดจำกัดเครดิตและระยะเวลาการให้เครดิต"
 
 #. Description of the Onboarding Step 'Setup Your Letterhead'
 #: erpnext/setup/onboarding_step/letterhead/letterhead.json
