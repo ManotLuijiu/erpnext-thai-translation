@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Inpac Pharma VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-06 15:14+0642\n"
-"PO-Revision-Date: 2025-10-06 15:27\n"
+"PO-Revision-Date: 2025-10-06 15:28\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -122,7 +122,7 @@ msgstr ""
 
 #: inpac_pharma/www/inpac_pharma_spa.py:48
 msgid "This method is only meant for developer mode"
-msgstr ""
+msgstr "วิธีนี้มีไว้สำหรับโหมดนักพัฒนาเท่านั้น"
 
 #: inpac_pharma/public/js/supplier_list.js:56
 msgid "VAT Type"
