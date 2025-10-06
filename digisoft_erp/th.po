@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
-"POT-Creation-Date: 2025-10-06 14:18+0642\n"
-"PO-Revision-Date: 2025-10-06 15:00\n"
+"POT-Creation-Date: 2025-10-06 15:13+0642\n"
+"PO-Revision-Date: 2025-10-06 15:25\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "Language: th\n"
@@ -38,184 +38,226 @@ msgstr "120+ วัน"
 msgid "31-60 Days"
 msgstr "31-60 วัน"
 
-#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
-#. Setting'
 #. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(1) Salary and Wages"
+msgstr "40(1) เงินเดือนและค่าจ้าง"
+
+#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
+#. Setting'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(1) เงินเดือน ค่าจ้าง"
 msgstr "40(1) เงินเดือน ค่าจ้าง"
 
-#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
-#. Setting'
 #. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(2) Commission and Brokerage"
+msgstr "40(2) ค่าคอมมิชชั่นและนายหน้า"
+
+#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
+#. Setting'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(2) ค่านายหน้า ค่าคอมมิชชั่น"
 msgstr "40(2) ค่านายหน้า ค่าคอมมิชชั่น"
 
-#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
-#. Setting'
 #. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
-#. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
-#. Item'
-#: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
-msgid "40(3) ค่าลิขสิทธิ์"
+msgid "40(3) Royalties"
 msgstr "40(3) ค่าลิขสิทธิ์"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
-#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
+msgid "40(3) ค่าลิขสิทธิ์"
+msgstr "40(3) ค่าลิขสิทธิ์"
+
+#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(4)a Interest"
+msgstr "40(4)a ดอกเบี้ย"
+
+#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(4)b Dividends"
+msgstr "40(4)b เงินปันผล"
+
+#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
+#. Setting'
+#. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
+#. Item'
+#: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(4)ก ดอกเบี้ย"
 msgstr "40(4)ก ดอกเบี้ย"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
-#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(4)ข เงินปันผล"
 msgstr "40(4)ข เงินปันผล"
 
-#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
-#. Setting'
 #. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
-#. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
-#. Item'
-#: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
-msgid "40(5) ค่าเช่า"
+msgid "40(5) Rent"
 msgstr "40(5) ค่าเช่า"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
-#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
+msgid "40(5) ค่าเช่า"
+msgstr "40(5) ค่าเช่า"
+
+#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(6) Awards and Discounts"
+msgstr "40(6) รางวัลและส่วนลด"
+
+#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
+#. Setting'
+#. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
+#. Item'
+#: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(6) รางวัล ส่วนลด"
 msgstr "40(6) รางวัล ส่วนลด"
 
-#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
-#. Setting'
 #. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(7) Contract Work"
+msgstr "งานตามสัญญา 40(7)"
+
+#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
+#. Setting'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(7) ค่าจ้างทำของ"
 msgstr "40(7) ค่าจ้างทำของ"
 
-#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
-#. Setting'
 #. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
 #. Tax
 #. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(8) Advertising 2%"
+msgstr "40(8) การโฆษณา 2%"
+
+#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(8) Corporate Service 3%"
+msgstr "40(8) บริการองค์กร 3%"
+
+#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(8) Corporate Service 5%"
+msgstr "40(8) บริการองค์กร 5%"
+
+#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(8) Insurance Premium 1%"
+msgstr "40(8) เบี้ยประกันภัย 1%"
+
+#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(8) Professional Service Fees"
+msgstr "40(8) ค่าบริการวิชาชีพ"
+
+#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "40(8) Transportation 1%"
+msgstr "40(8) การขนส่ง 1%"
+
+#. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
+#. Setting'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าขนส่ง 1%"
 msgstr "40(8) ค่าขนส่ง 1%"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
-#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าบริการ/ค่าวิชาชีพอิสระ"
 msgstr "40(8) ค่าบริการ/ค่าวิชาชีพอิสระ"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
-#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าบริการนิติบุคคล 3%"
 msgstr "40(8) ค่าบริการนิติบุคคล 3%"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
-#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าบริการนิติบุคคล 5%"
 msgstr "40(8) ค่าบริการนิติบุคคล 5%"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
-#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าเบี้ยประกัน 1%"
 msgstr "40(8) ค่าเบี้ยประกัน 1%"
 
 #. Option for the 'Income Type' (Select) field in DocType 'Thai WHT Rate
 #. Setting'
-#. Option for the 'Income Type Code' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
 #. Option for the 'Income Type' (Select) field in DocType 'Withholding Tax
 #. Item'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_item/withholding_tax_item.json
 msgid "40(8) ค่าโฆษณา 2%"
 msgstr "40(8) ค่าโฆษณา 2%"
@@ -521,6 +563,12 @@ msgstr "การแก้ไข"
 msgid "Amount"
 msgstr "จำนวนเงิน"
 
+#. Description of the 'Fund Deduction Amount' (Currency) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Amount deducted to fund"
+msgstr "จำนวนเงินที่หักไปยังกองทุน"
+
 #: digisoft_erp/digisoft_erp/report/thai_bank_reconciliation/thai_bank_reconciliation.js:155
 msgid "Amounts not Reflected"
 msgstr "จำนวนเงินที่ไม่ได้แสดงผล"
@@ -570,6 +618,12 @@ msgstr "วันที่อนุมัต"
 msgid "Approved By"
 msgstr "อนุมัติโดย"
 
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "April"
+msgstr "เมษายน"
+
 #: digisoft_erp/digisoft_erp/doctype/dgs_thai_sales_vat/dgs_thai_sales_vat_list.js:180
 msgid ""
 "Are you sure you want to clear Output VAT reported status for "
@@ -602,6 +656,12 @@ msgstr "จำเป็นต้องมีรายการรายได้
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.py:112
 msgid "Attachments"
 msgstr "ไฟล์แนบ"
+
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "August"
+msgstr "สิงหาคม"
 
 #. Label of a Data field in DocType 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
@@ -873,6 +933,12 @@ msgstr "รหัสสาขาต้องเป็นตัวเลข 5 ห
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
 msgid "Buddhist Era (BE)"
 msgstr "พุทธศักราช (พ.ศ.)"
+
+#. Description of the 'Buddhist Year' (Data) field in DocType 'Withholding Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Buddhist Era year (Auto-calculated)"
+msgstr "ปีพุทธศักราช (คำนวณอัตโนมัติ)"
 
 #. Label of a Data field in DocType 'DGS Thai Fiscal Year'
 #. Label of a Data field in DocType 'Withholding Tax Cert'
@@ -1164,6 +1230,7 @@ msgstr "รูปแบบกะทัดรัดสำหรับใบเส
 #. Label of a Link field in DocType 'Withholding Tax Cert'
 #. Option for the 'Payee Type' (Select) field in DocType 'Withholding Tax
 #. Cert'
+#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/config/desk.py:102
 #: digisoft_erp/digisoft_erp/doctype/dgs_pp30_vat_report/dgs_pp30_vat_report.json
 #: digisoft_erp/digisoft_erp/doctype/dgs_thai_fiscal_year/dgs_thai_fiscal_year.json
@@ -1586,6 +1653,12 @@ msgstr "เดบิต (รายการ)"
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:674
 msgid "Debit ({0})"
 msgstr "เดบิต ({0})"
+
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "December"
+msgstr "ธันวาคม"
 
 #: digisoft_erp/digisoft_erp/report/thai_payment_reconciliation/thai_payment_reconciliation.js:75
 msgid "Default Advance Account"
@@ -2290,6 +2363,12 @@ msgstr "ไม่สามารถอัปเดตความก้าวห
 msgid "Feature coming soon"
 msgstr "ฟีเจอร์จะมาในเร็วๆ นี้"
 
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "February"
+msgstr "กุมภาพันธ์"
+
 #: digisoft_erp/digisoft_erp/doctype/dgs_thai_purchase_vat/dgs_thai_purchase_vat.js:85
 msgid "Fetch Tax Invoice from Payment"
 msgstr "ดึงใบกำกับภาษีจากการชำระเงิน"
@@ -2482,6 +2561,12 @@ msgstr "จำนวนเงินหักเงินทุน"
 msgid "Fund Deduction Type"
 msgstr "ประเภทการหักเงินทุน"
 
+#. Description of the 'Fund Deduction Type' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Fund deducted from income"
+msgstr "เงินทุนที่หักจากรายได้"
+
 #: digisoft_erp/digisoft_erp/doctype/dgs_thai_sales_vat/dgs_thai_sales_vat.js:195
 msgid "Future VAT Period"
 msgstr "งวด VAT ในอนาคต"
@@ -2533,6 +2618,12 @@ msgstr "การตั้งค่าการกำหนดค่าภาษ
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
 msgid "Government"
 msgstr "รัฐบาล"
+
+#. Option for the 'Fund Deduction Type' (Select) field in DocType 'Withholding
+#. Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Government Pension Fund"
+msgstr "กองทุนบำเหน็จบำนาญข้าราชการ"
 
 #. Label of a Float field in DocType 'Thai WHT Rate Setting'
 #: digisoft_erp/digisoft_erp/doctype/thai_wht_rate_setting/thai_wht_rate_setting.json
@@ -3017,6 +3108,20 @@ msgstr "เดือนปัญหา (พุทธศักราช)"
 msgid "Issue date should not be before payment date"
 msgstr "วันที่ออกเอกสารไม่ควรอยู่ก่อนวันที่ชำระเงิน"
 
+#. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Issued Once"
+msgstr "ออกให้ครั้งเดียว"
+
+#. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Issued Permanently"
+msgstr "ออกให้ถาวร"
+
 #: digisoft_erp/api/pos/pos_receipt.py:517
 #: digisoft_erp/digisoft_erp/report/thai_picking_list/thai_picking_list.js:42
 msgid "Item"
@@ -3046,6 +3151,12 @@ msgstr "ต้องระบุรหัสสินค้า"
 msgid "JSON data for QR code verification (auto-generated)"
 msgstr "JSON ซินวันที่ QR ชินบรับดี (ออกเล็กสิน)"
 
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "January"
+msgstr "เดือนผันมี"
+
 #. Label of a chart in the Manufacturing - TH Workspace
 #: digisoft_erp/digisoft_erp/workspace/manufacturing___th/manufacturing___th.json
 msgid "Job Order Summary"
@@ -3055,6 +3166,18 @@ msgstr "สรุปใบสั่งงาน"
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "Journal Entry"
 msgstr "บันทึกบัญชี"
+
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "July"
+msgstr "กรกฎาคม"
+
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "June"
+msgstr "เดือน"
 
 #: digisoft_erp/patches/v1_11_0/migrate_dual_language_labels_to_english.py:338
 msgid "Label Migration Complete"
@@ -3086,6 +3209,11 @@ msgstr "วันที่หมดอายุใบอนุญาต"
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "License number of tax advisor"
 msgstr "หมายเลขใบอนุญาตที่ปรึกษาภาษี"
+
+#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Limited Partnership"
+msgstr "ห้างหุ้นส่วนจำกัด"
 
 #. Description of the 'VAT Overpaid Brought Forward' (Currency) field in
 #. DocType 'DGS PP30 VAT Report'
@@ -3202,6 +3330,12 @@ msgstr "การผลิตและการผลิต"
 msgid "Manufacturing - TH"
 msgstr "การผลิต"
 
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "March"
+msgstr "มีนาคม"
+
 #: digisoft_erp/digisoft_erp/report/thai_profit_and_loss/thai_profit_and_loss.js:61
 msgid "Margin View"
 msgstr "มุมมองกำไรขั้นต้น"
@@ -3250,6 +3384,12 @@ msgstr "จำนวนเงินสูงสุดในใบกำกับ
 msgid "Maximum Payment Amount"
 msgstr "จำนวนเงินชำระสูงสุด"
 
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "May"
+msgstr "พฤษภาคม"
+
 #: digisoft_erp/patches/v1_11_0/migrate_dual_language_labels_to_english.py:350
 msgid "Migration Error"
 msgstr "ข้อผิดพลาดในการย้ายข้อมูล"
@@ -3296,6 +3436,12 @@ msgstr "ตรวจสอบข้อผิดพลาดและปัญห
 msgid "Month"
 msgstr "เดือน"
 
+#. Description of the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Month of withholding tax certificate issuance"
+msgstr "เดือนของการออกหนังสือรับรองภาษีหัก ณ ที่จ่าย"
+
 #: digisoft_erp/digisoft_erp/report/tax_withholding_summary/tax_withholding_summary.py:82
 msgid "Month-Year"
 msgstr "เดือน-ปี"
@@ -3323,6 +3469,21 @@ msgstr "แผนภูมิค่าใช้จ่ายและต้นท
 #: digisoft_erp/config/desk.py:58
 msgid "Monthly VAT PP30 report for tax submission"
 msgstr "รายงานภาษีมูลค่าเพิ่มรายเดือนแบบ ภ.พ.30 สำหรับการยื่นภาษี"
+
+#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Mr."
+msgstr "คุณ"
+
+#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Mrs."
+msgstr "นาง"
+
+#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Ms."
+msgstr "นางสาว"
 
 #. Description of the 'Tax Advisor Name' (Data) field in DocType 'Thai Company
 #. Settings'
@@ -3460,6 +3621,18 @@ msgstr "ไม่สามารถค้นหาปีงบประมาณ
 msgid "Note"
 msgstr "หมายเหตุ"
 
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "November"
+msgstr "พฤศจิกายน"
+
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "October"
+msgstr "ตุลาคม"
+
 #. Description of the 'Tax Registration Office' (Data) field in DocType 'Thai
 #. Tax Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.json
@@ -3515,10 +3688,24 @@ msgstr "ปรับแต่งสำหรับเครื่องพิม
 msgid "Order By"
 msgstr "จัดเรียงโดย"
 
+#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Ordinary Partnership"
+msgstr "ห้างหุ้นส่วนสามัญ"
+
 #. Option for the 'Business License Type' (Select) field in DocType 'Thai
 #. Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "Other"
+msgstr "อื่น ๆ"
+
+#. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#. Option for the 'Fund Deduction Type' (Select) field in DocType 'Withholding
+#. Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Others"
 msgstr "อื่น ๆ"
 
 #. Label of a number card in the Value Added Tax Workspace
@@ -4256,6 +4443,12 @@ msgstr "แผนเวลาการผลิตถูกดึงข้อม
 msgid "Project"
 msgstr "โครงการ"
 
+#. Option for the 'Fund Deduction Type' (Select) field in DocType 'Withholding
+#. Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Provident Fund"
+msgstr "กองทุนสำรองเลี้ยงชีพ"
+
 #. Label of a Data field in DocType 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "Provident Fund Number"
@@ -4760,6 +4953,18 @@ msgstr "การอายัดบัญชีไม่ไทยริบ: {0}"
 msgid "Send email notifications when tax reports are generated"
 msgstr "ส่งการแจ้งเตือนทางอีเมลเมื่อมีการสร้างรายงานภาษี"
 
+#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "September"
+msgstr "กันยายน"
+
+#. Description of the 'PND Sequential Number' (Data) field in DocType
+#. 'Withholding Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Sequential number in PND form"
+msgstr "หมายเลขลำดับในแบบฟอร์ม ภ.ง.ด."
+
 #: digisoft_erp/digisoft_erp/report/thai_picking_list/thai_picking_list.py:96
 msgid "Serial No"
 msgstr "หมายเลขซีเรียล"
@@ -4877,6 +5082,12 @@ msgstr "หมายเลขประจำตัวผู้เสียภา
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
 msgid "Signature Information"
 msgstr "ข้อมูลลายเซ็นต์"
+
+#. Option for the 'Fund Deduction Type' (Select) field in DocType 'Withholding
+#. Tax Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Social Security"
+msgstr "ประกันสังคม"
 
 #. Label of a Data field in DocType 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
@@ -6684,6 +6895,13 @@ msgstr "จำเป็นต้องระบุอัตรา ภาษี�
 msgid "Withholding Tax Settings"
 msgstr "การตั้งค่า ภาษีหัก ณ ที่จ่าย"
 
+#. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
+#. Tax
+#. Cert'
+#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
+msgid "Withholding at Source"
+msgstr "ภาษีหัก ณ ที่จ่าย"
+
 #: digisoft_erp/thai_tax/utils/tax_calculator.py:127
 #: digisoft_erp/thai_tax/utils/validators.py:135
 msgid "Withholding tax amount mismatch. Expected: {0}, Actual: {1}"
@@ -6785,45 +7003,9 @@ msgstr "{0} {1} ไม่มีหมายเลขประจำตัวผ�
 msgid "{} Open"
 msgstr "{} เปิด"
 
-#. Option for the 'Fund Deduction Type' (Select) field in DocType 'Withholding
-#. Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "กบข. (Government Pension Fund)"
-msgstr "กบข. (กองทุนบำเหน็จบำนาญข้าราชการ)"
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "กรกฎาคม"
-msgstr "กรกฎาคม"
-
-#. Description of the 'Fund Deduction Type' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "กองทุนที่หักออกจากเงินได้"
-msgstr "กองทุนที่หัก ณ ที่จ่าย"
-
-#. Option for the 'Fund Deduction Type' (Select) field in DocType 'Withholding
-#. Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "กองทุนสำรองเลี้ยงชีพ (Provident Fund)"
-msgstr "กองทุนสำรองเลี้ยงชีพ"
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "กันยายน"
-msgstr "กันยายน"
-
 #: digisoft_erp/digisoft_erp/page/desk_dgs_thai_vat/desk_dgs_thai_vat.js:15
 msgid "กำลังเปลี่ยนเส้นทางไปยังระบบจัดการภาษีมูลค่าเพิ่ม..."
 msgstr "กำลังเปลี่ยนเส้นทางไปยังระบบจัดการ VAT..."
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "กุมภาพันธ์"
-msgstr "กุมภาพันธ์"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:128
 msgid "คำนำหน้า"
@@ -6847,12 +7029,6 @@ msgstr "จำนวนหีบห่อ"
 #: digisoft_erp/thai_tax/utils/base_report.py:153
 msgid "จำนวนเงิน"
 msgstr "จำนวนเงิน"
-
-#. Description of the 'Fund Deduction Amount' (Currency) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "จำนวนเงินที่หักเข้ากองทุน"
-msgstr "Amount Deducted to Fund"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:68
 #: digisoft_erp/thai_tax/utils/base_report.py:251
@@ -6878,7 +7054,7 @@ msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:67
 msgid "ชื่อผู้ขายสินค้า/ผู้ให้บริการ"
-msgstr ""
+msgstr "Supplier Name"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:244
 msgid "ชื่อผู้ซื้อ/ผู้ขาย"
@@ -6898,12 +7074,6 @@ msgstr ""
 msgid "ชื่อลูกค้า"
 msgstr "ชื่อลูกค้า"
 
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ตุลาคม"
-msgstr ""
-
 #: digisoft_erp/thai_tax/utils/base_report.py:131
 msgid "ที่อยู่"
 msgstr "ที่อยู่"
@@ -6916,45 +7086,13 @@ msgstr "ที่อยู่จัดส่ง"
 msgid "ที่อยู่ลูกค้า"
 msgstr "ที่อยู่ลูกค้า"
 
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ธันวาคม"
-msgstr ""
-
-#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "นาง"
-msgstr "นาง"
-
-#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "นางสาว"
-msgstr "นางสาว"
-
 #: digisoft_erp/thai_tax/utils/base_report.py:130
 msgid "นามสกุล"
 msgstr "นามสกุล"
 
-#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "นาย"
-msgstr "นาย"
-
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:63
 msgid "น้ำหนักรวม (กก.)"
 msgstr "น้ำหนักรวม (กก.)"
-
-#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "บริษัท"
-msgstr "บริษัท"
-
-#. Option for the 'Fund Deduction Type' (Select) field in DocType 'Withholding
-#. Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ประกันสังคม (Social Security)"
-msgstr ""
 
 #: digisoft_erp/thai_tax/utils/base_report.py:241
 msgid "ประเภท"
@@ -6972,24 +7110,6 @@ msgstr "ประเภทเงินได้"
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:81
 msgid "ปลายทาง"
 msgstr "ปลายทาง"
-
-#. Description of the 'Buddhist Year' (Data) field in DocType 'Withholding Tax
-#. Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ปีพุทธศักราช (Auto-calculated)"
-msgstr "ปีพุทธศักราช"
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "พฤศจิกายน"
-msgstr ""
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "พฤษภาคม"
-msgstr ""
 
 #: digisoft_erp/thai_tax/utils/base_report.py:139
 #: digisoft_erp/thai_tax/utils/base_report.py:146
@@ -7009,24 +7129,6 @@ msgstr "ภาษีมูลค่าเพิ่ม"
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:74
 msgid "ภาษีมูลค่าเพิ่ม (฿)"
 msgstr "ภาษีมูลค่าเพิ่ม (฿)"
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "มกราคม"
-msgstr ""
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "มิถุนายน"
-msgstr ""
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "มีนาคม"
-msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:114
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:114
@@ -7049,7 +7151,7 @@ msgstr "มูลค่าสินค้า/บริการ (฿)"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:85
 msgid "มูลค่าสินค้าหรือบริการ"
-msgstr ""
+msgstr "มูลค่าสินค้า หรือ บริการ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:68
 msgid "รหัสสาขา"
@@ -7070,19 +7172,13 @@ msgstr "ลำดับ"
 msgid "ลำดับที่"
 msgstr "ลำดับที่"
 
-#. Description of the 'PND Sequential Number' (Data) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ลำดับที่ในแบบ PND (Sequential number in PND form)"
-msgstr ""
-
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:37
 msgid "ลูกค้า/ผู้ส่งออก"
 msgstr "ลูกค้า/ผู้ส่งออก"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:49
 msgid "วัน เดือน ปี"
-msgstr ""
+msgstr "วัน เดือน ปี"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:78
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:78
@@ -7143,7 +7239,7 @@ msgstr "สถานะ"
 #. Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "สาขากรมสรรพากรที่ขึ้นทะเบียน"
-msgstr ""
+msgstr "สาขากรมสรรพากรที่ลงทะเบียน"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax/vat_202_01_purchase_tax.py:108
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax/vat_202_02_sales_tax.py:108
@@ -7155,46 +7251,9 @@ msgstr "สาขาที่"
 msgid "สำนักงานใหญ่"
 msgstr "สำนักงานใหญ่"
 
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "สิงหาคม"
-msgstr ""
-
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:44
 msgid "หมวดหมู่"
 msgstr "หมวดหมู่"
-
-#. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "หัก ณ ที่จ่าย"
-msgstr "หัก ณ ที่จ่าย"
-
-#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ห้างหุ้นส่วนจำกัด"
-msgstr "ห้างหุ้นส่วนจำกัด"
-
-#. Option for the 'Title' (Select) field in DocType 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ห้างหุ้นส่วนสามัญ"
-msgstr "ห้างหุ้นส่วนสามัญ"
-
-#. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ออกให้ครั้งเดียว"
-msgstr "ออกให้ครั้งเดียว"
-
-#. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "ออกให้ตลอดไป"
-msgstr "ออกให้ตลอดไป"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:152
 msgid "อัตราภาษี"
@@ -7203,19 +7262,6 @@ msgstr "อัตราภาษี"
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:80
 msgid "อัตราภาษีเฉลี่ย (%)"
 msgstr "อัตราภาษีเฉลี่ย (%)"
-
-#. Option for the 'Tax Payment Type' (Select) field in DocType 'Withholding
-#. Tax
-#. Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "อื่นๆ"
-msgstr "อื่นๆ"
-
-#. Option for the 'Fund Deduction Type' (Select) field in DocType 'Withholding
-#. Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "อื่นๆ (Others)"
-msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:110
 msgid "อ้างอิงใบแจ้งหนี้"
@@ -7229,27 +7275,15 @@ msgstr "เงินเดือน/ค่าจ้าง"
 msgid "เดือนภาษี"
 msgstr "เดือนภาษี"
 
-#. Description of the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "เดือนออกใบรับรองภาษีหัก ณ ที่จ่าย"
-msgstr ""
-
-#. Option for the 'Issue Month (Buddhist)' (Select) field in DocType
-#. 'Withholding Tax Cert'
-#: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json
-msgid "เมษายน"
-msgstr ""
-
 #. Description of the 'Business Registration Number' (Data) field in DocType
 #. 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "เลขทะเบียนนิติบุคคล"
-msgstr ""
+msgstr "เลขทะเบียนนิติบุคคล"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:55
 msgid "เลขที่"
-msgstr ""
+msgstr "เลขที่"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:99
 msgid "เลขที่ seal"
@@ -7294,7 +7328,7 @@ msgstr "เลขที่ใบแจ้งหนี้ระบบ"
 #. Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "เลขประจำตัวกองทุนสำรองเลี้ยงชีพ"
-msgstr ""
+msgstr "เลขประจำตัวกองทุนสำรองเลี้ยงชีพ"
 
 #. Description of the 'VAT Registration Number' (Data) field in DocType 'Thai
 #. Company Settings'
@@ -7328,17 +7362,17 @@ msgstr ""
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:73
 msgid "เลขประจำตัวผู้เสียภาษีอากรของผู้ขายสินค้า/ผู้ให้บริการ"
-msgstr ""
+msgstr "เลขประจำตัวผู้เสียภาษีอากรของ Supplier"
 
 #. Description of the 'Social Security Number' (Data) field in DocType 'Thai
 #. Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "เลขประจำตัวสำนักงานประกันสังคม"
-msgstr ""
+msgstr "เลขประจำตัวสำนักงานประกันสังคม"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:61
 msgid "เล่มที่"
-msgstr ""
+msgstr "เล่มที่"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:104
 msgid "ใบลดหนี้"
@@ -7348,7 +7382,7 @@ msgstr "ใบลดหนี้"
 #. Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "ใบอนุญาตประกอบธุรกิจ"
-msgstr ""
+msgstr "Business License"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:134
 msgid "✅ All WHT certificates have attachments!"
