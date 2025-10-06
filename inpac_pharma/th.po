@@ -130,4 +130,4 @@ msgstr "ชนิดภาษีมูลค่าเพิ่ม"
 
 #: inpac_pharma/public/js/purchase_order.js:11
 msgid "View Manufacturer Details"
-msgstr ""
+msgstr "ดูรายละเอียดผู้ผลิต"
