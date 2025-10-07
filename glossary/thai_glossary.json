@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 71,
-  "last_updated": "2025-09-07T06:17:00.657975",
+  "terms_count": 72,
+  "last_updated": "2025-10-08T01:47:23.648897",
   "terms": {
     "Account": {
       "translation": "บัญชี",
@@ -182,6 +182,13 @@
     "Generator": {
       "translation": "สร้างฟอร์ม/รายงาน",
       "context": "In Print Designer context: Generator mean generate the form/report not electricity.",
+      "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Home": {
+      "translation": "หน้าแรก",
+      "context": "Using in HTML page or website first page",
       "category": "Technical",
       "module": "",
       "is_approved": 1
