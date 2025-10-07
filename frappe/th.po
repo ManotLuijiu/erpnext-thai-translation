@@ -3457,7 +3457,7 @@ msgstr "กลับไปที่โต๊ะ"
 
 #: frappe/www/404.html:20
 msgid "Back to Home"
-msgstr "กลับไปที่บ้าน"
+msgstr "กลับไปที่หน้าแรก"
 
 #: frappe/www/login.html:200 frappe/www/login.html:231
 msgid "Back to Login"
