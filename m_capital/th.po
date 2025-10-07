@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-06 22:53+0642\n"
-"PO-Revision-Date: 2025-10-07 23:05\n"
+"PO-Revision-Date: 2025-10-07 23:32\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "<span class=\"h4\"><b>รายงานและข้อมูลห�
 #. Header text in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>ทางลัดของคุณ</b></span>"
 
 #. Header text in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
@@ -43,46 +43,48 @@ msgid ""
 "<span class=\"h4\"><i class=\"fa fa-university\"></i> M Capital "
 "Corporation</span>"
 msgstr ""
+"<span class=\"h4\"><i class=\"fa fa-university\"></i> บริษัท เอ็ม แคปปิตอล "
+"คอร์ปอเรชั่น</span>"
 
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.py:38
 msgid "A guarantor with this ID Number already exists: {0}"
-msgstr ""
+msgstr "ผู้ค้ำประกันที่มีหมายเลขบัตรประชาชนนี้มีอยู่แล้ว: {0}"
 
 #. Name of a DocType
 #. Label of a Section Break field in DocType 'KYC Verification'
 #: m_capital/m_capital/doctype/aml_check/aml_check.json
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "AML Check"
-msgstr ""
+msgstr "การตรวจสอบ AML"
 
 #. Label of a Date field in DocType 'KYC Verification'
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "AML Check Date"
-msgstr ""
+msgstr "วันที่ วูน ของ AML"
 
 #. Label of a Check field in DocType 'KYC Verification'
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "AML Check Performed"
-msgstr ""
+msgstr "การตรวจสอบ AML ดำเนินการแล้ว"
 
 #. Label of a Select field in DocType 'KYC Verification'
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "AML Check Status"
-msgstr ""
+msgstr "สถานะการตรวจสอบ AML"
 
 #. Label of a Select field in DocType 'KYC Verification'
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "AML Risk Level"
-msgstr ""
+msgstr "ระดับความเสี่ยง AML"
 
 #: m_capital/m_capital/report/interest_rate_report/interest_rate_report.py:56
 msgid "APR (%)"
-msgstr ""
+msgstr "APR (%)"
 
 #. Label of a Percent field in DocType 'Interest Rate Setup'
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "APR (Annual Percentage Rate) (%)"
-msgstr ""
+msgstr "อัตราร้อยละประจำปี (APR) (%)"
 
 #. Option for the 'Submission Status' (Select) field in DocType 'BOT
 #. Regulatory
@@ -94,14 +96,14 @@ msgstr "ยอมรับแล้ว"
 #. Label of a Data field in DocType 'Loan Application Debt'
 #: m_capital/m_capital/doctype/loan_application_debt/loan_application_debt.json
 msgid "Account/Loan Number"
-msgstr ""
+msgstr "หมายเลขบัญชี/สินเชื่อ"
 
 #. Label of a Text field in DocType 'Debt Follow Up'
 #. Label of a Text field in DocType 'Follow Up History'
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.json
 #: m_capital/m_capital/doctype/follow_up_history/follow_up_history.json
 msgid "Action Taken"
-msgstr ""
+msgstr "การดำเนินการ"
 
 #. Option for the 'Insurance Status' (Select) field in DocType 'Lending
 #. Vehicle'
@@ -120,29 +122,29 @@ msgstr "ใช้งาน"
 
 #: m_capital/m_capital/report/interest_rate_report/interest_rate_report.py:98
 msgid "Active Loans"
-msgstr ""
+msgstr "สินเชื่อที่ใช้งานอยู่"
 
 #. Label of a Date field in DocType 'Collection Schedule'
 #: m_capital/m_capital/doctype/collection_schedule/collection_schedule.json
 msgid "Actual Payment Date"
-msgstr ""
+msgstr "วันที่ชำระเงินจริง"
 
 #: m_capital/m_capital/report/bot_ncb_report/bot_ncb_report.py:114
 #: m_capital/m_capital/report/loan_provision_report/loan_provision_report.py:82
 #: m_capital/m_capital/report/loan_provision_report/loan_provision_report.py:220
 msgid "Actual Provision"
-msgstr ""
+msgstr "การตั้งสำรองจริง"
 
 #. Label of a Currency field in DocType 'BOT Regulatory Reports'
 #: m_capital/m_capital/doctype/bot_regulatory_reports/bot_regulatory_reports.json
 msgid "Actual Provision Amount"
-msgstr ""
+msgstr "จำนวนเงินสำรองจริง"
 
 #. Option for the 'Calculation Method' (Select) field in DocType 'Interest
 #. Calculation'
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
 msgid "Actual/365"
-msgstr ""
+msgstr "จริง/365"
 
 #. Label of a Section Break field in DocType 'Interest Calculation'
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
@@ -154,7 +156,7 @@ msgstr "รายละเอียดเพิ่มเติม"
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 #: m_capital/m_capital/doctype/loan_application_employment/loan_application_employment.json
 msgid "Additional Income"
-msgstr ""
+msgstr "รายได้เพิ่มเติม"
 
 #. Label of a Section Break field in DocType 'Customer Documents'
 #. Label of a Section Break field in DocType 'Interest Rate Setup'
@@ -171,32 +173,32 @@ msgstr "ที่อยู่"
 #. Label of a Section Break field in DocType 'Loan Guarantor'
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
 msgid "Address Information"
-msgstr ""
+msgstr "ข้อมูลที่อยู่"
 
 #. Option for the 'Document Category' (Select) field in DocType 'Customer
 #. Documents'
 #: m_capital/m_capital/doctype/customer_documents/customer_documents.json
 msgid "Address Proof"
-msgstr ""
+msgstr "หลักฐานที่อยู่"
 
 #. Label of a Attach field in DocType 'KYC Verification'
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "Address Proof Document"
-msgstr ""
+msgstr "เอกสารยืนยันที่อยู่"
 
 #. Label of a Section Break field in DocType 'KYC Verification'
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "Address Verification"
-msgstr ""
+msgstr "การตรวจสอบที่อยู่"
 
 #. Label of a Check field in DocType 'KYC Verification'
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "Address Verified"
-msgstr ""
+msgstr "ที่อยู่ได้รับการยืนยันแล้ว"
 
 #: m_capital/api/loan_application.py:592
 msgid "Address information saved successfully"
-msgstr ""
+msgstr "บันทึกข้อมูลที่อยู่เรียบร้อยแล้ว"
 
 #. Label of a Int field in DocType 'Loan Guarantor'
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
@@ -205,38 +207,38 @@ msgstr "อายุ"
 
 #: m_capital/m_capital/report/loan_provision_report/loan_provision_report.py:58
 msgid "Aging Category"
-msgstr ""
+msgstr "หมวดหมู่อายุหนี้"
 
 #. Label of a Small Text field in DocType 'Google Cloud Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
 msgid "Allowed IP Addresses"
-msgstr ""
+msgstr "สว่าง IP ชาราง"
 
 #. Label of a Data field in DocType 'Debt Follow Up'
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.json
 msgid "Alternate Contact"
-msgstr ""
+msgstr "ผู้ติดต่อสำรอง"
 
 #. Label of a Percent field in DocType 'Lending Vehicle'
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
 msgid "Annual Depreciation Rate"
-msgstr ""
+msgstr "อัตราค่าเสื่อมราคาประจำปี"
 
 #. Option for the 'Compounding Frequency' (Select) field in DocType 'Interest
 #. Rate Setup'
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Annually"
-msgstr ""
+msgstr "รายปี"
 
 #. Label of a Link in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "Anti-Money Laundering"
-msgstr ""
+msgstr "การต่อต้านการฟอกเงิน"
 
 #. Label of a Section Break field in DocType 'Interest Rate Setup'
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Applicable Range"
-msgstr ""
+msgstr "ขอบเขตที่ใช้บังคับ"
 
 #. Label of a Link field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
@@ -263,32 +265,32 @@ msgstr "วันรับสมัคร"
 #. Cloud Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
 msgid "Application Default Credentials"
-msgstr ""
+msgstr "ข้อมูลประจำตัวเริ่มต้นของแอปพลิเคชัน"
 
 #: m_capital/api/loan_application.py:1017
 msgid "Application ID is required"
-msgstr ""
+msgstr "รหัสประจำตัวแอปพลิเคชันเป็นข้อมูลที่จำเป็นต้องระบุ"
 
 #. Label of a Data field in DocType 'Loan Guarantor Application'
 #: m_capital/m_capital/doctype/loan_guarantor_application/loan_guarantor_application.json
 msgid "Application Title"
-msgstr ""
+msgstr "ชื่อแอปพลิเคชัน"
 
 #: m_capital/api/loan_application.py:1032
 msgid "Application must be in Draft status to submit. Current status: {0}"
-msgstr ""
+msgstr "แอปพลิเคชันต้องอยู่ในสถานะ ฉบับร่าง เพื่อทำการส่ง สถานะปัจจุบัน: {0}"
 
 #: m_capital/api/loan_application.py:1020
 msgid "Application not found"
-msgstr ""
+msgstr "ไม่พบแอปพลิเคชัน"
 
 #: m_capital/api/loan_application.py:243
 msgid "Application status updated successfully"
-msgstr ""
+msgstr "สถานะแอปพลิเคชันได้รับการอัปเดตเรียบร้อยแล้ว"
 
 #: m_capital/api/loan_application.py:1060
 msgid "Application submitted successfully! Application ID: {0}"
-msgstr ""
+msgstr "ส่งคำขอเรียบร้อยแล้ว! รหัสคำขอ: {0}"
 
 #. Label of a Date field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
@@ -298,14 +300,14 @@ msgstr "วันที่อนุมัต"
 #. Label of a Section Break field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "Approval Information"
-msgstr ""
+msgstr "ข้อมูลการอนุมัติ"
 
 #. Label of a Small Text field in DocType 'Credit Assessment'
 #. Label of a Small Text field in DocType 'Interest Rate Setup'
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Approval Notes"
-msgstr ""
+msgstr "หมายเหตุการอนุมัติ"
 
 #. Label of a Select field in DocType 'KYC Verification'
 #. Label of a Select field in DocType 'Vehicle Loan Application'
@@ -324,7 +326,7 @@ msgstr "อนุมัติ"
 #. Assessment'
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 msgid "Approve with Conditions"
-msgstr ""
+msgstr "อนุมัติพร้อมเงื่อนไข"
 
 #. Option for the 'Approval Status' (Select) field in DocType 'KYC
 #. Verification'
@@ -340,7 +342,7 @@ msgstr "ได้รับการอนุมัติ"
 #. Label of a Currency field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "Approved Amount"
-msgstr ""
+msgstr "จำนวนที่ได้รับการอนุมัติ"
 
 #. Label of a Link field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
@@ -350,27 +352,27 @@ msgstr "อนุมัติโดย"
 #. Label of a Percent field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "Approved Interest Rate"
-msgstr ""
+msgstr "อัตราดอกเบี้ยที่ได้รับการอนุมัติ"
 
 #. Label of a Link field in DocType 'Credit Assessment'
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 msgid "Assessed By"
-msgstr ""
+msgstr "ประเมินโดย"
 
 #. Label of a Date field in DocType 'Credit Assessment'
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 msgid "Assessment Date"
-msgstr ""
+msgstr "วันที่ขอบ"
 
 #. Label of a Section Break field in DocType 'Credit Assessment'
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 msgid "Assessment Decision"
-msgstr ""
+msgstr "การตัดสินใจประเมินผล"
 
 #. Label of a Text Editor field in DocType 'Credit Assessment'
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 msgid "Assessment Remarks"
-msgstr ""
+msgstr "หมายเหตุการประเมิน"
 
 #. Label of a Link field in DocType 'Debt Follow Up'
 #. Label of a Link field in DocType 'Follow Up History'
@@ -390,29 +392,29 @@ msgstr "ความผูกพัน"
 #. Vehicle'
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
 msgid "Auction Price"
-msgstr ""
+msgstr "ราคาประมูล"
 
 #. Option for the 'Verification Method' (Select) field in DocType 'KYC
 #. Verification'
 #: m_capital/m_capital/doctype/kyc_verification/kyc_verification.json
 msgid "Audited Financials"
-msgstr ""
+msgstr "งบการเงินที่ได้รับการตรวจสอบ"
 
 #. Label of a Select field in DocType 'Google Cloud Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
 msgid "Authentication Method"
-msgstr ""
+msgstr "วิธีการตรวจสอบสิทธิ์"
 
 #. Description of the 'Total Monthly Obligations' (Currency) field in DocType
 #. 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "Auto-calculated from debts table"
-msgstr ""
+msgstr "คำนวณอัตโนมัติจากตารางหนี้สิน"
 
 #. Option for the 'Transmission' (Select) field in DocType 'Lending Vehicle'
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
 msgid "Automatic"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 #. Option for the 'Collateral Status' (Select) field in DocType 'Lending
 #. Vehicle'
@@ -423,37 +425,37 @@ msgstr "พร้อมใช้งาน"
 #. Label of a shortcut in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "BOT Compliance Dashboard"
-msgstr ""
+msgstr "แดชบอร์ดการปฏิบัติตาม BOT"
 
 #. Name of a report
 #. Label of a Link in the M Capital Workspace
 #: m_capital/m_capital/report/bot_ncb_report/bot_ncb_report.json
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "BOT NCB Report"
-msgstr ""
+msgstr "รายงาน BOT NCB"
 
 #. Name of a DocType
 #. Label of a Link in the M Capital Workspace
 #: m_capital/m_capital/doctype/bot_regulatory_reports/bot_regulatory_reports.json
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "BOT Regulatory Reports"
-msgstr ""
+msgstr "รายงานกำกับดูแล BOT"
 
 #. Label of a Section Break field in DocType 'BOT Regulatory Reports'
 #: m_capital/m_capital/doctype/bot_regulatory_reports/bot_regulatory_reports.json
 msgid "BOT Submission"
-msgstr ""
+msgstr "การส่ง BOT"
 
 #. Description of the 'Processing Server' (Select) field in DocType 'OCR
 #. Processing Record'
 #: m_capital/m_capital/doctype/ocr_processing_record/ocr_processing_record.json
 msgid "Backend server that processed this document"
-msgstr ""
+msgstr "เซิร์ฟเวอร์แบ็กเอนด์ที่ประมวลผลเอกสารนี้"
 
 #. Label of a Section Break field in DocType 'Collection Schedule'
 #: m_capital/m_capital/doctype/collection_schedule/collection_schedule.json
 msgid "Balance Information"
-msgstr ""
+msgstr "ข้อมูลยอดคงเหลือ"
 
 #. Label of a Link field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
@@ -464,7 +466,7 @@ msgstr "บัญชีธนาคาร"
 #. Documents'
 #: m_capital/m_capital/doctype/customer_documents/customer_documents.json
 msgid "Bank Documents"
-msgstr ""
+msgstr "เอกสารธนาคาร"
 
 #. Option for the 'Document Type' (Select) field in DocType 'Customer
 #. Documents'
@@ -482,21 +484,21 @@ msgstr "รายการเงินฝากถอนในบัญชีเ
 #. Schedule'
 #: m_capital/m_capital/doctype/collection_schedule/collection_schedule.json
 msgid "Bank Transfer"
-msgstr ""
+msgstr "การโอนเงินผ่านธนาคาร"
 
 #. Label of a Percent field in DocType 'Interest Rate Setup'
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Base Interest Rate (%)"
-msgstr ""
+msgstr "อัตราดอกเบี้ยพื้นฐาน (%)"
 
 #: m_capital/m_capital/report/interest_rate_report/interest_rate_report.py:38
 msgid "Base Rate (%)"
-msgstr ""
+msgstr "อัตราพื้นฐาน (%)"
 
 #. Label of a Data field in DocType 'Debt Follow Up'
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.json
 msgid "Best Contact Time"
-msgstr ""
+msgstr "เวลาที่เหมาะสมในการติดต่อ"
 
 #. Label of a Date field in DocType 'Loan Guarantor'
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
@@ -507,19 +509,19 @@ msgstr "วันเกิด"
 #. Guarantor'
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
 msgid "Blacklisted"
-msgstr ""
+msgstr "ถูกขึ้นบัญชีดำ"
 
 #. Option for the 'Income Source' (Select) field in DocType 'Loan Application
 #. Employment'
 #: m_capital/m_capital/doctype/loan_application_employment/loan_application_employment.json
 msgid "Business Income"
-msgstr ""
+msgstr "รายได้ธุรกิจ"
 
 #. Option for the 'Debt Type' (Select) field in DocType 'Loan Application
 #. Debt'
 #: m_capital/m_capital/doctype/loan_application_debt/loan_application_debt.json
 msgid "Business Loan"
-msgstr ""
+msgstr "ธุรกิจ เบิร"
 
 #. Option for the 'Employment Type' (Select) field in DocType 'Credit
 #. Assessment'
@@ -529,38 +531,38 @@ msgstr ""
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 #: m_capital/m_capital/doctype/loan_application_employment/loan_application_employment.json
 msgid "Business Owner"
-msgstr ""
+msgstr "เจ้าของธุรกิจ"
 
 #. Option for the 'Relationship to Applicant' (Select) field in DocType 'Loan
 #. Application Guarantor'
 #: m_capital/m_capital/doctype/loan_application_guarantor/loan_application_guarantor.json
 msgid "Business Partner"
-msgstr ""
+msgstr "คู่ค้าทางธุรกิจ"
 
 #. Option for the 'Transmission' (Select) field in DocType 'Lending Vehicle'
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
 msgid "CVT"
-msgstr ""
+msgstr "CVT"
 
 #. Label of a Section Break field in DocType 'Interest Calculation'
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
 msgid "Calculated Amounts"
-msgstr ""
+msgstr "จำนวนที่คำนวณแล้ว"
 
 #. Label of a Section Break field in DocType 'Interest Rate Setup'
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Calculated Rates"
-msgstr ""
+msgstr "อัตราที่คำนวณแล้ว"
 
 #. Label of a Date field in DocType 'Interest Calculation'
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
 msgid "Calculation Date"
-msgstr ""
+msgstr "วันที่คำนวณ"
 
 #. Label of a Text Editor field in DocType 'Interest Calculation'
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
 msgid "Calculation Details"
-msgstr ""
+msgstr "รายละเอียดการคำนวณ"
 
 #. Label of a Select field in DocType 'Interest Calculation'
 #. Label of a Select field in DocType 'Interest Rate Setup'
@@ -568,21 +570,21 @@ msgstr ""
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 #: m_capital/m_capital/report/interest_rate_report/interest_rate_report.py:68
 msgid "Calculation Method"
-msgstr ""
+msgstr "วิธีการคำนวณ"
 
 #. Label of a Section Break field in DocType 'Interest Calculation'
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
 msgid "Calculation Period"
-msgstr ""
+msgstr "ช่วงเวลาการคำนวณ"
 
 #: m_capital/api/loan_application.py:939
 msgid "Cannot load a submitted application as draft"
-msgstr ""
+msgstr "ไม่สามารถโหลดใบสมัครที่ส่งแล้วในสถานะร่างได้"
 
 #: m_capital/api/loan_application.py:280
 #: m_capital/api/loan_application.py:1645
 msgid "Cannot update a submitted application"
-msgstr ""
+msgstr "ไม่สามารถแก้ไขใบสมัครที่ส่งแล้วได้"
 
 #. Option for the 'Loan Type' (Select) field in DocType 'BOT Regulatory
 #. Reports'
@@ -591,7 +593,7 @@ msgstr ""
 #: m_capital/m_capital/doctype/bot_regulatory_reports/bot_regulatory_reports.json
 #: m_capital/m_capital/doctype/loan_application_debt/loan_application_debt.json
 msgid "Car Loan"
-msgstr ""
+msgstr "สินเชื่อรถยนต์"
 
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.py:210
 msgid "Case escalated to legal team"
@@ -738,25 +740,27 @@ msgstr ""
 #. Name of a role
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.json
 msgid "Collection Officer"
-msgstr ""
+msgstr "เจ้าหน้าที่เรียกเก็บเงิน"
 
 #. Name of a DocType
 #. Label of a Link in the M Capital Workspace
 #: m_capital/m_capital/doctype/collection_schedule/collection_schedule.json
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "Collection Schedule"
-msgstr ""
+msgstr "กำหนดการเก็บเงิน"
 
 #. Label of a Section Break field in DocType 'Lending Settings'
 #: m_capital/m_capital/doctype/lending_settings/lending_settings.json
 msgid "Collection Settings"
-msgstr ""
+msgstr "การตั้งค่าการเก็บเงิน"
 
 #. Description of the 'Allowed IP Addresses' (Small Text) field in DocType
 #. 'Google Cloud Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
 msgid "Comma-separated list of IP addresses allowed to use these credentials"
 msgstr ""
+"รายการที่อยู่ IP ที่อนุญาตให้ใช้ข้อมูลรับรองเหล่านี้ "
+"โดยคั่นด้วยเครื่องหมายจุลภาค"
 
 #. Option for the 'Usage Type' (Select) field in DocType 'Lending Vehicle'
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
@@ -767,13 +771,13 @@ msgstr "เชิงพาณิชย์"
 #. Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "Commercial Vehicle"
-msgstr ""
+msgstr "รถยนต์พาณิชย์"
 
 #. Option for the 'Loan Product Type' (Select) field in DocType 'Interest Rate
 #. Setup'
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Commercial Vehicle Loan"
-msgstr ""
+msgstr "สินเชื่อรถยนต์เพื่อการพาณิชย์"
 
 #. Option for the 'Applicant Type' (Select) field in DocType 'Vehicle Loan
 #. Application'
@@ -784,7 +788,7 @@ msgstr "บริษัท"
 #. Label of a Section Break field in DocType 'Loan Application Employment'
 #: m_capital/m_capital/doctype/loan_application_employment/loan_application_employment.json
 msgid "Company Information"
-msgstr ""
+msgstr "ข้อมูลบริษัท"
 
 #. Label of a Data field in DocType 'Loan Application Employment'
 #. Label of a Data field in DocType 'Loan Application Guarantor'
@@ -800,12 +804,12 @@ msgstr "ชื่อ บริษัท"
 #: m_capital/m_capital/doctype/loan_application_employment/loan_application_employment.json
 #: m_capital/m_capital/doctype/loan_application_guarantor/loan_application_guarantor.json
 msgid "Company Phone"
-msgstr ""
+msgstr "หมายเลขโทรศัพท์บริษัท"
 
 #. Label of a Select field in DocType 'Loan Application Employment'
 #: m_capital/m_capital/doctype/loan_application_employment/loan_application_employment.json
 msgid "Company/Business Type"
-msgstr ""
+msgstr "ประเภทบริษัท/ประเภทธุรกิจ"
 
 #. Option for the 'Status' (Select) field in DocType 'Debt Follow Up'
 #. Option for the 'Status' (Select) field in DocType 'Follow Up History'
@@ -836,12 +840,12 @@ msgstr "เสร็จสมบูรณ์โดย"
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.json
 #: m_capital/m_capital/doctype/follow_up_history/follow_up_history.json
 msgid "Completed Date"
-msgstr ""
+msgstr "วันที่เสร็จสิ้น"
 
 #. Label of a Link in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "Compliance Dashboard"
-msgstr ""
+msgstr "แผงควบคุมการปฏิบัติตามข้อกำหนด"
 
 #. Option for the 'Interest Calculation Method' (Select) field in DocType 'BOT
 #. Regulatory Reports'
@@ -854,12 +858,12 @@ msgstr ""
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Compound Interest"
-msgstr ""
+msgstr "ดอกเบี้ยทบต้น"
 
 #. Label of a Select field in DocType 'Interest Rate Setup'
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Compounding Frequency"
-msgstr ""
+msgstr "ความถี่ในการทบต้น"
 
 #. Paragraph text in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
@@ -867,38 +871,39 @@ msgid ""
 "Comprehensive lending and investment management platform for Thai nano "
 "finance operations."
 msgstr ""
+"แพลตฟอร์มการจัดการสินเชื่อและการลงทุนครบวงจรสำหรับการดำเนินงานการเงินนาโนในประเทศไทย"
 
 #. Label of a Text field in DocType 'Lending Vehicle'
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
 msgid "Condition Notes"
-msgstr ""
+msgstr "หมายเหตุเงื่อนไข"
 
 #. Option for the 'Approval Status' (Select) field in DocType 'Vehicle Loan
 #. Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "Conditional Approval"
-msgstr ""
+msgstr "การอนุมัติแบบมีเงื่อนไข"
 
 #. Label of a Float field in DocType 'OCR Processing Record'
 #: m_capital/m_capital/doctype/ocr_processing_record/ocr_processing_record.json
 msgid "Confidence Score"
-msgstr ""
+msgstr "คะแนนความมั่นใจ"
 
 #. Option for the 'Connection Status' (Select) field in DocType 'Google Cloud
 #. Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
 msgid "Connected"
-msgstr ""
+msgstr "เชื่อมต่อแล้ว"
 
 #. Label of a Select field in DocType 'Google Cloud Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
 msgid "Connection Status"
-msgstr ""
+msgstr "สถานะการเชื่อมต่อ"
 
 #. Label of a Section Break field in DocType 'Google Cloud Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
 msgid "Connection Testing"
-msgstr ""
+msgstr "การทดสอบการเชื่อมต่อ"
 
 #. Label of a Section Break field in DocType 'Debt Follow Up'
 #. Label of a Section Break field in DocType 'Loan Guarantor'
@@ -1064,7 +1069,7 @@ msgstr ""
 #. Label of a Data field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "Current Province"
-msgstr ""
+msgstr "จังหวัดปัจจุบัน"
 
 #. Label of a Data field in DocType 'Vehicle Loan Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
