@@ -1003,7 +1003,7 @@ msgstr "API"
 #: frappe/core/doctype/user/user.json
 #: frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json
 msgid "API Access"
-msgstr "การเข้าถึง API"
+msgstr "API สำหรับการเข้าถึง"
 
 #. Label of a Data field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
