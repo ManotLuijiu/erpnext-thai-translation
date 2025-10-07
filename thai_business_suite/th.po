@@ -1,21 +1,40 @@
-# Translations template for PROJECT Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite.
-# Copyright (C) 2025 ORGANIZATION
-# This file is distributed under the same license as the PROJECT Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite Thai Business Suite project.
+# Translations template for Thai Business Suite.
+# Copyright (C) 2025 Manot L.
+# This file is distributed under the same license as the Thai Business Suite project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT Thai Business Suite VERSION\n"
-"Report-Msgid-Bugs-To: mooocding@gmail.com\n"
-"POT-Creation-Date: 2025-09-04 18:48+0642\n"
-"PO-Revision-Date: 2025-09-07 06:20\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: Thai Business Suite VERSION\n"
+"Report-Msgid-Bugs-To: moocoding@gmail.com\n"
+"POT-Creation-Date: 2025-10-06 22:52+0642\n"
+"PO-Revision-Date: 2025-10-07 23:23\n"
+"Last-Translator: moocoding@gmail.com\n"
+"Language-Team: moocoding@gmail.com\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.1\n"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.py:109
+msgid ""
+"\n"
+"\t\t\t\t<p>The Petty Cash Account <strong>{0}</strong> has fallen below the minimum balance threshold.</p>\n"
+"\t\t\t\t<ul>\n"
+"\t\t\t\t\t<li>Current Balance: {1}</li>\n"
+"\t\t\t\t\t<li>Minimum Balance: {2}</li>\n"
+"\t\t\t\t\t<li>Fund Limit: {3}</li>\n"
+"\t\t\t\t</ul>\n"
+"\t\t\t\t<p>Please consider replenishing this fund.</p>\n"
+"\t\t\t"
+msgstr ""
+"<p>บัญชีชารอายัดซัน <strong>{0}</strong> ไม่อยการขายตั้นองไม่สวีดสารายส่งค่านการเพลางตั้นส่วนเลื่อกสุดรายส่งค่านเพลาง</p>\n"
+"<ul>\n"
+"<li>สินตั้ง ค่าน: {1}</li>\n"
+"<li>สินตั้ง ส่วนเลื่อก: {2}</li>\n"
+"<li>ชารสินลาง: {3}</li>\n"
+"</ul>\n"
+"<p>จะนอยการเลื่อกเป็นคลังสินลางเปลนชารส่านส่วนเลื่อกสุดรายส่งค่านเพลาง</p>"
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:87
 msgid " ZKTeco service..."
@@ -45,12 +64,29 @@ msgstr "1,3"
 msgid "2,3"
 msgstr "2,3"
 
+#. Description of the 'Enable Monitoring & Alerts' (Check) field in DocType
+#. 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "24/7 monitoring with alerts (MANAGED tier only)"
+msgstr ""
+"การตรวจสอบตลอด 24 ชั่วโมง 7 วัน พร้อมการแจ้งเตือน (เฉพาะระดับ MANAGED)"
+
 #. Description of the 'VAT Branch Code' (Data) field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid ""
 "5-digit VAT branch code for Thai Revenue Department. 00000 for head office."
 msgstr ""
 "รหัสสาขาภาษีมูลค่าเพิ่ม 5 หลักสำหรับกรมสรรพากรไทย 00000 สำหรับสำนักงานใหญ่"
+
+#. Option for the 'SLA Tier' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "99.9% Uptime"
+msgstr "99.9% เวลาใช้งาน"
+
+#. Option for the 'SLA Tier' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "99.99% Uptime"
+msgstr "99.99% เวลาให้บริการ"
 
 #. Content of the 'Exception Settings Help' (HTML) field in DocType 'ZKTeco
 #. Biometric Settings'
@@ -68,6 +104,24 @@ msgstr ""
 "1. ไม่พบพนักงานสำหรับ User ID ของพนักงานที่ระบุ<br>\n"
 "2. พนักงานไม่ใช้งานสำหรับ User ID ของพนักงานที่ระบุ<br>\n"
 "3. พบการเช็คอินพนักงานซ้ำ\n"
+"</div>"
+
+#. Content of the 'Font Preview' (HTML) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid ""
+"<div id=\"thai-font-preview\" style=\"padding: 20px; border: 1px solid var(--border-color); border-radius: 5px; background: var(--gray-50); color: var(--text-color);\">\n"
+"    <h3 style=\"margin-bottom: 15px; color: var(--text-color);\">Font Preview / ตัวอย่างฟอนต์</h3>\n"
+"    <p class=\"preview-text\" style=\"font-size: 18px; line-height: 1.6; color: var(--text-color);\">ทดสอบฟอนต์ภาษาไทย - Thai Font Testing</p>\n"
+"    <p class=\"preview-text\" style=\"font-size: 16px; line-height: 1.6; color: var(--text-color);\">๐๑๒๓๔๕๖๗๘๙ - 0123456789</p>\n"
+"    <p class=\"preview-text\" style=\"font-size: 14px; line-height: 1.6; color: var(--text-color);\">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</p>\n"
+"</div>"
+msgstr ""
+"<div id=\"thai-font-preview\" style=\"padding: 20px; border: 1px solid var(--border-color); border-radius: 5px; background: var(--gray-50); color: var(--text-color);\">\n"
+"    <h3 style=\"margin-bottom: 15px; color: var(--text-color);\">ตัวอย่างฟอนต์ / Font Preview</h3>\n"
+"    <p class=\"preview-text\" style=\"font-size: 18px; line-height: 1.6; color: var(--text-color);\">ทดสอบฟอนต์ภาษาไทย - Thai Font Testing</p>\n"
+"    <p class=\"preview-text\" style=\"font-size: 16px; line-height: 1.6; color: var(--text-color);\">๐๑๒๓๔๕๖๗๘๙ - 0123456789</p>\n"
+"    <p class=\"preview-text\" style=\"font-size: 14px; line-height: 1.6; color: var(--text-color);\">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</p>\n"
 "</div>"
 
 #. Header text in the Accounts Payable - TBS Workspace
@@ -115,6 +169,11 @@ msgstr "<span class=\"h4\">ใบสั่งขาย - TBS</span>"
 msgid "<span class=\"h4\">TBS Management</span>"
 msgstr "<span class=\"h4\">การจัดการ TBS</span>"
 
+#. Header text in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "<span class=\"h4\">Thai Business Suite</span>"
+msgstr "<span class=\"h4\">ชุดธุรกิจไทย</span>"
+
 #. Header text in the Value Added Tax - TBS Workspace
 #: thai_business_suite/thai_business_suite/workspace/value_added_tax___tbs/value_added_tax___tbs.json
 msgid "<span class=\"h4\">Value Added Tax - TBS</span>"
@@ -141,6 +200,11 @@ msgstr "รหัส API"
 msgid "API Secret"
 msgstr "รหัสลับ API"
 
+#. Label of a Int field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "API Timeout (seconds)"
+msgstr "หมดเวลารอ API (วินาที)"
+
 #. Option for the 'Punch Direction' (Select) field in DocType 'ZKTeco
 #. Biometric
 #. Device'
@@ -154,8 +218,38 @@ msgstr "อัตโนมัติ"
 msgid "AUTO will determine IN/OUT based on punch value"
 msgstr "AUTO จะกำหนด เข้า/ออก โดยอัตโนมัติตามค่าการบันทึกเวลา"
 
+#. Label of a Datetime field in DocType 'Secret Access Log'
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
+msgid "Accessed At"
+msgstr "เข้าถึงเมื่อ"
+
+#. Label of a Link field in DocType 'Secret Access Log'
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
+msgid "Accessed By"
+msgstr "เข้าถึงโดย"
+
+#. Label of a Data field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Account Name"
+msgstr "ชื่อบัญชี"
+
+#. Label of a Section Break field in DocType 'Petty Cash Replenishment'
+#. Label of a Section Break field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Accounting"
+msgstr "การบัญชี"
+
+#. Label of a Section Break field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Accounting Configuration"
+msgstr "การตั้งค่าการบัญชี"
+
 #. Name of a role
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_settings/petty_cash_settings.json
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
@@ -175,6 +269,9 @@ msgstr "บัญชีลูกหนี้ - TBS"
 
 #. Name of a role
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_settings/petty_cash_settings.json
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
@@ -184,16 +281,37 @@ msgstr "ผู้ใช้บัญชี"
 
 #: thai_business_suite/public/js/payment_entry.js:75
 #: thai_business_suite/public/js/sales_invoice.js:92
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:10
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:25
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:46
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:45
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:10
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:14
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:11
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:15
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:22
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.js:10
 msgid "Actions"
 msgstr "การดำเนินการ"
 
 #. Option for the 'Status' (Select) field in DocType 'Thai VAT Recognition'
+#. Option for the 'Billing Status' (Select) field in DocType 'TBS General
+#. Settings'
 #. Option for the 'Status' (Select) field in DocType 'ZKTeco Biometric Device'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
 msgid "Active"
 msgstr "ใช้งาน"
+
+#. Label of a Currency field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Actual Amount Disbursed"
+msgstr "จำนวนเงินที่จ่ายจริง"
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:63
+msgid "Actual Delivery"
+msgstr ""
 
 #. Label of a Section Break field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
@@ -204,6 +322,12 @@ msgstr "ข้อมูลเพิ่มเติม"
 #: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
 msgid "Additional Settings"
 msgstr "การตั้งค่าเพิ่มเติม"
+
+#. Description of the 'Description' (Text Editor) field in DocType 'Grist
+#. Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Additional notes or documentation for this report"
+msgstr ""
 
 #. Label of a Section Break field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
@@ -220,12 +344,22 @@ msgstr "ที่อยู่บรรทัดที่ 1"
 msgid "Address Line 2"
 msgstr "ที่อยู่ บรรทัดที่ 2"
 
+#. Description of the 'Minimum Balance (Alert Threshold)' (Currency) field in
+#. DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Alert when balance drops below this amount"
+msgstr ""
+
 #. Label of a Select field in DocType 'ZKTeco Biometric Settings'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
 msgid "Allowed Exceptions"
 msgstr "ข้อยกเว้นที่อนุญาต"
 
+#. Label of a Link field in DocType 'Petty Cash Replenishment'
+#. Label of a Link field in DocType 'Petty Cash Request'
 #. Label of a Link field in DocType 'Petty Cash Voucher'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_voucher/petty_cash_voucher.json
 msgid "Amended From"
 msgstr "แก้ไขจาก"
@@ -238,6 +372,76 @@ msgstr "แก้ไขจาก"
 msgid "Amount"
 msgstr "จำนวนเงิน"
 
+#. Description of the 'Replenishment Amount' (Currency) field in DocType
+#. 'Petty
+#. Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Amount to transfer from bank to petty cash fund"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_invoice_grist.js:57
+#: thai_business_suite/public/js/sales_invoice_grist.js:57
+msgid "An error occurred while creating the Grist report"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_invoice_grist.js:10
+#: thai_business_suite/public/js/sales_invoice_grist.js:10
+msgid "Analyze in Grist"
+msgstr ""
+
+#. Label of a Data field in DocType 'Secret Access Log'
+#. Label of a Select field in DocType 'TBS Secret Mapping'
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "App Name"
+msgstr "ชื่อ แอพพลิเคชั่น"
+
+#. Label of a Section Break field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "App Secret Mappings"
+msgstr ""
+
+#. Label of a Table field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "App Secrets"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Approval"
+msgstr ""
+
+#. Label of a Datetime field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Approval Date"
+msgstr "วันที่อนุมัต"
+
+#. Label of a Text field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Approval Remarks"
+msgstr ""
+
+#. Label of a Select field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Approval Status"
+msgstr "สถานะการอนุมัติ"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:9
+msgid "Approve"
+msgstr "อนุมัติ"
+
+#. Option for the 'Approval Status' (Select) field in DocType 'Petty Cash
+#. Request'
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Approved"
+msgstr "ได้รับการอนุมัติ"
+
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Approved By"
+msgstr "อนุมัติโดย"
+
 #. Label of a Data field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Approved By (English)"
@@ -247,6 +451,32 @@ msgstr "อนุมัติโดย"
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Approved By (Thai)"
 msgstr "อนุมัติโดย"
+
+#. Label of a Link field in DocType 'Asset Repair History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Asset Repair"
+msgstr "การซ่อมแซมสินทรัพย์"
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Asset Repair History"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Assets"
+msgstr ""
+
+#. Label of a Attach field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Attach Receipt/Supporting Documents"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Attachments"
+msgstr "ไฟล์แนบ"
 
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
 msgid "Attendance Failed"
@@ -279,9 +509,107 @@ msgstr "บันทึกตรวจสอบรายการเงินส
 msgid "Auditor Report"
 msgstr "รายงานผู้สอบบัญชี"
 
+#. Label of a Check field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Auto Create Journal Entry"
+msgstr ""
+
+#. Description of the 'Current Balance' (Currency) field in DocType 'Petty
+#. Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Auto-calculated from transactions"
+msgstr ""
+
+#. Description of the 'Journal Entry' (Link) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Auto-generated GL entry on submission"
+msgstr ""
+
+#. Description of the 'Journal Entry' (Link) field in DocType 'Petty Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Auto-generated GL entry: Dr. Petty Cash, Cr. Bank"
+msgstr ""
+
+#. Description of the 'Enable Thai Font Auto Apply' (Check) field in DocType
+#. 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid ""
+"Automatically apply selected Thai font when user's language is set to Thai"
+msgstr ""
+
+#. Description of the 'Auto Create Journal Entry' (Check) field in DocType
+#. 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Automatically create GL entries on submission"
+msgstr ""
+
+#. Description of the 'Enable Automated Secret Rotation' (Check) field in
+#. DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Automatically rotate secrets every 90 days (MANAGED tier only)"
+msgstr ""
+
+#. Description of the 'Doppler Token Type' (Select) field in DocType 'TBS
+#. General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Automatically set based on service tier"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:39
+msgid "Balance updated: {0}"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Bank Account"
+msgstr "บัญชีธนาคาร"
+
+#. Label of a Link field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Bank Account for Replenishment"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.py:41
+msgid "Bank Account for Replenishment must be of type Bank, not {0}"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.py:100
+msgid "Bank Account is required to create GL Entry"
+msgstr ""
+
 #: thai_business_suite/utils/voucher_generator.py:65
 msgid "Bank Journal"
 msgstr "สมุดรายวันธนาคาร"
+
+#. Option for the 'Payment Mode' (Select) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Bank Transfer"
+msgstr ""
+
+#. Label of a Data field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Bank Transfer Reference"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.py:129
+msgid "Bank Transfer for Petty Cash Replenishment"
+msgstr ""
+
+#. Description of the 'Bank Account' (Link) field in DocType 'Petty Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Bank account to transfer funds from"
+msgstr ""
+
+#. Description of the 'Bank Account for Replenishment' (Link) field in DocType
+#. 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Bank account used to replenish this fund"
+msgstr ""
 
 #. Label of a Currency field in DocType 'Thai Purchase VAT'
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
@@ -310,12 +638,25 @@ msgstr ""
 "ความถี่พื้นฐานเป็นนาทีระหว่างการตรวจสอบอุปกรณ์ "
 "(การตั้งค่าแบบไดนามิกจะมีผลแทนในช่วงเวลาที่มีการใช้งานสูง)"
 
+#. Label of a Section Break field in DocType 'Petty Cash Account'
+#. Label of a Section Break field in DocType 'Petty Cash Replenishment'
+#. Label of a Section Break field in DocType 'Petty Cash Request'
 #. Label of a Section Break field in DocType 'Thai Branch'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid "Basic Information"
 msgstr "ข้อมูลพื้นฐาน"
 
+#. Label of a Section Break field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Bilingual Information"
+msgstr ""
+
+#. Label of a Date field in DocType 'Naming Series Test'
 #. Label of a Date field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
 msgid "Bill Date"
 msgstr "วันที่บิล"
@@ -329,6 +670,16 @@ msgstr "เลขที่บิล"
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
 msgid "Bill Series"
 msgstr "ลำดับบิล"
+
+#. Label of a Section Break field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Billing Details"
+msgstr "รายละเอียดการเรียกเก็บเงิน"
+
+#. Label of a Select field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Billing Status"
+msgstr "สถานะการเรียกเก็บเงิน"
 
 #. Description of the 'Bill Series' (Data) field in DocType 'Thai Purchase
 #. VAT'
@@ -369,19 +720,82 @@ msgstr "ชื่อสาขา"
 msgid "Branch Name (Thai)"
 msgstr "ชื่อสาขา (ภาษาไทย)"
 
+#. Option for the 'Repair Type' (Select) field in DocType 'Asset Repair
+#. History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Breakdown"
+msgstr "การเสีย"
+
 #. Label of a Code field in DocType 'Thai Document Template'
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 msgid "CSS Styles"
 msgstr "สไตล์ CSS"
 
+#. Label of a Long Text field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "CSV Data"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:21
+msgid "CSV Viewer"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:43
+msgid "CSV file downloaded successfully"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:12
+msgid "Calculate Replenishment Amount"
+msgstr ""
+
+#. Description of the 'Net Replenishment Needed' (Currency) field in DocType
+#. 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Calculated replenishment to restore fund limit"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:79
+msgid "Calendar View"
+msgstr "มุมมองปฏิทิน"
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:298
+msgid ""
+"Calendar file downloaded. You can import this into Google Calendar, Outlook,"
+" or other calendar apps."
+msgstr ""
+
 #. Option for the 'Status' (Select) field in DocType 'Thai VAT Recognition'
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash
+#. Replenishment'
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash Request'
+#. Option for the 'Status' (Select) field in DocType 'PO Planned Delivery'
+#. Option for the 'Billing Status' (Select) field in DocType 'TBS General
+#. Settings'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
 msgid "Cancelled"
 msgstr "ยกเลิกแล้ว"
+
+#. Option for the 'Payment Mode' (Select) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Cash"
+msgstr "เงินสด"
 
 #: thai_business_suite/utils/voucher_generator.py:65
 msgid "Cash Journal"
 msgstr "สมุดรายวันเงินสด"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:182
+msgid "Cash disbursed successfully"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:222
+msgid "Cash disbursed successfully: {0}"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:7
 msgid "Check Connection"
@@ -405,6 +819,12 @@ msgstr "ตรวจสอบโดย"
 msgid "Checking connection to ERPNext..."
 msgstr "กำลังตรวจสอบการเชื่อมต่อกับ ERPNext..."
 
+#. Option for the 'Payment Mode' (Select) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Cheque"
+msgstr "เช็ค"
+
 #. Label of a Check field in DocType 'ZKTeco Biometric Device'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
 msgid "Clear From Device On Fetch"
@@ -415,15 +835,40 @@ msgstr "ล้างจากอุปกรณ์เมื่อดึงข้
 msgid "Close"
 msgstr "ปิด"
 
+#. Label of a Currency field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Closing Balance"
+msgstr "ยอดคงเหลือปิดบัญชี"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:31
+msgid "Closing Balance: {0}"
+msgstr ""
+
 #. Label of a Link field in DocType 'Thai VAT Recognition'
+#. Label of a Link field in DocType 'Naming Series Test'
+#. Label of a Link field in DocType 'Petty Cash Account'
+#. Label of a Link field in DocType 'Petty Cash Replenishment'
+#. Label of a Link field in DocType 'Petty Cash Request'
 #. Label of a Link field in DocType 'Petty Cash Settings'
+#. Label of a Link field in DocType 'Secret Access Log'
 #. Label of a Link field in DocType 'Thai Branch'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_settings/petty_cash_settings.json
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:29
 #: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:25
 msgid "Company"
 msgstr "บริษัท"
+
+#. Label of a Section Break field in DocType 'Naming Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Company Information"
+msgstr ""
 
 #. Label of a Attach Image field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
@@ -440,6 +885,11 @@ msgstr "ชื่อบริษัท (ภาษาอังกฤษ)"
 msgid "Company Name (Thai)"
 msgstr "ชื่อบริษัท (ภาษาไทย)"
 
+#. Label of a Check field in DocType 'TBS Secret Mapping'
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "Company Specific"
+msgstr ""
+
 #. Option for the 'Template Type' (Select) field in DocType 'Thai Document
 #. Template'
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
@@ -447,7 +897,9 @@ msgid "Compliance Report"
 msgstr "รายงานการปฏิบัติตามข้อกำหนด"
 
 #. Label of a Card Break in the TBS Management Workspace
+#. Label of a Card Break in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Configuration"
 msgstr "การตั้งค่า"
 
@@ -463,6 +915,12 @@ msgstr "ไฟล์การตั้งค่าถูกสร้างเร
 msgid "Configuration file has been generated at: "
 msgstr "ไฟล์การตั้งค่าได้ถูกสร้างที่:"
 
+#. Description of the 'Grist Static Integration' (Section Break) field in
+#. DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Configure Grist server for invoice analysis and reporting"
+msgstr ""
+
 #: thai_business_suite/config/desk.py:68
 msgid "Configure ZKTeco biometric device settings"
 msgstr "กำหนดค่าการตั้งค่าอุปกรณ์ไบโอเมตริกซ์ ZKTeco"
@@ -471,6 +929,12 @@ msgstr "กำหนดค่าการตั้งค่าอุปกรณ
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:33
 msgid "Configure petty cash settings and limits"
 msgstr "กำหนดค่าการตั้งค่าและขีดจำกัดเงินสดย่อย"
+
+#. Description of the 'App Secrets' (Table) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Configure which secrets each app can access"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:53
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:77
@@ -499,6 +963,32 @@ msgstr ""
 msgid "Contact Information"
 msgstr "ข้อมูลการติดต่อ"
 
+#. Description of the 'Enable Buddhist Era Dates' (Check) field in DocType
+#. 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Convert Gregorian dates to Buddhist Era (B.E.)"
+msgstr ""
+
+#. Option for the 'Repair Type' (Select) field in DocType 'Asset Repair
+#. History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Corrective"
+msgstr "แก้ไข"
+
+#. Label of a Link field in DocType 'Petty Cash Account'
+#. Label of a Link field in DocType 'Petty Cash Replenishment'
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Cost Center"
+msgstr "ศูนย์ต้นทุน"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.py:105
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:98
+msgid "Cost Center is required to create GL Entry"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:7
 msgid "Create Print Format"
 msgstr "สร้างรูปแบบการพิมพ์"
@@ -512,10 +1002,36 @@ msgstr "สร้างสาขา ERPNext: {0}"
 msgid "Created On"
 msgstr "สร้างเมื่อ"
 
+#: thai_business_suite/public/js/purchase_invoice_grist.js:19
+#: thai_business_suite/public/js/sales_invoice_grist.js:19
+msgid "Creating Grist analysis report..."
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Current Balance"
+msgstr "ยอดคงเหลือปัจจุบัน"
+
+#. Label of a Section Break field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Current Balances & Statistics"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:145
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:49
 msgid "Current petty cash balance report"
 msgstr "รายงานยอดเงินสดย่อยคงเหลือปัจจุบัน"
+
+#. Label of a Data field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Custodian Name"
+msgstr ""
+
+#. Description of the 'Disbursed By' (Link) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Custodian who gave the cash"
+msgstr ""
 
 #. Option for the 'Template Type' (Select) field in DocType 'Thai Document
 #. Template'
@@ -523,15 +1039,32 @@ msgstr "รายงานยอดเงินสดย่อยคงเหล
 msgid "Custom Document"
 msgstr "เอกสารกำหนดเอง"
 
+#. Option for the 'Report Type' (Select) field in DocType 'Grist Static
+#. Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Custom Report"
+msgstr "รายงานที่กำหนดเอง"
+
 #. Label of a Link field in DocType 'Thai VAT Recognition'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
 msgid "Customer"
 msgstr "ลูกค้า"
 
+#. Label of a Password field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Customer Doppler Token"
+msgstr ""
+
 #. Label of a Data field in DocType 'Thai VAT Recognition'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
 msgid "Customer Name"
 msgstr "ชื่อลูกค้า"
+
+#. Option for the 'Doppler Token Type' (Select) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Customer Provided Token"
+msgstr ""
 
 #: thai_business_suite/setup/sales_invoice_vat_custom_fields.py:202
 msgid "Customer Thai VAT custom fields created successfully"
@@ -541,6 +1074,11 @@ msgstr "สร้างฟิลด์กำหนดเอง VAT ลูกค�
 msgid "Dashboard"
 msgstr "แดชบอร์ด"
 
+#. Label of a Section Break field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Data Configuration"
+msgstr ""
+
 #: thai_business_suite/api.py:36
 msgid "Data received and processed"
 msgstr "ได้รับข้อมูลและดำเนินการแล้ว"
@@ -549,10 +1087,37 @@ msgstr "ได้รับข้อมูลและดำเนินการ
 msgid "Data submitted successfully"
 msgstr "ส่งข้อมูลเรียบร้อยแล้ว"
 
+#. Label of a Section Break field in DocType 'Naming Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Date Fields for Testing"
+msgstr ""
+
+#. Description of the 'Reference Date' (Date) field in DocType 'Petty Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Date of bank transfer"
+msgstr ""
+
+#. Description of the 'Disbursement Date' (Date) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Date when cash was actually given to employee"
+msgstr ""
+
 #. Label of a Int field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Decimal Places"
 msgstr "ตำแหน่งทศนิยม"
+
+#. Label of a Link field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Default Cost Center"
+msgstr "เริ่มต้นที่ศูนย์ต้นทุน"
+
+#. Label of a Link field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Default Expense Account"
+msgstr "บัญชีค่าใช้จ่ายเริ่มต้น"
 
 #. Label of a Select field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
@@ -574,6 +1139,25 @@ msgstr "บัญชี การอายัดบัญชี เป็น"
 msgid "Default Petty Cash Holder"
 msgstr "ผู้ถือเงินสดย่อยเริ่มต้น"
 
+#. Description of the 'Default Expense Account' (Link) field in DocType 'Petty
+#. Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Default account for expense disbursements"
+msgstr ""
+
+#. Description of the 'Cost Center' (Link) field in DocType 'Petty Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Default cost center for expenses from this fund"
+msgstr ""
+
+#. Description of the 'Default Cost Center' (Link) field in DocType 'Petty
+#. Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Default cost center if not specified in request"
+msgstr ""
+
 #. Description of the 'Port' (Int) field in DocType 'ZKTeco Biometric Device'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
 msgid "Default port is 4370"
@@ -583,22 +1167,99 @@ msgstr "พอร์ตเริ่มต้นคือ 4370"
 msgid "Default template already exists for {0}: {1}"
 msgstr "เทมเพลตเริ่มต้นมีอยู่แล้วสำหรับ {0}: {1}"
 
+#. Option for the 'Status' (Select) field in DocType 'PO Planned Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Delayed"
+msgstr "ล่าช้า"
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:228
+msgid "Delivered Late"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:234
+msgid "Delivered On Time"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:185
+msgid "Deliveries"
+msgstr ""
+
 #. Option for the 'Recognition Type' (Select) field in DocType 'Thai VAT
 #. Recognition'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
 msgid "Delivery"
 msgstr "การจัดส่ง"
 
+#: thai_business_suite/public/js/purchase_order_delivery_calendar.js:27
+msgid "Delivery Calendar"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:114
+msgid "Delivery Calendar View"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_delivery_calendar.js:102
+msgid "Delivery Date"
+msgstr "วันที่ส่ง"
+
 #. Option for the 'Trigger Document Type' (Select) field in DocType 'Thai VAT
 #. Recognition'
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Delivery Note"
 msgstr "ใบส่งสินค้า"
 
+#: thai_business_suite/public/js/purchase_order_tracking.js:84
+msgid "Delivery Progress"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_delivery_calendar.js:108
+msgid "Delivery Quantity"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_delivery_calendar.js:152
+msgid "Delivery Schedule Calendar - {0}"
+msgstr ""
+
+#. Description of the 'Status' (Select) field in DocType 'PO Planned Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Delivery status tracking"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Account'
+#. Label of a Link field in DocType 'Petty Cash Replenishment'
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Department"
+msgstr "แผนก"
+
+#. Description of the 'Department' (Link) field in DocType 'Petty Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Department responsible for this fund"
+msgstr ""
+
+#. Label of a Small Text field in DocType 'Asset Repair History'
+#. Label of a Text Editor field in DocType 'Grist Static Report'
+#. Label of a Section Break field in DocType 'Naming Series Test'
+#. Label of a Small Text field in DocType 'TBS Secret Mapping'
 #. Label of a Small Text field in DocType 'Thai Document Template'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 msgid "Description"
 msgstr "คำอธิบาย"
+
+#. Description of the 'Expense Description' (Small Text) field in DocType
+#. 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Detailed description of the expense purpose"
+msgstr ""
 
 #. Label of a Link field in DocType 'ZKTeco Device Link'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_device_link/zkteco_device_link.json
@@ -626,16 +1287,100 @@ msgstr "สถิติอุปกรณ์"
 msgid "Devices"
 msgstr "อุปกรณ์"
 
+#. Description of the 'Repair Cost' (Currency) field in DocType 'Asset Repair
+#. History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Direct labor/service cost"
+msgstr ""
+
 #. Description of the 'Logs Directory' (Data) field in DocType 'ZKTeco
 #. Biometric Settings'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
 msgid "Directory where logs will be stored"
 msgstr "ไดเรกทอรีที่เก็บบันทึกข้อมูล"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:166
+msgid "Disburse"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:20
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:135
+msgid "Disburse Cash"
+msgstr ""
+
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Disbursed"
+msgstr "การเบิกจ่าย"
+
+#. Label of a Currency field in DocType 'Petty Cash Replenishment Item'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:140
+msgid "Disbursed Amount"
+msgstr "จำนวนเงินที่เบิกจ่าย"
+
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Disbursed By"
+msgstr ""
+
+#. Label of a Table field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Disbursed Requests"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Disbursed Requests (Period Summary)"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:204
+msgid "Disbursed amount ({0}) is greater than requested amount ({1})"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:200
+msgid "Disbursed amount must be greater than zero"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Disbursement"
+msgstr ""
+
+#. Label of a Date field in DocType 'Petty Cash Replenishment Item'
+#. Label of a Date field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:147
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Disbursement Date"
+msgstr "วันที่เบิกจ่าย"
+
+#. Label of a Section Break field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Display Settings"
+msgstr "แสดงการตั้งค่า"
+
 #. Label of a Data field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid "District (อำเภอ/เขต)"
 msgstr "District (อำเภอ/เขต)"
+
+#. Label of a Date field in DocType 'Naming Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Document Date (TBS Custom)"
+msgstr ""
+
+#: thai_business_suite/overrides/naming.py:255
+msgid ""
+"Document Date is required when using document date-based naming series ({0})"
+msgstr ""
+
+#. Description of the 'Grist Document ID' (Data) field in DocType 'Grist
+#. Static
+#. Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Document ID on Grist server (for hybrid mode)"
+msgstr ""
 
 #. Label of a Link field in DocType 'Thai Document Template'
 #: thai_business_suite/public/js/sales_invoice.js:92
@@ -655,13 +1400,37 @@ msgstr "เอกสารต้องได้รับการส่งเพ
 msgid "Document template created successfully"
 msgstr "สร้างแม่แบบเอกสารสำเร็จแล้ว"
 
+#. Label of a Section Break field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Doppler Configuration"
+msgstr ""
+
+#. Label of a Select field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Doppler Token Type"
+msgstr ""
+
 #: thai_business_suite/public/js/payment_entry.js:84
 #: thai_business_suite/public/js/sales_invoice.js:101
 msgid "Download"
 msgstr "ดาวน์โหลด"
 
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:30
+msgid "Download CSV"
+msgstr ""
+
+#. Label of a Float field in DocType 'Asset Repair History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Downtime (Hours)"
+msgstr ""
+
 #. Option for the 'Status' (Select) field in DocType 'Thai VAT Recognition'
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash
+#. Replenishment'
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash Request'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
 msgid "Draft"
 msgstr "ร่างเอกสาร"
 
@@ -702,15 +1471,74 @@ msgstr "เวอร์ชันของ ERPNext"
 msgid "Email"
 msgstr "อีเมล"
 
+#. Name of a role
+#. Label of a Data field in DocType 'Petty Cash Replenishment Item'
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Employee"
+msgstr "พนักงาน"
+
 #. Label of a Link in the TBS Management Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
 msgid "Employee Checkin"
 msgstr "การลงเวลาของพนักงาน"
 
+#. Label of a Data field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Employee Name"
+msgstr "ชื่อของพนักงาน"
+
+#. Description of the 'Fund Custodian' (Link) field in DocType 'Petty Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Employee responsible for managing this fund"
+msgstr ""
+
+#. Label of a Check field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Enable Audit Logs"
+msgstr ""
+
+#. Label of a Check field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Enable Automated Secret Rotation"
+msgstr ""
+
+#. Label of a Check field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Enable Buddhist Era Dates"
+msgstr ""
+
 #. Label of a Check field in DocType 'MCP Settings'
 #: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
 msgid "Enable MCP Integration"
 msgstr "เปิดใช้งานการรวมระบบ MCP"
+
+#. Label of a Check field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Enable Monitoring & Alerts"
+msgstr ""
+
+#. Label of a Check field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Enable Static Fallback"
+msgstr ""
+
+#. Label of a Check field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Enable Thai Font Auto Apply"
+msgstr ""
+
+#. Description of the 'Use Hybrid Mode' (Check) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+#, python-format
+msgid ""
+"Enable to use Grist server. Disable for static-only mode (100% offline, no "
+"server needed)"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:20
 msgid ""
@@ -721,6 +1549,19 @@ msgstr ""
 "การเปิดใช้งานตัวเลือกนี้จะลบข้อมูลการลงเวลาจากอุปกรณ์หลังจากดึงข้อมูลแล้ว "
 "ซึ่งอาจทำให้ข้อมูลสูญหายได้หากเกิดปัญหากับกระบวนการซิงค์ "
 "คุณแน่ใจหรือไม่ว่าต้องการเปิดใช้งาน?"
+
+#. Description of the 'Period To' (Date) field in DocType 'Petty Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "End date of disbursements being replenished"
+msgstr ""
+
+#. Description of the 'Fund Name (English)' (Data) field in DocType 'Petty
+#. Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "English name for international reports"
+msgstr ""
 
 #. Description of the 'Environment Variables' (Code) field in DocType 'MCP
 #. Settings'
@@ -735,9 +1576,16 @@ msgstr "ตัวแปรสภาพแวดล้อม"
 
 #. Option for the 'Service Status' (Select) field in DocType 'ZKTeco Biometric
 #. Settings'
+#: thai_business_suite/public/js/purchase_invoice_grist.js:64
+#: thai_business_suite/public/js/sales_invoice_grist.js:64
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
 msgid "Error"
 msgstr "ข้อผิดพลาด"
+
+#: thai_business_suite/public/js/purchase_invoice_grist.js:56
+#: thai_business_suite/public/js/sales_invoice_grist.js:56
+msgid "Error Creating Report"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
 msgid "Error Logs"
@@ -747,9 +1595,17 @@ msgstr "บันทึกข้อผิดพลาด"
 msgid "Error generating Thai Tax Invoice: "
 msgstr "เกิดข้อผิดพลาดในการสร้างใบกำกับภาษีแบบไทย:"
 
+#: thai_business_suite/utils/voucher_viewer.py:119
+msgid "Error generating voucher:"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:427
 msgid "Error importing template: Invalid JSON file"
 msgstr "ข้อผิดพลาดในการนำเข้าเทมเพลต: ไฟล์ JSON ไม่ถูกต้อง"
+
+#: thai_business_suite/utils/voucher_viewer.py:116
+msgid "Error: Voucher generation failed."
+msgstr ""
 
 #. Label of a Section Break field in DocType 'ZKTeco Biometric Settings'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
@@ -761,14 +1617,70 @@ msgstr "การตั้งค่าข้อยกเว้น"
 msgid "Exception Settings Help"
 msgstr "คำอธิบายการตั้งค่าข้อยกเว้น"
 
+#. Description of the 'Planned Delivery Date' (Date) field in DocType 'PO
+#. Planned Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Expected delivery date for this shipment"
+msgstr ""
+
+#. Description of the 'Planned Qty' (Float) field in DocType 'PO Planned
+#. Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Expected quantity to be delivered"
+msgstr ""
+
+#. Description of the 'Planned Value' (Currency) field in DocType 'PO Planned
+#. Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Expected value of delivery"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Expense Account"
+msgstr "บัญชีค่าใช้จ่าย"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:93
+msgid "Expense Account is required to create GL Entry"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Expense Claim Type"
+msgstr "เรียกร้องประเภทค่าใช้จ่าย"
+
+#. Label of a Small Text field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Expense Description"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Expense Details"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Replenishment Item'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+msgid "Expense Type"
+msgstr "ประเภทค่าใช้จ่าย"
+
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:25
 msgid "Export Template"
 msgstr "ส่งออกแม่แบบ"
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:84
+msgid "Export to Calendar"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:109
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:188
 msgid "Failed to  service: "
 msgstr "ไม่สามารถให้บริการ:"
+
+#: thai_business_suite/public/js/purchase_invoice_grist.js:65
+#: thai_business_suite/public/js/sales_invoice_grist.js:65
+msgid "Failed to create Grist report. Please check console for details."
+msgstr ""
 
 #: thai_business_suite/setup/item_vat_custom_fields.py:91
 msgid "Failed to create Item VAT custom fields: {0}"
@@ -804,9 +1716,22 @@ msgstr "ไม่สามารถอัปเดตเวลางานกะ
 msgid "Fax"
 msgstr "แฟกซ์"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:157
+msgid "Fetch"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:7
 msgid "Fetch Attendance Now"
 msgstr "ดึงข้อมูลการเข้างานตอนนี้"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:8
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:140
+msgid "Fetch Disbursed Requests"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:195
+msgid "Fetched {0} disbursed requests"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:66
 msgid "Fetching attendance data..."
@@ -822,6 +1747,12 @@ msgstr "การจับคู่ฟิลด์"
 msgid "Fields Mapping"
 msgstr "การแมปฟิลด์"
 
+#. Option for the 'Report Type' (Select) field in DocType 'Grist Static
+#. Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Financial Dashboard"
+msgstr ""
+
 #: thai_business_suite/config/desk.py:10
 msgid "Financial Management"
 msgstr "การบริหารการเงิน"
@@ -836,6 +1767,21 @@ msgstr "งบการเงิน - TBS"
 msgid "Fixed Assets - TBS"
 msgstr "สินทรัพย์ถาวร - TBS"
 
+#. Label of a HTML field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Font Preview"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Font Settings"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.js:12
+msgid "Font Test"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:15
 #: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:5
 msgid "From Date"
 msgstr "จากวันที่"
@@ -846,6 +1792,43 @@ msgstr "จากวันที่"
 msgid "Full URL to your ERPNext instance (e.g., https://example.erpnext.com)"
 msgstr ""
 "URL เต็มของอินสแตนซ์ ERPNext ของคุณ (เช่น https://example.erpnext.com)"
+
+#. Option for the 'Status' (Select) field in DocType 'PO Planned Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Fully Received"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Fund Custodian"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Fund Limit"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Fund Limits & Custodian"
+msgstr ""
+
+#. Label of a Data field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Fund Name (English)"
+msgstr ""
+
+#. Description of the 'Expense Account' (Link) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "GL account to be debited for this expense"
+msgstr ""
+
+#. Description of the 'Petty Cash GL Account' (Link) field in DocType 'Petty
+#. Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "General Ledger account for this petty cash fund"
+msgstr ""
 
 #. Label of a Section Break field in DocType 'Petty Cash Settings'
 #. Label of a Section Break field in DocType 'Thai Voucher Settings'
@@ -878,6 +1861,11 @@ msgstr "สร้างใบสำคัญจ่ายภาษาไทย"
 msgid "Generate Withholding Tax Certificate (50ทวิ - to be implemented)"
 msgstr "สร้างหนังสือรับรองการหักภาษี ณ ที่จ่าย (50ทวิ - อยู่ระหว่างการพัฒนา)"
 
+#: thai_business_suite/public/js/purchase_invoice_grist.js:30
+#: thai_business_suite/public/js/sales_invoice_grist.js:30
+msgid "Generating Grist report with Thai formatting..."
+msgstr ""
+
 #: thai_business_suite/public/js/payment_entry.js:27
 msgid "Generating Thai Payment Voucher..."
 msgstr "กำลังสร้างใบสำคัญจ่ายภาษาไทย..."
@@ -891,6 +1879,58 @@ msgstr "กำลังสร้างใบกำกับภาษีภาษ
 #: thai_business_suite/doctype/thai_vat_recognition_item/thai_vat_recognition_item.json
 msgid "Goods"
 msgstr "สินค้า"
+
+#. Label of a JSON field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Grist Data Structure"
+msgstr ""
+
+#. Label of a Data field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Grist Document ID"
+msgstr ""
+
+#. Label of a Attach field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Grist File (.grist)"
+msgstr ""
+
+#. Label of a Data field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Grist Server URL"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Grist Static Integration"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Grist Static Report"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_invoice_grist.js:40
+#: thai_business_suite/public/js/sales_invoice_grist.js:40
+msgid ""
+"Grist analysis report created: {0}<br><br>Would you like to view it now?"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_invoice_grist.js:34
+#: thai_business_suite/public/js/sales_invoice_grist.js:34
+msgid "Grist report created successfully!"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "HR"
+msgstr ""
+
+#. Label of a Card Break in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "HR Management"
+msgstr ""
 
 #. Name of a role
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
@@ -912,9 +1952,25 @@ msgstr "ผู้ใช้ฝ่ายทรัพยากรบุคคล"
 msgid "HTML Template"
 msgstr "เทมเพลต HTML"
 
+#. Description of the 'Mode of Payment' (Link) field in DocType 'Petty Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "How the funds were transferred"
+msgstr ""
+
 #: thai_business_suite/config/desk.py:47
 msgid "Human Resources (HR)"
 msgstr "ทรัพยากรบุคคล"
+
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "IBM Plex Sans Thai"
+msgstr ""
+
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "IBM Plex Sans Thai Looped"
+msgstr ""
 
 #. Option for the 'Punch Direction' (Select) field in DocType 'ZKTeco
 #. Biometric
@@ -923,7 +1979,9 @@ msgstr "ทรัพยากรบุคคล"
 msgid "IN"
 msgstr "เข้างาน"
 
+#. Label of a Data field in DocType 'Secret Access Log'
 #. Label of a Data field in DocType 'ZKTeco Biometric Device'
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:224
 msgid "IP Address"
@@ -944,6 +2002,13 @@ msgid ""
 msgstr ""
 "หากเลือก จะลบข้อมูลการลงเวลาจากอุปกรณ์หลังจากดึงข้อมูลสำเร็จ "
 "โปรดระวังเนื่องจากอาจทำให้ข้อมูลสูญหายได้"
+
+#. Description of the 'Company Specific' (Check) field in DocType 'TBS Secret
+#. Mapping'
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid ""
+"If checked, secret is scoped to company (e.g., COMPANY_NAME__SECRET_KEY)"
+msgstr ""
 
 #: thai_business_suite/api.py:92
 msgid "Import Error"
@@ -985,6 +2050,12 @@ msgstr ""
 "การนำเข้าเสร็จสมบูรณ์แต่พบปัญหาบางประการ "
 "กรุณาตรวจสอบข้อความด้านบนสำหรับรายละเอียดเพิ่มเติม"
 
+#: thai_business_suite/commands/import_expense_types.py:26
+msgid ""
+"Import file not found. Please run transformation first:\n"
+"python3 apps/thai_business_suite/thai_business_suite/commands/transform_expense_data.py"
+msgstr ""
+
 #. Option for the 'Status' (Select) field in DocType 'ZKTeco Biometric Device'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
 msgid "Inactive"
@@ -1007,17 +2078,43 @@ msgstr "บันทึกข้อมูล"
 msgid "Insufficient permissions"
 msgstr "สิทธิ์ไม่เพียงพอ"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:149
+msgid "Insufficient permissions to approve request"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:192
+msgid "Insufficient permissions to disburse cash"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:172
+msgid "Insufficient permissions to reject request"
+msgstr ""
+
 #: thai_business_suite/setup/item_vat_custom_fields.py:151
 msgid "Insufficient permissions to update item"
 msgstr "ไม่มีสิทธิ์เพียงพอในการแก้ไขข้อมูลสินค้า"
+
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.py:32
+msgid "Invalid JSON in Template Configuration"
+msgstr ""
+
+#. Option for the 'Report Type' (Select) field in DocType 'Grist Static
+#. Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Invoice Analysis"
+msgstr ""
 
 #. Label of a Date field in DocType 'Thai VAT Recognition'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
 msgid "Invoice Posting Date"
 msgstr "วันที่บันทึกใบกำกับภาษี"
 
+#. Label of a Check field in DocType 'Grist Static Report'
+#. Label of a Check field in DocType 'Petty Cash Account'
 #. Label of a Check field in DocType 'Thai Branch'
 #. Label of a Check field in DocType 'Thai Document Template'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 msgid "Is Active"
@@ -1038,10 +2135,15 @@ msgstr "สำนักงานใหญ่"
 msgid "Is VAT Exempt"
 msgstr "ยกเว้น VAT"
 
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:42
+msgid "Item"
+msgstr "ไอเท็ม"
+
 #. Label of a Link field in DocType 'Thai VAT Recognition Item'
 #. Label of a Link field in DocType 'Payment Request Purchase Order Detail'
 #: thai_business_suite/doctype/thai_vat_recognition_item/thai_vat_recognition_item.json
 #: thai_business_suite/thai_business_suite/doctype/payment_request_purchase_order_detail/payment_request_purchase_order_detail.json
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:44
 msgid "Item Code"
 msgstr "รหัสสินค้า"
 
@@ -1070,13 +2172,43 @@ msgstr "ไม่พบรายการในใบแจ้งหนี้ข
 msgid "Items"
 msgstr "สินค้า"
 
+#. Description of the 'Template Configuration' (JSON) field in DocType 'Grist
+#. Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "JSON configuration for Grist template setup"
+msgstr ""
+
+#. Description of the 'Grist Data Structure' (JSON) field in DocType 'Grist
+#. Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "JSON data structure for Grist Static (tables, columns, data)"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Replenishment'
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
 #: thai_business_suite/utils/voucher_generator.py:228
 msgid "Journal Entry"
 msgstr "บันทึกบัญชี"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.py:140
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:139
+msgid "Journal Entry {0} created successfully"
+msgstr ""
+
 #: thai_business_suite/utils/voucher_generator.py:223
 msgid "Journal Voucher"
 msgstr "ใบสำคัญบัญชี"
+
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Kanit"
+msgstr ""
+
+#: thai_business_suite/overrides/custom_field.py:126
+msgid "Label is mandatory"
+msgstr ""
 
 #. Option for the 'Orientation' (Select) field in DocType 'Thai Voucher
 #. Settings'
@@ -1084,9 +2216,29 @@ msgstr "ใบสำคัญบัญชี"
 msgid "Landscape"
 msgstr "แนวนอน"
 
+#. Label of a Date field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Last Billing Date"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:224
 msgid "Last Connection"
 msgstr "การเชื่อมต่อครั้งล่าสุด"
+
+#. Label of a Currency field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Last Replenishment Amount"
+msgstr ""
+
+#. Label of a Date field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Last Replenishment Date"
+msgstr ""
+
+#. Label of a Datetime field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Last Secret Access"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
 msgid "Last Sync"
@@ -1122,6 +2274,19 @@ msgstr "กฎหมาย"
 msgid "Letter"
 msgstr "จดหมาย"
 
+#. Description of the 'Source DocType' (Link) field in DocType 'Grist Static
+#. Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Link to the Frappe DocType this report is generated from"
+msgstr ""
+
+#. Description of the 'Disbursed Requests' (Table) field in DocType 'Petty
+#. Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "List of requests disbursed during this period"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:111
 msgid "Load Existing Template"
 msgstr "โหลดแม่แบบที่มีอยู่แล้ว"
@@ -1155,6 +2320,12 @@ msgstr "กำลังโหลด..."
 msgid "Logs Directory"
 msgstr "ไดเรกทอรีบันทึก"
 
+#. Option for the 'Service Tier' (Select) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "MANAGED"
+msgstr ""
+
 #. Label of a Section Break field in DocType 'MCP Settings'
 #: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
 msgid "MCP Configuration"
@@ -1171,7 +2342,9 @@ msgid "MCP Server Script Path"
 msgstr "เส้นทางสคริปต์เซิร์ฟเวอร์ MCP"
 
 #. Name of a DocType
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "MCP Settings"
 msgstr "การตั้งค่า MCP"
 
@@ -1199,6 +2372,16 @@ msgstr "จัดการกระบวนการขาย"
 msgid "Manage small cash transactions and reimbursements"
 msgstr "จัดการรายการเงินสดย่อยและการเบิกคืนเงิน"
 
+#. Label of a Select field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Managed Doppler Config"
+msgstr ""
+
+#. Label of a Data field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Managed Doppler Project Name"
+msgstr ""
+
 #. Name of a Workspace
 #: thai_business_suite/thai_business_suite/workspace/manufacturing___tbs/manufacturing___tbs.json
 msgid "Manufacturing - TBS"
@@ -1208,15 +2391,53 @@ msgstr "การผลิต - TBS"
 msgid "Manufacturing Settings custom fields created successfully"
 msgstr "สร้างฟิลด์กำหนดเองสำหรับการตั้งค่าการผลิตสำเร็จแล้ว"
 
+#. Description of the 'Fund Limit' (Currency) field in DocType 'Petty Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Maximum balance this fund can hold"
+msgstr ""
+
+#. Description of the 'Actual Amount Disbursed' (Currency) field in DocType
+#. 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "May differ from requested if partial approval"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Minimum Balance (Alert Threshold)"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:77
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.py:21
+msgid ""
+"Minimum Balance ({0}) cannot be greater than or equal to Fund Limit ({1})"
+msgstr ""
+
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Mitr"
+msgstr ""
+
 #. Label of a Data field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid "Mobile"
 msgstr "มือถือ"
 
+#. Label of a Link field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Mode of Payment"
+msgstr "โหมดการชำระเงิน"
+
 #. Label of a Link in the TBS Management Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
 msgid "Monthly Attendance Sheet"
 msgstr "แผ่นการเข้างานรายเดือน"
+
+#. Label of a Currency field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Monthly Fee (THB)"
+msgstr ""
 
 #. Description of the 'Device ID' (Data) field in DocType 'ZKTeco Biometric
 #. Device'
@@ -1232,9 +2453,26 @@ msgid "N/A"
 msgstr "ไม่มีข้อมูล"
 
 #. Label of a Select field in DocType 'Thai VAT Recognition'
+#. Label of a Select field in DocType 'Naming Series Test'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
 msgid "Naming Series"
 msgstr "ลำดับการตั้งชื่อ"
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Naming Series Test"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Net Replenishment Needed"
+msgstr ""
+
+#. Label of a Date field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Next Billing Date"
+msgstr ""
 
 #: thai_business_suite/public/js/sales_invoice.js:67
 msgid "No Thai Tax Invoices found for this document."
@@ -1248,9 +2486,21 @@ msgstr "ไม่พบเอกสารใบสำคัญในระบบ
 msgid "No company found. Please create a company first."
 msgstr "ไม่พบข้อมูลบริษัท กรุณาสร้างบริษัทก่อนค่ะ"
 
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:97
+msgid "No delivery data to display in calendar view"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:266
+msgid "No delivery data to export"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:259
 msgid "No devices configured"
 msgstr "ไม่มีการกำหนดค่าอุปกรณ์ใดๆ"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:199
+msgid "No disbursed requests found for the selected period"
+msgstr ""
 
 #: thai_business_suite/utils/tax_invoice_generator.py:315
 msgid "No document specified"
@@ -1272,17 +2522,32 @@ msgstr "ไม่พบใบสำคัญรับสำหรับเอก
 msgid "No."
 msgstr "เลขที่"
 
+#. Option for the 'SLA Tier' (Select) field in DocType 'TBS General Settings'
 #. Option for the 'Punch Direction' (Select) field in DocType 'ZKTeco
 #. Biometric
 #. Device'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
 msgid "None"
 msgstr "ไม่มี"
 
+#. Label of a Section Break field in DocType 'Grist Static Report'
 #. Label of a Text field in DocType 'Thai Branch'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid "Notes"
 msgstr "หมายเหตุ"
+
+#. Description of the 'Remarks' (Small Text) field in DocType 'PO Planned
+#. Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Notes about this planned delivery"
+msgstr ""
+
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Noto Sans Thai"
+msgstr ""
 
 #. Label of a Section Break field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
@@ -1296,12 +2561,39 @@ msgstr "รูปแบบตัวเลข"
 msgid "OUT"
 msgstr "ออกงาน"
 
+#. Description of the 'Is Active' (Check) field in DocType 'Petty Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Only active funds can accept new requests"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:75
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:88
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:101
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:114
 msgid "Open"
 msgstr "เปิด"
+
+#: thai_business_suite/utils/voucher_viewer.py:65
+#: thai_business_suite/utils/voucher_viewer.py:108
+msgid "Open PDF in New Tab"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Opening Balance"
+msgstr "ยอดยกมา"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:27
+msgid "Opening Balance: {0}"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:22
+#, python-format
+msgid ""
+"Opening CSV data in Grist Static viewer. No server needed - works 100% "
+"offline!"
+msgstr ""
 
 #. Label of a Date field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
@@ -1318,17 +2610,49 @@ msgstr "การตั้งค่าการปฏิบัติงาน"
 msgid "Orientation"
 msgstr "การวางแนว"
 
+#. Option for the 'Doppler Token Type' (Select) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Our Managed Token"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:222
+msgid "Overdue"
+msgstr "เกินกำหนด"
+
 #. Label of a Section Break field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "PDF Settings"
 msgstr "การตั้งค่า PDF"
+
+#. Name of a report
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.json
+msgid "PO Delivery Calendar Report"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "PO Planned Delivery"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
+msgid "PO Receipt History"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:81
+msgid "PO Status"
+msgstr ""
 
 #: thai_business_suite/config/desk.py:37
 msgid "POS (Point of Sale)"
 msgstr "POS (จุดขาย)"
 
 #. Name of a Workspace
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/workspace/pos_tbs/pos_tbs.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "POS TBS"
 msgstr "POS TBS"
 
@@ -1336,6 +2660,27 @@ msgstr "POS TBS"
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Page Size"
 msgstr "ขนาดหน้ากระดาษ"
+
+#. Option for the 'Status' (Select) field in DocType 'PO Planned Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Partially Received"
+msgstr "ได้รับบางส่วน"
+
+#. Label of a Currency field in DocType 'Asset Repair History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Parts Cost"
+msgstr ""
+
+#. Description of the 'CSV Data' (Long Text) field in DocType 'Grist Static
+#. Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Paste CSV data to generate report dynamically"
+msgstr ""
+
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Pattaya"
+msgstr ""
 
 #. Option for the 'Recognition Type' (Select) field in DocType 'Thai VAT
 #. Recognition'
@@ -1349,15 +2694,84 @@ msgstr "การชำระเงิน"
 msgid "Payment Entry"
 msgstr "รายการชำระเงิน"
 
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Payment Gateway"
+msgstr ""
+
+#. Label of a Select field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:154
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Payment Mode"
+msgstr "วิธีการชำระเงิน"
+
 #. Name of a DocType
 #: thai_business_suite/thai_business_suite/doctype/payment_request_purchase_order_detail/payment_request_purchase_order_detail.json
 msgid "Payment Request Purchase Order Detail"
 msgstr "รายละเอียดใบสั่งซื้อคำขอชำระเงิน"
 
+#. Option for the 'Approval Status' (Select) field in DocType 'Petty Cash
+#. Request'
+#. Option for the 'Status' (Select) field in DocType 'PO Planned Delivery'
+#. Option for the 'Billing Status' (Select) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:216
+msgid "Pending"
+msgstr "รอดำเนินการ"
+
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Pending Approval"
+msgstr "รอการอนุมัติ"
+
+#. Label of a Date field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:145
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Period From"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Period Summary"
+msgstr ""
+
+#. Label of a Date field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:152
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Period To"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
 #: thai_business_suite/config/desk.py:13
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:3
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Petty Cash"
 msgstr "เงินสดย่อย"
+
+#. Name of a DocType
+#. Label of a Link field in DocType 'Petty Cash Replenishment'
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Petty Cash Account"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.py:33
+msgid "Petty Cash Account must be of type Cash or Bank, not {0}"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.py:104
+msgid "Petty Cash Account {0} is below minimum balance"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:23
+msgid "Petty Cash Account {0} is not active"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:158
 msgid "Petty Cash Audit"
@@ -1367,29 +2781,82 @@ msgstr "การตรวจสอบเงินสดย่อย"
 msgid "Petty Cash Balance"
 msgstr "ยอดเงินสดย่อยคงเหลือ"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:106
+msgid "Petty Cash Disbursement for {0} - {1}"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.py:122
+msgid "Petty Cash Fund Replenishment"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Petty Cash GL Account"
+msgstr ""
+
 #. Label of a Currency field in DocType 'Petty Cash Settings'
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_settings/petty_cash_settings.json
 msgid "Petty Cash Limit"
 msgstr "วงเงินเงินสดย่อย"
 
+#. Label of a Card Break in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash Management"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash Payment"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:83
 msgid "Petty Cash Payments"
 msgstr "การจ่ายเงินสดย่อย"
 
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Petty Cash Receipt"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:70
 msgid "Petty Cash Received"
 msgstr "เงินสดย่อยรับเข้า"
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Petty Cash Replenishment"
+msgstr ""
+
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+msgid "Petty Cash Replenishment Item"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.py:113
+msgid "Petty Cash Replenishment {0} - Transfer from Bank to Petty Cash Fund"
+msgstr ""
+
+#. Label of a Link field in DocType 'Petty Cash Replenishment Item'
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Petty Cash Request"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:96
 msgid "Petty Cash Setting"
 msgstr "การตั้งค่ากระแสเงินสดย่อย"
 
 #. Name of a DocType
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_settings/petty_cash_settings.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Petty Cash Settings"
 msgstr "การตั้งค่ากระแสเงินสดย่อย"
 
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:128
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Petty Cash Summary"
 msgstr "สรุปเงินสดย่อย"
 
@@ -1398,10 +2865,43 @@ msgstr "สรุปเงินสดย่อย"
 msgid "Petty Cash Voucher"
 msgstr "ใบสำคัญเงินสดย่อย"
 
+#. Description of the 'Closing Balance' (Currency) field in DocType 'Petty
+#. Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Petty cash balance after replenishment"
+msgstr ""
+
+#. Description of the 'Opening Balance' (Currency) field in DocType 'Petty
+#. Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Petty cash balance before replenishment"
+msgstr ""
+
 #. Label of a Data field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid "Phone"
 msgstr "โทรศัพท์"
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:51
+msgid "Planned Delivery"
+msgstr ""
+
+#. Label of a Date field in DocType 'PO Planned Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Planned Delivery Date"
+msgstr ""
+
+#. Label of a Float field in DocType 'PO Planned Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Planned Qty"
+msgstr "จำนวนที่วางแผนไว้"
+
+#. Label of a Currency field in DocType 'PO Planned Delivery'
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+msgid "Planned Value"
+msgstr ""
 
 #: thai_business_suite/utils/pdf_generator.py:27
 msgid ""
@@ -1411,9 +2911,18 @@ msgstr ""
 "แพ็กเกจ Playwright สำหรับภาษา Python ยังไม่ได้ติดตั้ง กรุณารันคำสั่ง `pip "
 "install playwright` จากนั้นรัน `playwright install chromium`"
 
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.py:24
+msgid "Please provide either a Grist file, CSV data, or Grist data structure"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:376
 msgid "Please save the template first"
 msgstr "กรุณาบันทึกแม่แบบก่อน"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:135
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:211
+msgid "Please select Petty Cash Account first"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/page/direct_upload/direct_upload.js:45
 msgid "Please select a file to upload"
@@ -1443,10 +2952,23 @@ msgstr "แนวตั้ง"
 msgid "Postal Code"
 msgstr "รหัสไปรษณีย์"
 
+#. Label of a Date field in DocType 'Naming Series Test'
+#. Label of a Date field in DocType 'Petty Cash Replenishment'
+#. Label of a Date field in DocType 'Petty Cash Request'
 #. Label of a Date field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
 msgid "Posting Date"
 msgstr "วันที่"
+
+#. Label of a Time field in DocType 'Petty Cash Replenishment'
+#. Label of a Time field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Posting Time"
+msgstr "โพสต์เวลา"
 
 #. Label of a Data field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
@@ -1458,6 +2980,12 @@ msgstr "จัดทำโดย (English)"
 msgid "Prepared By (Thai)"
 msgstr "จัดทำโดย (ไทย)"
 
+#. Option for the 'Repair Type' (Select) field in DocType 'Asset Repair
+#. History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Preventive"
+msgstr "ป้องกัน"
+
 #. Label of a Section Break field in DocType 'Thai Document Template'
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 msgid "Preview"
@@ -1466,6 +2994,11 @@ msgstr "แสดงตัวอย่าง"
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:16
 msgid "Preview Template"
 msgstr "ตัวอย่างแม่แบบ"
+
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Pridi"
+msgstr ""
 
 #: thai_business_suite/public/js/sales_invoice.js:102
 msgid "Print"
@@ -1499,8 +3032,16 @@ msgstr "ไม่พบรูปแบบการพิมพ์สำหรั
 msgid "Print reports and vouchers for petty cash payments"
 msgstr "พิมพ์รายงานและใบสำคัญจ่ายสำหรับการเบิกเงินสดย่อย"
 
+#. Description of the 'Managed Doppler Project Name' (Data) field in DocType
+#. 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Project name in our Doppler account"
+msgstr ""
+
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
 #. Option for the 'Default Font' (Select) field in DocType 'Thai Voucher
 #. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Prompt"
 msgstr "พร้อมท์"
@@ -1526,9 +3067,13 @@ msgstr "ทิศทางการบันทึกเวลา"
 msgid "Purchase Agreement"
 msgstr "สัญญาซื้อขาย"
 
+#. Label of a Link field in DocType 'Asset Repair History'
 #. Label of a Section Break field in DocType 'Thai Purchase VAT'
 #. Label of a Link field in DocType 'Thai Purchase VAT'
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Purchase Invoice"
 msgstr "ใบกำกับซื้อ"
 
@@ -1537,7 +3082,10 @@ msgid "Purchase Journal"
 msgstr "บัญชีรายการซื้อ"
 
 #. Label of a Link field in DocType 'Payment Request Purchase Order Detail'
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/doctype/payment_request_purchase_order_detail/payment_request_purchase_order_detail.json
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:30
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Purchase Order"
 msgstr "ใบสั่งซื้อ"
 
@@ -1554,12 +3102,28 @@ msgstr "รายการใบสั่งซื้อถูกโหลดเ
 msgid "Purchase Order items synchronized successfully!"
 msgstr "รายการใบสั่งซื้อซิงโครไนซ์สำเร็จแล้ว!"
 
+#. Label of a Link field in DocType 'PO Receipt History'
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Purchase Receipt"
+msgstr "ใบเสร็จรับเงินการสั่งซื้อ"
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
 #: thai_business_suite/config/desk.py:21
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Purchasing"
 msgstr "การซื้อ"
 
+#. Label of a Card Break in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Purchasing Management"
+msgstr ""
+
 #. Label of a Float field in DocType 'Thai VAT Recognition Item'
 #: thai_business_suite/doctype/thai_vat_recognition_item/thai_vat_recognition_item.json
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:57
 msgid "Qty"
 msgstr "จำนวน"
 
@@ -1576,9 +3140,34 @@ msgstr "จำนวน"
 msgid "Rate"
 msgstr "อัตรา"
 
+#. Label of a Date field in DocType 'PO Receipt History'
+#: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
+msgid "Receipt Date"
+msgstr "วันที่ใบเสร็จ"
+
+#. Label of a Currency field in DocType 'PO Receipt History'
+#: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
+msgid "Receipt Value"
+msgstr ""
+
+#. Description of the 'Reference Number' (Data) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Receipt number or reference"
+msgstr ""
+
 #: thai_business_suite/templates/pages/thai_tax_invoice/thai_tax_invoice.html:6
 msgid "Receipt/Tax Invoice"
 msgstr "ใบเสร็จ/ใบกำกับภาษี"
+
+#: thai_business_suite/public/js/purchase_order_tracking.js:84
+msgid "Received"
+msgstr "ที่ได้รับ"
+
+#. Label of a Data field in DocType 'PO Receipt History'
+#: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
+msgid "Received By"
+msgstr "ที่ได้รับจาก"
 
 #. Label of a Data field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
@@ -1589,6 +3178,11 @@ msgstr "ได้รับโดย (English)"
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Received By (Thai)"
 msgstr "ผู้รับ (ภาษาไทย)"
+
+#. Label of a Float field in DocType 'PO Receipt History'
+#: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
+msgid "Received Qty"
+msgstr "จำนวนที่ได้รับ"
 
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
 msgid "Recent Logs"
@@ -1608,6 +3202,16 @@ msgstr "ประเภทการรับรู้"
 msgid "Recognition Type '{0}' must be used with Trigger Document Type '{1}'"
 msgstr "ประเภทการรับรู้ '{0}' ต้องใช้ร่วมกับประเภทเอกสารทริกเกอร์ '{1}'"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:68
+msgid "Recommended amount to restore fund limit: {0}"
+msgstr ""
+
+#. Description of the 'Test Notes' (Text Editor) field in DocType 'Naming
+#. Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Record observations and test results"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:85
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:28
 msgid "Record payments made from petty cash"
@@ -1618,14 +3222,35 @@ msgstr "บันทึกการชำระเงินที่ทำจา
 msgid "Record petty cash received from various sources"
 msgstr "บันทึกรายรับเงินสดย่อยจากแหล่งต่าง ๆ"
 
+#. Label of a Date field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Reference Date"
+msgstr "วันที่อ้างอิง"
+
 #. Label of a Section Break field in DocType 'Thai VAT Recognition'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
 msgid "Reference Information"
 msgstr "ข้อมูลอ้างอิง"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:9
+#. Label of a Data field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:162
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Reference Number"
+msgstr "เลขที่อ้างอิง"
+
+#. Description of the 'Petty Cash Request' (Link) field in DocType 'Petty Cash
+#. Replenishment Item'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+msgid "Reference to the disbursed request"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:14
 msgid "Refresh"
 msgstr "ดึงข้อมูลใหม่"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:28
+msgid "Refresh Balance"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
 msgid "Refresh Logs"
@@ -1635,15 +3260,85 @@ msgstr "รีเฟรชบันทึก"
 msgid "Refresh Status"
 msgstr "รีเฟรชสถานะ"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:13
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:110
+msgid "Reject"
+msgstr "ปฏิเสธ"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:101
+msgid "Reject Request"
+msgstr ""
+
+#. Option for the 'Approval Status' (Select) field in DocType 'Petty Cash
+#. Request'
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Rejected"
+msgstr "ไม่อนุมัติ"
+
 #. Label of a Section Break field in DocType 'ZKTeco Shift Device Mapping'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.json
 msgid "Related Devices"
 msgstr "อุปกรณ์ที่เกี่ยวข้อง"
 
 #. Label of a Small Text field in DocType 'Thai VAT Recognition'
+#. Label of a Small Text field in DocType 'PO Planned Delivery'
+#. Label of a Small Text field in DocType 'PO Receipt History'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:106
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
+#: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
 msgid "Remarks"
 msgstr "หมายเหตุ"
+
+#. Label of a Currency field in DocType 'Asset Repair History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Repair Cost"
+msgstr "ค่าซ่อม"
+
+#. Label of a Date field in DocType 'Asset Repair History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Repair Date"
+msgstr ""
+
+#. Label of a Select field in DocType 'Asset Repair History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Repair Type"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Replenishment Amount"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.py:21
+msgid "Replenishment Amount must be greater than zero"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Replenishment Details"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_invoice_grist.js:48
+#: thai_business_suite/public/js/sales_invoice_grist.js:48
+msgid "Report Created"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Report Details"
+msgstr ""
+
+#. Label of a Data field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Report Title"
+msgstr ""
+
+#. Label of a Select field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Report Type"
+msgstr "ประเภทรายงาน"
 
 #: thai_business_suite/config/desk.py:93
 msgid "Report for Thai Input VAT"
@@ -1657,10 +3352,86 @@ msgstr "รายงาน VAT (ผลลัพธ์ภาษาไทย) (อ
 msgid "Reports"
 msgstr "รายงาน"
 
+#. Label of a Date field in DocType 'Petty Cash Replenishment Item'
+#. Label of a Datetime field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Request Date"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:196
+msgid "Request must be approved before disbursement"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:177
+msgid "Request rejected"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:161
+msgid "Request {0} approved successfully"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:181
+msgid "Request {0} rejected"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Replenishment Item'
+#. Label of a Currency field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment_item/petty_cash_replenishment_item.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Requested Amount"
+msgstr "จำนวนที่ขอ"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:29
+msgid "Requested Amount must be greater than zero"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:210
+msgid "Requested amount ({0}) exceeds available balance ({1})"
+msgstr ""
+
+#. Label of a Section Break field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Requester Information"
+msgstr ""
+
+#. Description of the 'Require Approval' (Check) field in DocType 'Petty Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Requests must be approved before disbursement"
+msgstr ""
+
+#. Label of a Check field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Require Approval"
+msgstr ""
+
 #. Label of a Date field in DocType 'Payment Request Purchase Order Detail'
 #: thai_business_suite/thai_business_suite/doctype/payment_request_purchase_order_detail/payment_request_purchase_order_detail.json
 msgid "Required By"
 msgstr "ต้องการโดย"
+
+#. Label of a Date field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Required By Date"
+msgstr ""
+
+#: thai_business_suite/commands/import_expense_types.py:125
+msgid ""
+"Required custom fields not found: {0}\n"
+"\n"
+"Please install custom fields first:\n"
+"bench execute thai_business_suite.commands.install_expense_claim_type_fields.install_expense_claim_type_fields"
+msgstr ""
+
+#. Description of the 'Company' (Link) field in DocType 'Naming Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Required for Fiscal Year (DFY) pattern testing"
+msgstr ""
+
+#: thai_business_suite/overrides/purchase_receipt_tracking.py:142
+msgid "Reverted receipt tracking for Purchase Order {0}"
+msgstr ""
 
 #. Label of a Int field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
@@ -1673,8 +3444,29 @@ msgstr "ระยะขอบขวา (มม.)"
 msgid "Running"
 msgstr "กำลังดำเนินการ"
 
+#. Option for the 'Service Tier' (Select) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "SELF_MANAGED"
+msgstr ""
+
+#. Description of the 'Service Tier' (Select) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid ""
+"SELF_MANAGED: Free (customer manages own Doppler) | MANAGED: 9,000 THB/month"
+" (we manage everything)"
+msgstr ""
+
+#. Label of a Select field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "SLA Tier"
+msgstr ""
+
 #. Label of a Link field in DocType 'Thai VAT Recognition'
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Sales Invoice"
 msgstr "ใบกำกับภาษีขาย"
 
@@ -1691,6 +3483,11 @@ msgstr "สร้างฟิลด์กำหนดเวลาภาษีม
 msgid "Sales Journal"
 msgstr "สมุดรายวันขาย"
 
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Sales Order"
+msgstr ""
+
 #. Name of a Workspace
 #: thai_business_suite/thai_business_suite/workspace/sales_order___tbs/sales_order___tbs.json
 msgid "Sales Order - TBS"
@@ -1700,15 +3497,50 @@ msgstr "ใบสั่งขาย - TBS"
 msgid "Sample template loaded"
 msgstr "ตัวอย่างแม่แบบถูกโหลดแล้ว"
 
+#. Option for the 'Thai Font' (Select) field in DocType 'TBS General Settings'
 #. Option for the 'Default Font' (Select) field in DocType 'Thai Voucher
 #. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Sarabun"
 msgstr "สารบัญ"
 
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
+msgid "Secret Access Log"
+msgstr ""
+
+#. Label of a Data field in DocType 'Secret Access Log'
+#. Label of a Data field in DocType 'TBS Secret Mapping'
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "Secret Key"
+msgstr "รหัสลับ"
+
+#. Label of a Section Break field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Secret Management Service"
+msgstr ""
+
+#. Description of the 'Secret Key' (Data) field in DocType 'TBS Secret
+#. Mapping'
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "Secret name in Doppler (e.g., GITHUB_TOKEN, FDA_API_KEY)"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_delivery_calendar.js:93
+msgid "Select Delivery Date"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:116
 msgid "Select Template"
 msgstr "เลือกแม่แบบ"
+
+#. Description of the 'Thai Font' (Select) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Select the Thai font to use when user's language preference is Thai"
+msgstr ""
 
 #. Description of the 'Allowed Exceptions' (Select) field in DocType 'ZKTeco
 #. Biometric Settings'
@@ -1716,9 +3548,32 @@ msgstr "เลือกแม่แบบ"
 msgid "Select which exceptions to ignore (1,2,3 is recommended)"
 msgstr "เลือกข้อยกเว้นที่ต้องการละเว้น (แนะนำ 1,2,3)"
 
+#. Description of the 'Grist Server URL' (Data) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid ""
+"Self-hosted: http://localhost:8484 or https://grist.internal.company.com | "
+"External: https://grist.bunchee.online"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
 #: thai_business_suite/config/desk.py:29
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Selling"
 msgstr "การขาย"
+
+#. Label of a Card Break in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Selling Management"
+msgstr ""
+
+#. Label of a Select field in DocType 'Petty Cash Replenishment'
+#. Label of a Select field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Series"
+msgstr "ลำดับชุด"
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:99
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:178
@@ -1731,6 +3586,16 @@ msgstr "บริการสำเร็จเรียบร้อยแล้
 msgid "Service Contract"
 msgstr "สัญญาบริการ"
 
+#. Label of a Section Break field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Service Features"
+msgstr ""
+
+#. Label of a Date field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Service Start Date"
+msgstr "วันที่เริ่มบริการ"
+
 #. Label of a Section Break field in DocType 'ZKTeco Biometric Settings'
 #. Label of a Select field in DocType 'ZKTeco Biometric Settings'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
@@ -1738,11 +3603,27 @@ msgstr "สัญญาบริการ"
 msgid "Service Status"
 msgstr "สถานะบริการ"
 
+#. Label of a Select field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Service Tier"
+msgstr ""
+
+#. Description of the 'Customer Doppler Token' (Password) field in DocType
+#. 'TBS
+#. General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Service token from customer's own Doppler account (starts with dp.st.)"
+msgstr ""
+
 #. Option for the 'VAT Timing Type' (Select) field in DocType 'Thai VAT
 #. Recognition Item'
 #: thai_business_suite/doctype/thai_vat_recognition_item/thai_vat_recognition_item.json
 msgid "Services"
 msgstr "บริการ"
+
+#: thai_business_suite/public/js/purchase_order_delivery_calendar.js:113
+msgid "Set Date"
+msgstr ""
 
 #: thai_business_suite/config/desk.py:63
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:12
@@ -1772,11 +3653,44 @@ msgstr "แสดงป้ายกำกับสองภาษา"
 msgid "Signature Labels"
 msgstr "ป้ายลายเซ็นต์"
 
+#. Label of a Check field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Single Page Layout"
+msgstr ""
+
+#. Label of a Link field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Source DocType"
+msgstr "DocType แหล่งที่มา"
+
+#. Label of a Dynamic Link field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Source Document"
+msgstr ""
+
+#. Description of the 'Source Document' (Dynamic Link) field in DocType 'Grist
+#. Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Specific document this report is linked to"
+msgstr ""
+
+#. Description of the 'Posting Date' (Date) field in DocType 'Naming Series
+#. Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Standard ERPNext posting date (priority 4)"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:11
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:26
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:49
 msgid "Start Service"
 msgstr "เริ่มบริการ"
+
+#. Description of the 'Period From' (Date) field in DocType 'Petty Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Start date of disbursements being replenished"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.js:44
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.js:110
@@ -1784,12 +3698,32 @@ msgid "Starting Thai branches import..."
 msgstr "กำลังเริ่มนำเข้าสาขาในประเทศไทย..."
 
 #. Label of a Select field in DocType 'Thai VAT Recognition'
+#. Label of a Section Break field in DocType 'Petty Cash Replenishment'
+#. Label of a Select field in DocType 'Petty Cash Replenishment'
+#. Label of a Section Break field in DocType 'Petty Cash Request'
+#. Label of a Select field in DocType 'Petty Cash Request'
+#. Label of a Select field in DocType 'PO Planned Delivery'
 #. Label of a Select field in DocType 'ZKTeco Biometric Device'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+#: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.json
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:224
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:75
 msgid "Status"
 msgstr "สถานะ"
+
+#. Label of a Section Break field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Status & Settings"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Stock"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:15
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:29
@@ -1803,10 +3737,27 @@ msgstr "หยุดบริการ"
 msgid "Stopped"
 msgstr "หยุดแล้ว"
 
+#. Description of the 'Enable Static Fallback' (Check) field in DocType 'TBS
+#. General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Store data locally even when using Grist server (works offline)"
+msgstr ""
+
+#. Label of a Link in the Thai Business Suite Workspace
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
+msgid "Stripe Settings"
+msgstr ""
+
 #. Label of a Data field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid "Subdistrict (ตำบล/แขวง)"
 msgstr "ตำบล/แขวง"
+
+#. Option for the 'Status' (Select) field in DocType 'Petty Cash
+#. Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Submitted"
+msgstr "ส่งแล้ว"
 
 #: thai_business_suite/public/js/api.js:27
 msgid "Submitting..."
@@ -1816,13 +3767,32 @@ msgstr "กำลังส่ง..."
 msgid "Successfully fetched  attendance records"
 msgstr "ดึงข้อมูลบันทึกการลงเวลาทำงานสำเร็จแล้ว"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:67
+msgid "Suggested Replenishment"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:225
+msgid "Suggested replenishment amount: {0}"
+msgstr ""
+
+#. Description of the 'Total Request Amount' (Currency) field in DocType
+#. 'Petty
+#. Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Sum of all disbursed requests"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:130
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:44
 msgid "Summary of petty cash transactions"
 msgstr "สรุปการทำรายการเงินสดย่อย"
 
+#. Label of a Link field in DocType 'Asset Repair History'
 #. Label of a Link field in DocType 'Thai Purchase VAT'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:36
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:37
 #: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:19
 msgid "Supplier"
 msgstr "ผู้จำหน่าย"
@@ -1837,6 +3807,11 @@ msgstr "สาขาผู้จำหน่าย"
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 msgid "Supplier Contract"
 msgstr "สัญญาผู้จำหน่าย"
+
+#. Label of a Data field in DocType 'PO Receipt History'
+#: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
+msgid "Supplier Delivery Note"
+msgstr "หมายเหตุการจัดส่งของผู้จัดจำหน่าย"
 
 #. Label of a Data field in DocType 'Thai Purchase VAT'
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
@@ -1858,13 +3833,23 @@ msgstr "สัญญาผู้จำหน่ายถูกสร้างเ
 msgid "Supplier is required"
 msgstr "จำเป็นต้องระบุผู้จำหน่าย"
 
+#. Option for the 'Billing Status' (Select) field in DocType 'TBS General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Suspended"
+msgstr "ที่ถูกระงับ"
+
 #: thai_business_suite/public/js/payment_request.js:15
 msgid "Sync PO Items"
 msgstr "ซิงค์รายการใบสั่งซื้อ"
 
 #. Name of a role
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
 #: thai_business_suite/thai_business_suite/doctype/mcp_settings/mcp_settings.json
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_settings/petty_cash_settings.json
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
@@ -1875,14 +3860,27 @@ msgstr "ซิงค์รายการใบสั่งซื้อ"
 msgid "System Manager"
 msgstr "ผู้จัดการระบบ"
 
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "TBS General Settings"
+msgstr ""
+
 #. Name of a Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
 msgid "TBS Management"
 msgstr "การจัดการ TBS"
 
+#. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "TBS Secret Mapping"
+msgstr ""
+
 #. Label of a Link in the TBS Management Workspace
 #. Label of a shortcut in the TBS Management Workspace
+#. Label of a Link in the Thai Business Suite Workspace
+#. Label of a shortcut in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "TBS Settings"
 msgstr "การตั้งค่า TBS"
 
@@ -1891,6 +3889,12 @@ msgstr "การตั้งค่า TBS"
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "TH Sarabun New"
 msgstr "TH Sarabun New"
+
+#. Option for the 'Report Type' (Select) field in DocType 'Grist Static
+#. Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Tax Calculation"
+msgstr ""
 
 #. Label of a Data field in DocType 'Thai Branch'
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
@@ -1933,6 +3937,11 @@ msgstr "รหัสสำนักงานสรรพากร"
 #: thai_business_suite/doctype/thai_vat_recognition_item/thai_vat_recognition_item.json
 msgid "Tax Rate"
 msgstr "อัตราภาษี"
+
+#. Label of a JSON field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Template Configuration"
+msgstr ""
 
 #. Label of a Section Break field in DocType 'Thai Document Template'
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
@@ -1983,6 +3992,22 @@ msgstr "เทมเพลตควรมีโครงสร้าง HTML ท
 msgid "Test Connection"
 msgstr "ทดสอบการเชื่อมต่อ"
 
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.js:10
+msgid "Test Font Application"
+msgstr ""
+
+#. Label of a Text Editor field in DocType 'Naming Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Test Notes"
+msgstr ""
+
+#. Description of the 'Naming Series' (Select) field in DocType 'Naming Series
+#. Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid ""
+"Test patterns: Document date (DYY, DMM, etc.) vs Standard (YY, MM, etc.)"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:36
 msgid "Testing connection to device..."
 msgstr "กำลังทดสอบการเชื่อมต่อกับอุปกรณ์..."
@@ -2000,31 +4025,63 @@ msgstr "สาขาไทย"
 msgid "Thai Branches Import Complete"
 msgstr "การนำเข้าสาขาไทยเสร็จสมบูรณ์แล้ว"
 
+#. Label of a Section Break field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Thai Business Features"
+msgstr ""
+
+#. Name of a Workspace
 #: thai_business_suite/config/desktop.py:23
 #: thai_business_suite/public/js/payment_entry.js:8
 #: thai_business_suite/public/js/payment_entry.js:13
 #: thai_business_suite/public/js/sales_invoice.js:8
 #: thai_business_suite/public/js/sales_invoice.js:13
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Thai Business Suite"
 msgstr "ชุดธุรกิจไทย"
 
-#: thai_business_suite/install.py:39
+#. Description of the 'Document Date (TBS Custom)' (Date) field in DocType
+#. 'Naming Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Thai Business Suite custom document date field (priority 1)"
+msgstr ""
+
+#: thai_business_suite/install.py:81
 msgid ""
 "Thai Business Suite installed successfully. Please configure the Thai "
 "Voucher Settings."
 msgstr ""
 "การติดตั้ง Thai Business Suite สำเร็จแล้ว กรุณากำหนดค่าการตั้งค่าวอชเชอร์ไทย"
 
+#. Label of a Check field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Thai Currency Format"
+msgstr "รูปแบบสกุลเงินไทย"
+
 #. Name of a DocType
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 msgid "Thai Document Template"
 msgstr "แม่แบบเอกสารภาษาไทย"
+
+#. Label of a Select field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Thai Font"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.js:41
+msgid "Thai Font Auto Apply Disabled"
+msgstr ""
 
 #. Name of a report
 #: thai_business_suite/config/desk.py:88
 #: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.json
 msgid "Thai Input VAT Report"
 msgstr "รายงานภาษีซื้อ VAT"
+
+#. Label of a Check field in DocType 'Grist Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Thai Language Interface"
+msgstr ""
 
 #: thai_business_suite/config/desk.py:96
 msgid "Thai Output VAT Report (Placeholder)"
@@ -2078,7 +4135,9 @@ msgid "Thai Voucher"
 msgstr "ใบสำคัญบัญชี"
 
 #. Name of a DocType
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Thai Voucher Settings"
 msgstr "การตั้งค่าวอชเชอร์ภาษาไทย"
 
@@ -2091,6 +4150,18 @@ msgstr "ใบสำคัญบัญชีภาษาไทย"
 msgid "Thai branches imported successfully!"
 msgstr "สาขาไทยนำเข้าเรียบร้อยแล้ว!"
 
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.js:43
+msgid ""
+"Thai font will not be automatically applied. Users will see the default "
+"Inter font."
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.js:14
+msgid ""
+"The selected Thai font will be automatically applied when users with Thai "
+"language preference access the system."
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
 msgid "This Month"
 msgstr "เดือนซี"
@@ -2098,6 +4169,10 @@ msgstr "เดือนซี"
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
 msgid "This Week"
 msgstr "สัปดาห์นี้"
+
+#: thai_business_suite/www/tbs.py:19
+msgid "This method is only meant for developer mode"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:48
 msgid "This will be set as the default template for {0}"
@@ -2119,6 +4194,12 @@ msgstr ""
 "การดำเนินการนี้จะเป็นการดึงข้อมูลการลงเวลาทำงานจากอุปกรณ์ด้วยตนเอง "
 "ต้องการดำเนินการต่อหรือไม่?"
 
+#. Description of the 'API Timeout (seconds)' (Int) field in DocType 'TBS
+#. General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Timeout for Grist server API calls"
+msgstr ""
+
 #. Label of a Data field in DocType 'ZKTeco Biometric Settings'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
 msgid "Timezone"
@@ -2130,6 +4211,7 @@ msgstr "เขตเวลา"
 msgid "Timezone for the attendance records"
 msgstr "โซนเวลาสำหรับบันทึกการเข้างาน"
 
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:22
 #: thai_business_suite/thai_business_suite/report/thai_input_vat_report/thai_input_vat_report.js:12
 msgid "To Date"
 msgstr "ถึงวันที่"
@@ -2139,6 +4221,9 @@ msgid "Today"
 msgstr "วันที่"
 
 #: thai_business_suite/public/js/payment_request.js:17
+#: thai_business_suite/public/js/purchase_invoice_grist.js:12
+#: thai_business_suite/public/js/sales_invoice_grist.js:12
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.js:86
 msgid "Tools"
 msgstr "เครื่องมือ"
 
@@ -2147,15 +4232,82 @@ msgstr "เครื่องมือ"
 msgid "Top Margin (mm)"
 msgstr "ระยะขอบบน (มม.)"
 
+#. Label of a Int field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Total API Calls Today"
+msgstr ""
+
 #. Label of a Currency field in DocType 'Thai Purchase VAT'
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
 msgid "Total Amount"
 msgstr "จำนวนเงินรวม"
 
+#. Label of a Currency field in DocType 'Asset Repair History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Total Cost"
+msgstr "ค่าใช้จ่ายรวม"
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:210
+msgid "Total Deliveries"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Total Disbursed (Month to Date)"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Total Disbursements"
+msgstr ""
+
+#. Label of a Currency field in DocType 'Petty Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Total Request Amount"
+msgstr ""
+
+#. Description of the 'Total Disbursements' (Currency) field in DocType 'Petty
+#. Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Total amount disbursed in this period"
+msgstr ""
+
+#. Description of the 'Parts Cost' (Currency) field in DocType 'Asset Repair
+#. History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Total cost of consumed spare parts"
+msgstr ""
+
+#. Description of the 'Total Disbursed (Month to Date)' (Currency) field in
+#. DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Total disbursements this month"
+msgstr ""
+
 #. Label of a Section Break field in DocType 'Thai VAT Recognition'
+#. Label of a Section Break field in DocType 'Petty Cash Replenishment'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
 msgid "Totals"
 msgstr "รวมทั้งหมด"
+
+#. Description of the 'Enable Audit Logs' (Check) field in DocType 'TBS
+#. General
+#. Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Track who accessed which secrets (MANAGED tier only)"
+msgstr ""
+
+#. Label of a Date field in DocType 'Naming Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Transaction Date"
+msgstr "วันที่ทำรายการ"
+
+#. Description of the 'Bank Transfer Reference' (Data) field in DocType 'Petty
+#. Cash Replenishment'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.json
+msgid "Transaction reference or receipt number"
+msgstr ""
 
 #. Label of a Dynamic Link field in DocType 'Thai VAT Recognition'
 #: thai_business_suite/doctype/thai_vat_recognition/thai_vat_recognition.json
@@ -2175,6 +4327,12 @@ msgstr "เอกสารทริกเกอร์ {0} {1} ไม่มีอ
 msgid "Trigger document {0} {1} must be submitted"
 msgstr "เอกสารทริกเกอร์ {0} {1} ต้องได้รับการส่งแล้ว"
 
+#. Description of the 'Account Name' (Data) field in DocType 'Petty Cash
+#. Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "Unique name for this petty cash fund"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/doctype/zkteco_shift_device_mapping/zkteco_shift_device_mapping.js:38
 msgid "Update"
 msgstr "อัปเดต"
@@ -2187,16 +4345,79 @@ msgstr "อัปเดตเวลาซิงค์ล่าสุดของ
 msgid "Update Shift Timestamp"
 msgstr "อัปเดตเวลาบันทึกกะงาน"
 
+#: thai_business_suite/overrides/purchase_receipt_tracking.py:68
+msgid "Updated receipt tracking for Purchase Order {0}"
+msgstr ""
+
+#. Option for the 'Repair Type' (Select) field in DocType 'Asset Repair
+#. History'
+#: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
+msgid "Upgrade"
+msgstr ""
+
+#. Description of the 'Grist File (.grist)' (Attach) field in DocType 'Grist
+#. Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Upload a pre-built .grist file for this report"
+msgstr ""
+
+#. Description of the 'Attach Receipt/Supporting Documents' (Attach) field in
+#. DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Upload invoice, receipt, or supporting documents"
+msgstr ""
+
 #. Label of a Section Break field in DocType 'Thai Document Template'
 #. Label of a Text Editor field in DocType 'Thai Document Template'
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
 msgid "Usage Instructions"
 msgstr "คำแนะนำการใช้งาน"
 
+#. Label of a Section Break field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Usage Statistics"
+msgstr ""
+
+#. Label of a Check field in DocType 'TBS General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Use Hybrid Mode"
+msgstr ""
+
+#. Description of the 'Thai Currency Format' (Check) field in DocType 'Grist
+#. Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Use Thai Baht (฿) symbol and formatting"
+msgstr ""
+
+#. Description of the 'Thai Language Interface' (Check) field in DocType
+#. 'Grist
+#. Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Use Thai language labels and interface"
+msgstr ""
+
 #. Label of a Check field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Use Thousand Separator"
 msgstr "ใช้ตัวคั่นหลักพัน"
+
+#. Description of the 'Single Page Layout' (Check) field in DocType 'Grist
+#. Static Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "Use single-page Grist layout (less busy)"
+msgstr ""
+
+#. Description of the 'Transaction Date' (Date) field in DocType 'Naming
+#. Series
+#. Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Used in Orders (priority 5)"
+msgstr ""
+
+#. Label of a Small Text field in DocType 'Secret Access Log'
+#: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
+msgid "User Agent"
+msgstr "ตัวแทนผู้ใช้"
 
 #. Label of a Currency field in DocType 'Thai VAT Recognition'
 #. Label of a Currency field in DocType 'Thai VAT Recognition Item'
@@ -2224,6 +4445,12 @@ msgstr "รหัสสาขา VAT ต้องเป็นตัวเลข 
 msgid "VAT Details"
 msgstr "รายละเอียด VAT"
 
+#. Option for the 'Report Type' (Select) field in DocType 'Grist Static
+#. Report'
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.json
+msgid "VAT Report"
+msgstr ""
+
 #. Label of a Select field in DocType 'Thai VAT Recognition Item'
 #: thai_business_suite/doctype/thai_vat_recognition_item/thai_vat_recognition_item.json
 msgid "VAT Timing Type"
@@ -2233,10 +4460,23 @@ msgstr "ประเภทเวลาภาษีมูลค่าเพิ่
 msgid "VAT timing updated successfully"
 msgstr "การอัปเดตเวลาภาษีมูลค่าเพิ่มสำเร็จแล้ว"
 
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:76
+msgid "Validation Error"
+msgstr ""
+
 #. Name of a Workspace
 #: thai_business_suite/thai_business_suite/workspace/value_added_tax___tbs/value_added_tax___tbs.json
 msgid "Value Added Tax - TBS"
 msgstr "ภาษีมูลค่าเพิ่ม - TBS"
+
+#: thai_business_suite/thai_business_suite/report/po_delivery_calendar_report/po_delivery_calendar_report.py:69
+msgid "Variance (Days)"
+msgstr ""
+
+#. Description of the 'Bill Date' (Date) field in DocType 'Naming Series Test'
+#: thai_business_suite/thai_business_suite/doctype/naming_series_test/naming_series_test.json
+msgid "Vendor's invoice date (priority 3 - Purchase Invoice pattern)"
+msgstr ""
 
 #. Description of the 'ERPNext Version' (Int) field in DocType 'ZKTeco
 #. Biometric Settings'
@@ -2245,15 +4485,41 @@ msgid "Version of ERPNext (e.g., 13, 14, 15)"
 msgstr "เวอร์ชันของ ERPNext (เช่น 13, 14, 15)"
 
 #: thai_business_suite/public/js/payment_entry.js:83
+#: thai_business_suite/public/js/purchase_order_delivery_calendar.js:29
 #: thai_business_suite/public/js/sales_invoice.js:100
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:52
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:59
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:21
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:37
 msgid "View"
 msgstr "ดู"
+
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:15
+msgid "View CSV in Grist"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:8
+msgid "View Grist Report"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:19
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:35
+msgid "View Journal Entry"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:55
+msgid "View Replenishments"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:135
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:150
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:163
 msgid "View Report"
 msgstr "ดูรายงาน"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:48
+msgid "View Requests"
+msgstr ""
 
 #: thai_business_suite/public/js/sales_invoice.js:11
 msgid "View Thai Tax Invoices"
@@ -2276,10 +4542,24 @@ msgstr "ประเภทใบสำคัญ"
 msgid "Voucher file not found."
 msgstr "ไม่พบไฟล์บัตรเงินสด"
 
+#: thai_business_suite/utils/voucher_viewer.py:93
+msgid "Voucher generation not supported for this document type."
+msgstr ""
+
 #. Name of a Workspace
 #: thai_business_suite/thai_business_suite/workspace/warehouse_management___tbs/warehouse_management___tbs.json
 msgid "Warehouse Management - TBS"
 msgstr "การจัดการคลังสินค้า - TBS"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:208
+msgid "Warning"
+msgstr "คำเตือน"
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.py:36
+msgid ""
+"Warning: Petty Cash Account balance ({0}) is less than requested amount "
+"({1})"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_device/zkteco_biometric_device.js:13
 msgid ""
@@ -2294,6 +4574,18 @@ msgstr ""
 msgid "Website"
 msgstr "เว็บไซต์"
 
+#. Description of the 'Required By Date' (Date) field in DocType 'Petty Cash
+#. Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "When does the employee need this cash?"
+msgstr ""
+
+#. Description of the 'Managed Doppler Config' (Select) field in DocType 'TBS
+#. General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "Which Doppler config environment to use"
+msgstr ""
+
 #: thai_business_suite/config/desk.py:116
 msgid "Withholding Tax Certificate (50ทวิ - Placeholder)"
 msgstr "ใบรับรองภาษีหัก ณ ที่จ่าย (50ทวิ - ตำแหน่งว่าง)"
@@ -2302,9 +4594,21 @@ msgstr "ใบรับรองภาษีหัก ณ ที่จ่าย 
 msgid "Withholding Tax Forms (PND - Placeholder)"
 msgstr "แบบฟอร์มภาษีหัก ณ ที่จ่าย (พ.ง.ด. - ตำแหน่งว่าง)"
 
+#. Label of a Link field in DocType 'Petty Cash Request'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.json
+msgid "Workflow State"
+msgstr "สถานะเวิร์กโฟลว์"
+
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:275
 msgid "Yesterday"
 msgstr "เมื่อวานนี้"
+
+#: thai_business_suite/public/js/purchase_invoice_grist.js:49
+#: thai_business_suite/public/js/sales_invoice_grist.js:49
+msgid ""
+"You can view the report anytime at: <a href=\"/grist-viewer/{0}\" "
+"target=\"_blank\">{0}</a>"
+msgstr ""
 
 #: thai_business_suite/config/desk.py:58
 msgid "ZKTeco Biometric Attendance Dashboard"
@@ -2329,7 +4633,9 @@ msgstr "การตั้งค่าชีวมิติ ZKTeco"
 
 #. Label of a Link in the TBS Management Workspace
 #. Label of a shortcut in the TBS Management Workspace
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "ZKTeco Dashboard"
 msgstr "แดชบอร์ด ZKTeco"
 
@@ -2339,7 +4645,9 @@ msgid "ZKTeco Device Link"
 msgstr "ลิงก์อุปกรณ์ ZKTeco"
 
 #. Label of a shortcut in the TBS Management Workspace
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "ZKTeco Devices"
 msgstr "อุปกรณ์ ZKTeco"
 
@@ -2353,7 +4661,9 @@ msgid "ZKTeco Management"
 msgstr "การจัดการ ZKTeco"
 
 #. Label of a shortcut in the TBS Management Workspace
+#. Label of a Link in the Thai Business Suite Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
+#: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "ZKTeco Settings"
 msgstr "การตั้งค่า ZKTeco"
 
@@ -2377,19 +4687,46 @@ msgstr "แผนภาพการไหลของสินทรัพย์
 msgid "bilingual"
 msgstr "สองภาษา"
 
+#. Option for the 'Managed Doppler Config' (Select) field in DocType 'TBS
+#. General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "dev"
+msgstr ""
+
 #. Option for the 'Default Language' (Select) field in DocType 'Thai Voucher
 #. Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "en"
 msgstr "อังกฤษ"
 
+#. Option for the 'App Name' (Select) field in DocType 'TBS Secret Mapping'
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "food_processing"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/hr_flowchart/hr_flowchart.js:4
 msgid "hr-flowchart"
 msgstr "ผังงานทรัพยากรบุคคล"
 
+#. Option for the 'App Name' (Select) field in DocType 'TBS Secret Mapping'
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "inpac_pharma"
+msgstr ""
+
+#. Option for the 'App Name' (Select) field in DocType 'TBS Secret Mapping'
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "logistics_tracking"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.js:4
 msgid "petty-cash-flowchart"
 msgstr "แผนภาพการไหลของเงินสดย่อย"
+
+#. Option for the 'Managed Doppler Config' (Select) field in DocType 'TBS
+#. General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "prd"
+msgstr ""
 
 #: thai_business_suite/thai_business_suite/page/purchasing_flowchart/purchasing_flowchart.js:4
 msgid "purchasing-flowchart"
@@ -2399,9 +4736,20 @@ msgstr "แผนภาพกระบวนการจัดซื้อ"
 msgid "selling-flowchart"
 msgstr "แผนภาพโฟลว์การขาย"
 
+#. Option for the 'Managed Doppler Config' (Select) field in DocType 'TBS
+#. General Settings'
+#: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+msgid "staging"
+msgstr ""
+
 #: thai_business_suite/thai_business_suite/page/stock_flowchart/stock_flowchart.js:4
 msgid "stock-flowchart"
 msgstr "แผนภาพการไหลของสต็อก"
+
+#. Option for the 'App Name' (Select) field in DocType 'TBS Secret Mapping'
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "textile_manufacturing"
+msgstr ""
 
 #. Option for the 'Default Language' (Select) field in DocType 'Thai Voucher
 #. Settings'
@@ -2409,7 +4757,52 @@ msgstr "แผนภาพการไหลของสต็อก"
 msgid "th"
 msgstr "th"
 
+#. Option for the 'App Name' (Select) field in DocType 'TBS Secret Mapping'
+#: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
+msgid "thai_business_suite"
+msgstr ""
+
 #. Count format of shortcut in the TBS Management Workspace
 #: thai_business_suite/thai_business_suite/workspace/tbs_management/tbs_management.json
 msgid "{} Devices"
 msgstr "อุปกรณ์ {}"
+
+#. Label of a Data field in DocType 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "ชื่อกองทุนเงินสดย่อย (Thai)"
+msgstr ""
+
+#. Description of the 'ชื่อกองทุนเงินสดย่อย (Thai)' (Data) field in DocType
+#. 'Petty Cash Account'
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
+msgid "ชื่อภาษาไทยสำหรับรายงาน"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_tracking.js:37
+msgid "⏳ Awaiting First Delivery"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:95
+msgid ""
+"⚠️ Balance ({0}) is below minimum threshold ({1}). Replenishment needed!"
+msgstr ""
+
+#: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.js:101
+msgid "⚠️ Balance ({0}) is running low. Consider replenishing soon."
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_tracking.js:52
+msgid "✅ Complete (Single Delivery)"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_tracking.js:55
+msgid "✅ Complete ({0} Deliveries)"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_tracking.js:45
+msgid "📦 Multi-Partial ({0}% - {1} deliveries)"
+msgstr ""
+
+#: thai_business_suite/public/js/purchase_order_tracking.js:41
+msgid "📦 Partial Delivery ({0}%)"
+msgstr ""
