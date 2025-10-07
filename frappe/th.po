@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-10-06 22:51+0642\n"
-"PO-Revision-Date: 2025-10-08 01:50\n"
+"PO-Revision-Date: 2025-10-08 01:51\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -145,7 +145,7 @@ msgstr "1 วัน"
 
 #: frappe/integrations/doctype/google_calendar/google_calendar.py:374
 msgid "1 Google Calendar Event synced."
-msgstr "1 ซิงค์กิจกรรม Google ปฏิทิน"
+msgstr "ซิงค์ 1 กิจกรรมบนปฏิทิน Google"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:888
 msgid "1 Report"
