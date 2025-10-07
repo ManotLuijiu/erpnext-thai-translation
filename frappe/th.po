@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-10-06 22:51+0642\n"
-"PO-Revision-Date: 2025-10-08 01:59\n"
+"PO-Revision-Date: 2025-10-08 02:02\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -1124,7 +1124,7 @@ msgstr "เข้าถึงความลับของคีย์"
 #: frappe/core/doctype/access_log/access_log.json
 #: frappe/core/doctype/user/user.json frappe/core/workspace/users/users.json
 msgid "Access Log"
-msgstr "เข้าถึงบันทึก"
+msgstr "บันทึกการเข้าถึง"
 
 #. Label of a Data field in DocType 'OAuth Bearer Token'
 #. Label of a Password field in DocType 'Token Cache'
