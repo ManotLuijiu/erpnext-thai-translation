@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-06 22:53+0642\n"
-"PO-Revision-Date: 2025-10-07 22:10\n"
+"PO-Revision-Date: 2025-10-07 23:05\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "<span class=\"h4\"><b>ไปที่ Dashboards</b></span>"
 #. Header text in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>รายงานและข้อมูลหลัก</b></span>"
 
 #. Header text in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
