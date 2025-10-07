@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-10-06 22:51+0642\n"
-"PO-Revision-Date: 2025-10-08 01:44\n"
+"PO-Revision-Date: 2025-10-08 01:45\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -32113,7 +32113,7 @@ msgstr "หัวใจ"
 #. Option for the 'Icon' (Select) field in DocType 'Workflow State'
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 msgid "home"
-msgstr "บ้าน"
+msgstr "หน้าแรก"
 
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:296
 msgid "hub"
