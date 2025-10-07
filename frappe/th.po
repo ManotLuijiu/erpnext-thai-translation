@@ -17043,7 +17043,7 @@ msgstr "ค่าเทมเพลต Navbar"
 
 #: frappe/public/js/frappe/ui/keyboard.js:214
 msgid "Navigate Home"
-msgstr "นำทางกลับบ้าน"
+msgstr "นำทางกลับหน้าแรก"
 
 #: frappe/public/js/frappe/list/list_view.js:1184
 msgctxt "Description of a list view shortcut"
