@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-10-06 22:51+0642\n"
-"PO-Revision-Date: 2025-10-08 01:45\n"
+"PO-Revision-Date: 2025-10-08 01:50\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -91,7 +91,7 @@ msgstr "&#39;ผู้รับ&#39; ไม่ได้ระบุ"
 
 #: frappe/utils/__init__.py:255
 msgid "'{0}' is not a valid IBAN"
-msgstr ""
+msgstr "'{0}' ไม่ใช่ IBAN ที่ถูกต้อง"
 
 #: frappe/utils/__init__.py:245
 msgid "'{0}' is not a valid URL"
@@ -184,7 +184,7 @@ msgstr "1 จาก 2"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:227
 msgid "1 record will be exported"
-msgstr "1 บันทึกจะถูกส่งออก"
+msgstr "ส่งออก 1 รายการ"
 
 #: frappe/tests/test_utils.py:686
 msgid "1 second ago"
@@ -1017,7 +1017,7 @@ msgstr "API Endpoint Arguments"
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:101
 msgid "API Endpoint Args should be valid JSON"
-msgstr ""
+msgstr "อาร์กิวเมนต์ API Endpoint ควรเป็น JSON ที่ถูกต้อง"
 
 #. Label of a Data field in DocType 'User'
 #. Label of a Data field in DocType 'Google Settings'
@@ -1322,7 +1322,7 @@ msgstr "บันทึกกิจกรรม"
 #: frappe/public/js/frappe/views/reports/query_report.js:294
 #: frappe/public/js/frappe/widgets/widget_dialog.js:30
 msgid "Add"
-msgstr ""
+msgstr "เพิ่ม"
 
 #: frappe/public/js/frappe/list/list_view.js:291
 msgctxt "Primary action in list view"
@@ -1476,7 +1476,7 @@ msgstr "เพิ่มสมาชิก"
 
 #: frappe/public/js/frappe/list/bulk_operations.js:425
 msgid "Add Tags"
-msgstr ""
+msgstr "เพิ่มแท็ก"
 
 #: frappe/public/js/frappe/list/list_view.js:1934
 msgctxt "Button in list view actions menu"
@@ -2680,7 +2680,7 @@ msgstr ""
 
 #: frappe/public/js/frappe/web_form/web_form.js:203
 msgid "Are you sure you want to delete this record?"
-msgstr ""
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบระเบียนนี้?"
 
 #: frappe/public/js/frappe/web_form/web_form.js:191
 msgid "Are you sure you want to discard the changes?"
@@ -2772,7 +2772,7 @@ msgstr "กำหนดเงื่อนไข"
 
 #: frappe/public/js/frappe/form/sidebar/assign_to.js:182
 msgid "Assign To"
-msgstr ""
+msgstr "มอบหมายให้"
 
 #: frappe/public/js/frappe/list/list_view.js:1880
 msgctxt "Button in list view actions menu"
@@ -3066,7 +3066,7 @@ msgstr "ข้อมูล URL Auth Authentication"
 
 #: frappe/integrations/doctype/social_login_key/social_login_key.py:95
 msgid "Auth URL data should be valid JSON"
-msgstr ""
+msgstr "ข้อมูล URL การตรวจสอบสิทธิ์ต้องเป็น JSON ที่ถูกต้อง"
 
 #. Label of a Check field in DocType 'Email Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -3517,7 +3517,7 @@ msgstr "สำรองข้อมูลไปยัง Google Drive"
 #. Label of a Card Break in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Backup"
-msgstr ""
+msgstr "สำรองข้อมูล"
 
 #. Label of a Section Break field in DocType 'S3 Backup Settings'
 #: frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json
@@ -4745,7 +4745,7 @@ msgstr "Chaining Hash"
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:11
 #: frappe/tests/test_translate.py:98
 msgid "Change"
-msgstr ""
+msgstr "เปลี่ยนแปลง"
 
 #: frappe/tests/test_translate.py:99
 msgctxt "Coins"
@@ -5276,7 +5276,7 @@ msgstr "วิธีการท้าทายโค้ด"
 #: frappe/public/js/frappe/form/form_tour.js:276
 #: frappe/public/js/frappe/widgets/base_widget.js:159
 msgid "Collapse"
-msgstr ""
+msgstr "ยุบ"
 
 #: frappe/public/js/frappe/form/controls/code.js:179
 msgctxt "Shrink code field."
@@ -5738,7 +5738,7 @@ msgstr ""
 #: frappe/core/doctype/user/user.js:401 frappe/public/js/frappe/dom.js:331
 #: frappe/www/update-password.html:30
 msgid "Confirm"
-msgstr ""
+msgstr "ยืนยัน"
 
 #: frappe/public/js/frappe/ui/messages.js:31
 msgctxt "Title of confirmation dialog"
@@ -6209,7 +6209,7 @@ msgstr "สร้างบันทึก"
 #: frappe/public/js/frappe/views/treeview.js:344
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:41
 msgid "Create New"
-msgstr ""
+msgstr "สร้างใหม่"
 
 #: frappe/public/js/frappe/list/list_view.js:517
 msgctxt "Create a new document from list view"
@@ -6697,7 +6697,7 @@ msgstr "การปรับแต่งสำหรับ <b>{0}</b> ถูก
 #: frappe/public/js/frappe/form/toolbar.js:541
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:197
 msgid "Customize"
-msgstr ""
+msgstr "ปรับแต่ง"
 
 #: frappe/public/js/frappe/list/list_view.js:1732
 msgctxt "Button in list view menu"
@@ -7501,7 +7501,7 @@ msgstr "ลบเอกสารทั้งหมดสำเร็จแล้
 
 #: frappe/public/js/frappe/web_form/web_form.js:211
 msgid "Deleted!"
-msgstr ""
+msgstr "ลบแล้ว!"
 
 #: frappe/desk/reportview.py:556
 msgid "Deleting {0}"
@@ -7845,12 +7845,12 @@ msgstr "ปิดใช้งานการตอบกลับอัตโน
 #: frappe/public/js/frappe/views/workspace/workspace.js:547
 #: frappe/public/js/frappe/web_form/web_form.js:193
 msgid "Discard"
-msgstr ""
+msgstr "ยกเลิก"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:41
 msgctxt "Button in web form"
 msgid "Discard"
-msgstr ""
+msgstr "ยกเลิก"
 
 #: frappe/public/js/frappe/views/communication.js:30
 msgctxt "Discard Email"
@@ -7885,7 +7885,7 @@ msgstr "หัวข้ออภิปราย"
 #: frappe/templates/discussions/reply_card.html:16
 #: frappe/templates/discussions/reply_section.html:29
 msgid "Dismiss"
-msgstr ""
+msgstr "ปิด"
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:577
 msgctxt "Stop showing the onboarding widget."
@@ -8565,7 +8565,7 @@ msgstr "ดับเบิลคลิกเพื่อแก้ไขป้า
 #: frappe/email/doctype/auto_email_report/auto_email_report.js:8
 #: frappe/public/js/frappe/form/grid.js:63
 msgid "Download"
-msgstr ""
+msgstr "ดาวน์โหลด"
 
 #: frappe/public/js/frappe/views/reports/report_utils.js:229
 msgctxt "Export report"
@@ -8877,7 +8877,7 @@ msgstr "แก้ไข HTML ที่กำหนดเอง"
 
 #: frappe/public/js/frappe/form/toolbar.js:560
 msgid "Edit DocType"
-msgstr ""
+msgstr "แก้ไขประเภทเอกสาร"
 
 #: frappe/public/js/frappe/list/list_view.js:1759
 msgctxt "Button in list view menu"
@@ -9628,7 +9628,7 @@ msgstr "วันที่สิ้นสุดต้องเป็นวัน
 
 #: frappe/automation/doctype/auto_repeat/auto_repeat.py:141
 msgid "End Date cannot be today."
-msgstr ""
+msgstr "วันที่สิ้นสุดไม่สามารถเป็นวันนี้ได้"
 
 #. Label of a Datetime field in DocType 'RQ Job'
 #. Label of a Datetime field in DocType 'Submission Queue'
@@ -10061,7 +10061,7 @@ msgstr "ผู้บริหาร"
 
 #: frappe/public/js/frappe/widgets/base_widget.js:159
 msgid "Expand"
-msgstr ""
+msgstr "ขยาย"
 
 #: frappe/public/js/frappe/form/controls/code.js:180
 msgctxt "Enlarge code field."
@@ -12022,7 +12022,7 @@ msgstr "ลิงก์ Google Meet"
 #. Label of a Card Break in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Google Services"
-msgstr ""
+msgstr "บริการของ Google"
 
 #. Name of a DocType
 #. Label of a Link in the Integrations Workspace
@@ -12702,7 +12702,7 @@ msgstr ""
 #: frappe/public/js/frappe/model/meta.js:197
 #: frappe/public/js/frappe/model/model.js:122
 msgid "ID"
-msgstr ""
+msgstr "รหัส"
 
 #: frappe/desk/reportview.py:466
 #: frappe/public/js/frappe/views/reports/report_view.js:990
@@ -14036,6 +14036,8 @@ msgid ""
 "Invalid naming series {}: dot (.) missing before the numeric placeholders. "
 "Kindly use a format like <b>ABCD.#####</b>."
 msgstr ""
+"ลำดับชื่อ {} ไม่ถูกต้อง: จุด (.) หายไปก่อนตัวแทนตัวเลข กรุณาใช้รูปแบบเช่น "
+"<b>ABCD.#####</b>"
 
 #: frappe/core/doctype/data_import/importer.py:446
 msgid "Invalid or corrupted content for import"
@@ -17321,7 +17323,7 @@ msgstr "จดหมายข่าว"
 #: frappe/templates/includes/slideshow.html:38 frappe/website/utils.py:258
 #: frappe/website/web_template/slideshow/slideshow.html:44
 msgid "Next"
-msgstr ""
+msgstr "ถัดไป"
 
 #: frappe/public/js/frappe/ui/slides.js:359
 msgctxt "Go to next slide"
@@ -17931,7 +17933,7 @@ msgstr "ส่งไม่ได้"
 
 #: frappe/public/js/frappe/list/list_sidebar_group_by.js:219
 msgid "Not Set"
-msgstr ""
+msgstr "ไม่ได้ตั้งค่า"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:606
 msgctxt "Field value is not set"
@@ -19009,7 +19011,7 @@ msgstr "การตั้งค่ารูปแบบไฟล์"
 
 #: frappe/core/doctype/file/file.py:378
 msgid "PDF cannot be uploaded, It contains unsafe content"
-msgstr ""
+msgstr "ไม่สามารถอัปโหลด PDF ได้ เนื่องจากมีเนื้อหาที่ไม่ปลอดภัย"
 
 #: frappe/utils/print_format.py:297
 msgid "PDF generation failed"
@@ -20438,7 +20440,7 @@ msgstr "ตัวอย่าง:"
 #: frappe/templates/includes/slideshow.html:34
 #: frappe/website/web_template/slideshow/slideshow.html:40
 msgid "Previous"
-msgstr ""
+msgstr "ก่อนหน้า"
 
 #: frappe/public/js/frappe/ui/slides.js:351
 msgctxt "Go to previous slide"
@@ -20570,7 +20572,7 @@ msgstr "แม่แบบฟิลด์รูปแบบการพิมพ
 #. Label of a Select field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Print Format For"
-msgstr ""
+msgstr "รูปแบบการพิมพ์สำหรับ"
 
 #. Label of a HTML field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
@@ -20584,7 +20586,7 @@ msgstr "พิมพ์รูปแบบประเภท"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1509
 msgid "Print Format not found"
-msgstr ""
+msgstr "ไม่พบรูปแบบการพิมพ์"
 
 #: frappe/www/printview.py:426
 msgid "Print Format {0} is disabled"
@@ -21009,7 +21011,7 @@ msgstr "การตั้งค่าการแจ้งเตือนแบ
 #. Label of a Card Break in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Push Notifications"
-msgstr ""
+msgstr "การแจ้งเตือนแบบพุช"
 
 #. Label of a Check field in DocType 'Google Calendar'
 #: frappe/integrations/doctype/google_calendar/google_calendar.json
@@ -23252,7 +23254,7 @@ msgstr "ที่บันทึกไว้"
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:47
 #: frappe/public/js/frappe/views/workspace/workspace.js:544
 msgid "Saving"
-msgstr ""
+msgstr "กำลังบันทึก"
 
 #: frappe/public/js/frappe/form/save.js:9
 msgctxt "Freeze message while saving a document"
@@ -23984,7 +23986,7 @@ msgstr "การอนุมัติด้วยตัวเองไม่ไ
 #: frappe/email/doctype/newsletter/newsletter.js:162
 #: frappe/www/contact.html:41
 msgid "Send"
-msgstr ""
+msgstr "ส่ง"
 
 #: frappe/public/js/frappe/views/communication.js:26
 msgctxt "Send Email"
@@ -24410,7 +24412,7 @@ msgstr "เซสชั่น ที่หมดอายุ จะต้อง�
 #: frappe/desk/doctype/number_card/number_card.js:387
 #: frappe/public/js/frappe/widgets/chart_widget.js:407
 msgid "Set"
-msgstr ""
+msgstr "ตั้งค่า"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:605
 msgctxt "Field value is set"
@@ -26828,7 +26830,7 @@ msgstr "แก้ไขข้อความ"
 #. Label of a Card Break in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Thai Business Suite"
-msgstr ""
+msgstr "ชุดธุรกิจไทย"
 
 #: frappe/templates/emails/password_reset.html:5
 msgid "Thank you"
@@ -28092,7 +28094,7 @@ msgstr "สลับส่วน: {0}"
 #: frappe/public/js/frappe/ui/page.js:196
 #: frappe/public/js/frappe/views/reports/report_view.js:1577
 msgid "Toggle Sidebar"
-msgstr ""
+msgstr "สลับแถบด้านข้าง"
 
 #: frappe/public/js/frappe/list/list_view.js:1749
 msgctxt "Button in list view menu"
@@ -28443,12 +28445,12 @@ msgstr "การแปล"
 #. Label of a Link in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Translation Tools"
-msgstr ""
+msgstr "เครื่องมือแปลภาษา"
 
 #. Label of a Link in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Translation Tools Settings"
-msgstr ""
+msgstr "การตั้งค่าเครื่องมือแปลภาษา"
 
 #: frappe/public/js/frappe/views/translation_manager.js:46
 msgid "Translations"
@@ -28989,7 +28991,7 @@ msgstr "อัปเดต"
 
 #: frappe/utils/response.py:320
 msgid "Updating"
-msgstr ""
+msgstr "กำลังอัปเดต"
 
 #: frappe/public/js/frappe/form/save.js:11
 msgctxt "Freeze message while updating a document"
@@ -29389,7 +29391,7 @@ msgstr "การอนุญาต ของผู้ใช้"
 #: frappe/public/js/frappe/views/reports/query_report.js:1840
 #: frappe/public/js/frappe/views/reports/report_view.js:1754
 msgid "User Permissions"
-msgstr ""
+msgstr "สิทธิ์ของผู้ใช้"
 
 #: frappe/public/js/frappe/list/list_view.js:1707
 msgctxt "Button in list view menu"
