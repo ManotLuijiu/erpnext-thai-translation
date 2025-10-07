@@ -1,13 +1,20 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 73,
-  "last_updated": "2025-10-08T01:56:05.944083",
+  "terms_count": 74,
+  "last_updated": "2025-10-08T02:00:51.804624",
   "terms": {
     "1 Google Calendar Event synced.": {
       "translation": "ซิงค์ 1 กิจกรรมบนปฏิทิน Google",
       "context": "Thai context Sentence -> Subject -> Verb -> Object\nPharase -> Verb -> Object",
       "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Access Log": {
+      "translation": "บันทึกการเข้าถึง",
+      "context": "Thai word translate from back to front",
+      "category": "Technical",
       "module": "",
       "is_approved": 1
     },
