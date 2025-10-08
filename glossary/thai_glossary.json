@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 75,
-  "last_updated": "2025-10-08T02:03:28.933653",
+  "terms_count": 76,
+  "last_updated": "2025-10-08T13:08:10.005700",
   "terms": {
     "1 Google Calendar Event synced.": {
       "translation": "ซิงค์ 1 กิจกรรมบนปฏิทิน Google",
@@ -503,6 +503,13 @@
     },
     "Unit Price": {
       "translation": "ราคาต่อหน่วย",
+      "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Utility": {
+      "translation": "สิ่งอำนวยความสะดวก",
       "context": "",
       "category": "Business",
       "module": "",
