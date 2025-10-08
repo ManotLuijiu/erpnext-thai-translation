@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Translation Tools VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
-"POT-Creation-Date: 2025-09-04 18:47+0642\n"
-"PO-Revision-Date: 2025-09-07 06:21\n"
+"POT-Creation-Date: 2025-10-06 22:53+0642\n"
+"PO-Revision-Date: 2025-10-08 13:06\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "MIME-Version: 1.0\n"
@@ -52,8 +52,8 @@ msgid ""
 "Ecosystem</h3><p style='margin-bottom:15px;'>AI-powered utilities for "
 "translating English to Thai language and other localization tools</p>"
 msgstr ""
-"<h3 style='margin-bottom:15px;'>เครื่องมือแปลสำหรับระบบนิเวศ "
-"Frappe/ERPNext</h3><p style='margin-bottom:15px;'>ยูทิลิตี้ที่ใช้ AI "
+"<h3 style='margin-bottom:15px;'>เครื่องมือแปลสำหรับระบบ "
+"Frappe/ERPNext</h3><p style='margin-bottom:15px;'>เป็นเครื่องมือที่ใช้ AI "
 "สำหรับแปลภาษาอังกฤษเป็นภาษาไทยและเครื่องมือแปลท้องถิ่นอื่นๆ</p>"
 
 #. Content of the 'Signature Preview' (HTML) field in DocType 'User Signature'
@@ -142,11 +142,11 @@ msgid ""
 msgstr "ไม่พบการตั้งค่า API Key ส่งผลให้เครื่องมือแปลภาษาด้วย AI ไม่ทำงาน"
 
 #: translation_tools/api/translation.py:208
-#: translation_tools/api/translation.py:316
+#: translation_tools/api/translation.py:328
 msgid "API key not configured for {0}"
 msgstr "ยังไม่ได้ตั้งค่า API สำหรับ {0}"
 
-#: translation_tools/api/translation.py:440
+#: translation_tools/api/translation.py:452
 msgid "API key not found in configuration. Please set it up first."
 msgstr "ไม่พบการตั้งค่า API key กรุณาตั้งค่าก่อนค่ะ"
 
@@ -178,6 +178,10 @@ msgstr "เพิ่มแล้ว"
 msgid "All"
 msgstr "ทั้งหมด"
 
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34238
+msgid "All Applications"
+msgstr ""
+
 #. Label of a Currency field in DocType 'Token Purchase'
 #: translation_tools/templates/pages/token_management.html:72
 #: translation_tools/translation_tools/doctype/token_purchase/token_purchase.json
@@ -203,6 +207,14 @@ msgstr "การตั้งค่าของ Anthropic"
 msgid "Anthropic Model"
 msgstr "Anthropic โมเดล"
 
+#: translation_tools/api/translation_status.py:57
+msgid "App '{0}' is not installed on site '{1}'. Available apps: {2}"
+msgstr ""
+
+#: translation_tools/utils/migration_translations.py:189
+msgid "App '{}' not found in this bench"
+msgstr ""
+
 #. Label of a Data field in DocType 'PO File'
 #. Label of a Data field in DocType 'Translation Schedule'
 #: translation_tools/translation_tools/doctype/po_file/po_file.json
@@ -210,10 +222,24 @@ msgstr "Anthropic โมเดล"
 msgid "App Name"
 msgstr "ชื่อโปรแกรม"
 
+#. Label of a Long Text field in DocType 'GitHub Sync Settings'
+#: translation_tools/translation_tools/doctype/github_sync_settings/github_sync_settings.json
+msgid "App Sync Settings (JSON)"
+msgstr ""
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34344
 #: translation_tools/translation_tools/page/translation_status/translation_status.js:47
 #: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:25
 msgid "Application"
 msgstr "แอปพลิเคชัน"
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34233
+msgid "Application Filter"
+msgstr ""
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34272
+msgid "Applications"
+msgstr ""
 
 #. Label of a number card in the Translation Tools Workspace
 #: translation_tools/translation_tools/workspace/translation_tools/translation_tools.json
@@ -259,6 +285,10 @@ msgstr "อัตโนมัติ"
 #: translation_tools/translation_tools/workspace/translation_tools/translation_tools.json
 msgid "Automation"
 msgstr "ระบบอัตโนมัติ"
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34308
+msgid "Average Completion"
+msgstr ""
 
 #. Label of a Card Break in the Integrations Workspace
 #: translation_tools/translation_tools/workspace/integrations/integrations.json
@@ -316,6 +346,7 @@ msgstr "ไม่สามารถดึงค่ามาได้"
 msgid "Category"
 msgstr "หมวดหมู่"
 
+#: translation_tools/public/dist/js/translation_tools.app.bundle.2UJUURKA.js:132
 #: translation_tools/public/js/language_toggle.js:61
 msgid "Changing language to "
 msgstr "กำลังเปลี่ยนภาษาเป็น"
@@ -357,9 +388,17 @@ msgstr "รวบรวมไฟล์ PO เป็นไฟล์ MO แบบ�
 msgid "Completed"
 msgstr "เสร็จสมบูรณ์"
 
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34350
+msgid "Completion"
+msgstr ""
+
 #: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:55
 msgid "Completion %"
 msgstr "เปอร์เซ็นต์ความสำเร็จ"
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34243
+msgid "Completion Threshold"
+msgstr ""
 
 #: translation_tools/translation_tools/page/translation_status/translation_status.js:55
 msgid "Completion Threshold (%)"
@@ -620,6 +659,7 @@ msgstr "เกิดข้อผิดพลาดในการโหลดแ
 msgid "Error verifying payment. Please contact support."
 msgstr "เกิดข้อผิดพลาดในการตรวจสอบการชำระเงิน กรุณาติดต่อฝ่ายสนับสนุน"
 
+#: translation_tools/public/dist/js/translation_tools.app.bundle.2UJUURKA.js:42
 #: translation_tools/public/js/app.js:76
 msgid "Error: "
 msgstr "ข้อผิดพลาด:"
@@ -644,6 +684,14 @@ msgstr "บันทึกการดำเนินการ"
 msgid "Execution Status"
 msgstr "สถานะการดำเนินการ"
 
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34400
+msgid "Export as CSV"
+msgstr ""
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34405
+msgid "Export as PDF"
+msgstr ""
+
 #: translation_tools/translation_tools/doctype/translation_schedule/translation_schedule.js:124
 msgid "Extract all translatable strings from the app into a POT template file"
 msgstr "ดึงข้อความที่แปลได้ทั้งหมดจากแอปออกมาเป็นไฟล์แม่แบบ POT"
@@ -667,6 +715,7 @@ msgstr "ไม่สามารถสร้างเซสชันชำระ
 msgid "Failed to generate PDF. Please check the error log."
 msgstr "ไม่สามารถสร้างไฟล์ PDF ได้ กรุณาตรวจสอบบันทึกข้อผิดพลาด"
 
+#: translation_tools/public/dist/js/translation_tools.app.bundle.2UJUURKA.js:152
 #: translation_tools/public/js/language_toggle.js:82
 msgid "Failed to update language."
 msgstr "ไม่สามารถอัปเดตภาษาได้"
@@ -686,10 +735,11 @@ msgstr "ชื่อตัวแปรต้องเป็นข้อควา
 msgid "File Path"
 msgstr "เส้นทางไฟล์"
 
-#: translation_tools/api/po_files.py:840 translation_tools/api/po_files.py:902
-#: translation_tools/api/po_files.py:995
+#: translation_tools/api/po_files.py:1028
+#: translation_tools/api/po_files.py:1090
+#: translation_tools/api/po_files.py:1183
 #: translation_tools/api/translation.py:152
-#: translation_tools/api/translation.py:274
+#: translation_tools/api/translation.py:286
 msgid "File not found: {0}"
 msgstr "ไม่พบไฟล์: {0}"
 
@@ -697,6 +747,10 @@ msgstr "ไม่พบไฟล์: {0}"
 #: translation_tools/translation_tools/doctype/po_file/po_file.json
 msgid "Filename"
 msgstr "ชื่อไฟล์"
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34352
+msgid "Files"
+msgstr "ไฟล์"
 
 #. Label of a Text field in DocType 'GitHub Sync History Entry'
 #: translation_tools/translation_tools/doctype/github_sync_history_entry/github_sync_history_entry.json
@@ -744,6 +798,10 @@ msgstr "สร้างไฟล์ PDF ทดสอบ"
 msgid "Generate from Document"
 msgstr "สร้างจากเอกสาร"
 
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34205
+msgid "Generating PDF report..."
+msgstr ""
+
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:185
 msgid "Generating PDF..."
 msgstr "กำลังสร้าง PDF..."
@@ -768,7 +826,7 @@ msgstr "ประวัติการซิงค์ GitHub"
 msgid "GitHub Sync Settings"
 msgstr "การตั้งค่าการซิงค์ GitHub"
 
-#: translation_tools/api/po_files.py:1457
+#: translation_tools/api/po_files.py:1645
 msgid "GitHub token saved successfully"
 msgstr "บันทึกโทเค็น GitHub เรียบร้อยแล้ว"
 
@@ -807,6 +865,7 @@ msgid "Google Settings"
 msgstr "การตั้งค่า Google"
 
 #. Label of a Section Break field in DocType 'Translation PDF Settings'
+#: translation_tools/public/dist/thai_translator.bundle.PQ5PZTUG.js:21398
 #: translation_tools/translation_tools/doctype/translation_pdf_settings/translation_pdf_settings.json
 msgid "Help"
 msgstr "ช่วยเหลือ"
@@ -844,7 +903,7 @@ msgstr "การติดตั้งเสร็จสมบูรณ์!"
 #: translation_tools/api/components.py:51
 #: translation_tools/api/components.py:82
 #: translation_tools/api/components.py:103
-#: translation_tools/api/installation.py:228
+#: translation_tools/api/installation.py:373
 #: translation_tools/api/notifications.py:15
 msgid "Installing Translation Tools"
 msgstr "กำลังติดตั้งเครื่องมือแปลภาษา"
@@ -860,16 +919,16 @@ msgstr "การรวมระบบ"
 
 #: translation_tools/api/github_sync.py:31
 #: translation_tools/api/github_sync.py:105
-#: translation_tools/api/github_sync.py:248
+#: translation_tools/api/github_sync.py:253
 msgid "Invalid GitHub repository URL"
 msgstr "URL ที่เก็บข้อมูล GitHub ไม่ถูกต้อง"
 
-#: translation_tools/api/po_files.py:1030
-#: translation_tools/api/po_files.py:1040
+#: translation_tools/api/po_files.py:1218
+#: translation_tools/api/po_files.py:1228
 msgid "Invalid entry ID or entry not found"
 msgstr "รหัสรายการไม่ถูกต้องหรือไม่พบรายการ"
 
-#: translation_tools/api/translation.py:369
+#: translation_tools/api/translation.py:381
 msgid "Invalid file name: {0}"
 msgstr "ชื่อไฟล์ไม่ถูกต้อง: {0}"
 
@@ -905,6 +964,12 @@ msgstr "อนุมัติแล้ว"
 msgid "Italics"
 msgstr "ตัวเอียง"
 
+#. Description of the 'App Sync Settings (JSON)' (Long Text) field in DocType
+#. 'GitHub Sync Settings'
+#: translation_tools/translation_tools/doctype/github_sync_settings/github_sync_settings.json
+msgid "JSON storage for per-app auto-sync settings"
+msgstr ""
+
 #. Label of a Link in the Integrations Workspace
 #: translation_tools/translation_tools/workspace/integrations/integrations.json
 msgid "LDAP Settings"
@@ -915,6 +980,7 @@ msgstr "การตั้งค่า LDAP"
 msgid "Language"
 msgstr "ภาษา"
 
+#: translation_tools/public/dist/js/translation_tools.app.bundle.2UJUURKA.js:145
 #: translation_tools/public/js/language_toggle.js:75
 msgid "Language updated. Reloading..."
 msgstr "เปลี่ยนภาษาเรียบร้อย กำลังโหลดใหม่..."
@@ -953,13 +1019,17 @@ msgstr "สถานะการซิงค์ล่าสุด"
 msgid "Last Updated"
 msgstr "อัปเดตล่าสุด"
 
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34258
+msgid "Loading data..."
+msgstr ""
+
 #: translation_tools/translation_tools/page/thai_translation_dashboard/thai_translation_dashboard.js:73
 #: translation_tools/translation_tools/page/translation_dashboard/translation_dashboard.js:22
 msgid "Loading translation dashboard..."
 msgstr "กำลังโหลด"
 
-#: translation_tools/api/github_sync.py:133
-#: translation_tools/api/github_sync.py:276
+#: translation_tools/api/github_sync.py:138
+#: translation_tools/api/github_sync.py:286
 msgid "Local PO file not found"
 msgstr "ไม่พบไฟล์ PO ท้องถิ่น"
 
@@ -1064,13 +1134,17 @@ msgstr "เวลาการทำงานครั้งถัดไปจะ
 msgid "No API keys found in configuration file."
 msgstr "ไม่พบคีย์ API ในไฟล์การตั้งค่า"
 
-#: translation_tools/api/po_files.py:1301
+#: translation_tools/api/po_files.py:1489
 msgid "No changes needed, translations are already up to date"
 msgstr "ไม่จำเป็นต้องเปลี่ยนแปลง การแปลเป็นปัจจุบันแล้ว"
 
 #: translation_tools/api/resend_provider.py:91
 msgid "No sender email address found. Please set a default from address."
 msgstr "ไม่พบที่อยู่อีเมลผู้ส่ง กรุณาตั้งค่าที่อยู่อีเมลเริ่มต้นสำหรับส่งออก"
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34262
+msgid "No translation data found. Try adjusting your filters."
+msgstr ""
 
 #. Label of a Attach field in DocType 'Translation Settings Custom Font'
 #: translation_tools/translation_tools/doctype/translation_settings_custom_font/translation_settings_custom_font.json
@@ -1104,7 +1178,7 @@ msgstr "ครั้งเดียว"
 
 #: translation_tools/api/github_sync.py:23
 #: translation_tools/api/github_sync.py:100
-#: translation_tools/api/github_sync.py:243
+#: translation_tools/api/github_sync.py:248
 msgid "Only GitHub repositories are supported"
 msgstr "รองรับเฉพาะที่เก็บข้อมูล GitHub เท่านั้น"
 
@@ -1130,6 +1204,10 @@ msgstr "การตั้งค่า OpenAI"
 #: translation_tools/translation_tools/doctype/translation_tools_settings/translation_tools_settings.json
 msgid "OpenAI Model"
 msgstr "โมเดล OpenAI"
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34217
+msgid "PDF Generated Successfully"
+msgstr ""
 
 #. Label of a Select field in DocType 'Translation PDF Settings'
 #: translation_tools/translation_tools/doctype/translation_pdf_settings/translation_pdf_settings.json
@@ -1187,7 +1265,7 @@ msgstr ""
 msgid "PO File"
 msgstr "ไฟล์ PO"
 
-#: translation_tools/api/translation.py:365
+#: translation_tools/api/translation.py:377
 msgid "PO File not found for the given file path"
 msgstr "ไม่พบไฟล์ PO สำหรับเส้นทางไฟล์ที่ระบุ"
 
@@ -1195,7 +1273,7 @@ msgstr "ไม่พบไฟล์ PO สำหรับเส้นทาง�
 msgid "PO Translation Files"
 msgstr "ไฟล์แปลใบสั่งซื้อ"
 
-#: translation_tools/api/translation.py:434
+#: translation_tools/api/translation.py:446
 msgid "PO file not found: {0}"
 msgstr "ไม่พบไฟล์ PO: {0}"
 
@@ -1288,6 +1366,10 @@ msgstr "กรุณากรอกคีย์ API อย่างน้อย�
 msgid "Please log in to save settings."
 msgstr "โปรดลงชื่อเข้าใช้ก่อนจะบันทึกการตั้งค่า"
 
+#: translation_tools/public/dist/thai_translator.bundle.PQ5PZTUG.js:21432
+msgid "Please select a file to translate"
+msgstr ""
+
 #: translation_tools/api/message.py:149
 msgid "Please sign in or provide your email to check token balance"
 msgstr "กรุณาเข้าสู่ระบบหรือกรอกอีเมลของคุณเพื่อตรวจสอบยอดคงเหลือของโทเค็น"
@@ -1314,6 +1396,11 @@ msgstr "รักษารูปแบบ"
 #: translation_tools/translation_tools/doctype/token_package/token_package.json
 msgid "Price"
 msgstr "ราคา"
+
+#: translation_tools/public/dist/ai_translator.bundle.AWTVKUXP.js:19597
+#: translation_tools/public/dist/translation_tools.bundle.FYQK3ZDJ.js:19604
+msgid "Print Message"
+msgstr ""
 
 #. Label of a Int field in DocType 'ERPNext Module'
 #: translation_tools/translation_tools/doctype/erpnext_module/erpnext_module.json
@@ -1348,6 +1435,10 @@ msgstr "การตั้งค่าการแจ้งเตือนแบ
 msgid "Push Notifications"
 msgstr "การแจ้งเตือนแบบพุช"
 
+#: translation_tools/public/dist/thai_translator.bundle.PQ5PZTUG.js:21371
+msgid "React Version"
+msgstr ""
+
 #: translation_tools/override/client.py:82
 msgid "Read"
 msgstr "อ่าน"
@@ -1360,6 +1451,7 @@ msgstr "การซื้อล่าสุด"
 msgid "Redirecting to Thai Translation Dashboard..."
 msgstr "กำลังเปลี่ยนเส้นทางไปยัง กระดานข้อมูลแปลภาษา..."
 
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34395
 #: translation_tools/translation_tools/page/thai_translation_dashboard/thai_translation_dashboard.js:10
 #: translation_tools/translation_tools/page/translation_dashboard/translation_dashboard.js:9
 #: translation_tools/translation_tools/page/translation_status/translation_status.js:35
@@ -1412,7 +1504,7 @@ msgstr "เรียกใช้กระบวนการแปลทั้ง
 msgid "Running"
 msgstr "กำลังดำเนินการ"
 
-#: translation_tools/api/installation.py:229
+#: translation_tools/api/installation.py:374
 msgid "Running setup script..."
 msgstr "กำลังเรียกใช้งานสคริปต์ตั้งค่า..."
 
@@ -1471,6 +1563,7 @@ msgstr "การจัดตารางเวลา"
 
 #. Label of a Card Break in the Integrations Workspace
 #: translation_tools/config/translation_tools.py:13
+#: translation_tools/public/dist/thai_translator.bundle.PQ5PZTUG.js:21384
 #: translation_tools/translation_tools/page/pdf_override/pdf_override.js:68
 #: translation_tools/translation_tools/workspace/integrations/integrations.json
 msgid "Settings"
@@ -1492,7 +1585,7 @@ msgstr "บันทึกการตั้งค่า"
 msgid "Settings updated successfully."
 msgstr "ตั้งค่าถูกอัปเดตเรียบร้อยแล้ว"
 
-#: translation_tools/api/installation.py:295
+#: translation_tools/api/installation.py:440
 msgid "Setup Error"
 msgstr "ข้อผิดพลาดในการตั้งค่า"
 
@@ -1543,7 +1636,7 @@ msgstr "URL Webhook ของ Slack"
 msgid "Social Login Key"
 msgstr "คีย์เข้าสู่ระบบโซเชียล"
 
-#: translation_tools/api/installation.py:202
+#: translation_tools/api/installation.py:347
 msgid ""
 "Some dependencies are missing. The setup script will attempt to install "
 "them."
@@ -1607,7 +1700,7 @@ msgstr "สำเร็จ"
 msgid "Success! Model: {0}"
 msgstr "สำเร็จ! แบบจำลอง: {0}"
 
-#: translation_tools/api/po_files.py:1361
+#: translation_tools/api/po_files.py:1549
 msgid "Successfully pushed translations to GitHub"
 msgstr "ส่งคำแปลไปยัง GitHub เรียบร้อยแล้ว"
 
@@ -1782,7 +1875,7 @@ msgstr "โมเดล OpenAI ที่ใช้สำหรับการแ�
 msgid "There was an error initiating your payment. Please try again."
 msgstr "เกิดข้อผิดพลาดในการเริ่มต้นการชำระเงินของคุณ กรุณาลองใหม่อีกครั้ง"
 
-#: translation_tools/www/thai_translation_dashboard.py:63
+#: translation_tools/www/thai_translation_dashboard.py:66
 #: translation_tools/www/translation_tools.py:19
 msgid "This method is only meant for developer mode"
 msgstr "วิธีการนี้มีไว้สำหรับโหมดนักพัฒนาเท่านั้น"
@@ -1853,10 +1946,16 @@ msgstr "รวมรายการ"
 msgid "Total Glossary Terms"
 msgstr "จำนวนคำศัพท์ทั้งหมด"
 
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34282
+msgid "Total PO Files"
+msgstr ""
+
 #: translation_tools/templates/pages/token_management.html:21
 msgid "Total Purchased"
 msgstr "ยอดรวมการซื้อ"
 
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34298
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34346
 #: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:37
 msgid "Total Strings"
 msgstr "รวมข้อความทั้งหมด"
@@ -1880,10 +1979,19 @@ msgstr "ยอดรวมที่ใช้แล้ว"
 msgid "Transaction ID"
 msgstr "รหัสรายการธุรกรรม"
 
+#: translation_tools/public/dist/thai_translator.bundle.PQ5PZTUG.js:21377
+msgid "Translate File"
+msgstr ""
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34348
 #: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:43
-#: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:165
+#: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:178
 msgid "Translated"
 msgstr "แปลแล้ว"
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34067
+msgid "Translated (%)"
+msgstr ""
 
 #. Label of a Int field in DocType 'PO File'
 #: translation_tools/translation_tools/doctype/po_file/po_file.json
@@ -2005,12 +2113,13 @@ msgstr "เครื่องมือแปลที่ติดตั้งแ
 msgid "Translation Tools Settings"
 msgstr "การตั้งค่าเครื่องมือแปล"
 
-#: translation_tools/api/po_files.py:1424
+#: translation_tools/api/po_files.py:1612
 msgid ""
 "Translation Tools Settings doctype does not exist. Please contact "
 "administrator."
 msgstr "doctype การตั้งค่าเครื่องมือแปลไม่มีอยู่ในระบบ กรุณาติดต่อผู้ดูแลระบบ"
 
+#: translation_tools/public/dist/js/translation_tools.app.bundle.2UJUURKA.js:29
 #: translation_tools/public/js/app.js:57
 msgid "Translation Tools link added successfully!"
 msgstr "เพิ่มลิงก์เครื่องมือแปลเรียบร้อยแล้ว!"
@@ -2060,14 +2169,18 @@ msgstr "ส่วนติดต่อผู้ใช้"
 msgid "Unchanged"
 msgstr "Unchanged"
 
-#: translation_tools/api/translation.py:867
+#: translation_tools/api/translation.py:1048
 msgid "Unsupported model provider: {0}"
 msgstr "ผู้ให้บริการโมเดลที่ไม่รองรับ: {0}"
 
 #: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:49
-#: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:166
+#: translation_tools/translation_tools/report/translation_status_report/translation_status_report.py:179
 msgid "Untranslated"
 msgstr "ไม่ได้แปล"
+
+#: translation_tools/public/dist/translation_status.bundle.FRMPF2JU.js:34073
+msgid "Untranslated (%)"
+msgstr ""
 
 #: translation_tools/translation_tools/doctype/translation_schedule/translation_schedule.js:125
 msgid "Update PO translation files with new strings from the POT template"
@@ -2119,6 +2232,10 @@ msgstr "ผู้ใช้ยังไม่ได้เข้าสู่ระ
 msgid "View Full Log"
 msgstr "ดูบันทึกเต็มรูปแบบ"
 
+#: translation_tools/public/dist/thai_translator.bundle.PQ5PZTUG.js:21391
+msgid "View Glossary"
+msgstr ""
+
 #: translation_tools/translation_tools/doctype/github_sync_settings/github_sync_settings.js:15
 msgid "View Sync History"
 msgstr "ดูประวัติการซิงค์"
@@ -2159,21 +2276,21 @@ msgstr "รายสัปดาห์"
 msgid "You do not have Read or Select Permissions for {}"
 msgstr "คุณไม่มีสิทธิ์ในการ อ่าน หรือ เลือก สำหรับ {}"
 
-#: translation_tools/api/settings.py:660
-msgid "You do not have permission to save API keys"
-msgstr "คุณไม่มีสิทธิ์เข้าใช้งาน ระบบบันทึก API Keys"
-
-#: translation_tools/api/translation.py:431
+#: translation_tools/api/translation.py:443
 msgid "You do not have permission to use the translation tools"
 msgstr "คุณไม่มีสิทธิ์ในการใช้เครื่องมือแปลภาษา"
 
-#: translation_tools/api/po_files.py:1415
+#: translation_tools/api/po_files.py:1603
 msgid "You don't have permission to modify Translation Tools Settings"
 msgstr "คุณไม่มีสิทธิ์ในการแก้ไขการตั้งค่าเครื่องมือแปล"
 
 #: translation_tools/api/request_trial.py:19
 msgid "You have already requested a trial."
 msgstr "คุณได้ทำการขอทดลองใช้ฟรีแล้ว"
+
+#: translation_tools/api/settings.py:688
+msgid "You need System Manager role to save API keys"
+msgstr ""
 
 #: translation_tools/override/client.py:81
 msgid "You need {0} permission to fetch values from {1} {2}"
