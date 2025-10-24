@@ -1,4 +1,4 @@
-# Translations template for Print Designer.
+# Thai translations for Print Designer.
 # Copyright (C) 2025 Frappe Technologies Pvt Ltd.
 # This file is distributed under the same license as the Print Designer project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
@@ -7,18 +7,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Print Designer VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2025-10-06 22:52+0642\n"
-"PO-Revision-Date: 2025-10-08 01:26\n"
+"POT-Creation-Date: 2025-10-20 14:00+0642\n"
+"PO-Revision-Date: 2025-10-24 15:38\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.13.1\n"
 
 #: print_designer/custom/payment_entry_retention.py:976
 msgid "\n"
 msgstr "ไม่มีข้อความให้แปล"
+
+#: print_designer/overrides/company.py:150
+msgid ""
+"\n"
+"                        <strong>thai_business_suite not installed</strong><br><br>\n"
+"                        CSV-based Chart of Accounts import requires the thai_business_suite app for advanced mapping.<br><br>\n"
+"                        <strong>Options:</strong><br>\n"
+"                        1. Install thai_business_suite: <code>bench get-app thai_business_suite</code><br>\n"
+"                        2. Use standard ERPNext Chart of Accounts templates instead<br>\n"
+"                        3. Manually import accounts after company creation\n"
+"                    "
+msgstr ""
+"<strong>thai_business_suite ยังไม่ได้ติดตั้ง</strong><br><br>\n"
+"การนำเข้าแผนผังบัญชีแบบ CSV ต้องใช้แอป thai_business_suite สำหรับการแมปขั้นสูง<br><br>\n"
+"<strong>ตัวเลือก:</strong><br>\n"
+"1. ติดตั้ง thai_business_suite: <code>bench get-app thai_business_suite</code><br>\n"
+"2. ใช้เทมเพลตแผนผังบัญชีมาตรฐานของ ERPNext แทน<br>\n"
+"3. นำเข้าบัญชีด้วยตนเองหลังจากสร้างบริษัทแล้ว"
 
 #. Description of the 'Company Branch' (Data) field in DocType 'Withholding
 #. Tax
@@ -437,31 +457,31 @@ msgstr ""
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) รางวัลจากการอื่นใดมี่มีลักษณะชิงโชค (5%)"
-msgstr ""
+msgstr "40 (8) รางวัลจากการอื่นใดที่มีลักษณะชิงโชค (5%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) รางวัลจากการแข่งขัน (5%)"
-msgstr ""
+msgstr "40 (8) รางวัลจากการแข่งขัน (5%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "5. ค่าจ้างทำของ ค่าบริการ ฯลฯ 3 เตรส - Service"
-msgstr ""
+msgstr "5. ค่าจ้างทำของ ค่าบริการ ฯลฯ 3 เตรส - บริการ"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "6. ค่าบริการ/ค่าสินค้าภาครัฐ - Government Service"
-msgstr ""
+msgstr "6. ค่าบริการ/ค่าสินค้าภาครัฐ - บริการภาครัฐ"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "7. ค่าจ้างแรงงาน - Labor"
-msgstr ""
+msgstr "7. ค่าจ้างแรงงาน - ค่าแรง"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
@@ -480,6 +500,19 @@ msgid ""
 "<b>This Print Format was created from older version of Print Designer.</b>"
 msgstr ""
 "<b>รูปแบบการพิมพ์นี้ถูกสร้างขึ้นจากเวอร์ชันเก่าของโปรแกรมออกแบบการพิมพ์</b>"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:12
+msgid "Absolute path to .txt or .json Print Format file"
+msgstr "เส้นทางสมบูรณ์ไปยังไฟล์รูปแบบการพิมพ์ .txt หรือ .json"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:19
+msgid "Absolute path where converted JSON will be saved"
+msgstr "เส้นทางสัมบูรณ์ที่ไฟล์ JSON ที่แปลงแล้วจะถูกบันทึกไว้"
 
 #. Name of a role
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.json
@@ -535,6 +568,10 @@ msgstr "เพิ่มใบแจ้งหนี้ที่รอดำเน
 #: print_designer/public/js/print_watermark.bundle.js:76
 msgid "Advanced"
 msgstr "ขั้นสูง"
+
+#: print_designer/overrides/company.py:158
+msgid "Advanced CSV Import Not Available"
+msgstr "การนำเข้า CSV ขั้นสูงไม่พร้อมใช้งาน"
 
 #. Label of a Section Break field in DocType 'Company Retention Settings'
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.json
@@ -655,6 +692,11 @@ msgstr "วันที่อนุมัติ"
 #: print_designer/public/js/delivery_note/delivery_approval.js:385
 msgid "Approved on: "
 msgstr "อนุมัติเมื่อ:"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Apps"
+msgstr "แอปส์"
 
 #: print_designer/public/js/print_format/print_format.js:48
 msgid "Are you sure you want to ${action} Print Designer for this format?"
@@ -799,6 +841,16 @@ msgstr "ยอดรวมภาษีที่คำนวณอัตโนม
 msgid "Auto-generated form number"
 msgstr "หมายเลขแบบฟอร์มที่สร้างโดยอัตโนมัติ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto-populate Target Field"
+msgstr "กรอกข้อมูลในช่องเป้าหมายโดยอัตโนมัติ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Automatically update the target field when this signature is saved"
+msgstr "อัปเดตฟิลด์เป้าหมายโดยอัตโนมัติเมื่อบันทึกลายเซ็นนี้"
+
 #. Label of a Percent field in DocType 'PND1 Form'
 #. Label of a Percent field in DocType 'PND3 Form'
 #. Label of a Percent field in DocType 'PND53 Form'
@@ -820,7 +872,7 @@ msgstr "บาร์โค้ด (B)"
 msgid "Base64 encoded signature data (for digital drawings)"
 msgstr "ข้อมูลลายเซ็นเข้ารหัส Base64 (สำหรับภาพวาดดิจิทัล)"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_item.js:74
+#: print_designer/public/js/thailand_wht/thailand_wht_item.js:85
 msgid ""
 "Based on the Item Group \"{0}\", this might be a service item. Consider "
 "checking \"Is Service\" if this item represents a service subject to "
@@ -951,6 +1003,10 @@ msgstr ""
 msgid "COPY"
 msgstr "คัดลอก"
 
+#: print_designer/commands/install_company_coa_csv_fields.py:70
+msgid "CSV Mapping Template"
+msgstr "เทมเพลตการแมป CSV"
+
 #. Option for the 'Font Family' (Select) field in DocType 'Print Format
 #. Watermark Config'
 #. Option for the 'Default Font Family' (Select) field in DocType 'Watermark
@@ -1017,6 +1073,14 @@ msgstr "ระยะเวลาประกาศนียบัตร"
 msgid "Certificate Reason"
 msgstr "เหตุผลใบรับรอง"
 
+#: print_designer/commands/install_company_coa_csv_fields.py:45
+msgid "Chart of Accounts CSV File"
+msgstr "ไฟล์ CSV แผนผังบัญชี"
+
+#: print_designer/overrides/company.py:139
+msgid "Chart of Accounts imported successfully from CSV: {0} accounts"
+msgstr "แผนภูมิบัญชีถูกนำเข้าเรียบร้อยจาก CSV: {0} บัญชี"
+
 #: print_designer/print_designer/client_scripts/safe_pdf_client.js:35
 msgid "Checking for PDF conflicts..."
 msgstr "กำลังตรวจสอบความขัดแย้งของ PDF..."
@@ -1042,6 +1106,10 @@ msgstr "คลิกเพื่อดูแบบฟอร์ม ภ.ง.ด."
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.js:333
 msgid "Close"
 msgstr "ปิด"
+
+#: print_designer/commands/install_company_coa_csv_fields.py:121
+msgid "CoA Import Status"
+msgstr "สถานะการนำเข้าบัญชีแยกประเภท"
 
 #: print_designer/public/js/print_watermark.bundle.js:76
 msgid "Color"
@@ -1204,6 +1272,34 @@ msgstr ""
 "ต้นฉบับที่หน้าหนึ่ง=หน้าหนึ่งแสดงคำว่า 'ต้นฉบับ', "
 "สำเนาที่ทุกหน้า=ทุกหน้าแสดงคำว่า 'สำเนา', ต้นฉบับ, "
 "สำเนาสลับกัน=สลับแสดงคำว่า 'ต้นฉบับ' และ 'สำเนา'"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:76
+msgid "Conversion Failed"
+msgstr "การแปลงล้มเหลว"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:57
+msgid "Conversion Successful"
+msgstr "การแปลงสำเร็จแล้ว"
+
+#: print_designer/public/js/print_format/print_format.js:219
+msgid "Conversion dialog script not loaded. Please refresh the page."
+msgstr "สคริปต์กล่องโต้ตอบการแปลงยังไม่ถูกโหลด กรุณารีเฟรชหน้าจอใหม่อีกครั้ง"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:40
+msgid "Convert"
+msgstr "แปลง"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:5
+msgid "Convert Print Format to Designer Export"
+msgstr "แปลงรูปแบบการพิมพ์เป็นการส่งออกแบบดีไซเนอร์"
+
+#: print_designer/public/js/print_format/print_format.js:211
+msgid "Convert to Print Designer Export"
+msgstr "แปลงเป็นการส่งออกแบบการพิมพ์"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:51
+msgid "Converting print format..."
+msgstr "กำลังแปลงรูปแบบการพิมพ์..."
 
 #: print_designer/print_designer/client_scripts/print.js:429
 msgid "Copies:"
@@ -1428,6 +1524,11 @@ msgstr "ชื่อผู้ขาย"
 msgid "Customer is required"
 msgstr "จำเป็นต้องระบุ ลูกค้า"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "DNA-.YYYY.-.#####"
+msgstr "DNA-.YYYY.-.#####"
+
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.py:41
 msgid "Date"
 msgstr "วันที่"
@@ -1612,6 +1713,10 @@ msgstr "ตำแหน่งงาน"
 msgid "Details"
 msgstr "รายละเอียด"
 
+#: print_designer/public/js/print_format/print_format.js:218
+msgid "Dialog Not Available"
+msgstr "ไดอะล็อกไม่พร้อมใช้งาน"
+
 #. Option for the 'Signature Type' (Select) field in DocType 'Signature Basic
 #. Information'
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
@@ -1677,7 +1782,12 @@ msgstr "คุณต้องการเปิดรูปแบบการพ
 msgid "Do you want to save copy of it ?"
 msgstr "ต้องการบันทึกสำเนาหรือไม่?"
 
-#: print_designer/api/print_format_export_import.py:270
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "DocType that contains the signature field"
+msgstr "DocType ที่มีฟิลด์ลายเซ็นต์"
+
+#: print_designer/api/print_format_export_import.py:271
 msgid "DocType {0} does not exist in this system"
 msgstr "DocType {0} ไม่มีอยู่ในระบบนี้"
 
@@ -1705,6 +1815,11 @@ msgstr "ไม่พบเอกสาร"
 #: print_designer/www/print_designer_preview.py:23
 msgid "Document type and name are required"
 msgstr "ประเภทเอกสารและชื่อเอกสารเป็นข้อมูลที่ต้องระบุ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Documentation"
+msgstr "เอกสารประกอบ"
 
 #: print_designer/print_designer/client_scripts/print.js:624
 msgid "Download PDF"
@@ -1762,7 +1877,7 @@ msgstr "แก้ไข"
 msgid "Edit Existing"
 msgstr "แก้ไขรายการที่มีอยู่"
 
-#: print_designer/public/js/print_format/print_format.js:215
+#: print_designer/public/js/print_format/print_format.js:233
 msgid "Edit Format"
 msgstr "แก้ไขรูปแบบ"
 
@@ -1795,12 +1910,12 @@ msgstr "รหัสผู้เสียภาษีของพนักงา
 #: print_designer/print_designer/doctype/employee_tax_ledger/employee_tax_ledger.json
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "Employee Tax Ledger"
-msgstr ""
+msgstr "บัญชีภาษีพนักงาน"
 
 #. Name of a DocType
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "Employee Tax Ledger Entry"
-msgstr ""
+msgstr "รายการสมุดรายวันภาษีพนักงาน"
 
 #. Label of a Check field in DocType 'Company Retention Settings'
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.json
@@ -1836,6 +1951,12 @@ msgstr "เปิดใช้งานการกำหนดตำแหน่
 msgid "Enable multiple copy generation for print formats"
 msgstr "เปิดใช้งานการสร้างสำเนาหลายชุดสำหรับรูปแบบการพิมพ์"
 
+#: print_designer/commands/install_company_coa_csv_fields.py:39
+msgid ""
+"Enable to import Chart of Accounts from CSV file instead of standard "
+"templates"
+msgstr "เปิดใช้งานการนำเข้าบัญชีแยกประเภทจากไฟล์ CSV แทนการใช้แม่แบบมาตรฐาน"
+
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.py:50
 msgid "Enabled Construction Service for Company {0}"
 msgstr "เปิดใช้งานบริการก่อสร้างสำหรับบริษัท {0}"
@@ -1855,14 +1976,20 @@ msgstr "ข้อผิดพลาด"
 #: print_designer/public/js/company/company_thai_accounts.js:114
 msgid "Error auto-populating Thai account names. Check console for details."
 msgstr ""
+"เกิดข้อผิดพลาดในการกรอกชื่อบัญชีภาษาไทยโดยอัตโนมัติ "
+"กรุณาตรวจสอบคอนโซลสำหรับรายละเอียดเพิ่มเติม"
 
-#: print_designer/commands/install_account_thai_fields.py:396
+#: print_designer/commands/install_account_thai_fields.py:409
 msgid "Error auto-populating Thai account names: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการกรอกชื่อบัญชีภาษาไทยโดยอัตโนมัติ: {0}"
 
 #: print_designer/print_designer/client_scripts/print.js:2483
 msgid "Error clearing logs: {0}"
 msgstr "ข้อผิดพลาดในการลบบันทึก: {0}"
+
+#: print_designer/api/print_format_export_import.py:409
+msgid "Error converting file: {0}"
+msgstr "ข้อผิดพลาดในการแปลงไฟล์: {0}"
 
 #: print_designer/custom/withholding_tax.py:502
 msgid "Error creating journal entry: {}"
@@ -1884,7 +2011,7 @@ msgstr "เกิดข้อผิดพลาดในการสร้าง
 msgid "Error generating tax filing data: {}"
 msgstr "เกิดข้อผิดพลาดในการสร้างข้อมูลการยื่นภาษี: {}"
 
-#: print_designer/api/print_format_export_import.py:203
+#: print_designer/api/print_format_export_import.py:204
 msgid "Error importing Print Format: {0}"
 msgstr "ข้อผิดพลาดในการนำเข้าแบบฟอร์มการพิมพ์: {0}"
 
@@ -1931,7 +2058,7 @@ msgstr "วันที่หมดอายุ (ถ้ามี)"
 msgid "Export Format"
 msgstr "รูปแบบการส่งออก"
 
-#: print_designer/api/print_format_export_import.py:283
+#: print_designer/api/print_format_export_import.py:284
 msgid "Export data is valid"
 msgstr "ข้อมูลส่งออกถูกต้อง"
 
@@ -1950,6 +2077,14 @@ msgstr "ไม่สามารถล้างบันทึกได้: {0}"
 #: print_designer/print_designer/client_scripts/global_defaults.js:214
 msgid "Failed to communicate with typography API"
 msgstr "ไม่สามารถติดต่อกับ typography API ได้"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:78
+msgid ""
+"Failed to convert print format. Please check the file paths and try "
+"again.<br><br>Error: "
+msgstr ""
+"ไม่สามารถแปลงรูปแบบการพิมพ์ได้ "
+"กรุณาตรวจสอบเส้นทางไฟล์และลองใหม่อีกครั้ง<br><br>ข้อผิดพลาด:"
 
 #: print_designer/regional/payment_entry.py:211
 msgid "Failed to create Thai compliance GL entries: {0}"
@@ -2021,6 +2156,10 @@ msgstr "ชื่อฟิลด์สำหรับโปรแกรมออ
 msgid "Field name to use in print designer templates"
 msgstr "ชื่อฟิลด์ที่ใช้ในแม่แบบตัวออกแบบการพิมพ์"
 
+#: print_designer/api/print_format_export_import.py:406
+msgid "File operation error: {0}"
+msgstr "ข้อผิดพลาดในการดำเนินการไฟล์: {0}"
+
 #. Label of a Select field in DocType 'Print Format Watermark Config'
 #. Label of a Select field in DocType 'Watermark Template'
 #: print_designer/print_designer/doctype/print_format_watermark_config/print_format_watermark_config.json
@@ -2083,6 +2222,16 @@ msgstr "รูปแบบ"
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "Format: WHTC-BBMM-##### (Buddhist Era)"
 msgstr "รูปแบบ: WHTC-BBMM-##### (พ.ศ.)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe School"
+msgstr "Frappe School"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe Support"
+msgstr "ฝ่ายสนับสนุน Frappe"
 
 #. Label of a Date field in DocType 'Thai Billing'
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
@@ -2246,6 +2395,11 @@ msgstr "Helvetica"
 msgid "Human-readable name for the signature"
 msgstr "ชื่อที่อ่านเข้าใจง่ายสำหรับลายเซ็นต์"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "INV-DATA-.YYYY-DATE.-.MM-DATE.-.####"
+msgstr "INV-DATA-.YYYY-วันที่.-.MM-วันที่.-.####"
+
 #: print_designer/print_designer/client_scripts/print.js:910
 msgid ""
 "If it takes too long, try switching to a different PDF generator from the "
@@ -2396,11 +2550,15 @@ msgstr "การจับคู่ฟิลด์ไม่ถูกต้อง
 msgid "Invalid Invoice Date"
 msgstr "วันที่ใบแจ้งหนี้ไม่ถูกต้อง"
 
-#: print_designer/api/print_format_export_import.py:113
+#: print_designer/api/print_format_export_import.py:114
 msgid "Invalid JSON data: {0}"
 msgstr "ข้อมูล JSON ไม่ถูกต้อง: {0}"
 
-#: print_designer/api/print_format_export_import.py:293
+#: print_designer/api/print_format_export_import.py:404
+msgid "Invalid JSON in source file: {0}"
+msgstr "JSON ไม่ถูกต้องในไฟล์ต้นทาง: {0}"
+
+#: print_designer/api/print_format_export_import.py:294
 msgid "Invalid JSON: {0}"
 msgstr "JSON ไม่ถูกต้อง: {0}"
 
@@ -2416,7 +2574,7 @@ msgstr "บัญชีภาษีหัก ณ ที่จ่ายไม่�
 msgid "Invalid approval URL format. Error: "
 msgstr "รูปแบบ URL การอนุมัติไม่ถูกต้อง ข้อผิดพลาด:"
 
-#: print_designer/api/print_format_export_import.py:117
+#: print_designer/api/print_format_export_import.py:118
 msgid "Invalid export data: missing print_format"
 msgstr "ข้อมูลส่งออกไม่ถูกต้อง: ขาด print_format"
 
@@ -2503,6 +2661,11 @@ msgstr "รายการบัญชีมีอยู่แล้ว: {0}"
 msgid "Journal Entry {0} created and submitted for Withholding Tax"
 msgstr "บันทึกบัญชี {0} ถูกสร้างและส่งสำหรับ ภาษีหัก ณ ที่จ่าย แล้ว"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Keyboard Shortcuts"
+msgstr "แป้นพิมพ์ลัด"
+
 #: print_designer/print_designer/client_scripts/print.js:471
 #: print_designer/print_designer/client_scripts/print.js:1726
 msgid "Language"
@@ -2539,6 +2702,11 @@ msgstr "ลิงก์ไปยังผู้ใช้ Frappe ที่เป�
 #: print_designer/public/js/print_designer/store/ElementStore.js:1609
 msgid "Loading Print Format"
 msgstr "กำลังโหลดรูปแบบการพิมพ์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Log out"
+msgstr "ออกจากระบบ"
 
 #: print_designer/public/js/payment_entry_wht_certificate.js:199
 msgid "Manual certificate creation is disabled in automation mode"
@@ -2614,11 +2782,11 @@ msgstr "วันที่ใบกำกับซื้อของผู้จ
 msgid "Missing Supplier Invoice No"
 msgstr "ไม่มีหมายเลขใบแจ้งหนี้ผู้จำหน่าย"
 
-#: print_designer/api/print_format_export_import.py:251
+#: print_designer/api/print_format_export_import.py:252
 msgid "Missing print_format in export data"
 msgstr "ไม่มีรูปแบบการพิมพ์ในข้อมูลส่งออก"
 
-#: print_designer/api/print_format_export_import.py:263
+#: print_designer/api/print_format_export_import.py:264
 msgid "Missing required fields: {0}"
 msgstr "ขาดข้อมูลที่จำเป็น: {0}"
 
@@ -2654,6 +2822,16 @@ msgstr "ตัวชี้เมาส์ (M)"
 #: print_designer/print_designer/client_scripts/print.js:1447
 msgid "Multiple copies detected. Downloading PDF for printing..."
 msgstr "ตรวจพบสำเนาหลายชุด กำลังดาวน์โหลด PDF สำหรับการพิมพ์..."
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Profile"
+msgstr "โปรไฟล์ของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Settings"
+msgstr "การตั้งค่าของฉัน"
 
 #. Label of a Select field in DocType 'Invoice Data'
 #: print_designer/print_designer/doctype/invoice_data/invoice_data.json
@@ -3196,7 +3374,7 @@ msgstr ""
 msgid "Please resolve overlapping elements "
 msgstr "กรุณาแก้ไของค์ประกอบที่ทับซ้อนกัน"
 
-#: print_designer/public/js/print_format/print_format.js:218
+#: print_designer/public/js/print_format/print_format.js:236
 msgid "Please select DocType first"
 msgstr "กรุณาเลือก DocType ก่อน"
 
@@ -3309,6 +3487,11 @@ msgstr "เดือนก่อนหน้า"
 msgid "Print"
 msgstr "พิมพ์"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Print Designer"
+msgstr "โปรแกรมออกแบบแบบฟอร์มพิมพ์"
+
 #. Label of a Section Break field in DocType 'Signature Basic Information'
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
 msgid "Print Designer Integration"
@@ -3329,9 +3512,23 @@ msgstr "ผู้จัดการออกแบบการพิมพ์"
 msgid "Print Format"
 msgstr "รูปแบบการพิมพ์"
 
+#: print_designer/print_designer/page/print_designer/print_designer.js:222
+msgid "Print Format '{0}' does not exist. Redirecting to print format list..."
+msgstr ""
+"รูปแบบการพิมพ์ '{0}' ไม่มีอยู่จริง "
+"กำลังเปลี่ยนเส้นทางไปยังรายการรูปแบบการพิมพ์..."
+
 #: print_designer/api/watermark.py:56
 msgid "Print Format '{0}' is configured multiple times"
 msgstr "รูปแบบการพิมพ์ '{0}' ถูกกำหนดค่าซ้ำหลายครั้ง"
+
+#: print_designer/print_designer/page/print_designer/print_designer.js:215
+msgid ""
+"Print Format '{0}' was not created with Print Designer. Please use the "
+"standard print format editor."
+msgstr ""
+"รูปแบบการพิมพ์ '{0}' ไม่ได้ถูกสร้างด้วย Print Designer "
+"กรุณาใช้ตัวแก้ไขรูปแบบการพิมพ์มาตรฐานแทน"
 
 #. Label of a Section Break field in DocType 'Watermark Settings'
 #. Label of a Table field in DocType 'Watermark Settings'
@@ -3342,6 +3539,14 @@ msgstr "การตั้งค่ารูปแบบการพิมพ์
 #: print_designer/print_designer/page/print_designer/print_designer.js:42
 msgid "Print Format Name"
 msgstr "ชื่อรูปแบบการพิมพ์"
+
+#: print_designer/print_designer/page/print_designer/print_designer.js:214
+msgid "Print Format Not Compatible"
+msgstr "รูปแบบการพิมพ์ไม่รองรับ"
+
+#: print_designer/print_designer/page/print_designer/print_designer.js:221
+msgid "Print Format Not Found"
+msgstr "ไม่พบรูปแบบการพิมพ์"
 
 #. Name of a DocType
 #: print_designer/print_designer/doctype/print_format_watermark_config/print_format_watermark_config.json
@@ -3360,11 +3565,11 @@ msgstr "รูปแบบการพิมพ์ถูกนำเข้าเ
 msgid "Print Format not saved"
 msgstr "รูปแบบการพิมพ์ยังไม่ได้บันทึก"
 
-#: print_designer/api/print_format_export_import.py:136
+#: print_designer/api/print_format_export_import.py:137
 msgid "Print Format renamed to {0} to avoid conflict"
 msgstr "รูปแบบการพิมพ์ถูกเปลี่ยนชื่อเป็น {0} เพื่อหลีกเลี่ยงความขัดแย้ง"
 
-#: print_designer/api/print_format_export_import.py:198
+#: print_designer/api/print_format_export_import.py:199
 msgid "Print Format {0} imported successfully"
 msgstr "รูปแบบการพิมพ์ {0} นำเข้าเรียบร้อยแล้ว"
 
@@ -3428,6 +3633,11 @@ msgstr "ใบกำกับภาษีซื้อ"
 msgid "Purchase Order"
 msgstr "ใบสั่งซื้อ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Purchase Receipt"
+msgstr "ใบเสร็จรับเงินการสั่งซื้อ"
+
 #: print_designer/public/js/delivery_note/delivery_approval.js:216
 msgid "QR Code Generated Successfully"
 msgstr "สร้างรหัส QR สำเร็จแล้ว"
@@ -3470,6 +3680,11 @@ msgstr "ตั้งค่าอย่างรวดเร็ว"
 #: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:108
 msgid "Quick TDS Setup"
 msgstr "การตั้งค่า TDS อย่างรวดเร็ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Quotation"
+msgstr "ใบเสนอราคา"
 
 #. Label of a Currency field in DocType 'Invoice Item'
 #: print_designer/print_designer/doctype/invoice_item/invoice_item.json
@@ -3535,6 +3750,11 @@ msgstr "หมายเลขทะเบียนหรือหมายเล
 msgid "Rejected"
 msgstr "ไม่อนุมัติ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Reload"
+msgstr "โหลด"
+
 #. Label of a Text field in DocType 'Delivery Note Approval'
 #. Label of a Small Text field in DocType 'PND1 Form'
 #. Label of a Small Text field in DocType 'PND3 Form'
@@ -3556,10 +3776,20 @@ msgstr "หมายเหตุ"
 msgid "Remarks (หมายเหตุ)"
 msgstr "หมายเหตุ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Report an Issue"
+msgstr "รายงานปัญหา"
+
 #. Label of a Card Break in the Billing Workspace
 #: print_designer/print_designer/workspace/billing/billing.json
 msgid "Reports"
 msgstr "รายงาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Request for Quotation"
+msgstr "ขอใบเสนอราคา"
 
 #. Label of a Check field in DocType 'Thai WHT Settings'
 #: print_designer/print_designer/doctype/thai_wht_settings/thai_wht_settings.json
@@ -3640,6 +3870,11 @@ msgstr "ขวา (px)"
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "Salary Slip"
 msgstr "สลิปเงินเดือน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Sales Invoice"
+msgstr "ใบแจ้งหนี้ขาย"
 
 #. Label of a Link field in DocType 'Invoice Data'
 #: print_designer/print_designer/doctype/invoice_data/invoice_data.json
@@ -3763,6 +3998,15 @@ msgstr "เลือกแบบฟอร์มการพิมพ์"
 msgid "Select a previously exported Print Designer format JSON file"
 msgstr "เลือกไฟล์ JSON รูปแบบ Print Designer ที่ส่งออกไว้ก่อนหน้านี้"
 
+#: print_designer/commands/install_company_coa_csv_fields.py:75
+msgid "Select mapping template that matches your CSV format"
+msgstr "เลือกแม่แบบการจับคู่ที่ตรงกับรูปแบบ CSV ของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Select which document field this signature should populate"
+msgstr "เลือกฟิลด์เอกสารที่ลายเซ็นนี้ควรกรอกข้อมูล"
+
 #. Label of a Int field in DocType 'PND1 Items'
 #. Label of a Int field in DocType 'PND3 Items'
 #. Label of a Int field in DocType 'PND53 Items'
@@ -3801,11 +4045,16 @@ msgstr "หมายเลขลำดับในแบบฟอร์ม ภ.�
 msgid "Series"
 msgstr "ลำดับ"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_item.js:73
+#: print_designer/public/js/thailand_wht/thailand_wht_item.js:84
 msgid "Service Item Suggestion"
 msgstr "คำแนะนำรายการบริการ"
 
-#: print_designer/public/js/print_format/print_format.js:241
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Session Defaults"
+msgstr "ค่าเริ่มต้นของเซสชัน"
+
+#: print_designer/public/js/print_format/print_format.js:259
 msgid "Set as Default"
 msgstr "ตั้งเป็นค่าเริ่มต้น"
 
@@ -3927,6 +4176,22 @@ msgstr "ภาษีหัก ณ ที่จ่ายอัจฉริยะ:
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "Social Security"
 msgstr "ประกันสังคม"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:10
+msgid "Source File Path"
+msgstr "เส้นทางไฟล์ต้นทาง"
+
+#: print_designer/api/print_format_export_import.py:374
+msgid "Source file does not contain a valid Print Format DocType JSON"
+msgstr "ไฟล์ต้นทางไม่มีรูปแบบเอกสาร Print Format DocType JSON ที่ถูกต้อง"
+
+#: print_designer/api/print_format_export_import.py:365
+msgid "Source file must be .txt or .json file"
+msgstr "ไฟล์ต้นฉบับต้องเป็นไฟล์ .txt หรือ .json"
+
+#: print_designer/api/print_format_export_import.py:361
+msgid "Source file not found: {0}"
+msgstr "ไม่พบไฟล์ต้นฉบับ: {0}"
 
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.js:132
 msgid "Stamp Canvas"
@@ -4051,7 +4316,7 @@ msgstr ""
 "อัปเดตชื่อภาษาไทยสำหรับบัญชีจำนวน ${response.message.accounts_updated} "
 "บัญชีเรียบร้อยแล้ว"
 
-#: print_designer/commands/install_account_thai_fields.py:388
+#: print_designer/commands/install_account_thai_fields.py:401
 msgid "Successfully updated Thai names for {0} accounts"
 msgstr "อัปเดตชื่อภาษาไทยสำหรับบัญชี {0} เรียบร้อยแล้ว"
 
@@ -4205,6 +4470,16 @@ msgid ""
 msgstr ""
 "การติดตั้งระบบเสร็จสมบูรณ์เรียบร้อยแล้ว!<br><br>ฟีเจอร์ที่ติดตั้ง:<br>{}"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "TB-.####."
+msgstr "TB-.####."
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "TB-.YYYY.-.####."
+msgstr "TB-.YYYY.-.####."
+
 #: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:68
 #: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:153
 msgid "TDS fields configured successfully"
@@ -4224,6 +4499,20 @@ msgstr "ตาราง (A)"
 #: print_designer/print_designer/doctype/watermark_template/watermark_template.json
 msgid "Tahoma"
 msgstr "Tahoma"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Target DocType"
+msgstr "เป้าหมาย DocType"
+
+#: print_designer/public/js/print_format/print_format_conversion_dialog.js:17
+msgid "Target File Path"
+msgstr "เส้นทางไฟล์เป้าหมาย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Target Signature Field"
+msgstr "เริดราทอยระบอร์"
 
 #. Label of a Currency field in DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
@@ -4375,15 +4664,15 @@ msgstr "ส่วนการปฏิบัติตามภาษีของ
 msgid "Thai Tax System Processing Complete"
 msgstr "การประมวลผลระบบภาษีไทยเสร็จสมบูรณ์แล้ว"
 
-#: print_designer/commands/install_account_thai_fields.py:389
+#: print_designer/commands/install_account_thai_fields.py:402
 msgid "Thai Translation Complete"
 msgstr "แปลภาษาไทยเสร็จสมบูรณ์แล้ว"
 
-#: print_designer/commands/install_account_thai_fields.py:428
+#: print_designer/commands/install_account_thai_fields.py:441
 msgid "Thai Translation Disabled"
 msgstr "การแปลภาษาไทยถูกปิดใช้งานแล้ว"
 
-#: print_designer/commands/install_account_thai_fields.py:415
+#: print_designer/commands/install_account_thai_fields.py:428
 msgid "Thai Translation Enabled"
 msgstr "เปิดใช้งานการแปลภาษาไทย"
 
@@ -4420,11 +4709,11 @@ msgstr ""
 msgid "Thai Withholding Tax Detail"
 msgstr "รายละเอียดภาษีหัก ณ ที่จ่าย"
 
-#: print_designer/commands/install_account_thai_fields.py:427
+#: print_designer/commands/install_account_thai_fields.py:440
 msgid "Thai account translation disabled for {0}"
 msgstr "การแปลบัญชีเป็นภาษาไทยถูกปิดใช้งานสำหรับ {0}"
 
-#: print_designer/commands/install_account_thai_fields.py:414
+#: print_designer/commands/install_account_thai_fields.py:427
 msgid "Thai account translation enabled for {0}"
 msgstr "เปิดใช้งานการแปลบัญชีภาษาไทยสำหรับ {0}"
 
@@ -4466,8 +4755,8 @@ msgstr ""
 "รูปแบบนี้ใช้โปรแกรมออกแบบการพิมพ์ คลิก 'แก้ไขรูปแบบ' "
 "เพื่อเปิดโปรแกรมออกแบบแบบภาพ"
 
-#: print_designer/api/print_format_export_import.py:40
-#: print_designer/api/print_format_export_import.py:277
+#: print_designer/api/print_format_export_import.py:41
+#: print_designer/api/print_format_export_import.py:278
 msgid "This is not a Print Designer format"
 msgstr "นี่ไม่ใช่รูปแบบของโปรแกรมออกแบบการพิมพ์"
 
@@ -4520,6 +4809,16 @@ msgstr "ถึงวันที่"
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.py:31
 msgid "To Date is required"
 msgstr "วันที่ถึงจำเป็นต้องระบุ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Full Width"
+msgstr "สลับความกว้างเต็มหน้าจอ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Theme"
+msgstr "สลับธีม"
 
 #. Label of a Int field in DocType 'Print Format Watermark Config'
 #. Label of a Int field in DocType 'Watermark Settings'
@@ -4698,6 +4997,10 @@ msgstr "หน่วยนับ"
 msgid "Upload signature image file"
 msgstr "อัปโหลดไฟล์รูปภาพลายเซ็นต์"
 
+#: print_designer/commands/install_company_coa_csv_fields.py:50
+msgid "Upload your Chart of Accounts CSV file"
+msgstr "อัปโหลดไฟล์ CSV ของแผนผังบัญชีของคุณ"
+
 #. Option for the 'Signature Type' (Select) field in DocType 'Signature Basic
 #. Information'
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
@@ -4721,6 +5024,10 @@ msgstr "จำนวนการใช้งาน"
 msgid "Usage Purpose"
 msgstr "วัตถุประสงค์การใช้งาน"
 
+#: print_designer/commands/install_company_coa_csv_fields.py:35
+msgid "Use CSV for Chart of Accounts"
+msgstr "ใช้ CSV สำหรับแผนผังบัญชี"
+
 #. Label of a Check field in DocType 'Print Format Watermark Config'
 #. Label of a Check field in DocType 'Watermark Settings'
 #. Label of a Check field in DocType 'Watermark Template'
@@ -4735,12 +5042,21 @@ msgstr "ใช้ตำแหน่งที่กำหนดเอง"
 msgid "User"
 msgstr "ผู้ใช้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "User Forum"
+msgstr "ฟอรั่มผู้ใช้"
+
+#: print_designer/overrides/company.py:93
+msgid "Using advanced CSV mapper from thai_business_suite"
+msgstr "การใช้ตัวแมปเปอร์ CSV ขั้นสูงจาก thai_business_suite"
+
 #. Label of a Check field in DocType 'Thai WHT Settings'
 #: print_designer/print_designer/doctype/thai_wht_settings/thai_wht_settings.json
 msgid "Validate Tax ID Checksum"
 msgstr "ตรวจสอบผลรวมรหัสประจำตัวผู้เสียภาษี"
 
-#: print_designer/api/print_format_export_import.py:298
+#: print_designer/api/print_format_export_import.py:299
 #: print_designer/api/watermark.py:80
 msgid "Validation error: {0}"
 msgstr "ข้อผิดพลาดในการตรวจสอบความถูกต้อง: {0}"
@@ -4781,6 +5097,11 @@ msgstr "ดูแบบฟอร์ม พ.น.ด."
 #: print_designer/public/js/payment_entry_wht_certificate.js:77
 msgid "View WHT Certificate"
 msgstr "ดูใบรับรองภาษีหัก ณ ที่จ่าย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "View Website"
+msgstr "ดูเว็บไซต์"
 
 #: print_designer/public/js/print_watermark.bundle.js:339
 msgid "WATERMARK"
@@ -5146,25 +5467,29 @@ msgstr "ปี"
 #. Label of a Data field in DocType 'Employee Tax Ledger Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "Year Buddhist"
-msgstr ""
+msgstr "ปี พุทธศักราช"
 
-#: print_designer/api/print_format_export_import.py:219
+#: print_designer/api/print_format_export_import.py:320
+msgid "You don't have permission to access this Print Format"
+msgstr "คุณไม่มีสิทธิ์เข้าถึงรูปแบบการพิมพ์นี้"
+
+#: print_designer/api/print_format_export_import.py:220
 msgid "You don't have permission to duplicate Print Formats"
 msgstr "คุณไม่มีสิทธิ์ในการทำสำเนารูปแบบการพิมพ์"
 
-#: print_designer/api/print_format_export_import.py:34
+#: print_designer/api/print_format_export_import.py:35
 msgid "You don't have permission to export this Print Format"
 msgstr "คุณไม่มีสิทธิ์ในการส่งออกรูปแบบการพิมพ์นี้"
 
-#: print_designer/api/print_format_export_import.py:106
+#: print_designer/api/print_format_export_import.py:107
 msgid "You don't have permission to import Print Formats"
 msgstr "คุณไม่มีสิทธิ์ในการนำเข้าแบบฟอร์มการพิมพ์"
 
-#: print_designer/api/print_format_export_import.py:140
+#: print_designer/api/print_format_export_import.py:141
 msgid "You don't have permission to overwrite this Print Format"
 msgstr "คุณไม่มีสิทธิ์ในการเขียนทับรูปแบบการพิมพ์นี้"
 
-#: print_designer/api/print_format_export_import.py:222
+#: print_designer/api/print_format_export_import.py:223
 msgid "You don't have permission to read the source Print Format"
 msgstr "คุณไม่มีสิทธิ์ในการอ่านรูปแบบการพิมพ์ต้นทาง"
 
@@ -5191,6 +5516,10 @@ msgstr "ในส่วนหัว"
 msgid "in table, auto layout failed"
 msgstr "ในตาราง การจัดวางอัตโนมัติล้มเหลว"
 
+#: print_designer/overrides/company.py:99
+msgid "thai_business_suite not available - Using basic CSV import"
+msgstr "thai_business_suite ไม่พร้อมใช้งาน - กำลังใช้การนำเข้า CSV พื้นฐาน"
+
 #: print_designer/custom/payment_entry_retention.py:811
 msgid "{0} does not exist: {1}"
 msgstr "{0} ไม่มีอยู่: {1}"
@@ -5206,42 +5535,42 @@ msgstr "{0} ต้องเป็นของบริษัทเดียว�
 #. Count format of shortcut in the Billing Workspace
 #: print_designer/print_designer/workspace/billing/billing.json
 msgid "{} Active"
-msgstr ""
+msgstr "{} สะวด"
 
 #. Count format of shortcut in the Billing Workspace
 #: print_designer/print_designer/workspace/billing/billing.json
 msgid "{} Draft"
-msgstr ""
+msgstr "{} ฉบับร่าง"
 
 #. Description of the 'WHT Amount (ภาษีหัก ณ ที่จ่าย)' (Currency) field in
 #. DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "จำนวนภาษีที่หัก"
-msgstr ""
+msgstr "จำนวนภาษีที่หัก"
 
 #. Description of the 'Net Payment Amount (จ่ายสุทธิ)' (Currency) field in
 #. DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "จำนวนเงินที่จ่ายหลังหักภาษี"
-msgstr ""
+msgstr "จำนวนเงินที่จ่ายหลังหักภาษี"
 
 #. Description of the 'Tax Base Amount (ยอดเงินก่อน VAT)' (Currency) field in
 #. DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "จำนวนเงินที่ใช้คำนวณภาษี (ไม่รวม VAT)"
-msgstr ""
+msgstr "จำนวนเงินที่ใช้คำนวณภาษี (ไม่รวม VAT)"
 
 #. Description of the 'Supplier Branch Name' (Data) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "ชื่อสาขา (ถ้ามี)"
-msgstr ""
+msgstr "ชื่อสาขา (ถ้ามี)"
 
 #. Description of the 'PND Form Type (แบบ ภ.ง.ด.)' (Link) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "ประเภทแบบแสดงรายการภาษีเงินได้หัก ณ ที่จ่าย"
-msgstr ""
+msgstr "ประเภทแบบแสดงรายการภาษีเงินได้หัก ณ ที่จ่าย"
 
 #. Label of a Data field in DocType 'Thai Withholding Tax Detail'
 #: print_designer/print_designer/doctype/thai_withholding_tax_detail/thai_withholding_tax_detail.json
@@ -5265,32 +5594,35 @@ msgstr "รายงานสรุป ภ.ง.ด.1ก"
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "ยอดรวมทั้งหมด (รวม VAT)"
-msgstr ""
+msgstr "ยอดรวมทั้งหมด (รวม VAT)"
 
 #. Description of the 'Income Description (รายละเอียด)' (Data) field in
 #. DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "ระบุรายละเอียดของรายได้"
-msgstr ""
+msgstr "ระบุรายละเอียดของรายได้\n"
 
 #. Description of the 'Submission Date to Revenue Dept' (Date) field in
 #. DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "วันที่ส่งให้กรมสรรพากร"
-msgstr ""
+msgstr "วันที่ส่งให้กรมสรรพากร"
 
 #. Description of the 'Supplier Tax ID' (Data) field in DocType 'Withholding
 #. Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "เลขประจำตัวผู้เสียภาษี"
-msgstr ""
+msgstr "เลขประจำตัวผู้เสียภาษี"
 
 #: print_designer/regional/purchase_invoice_wht_override.py:816
 msgid "✅ Thai tax compliance validated: Supplier invoice details recorded"
 msgstr ""
+"✅ การตรวจสอบความถูกต้องตามภาษีไทย: "
+"รายละเอียดใบกำกับภาษีผู้จำหน่ายถูกบันทึกแล้ว"
 
 #: print_designer/regional/purchase_invoice_wht_override.py:771
 msgid "🔓 บิลเงินสด: Fields unlocked - Supplier invoice details are optional"
 msgstr ""
+"🔓 บิลเงินสด: ปลดล็อกฟิลด์แล้ว - รายละเอียดใบแจ้งหนี้ผู้จำหน่ายเป็นทางเลือก"
