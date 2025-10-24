@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Thai Business Suite VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:01+0642\n"
-"PO-Revision-Date: 2025-10-24 15:32\n"
+"PO-Revision-Date: 2025-10-24 15:33\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -8770,47 +8770,47 @@ msgstr "ที่อยู่ (Address reference from Delivery Note)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "ประกาศเลขบิล (Invoice Number from Excel)"
-msgstr ""
+msgstr "ประกาศเลขบิล (Invoice Number from Excel)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "ประเภทกล่องยา (Medicine Box Type)"
-msgstr ""
+msgstr "ประเภทกล่องยา (Medicine Box Type)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "ประเภทการจัดส่ง (Delivery Type)"
-msgstr ""
+msgstr "ประเภทการจัดส่ง (Delivery Type)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "ประเภทบริการ (Service Type)"
-msgstr ""
+msgstr "ประเภทบริการ (Service Type)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "รายการสินค้า (Items Summary)"
-msgstr ""
+msgstr "รายการสินค้า (Items Summary)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "วันรับโอนสินค้า (Transfer Date from Excel)"
-msgstr ""
+msgstr "วันรับโอนสินค้า (Transfer Date from Excel)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "เบอร์ติดต่อ (Contact Number)"
-msgstr ""
+msgstr "เบอร์ติดต่อ (Contact Number)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "เลขที่กล่องส่ง (Box/Shipment Number)"
-msgstr ""
+msgstr "เลขที่กล่องส่ง (Box/Shipment Number)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "เลขที่ใบเสร็จรับเงิน (Receipt Number from Excel)"
-msgstr ""
+msgstr "เลขที่ใบเสร็จรับเงิน (Receipt Number from Excel)"
 
 #: thai_business_suite/public/js/purchase_order_tracking.js:37
 msgid "⏳ Awaiting First Delivery"
