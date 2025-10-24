@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2025-10-24 15:02\n"
+"PO-Revision-Date: 2025-10-24 15:03\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -11677,7 +11677,7 @@ msgstr "นางสาว"
 #. Option for the 'Title (Thai)' (Select) field in DocType 'Loan Guarantor'
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
 msgid "นาย"
-msgstr ""
+msgstr "นาย"
 
 #. Paragraph text in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
