@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Inpac Pharma VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
-"POT-Creation-Date: 2025-10-06 15:14+0642\n"
-"PO-Revision-Date: 2025-10-06 15:28\n"
+"POT-Creation-Date: 2025-10-20 14:03+0642\n"
+"PO-Revision-Date: 2025-10-24 14:27\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -20,10 +20,25 @@ msgstr ""
 
 #. Header text in the Inpac Pharma Workspace
 #: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
-msgid "<span class=\"h4\">Inpac Pharma</span>"
-msgstr "<span class=\"h4\">Inpac Pharma</span>"
+msgid "<span class=\"h4\"><b>Shortcuts</b></span>"
+msgstr "<span class=\"h4\"><b>ทางลัด</b></span>"
 
-#: inpac_pharma/public/js/purchase_order.js:13
+#. Header text in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "<span class=\"h4\">Inpac Pharma</span>"
+msgstr "<span class=\"h4\">อินแพคฟาร์มา</span>"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Account Preferences"
+msgstr "การตั้งค่าบัญชี"
+
+#: inpac_pharma/public/js/purchase_order.js:33
 msgid "Actions"
 msgstr "การดำเนินการ"
 
@@ -36,12 +51,223 @@ msgstr "ใช้งานอยู่"
 msgid "Active Customers"
 msgstr "ลูกค้าใช้งานอยู่"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Active Sessions"
+msgstr "เซสชันที่ใช้งานอยู่"
+
 #. Label of a number card in the Inpac Pharma Workspace
 #: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
 msgid "Active Suppliers"
 msgstr "ผู้จำหน่ายที่ใช้งานอยู่"
 
-#: inpac_pharma/public/js/purchase_order.js:145
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Activity"
+msgstr "กิจกรรม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Actual End Date"
+msgstr "วันที่สิ้นสุดจริง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Actual Start Date"
+msgstr "วันที่เริ่มต้นจริง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Add an extra layer of security"
+msgstr "เพิ่มชั้นความปลอดภัยเพิ่มเติม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Address Information"
+msgstr "ข้อมูลที่อยู่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Address Line 1"
+msgstr "ที่อยู่บรรทัดที่ 1"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Address Line 2"
+msgstr "ที่อยู่ บรรทัดที่ 2"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Address Title"
+msgstr "หัวข้อที่อยู่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Amended From"
+msgstr "แก้ไขจาก"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "App ready to work offline"
+msgstr "แอปพร้อมใช้งานแบบออฟไลน์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Application Settings"
+msgstr "การตั้งค่าแอปพลิเคชัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Approval Date"
+msgstr "วันที่อนุมัต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Approved"
+msgstr "ได้รับการอนุมัติ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Approved By (Production Manager)"
+msgstr "อนุมัติโดย (ผู้จัดการฝ่ายผลิต)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Apps"
+msgstr "แอปส์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto-created from this Manufacturing Order"
+msgstr "สร้างโดยอัตโนมัติจากใบสั่งผลิตนี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto-generated or manual entry"
+msgstr "สร้างโดยอัตโนมัติหรือป้อนข้อมูลด้วยตนเอง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto-save Draft"
+msgstr "บันทึกร่างอัตโนมัติ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto-save Status"
+msgstr "สถานะบันทึกอัตโนมัติ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto-save is currently disabled"
+msgstr "การบันทึกอัตโนมัติถูกปิดใช้งานในขณะนี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto-save is currently enabled"
+msgstr "การบันทึกอัตโนมัติกำลังเปิดใช้งานอยู่ในขณะนี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto-save is disabled. You"
+msgstr "การบันทึกอัตโนมัติถูกปิดใช้งาน คุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Automatically save your form progress as you fill out manufacturing orders "
+"and quality control records. When enabled, your progress will be saved every"
+" few seconds without needing to click Save Draft."
+msgstr ""
+"บันทึกความคืบหน้าของแบบฟอร์มของคุณโดยอัตโนมัติขณะกรอกใบสั่งผลิตและบันทึกการควบคุมคุณภาพ"
+" เมื่อเปิดใช้งาน ความคืบหน้าของคุณจะถูกบันทึกทุก ๆ "
+"ไม่กี่วินาทีโดยไม่ต้องคลิก บันทึกแบบร่าง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Available Qty in Batch"
+msgstr "ปริมาณที่มีในชุด"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Batch"
+msgstr "ชุดข้อมูล"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Batch Information (ข้อมูล Lot)"
+msgstr "ข้อมูลล็อต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Batch Manufacturing Record (BMR)"
+msgstr "ใบบันทึกการผลิตแบบชุด (Batch Manufacturing Record - BMR)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Batch Naming Pattern"
+msgstr "รูปแบบการตั้งชื่อชุดข้อมูล"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Batch Packaging Record (BPR)"
+msgstr "บันทึกการบรรจุเป็นชุด (BPR)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Batch Size"
+msgstr "ขนาดของ Batch"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Bill of Materials"
+msgstr "สูตรการผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Birth Date"
+msgstr "วันเกิด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "COA Approved By"
+msgstr "บัญชีแสดงรายการที่ได้รับการอนุมัติโดย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "COA Issue Date"
+msgstr "วันที่ออกบัญชีแยกประเภท"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "COA Received Date"
+msgstr "วันที่ได้รับแผนผังบัญชี"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Cancelled"
+msgstr "ยกเลิกแล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Certificate of Analysis (COA)"
+msgstr "ใบรับรองการวิเคราะห์ (COA)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Certificate of Analysis (PDF) - ใบรับรองผลการวิเคราะห์"
+msgstr "Certificate of Analysis (PDF) - ใบรับรองผลการวิเคราะห์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Change Password"
+msgstr "เปลี่ยนรหัสผ่าน"
+
+#: inpac_pharma/public/js/purchase_order.js:190
 msgid ""
 "Changing supplier will clear the selected manufacturer. Do you want to "
 "continue?"
@@ -49,49 +275,955 @@ msgstr ""
 "การเปลี่ยนผู้จำหน่ายจะล้างข้อมูลผู้ผลิตที่เลือกไว้ "
 "คุณต้องการดำเนินการต่อหรือไม่?"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "City/District (อำเภอ)"
+msgstr "เมือง/อำเภอ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Close"
+msgstr "ปิด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Company"
+msgstr "บริษัท"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Completed"
+msgstr "เสร็จสมบูรณ์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Consumed Qty"
+msgstr "จำนวนการบริโภค"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contact"
+msgstr "ติดต่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contact Details"
+msgstr "รายละเอียดผู้ติดต่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contact Email"
+msgstr "อีเมลผู้ติดต่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contact Person"
+msgstr "Contact Person"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contact Phone"
+msgstr "เบอร์โทรติดต่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Control how your manufacturing forms behave"
+msgstr "ควบคุมการทำงานของแบบฟอร์มการผลิตของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Control your data and security preferences"
+msgstr "ควบคุมข้อมูลและการตั้งค่าความปลอดภัยของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Country"
+msgstr "ประเทศ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom Item Name"
+msgstr "ชื่อสินค้าแบบกำหนดเอง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom Name"
+msgstr "ชื่อกำหนดเอง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom Size/Packaging"
+msgstr "ขนาด/บรรจุภัณฑ์ที่กำหนดเอง"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Customer"
+msgstr "ลูกค้า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Customize your account experience"
+msgstr "ปรับแต่งประสบการณ์ใช้งานบัญชีของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Dark"
+msgstr "มืด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Delivery Instructions"
+msgstr "คำแนะนำการจัดส่ง"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#. Label of a shortcut in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Delivery Schedule"
+msgstr "กำหนดการจัดส่ง"
+
 #: inpac_pharma/public/js/supplier_list.js:38
 msgid "Disabled"
 msgstr "ปิดใช้งาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Documentation"
+msgstr "เอกสารประกอบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Draft"
+msgstr "ฉบับร่าง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "EXP"
+msgstr "EXP"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Edit Profile"
+msgstr "แก้ไขโปรไฟล์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Email"
+msgstr "อีเมล"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Email Notifications"
+msgstr "การแจ้งเตือนทางอีเมล"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Enable"
+msgstr "การเปิดใช้งาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Enable auto-save above for a smoother experience."
+msgstr "เปิดใช้งานการบันทึกอัตโนมัติด้านบนเพื่อประสบการณ์ที่ราบรื่นยิ่งขึ้น"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Expiry Date (EXP)"
+msgstr "วันหมดอายุ (EXP)"
+
+#: inpac_pharma/public/js/item.js:387
+msgid "FDA License expires in {0} days - Critical!"
+msgstr "ใบอนุญาต FDA จะหมดอายุในอีก {0} วัน - สำคัญมาก!"
+
+#: inpac_pharma/public/js/item.js:403
+msgid "FDA License expires in {0} days - Please renew soon"
+msgstr "ใบอนุญาต FDA จะหมดอายุในอีก {0} วัน - กรุณาต่ออายุโดยเร็ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Failed"
+msgstr "ล้มเหลว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Failed to update language preference"
+msgstr "ไม่สามารถอัปเดตการตั้งค่าภาษาที่ต้องการได้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Failed to update profile"
+msgstr "ไม่สามารถอัปเดตโปรไฟล์ได้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Features"
+msgstr "คุณสมบัติ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Female"
+msgstr "หญิง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Finished Goods Batch No. (LOT)"
+msgstr "หมายเลขชุดสินค้าสำเร็จรูป (LOT)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Finished Goods COA"
+msgstr "งบดุลสินค้าสำเร็จรูป"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "First Name"
+msgstr "ชื่อจริง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe School"
+msgstr "Frappe School"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe Support"
+msgstr "ฝ่ายสนับสนุน Frappe"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Full Name"
+msgstr "ชื่อเต็ม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "GMP"
+msgstr "GMP"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "GMP Certificate No."
+msgstr "ุระบร GMP ศาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "GMP Documentation"
+msgstr "เอกสาร GMP"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "GPU Code"
+msgstr "รหัส GPU"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Gender"
+msgstr "เพศ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Go to Login"
+msgstr "ไปที่เข้าสู่ระบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Go to next page"
+msgstr "ไปยังหน้าถัดไป"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Go to previous page"
+msgstr "ไปยังหน้าก่อนหน้า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "IP Customer Item Naming"
+msgstr "การตั้งชื่อรายการสินค้าของลูกค้า IP"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "IP Customer Shipping Address"
+msgstr "ที่อยู่จัดส่งลูกค้า IP"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "IP-MO-.YYYY.-"
+msgstr "IP-MO-.YYYY.-"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "In Progress"
+msgstr "กำลังดำเนินการ"
 
 #. Name of a Workspace
 #: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
 msgid "Inpac Pharma"
 msgstr "Inpac Pharma"
 
-#: inpac_pharma/public/js/purchase_order.js:126
+#: inpac_pharma/public/js/purchase_order.js:171
 msgid "Invalid Manufacturer"
 msgstr "ผู้ผลิตไม่ถูกต้อง"
+
+#. Label of a Check field in DocType 'Supplier Manufacturer Link'
+#: inpac_pharma/inpac_pharma/doctype/supplier_manufacturer_link/supplier_manufacturer_link.json
+msgid "Is Default"
+msgstr "เป็นค่าเริ่มต้น"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Item"
+msgstr "\\0e2a\\0e34\\0e19\\0e04\\0e49\\0e32"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Item Code"
+msgstr "รหัสสินค้า"
 
 #: inpac_pharma/api/purchase_order.py:33
 msgid "Item Code and Supplier are required"
 msgstr "รหัสสินค้าและผู้จำหน่ายเป็นข้อมูลที่จำเป็นต้องระบุ"
 
-#: inpac_pharma/public/js/purchase_order.js:253
-msgid "Lead Time: {0} days | Manufacturer: {1}"
-msgstr "ระยะเวลานำ: {0} วัน | ผู้ผลิต: {1}"
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Item Name"
+msgstr "ชื่อสินค้า"
 
-#: inpac_pharma/public/js/purchase_order.js:71
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Keyboard Shortcuts"
+msgstr "แป้นพิมพ์ลัด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "LOT-.YY.MM.-.####"
+msgstr "ล็อต-.YY.MM.-.####"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "LOT-.YYYY.-.####"
+msgstr "ล็อต-.YYYY.-.####"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "LOT-.YYYY.MM.DD.-.####"
+msgstr "ล็อต-.YYYY.MM.DD.-.####"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Landmark"
+msgstr "จุดสังเกต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Last Login"
+msgstr "เข้าสู่ระบบล่าสุด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Last Name"
+msgstr "นามสกุล"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Latitude"
+msgstr "ละติจูด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Light"
+msgstr "แสง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Location Information"
+msgstr "ข้อมูลสถานที่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Log out"
+msgstr "ออกจากระบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Login from Chrome"
+msgstr "เข้าสู่ระบบจาก Chrome"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Longitude"
+msgstr "ลองจิจูด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "MFG"
+msgstr "การผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Male"
+msgstr "ชาย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manage how you receive updates about production and quality control"
+msgstr "จัดการวิธีการรับข้อมูลอัปเดตเกี่ยวกับการผลิตและการควบคุมคุณภาพ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manage your account security and authentication methods"
+msgstr "จัดการความปลอดภัยของบัญชีและวิธีการตรวจสอบสิทธิ์ของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manage your account settings and application preferences"
+msgstr "จัดการการตั้งค่าบัญชีและการตั้งค่าการใช้งานของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manage your active login sessions"
+msgstr "จัดการเซสชันการเข้าสู่ระบบที่ใช้งานอยู่ของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manage your personal details and contact information"
+msgstr "จัดการรายละเอียดส่วนตัวและข้อมูลติดต่อของคุณ"
+
+#. Label of a Link field in DocType 'Supplier Manufacturer Link'
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/doctype/supplier_manufacturer_link/supplier_manufacturer_link.json
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Manufacturer"
+msgstr "ผู้ผลิต"
+
+#. Label of a Data field in DocType 'Supplier Manufacturer Link'
+#: inpac_pharma/inpac_pharma/doctype/supplier_manufacturer_link/supplier_manufacturer_link.json
+msgid "Manufacturer Name"
+msgstr "ชื่อผู้ผลิต"
+
+#: inpac_pharma/public/js/purchase_order.js:107
 msgid "Manufacturer filter applied: {0} manufacturer(s) available"
 msgstr "ตัวกรองผู้ผลิตถูกใช้: มีผู้ผลิต {0} รายที่พร้อมใช้งาน"
 
-#: inpac_pharma/public/js/purchase_order.js:88
+#: inpac_pharma/custom/supplier.py:92 inpac_pharma/public/js/supplier.js:16
+#: inpac_pharma/public/js/supplier.js:37
+msgid "Manufacturers Required"
+msgstr "ต้องการผู้ผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manufacturing Date"
+msgstr "วันผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manufacturing Date (MFG)"
+msgstr "วันที่การผลิต (MFG)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manufacturing Execution"
+msgstr "การปฏิบัติการผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manufacturing Manager"
+msgstr "ผู้จัดการฝ่ายผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manufacturing Order"
+msgstr "ใบสั่งผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manufacturing Order Raw Material"
+msgstr "ใบสั่งผลิต วัตถุดิบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manufacturing System"
+msgstr "ระบบการผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Manufacturing User"
+msgstr "ผู้ใช้การผลิต"
+
+#. Label of a Card Break in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Masters"
+msgstr "มาตรฐาน"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Material Request"
+msgstr "ใบขอเบิกวัสดุ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Member Since"
+msgstr "สมาชิกตั้งแต่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Mobile No."
+msgstr "หมายเลขโทรศัพท์มือถือ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "More"
+msgstr "เพิ่ม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "More pages"
+msgstr "หน้ามากขึ้น"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "More settings coming soon..."
+msgstr "กำลังจะมีการตั้งค่าเพิ่มเติมเร็วๆ นี้..."
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Account"
+msgstr "บัญชีของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Applications"
+msgstr "แอปพลิเคชันของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Profile"
+msgstr "โปรไฟล์ของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Settings"
+msgstr "การตั้งค่าของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Name Priority"
+msgstr "ชื่อ ความสำคัญ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Navigation"
+msgstr "การนำทาง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Next"
+msgstr "ต่อไป"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Next slide"
+msgstr "สไลด์ถัดไป"
+
+#: inpac_pharma/public/js/purchase_order.js:129
 msgid "No Manufacturers Linked"
 msgstr "ไม่มีการเชื่อมโยงผู้ผลิตใดๆ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Not Logged In"
+msgstr "ยังไม่ได้เข้าสู่ระบบ"
+
+#. Label of a Small Text field in DocType 'Supplier Manufacturer Link'
+#: inpac_pharma/inpac_pharma/doctype/supplier_manufacturer_link/supplier_manufacturer_link.json
+msgid "Notes"
+msgstr "หมายเหตุ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Notification Settings"
+msgstr "การตั้งค่าการแจ้งเตือน"
 
 #: inpac_pharma/public/js/supplier_list.js:40
 msgid "On Hold"
 msgstr "ระงับไว้"
 
-#: inpac_pharma/public/js/purchase_order.js:50
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Other"
+msgstr "อื่น ๆ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PDF of complete manufacturing record"
+msgstr "ไฟล์ PDF ของบันทึกการผลิตฉบับสมบูรณ์"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#. Label of a shortcut in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "PO Delivery Calendar Report"
+msgstr "รายงานปฏิทินการจัดส่งใบสั่งซื้อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PWABadge"
+msgstr "PWABadge"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PWABadge-buttons"
+msgstr "ปุ่ม PWABadge"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PWABadge-message"
+msgstr "ข้อความ PWABadge"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PWABadge-toast"
+msgstr "PWABadge-toast"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PWABadge-toast-button"
+msgstr "ปุ่มแจ้งเตือน PWABadge"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Passed"
+msgstr "ผ่านไป"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Password Changed"
+msgstr "เปลี่ยนรหัสผ่านแล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Pending"
+msgstr "รอดำเนินการ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Personal Info"
+msgstr "ข้อมูลส่วนตัว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Personal Information"
+msgstr "ข้อมูลส่วนบุคคล"
+
+#: inpac_pharma/public/js/item.js:49
+msgid ""
+"Pharmaceutical items must have at least one supplier defined in the Supplier"
+" Items table."
+msgstr ""
+"รายการเวชภัณฑ์ต้องมีผู้จำหน่ายอย่างน้อยหนึ่งรายที่กำหนดไว้ในตาราง "
+"รายการผู้จำหน่าย"
+
+#: inpac_pharma/custom/item.py:57
+msgid ""
+"Pharmaceutical items must have at least one supplier defined. Please add "
+"supplier information in the <b>Supplier Items</b> table."
+msgstr ""
+"รายการเวชภัณฑ์ต้องมีผู้จำหน่ายอย่างน้อยหนึ่งราย "
+"กรุณาเพิ่มข้อมูลผู้จำหน่ายในตาราง <b>ผู้จำหน่ายสินค้า</b>"
+
+#: inpac_pharma/public/js/supplier.js:17
+msgid ""
+"Pharmaceutical suppliers must have at least one associated manufacturer. "
+"Please add manufacturers in the \"Associated Manufacturers\" table before "
+"saving."
+msgstr ""
+"ผู้จำหน่ายเวชภัณฑ์ต้องมีผู้ผลิตที่เกี่ยวข้องอย่างน้อยหนึ่งราย "
+"กรุณาเพิ่มผู้ผลิตในตาราง \"ผู้ผลิตที่เกี่ยวข้อง\" ก่อนบันทึกข้อมูล"
+
+#: inpac_pharma/public/js/supplier.js:38
+msgid ""
+"Pharmaceutical suppliers must have at least one associated manufacturer. "
+"Please add manufacturers in the \"Associated Manufacturers\" table."
+msgstr ""
+"ผู้จำหน่ายยาและเวชภัณฑ์ต้องมีอย่างน้อยหนึ่งผู้ผลิตที่เกี่ยวข้อง "
+"กรุณาเพิ่มผู้ผลิตในตาราง \"ผู้ผลิตที่เกี่ยวข้อง\""
+
+#: inpac_pharma/custom/supplier.py:91
+msgid ""
+"Pharmaceutical suppliers must have at least one associated manufacturer. "
+"Please add manufacturers in the 'Associated Manufacturers' table."
+msgstr ""
+"ผู้จำหน่ายเวชภัณฑ์ต้องมีอย่างน้อยหนึ่งผู้ผลิตที่เชื่อมโยง "
+"กรุณาเพิ่มผู้ผลิตในตาราง 'ผู้ผลิตที่เชื่อมโยง'"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Phone"
+msgstr "โทรศัพท์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Photo upload coming soon"
+msgstr "การอัปโหลดรูปภาพจะมาในเร็วๆ นี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Planning"
+msgstr "การวางแผน"
+
+#: inpac_pharma/public/js/supplier.js:55
+msgid "Please add at least one manufacturer for this pharmaceutical supplier."
+msgstr "กรุณาเพิ่มผู้ผลิตอย่างน้อยหนึ่งรายสำหรับผู้จำหน่ายเวชภัณฑ์นี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Please log in to view your profile information."
+msgstr "กรุณาเข้าสู่ระบบเพื่อดูข้อมูลโปรไฟล์ของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Postal Code (รหัสไปรษณีย์)"
+msgstr "Postal Code (รหัสไปรษณีย์)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Previous"
+msgstr "ก่อน"
+
+#: inpac_pharma/public/js/purchase_order.js:78
 msgid "Previous manufacturer cleared (not available for this supplier)"
 msgstr ""
 "ผู้ผลิตก่อนหน้านี้ถูกล้างข้อมูลแล้ว (ไม่สามารถใช้ได้สำหรับผู้จำหน่ายนี้)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Previous slide"
+msgstr "สไลด์ก่อนหน้า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Primary Address"
+msgstr "ที่อยู่หลัก"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Produced Quantity"
+msgstr "จำนวนที่ผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product & BOM"
+msgstr "สินค้าและสูตรการผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product to Manufacture"
+msgstr "สินค้าที่จะผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Products"
+msgstr "ผลิตภัณฑ์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Profile"
+msgstr "โปรไฟล์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Profile Updated"
+msgstr "ปรับปรุงโปรไฟล์แล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Profile updated successfully"
+msgstr "อัปเดตโปรไฟล์เรียบร้อยแล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Province (จังหวัด)"
+msgstr "Province (จังหวัด)"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Purchase Order"
+msgstr "ใบสั่งซื้อ"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Purchase Receipt"
+msgstr "ใบรับซื้อ"
+
+#. Label of a Card Break in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Purchasing"
+msgstr "การจัดซื้อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "QC Inspector"
+msgstr "ผู้ตรวจสอบคุณภาพ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "QC Manager name"
+msgstr "ชื่อผู้จัดการ QC"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "QC Remarks"
+msgstr "หมายเหตุ QC"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "QC Status"
+msgstr "สถานะ QC"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "QC Testing"
+msgstr "การทดสอบ QC"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "QC Testing Date"
+msgstr "วันที่ทดสอบ QC"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Quality Control & COA"
+msgstr "การควบคุมคุณภาพและใบรับรองการวิเคราะห์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Quantity to Manufacture"
+msgstr "ปริมาณการผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Raw Material"
+msgstr "วัตถุดิบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Raw Material Batches"
+msgstr "ชุดวัตถุดิบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Raw Material COA"
+msgstr "แผนผังบัญชีวัตถุดิบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Raw Materials & Batch Selection (วัตถุดิบ)"
+msgstr "วัตถุดิบและการเลือกชุดผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Receive SMS alerts for urgent production issues and quality control "
+"failures."
+msgstr ""
+"รับการแจ้งเตือนทาง SMS "
+"สำหรับปัญหาการผลิตเร่งด่วนและความล้มเหลวในการควบคุมคุณภาพ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Receive email updates about production orders, quality control results, and "
+"batch expiration alerts."
+msgstr ""
+"รับอัปเดตอีเมลเกี่ยวกับใบสั่งผลิต ผลการควบคุมคุณภาพ "
+"และการแจ้งเตือนวันหมดอายุของล็อตสินค้า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Recent Activity"
+msgstr "กิจกรรมล่าสุด"
 
 #: inpac_pharma/public/js/supplier_list.js:49
 msgid "Refresh Manufacturers"
 msgstr "รีเฟรชผู้ผลิต"
 
-#: inpac_pharma/public/js/purchase_order.js:127
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Regulatory Remarks"
+msgstr "หมายเหตุข้อกำหนดทางกฎหมาย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Rejected Quantity"
+msgstr "จำนวนปฏิเสธ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Reload"
+msgstr "โหลด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Report an Issue"
+msgstr "รายงานปัญหา"
+
+#. Label of a Card Break in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Reports"
+msgstr "รายงาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Required Qty (from BOM)"
+msgstr "จำนวนที่ต้องการ (จาก BOM)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "SMS Notifications"
+msgstr "การแจ้งเตือนทาง SMS"
+
+#. Label of a Card Break in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Sales"
+msgstr "ขาย"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Sales Invoice"
+msgstr "ใบแจ้งหนี้ขาย"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Sales Order"
+msgstr "ใบสั่งขาย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Save"
+msgstr "บันทึก"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Security"
+msgstr "ความปลอดภัย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Security Settings"
+msgstr "การตั้งค่าการรักษาความปลอดภัย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Select Gender"
+msgstr "เลือกเพศ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Selected Batch No. (LOT)"
+msgstr "หมายเลขชุดที่เลือก (ล็อต)"
+
+#: inpac_pharma/public/js/purchase_order.js:172
 msgid ""
 "Selected manufacturer <b>{0}</b> is not associated with supplier <b>{1}</b>."
 " Please select a valid manufacturer or update the supplier's manufacturer "
@@ -100,7 +1232,72 @@ msgstr ""
 "ผู้ผลิตที่เลือก <b>{0}</b> ไม่ได้เชื่อมโยงกับผู้จำหน่าย <b>{1}</b> "
 "กรุณาเลือกผู้ผลิตที่ถูกต้องหรืออัปเดตรายการผู้ผลิตของผู้จำหน่ายนั้น"
 
-#: inpac_pharma/custom/supplier.py:65
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Series"
+msgstr "ลำดับชุด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Session Defaults"
+msgstr "ค่าเริ่มต้นของเซสชัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Shelf Life (Months)"
+msgstr "อายุการใช้งาน (เดือน)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Sidebar"
+msgstr "แถบด้านข้าง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Sign In"
+msgstr "เข้าสู่ระบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Source Warehouse"
+msgstr "คลังสินค้าที่มา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Standard Name"
+msgstr "ชื่อมาตรฐาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Standard batch quantity"
+msgstr "ปริมาณชุดมาตรฐาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Status"
+msgstr "สถานะ"
+
+#. Label of a Card Break in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Stock & Inventory"
+msgstr "สต็อกและสินค้าคงคลัง"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Stock Entry"
+msgstr "ใบสำคัญเบิกจ่ายวัสดุ"
+
+#. Label of a Link in the Inpac Pharma Workspace
+#: inpac_pharma/inpac_pharma/workspace/inpac_pharma/inpac_pharma.json
+msgid "Supplier"
+msgstr "ผู้จำหน่าย"
+
+#: inpac_pharma/custom/supplier.py:66
 msgid ""
 "Supplier ID is required and could not be auto-generated. Please contact "
 "system administrator."
@@ -108,11 +1305,50 @@ msgstr ""
 "รหัสผู้จำหน่ายเป็นข้อมูลที่จำเป็นและไม่สามารถสร้างโดยอัตโนมัติได้ "
 "กรุณาติดต่อผู้ดูแลระบบ"
 
-#: inpac_pharma/custom/supplier.py:79
+#: inpac_pharma/custom/supplier.py:80
 msgid "Supplier ID {0} already exists for {1}"
 msgstr "รหัสผู้จำหน่าย {0} มีอยู่แล้วสำหรับ {1}"
 
-#: inpac_pharma/public/js/purchase_order.js:89
+#. Name of a DocType
+#: inpac_pharma/inpac_pharma/doctype/supplier_manufacturer_link/supplier_manufacturer_link.json
+msgid "Supplier Manufacturer Link"
+msgstr "ลิงก์ผู้จำหน่ายผู้ผลิต"
+
+#: inpac_pharma/custom/item.py:56 inpac_pharma/public/js/item.js:47
+msgid "Supplier Required"
+msgstr "จำเป็นต้องระบุผู้จำหน่าย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "System"
+msgstr "ระบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "System Manager"
+msgstr "ผู้จัดการระบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "TM Code"
+msgstr "รหัส TM"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "TPU Code"
+msgstr "รหัส TPU"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Target Warehouse (Finished Goods)"
+msgstr "คลังเป้าหมาย (สินค้าสำเร็จรูป)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Thai FDA Registration No."
+msgstr "สริบทริบสารการเฟลคาร"
+
+#: inpac_pharma/public/js/purchase_order.js:130
 msgid ""
 "The selected pharmaceutical supplier has no associated manufacturers. Please"
 " add manufacturers to the supplier master."
@@ -124,10 +1360,154 @@ msgstr ""
 msgid "This method is only meant for developer mode"
 msgstr "วิธีนี้มีไว้สำหรับโหมดนักพัฒนาเท่านั้น"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Today"
+msgstr "วันที่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Today at"
+msgstr "วันนี้ เวลา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Full Width"
+msgstr "สลับความกว้างเต็มหน้าจอ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Sidebar"
+msgstr "สลับแถบด้านข้าง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Theme"
+msgstr "สลับธีม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle theme"
+msgstr "สลับธีม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Total Applications"
+msgstr "จำนวนแอปพลิเคชันทั้งหมด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Track the status of your loan applications"
+msgstr "ติดตามสถานะการขอสินเชื่อของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Two-Factor Authentication"
+msgstr "การยืนยันตัวตนสองขั้นตอน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "UOM"
+msgstr "หน่วยนับ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Upload supplier's Certificate of Analysis (PDF)"
+msgstr "อัปโหลดใบรับรองการวิเคราะห์ของผู้จำหน่าย (PDF)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Use GPU Name"
+msgstr "ใช้ชื่อ GPU"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Use TM Name"
+msgstr "ใช้ชื่อ TM"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Use TPU Name"
+msgstr "ใช้ชื่อ TPU"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Use the Save Draft button to save your form progress."
+msgstr "ใช้ปุ่ม บันทึกแบบร่าง เพื่อบันทึกความคืบหน้าของแบบฟอร์มของคุณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "User Forum"
+msgstr "ฟอรั่มผู้ใช้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Username"
+msgstr "ชื่อผู้ใช้"
+
 #: inpac_pharma/public/js/supplier_list.js:56
 msgid "VAT Type"
 msgstr "ชนิดภาษีมูลค่าเพิ่ม"
 
-#: inpac_pharma/public/js/purchase_order.js:11
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Verified"
+msgstr "ได้รับการยืนยัน"
+
+#: inpac_pharma/public/js/purchase_order.js:25
 msgid "View Manufacturer Details"
 msgstr "ดูรายละเอียดผู้ผลิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "View Sessions"
+msgstr "ดูเซสชัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "View Website"
+msgstr "ดูเว็บไซต์"
+
+#: inpac_pharma/public/js/supplier.js:75
+msgid ""
+"Warning: Pharmaceutical suppliers must have at least one manufacturer. Add "
+"another manufacturer before saving."
+msgstr ""
+"คำเตือน: ผู้จำหน่ายเวชภัณฑ์ต้องมีผู้ผลิตอย่างน้อยหนึ่งราย "
+"กรุณาเพิ่มผู้ผลิตอีกหนึ่งรายก่อนบันทึกข้อมูล"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Work Order"
+msgstr "ใบสั่งงาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Yesterday at"
+msgstr "เมื่อวานนี้ เวลา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Yield %"
+msgstr "อัตราผลผลิต %"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "You can still manually save drafts using the Save Draft button."
+msgstr "คุณยังสามารถบันทึกฉบับร่างด้วยตนเองโดยใช้ปุ่ม บันทึกฉบับร่าง ได้อยู่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Your manufacturing form progress will be automatically saved as you type."
+msgstr ""
+"ความคืบหน้าของแบบฟอร์มการผลิตของคุณจะถูกบันทึกโดยอัตโนมัติขณะพิมพ์ข้อมูล"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Your recent account activity and login history"
+msgstr "ประวัติการใช้งานบัญชีและการเข้าสู่ระบบล่าสุดของคุณ"
+
+#: inpac_pharma/public/js/item.js:225
+msgid "⚠️ Warning: Pharmaceutical items require at least one supplier"
+msgstr "⚠️ คำเตือน: สินค้าเภสัชกรรมจำเป็นต้องมีอย่างน้อยหนึ่งผู้จำหน่าย"
