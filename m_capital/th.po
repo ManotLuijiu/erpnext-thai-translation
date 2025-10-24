@@ -11692,7 +11692,7 @@ msgstr ""
 #. Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "รย.1:รถยนต์นั่งส่วนบุคคลไม่เกิน 7 คน"
-msgstr ""
+msgstr "รย.1:รถยนต์นั่งส่วนบุคคลไม่เกิน 7 คน"
 
 #. Option for the 'Vehicle Type (Law)' (Select) field in DocType 'Vehicle Loan
 #. Application'
