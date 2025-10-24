@@ -11716,4 +11716,4 @@ msgstr "หญิง"
 #. Vehicle'
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
 msgid "อื่นๆ โปรดระบุ"
-msgstr ""
+msgstr "อื่นๆ โปรดระบุ"
