@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Thai Business Suite VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:01+0642\n"
-"PO-Revision-Date: 2025-10-24 15:31\n"
+"PO-Revision-Date: 2025-10-24 15:32\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -8765,7 +8765,7 @@ msgstr "ชื่อรายงานภาษาไทย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "ที่อยู่ (Address reference from Delivery Note)"
-msgstr ""
+msgstr "ที่อยู่ (Address reference from Delivery Note)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
