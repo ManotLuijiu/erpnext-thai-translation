@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2025-10-24 15:03\n"
+"PO-Revision-Date: 2025-10-24 15:04\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -11698,7 +11698,7 @@ msgstr "รย.1:รถยนต์นั่งส่วนบุคคลไม
 #. Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "รย.2:รถยนต์นั่งส่วนบุคคลเกิน 7 คน"
-msgstr ""
+msgstr "รย.2:รถยนต์นั่งส่วนบุคคลเกิน 7 คน"
 
 #. Option for the 'Vehicle Type (Law)' (Select) field in DocType 'Vehicle Loan
 #. Application'
