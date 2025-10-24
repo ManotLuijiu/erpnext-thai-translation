@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2025-10-24 15:04\n"
+"PO-Revision-Date: 2025-10-24 15:05\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -11709,7 +11709,7 @@ msgstr "รย.3:รถยนต์บรรทุกส่วนบุคคล
 #. Option for the 'Gender' (Select) field in DocType 'Loan Guarantor'
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
 msgid "หญิง"
-msgstr ""
+msgstr "หญิง"
 
 #. Option for the 'Current Vehicle Location' (Select) field in DocType
 #. 'Lending
