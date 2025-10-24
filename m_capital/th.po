@@ -11704,7 +11704,7 @@ msgstr "รย.2:รถยนต์นั่งส่วนบุคคลเก
 #. Application'
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "รย.3:รถยนต์บรรทุกส่วนบุคคล"
-msgstr ""
+msgstr "รย.3:รถยนต์บรรทุกส่วนบุคคล"
 
 #. Option for the 'Gender' (Select) field in DocType 'Loan Guarantor'
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
