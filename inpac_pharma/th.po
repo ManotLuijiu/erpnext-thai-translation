@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: inpac_pharma VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-04 04:08+0700\n"
-"PO-Revision-Date: 2026-01-16 02:27\n"
+"PO-Revision-Date: 2026-01-16 02:30\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
 "Language: th\n"
@@ -32,18 +32,20 @@ msgstr "<strong>ทำไมถึงต้องระบุ:</strong>"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "API URL not configured"
-msgstr ""
+msgstr "ยังไม่ได้ตั้งค่า API URL"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "API credentials (api_key/api_secret) not configured in TBS General Settings"
 msgstr ""
+"ข้อมูลรับรอง API (api_key/api_secret) ยังไม่ได้ตั้งค่าใน การตั้งค่าทั่วไปของ"
+" TBS (app/tbs-general-settings)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "API response from affiliate server (for troubleshooting)"
-msgstr ""
+msgstr "การตอบกลับ API จากเซิร์ฟเวอร์คู่ค้า (สำหรับการแก้ไขปัญหา)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -68,7 +70,7 @@ msgstr "วันที่เริ่มต้นจริง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Address (ที่อยู่)"
-msgstr ""
+msgstr "ที่อยู่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
