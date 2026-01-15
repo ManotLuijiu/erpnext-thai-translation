@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: inpac_pharma VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-04 04:08+0700\n"
-"PO-Revision-Date: 2026-01-16 02:30\n"
+"PO-Revision-Date: 2026-01-16 03:08\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
 "Language: th\n"
@@ -97,6 +97,7 @@ msgstr "หัวข้อที่อยู่"
 msgid ""
 "Affiliate API URL is not configured. Please set it in TBS General Settings."
 msgstr ""
+"URL API พันธมิตรยังไม่ได้ตั้งค่า กรุณาตั้งค่าใน การตั้งค่าทั่วไปของ TBS"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -104,37 +105,41 @@ msgid ""
 "Affiliate API credentials are not configured. Please set them in TBS General"
 " Settings."
 msgstr ""
+"ข้อมูลรับรอง Affiliate API ยังไม่ได้ตั้งค่า กรุณาตั้งค่าใน "
+"การตั้งค่าทั่วไปของ TBS"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate API request timed out after {0} seconds"
-msgstr ""
+msgstr "คำขอ Affiliate API หมดเวลารอหลังจาก {0} วินาที"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate API returned error: {0}"
-msgstr ""
+msgstr "API ผู้ร่วมงานส่งคืนข้อผิดพลาด: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate Customer"
-msgstr ""
+msgstr "ลูกค้าพันธมิตร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate Document"
-msgstr ""
+msgstr "เอกสารพันธมิตร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate Sync"
-msgstr ""
+msgstr "การซิงค์พันธมิตร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Affiliate sync is not enabled. Please configure it in TBS General Settings."
 msgstr ""
+"การซิงค์ Affiliate ยังไม่ได้เปิดใช้งาน กรุณากำหนดค่าใน การตั้งค่าทั่วไปของ "
+"TBS"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -144,12 +149,12 @@ msgstr "ทั้งหมด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All {0} items reconciled successfully"
-msgstr ""
+msgstr "ทั้งหมด {0} สินค้า รอดำเนินการชาระเพลิกรี่มี"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Ambient"
-msgstr ""
+msgstr "บรรยากาศ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -184,12 +189,12 @@ msgstr "แอปส์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Article Information"
-msgstr ""
+msgstr "ข้อมูลบทความ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Authentication failed: {0}"
-msgstr ""
+msgstr "การตรวจสอบสิทธิ์ล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -202,6 +207,8 @@ msgid ""
 "Auto-detected from Type column in Excel. INV = Invoice (creates Sales "
 "Orders), CN = Credit Note (creates Credit Notes)"
 msgstr ""
+"ตรวจจับโดยอัตโนมัติจากคอลัมน์ประเภทใน Excel โดย INV = ใบแจ้งหนี้ "
+"(สร้างใบสั่งขาย), CN = ใบลดหนี้ (สร้างใบลดหนี้)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -211,7 +218,7 @@ msgstr "สร้างโดยอัตโนมัติหรือป้อ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto-generated title for Link field display"
-msgstr ""
+msgstr "หัวข้อที่สร้างขึ้นโดยอัตโนมัติสำหรับการแสดงฟิลด์ลิงก์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -231,17 +238,17 @@ msgstr "BOM {0} ไม่ได้อยู่ในรายการ {1}"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "BOM {0} is not active"
-msgstr ""
+msgstr "BOM {0} ยังไม่ถูกใช้งาน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "BOM {0} is not submitted"
-msgstr ""
+msgstr "BOM {0} ยังไม่ได้ส่งแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch Information"
-msgstr ""
+msgstr "ข้อมูลชุดสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -261,12 +268,12 @@ msgstr "หมายเลขชุด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch No is required"
-msgstr ""
+msgstr "หมายเลขชุดเป็นข้อมูลที่จำเป็น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch No {0} already used in Manufacturing Order {1}"
-msgstr ""
+msgstr "หมายเลขชุด {0} ถูกใช้ในใบสั่งผลิต {1} แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -276,7 +283,7 @@ msgstr "หมายเลขชุด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch Number Required"
-msgstr ""
+msgstr "หมายเลขชุดสินค้าจำเป็นต้องระบุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -286,7 +293,7 @@ msgstr "บันทึกการบรรจุเป็นชุด (BPR)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch Selections JSON"
-msgstr ""
+msgstr "การเลือกชุด JSON"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -296,47 +303,47 @@ msgstr "ขนาดของ Batch"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch number from import file (may not exist in system yet)"
-msgstr ""
+msgstr "หมายเลขชุดจากไฟล์นำเข้า (อาจยังไม่มีอยู่ในระบบ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch number is required for the following batch-tracked items:"
-msgstr ""
+msgstr "หมายเลขชุดจำเป็นสำหรับรายการที่ติดตามด้วยชุดดังต่อไปนี้:"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch or Lot number from Manufacturing Order"
-msgstr ""
+msgstr "หมายเลขชุดหรือล็อตจากใบสั่งผลิต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch recall capability"
-msgstr ""
+msgstr "ความสามารถในการเรียกคืนแบบชุด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch selection saved (Stock Reservation disabled in Stock Settings)"
-msgstr ""
+msgstr "การเลือกชุดถูกบันทึกแล้ว (การสำรองสต็อกถูกปิดใช้งานในการตั้งค่าสต็อก)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch selection saved successfully for {0} batch(es)"
-msgstr ""
+msgstr "การเลือกชุดบรรจุภัณฑ์บันทึกสำเร็จสำหรับ {0} ชุด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch {0} created/updated successfully"
-msgstr ""
+msgstr "ชุดข้อมูล {0} สร้าง/อัปเดตเรียบร้อยแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch {0} does not belong to Item {1}"
-msgstr ""
+msgstr "ชุดสินค้า {0} ไม่ได้เป็นของสินค้า {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch {0} has expired on {1}"
-msgstr ""
+msgstr "ชุด {0} หมดอายุเมื่อวันที่ {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -344,6 +351,8 @@ msgid ""
 "Batch {0} has only {1} available (Actual: {2}, Reserved: {3}). Cannot "
 "reserve {4}."
 msgstr ""
+"ชุดสินค้า {0} มีจำนวนเพียง {1} เท่านั้น (จำนวนจริง: {2}, จองไว้: {3}) "
+"ไม่สามารถจองเพิ่ม {4} ได้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -351,11 +360,13 @@ msgid ""
 "Batch {0} has only {1} available (Stock: {2}, Reserved: {3}). Cannot reserve"
 " {4}."
 msgstr ""
+"ชุดสินค้า {0} มีจำนวนพร้อมใช้เพียง {1} (สต็อก: {2}, สำรอง: {3}) "
+"ไม่สามารถสำรองจำนวน {4} ได้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch/Lot No"
-msgstr ""
+msgstr "โบร/เลื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -365,7 +376,7 @@ msgstr "สูตรการผลิต"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Billing Customer"
-msgstr ""
+msgstr "ลูกค้าเรียกเก็บเงิน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -373,56 +384,58 @@ msgid ""
 "Billing customer for all items. All items from this import will be "
 "consolidated into a single SO/SI billed to this customer."
 msgstr ""
+"กำลังเรียกเก็บเงินลูกค้าสำหรับสินค้าทั้งหมด "
+"สินค้าทั้งหมดจากการนำเข้านี้จะถูกรวมเป็นใบสั่งขาย/ใบแจ้งหนี้ใบเดียวที่เรียกเก็บกับลูกค้ารายนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bonus Qty"
-msgstr ""
+msgstr "จำนวน โบนัส (ฟรี)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Both temp and real customer are required"
-msgstr ""
+msgstr "ลูกค้าชั่วคราวและลูกค้าจริงเป็นข้อมูลที่จำเป็นทั้งสองรายการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Both temp and real item codes are required"
-msgstr ""
+msgstr "ต้องระบุรหัสสินค้าแบบชั่วคราวและรหัสสินค้าจริงทั้งสองอย่าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Box Dimensions"
-msgstr ""
+msgstr "ขนาดกล่อง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Box Size (ขนาดกล่อง)"
-msgstr ""
+msgstr "ขนาดกล่อง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Box height in centimeters"
-msgstr ""
+msgstr "ความสูงของกล่องเป็นเซนติเมตร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Box length in centimeters"
-msgstr ""
+msgstr "ความยาวกล่องเป็นเซนติเมตร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Box size description (e.g., Small Box, Medium Box)"
-msgstr ""
+msgstr "คำอธิบายขนาดกล่อง (เช่น กล่องขนาดเล็ก, กล่องขนาดกลาง)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Box weight in kilograms"
-msgstr ""
+msgstr "น้ำหนักกล่องเป็นกิโลกรัม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Box width in centimeters"
-msgstr ""
+msgstr "ความกว้างของกล่องเป็นเซนติเมตร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -432,12 +445,12 @@ msgstr "ยี่ห้อ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "CN"
-msgstr ""
+msgstr "ใบแจ้งหนี้รับคืน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "CN Type"
-msgstr ""
+msgstr "ประเภทใบส่งของ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -457,17 +470,17 @@ msgstr "วันที่ได้รับแผนผังบัญชี"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "COD Amount (ยอดเก็บเงินปลายทาง)"
-msgstr ""
+msgstr "ยอดเงินเก็บปลายทาง (COD Amount)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "CSV File"
-msgstr ""
+msgstr "ไฟล์ CSV"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "CSV file not found: {0}"
-msgstr ""
+msgstr "ไม่พบไฟล์ CSV: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -477,22 +490,22 @@ msgstr "ยกเลิกแล้ว"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot cancel. Please cancel the following Credit Notes first: {0}"
-msgstr ""
+msgstr "ไม่สามารถยกเลิกได้ กรุณายกเลิกใบลดหนี้เครดิตต่อไปนี้ก่อน: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot cancel. Please cancel the following Sales Invoices first: {0}"
-msgstr ""
+msgstr "ไม่สามารถยกเลิกได้ กรุณายกเลิกใบแจ้งหนี้ขายดังต่อไปนี้ก่อน: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot cancel. Please cancel the following Sales Orders first: {0}"
-msgstr ""
+msgstr "ไม่สามารถยกเลิกได้ กรุณายกเลิก {0} Sales Order ก่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot connect to partner system"
-msgstr ""
+msgstr "ไม่สามารถเชื่อมต่อกับระบบพันธมิตรได้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -500,54 +513,59 @@ msgid ""
 "Cannot create Sales Invoice from Credit Note import. Use 'Create Credit "
 "Notes' instead."
 msgstr ""
+"ไม่สามารถสร้างใบกำกับภาษีขายจากการนำเข้าบันทึกเครดิตได้ กรุณาใช้ "
+"'สร้างบันทึกเครดิต' แทน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Cannot delete IP Customer Type '{0}' as it is linked to {1} customer(s)"
 msgstr ""
+"ไม่สามารถลบประเภทลูกค้า IP '{0}' ได้เนื่องจากมีการเชื่อมโยงกับลูกค้า {1} ราย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot reserve {0} {1}. Consignment quantity is only {2} {1}"
-msgstr ""
+msgstr "ไม่สามารถสำรอง {0} {1} ได้ จำนวนสินค้าฝากขายมีเพียง {2} {1} เท่านั้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot reserve {0} {1}. Only {2} {1} remaining to reserve."
 msgstr ""
+"ไม่สามารถสำรอง {0} {1} ได้ มีเพียง {2} {1} ที่เหลือสำหรับสำรองเท่านั้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot reserve {0} {1}. {2} quantity is only {3} {4}"
-msgstr ""
+msgstr "ไม่สามารถสำรอง {0} {1} ได้ จำนวน {2} มีเพียง {3} {4} เท่านั้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot select {0} {1}. Consignment quantity is only {2} {1}"
-msgstr ""
+msgstr "ไม่สามารถเลือก {0} {1} ได้ จำนวนสินค้าฝากขายมีเพียง {2} {1} เท่านั้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot submit. No Sales Orders have been created."
-msgstr ""
+msgstr "ไม่สามารถส่งได้ เนื่องจากยังไม่มีการสร้างใบสั่งขายใดๆ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot submit. Please create Credit Notes first."
-msgstr ""
+msgstr "ไม่สามารถส่งได้ กรุณาสร้างใบลดหนี้ก่อนครับ/ค่ะ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Cannot submit. Please create Sales Orders first by clicking 'Create Sales "
 "Orders' button."
-msgstr ""
+msgstr "ไม่สามารถส่งได้ กรุณาสร้างใบสั่งขายก่อนโดยคลิกปุ่ม 'สร้างใบสั่งขาย'"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cannot submit. Please create Sales Orders or Sales Invoices first."
 msgstr ""
+"ไม่สามารถส่งข้อมูลได้ กรุณาสร้างใบสั่งขายหรือใบแจ้งหนี้ขายก่อนครับ/ค่ะ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -555,6 +573,8 @@ msgid ""
 "Cannot sync Credit Note imports to affiliate. Only INV imports are "
 "supported."
 msgstr ""
+"ไม่สามารถซิงค์การนำเข้าบันทึกเครดิตไปยังบริษัทในเครือได้ "
+"รองรับเฉพาะการนำเข้าใบแจ้งหนี้ (INV) เท่านั้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -564,7 +584,7 @@ msgstr "หมวดหมู่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Category Information"
-msgstr ""
+msgstr "ข้อมูลประเภท"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -574,7 +594,7 @@ msgstr "ชื่อหมวดหมู่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Category Name (Thai)"
-msgstr ""
+msgstr "ชื่อหมวดหมู่ (ภาษาไทย)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -594,17 +614,18 @@ msgstr "เมือง/อำเภอ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cold Chain (2-8°C)"
-msgstr ""
+msgstr "โซ่ความเย็น (2-8°C)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comma-separated district names (e.g., \"District1, District2\")"
-msgstr ""
+msgstr "ชื่ออำเภอคั่นด้วยเครื่องหมายจุลภาค (เช่น \"อำเภอ1, อำเภอ2\")"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comma-separated tags for search (e.g., PO, approval, workflow)"
 msgstr ""
+"แท็กคั่นด้วยเครื่องหมายจุลภาคสำหรับการค้นหา (เช่น PO, การอนุมัติ, กระบวนงาน)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -614,7 +635,7 @@ msgstr "บริษัท"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Company abbreviation not found for {0}"
-msgstr ""
+msgstr "ไม่พบตัวย่อบริษัทสำหรับ {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -629,12 +650,12 @@ msgstr "เสร็จสมบูรณ์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Connection successful to {0}"
-msgstr ""
+msgstr "เชื่อมต่อสำเร็จไปยัง {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Connection timeout"
-msgstr ""
+msgstr "หมดเวลาการเชื่อมต่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -649,7 +670,7 @@ msgstr "จำนวนการบริโภค"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Consumed {0} stock reservation(s)"
-msgstr ""
+msgstr "ใช้สำรองสต็อก {0} รายการแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -674,7 +695,7 @@ msgstr "เบอร์โทรติดต่อ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Contact Phone (เบอร์ติดต่อ)"
-msgstr ""
+msgstr "เบอร์ติดต่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -684,22 +705,22 @@ msgstr "เนื้อหา"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content (English)"
-msgstr ""
+msgstr "เนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content (Thai)"
-msgstr ""
+msgstr "เนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cosmetics"
-msgstr ""
+msgstr "เครื่องสำอาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Could not connect to affiliate server: {0}"
-msgstr ""
+msgstr "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์พันธมิตรได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -707,6 +728,8 @@ msgid ""
 "Could not create Stock Entry. Please check Work Order {0} status and "
 "required items."
 msgstr ""
+"ไม่สามารถสร้างใบสำคัญเบิกสินค้าได้ กรุณาตรวจสอบสถานะใบสั่งงาน {0} "
+"และรายการที่จำเป็น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -721,7 +744,7 @@ msgstr "ประเทศแหล่งกำเนิดสินค้า"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Create template with name: {0}"
-msgstr ""
+msgstr "สร้างแม่แบบชื่อ: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -736,62 +759,63 @@ msgstr "สร้างโดย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created Credit Note {0} for {1}"
-msgstr ""
+msgstr "สร้างใบลดหนี้ {0} สำหรับ {1} แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created Document"
-msgstr ""
+msgstr "สร้างเอกสารแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created Documents"
-msgstr ""
+msgstr "เอกสารที่สร้างแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created Sales Invoice {0} for {1}"
-msgstr ""
+msgstr "สร้างใบแจ้งหนี้ขาย {0} สำหรับ {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created Sales Order or Credit Note document name"
-msgstr ""
+msgstr "ชื่อเอกสารใบสั่งขายหรือใบลดหนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created Sales Order {0} for {1}"
-msgstr ""
+msgstr "สร้างใบสั่งขาย {0} สำหรับ {1} แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created {0} Stock Reservation Entry(s) for {1} batch(es)"
-msgstr ""
+msgstr "สร้างรายการสำรองสต็อก {0} รายการสำหรับชุด {1} ชุด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created {0} reservation(s) (Total: {1} {2})"
-msgstr ""
+msgstr "สร้างการจอง {0} รายการ (รวมทั้งหมด: {1} {2})"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created {0} with {1} items. {2} materials queued for mapping."
 msgstr ""
+"สร้าง {0} พร้อมด้วย {1} รายการแล้ว มีวัสดุ {2} รายการรอการจับคู่ข้อมูลอยู่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Credit Note creation failed: {0}"
-msgstr ""
+msgstr "การสร้างใบลดหนี้ล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Credit Notes (JSON)"
-msgstr ""
+msgstr "บันทึกเครดิต (JSON)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Credit Notes Created"
-msgstr ""
+msgstr "สร้างบันทึกเครดิตแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -819,6 +843,8 @@ msgid ""
 "Customer ID from Excel Column C (Payer) - End User for reconciliation "
 "tracking"
 msgstr ""
+"รหัสลูกค้าจากคอลัมน์ C ใน Excel (ผู้ชำระเงิน) - "
+"ผู้ใช้งานปลายทางสำหรับการติดตามการกระทบยอด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -828,77 +854,77 @@ msgstr "ชื่อลูกค้า"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Customer lookup failed: {0}"
-msgstr ""
+msgstr "การค้นหาลูกค้าไม่สำเร็จ: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Customer was auto-created as temporary (pending reconciliation)"
-msgstr ""
+msgstr "ระบบได้สร้างลูกค้าโดยอัตโนมัติในสถานะชั่วคราว (รอการปรับปรุงข้อมูล)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Customer {0} does not exist"
-msgstr ""
+msgstr "ลูกค้า {0} ไม่ออกออก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Customer {0} is not a temporary customer"
-msgstr ""
+msgstr "ลูกค้า {0} ไม่ได้เป็นลูกค้าสั่ง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Customers Data (JSON)"
-msgstr ""
+msgstr "ข้อมูลลูกค้า (JSON)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Customers Selected"
-msgstr ""
+msgstr "เลือกผู้ขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "DK Material Code Mapping"
-msgstr ""
+msgstr "การจับคู่รหัสวัสดุ DK"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "DK Sales Import"
-msgstr ""
+msgstr "นำเข้าการขาย DK"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "DK Sales Import Item"
-msgstr ""
+msgstr "นำเข้ารายการขาย DK"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "DK Sales Import {0} not found"
-msgstr ""
+msgstr "ไม่พบ DK Sales Import {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "DK Temp Code Reconciliation"
-msgstr ""
+msgstr "การกระทบยอดรหัสชั่วคราว DK"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "DK Unmapped Material Queue"
-msgstr ""
+msgstr "คิววัสดุที่ยังไม่ได้แมป DK"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "DK-IMP-.#####"
-msgstr ""
+msgstr "DK-IMP-.#####"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "DKSH Code {0} is already mapped to Item {1}"
-msgstr ""
+msgstr "รหัส DKSH {0} ถูกเชื่อมโยงกับ สินค้า {1} เรียบร้อยแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Date range is required"
-msgstr ""
+msgstr "จำเป็นต้องระบุช่วงวันที่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -906,6 +932,8 @@ msgid ""
 "Default warehouse for Sales Order items. Auto-fetched from Company's default"
 " source warehouse."
 msgstr ""
+"คลังสินค้าตั้งต้นสำหรับรายการใบสั่งขาย "
+"ดึงข้อมูลโดยอัตโนมัติจากคลังสินค้าต้นทางตั้งต้นของบริษัท"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -925,47 +953,47 @@ msgstr "ใบส่งสินค้า"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Note {0} (Draft) has been deleted"
-msgstr ""
+msgstr "ใบส่งของ {0} (ฉบับร่าง) ได้ถูกลบแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Note {0} added to Inter Express batch {1}"
-msgstr ""
+msgstr "ใบส่งของ {0} ถูกเพิ่มในชุดงาน Inter Express {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Note {0} already exists for this Sales Invoice"
-msgstr ""
+msgstr "ใบส่งของ {0} มีอยู่แล้วสำหรับใบแจ้งหนี้ขายนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Note {0} created automatically (Draft)"
-msgstr ""
+msgstr "ใบส่งของ {0} สร้างโดยอัตโนมัติ (ฉบับร่าง)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Note {0} created automatically from Consignment (Draft)"
-msgstr ""
+msgstr "ใบส่งของ {0} สร้างขึ้นโดยอัตโนมัติจากใบส่งของฝาก (ร่าง)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Note {0} has been cancelled"
-msgstr ""
+msgstr "ใบส่งสินค้า {0} ใช้ยกเลิก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Note {0} is already in Inter Express batch {1}"
-msgstr ""
+msgstr "ใบส่งของ {0} อยู่ในชุด Inter Express {1} แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Notes Count"
-msgstr ""
+msgstr "จำนวนใบส่งของ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Delivery Type (ประเภทการจัดส่ง)"
-msgstr ""
+msgstr "ประเภทการจัดส่ง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -975,12 +1003,12 @@ msgstr "คำอธิบาย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Description (Thai)"
-msgstr ""
+msgstr "คำอธิบาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Destination Customer Code (รหัสลูกค้าปลายทาง)"
-msgstr ""
+msgstr "รหัสลูกค้า (ปลายทาง)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -990,17 +1018,17 @@ msgstr "รายละเอียด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Display Title"
-msgstr ""
+msgstr "ชื่อเรื่องแสดงผล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Display order (lower number shows first)"
-msgstr ""
+msgstr "ลำดับการแสดงผล (ตัวเลขต่ำกว่าจะแสดงก่อน)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Display order within category (lower number shows first)"
-msgstr ""
+msgstr "ลำดับการแสดงผลภายในหมวดหมู่ (ตัวเลขต่ำกว่าจะแสดงก่อน)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1010,7 +1038,7 @@ msgstr "District (อำเภอ/เขต)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "ต้องการดำเนินการต่อหรือไม่?"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1025,17 +1053,17 @@ msgstr "เอกสารอ้างอิง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Document creation failed: {0}"
-msgstr ""
+msgstr "การสร้างเอกสารล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Document name created on affiliate ERPNext server (e.g., SINV-00001)"
-msgstr ""
+msgstr "ชื่อเอกสารที่สร้างบนเซิร์ฟเวอร์ ERPNext สาขาย่อย (เช่น SINV-00001)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Document name is required"
-msgstr ""
+msgstr "ต้องระบุชื่อเอกสาร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1050,12 +1078,12 @@ msgstr "ฉบับร่าง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "ERPNext Customer (mapped from Payer Code)"
-msgstr ""
+msgstr "ลูกค้า ERPNext (แมปจากรหัสผู้ชำระเงิน)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "ERPNext Customer Type"
-msgstr ""
+msgstr "ประเภทลูกค้า ERPNext"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1073,6 +1101,8 @@ msgid ""
 "Either Pick List Item, Sales Order Item, or Sales Invoice Item must be "
 "provided"
 msgstr ""
+"ต้องระบุรายการในรายการเลือก, รายการใบสั่งขาย "
+"หรือรายการใบแจ้งหนี้ขายอย่างใดอย่างหนึ่ง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1082,57 +1112,57 @@ msgstr "การเปิดใช้งาน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "End User"
-msgstr ""
+msgstr "ผู้ใช้ปลายทาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "End User Code"
-msgstr ""
+msgstr "รหัสผู้ใช้ปลายทาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "End User Name"
-msgstr ""
+msgstr "ชื่อผู้ใช้ปลายทาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "End User Reconciliation"
-msgstr ""
+msgstr "การกระทบยอดผู้ใช้งานปลายทาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "End User Reconciliation Report"
-msgstr ""
+msgstr "รายงานการกระทบยอดผู้ใช้งานปลายทาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "End User customer name from ERPNext (for reconciliation reports)"
-msgstr ""
+msgstr "ชื่อลูกค้า End User จาก ERPNext (สำหรับรายงานการกระทบยอด)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "End Users"
-msgstr ""
+msgstr "ผู้ใช้งานปลายทาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Excel File"
-msgstr ""
+msgstr "ไฟล์ Excel"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Exclude All Districts"
-msgstr ""
+msgstr "ยกเว้นทุกเขต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Excluded Districts"
-msgstr ""
+msgstr "สิดรินตัด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Excluded Provinces"
-msgstr ""
+msgstr "จังหวัดที่ยกเว้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1152,42 +1182,42 @@ msgstr "วันหมดอายุ (EXP)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Expiry Date must be after Issue Date"
-msgstr ""
+msgstr "วันที่หมดอายุต้องอยู่หลังวันที่ออกเอกสาร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Expiry Date must be after Manufacturing Date"
-msgstr ""
+msgstr "วันที่หมดอายุต้องอยู่หลังวันที่ผลิต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Expiry date management (FEFO)"
-msgstr ""
+msgstr "การจัดการวันหมดอายุ (FEFO)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Export Date"
-msgstr ""
+msgstr "วันที่ส่งออก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Export Details"
-msgstr ""
+msgstr "รายละเอียดการส่งออก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Export Notes"
-msgstr ""
+msgstr "ส่งออกบันทึก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Exported"
-msgstr ""
+msgstr "ส่งออกแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Exported By"
-msgstr ""
+msgstr "ส่งออกโดย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1197,7 +1227,7 @@ msgstr "ด่วน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "FDA Registration Number"
-msgstr ""
+msgstr "โลวรการเฟรี FDA"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1207,62 +1237,62 @@ msgstr "ล้มเหลว"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to add province: {0}"
-msgstr ""
+msgstr "ไม่สามารถเพิ่มจังหวัดได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to auto-create Delivery Note: {0}"
-msgstr ""
+msgstr "ไม่สามารถสร้างใบส่งของอัตโนมัติได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to generate CSV: {0}"
-msgstr ""
+msgstr "ไม่สามารถสร้างไฟล์ CSV ได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to generate End User report: {0}"
-msgstr ""
+msgstr "ไม่สามารถสร้างรายงานผู้ใช้ปลายทางได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to generate Excel: {0}"
-msgstr ""
+msgstr "ไม่สามารถสร้างไฟล์ Excel ได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to generate PDF: {0}"
-msgstr ""
+msgstr "ไม่สามารถสร้างไฟล์ PDF ได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to get customer preview: {0}"
-msgstr ""
+msgstr "ไม่สามารถดึงตัวอย่างลูกค้าได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to initialize default provinces: {0}"
-msgstr ""
+msgstr "ไม่สามารถเริ่มต้นจังหวัดเริ่มต้นได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to read file: {0}"
-msgstr ""
+msgstr "ไม่สามารถอ่านไฟล์ได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to remove province: {0}"
-msgstr ""
+msgstr "ไม่สามารถลบจังหวัด: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Failed to update province: {0}"
-msgstr ""
+msgstr "ไม่สามารถอัปเดตจังหวัดได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Featured image for article card/header. Supports upload or CDN URL."
-msgstr ""
+msgstr "รูปภาพเด่นสำหรับการ์ด/หัวข้อบทความ รองรับการอัปโหลดหรือ URL จาก CDN"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1278,6 +1308,8 @@ msgstr "ไม่พบไฟล์: {0}"
 #: SPA
 msgid "File parsed successfully. {0} items created from {1} unique customers."
 msgstr ""
+"ไฟล์ถูกแยกวิเคราะห์เรียบร้อยแล้ว สร้างรายการ {0} รายการจากลูกค้า {1} "
+"รายการที่ไม่ซ้ำกัน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1287,12 +1319,12 @@ msgstr "ชื่อไฟล์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Filtered Report - Applied Filters"
-msgstr ""
+msgstr "รายงานที่กรองแล้ว - ตัวกรองที่ใช้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Financial (การเงิน)"
-msgstr ""
+msgstr "Accounting (การบัญชี)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1307,12 +1339,13 @@ msgstr "งบดุลสินค้าสำเร็จรูป"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Finished Goods COA is required before submission"
-msgstr ""
+msgstr "บัญชีแยกประเภทสินค้าสำเร็จรูปจำเป็นต้องมีก่อนการส่งข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "For CN imports: Normal or Unsales (parsed from Type column)"
 msgstr ""
+"สำหรับการนำเข้า CN: ปกติ หรือ ไม่ใช่การขาย (แยกวิเคราะห์จากคอลัมน์ ประเภท)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1320,26 +1353,28 @@ msgid ""
 "For CN imports: Reference invoice number from 'Assignment/Refer Inv.of CN' "
 "column"
 msgstr ""
+"สำหรับการนำเข้า CN: เลขที่ใบแจ้งหนี้อ้างอิงจากคอลัมน์ "
+"'มอบหมาย/อ้างอิงใบแจ้งหนี้ของ CN'"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Found template by fuzzy search: {0}"
-msgstr ""
+msgstr "พบแม่แบบโดยการค้นหาแบบใกล้เคียง: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Found template by title: {0}"
-msgstr ""
+msgstr "พบแม่แบบโดยชื่อเรื่อง: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Found template: {0}"
-msgstr ""
+msgstr "พบแม่แบบ: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Fragile"
-msgstr ""
+msgstr "เปราะบาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1359,7 +1394,7 @@ msgstr "จากวันที่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Frozen (-20°C)"
-msgstr ""
+msgstr "แช่แข็ง (-20°C)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1379,37 +1414,37 @@ msgstr "รหัส GPU"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "GRAND TOTAL"
-msgstr ""
+msgstr "ยอดรวมทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "H1"
-msgstr ""
+msgstr "H1"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "H2"
-msgstr ""
+msgstr "H2"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "H3"
-msgstr ""
+msgstr "H3"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "H4"
-msgstr ""
+msgstr "H4"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "H5"
-msgstr ""
+msgstr "H5"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Hazardous"
-msgstr ""
+msgstr "อันตราย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1419,7 +1454,7 @@ msgstr "ความสูง (ซม.)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Height (สูง ซม.)"
-msgstr ""
+msgstr "ความสูง (ซม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1429,7 +1464,7 @@ msgstr "ภาพฮีโร่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Hospital"
-msgstr ""
+msgstr "โรงพยาบาล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1439,12 +1474,12 @@ msgstr "เข้างาน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "INTEX-.YYYY.-"
-msgstr ""
+msgstr "INTEX-.YYYY.-"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "INV"
-msgstr ""
+msgstr "ใบแจ้งหนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1459,17 +1494,17 @@ msgstr "ที่อยู่จัดส่งลูกค้า IP"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "IP Customer Type"
-msgstr ""
+msgstr "ประเภทลูกค้า IP"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "IP Manual Article"
-msgstr ""
+msgstr "บทความคู่มือ IP"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "IP Manual Category"
-msgstr ""
+msgstr "หมวดหมู่คู่มือ IP"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1487,11 +1522,13 @@ msgid ""
 "If checked, batch validation will be skipped. Use this when batch numbers in"
 " Excel don't exist in the system yet."
 msgstr ""
+"หากเลือก จะข้ามการตรวจสอบชุดสินค้า ใช้เมื่อตัวเลขชุดสินค้าใน Excel "
+"ยังไม่มีอยู่ในระบบ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Import Date"
-msgstr ""
+msgstr "วันที่นำเข้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1501,18 +1538,19 @@ msgstr "ประเภทการนำเข้า"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Import Type (Raw)"
-msgstr ""
+msgstr "ประเภทการนำเข้า (ดิบ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Import type not detected. Please re-parse the Excel file. Current type: {0}"
 msgstr ""
+"ไม่พบประเภทการนำเข้า กรุณาวิเคราะห์ไฟล์ Excel ใหม่ ประเภทปัจจุบัน: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Importing"
-msgstr ""
+msgstr "กำลังนำเข้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1537,52 +1575,52 @@ msgstr "Inpac Pharma"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Insurance Amount (วงเงินประกันสินค้า)"
-msgstr ""
+msgstr "จำนวนเงินประกัน (วงเงินประกันสินค้า)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Inter Express Box Size"
-msgstr ""
+msgstr "ขนาดกล่อง Inter Express"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Inter Express Delivery"
-msgstr ""
+msgstr "อินเทอร์ เอ็กซ์เพรส เดลิเวอรี่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Inter Express Delivery Item"
-msgstr ""
+msgstr "ไอเท็มจัดส่งด่วน Inter Express"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Inter Express Excluded Province"
-msgstr ""
+msgstr "จังหวัดที่ไม่รวมใน Inter Express"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Inter Express Export"
-msgstr ""
+msgstr "อินเทอร์ เอ็กซ์เพรส เอ็กซ์พอร์ต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Inter Express Settings"
-msgstr ""
+msgstr "การตั้งค่า Inter Express"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Inter Express Warehouse"
-msgstr ""
+msgstr "อินเทอร์ เอ็กซ์เพรส โกดังสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Inter Express integration is not enabled for this company"
-msgstr ""
+msgstr "การเชื่อมต่อ Inter Express ยังไม่ได้เปิดใช้งานสำหรับบริษัทนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Internal"
-msgstr ""
+msgstr "ภายใน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1592,17 +1630,17 @@ msgstr "ไม่ถูกต้อง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Invalid Material Request Item {0} for Material Request {1}"
-msgstr ""
+msgstr "รายการขอวัสดุ {0} ไม่ถูกต้องสำหรับคำขอวัสดุ {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Invalid file URL: {0}"
-msgstr ""
+msgstr "URL ไฟล์ไม่ถูกต้อง: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Invoice {0} marked as reconciled"
-msgstr ""
+msgstr "ใบแจ้งหนี้ {0} ถูกทำเครื่องหมายว่าได้กระทบยอดแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1627,7 +1665,7 @@ msgstr "\\0e2a\\0e34\\0e19\\0e04\\0e49\\0e32"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Item & Batch Details"
-msgstr ""
+msgstr "รายละเอียดสินค้าและล็อต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1637,7 +1675,7 @@ msgstr "รหัสสินค้า"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Item Code (ERPNext)"
-msgstr ""
+msgstr "รหัสสินค้า (ERPNext)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1647,12 +1685,12 @@ msgstr "รหัสสินค้าและผู้จำหน่ายเ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Item Code and Warehouse are required"
-msgstr ""
+msgstr "รหัสสินค้าและคลังสินค้าจำเป็นต้องระบุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Item Codes"
-msgstr ""
+msgstr "รหัสสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1668,6 +1706,7 @@ msgstr "ชื่อสินค้า"
 #: SPA
 msgid "Item was auto-created as temporary (pending reconciliation)"
 msgstr ""
+"รายการถูกสร้างขึ้นโดยอัตโนมัติเป็นแบบชั่วคราว (รอดำเนินการปรับปรุงบัญชี)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1677,12 +1716,12 @@ msgstr "รายการที่ {0} ไม่อยู่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Item {0} from {1} is fully ordered. Skipping."
-msgstr ""
+msgstr "{0} จาก {1} ได้รับการสั่งซื้อครบถ้วนแล้ว กำลังข้ามขั้นตอนนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Item {0} is not a temporary item"
-msgstr ""
+msgstr "สินค้า {0} ไม่ว่ายสินปียก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1696,6 +1735,8 @@ msgid ""
 "\"customer_name\": \"...\", \"credit_note\": \"SINV-00001\", \"reference\": "
 "\"...\"}]"
 msgstr ""
+"JSON หลือเกลิง Credit Note ค่างสร้าง: [{\"ลูกค้า\": \"...\", \"ลูกค้าชื่อ\":"
+" \"...\", \"credit_note\": \"SINV-00001\", \"วันที่\": \"...\"}]"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1703,6 +1744,8 @@ msgid ""
 "JSON array of created Sales Invoices (direct creation): [{\"customer\": "
 "\"...\", \"customer_name\": \"...\", \"sales_invoice\": \"SINV-00001\"}]"
 msgstr ""
+"JSON ออกในใหม่ขายแจ้งหนี้ขาย ออกใน (เกิ่งขายเครื่อ): [{\"ลูกค้\": \"...\", "
+"\"ลูกค้าชอ\": \"...\", \"ใบแจ้งหนี้\": \"SINV-00001\"}]"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1710,6 +1753,8 @@ msgid ""
 "JSON array of created Sales Orders: [{\"customer\": \"...\", "
 "\"customer_name\": \"...\", \"sales_order\": \"SO-00001\"}]"
 msgstr ""
+"JSON ออกสินขายสั่งขายซื้อ: [{\"ลูกค้า\": \"...\", \"ลูกค้าชื่อ\": \"...\", "
+"\"ใบสั่งขาย\": \"SO-00001\"}]"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1717,13 +1762,15 @@ msgid ""
 "JSON array of customer data for preview: [{\"payer_code\": \"...\", "
 "\"customer\": \"...\", \"customer_name\": \"...\", \"item_count\": 5}]"
 msgstr ""
+"JSON อาร์เรย์ของข้อมูลลูกค้าสำหรับดูตัวอย่าง: [{\"payer_code\": \"...\", "
+"\"customer\": \"...\", \"customer_name\": \"...\", \"item_count\": 5}]"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "JSON format for Thai Business Suite batch selections: [{\"batch_no\": "
 "\"...\", \"qty\": ..., \"warehouse\": \"...\"}]"
-msgstr ""
+msgstr "[{\"batch_no\": \"...\", \"qty\": ..., \"warehouse\": \"...\"}]"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1763,27 +1810,27 @@ msgstr "ความยาว (ซม.)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Length (ยาว ซม.)"
-msgstr ""
+msgstr "ความยาว (ซม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "License Code"
-msgstr ""
+msgstr "รหัสใบอนุญาต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "License Description"
-msgstr ""
+msgstr "คำอธิบายใบอนุญาต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "License Information"
-msgstr ""
+msgstr "ข้อมูลใบอนุญาต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "License Name (Thai)"
-msgstr ""
+msgstr "ชื่อใบอนุญาต (ภาษาไทย)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1793,7 +1840,7 @@ msgstr "ใบอนุญาตเลขที่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "License Scan/Document"
-msgstr ""
+msgstr "สแกนใบอนุญาต/เอกสาร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1803,12 +1850,12 @@ msgstr "ประเภทใบอนุญาต"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "License {0} is expiring soon on {1}"
-msgstr ""
+msgstr "ใบอนุญาต {0} กำลังจะหมดอายุในวันที่ {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Link to related DocType for context help"
-msgstr ""
+msgstr "ลิงก์ไปยัง DocType ที่เกี่ยวข้องสำหรับความช่วยเหลือบริบท"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1838,7 +1885,7 @@ msgstr "ผู้ผลิต"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Manufacturer Details"
-msgstr ""
+msgstr "รายละเอียดผู้ผลิต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1883,7 +1930,7 @@ msgstr "ใบสั่งผลิต วัตถุดิบ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Manufacturing Order Sync Failed"
-msgstr ""
+msgstr "การซิงค์ใบสั่งผลิตล้มเหลว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1893,93 +1940,96 @@ msgstr "ผู้ใช้การผลิต"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Mapped"
-msgstr ""
+msgstr "แมปแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Mapped Item"
-msgstr ""
+msgstr "รายการที่แมปแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Mapped Item Code (may be empty if material code not yet mapped)"
-msgstr ""
+msgstr "รหัสสินค้าเชื่อมโยง (อาจเว้นว่างไว้หากยังไม่ได้เชื่อมโยงรหัสวัสดุ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Maps to ERPNext standard customer_type field for tax/legal classification"
 msgstr ""
+"แมปไปยังฟิลด์ customer_type มาตรฐานของ ERPNext สำหรับการจัดประเภทภาษี/กฎหมาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Mark as default option for new customers"
-msgstr ""
+msgstr "ตั้งเป็นตัวเลือกเริ่มต้นสำหรับลูกค้าใหม่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Marks this as a temporary mapping pending reconciliation"
-msgstr ""
+msgstr "ทำเครื่องหมายนี้เป็นการจับคู่ชั่วคราวรอการกระทบยอด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material Code"
-msgstr ""
+msgstr "รหัสวัสดุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material Code (External)"
-msgstr ""
+msgstr "รหัสวัสดุ (ภายนอก)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material Code {0} already exists in another mapping"
-msgstr ""
+msgstr "รหัสวัสดุ {0} มีอยู่แล้วในแผนผังอื่น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material Codes"
-msgstr ""
+msgstr "รหัสวัสดุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material Name"
-msgstr ""
+msgstr "ชื่อวัสดุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material Request {0} is not of type 'Purchase'"
-msgstr ""
+msgstr "คำขอวัสดุ {0} ไม่ใช่ประเภท 'การซื้อ'"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material Request {0} is not submitted"
-msgstr ""
+msgstr "ใบขอเบิกวัสดุ {0} ยังไม่ได้ส่งแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material Request {0} is {1}"
-msgstr ""
+msgstr "คำขอวัสดุ {0} อยู่ในสถานะ {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material code is required"
-msgstr ""
+msgstr "รหัสวัตถุดิบเป็นข้อมูลที่จำเป็น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Material code {0} mapped to {1}. {2} queue items resolved."
 msgstr ""
+"รหัสวัสดุ {0} ถูกแมปไปยัง {1} แล้ว รายการคิว {2} "
+"รายการได้รับการแก้ไขเรียบร้อยแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Medical Devices"
-msgstr ""
+msgstr "อุปกรณ์การแพทย์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Medicine"
-msgstr ""
+msgstr "ยา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1987,27 +2037,30 @@ msgid ""
 "Mixed INV and CN types not allowed in the same file. Please separate Invoice"
 " and Credit Note data into different files. Types found: {0}"
 msgstr ""
+"ไม่อนุญาตให้มีประเภทใบกำกับภาษีขายและใบลดหนี้ผสมกันในไฟล์เดียว "
+"กรุณาแยกข้อมูลใบกำกับภาษีขายและใบลดหนี้ออกเป็นไฟล์ต่างหาก ประเภทที่พบ: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Modified At"
-msgstr ""
+msgstr "แก้ไขเมื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Multiple Customers found with ID: {0}. Please ensure unique customer IDs."
 msgstr ""
+"พบลูกค้าหลายรายที่มีรหัส: {0} กรุณาตรวจสอบให้แน่ใจว่ารหัสลูกค้าไม่ซ้ำกัน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Multiple templates found for {0} in {1}"
-msgstr ""
+msgstr "พบแม่แบบหลายรายการสำหรับ {0} ใน {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Multiple templates found matching {0}"
-msgstr ""
+msgstr "พบแม่แบบหลายรายการที่ตรงกับ {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2027,97 +2080,103 @@ msgstr "ชื่อ ความสำคัญ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Net Sales (from Excel)"
-msgstr ""
+msgstr "ยอดขายสุทธิ (จาก Excel)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "New Delivery Note"
-msgstr ""
+msgstr "บันทึกส่งมอบใหม่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "New Delivery Note Created: {0}"
-msgstr ""
+msgstr "สร้างใบส่งสินค้าภริบทร์ใหม่: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "New Delivery Note {0} created for {1}"
-msgstr ""
+msgstr "สร้างใบส่งของใหม่ {0} สำหรับ {1} แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No Material Requests selected"
-msgstr ""
+msgstr "ไม่ได้เลือกคำขอวัสดุใดๆ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No Stock Reservation Entries created. Check error log for details."
 msgstr ""
+"ยังไม่มีการสร้างรายการสำรองสต็อก "
+"กรุณาตรวจสอบบันทึกข้อผิดพลาดสำหรับรายละเอียดเพิ่มเติม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No active Customer found with ID: {0}"
-msgstr ""
+msgstr "ไม่พบลูกค้าใช้งานที่มีรหัส: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No active reservations found"
-msgstr ""
+msgstr "ไม่พบการจองที่ใช้งานอยู่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No approved Manufacturing Order found for batch {0}"
-msgstr ""
+msgstr "ไม่พบใบสั่งผลิตที่ได้รับการอนุมัติสำหรับชุด {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No customers selected. Please select customers first."
-msgstr ""
+msgstr "ยังไม่ได้เลือกผู้ขาย กรุณาเลือกผู้ขายก่อนค่ะ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No items to validate. Please parse Excel file first."
-msgstr ""
+msgstr "ไม่มีรายการให้ตรวจสอบ กรุณาแยกวิเคราะห์ไฟล์ Excel ก่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No items with valid Item mapping. {0} materials queued for mapping."
 msgstr ""
+"ไม่มีรายการที่มีการจับคู่ Item ที่ถูกต้อง {0} วัสดุอยู่ในคิวสำหรับการจับคู่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No mappings provided"
-msgstr ""
+msgstr "ไม่มีการกำหนดการจับคู่ข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No tax template found for {0} in company {1}. Expected name: {2}"
-msgstr ""
+msgstr "ไม่พบแม่แบบภาษีสำหรับ {0} ในบริษัท {1} ชื่อที่คาดหวัง: {2}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No tax template needed for {0}"
-msgstr ""
+msgstr "ไม่จำเป็นต้องใช้แม่แบบภาษีสำหรับ {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No valid items to add to Purchase Order"
-msgstr ""
+msgstr "ไม่มีรายการที่ถูกต้องสำหรับเพิ่มในใบสั่งซื้อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No valid items to create Credit Note. Please validate first."
 msgstr ""
+"ไม่มีรายการที่ถูกต้องสำหรับสร้างใบลดหนี้ กรุณาตรวจสอบความถูกต้องก่อนค่ะ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No valid items to create Sales Order. Please validate first."
 msgstr ""
+"ไม่มีรายการที่ถูกต้องสำหรับสร้างใบสั่งขาย "
+"กรุณาตรวจสอบความถูกต้องก่อนดำเนินการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No valid items to sync. Please validate first."
-msgstr ""
+msgstr "ไม่มีรายการที่ถูกต้องสำหรับการซิงค์ กรุณาตรวจสอบความถูกต้องก่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2127,7 +2186,7 @@ msgstr "ปกติ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Not Synced"
-msgstr ""
+msgstr "ยังไม่ได้ซิงค์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2137,32 +2196,32 @@ msgstr "หมายเหตุ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Notification failed: {0}"
-msgstr ""
+msgstr "การแจ้งเตือล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Number of Credit Notes created"
-msgstr ""
+msgstr "จำนวนใบลดหนี้ที่สร้างขึ้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Number of Sales Invoices created directly"
-msgstr ""
+msgstr "จำนวนใบกำกับภาษีขายที่สร้างโดยตรง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Number of Sales Orders created"
-msgstr ""
+msgstr "จำนวนใบสั่งขายที่สร้างขึ้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Number of customers selected for Sales Order creation"
-msgstr ""
+msgstr "จำนวนลูกค้าที่เลือกสำหรับการสร้างใบสั่งขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Number of unique Payers/Customers found in Excel"
-msgstr ""
+msgstr "จำนวนผู้ชำระเงิน/ลูกค้าเฉพาะที่พบใน Excel"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2170,6 +2229,7 @@ msgid ""
 "Original Type value from Excel (e.g., 'INV Normal', 'CN Normal', 'CN "
 "Unsales')"
 msgstr ""
+"ค่าประเภทต้นฉบับจาก Excel (เช่น 'INV Normal', 'CN Normal', 'CN Unsales')"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2184,27 +2244,27 @@ msgstr "ไฟล์ PDF ของบันทึกการผลิตฉบ�
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Package Count (จำนวน Pkg)"
-msgstr ""
+msgstr "จำนวนแพ็กเกจ (Package Count)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Parse failed: {0}"
-msgstr ""
+msgstr "การวิเคราะห์ล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Parsed"
-msgstr ""
+msgstr "วิเคราะห์แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Parsed At"
-msgstr ""
+msgstr "วิเคราะห์เมื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Parsing Log"
-msgstr ""
+msgstr "บันทึกการวิเคราะห์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2219,12 +2279,12 @@ msgstr "ผ่านไป"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Payer Code"
-msgstr ""
+msgstr "รหัสผู้ชำระเงิน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Payer code is required"
-msgstr ""
+msgstr "รหัสผู้ชำระเงินเป็นข้อมูลที่จำเป็นต้องระบุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2234,7 +2294,7 @@ msgstr "รอดำเนินการ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Pending Renewal"
-msgstr ""
+msgstr "รอต่ออายุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2242,11 +2302,13 @@ msgid ""
 "Percentage applied to Transfer Price Sum for rate calculation. Formula: Rate"
 " = (Transfer Price Sum × Rate%) / Total Qty"
 msgstr ""
+"เปอร์เซ็นต์ที่ใช้กับผลรวมราคาย้ายเพื่อคำนวณอัตรา สูตร: อัตรา = "
+"(ผลรวมราคาย้าย × เปอร์เซ็นต์อัตรา) / ปริมาณรวม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Pharmaceutical Business License"
-msgstr ""
+msgstr "ใบอนุญาตประกอบธุรกิจเภสัชกรรม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2269,12 +2331,12 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Pharmaceutical traceability and compliance"
-msgstr ""
+msgstr "การติดตามย้อนกลับและการปฏิบัติตามข้อกำหนดในอุตสาหกรรมยา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Pharmacy"
-msgstr ""
+msgstr "ร้านขายยา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2284,12 +2346,12 @@ msgstr "เลือกรายการ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Pick List Item Row"
-msgstr ""
+msgstr "แถวรายการรายการเลือก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Pick List Item row name"
-msgstr ""
+msgstr "ชื่อแถวรายการรายการเลือก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2299,42 +2361,42 @@ msgstr "การวางแผน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Please attach an Excel or CSV file first"
-msgstr ""
+msgstr "กรุณาแนบไฟล์ Excel หรือ CSV ก่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Please parse and validate items first"
-msgstr ""
+msgstr "กรุณาวิเคราะห์และตรวจสอบรายการก่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Please parse the import file first"
-msgstr ""
+msgstr "กรุณาวิเคราะห์ไฟล์นำเข้าก่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Please select a batch number for each item before submitting."
-msgstr ""
+msgstr "กรุณาเลือกหมายเลขชุดสำหรับแต่ละรายการก่อนส่งข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Please select at least one batch"
-msgstr ""
+msgstr "กรุณาเลือกชุดข้อมูลอย่างน้อยหนึ่งชุด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Please select at least one batch with quantity > 0"
-msgstr ""
+msgstr "กรุณาเลือกชุดสินค้าอย่างน้อยหนึ่งชุดที่มีจำนวน > 0"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Please set the Affiliate Customer (billing customer) first"
-msgstr ""
+msgstr "กรุณากำหนด ลูกค้าในเครือข่าย (ลูกค้าผู้เรียกเก็บเงิน) ก่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Please validate items first"
-msgstr ""
+msgstr "กรุณาตรวจสอบรายการก่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2354,12 +2416,12 @@ msgstr "ที่อยู่หลัก"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Primary License"
-msgstr ""
+msgstr "ใบอนุญาตหลัก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Processing Details"
-msgstr ""
+msgstr "รายละเอียดการประมวลผล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2369,27 +2431,27 @@ msgstr "จำนวนที่ผลิต"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Product Description (รายละเอียดสินค้า)"
-msgstr ""
+msgstr "รายละเอียดสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Product Details"
-msgstr ""
+msgstr "รายละเอียดสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Product Details (ข้อมูลสินค้า)"
-msgstr ""
+msgstr "รายละเอียดสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Product Model (รุ่นสินค้า)"
-msgstr ""
+msgstr "รุ่นสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Product Type (ประเภทสินค้า)"
-msgstr ""
+msgstr "ประเภทสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2404,12 +2466,12 @@ msgstr "Province (จังหวัด)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Province Exclusion Settings"
-msgstr ""
+msgstr "การตั้งค่าการยกเว้นจังหวัด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Province Name (จังหวัด)"
-msgstr ""
+msgstr "ชื่อจังหวัด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2417,16 +2479,18 @@ msgid ""
 "Province exclusions already initialized. Use province management UI to "
 "modify."
 msgstr ""
+"การยกเว้นจังหวัดได้ถูกกำหนดค่าเริ่มต้นแล้ว "
+"กรุณาใช้ส่วนติดต่อผู้ใช้การจัดการจังหวัดเพื่อแก้ไขข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Province record {0} not found"
-msgstr ""
+msgstr "ไม่พบระเบียนจังหวัด {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Province {0} is already in the exclusion list"
-msgstr ""
+msgstr "จังหวัด {0} อยู่ในรายการยกเว้นแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2434,6 +2498,8 @@ msgid ""
 "Provinces to exclude from Inter Express delivery. Items from these provinces"
 " will not appear in the warehouse list."
 msgstr ""
+"จังหวัดที่ไม่รวมในการจัดส่ง Inter Express "
+"สินค้าจากจังหวัดเหล่านี้จะไม่แสดงในรายการคลังสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2463,12 +2529,12 @@ msgstr "สถานะ QC"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "QC Status is not 'Passed' for batch {0}"
-msgstr ""
+msgstr "สถานะ QC ไม่ใช่ 'ผ่าน' สำหรับชุด {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "QC Status must be 'Passed' before submission"
-msgstr ""
+msgstr "สถานะ QC ต้องเป็น 'ผ่าน' ก่อนส่งข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2493,7 +2559,7 @@ msgstr "การควบคุมคุณภาพและใบรับร
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Quality control tracking"
-msgstr ""
+msgstr "การติดตามการควบคุมคุณภาพ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2503,12 +2569,12 @@ msgstr "ปริมาณ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Quantity & Amount"
-msgstr ""
+msgstr "ปริมาณและจำนวนเงิน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Quantity Details"
-msgstr ""
+msgstr "รายละเอียดจำนวน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2523,17 +2589,17 @@ msgstr "อัตรา/ราคา"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Rate (97%)"
-msgstr ""
+msgstr "อัตรา (97%)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Rate = (Transfer Price Sum × 0.97) / Total Qty"
-msgstr ""
+msgstr "อัตรา = (ผลรวมราคาย้าย × 0.97) / ปริมาณรวม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Rate Percentage"
-msgstr ""
+msgstr "อัตราร้อยละ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2553,13 +2619,14 @@ msgstr "แผนผังบัญชีวัตถุดิบ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Raw Materials & Batch Selection"
-msgstr ""
+msgstr "วัตถุดิบดิบและการเลือกชุดผลิต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Raw Type values found in Excel (e.g., 'INV Normal', 'CN Normal, CN Unsales')"
 msgstr ""
+"ค่าประเภทดิบที่พบใน Excel (เช่น 'INV ปกติ', 'CN ปกติ, CN ยกเลิกการขาย')"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2569,32 +2636,32 @@ msgstr "พร้อมแล้ว"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Recipient Details (ข้อมูลผู้รับ)"
-msgstr ""
+msgstr "รายละเอียดผู้รับ (Recipient Details)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Recipient Name/Company (ชื่อผู้รับ/บริษัท)"
-msgstr ""
+msgstr "ชื่อผู้รับ/บริษัท"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Recommended naming pattern: {0} - {1}"
-msgstr ""
+msgstr "รูปแบบการตั้งชื่อที่แนะนำ: {0} - {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Reference Invoice"
-msgstr ""
+msgstr "ใบอ้างอิงใบแจ้งหนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Reference Number (เลขที่อ้างอิง)"
-msgstr ""
+msgstr "Reference Number (เลขที่อ้างอิง)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Refrigerated"
-msgstr ""
+msgstr "แช่เย็น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2609,7 +2676,7 @@ msgstr "จำนวนปฏิเสธ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Related DocType"
-msgstr ""
+msgstr "DocType ที่เกี่ยวข้อง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2619,12 +2686,12 @@ msgstr "ปล่อยแล้ว"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Released {0} reservation(s) for {1}"
-msgstr ""
+msgstr "ปล่อยการจอง {0} รายการสำหรับ {1} แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Released {0} stock reservation(s)"
-msgstr ""
+msgstr "ปล่อยการจองสินค้า {0} รายการแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2649,12 +2716,12 @@ msgstr "จำนวนที่ต้องการ (จาก BOM)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Required columns not found: {0}. Available columns: {1}"
-msgstr ""
+msgstr "ไม่พบคอลัมน์ที่จำเป็น: {0} คอลัมน์ที่มีอยู่: {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Reservation Date"
-msgstr ""
+msgstr "วันที่ ระบรราค"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2674,7 +2741,7 @@ msgstr "ความละเอียด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Resolved At"
-msgstr ""
+msgstr "แก้ไขเมื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2689,58 +2756,59 @@ msgstr "เพิกถอน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Row #{0}: <strong>{1}</strong> ({2}) - Qty: {3} {4}"
-msgstr ""
+msgstr "แถวที่ #{0}: <strong>{1}</strong> ({2}) - จำนวน: {3} {4}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Row {0}: Available quantity {1} is less than required {2} for batch {3}"
 msgstr ""
+"แถว {0}: จำนวนที่มีอยู่ {1} น้อยกว่าที่ต้องการ {2} สำหรับชุดสินค้า {3}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Row {0}: Batch {1} does not belong to Item {2}"
-msgstr ""
+msgstr "แถว {0}: ชุดสินค้า {1} ไม่ได้เป็นของสินค้า {2}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Row {0}: Batch {1} has expired on {2}"
-msgstr ""
+msgstr "แถว {0}: ชุดสินค้า {1} หมดอายุเมื่อวันที่ {2}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Row {0}: Please select batch for {1}"
-msgstr ""
+msgstr "แถว {0}: กรุณาเลือกชุดสำหรับ {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "S1"
-msgstr ""
+msgstr "S1"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "S2"
-msgstr ""
+msgstr "S2"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "S3"
-msgstr ""
+msgstr "S3"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "S4"
-msgstr ""
+msgstr "S4"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "S5"
-msgstr ""
+msgstr "S5"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "SUBTOTAL"
-msgstr ""
+msgstr "ยอดรวมย่อย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2750,37 +2818,37 @@ msgstr "ใบแจ้งหนี้ขาย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Invoice (เลขที่ใบแจ้งหนี้)"
-msgstr ""
+msgstr "ใบแจ้งหนี้ (ชีหมดชี)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Invoice Item Row"
-msgstr ""
+msgstr "แถวรายการใบแจ้งหนี้ขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Invoice Item row name"
-msgstr ""
+msgstr "ชื่อแถวรายการใบกำกับภาษีขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Invoice creation failed: {0}"
-msgstr ""
+msgstr "การสร้างใบกำกับภาษีขายล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Invoice {0} not found"
-msgstr ""
+msgstr "ไม่พบใบกำกับภาษีขาย {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Invoices (JSON)"
-msgstr ""
+msgstr "ใบกำกับภาษีขาย (JSON)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Invoices Created"
-msgstr ""
+msgstr "สร้างใบแจ้งหนี้ขายแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2795,37 +2863,37 @@ msgstr "ใบสั่งขาย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Order Created"
-msgstr ""
+msgstr "สร้างใบสั่งขายแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Order Item Row"
-msgstr ""
+msgstr "แถวรายการใบสั่งขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Order Item row name"
-msgstr ""
+msgstr "ชื่อแถวรายการใบสั่งขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Order creation failed: {0}"
-msgstr ""
+msgstr "การสร้างใบสั่งขายล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Orders (JSON)"
-msgstr ""
+msgstr "ใบสั่งขาย (JSON)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Orders Created"
-msgstr ""
+msgstr "ใบสั่งขายที่สร้างขึ้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sales Qty"
-msgstr ""
+msgstr "จำนวนขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2845,12 +2913,12 @@ msgstr "หมายเลขชุดที่เลือก (ล็อต)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Selected for SO"
-msgstr ""
+msgstr "เลือกสำหรับใบสั่งขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Selection failed: {0}"
-msgstr ""
+msgstr "การเลือกล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2865,12 +2933,12 @@ msgstr "ลำดับชุด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Service Configuration (การบริการ)"
-msgstr ""
+msgstr "การกำหนดค่าบริการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Service Type (ประเภทบริการ)"
-msgstr ""
+msgstr "ประเภทบริการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2885,7 +2953,7 @@ msgstr "อายุการใช้งาน (เดือน)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Shipping Details (ข้อมูลการจัดส่ง)"
-msgstr ""
+msgstr "รายละเอียดการจัดส่ง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2895,12 +2963,12 @@ msgstr "แสดงรายการที่ถูกยกเลิก"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Size Code"
-msgstr ""
+msgstr "รหัสขนาด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Skip Batch Validation"
-msgstr ""
+msgstr "ข้ามการตรวจสอบชุดข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2910,12 +2978,12 @@ msgstr "ข้ามไป"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Source Import"
-msgstr ""
+msgstr "นำเข้าข้อมูลต้นทาง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Source Information"
-msgstr ""
+msgstr "ข้อมูลแหล่งที่มา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2925,7 +2993,7 @@ msgstr "คลังสินค้าที่มา"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Special Instructions (คำสั่งพิเศษ)"
-msgstr ""
+msgstr "คำสั่งพิเศษ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2945,7 +3013,7 @@ msgstr "ปริมาณชุดมาตรฐาน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Standard box size code (A, B, C, etc.)"
-msgstr ""
+msgstr "รหัสขนาดกล่องมาตรฐาน (A, B, C, ฯลฯ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2955,12 +3023,12 @@ msgstr "สถานะ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Status & Date"
-msgstr ""
+msgstr "สถานะ & วันที่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Status of data sync to affiliate ERPNext server"
-msgstr ""
+msgstr "สถานะการซิงค์ข้อมูลไปยังเซิร์ฟเวอร์ ERPNext สาขา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2970,7 +3038,7 @@ msgstr "การจองสต็อก"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Stock Reservation Entry {0} created with {1} batch(es)"
-msgstr ""
+msgstr "รายการสำรองสต็อก {0} ถูกสร้างขึ้นพร้อมด้วยชุดสินค้า {1} ชุด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2980,32 +3048,32 @@ msgstr "หุ้นผู้ใช้"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sub-district (ตำบล/แขวง)"
-msgstr ""
+msgstr "ตำบล/แขวง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Successfully added {0} to exclusion list"
-msgstr ""
+msgstr "เพิ่ม {0} ลงในรายการยกเว้นเรียบร้อยแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Successfully initialized {0} default excluded provinces"
-msgstr ""
+msgstr "เริ่มต้นจังหวัดที่ยกเว้นค่าเริ่มต้น {0} สำเร็จแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Successfully removed province from exclusion list"
-msgstr ""
+msgstr "ลบจังหวัดออกจากรายการยกเว้นเรียบร้อยแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Successfully synced to {0}. Created: {1}"
-msgstr ""
+msgstr "ซิงค์สำเร็จไปยัง {0} สร้างเมื่อ: {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Successfully updated province exclusion"
-msgstr ""
+msgstr "อัปเดตการยกเว้นจังหวัดสำเร็จแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3015,12 +3083,12 @@ msgstr "สรุป"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Summary - All End Users"
-msgstr ""
+msgstr "สรุป - ผู้ใช้งานทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Supplements"
-msgstr ""
+msgstr "อาหารเสริม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3030,7 +3098,7 @@ msgstr "ผู้จำหน่าย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Supplier FDA Registration"
-msgstr ""
+msgstr "การลงทะเบียน FDA ของผู้จำหน่าย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3054,7 +3122,7 @@ msgstr "ลิงก์ผู้จำหน่ายผู้ผลิต"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Supplier Mismatch Warning"
-msgstr ""
+msgstr "คำเตือนความไม่ตรงกันของผู้จำหน่าย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3074,7 +3142,7 @@ msgstr "ที่ถูกระงับ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sync Response"
-msgstr ""
+msgstr "การตอบสนองการซิงค์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3084,32 +3152,32 @@ msgstr "สถานะการซิงค์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sync failed: {0}"
-msgstr ""
+msgstr "การซิงค์ล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sync is not enabled"
-msgstr ""
+msgstr "การซิงค์ยังไม่ได้เปิดใช้งาน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Sync is not enabled or API URL not configured"
-msgstr ""
+msgstr "การซิงค์ยังไม่ได้เปิดใช้งานหรือยังไม่ได้ตั้งค่า URL ของ API"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Synced"
-msgstr ""
+msgstr "ซิงค์แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Synced At"
-msgstr ""
+msgstr "ซิงค์เมื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Synced {0} mappings ({1} failed), {2} customers ({3} failed)"
-msgstr ""
+msgstr "ซิงค์แผนที่ {0} รายการ ({1} ล้มเหลว), ลูกค้า {2} รายการ ({3} ล้มเหลว)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3124,7 +3192,7 @@ msgstr "รหัส TM"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "TOTAL for"
-msgstr ""
+msgstr "รวมทั้งหมดสำหรับ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3144,47 +3212,47 @@ msgstr "คลังเป้าหมาย (สินค้าสำเร็�
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temp Customer"
-msgstr ""
+msgstr "ลูกค้าชั่วคราว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temp Item"
-msgstr ""
+msgstr "สินค้าชั่วคราว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temp code creation started in background"
-msgstr ""
+msgstr "เริ่มสร้างรหัสชั่วคราวในพื้นหลังแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temp customer {0} not found"
-msgstr ""
+msgstr "ไม่พบลูกค้าชั่วคราว {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temp customer {0} reconciled to {1}"
-msgstr ""
+msgstr "ลูกค้าชั่วคราว {0} ได้กระทบยอดกับ {1} แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temp item {0} not found"
-msgstr ""
+msgstr "ไม่พบรายการชั่วคราว {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temp item {0} reconciled to {1}"
-msgstr ""
+msgstr "รายการชั่วคราว {0} ได้กระทบยอดกับ {1} แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temperature Type (ประเภทอุณหภูมิ)"
-msgstr ""
+msgstr "ประเภทอุณหภูมิ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Temporary Mapping"
-msgstr ""
+msgstr "การจับคู่ชั่วคราว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3192,6 +3260,8 @@ msgid ""
 "Test notification sent successfully.<br>Email: {0} sent<br>Realtime: {1} "
 "sent"
 msgstr ""
+"ทดสอบการแจ้งเตือนส่งสำเร็จแล้ว<br>อีเมล: {0} ฉบับส่งแล้ว<br>เรียลไทม์: {1} "
+"ฉบับส่งแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3201,27 +3271,27 @@ msgstr "สริบทริบสารการเฟลคาร"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Thai translation of the content"
-msgstr ""
+msgstr "การแปลภาษาไทยของเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Thai zipcode data file not found"
-msgstr ""
+msgstr "ไม่พบไฟล์ข้อมูลรหัสไปรษณีย์ไทย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "The following items are not linked to supplier {0}:"
-msgstr ""
+msgstr "รายการต่อไปนี้ไม่ได้เชื่อมโยงกับผู้จำหน่าย {0}:"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "This document has already been synced. Affiliate Document: {0}"
-msgstr ""
+msgstr "เอกสารนี้ได้ถูกซิงค์แล้ว เอกสารที่เกี่ยวข้อง: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "This import is not a Credit Note import. Import type: {0}"
-msgstr ""
+msgstr "การนำเข้านี้ไม่ใช่การนำเข้าใบลดหนี้ ประเภทการนำเข้า: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3234,6 +3304,8 @@ msgid ""
 "This report shows Reserved Qty (active stock reservations) and Available Qty"
 " (Balance - Reserved)."
 msgstr ""
+"รายงานนี้แสดงจำนวนจองสำรอง (การจองสต็อกที่ใช้งานอยู่) และจำนวนที่มีอยู่ "
+"(ยอดคงเหลือ - จำนวนจองสำรอง)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3268,17 +3340,17 @@ msgstr "ยอดรวม"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total COD Amount"
-msgstr ""
+msgstr "ยอดเงินเก็บเงินปลายทางรวม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total Insurance Amount"
-msgstr ""
+msgstr "ยอดรวมจำนวนเงินประกันภัย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total Packages"
-msgstr ""
+msgstr "จำนวนแพ็กเกจทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3293,17 +3365,17 @@ msgstr "ปริมาณทั้งหมด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total Rows Parsed"
-msgstr ""
+msgstr "รวมแถวที่วิเคราะห์แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total Unique Customers"
-msgstr ""
+msgstr "จำนวนลูกค้าเฉพาะรายทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total Unique Items"
-msgstr ""
+msgstr "จำนวนรายการที่ไม่ซ้ำกันทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3313,32 +3385,32 @@ msgstr "น้ำหนักรวม (กก.)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total quantity must be greater than 0"
-msgstr ""
+msgstr "จำนวนฟิดอยุ่นสินจำนวนสัว 0"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total quantity to reserve must be greater than 0"
-msgstr ""
+msgstr "ปริมาณรวมที่ต้องการสำรองต้องมากกว่า 0"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Transfer Price Sum"
-msgstr ""
+msgstr "รวมราคาต้นทุนโอน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Type (Raw)"
-msgstr ""
+msgstr "ประเภท (ดิบ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Type Name"
-msgstr ""
+msgstr "ประเภทชื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Type Name (English)"
-msgstr ""
+msgstr "ประเภท ชื่อ (ภาษาอังกฤษ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3353,12 +3425,12 @@ msgstr "หน่วยของการวัด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Unmapped Reason"
-msgstr ""
+msgstr "เหตุผลที่ไม่ได้แมป"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Unsales"
-msgstr ""
+msgstr "ไม่ใช่การขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3366,6 +3438,7 @@ msgid ""
 "Unsupported file format: {0}. Please use Excel (.xlsx, .xls) or CSV (.csv) "
 "files."
 msgstr ""
+"รูปแบบไฟล์ไม่รองรับ: {0} กรุณาใช้ไฟล์ Excel (.xlsx, .xls) หรือ CSV (.csv)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3375,7 +3448,7 @@ msgstr "อัปโหลดใบรับรองการวิเครา
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Uploaded At"
-msgstr ""
+msgstr "อัปโหลดเมื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3400,12 +3473,12 @@ msgstr "ฟอรั่มผู้ใช้"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Using exact name match: {0}"
-msgstr ""
+msgstr "ใช้ชื่อที่ตรงกันเป๊ะ: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "VAT type and company are required"
-msgstr ""
+msgstr "ประเภทภาษีมูลค่าเพิ่มและบริษัทเป็นข้อมูลที่จำเป็นต้องระบุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3420,37 +3493,37 @@ msgstr "ได้รับการตรวจสอบแล้ว"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Validated At"
-msgstr ""
+msgstr "ตรวจสอบเมื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Validation & Errors"
-msgstr ""
+msgstr "การตรวจสอบความถูกต้องและข้อผิดพลาด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Validation Errors"
-msgstr ""
+msgstr "ข้อผิดพลาดในการตรวจสอบข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Validation Message"
-msgstr ""
+msgstr "ข้อความตรวจสอบความถูกต้อง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Validation Status"
-msgstr ""
+msgstr "สถานะการตรวจสอบความถูกต้อง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Validation completed. Valid: {0}, Invalid: {1}"
-msgstr ""
+msgstr "การตรวจสอบเสร็จสมบูรณ์ ถูกต้อง: {0}, ไม่ถูกต้อง: {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Validation failed: {0}"
-msgstr ""
+msgstr "การตรวจสอบล้มเหลว: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3460,7 +3533,7 @@ msgstr "ระยะเวลาที่ใช้ได้"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Veterinary"
-msgstr ""
+msgstr "สัตวแพทย์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3475,7 +3548,7 @@ msgstr "บัตรกำนัล #"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Voucher type and voucher number are required"
-msgstr ""
+msgstr "ประเภทใบสำคัญและหมายเลขใบสำคัญเป็นข้อมูลที่จำเป็นต้องระบุ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3485,28 +3558,29 @@ msgstr "คลังสินค้า"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Warning: Batch {0} has expired on {1}"
-msgstr ""
+msgstr "คำเตือน: ชุดสินค้า {0} หมดอายุเมื่อวันที่ {1}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Warning: Could not cancel Delivery Note {0}: {1}"
-msgstr ""
+msgstr "คำเตือน: ไม่สามารถยกเลิก ใบส่งของ {0}: {1} ได้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Warning: Failed to add to Inter Express batch. Error: {0}"
-msgstr ""
+msgstr "คำเตือน: ไม่สามารถเพิ่มลงในชุด Inter Express ได้ สำเร็จ: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Warning: Failed to cancel linked Delivery Note: {0}"
-msgstr ""
+msgstr "คำเตือน: ไม่สามารถยกเลิกใบส่งของที่เชื่อมโยงได้: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "WeasyPrint is not installed. Please install it with: pip install weasyprint"
 msgstr ""
+"WeasyPrint ยังไม่ได้ติดตั้ง กรุณาติดตั้งโดยใช้คำสั่ง: pip install weasyprint"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3516,12 +3590,12 @@ msgstr "น้ำหนัก (กก.)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Weight (น้ำหนัก กก.)"
-msgstr ""
+msgstr "น้ำหนัก (กก.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Whether to include in Sales Order creation"
-msgstr ""
+msgstr "จะรวมไว้ในการสร้างใบสั่งขายหรือไม่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3531,7 +3605,7 @@ msgstr "ความกว้าง (ซม.)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Width (กว้าง ซม.)"
-msgstr ""
+msgstr "ความกว้าง (ซม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3541,17 +3615,17 @@ msgstr "ใบสั่งงาน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Work Order not created yet"
-msgstr ""
+msgstr "ใบสั่งงานยังไม่ได้สร้าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Work Order {0} created successfully"
-msgstr ""
+msgstr "ใบสั่งงาน {0} ถูกสร้างเรียบร้อยแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Work Order {0} must be submitted before creating Stock Entry"
-msgstr ""
+msgstr "ใบสั่งงาน {0} ต้องได้รับการส่งมอบก่อนสร้างรายการสินค้าคงคลัง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3559,6 +3633,7 @@ msgid ""
 "Write content in Markdown format. Supports headings, lists, code blocks, "
 "images, and links."
 msgstr ""
+"เขียนเนื้อหาในรูปแบบ Markdown รองรับหัวข้อ รายการ บล็อกโค้ด รูปภาพ และลิงก์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3568,34 +3643,34 @@ msgstr "อัตราผลผลิต %"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "You don't have permission to access this Sales Order"
-msgstr ""
+msgstr "คุณไม่มีสิทธิ์เข้าถึงใบสั่งขายนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "{0} items marked for {1} customers"
-msgstr ""
+msgstr "{0} รายการที่ถูกทำเครื่องหมายสำหรับลูกค้า {1} ราย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "{0} items not found on affiliate server"
-msgstr ""
+msgstr "{0} รายการไม่พบในเซิร์ฟเวอร์พันธมิตร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "{0} of {1} reconciliations failed"
-msgstr ""
+msgstr "{0} จาก {1} การกระทบยอดล้มเหลว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "| Replaced {0} previous reservation(s)"
-msgstr ""
+msgstr "| แทนที่การจองก่อนหน้า {0} รายการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "• {0} ({1}) from {2}"
-msgstr ""
+msgstr "• {0} ({1}) จาก {2}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "✅ [DEMO MODE] Successfully synced to {0}. Created: {1}"
-msgstr ""
+msgstr "✅ [โหมดสาธิต] ซิงค์ไปยัง {0} สำเร็จ สร้างเมื่อ: {1}"
