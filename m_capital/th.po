@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-16 06:07\n"
+"PO-Revision-Date: 2026-01-16 06:11\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -13703,7 +13703,7 @@ msgstr "Guardian"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Guest users cannot update loan preferences"
-msgstr ""
+msgstr "ผู้ใช้ทั่วไปไม่สามารถปรับปรุงการตั้งค่าการกู้ยืมได้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -14809,7 +14809,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Insurance Draft"
-msgstr ""
+msgstr "ร่างประกันภัย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -14902,7 +14902,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Insurance application already exists for loan draft {0}"
-msgstr ""
+msgstr "ใบสมัครประกันภัยมีอยู่แล้วสำหรับร่างสินเชื่อ {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -14910,6 +14910,7 @@ msgid ""
 "Insurance application already {0} for this loan draft. Cannot modify {1} "
 "applications."
 msgstr ""
+"คำขอประกันภัยสำหรับร่างสินเชื่อนี้ได้ถูก {0} แล้ว ไม่สามารถแก้ไขคำขอ {1} ได้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -14927,6 +14928,7 @@ msgid ""
 "Insurance application must be linked to a loan draft. Please create from "
 "loan application."
 msgstr ""
+"ใบสมัครประกันภัยต้องเชื่อมโยงกับร่างสินเชื่อ กรุณาสร้างจากใบสมัครสินเชื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -14961,17 +14963,17 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Insurance draft created successfully!"
-msgstr ""
+msgstr "สร้างร่างประกันภัยสำเร็จแล้ว!"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Insurance draft saved successfully"
-msgstr ""
+msgstr "ร่างประกันภัยบันทึกสำเร็จแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Insurance draft updated successfully!"
-msgstr ""
+msgstr "ร่างประกันภัยได้รับการอัปเดตเรียบร้อยแล้ว!"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -15190,7 +15192,7 @@ msgstr "บันทึกภายใน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Internal notes about this draft"
-msgstr ""
+msgstr "หมายเหตุภายในเกี่ยวกับร่างนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -16506,7 +16508,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Link to the original draft application"
-msgstr ""
+msgstr "ลิงก์ไปยังแบบร่างใบสมัครต้นฉบับ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -16521,17 +16523,17 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Linked Draft"
-msgstr ""
+msgstr "ร่างที่เชื่อมโยง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Linked Draft Application"
-msgstr ""
+msgstr "ใบสมัครร่างที่เชื่อมโยง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Linked Drafts"
-msgstr ""
+msgstr "ร่างที่เชื่อมโยง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -16576,12 +16578,12 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Linked to Draft"
-msgstr ""
+msgstr "เชื่อมโยงกับฉบับร่าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Linked to Loan Draft"
-msgstr ""
+msgstr "เชื่อมโยงกับร่างสินเชื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -16601,7 +16603,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Linking draft to vehicle..."
-msgstr ""
+msgstr "กำลังเชื่อมโยงร่างกับรถยนต์..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -16740,7 +16742,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Loading draft application"
-msgstr ""
+msgstr "กำลังโหลดแบบร่างคำขอ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -16901,14 +16903,14 @@ msgstr "เอกสารคำขอกู้เงิน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Loan Application Draft"
-msgstr ""
+msgstr "ร่างคำขอกู้เงิน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
 "Loan Application Draft {0} not found. Please save your loan application "
 "first."
-msgstr ""
+msgstr "ไม่พบแบบร่างคำขอกู้ {0} กรุณาบันทึกคำขอกู้ของคุณก่อน"
 
 #. Name of a DocType
 #: m_capital/m_capital/doctype/loan_application_employment/loan_application_employment.json
@@ -17368,7 +17370,7 @@ msgstr "การสร้างคำขอกู้สำเร็จแล้
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Loan application draft saved"
-msgstr ""
+msgstr "บันทึกแบบร่างคำขอกู้เงินแล้ว"
 
 #: m_capital/api/loan_application.py:185 m_capital/api/loan_application.py:226
 msgid "Loan application not found"
@@ -17406,7 +17408,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Loan details draft saved"
-msgstr ""
+msgstr "ฉบับร่างลางสิวยสิตริบทไม่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -17741,7 +17743,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "M Loan Application created from this draft"
-msgstr ""
+msgstr "ใบสมัครสินเชื่อ M สร้างจากร่างนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -17761,12 +17763,12 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "M Loan Application not found by draft ID"
-msgstr ""
+msgstr "ไม่พบคำขอสินเชื่อ M โดยรหัสร่าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "M Loan Application not found by draft ID during update"
-msgstr ""
+msgstr "ไม่พบแบบฟอร์มขอกู้ M โดยรหัสร่างระหว่างการอัปเดต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -17948,7 +17950,7 @@ msgstr "ชำระเงินกู้ของคุณ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Make sure the draft exists in"
-msgstr ""
+msgstr "ตรวจสอบให้แน่ใจว่าแบบร่างมีอยู่ใน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -18093,7 +18095,7 @@ msgstr "สถานภาพการสมรส"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Marked {0} drafts as expired"
-msgstr ""
+msgstr "ทำเครื่องหมาย {0} ฉบับร่างว่า หมดอายุแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -19532,12 +19534,12 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No Lending Vehicle linked to draft {0}"
-msgstr ""
+msgstr "ไม่มีรถยืมที่เชื่อมโยงกับร่าง {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No Lending Vehicle linked to this draft"
-msgstr ""
+msgstr "ไม่มีรถยืมที่เชื่อมโยงกับร่างนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -19552,7 +19554,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No M Loan Application found. Please save draft first."
-msgstr ""
+msgstr "ไม่พบคำขอกู้ยืม M โปรดบันทึกแบบร่างก่อนค่ะ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -19796,7 +19798,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No draft ID available"
-msgstr ""
+msgstr "ไม่มีรหัสร่างแบบร่าง"
 
 #: m_capital/api/loan_application.py:930
 msgid "No draft ID provided"
@@ -19807,12 +19809,12 @@ msgstr "ไม่มีรหัสร่างแบบร่าง"
 msgid ""
 "No draft ID provided. Please save your loan application first before adding "
 "insurance."
-msgstr ""
+msgstr "ไม่มีรหัสร่างเอกสาร กรุณาบันทึกคำขอกู้ของคุณก่อนเพิ่มประกันภัย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No draft applications found"
-msgstr ""
+msgstr "ไม่พบใบสมัครฉบับร่างใด ๆ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -19827,7 +19829,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No existing customer or draft found for ID: {0}"
-msgstr ""
+msgstr "ไม่พบลูกค้าหรือร่างเอกสารที่มีอยู่สำหรับรหัส: {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -19952,7 +19954,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "No loan details found in draft"
-msgstr ""
+msgstr "ไม่พบรายละเอียดเงินกู้ในร่าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -21916,7 +21918,7 @@ msgstr "ตารางการชำระเงินถูกสร้าง
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Payment schedule retrieved from Draft Application"
-msgstr ""
+msgstr "ตารางการชำระเงินที่ดึงมาจากใบสมัครร่าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -22113,7 +22115,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Permission denied - you can only access your own drafts"
-msgstr ""
+msgstr "ไม่ได้รับอนุญาต - คุณสามารถเข้าถึงเฉพาะร่างของคุณเองเท่านั้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -22218,7 +22220,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Personal information saved to draft!"
-msgstr ""
+msgstr "บันทึกข้อมูลส่วนตัวเป็นฉบับร่างแล้ว!"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -23974,7 +23976,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Real Draft Data from Dev Environment"
-msgstr ""
+msgstr "ข้อมูลร่างจริงจากสภาพแวดล้อมการพัฒนา"
 
 #. Option for the 'Collateral Type' (Select) field in DocType 'BOT Regulatory
 #. Reports'
@@ -24296,6 +24298,8 @@ msgid ""
 "Reference to draft application (set during insurance creation from loan "
 "flow)"
 msgstr ""
+"การอ้างอิงถึงแบบร่างใบสมัคร "
+"(ตั้งค่าระหว่างการสร้างประกันจากกระบวนการสินเชื่อ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -24303,6 +24307,8 @@ msgid ""
 "Reference to draft application (set during insurance creation from loan "
 "flow). Only one insurance application allowed per loan draft."
 msgstr ""
+"อ้างอิงถึงแบบร่างใบสมัคร (ตั้งค่าระหว่างการสร้างประกันจากกระบวนการสินเชื่อ) "
+"อนุญาตให้มีใบสมัครประกันเพียงหนึ่งรายการต่อแบบร่างสินเชื่อเท่านั้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -24312,7 +24318,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Reference to the loan application draft that created this vehicle"
-msgstr ""
+msgstr "อ้างอิงถึงร่างคำขอกู้ที่สร้างยานพาหนะนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -25035,7 +25041,7 @@ msgstr "ดำเนินการต่อ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Resume Draft"
-msgstr ""
+msgstr "เรียบเรียงร่าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -25190,6 +25196,7 @@ msgstr ""
 msgid ""
 "Review all draft applications where Save Draft or auto-save was triggered"
 msgstr ""
+"ตรวจสอบใบสมัครร่างทั้งหมดที่มีการบันทึกร่างหรือบันทึกอัตโนมัติถูกเรียกใช้งาน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -25640,7 +25647,7 @@ msgstr "กำลังบันทึก"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Saving application draft..."
-msgstr ""
+msgstr "กำลังบันทึกแบบร่างแอปพลิเคชัน..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -25892,7 +25899,7 @@ msgstr "ค้นหาแอปพลิเคชัน..."
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Search by Draft ID, Email, Phone..."
-msgstr ""
+msgstr "ค้นหาตาม รหัสร่าง, อีเมล, เบอร์โทร..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -26797,7 +26804,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Send Back to Draft"
-msgstr ""
+msgstr "ส่งกลับไปยังฉบับร่าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -28855,7 +28862,7 @@ msgstr ""
 #: SPA
 msgid ""
 "The draft could not be loaded. Please try again or start a new application."
-msgstr ""
+msgstr "ไม่สามารถโหลดร่างได้ กรุณาลองใหม่อีกครั้งหรืเริ่มต้นใบสมัครใหม่"
 
 #: m_capital/api/loan_application.py:1098
 msgid "The following required fields are missing: {0}"
@@ -28992,7 +28999,7 @@ msgstr ""
 #: SPA
 msgid ""
 "This insurance application will be linked to your loan application draft"
-msgstr ""
+msgstr "ใบสมัครประกันภัยนี้จะถูกเชื่อมโยงกับร่างใบสมัครสินเชื่อของคุณ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -29041,7 +29048,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "This will move the application from Draft to Submitted state."
-msgstr ""
+msgstr "ข้อความนี้จะย้ายแอปพลิเคชันจากสถานะ ฉบับร่าง ไปยังสถานะ ส่งแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -29162,6 +29169,8 @@ msgid ""
 "To test with debug mode, start a new application instead of continuing an "
 "existing draft."
 msgstr ""
+"เพื่อทดสอบในโหมดดีบัก "
+"ให้เริ่มแอปพลิเคชันใหม่แทนการดำเนินการต่อจากร่างที่มีอยู่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -29307,7 +29316,7 @@ msgstr "รวมเอกสารทั้งหมด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Total Drafts"
-msgstr ""
+msgstr "รวมแบบร่างทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -29611,6 +29620,8 @@ msgid ""
 "propagation to Vehicle Loan Application. Monitor stuck applications and "
 "system health in real-time."
 msgstr ""
+"ติดตามกระบวนการส่งงานตั้งแต่การสร้างแบบร่างจนถึงการส่งต่อไปยังใบสมัครสินเชื่อรถยนต์"
+" ตรวจสอบใบสมัครที่ติดขัดและสถานะระบบแบบเรียลไทม์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -29964,7 +29975,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Unique identifier for this draft (auto-generated)"
-msgstr ""
+msgstr "รหัสประจำตัวเฉพาะสำหรับร่างนี้ (สร้างโดยอัตโนมัติ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -30060,7 +30071,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Updating customer with draft data..."
-msgstr ""
+msgstr "กำลังอัปเดตข้อมูลลูกค้าด้วยข้อมูลร่าง..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -30471,7 +30482,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "User who created this draft (if logged in)"
-msgstr ""
+msgstr "ผู้ใช้ที่สร้างร่างนี้ (หากเข้าสู่ระบบ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -30526,6 +30537,8 @@ msgid ""
 "Using documents from draft (Edit mode - {0} photos, {1} documents, {2} "
 "additional)"
 msgstr ""
+"การใช้งานเอกสารจากร่าง (โหมดแก้ไข - รูปภาพ {0} รูป, เอกสาร {1} ฉบับ, "
+"เพิ่มเติม {2})"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -30876,7 +30889,7 @@ msgstr "คำขอกู้ยานพาหนะ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Vehicle Loan Application created from this draft"
-msgstr ""
+msgstr "ใบสมัครสินเชื่อยานพาหนะที่สร้างจากร่างนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -31198,7 +31211,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Vehicle information draft saved"
-msgstr ""
+msgstr "บันทึกฉบับร่างข้อมูลยานพาหนะแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -31539,7 +31552,7 @@ msgstr "ดูทั้งหมด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "View All Drafts in ERPNext"
-msgstr ""
+msgstr "ดูแบบร่างทั้งหมดใน ERPNext"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -31884,17 +31897,17 @@ msgstr "WhatsApp"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "When draft was converted to M Loan Application"
-msgstr ""
+msgstr "เมื่อร่างถูกแปลงเป็นใบสมัครสินเชื่อ M"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "When draft was converted to Vehicle Loan Application"
-msgstr ""
+msgstr "เมื่อร่างถูกแปลงเป็นคำขอกู้ยานพาหนะ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "When draft was first created"
-msgstr ""
+msgstr "เมื่อต้นฉบับร่างถูกสร้างขึ้นครั้งแรก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -32337,7 +32350,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Your current draft"
-msgstr ""
+msgstr "ร่างปัจจุบันของคุณ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
