@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: inpac_pharma VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-12-04 04:08+0700\n"
-"PO-Revision-Date: 2026-01-16 02:26\n"
+"PO-Revision-Date: 2026-01-16 02:27\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: th <LL@li.org>\n"
 "Language: th\n"
@@ -27,7 +27,7 @@ msgstr "<br>ผิดพลาด: {0}"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "<strong>Why this is required:</strong>"
-msgstr ""
+msgstr "<strong>ทำไมถึงต้องระบุ:</strong>"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
