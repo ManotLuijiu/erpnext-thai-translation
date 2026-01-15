@@ -390,7 +390,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bonus Qty"
-msgstr "จำนวน โบนัส (ฟรี)"
+msgstr "จำนวน โบนัส (แถม)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
