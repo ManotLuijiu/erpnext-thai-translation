@@ -15038,7 +15038,7 @@ msgstr "อุปกรณ์ {}"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "¿Secure?"
-msgstr ""
+msgstr "¿ปลอดภัย?"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
