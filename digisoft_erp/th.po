@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2026-01-17 01:17+0642\n"
-"PO-Revision-Date: 2026-01-17 05:42\n"
+"PO-Revision-Date: 2026-01-17 05:44\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "MIME-Version: 1.0\n"
@@ -7533,7 +7533,7 @@ msgstr "{0} มีชื่อบัญชีเป็นภาษาไทย�
 msgid ""
 "{0} accounts not found in mapping (please add to "
 "account_name_mapping_th.csv)"
-msgstr ""
+msgstr "{0} ไม่พบบัญชี ใน mapping (กรุณาเพิ่มใน account_name_mapping_th.csv)"
 
 #: digisoft_erp/digisoft_erp/report/thai_general_ledger/thai_general_ledger.py:58
 msgid "{0} and {1} are mandatory"
@@ -7549,7 +7549,7 @@ msgstr "{0} เป็นข้อมูลที่ต้องระบุ"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.py:55
 msgid "{0} must be of account type: {1}"
-msgstr ""
+msgstr "{0} ต้องเป็น account type: {1}"
 
 #: digisoft_erp/api/utils/response_handler.py:118
 msgid "{0} not found"
@@ -7557,12 +7557,12 @@ msgstr "ไม่พบ {0}"
 
 #: digisoft_erp/thai_tax/utils/validators.py:121
 msgid "{0} {1} does not have a Tax ID"
-msgstr ""
+msgstr "{0} {1} ไม่มีเลขผู้เสียภาษี"
 
 #. Count format of shortcut in the Digisoft ERP Workspace
 #: digisoft_erp/digisoft_erp/workspace/digisoft_erp/digisoft_erp.json
 msgid "{} Open"
-msgstr ""
+msgstr "{} เปิด"
 
 #: digisoft_erp/digisoft_erp/page/desk_dgs_thai_vat/desk_dgs_thai_vat.js:15
 msgid "กำลังเปลี่ยนเส้นทางไปยังระบบจัดการภาษีมูลค่าเพิ่ม..."
