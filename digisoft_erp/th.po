@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2026-01-17 01:17+0642\n"
-"PO-Revision-Date: 2026-01-17 05:31\n"
+"PO-Revision-Date: 2026-01-17 05:41\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "MIME-Version: 1.0\n"
@@ -7514,7 +7514,7 @@ msgstr "ถูกยกเลิกแล้ว แต่ระเบียน V
 #: digisoft_erp/digisoft_erp/report/payment_period_by_invoice_date/payment_period_by_invoice_date.js:91
 #: digisoft_erp/digisoft_erp/report/receive_period_by_invoice_date/receive_period_by_invoice_date.js:91
 msgid "invoices"
-msgstr ""
+msgstr "อินวอยซ์"
 
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:278
 #: digisoft_erp/digisoft_erp/report/thai_cash_flow/thai_cash_flow.py:279
@@ -7523,7 +7523,7 @@ msgstr "{0}"
 
 #: digisoft_erp/thai_tax/utils/validators.py:183
 msgid "{0} Tax ID must be 13 digits"
-msgstr ""
+msgstr "{0} เลขผู้เสียภาษีต้องมี 13 หลัก"
 
 #: digisoft_erp/accounts/populate_thai_account_names.py:157
 msgid "{0} accounts already had Thai names"
@@ -7566,113 +7566,117 @@ msgstr ""
 
 #: digisoft_erp/digisoft_erp/page/desk_dgs_thai_vat/desk_dgs_thai_vat.js:15
 msgid "กำลังเปลี่ยนเส้นทางไปยังระบบจัดการภาษีมูลค่าเพิ่ม..."
-msgstr ""
+msgstr "กำลังเปลี่ยนเส้นทางไปยังระบบจัดการภาษีมูลค่าเพิ่ม..."
 
 #: digisoft_erp/thai_tax/utils/base_report.py:128
 msgid "คำนำหน้า"
-msgstr ""
+msgstr "คำนำหน้า"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:86
 msgid "งวดภาษี"
-msgstr ""
+msgstr "งวดภาษี"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:74
 msgid "จำนวนรายการ"
-msgstr ""
+msgstr "จำนวนรายการ"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:69
 msgid "จำนวนหีบห่อ"
-msgstr ""
+msgstr "จำนวนหีบห่อ"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:144
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:144
 #: digisoft_erp/thai_tax/utils/base_report.py:145
 #: digisoft_erp/thai_tax/utils/base_report.py:153
 msgid "จำนวนเงิน"
-msgstr ""
+msgstr "จำนวนเงิน"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:68
 #: digisoft_erp/thai_tax/utils/base_report.py:251
 msgid "จำนวนเงินรวม"
-msgstr ""
+msgstr "จำนวนเงินรวม"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:86
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:80
 msgid "จำนวนเงินรวม (฿)"
-msgstr ""
+msgstr "จำนวนเงินรวม (฿)"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:129
 msgid "ชื่อ"
-msgstr ""
+msgstr "ชื่อ"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:108
 msgid ""
 "ชื่อผู้ขายสินค้า\n"
 "หรือผู้ให้บริการ"
 msgstr ""
+"ชื่อผู้ขายสินค้า\n"
+"หรือผู้ให้บริการ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:67
 msgid "ชื่อผู้ขายสินค้า/ผู้ให้บริการ"
-msgstr ""
+msgstr "ชื่อผู้ขายสินค้า/ผู้ให้บริการ"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:244
 msgid "ชื่อผู้ซื้อ/ผู้ขาย"
-msgstr ""
+msgstr "ชื่อผู้ซื้อ/ผู้ขาย"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:108
 msgid ""
 "ชื่อผู้ซื้อสินค้า\n"
 "หรือผู้รับบริการ"
 msgstr ""
+"ชื่อผู้ซื้อสินค้า\n"
+"หรือผู้รับบริการ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:56
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:44
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:56
 msgid "ชื่อลูกค้า"
-msgstr ""
+msgstr "ชื่อลูกค้า"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:131
 msgid "ที่อยู่"
-msgstr ""
+msgstr "ที่อยู่"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:50
 msgid "ที่อยู่จัดส่ง"
-msgstr ""
+msgstr "ที่อยู่จัดส่ง"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:98
 msgid "ที่อยู่ลูกค้า"
-msgstr ""
+msgstr "ที่อยู่ลูกค้า"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:130
 msgid "นามสกุล"
-msgstr ""
+msgstr "นามสกุล"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:63
 msgid "น้ำหนักรวม (กก.)"
-msgstr ""
+msgstr "น้ำหนักรวม (กก.)"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:241
 msgid "ประเภท"
-msgstr ""
+msgstr "ประเภท"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:75
 msgid "ประเภทบรรจุภัณฑ์"
-msgstr ""
+msgstr "ประเภทบรรจุภัณฑ์"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:144
 #: digisoft_erp/thai_tax/utils/base_report.py:151
 msgid "ประเภทเงินได้"
-msgstr ""
+msgstr "ประเภทเงินได้"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:81
 msgid "ปลายทาง"
-msgstr ""
+msgstr "ปลายทาง"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:139
 #: digisoft_erp/thai_tax/utils/base_report.py:146
 #: digisoft_erp/thai_tax/utils/base_report.py:154
 msgid "ภาษีที่หัก"
-msgstr ""
+msgstr "ภาษีที่หัก"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:62
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:91
@@ -7680,12 +7684,12 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:138
 #: digisoft_erp/thai_tax/utils/base_report.py:250
 msgid "ภาษีมูลค่าเพิ่ม"
-msgstr ""
+msgstr "ภาษีมูลค่าเพิ่ม"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:80
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:74
 msgid "ภาษีมูลค่าเพิ่ม (฿)"
-msgstr ""
+msgstr "ภาษีมูลค่าเพิ่ม (฿)"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:132
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:132
@@ -7693,47 +7697,49 @@ msgid ""
 "มูลค่าสินค้า\n"
 "หรือบริการ"
 msgstr ""
+"มูลค่าสินค้า\n"
+"หรือบริการ"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:56
 #: digisoft_erp/thai_tax/utils/base_report.py:249
 msgid "มูลค่าสินค้า/บริการ"
-msgstr ""
+msgstr "มูลค่าสินค้า/บริการ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:74
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:68
 msgid "มูลค่าสินค้า/บริการ (฿)"
-msgstr ""
+msgstr "มูลค่าสินค้า/บริการ (฿)"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:85
 msgid "มูลค่าสินค้าหรือบริการ"
-msgstr ""
+msgstr "มูลค่าสินค้าหรือบริการ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:68
 msgid "รหัสสาขา"
-msgstr ""
+msgstr "รหัสสาขา"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:50
 msgid "รายการ"
-msgstr ""
+msgstr "รายการ"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:126
 msgid "ลำดับ"
-msgstr ""
+msgstr "ลำดับ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:43
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:287
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:90
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:90
 msgid "ลำดับที่"
-msgstr ""
+msgstr "ลำดับที่"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:37
 msgid "ลูกค้า/ผู้ส่งออก"
-msgstr ""
+msgstr "ลูกค้า/ผู้ส่งออก"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:49
 msgid "วัน เดือน ปี"
-msgstr ""
+msgstr "วัน เดือน ปี"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:96
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:96
@@ -7741,43 +7747,45 @@ msgid ""
 "วัน เดือน ปี\n"
 "ของใบกำกับภาษี"
 msgstr ""
+"วัน เดือน ปี\n"
+"ของใบกำกับภาษี"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:43
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:43
 #: digisoft_erp/thai_tax/utils/base_report.py:243
 msgid "วันที่"
-msgstr ""
+msgstr "วันที่"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:143
 #: digisoft_erp/thai_tax/utils/base_report.py:150
 msgid "วันที่จ่าย"
-msgstr ""
+msgstr "วันที่จ่าย"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:157
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:157
 msgid "วันที่บันทึก"
-msgstr ""
+msgstr "วันที่บันทึก"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:31
 msgid "วันที่สร้าง"
-msgstr ""
+msgstr "วันที่สร้าง"
 
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:86
 msgid "วันที่ส่งมอบ"
-msgstr ""
+msgstr "วันที่ส่งมอบ"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:247
 msgid "วันที่ใบกำกับผู้ขาย"
-msgstr ""
+msgstr "วันที่ใบกำกับผู้ขาย"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:87
 msgid "วิธีการขนส่ง"
-msgstr ""
+msgstr "วิธีการขนส่ง"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:79
 #: digisoft_erp/thai_tax/utils/base_report.py:248
 msgid "สถานประกอบการ"
-msgstr ""
+msgstr "สถานประกอบการ"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:92
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:105
@@ -7785,103 +7793,103 @@ msgstr ""
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:161
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:161
 msgid "สถานะ"
-msgstr ""
+msgstr "สถานะ"
 
 #. Description of the 'Revenue Department Branch' (Data) field in DocType
 #. 'Thai
 #. Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "สาขากรมสรรพากรที่ขึ้นทะเบียน"
-msgstr ""
+msgstr "สาขากรมสรรพากรที่ขึ้นทะเบียน"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:126
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:126
 msgid "สาขาที่"
-msgstr ""
+msgstr "สาขาที่"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:120
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:120
 msgid "สำนักงานใหญ่"
-msgstr ""
+msgstr "สำนักงานใหญ่"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:44
 msgid "หมวดหมู่"
-msgstr ""
+msgstr "หมวดหมู่"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:152
 msgid "อัตราภาษี"
-msgstr ""
+msgstr "อัตราภาษี"
 
 #: digisoft_erp/digisoft_erp/report/pp30/pp30.py:80
 msgid "อัตราภาษีเฉลี่ย (%)"
-msgstr ""
+msgstr "อัตราภาษีเฉลี่ย (%)"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:110
 msgid "อ้างอิงใบแจ้งหนี้"
-msgstr ""
+msgstr "อ้างอิงใบแจ้งหนี้"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:138
 msgid "เงินเดือน/ค่าจ้าง"
-msgstr ""
+msgstr "เงินเดือน/ค่าจ้าง"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:240
 msgid "เดือนภาษี"
-msgstr ""
+msgstr "เดือนภาษี"
 
 #. Description of the 'Business Registration Number' (Data) field in DocType
 #. 'Thai Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "เลขทะเบียนนิติบุคคล"
-msgstr ""
+msgstr "เลขทะเบียนนิติบุคคล"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:55
 msgid "เลขที่"
-msgstr ""
+msgstr "เลขที่"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:99
 msgid "เลขที่ seal"
-msgstr ""
+msgstr "เลขที่ seal"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:93
 msgid "เลขที่คอนเทนเนอร์"
-msgstr ""
+msgstr "เลขที่คอนเทนเนอร์"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:56
 msgid "เลขที่อ้างอิง"
-msgstr ""
+msgstr "เลขที่อ้างอิง"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:242
 msgid "เลขที่เอกสาร"
-msgstr ""
+msgstr "เลขที่เอกสาร"
 
 #: digisoft_erp/thai_tax/utils/base_report.py:246
 msgid "เลขที่ใบกำกับผู้ขาย"
-msgstr ""
+msgstr "เลขที่ใบกำกับผู้ขาย"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:49
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:102
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:102
 msgid "เลขที่ใบกำกับภาษี"
-msgstr ""
+msgstr "เลขที่ใบกำกับภาษี"
 
 #: digisoft_erp/digisoft_erp/report/thai_packing_slip/thai_packing_slip.py:24
 msgid "เลขที่ใบรายการบรรจุ"
-msgstr ""
+msgstr "เลขที่ใบรายการบรรจุ"
 
 #: digisoft_erp/digisoft_erp/report/thai_sales_order/thai_sales_order.py:49
 msgid "เลขที่ใบสั่งขาย"
-msgstr ""
+msgstr "เลขที่ใบสั่งขาย"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_01_purchase_tax_report/vat_202_01_purchase_tax_report.py:150
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:150
 msgid "เลขที่ใบแจ้งหนี้ระบบ"
-msgstr ""
+msgstr "เลขที่ใบแจ้งหนี้ระบบ"
 
 #. Description of the 'Provident Fund Number' (Data) field in DocType 'Thai
 #. Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "เลขประจำตัวกองทุนสำรองเลี้ยงชีพ"
-msgstr ""
+msgstr "เลขประจำตัวกองทุนสำรองเลี้ยงชีพ"
 
 #. Description of the 'VAT Registration Number' (Data) field in DocType 'Thai
 #. Company Settings'
@@ -7899,6 +7907,9 @@ msgid ""
 "ของผู้ขายสินค้า\n"
 "หรือผู้ให้บริการ"
 msgstr ""
+"เลขประจำตัวผู้เสียภาษีอากร\n"
+"ของผู้ขายสินค้า\n"
+"หรือผู้ให้บริการ"
 
 #: digisoft_erp/digisoft_erp/report/vat_202_02_sales_tax_report/vat_202_02_sales_tax_report.py:114
 msgid ""
@@ -7906,24 +7917,27 @@ msgid ""
 "ของผู้ซื้อสินค้า\n"
 "หรือผู้รับบริการ"
 msgstr ""
+"เลขประจำตัวผู้เสียภาษีอากร\n"
+"ของผู้ซื้อสินค้า\n"
+"หรือผู้รับบริการ"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:73
 msgid "เลขประจำตัวผู้เสียภาษีอากรของผู้ขายสินค้า/ผู้ให้บริการ"
-msgstr ""
+msgstr "เลขประจำตัวผู้เสียภาษีอากรของผู้ขายสินค้า/ผู้ให้บริการ"
 
 #. Description of the 'Social Security Number' (Data) field in DocType 'Thai
 #. Company Settings'
 #: digisoft_erp/digisoft_erp/doctype/thai_company_settings/thai_company_settings.json
 msgid "เลขประจำตัวสำนักงานประกันสังคม"
-msgstr ""
+msgstr "เลขประจำตัวสำนักงานประกันสังคม"
 
 #: digisoft_erp/digisoft_erp/report/purchase_vat_report/purchase_vat_report.py:61
 msgid "เล่มที่"
-msgstr ""
+msgstr "เล่มที่"
 
 #: digisoft_erp/digisoft_erp/report/sales_vat_report/sales_vat_report.py:104
 msgid "ใบลดหนี้"
-msgstr ""
+msgstr "ใบลดหนี้"
 
 #. Description of the 'Business License Number' (Data) field in DocType 'Thai
 #. Company Settings'
@@ -7933,33 +7947,33 @@ msgstr "ใบอนุญาตประกอบธุรกิจ"
 
 #: digisoft_erp/digisoft_erp/report/thai_wht_attachment/thai_wht_attachment.js:134
 msgid "✅ All WHT certificates have attachments!"
-msgstr ""
+msgstr "แนบหนังสือรับรองการหักภาษี ณ ที่จ่ายหมดแล้ว"
 
 #: digisoft_erp/digisoft_erp/doctype/thai_tax_settings/thai_tax_settings.js:137
 msgid "✅ Thai tax setup is complete and valid!"
-msgstr ""
+msgstr "การตั้งค่าสมบูรณ์"
 
 #. Label of a Card Break in the Financial Statement Workspace
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "💰 Tax & Compliance | ภาษีและการปฏิบัติตามกฎหมาย"
-msgstr ""
+msgstr "💰 Tax & Compliance | ภาษีและการปฏิบัติตามกฎหมาย"
 
 #. Label of a Card Break in the Financial Statement Workspace
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "📊 Detailed Financial Reports | รายงานทางการเงินเชิงลึก"
-msgstr ""
+msgstr "📊 Detailed Financial Reports | รายงานทางการเงินเชิงลึก"
 
 #. Header text in the Financial Statement Workspace
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "📊 Financial Statement | งบการเงิน"
-msgstr ""
+msgstr "📊 Financial Statement | งบการเงิน"
 
 #. Label of a Card Break in the Financial Statement Workspace
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "📋 Core Financial Statements | งบการเงินหลัก"
-msgstr ""
+msgstr "📋 Core Financial Statements | งบการเงินหลัก"
 
 #. Label of a Card Break in the Financial Statement Workspace
 #: digisoft_erp/digisoft_erp/workspace/financial_statement/financial_statement.json
 msgid "🔧 Financial Management | การจัดการทางการเงิน"
-msgstr ""
+msgstr "🔧 Financial Management | การจัดการทางการเงิน"
