@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Lending VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-16 08:30\n"
+"PO-Revision-Date: 2026-01-16 08:35\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: contact@frappe.io\n"
 "Language: th\n"
@@ -39,7 +39,7 @@ msgstr "<span class=\"h4\"><b>ทางลัดของคุณ</b></span>"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #. Name of a report
 #: lending/loan_management/report/alm_audit_report/alm_audit_report.json
