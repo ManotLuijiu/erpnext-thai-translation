@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
 "POT-Creation-Date: 2026-01-17 01:17+0642\n"
-"PO-Revision-Date: 2026-01-17 05:41\n"
+"PO-Revision-Date: 2026-01-17 05:42\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "MIME-Version: 1.0\n"
@@ -7527,7 +7527,7 @@ msgstr "{0} เลขผู้เสียภาษีต้องมี 13 ห�
 
 #: digisoft_erp/accounts/populate_thai_account_names.py:157
 msgid "{0} accounts already had Thai names"
-msgstr ""
+msgstr "{0} มีชื่อบัญชีเป็นภาษาไทยแล้ว"
 
 #: digisoft_erp/accounts/populate_thai_account_names.py:161
 msgid ""
