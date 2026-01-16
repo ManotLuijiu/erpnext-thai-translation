@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Thai Business Suite VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:01+0642\n"
-"PO-Revision-Date: 2026-01-16 10:33\n"
+"PO-Revision-Date: 2026-01-16 10:45\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -63,12 +63,12 @@ msgstr "มาตราส่วน 0-100 ที่แสดงระดับ�
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "0-100 score based on user feedback and engagement"
-msgstr ""
+msgstr "คะแนน 0-100 ตามข้อเสนอแนะและการมีส่วนร่วมของผู้ใช้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "0-100 score indicating content freshness"
-msgstr ""
+msgstr "คะแนน 0-100 แสดงถึงความสดใหม่ของเนื้อหา"
 
 #. Option for the 'Allowed Exceptions' (Select) field in DocType 'ZKTeco
 #. Biometric Settings'
@@ -153,6 +153,15 @@ msgid ""
 "    <p style=\"margin: 8px 0 0 0;\"><em>Tip: Add email addresses of users who should have access to Thai Business Suite features.</em></p>\n"
 "</div>"
 msgstr ""
+"<div class=\"alert alert-info\" style=\"margin-top: 10px;\">\n"
+"    <p style=\"margin: 0 0 8px 0; font-weight: 600;\">วิธีการทำงานของการควบคุมการเข้าถึง Workspace:</p>\n"
+"    <ul style=\"margin: 0; padding-left: 20px;\">\n"
+"        <li><strong>ปิดใช้งาน:</strong> ผู้ใช้ทุกคนสามารถเห็น Workspace ของ Thai Business Suite (พฤติกรรมเริ่มต้น)</li>\n"
+"        <li><strong>เปิดใช้งาน:</strong> เฉพาะผู้ใช้ที่อยู่ในรายชื่อที่อนุญาตด้านล่างเท่านั้นที่สามารถเห็น Workspace ของ Thai Business Suite</li>\n"
+"        <li><strong>อนุญาตเสมอ:</strong> บทบาท Administrator และ System Manager จะได้รับสิทธิ์เข้าถึงเสมอไม่ว่าจะตั้งค่าอย่างไร</li>\n"
+"    </ul>\n"
+"    <p style=\"margin: 8px 0 0 0;\"><em>คำแนะนำ: เพิ่มที่อยู่อีเมลของผู้ใช้ที่ควรได้รับสิทธิ์เข้าถึงฟีเจอร์ของ Thai Business Suite</em></p>\n"
+"</div>"
 
 #. Content of the 'Field Mappings Help' (HTML) field in DocType 'TBS CoA
 #. Mapping Template'
@@ -258,6 +267,12 @@ msgid ""
 "    <p class=\"preview-text\" style=\"font-size: 14px; line-height: 1.6;\">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</p>\n"
 "</div>"
 msgstr ""
+"<div id=\"thai-font-preview\" class=\"well\" style=\"padding: 20px; border: 1px solid var(--border-color); border-radius: var(--border-radius);\">\n"
+"    <h3 id=\"font-preview-heading\" style=\"margin-bottom: 15px;\">ตัวอย่างแบบอักษร</h3>\n"
+"    <p class=\"preview-text\" style=\"font-size: 18px; line-height: 1.6;\">ทดสอบแบบอักษรไทย</p>\n"
+"    <p class=\"preview-text\" style=\"font-size: 16px; line-height: 1.6;\">๐๑๒๓๔๕๖๗๘๙ - 0123456789</p>\n"
+"    <p class=\"preview-text\" style=\"font-size: 14px; line-height: 1.6;\">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</p>\n"
+"</div>"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -269,6 +284,12 @@ msgid ""
 "    <p class=\"preview-text\" style=\"font-size: 14px; line-height: 1.6;\">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</p>\n"
 "</div>"
 msgstr ""
+"<div id=\"thai-font-preview\" class=\"well\" style=\"padding: 20px;\">\n"
+"    <h3 id=\"font-preview-heading\" style=\"margin-bottom: 15px;\">Font Preview / ตัวอย่างฟอนต์</h3>\n"
+"    <p class=\"preview-text\" style=\"font-size: 18px; line-height: 1.6;\">ทดสอบฟอนต์ภาษาไทย - Thai Font Testing</p>\n"
+"    <p class=\"preview-text\" style=\"font-size: 16px; line-height: 1.6;\">๐๑๒๓๔๕๖๗๘๙ - 0123456789</p>\n"
+"    <p class=\"preview-text\" style=\"font-size: 14px; line-height: 1.6;\">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</p>\n"
+"</div>"
 
 #. Content of the 'Font Preview' (HTML) field in DocType 'TBS General
 #. Settings'
@@ -301,6 +322,15 @@ msgid ""
 "    <p style=\"margin: 8px 0 0 0; font-size: 13px; color: #666;\"><em>Tip: Add email addresses of users who should have access to Thai Business Suite features.</em></p>\n"
 "</div>"
 msgstr ""
+"<div style=\"padding: 12px; background-color: #f0f4ff; border-left: 3px solid #2490ef; border-radius: 4px; margin-top: 10px;\">\n"
+"    <p style=\"margin: 0 0 8px 0; font-weight: 600;\">วิธีการทำงานของการควบคุมการเข้าถึง Workspace:</p>\n"
+"    <ul style=\"margin: 0; padding-left: 20px;\">\n"
+"        <li><strong>ปิดใช้งาน:</strong> ผู้ใช้ทุกคนสามารถเห็น Workspace ของ Thai Business Suite (พฤติกรรมเริ่มต้น)</li>\n"
+"        <li><strong>เปิดใช้งาน:</strong> เฉพาะผู้ใช้ในรายการที่อนุญาตด้านล่างเท่านั้นที่สามารถเห็น Workspace ของ Thai Business Suite</li>\n"
+"        <li><strong>อนุญาตเสมอ:</strong> บทบาท Administrator และ System Manager จะสามารถเข้าถึงได้เสมอไม่ว่าจะตั้งค่าอย่างไร</li>\n"
+"    </ul>\n"
+"    <p style=\"margin: 8px 0 0 0; font-size: 13px; color: #666;\"><em>คำแนะนำ: เพิ่มที่อยู่อีเมลของผู้ใช้ที่ควรได้รับสิทธิ์เข้าถึงฟีเจอร์ของ Thai Business Suite</em></p>\n"
+"</div>"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -314,6 +344,14 @@ msgid ""
 "<li><strong>secure</strong>: Flag to use secure (HTTPS) connection to S3 service.</li>\n"
 "</ul>"
 msgstr ""
+"<p>การใช้ boto3 (AWS SDK สำหรับภาษา Python) เพื่อดำเนินการเกี่ยวกับบัคเก็ตและอ็อบเจ็กต์ใน S3 โปรดดูเอกสาร boto3 สำหรับข้อมูลเพิ่มเติม:</p>\n"
+"<ul>\n"
+"<li><strong>endpoint</strong>: ชื่อโฮสต์ของบริการ S3 (เช่น s3.amazonaws.com หรือ endpoint ที่เข้ากันได้กับ S3 แบบกำหนดเอง)</li>\n"
+"<li><strong>access_key</strong>: AWS Access Key ID ของบัญชีของคุณ</li>\n"
+"<li><strong>secret_key</strong>: AWS Secret Access Key ของบัญชีของคุณ</li>\n"
+"<li><strong>region</strong>: ชื่อภูมิภาค AWS (เช่น us-east-1, ap-southeast-1)</li>\n"
+"<li><strong>secure</strong>: ตัวระบุการใช้การเชื่อมต่อที่ปลอดภัย (HTTPS) กับบริการ S3</li>\n"
+"</ul>"
 
 #. Header text in the Accounts Payable - TBS Workspace
 #: thai_business_suite/thai_business_suite/workspace/accounts_payable___tbs/accounts_payable___tbs.json
@@ -382,6 +420,11 @@ msgid ""
 "provider and/or remove public access to objects. <strong>Some files you "
 "upload to Frappe will be for sure private!</strong>"
 msgstr ""
+"<strong>โปรดระวัง!</strong> "
+"กรุณาตั้งค่าถังข้อมูลของคุณให้เป็นแบบส่วนตัวในผู้ให้บริการของคุณ "
+"และ/หรือปิดการเข้าถึงสาธารณะสำหรับวัตถุ "
+"<strong>ไฟล์บางส่วนที่คุณอัปโหลดไปยัง Frappe "
+"จะต้องเป็นไฟล์ส่วนตัวอย่างแน่นอน!</strong>"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -392,11 +435,16 @@ msgid ""
 "<li><strong>disabled</strong>: If connection is valid, remote files will be used for viewing and downloading tasks, but no files will be uploaded to remote bucket.</li>\n"
 "</ul>"
 msgstr ""
+"<ul>\n"
+"<li><strong>เปิดใช้งาน</strong>: ไฟล์จะถูกอัปโหลดไปยังบัคเก็ตที่ระบุเมื่อ:\n"
+"<ul><li>“โฟลเดอร์” ที่กำหนดด้านล่างและ “ไฟล์” อยู่ภายในโฟลเดอร์นั้น</li><li>“ไฟล์” ถูกแก้ไขและเลือกที่เก็บข้อมูลภายนอกนี้</li></ul> </li>\n"
+"<li><strong>ปิดใช้งาน</strong>: หากการเชื่อมต่อถูกต้อง ไฟล์ระยะไกลจะถูกใช้สำหรับการดูและดาวน์โหลด แต่จะไม่มีการอัปโหลดไฟล์ไปยังบัคเก็ตระยะไกล</li>\n"
+"</ul>"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -425,37 +473,37 @@ msgstr "ผู้ช่วย AI"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI Content Generation Settings"
-msgstr ""
+msgstr "การตั้งค่าการสร้างเนื้อหา AI"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI Model"
-msgstr ""
+msgstr "โมเดล AI"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI Provider"
-msgstr ""
+msgstr "ผู้ให้บริการ AI"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI Settings"
-msgstr ""
+msgstr "การตั้งค่า AI"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI model to use for content generation"
-msgstr ""
+msgstr "โมเดล AI ที่ใช้สำหรับการสร้างเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI model used (e.g., gpt-4-turbo-preview)"
-msgstr ""
+msgstr "เสร็จ AI รายรมการ (เพื่อ gpt-4-turbo-preview)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "API Call"
-msgstr ""
+msgstr "การเรียกใช้ API"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -485,12 +533,12 @@ msgstr "หมดเวลารอ API (วินาที)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "API key from affiliate ERPNext server"
-msgstr ""
+msgstr "คีย์ API จากเซิร์ฟเวอร์พันธมิตร ERPNext"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "API secret from affiliate ERPNext server"
-msgstr ""
+msgstr "รหัสลับ API จากเซิร์ฟเวอร์พันธมิตร ERPNext"
 
 #. Option for the 'Punch Direction' (Select) field in DocType 'ZKTeco
 #. Biometric
@@ -523,7 +571,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Access"
-msgstr ""
+msgstr "บันทึก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -533,7 +581,7 @@ msgstr "การควบคุมการเข้าถึง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Access Control Help"
-msgstr ""
+msgstr "ความช่วยเหลือการควบคุมการเข้าถึง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -543,7 +591,7 @@ msgstr "รหัสผ่านเข้าถึง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Access key (aka user ID) of your account in S3 service."
-msgstr ""
+msgstr "คีย์การเข้าถึง (หรือที่เรียกว่ารหัสผู้ใช้) ของบัญชีของคุณในบริการ S3"
 
 #. Label of a Datetime field in DocType 'Secret Access Log'
 #: thai_business_suite/thai_business_suite/doctype/secret_access_log/secret_access_log.json
@@ -558,7 +606,7 @@ msgstr "เข้าถึงโดย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "According to Revenue Code"
-msgstr ""
+msgstr "ตามประมวลรัษฎากร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -667,7 +715,7 @@ msgstr "ผู้ใช้บัญชี"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Accuracy in meters"
-msgstr ""
+msgstr "ความแม่นยำในหน่วยเมตร"
 
 #: thai_business_suite/public/js/payment_entry.js:75
 #: thai_business_suite/public/js/sales_invoice.js:92
@@ -699,6 +747,7 @@ msgstr "ใช้งาน"
 msgid ""
 "Active: Reserved | Released: Manually freed | Consumed: Used in transaction"
 msgstr ""
+"สถานะ: จองไว้ | ปล่อยแล้ว: ปลดปล่อยด้วยตนเอง | ใช้แล้ว: ใช้ในรายการธุรกรรม"
 
 #. Label of a Link field in DocType 'Thai Overtime Type'
 #: thai_business_suite/thai_business_suite/doctype/thai_overtime_type/thai_overtime_type.json
@@ -726,7 +775,7 @@ msgstr "วันที่จัดส่งจริง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Actual Hours"
-msgstr ""
+msgstr "ชั่วโมงจริง"
 
 #. Description of the 'Actual Delivery Date' (Date) field in DocType 'PO
 #. Planned Delivery'
@@ -737,7 +786,7 @@ msgstr "วันที่สินค้าถูกรับจริง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Add Company"
-msgstr ""
+msgstr "เพิ่มบริษัท"
 
 #. Label of a Check field in DocType 'TBS CoA Mapping Template'
 #: thai_business_suite/thai_business_suite/doctype/tbs_coa_mapping_template/tbs_coa_mapping_template.json
@@ -748,7 +797,7 @@ msgstr "เพิ่มคำต่อท้ายบริษัทในบั
 #: SPA
 msgid ""
 "Add email addresses of users who can access Thai Business Suite workspaces"
-msgstr ""
+msgstr "เพิ่มที่อยู่อีเมลของผู้ใช้ที่สามารถเข้าถึงพื้นที่ทำงานของชุดธุรกิจไทย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -789,7 +838,7 @@ msgstr "รายละเอียดเพิ่มเติมเกี่ย
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Additional details about this order type"
-msgstr ""
+msgstr "รายละเอียดเพิ่มเติมเกี่ยวกับประเภทคำสั่งซื้อนี้"
 
 #. Description of the 'Custom Recipients' (Small Text) field in DocType 'Thai
 #. Compliance Event Reminder'
@@ -848,32 +897,32 @@ msgstr "การตั้งค่าขั้นสูง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Advanced settings"
-msgstr ""
+msgstr "การตั้งค่าขั้นสูง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate API Key"
-msgstr ""
+msgstr "คีย์ API ผู้ร่วมค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate API Secret"
-msgstr ""
+msgstr "รหัสลับ API ผู้ร่วมงาน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate API URL"
-msgstr ""
+msgstr "URL API ผู้ร่วมค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate Company API"
-msgstr ""
+msgstr "API บิดชานสิด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Affiliate Company Name"
-msgstr ""
+msgstr "ชื่อบริษัทในเครือ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -943,12 +992,12 @@ msgstr "ซิงค์ วันวัน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All Types"
-msgstr ""
+msgstr "ทั้งหมด เท่าย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Allow English technical terms in Thai content"
-msgstr ""
+msgstr "อนุญาตให้ใช้คำศัพท์ทางเทคนิคภาษาอังกฤษในเนื้อหาภาษาไทย"
 
 #. Label of a Select field in DocType 'ZKTeco Biometric Settings'
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
@@ -963,7 +1012,7 @@ msgstr "สว่าง IP ชาราง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Allowed Users"
-msgstr ""
+msgstr "ผู้ใช้ที่ได้รับอนุญาต"
 
 #: thai_business_suite/overrides/chart_of_accounts_importer.py:337
 msgid "Alternatively, you can download the template and fill your data in."
@@ -983,7 +1032,7 @@ msgstr "แก้ไขจาก"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Amendment"
-msgstr ""
+msgstr "การแก้ไข"
 
 #. Label of a Currency field in DocType 'Thai VAT Recognition Item'
 #. Label of a Currency field in DocType 'Payment Request Purchase Order
@@ -996,12 +1045,12 @@ msgstr "จำนวน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Amount Limits"
-msgstr ""
+msgstr "ขีดจำกัดจำนวนเงิน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Amount still owed by customer"
-msgstr ""
+msgstr "จำนวนเงินที่ลูกค้ายังค้างชำระอยู่"
 
 #. Description of the 'Replenishment Amount' (Currency) field in DocType
 #. 'Petty
@@ -1027,17 +1076,17 @@ msgstr "เกิดข้อผิดพลาด: {0}"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Analysis Date"
-msgstr ""
+msgstr "วันที่ขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Analysis Language"
-msgstr ""
+msgstr "เป็นไทยที่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Analysis Period"
-msgstr ""
+msgstr "ช่วงเวลาวิเคราะห์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1047,7 +1096,7 @@ msgstr "Analytics"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Analytics Summary"
-msgstr ""
+msgstr "สรุปการวิเคราะห์"
 
 #: thai_business_suite/public/js/purchase_invoice_grist.js:10
 #: thai_business_suite/public/js/sales_invoice_grist.js:10
@@ -1057,7 +1106,7 @@ msgstr "วิเคราะห์ใน Grist"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Analyzer Version"
-msgstr ""
+msgstr "รุ่นตัววิเคราะห์"
 
 #. Option for the 'Base Date Field' (Select) field in DocType 'Thai Compliance
 #. Event Template'
@@ -1080,7 +1129,7 @@ msgstr "รายปี"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Anthropic"
-msgstr ""
+msgstr "Anthropic"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1090,7 +1139,7 @@ msgstr "Anthropic API Key"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Anthropic API key for Claude content generation (optional)"
-msgstr ""
+msgstr "คีย์ API ของ Anthropic สำหรับการสร้างเนื้อหา Claude (ไม่บังคับ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1191,27 +1240,27 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Are you sure you want to delete this production order?"
-msgstr ""
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบใบสั่งผลิตนี้?"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Article"
-msgstr ""
+msgstr "บทความ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Article Title"
-msgstr ""
+msgstr "หัวข้อบทความ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Articles Using This Keyword"
-msgstr ""
+msgstr "บทความที่ใช้คำสำคัญนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Articles that use this keyword"
-msgstr ""
+msgstr "บทความที่ใช้คำสำคัญนี้"
 
 #: thai_business_suite/page/ai_accounting_assistant/ai_accounting_assistant.js:43
 msgid "Ask me anything about:"
@@ -1241,7 +1290,7 @@ msgstr "ได้รับมอบหมายจาก"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Assigned Date"
-msgstr ""
+msgstr "วันที่กำหนด"
 
 #. Label of a Link field in DocType 'Thai Compliance Event Template'
 #: thai_business_suite/thai_business_suite/doctype/thai_compliance_event_template/thai_compliance_event_template.json
@@ -1333,7 +1382,7 @@ msgstr "รายงานผู้สอบบัญชี"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auditor Reports"
-msgstr ""
+msgstr "รายงานผู้ตรวจสอบบัญชี"
 
 #: thai_business_suite/google_calendar_service_account.py:55
 msgid "Authentication Error"
@@ -1352,17 +1401,17 @@ msgstr "ผู้เขียน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Authoritative"
-msgstr ""
+msgstr "มีอำนาจหน้าที่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto Create Article"
-msgstr ""
+msgstr "สร้างบทความอัตโนมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto Create Brief"
-msgstr ""
+msgstr "สร้างสรุปอัตโนมัติ"
 
 #. Label of a Check field in DocType 'Petty Cash Account'
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
@@ -1372,32 +1421,32 @@ msgstr "สร้างรายการสมุดรายวันอัต
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto Publish if Ready"
-msgstr ""
+msgstr "เผยแพร่อัตโนมัติเมื่อพร้อม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto Run Analysis"
-msgstr ""
+msgstr "วิเคราะห์อัตโนมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto-Optimize"
-msgstr ""
+msgstr "ปรับแต่งอัตโนมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto-Publish"
-msgstr ""
+msgstr "เผยแพร่โดยอัตโนมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto-Research"
-msgstr ""
+msgstr "การวิจัยอัตโนมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto-Write"
-msgstr ""
+msgstr "เขียนอัตโนมัติ"
 
 #. Description of the 'Current Balance' (Currency) field in DocType 'Petty
 #. Cash
@@ -1409,7 +1458,7 @@ msgstr "คำนวณโดยอัตโนมัติจากรายก
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto-fetched from User master"
-msgstr ""
+msgstr "ดึงข้อมูลอัตโนมัติจากผู้ใช้หลัก"
 
 #. Description of the 'Journal Entry' (Link) field in DocType 'Petty Cash
 #. Request'
@@ -1426,7 +1475,7 @@ msgstr "รายการสมุดรายวันที่สร้าง
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Automated Reporting"
-msgstr ""
+msgstr "รายงานอัตโนมัติ"
 
 #: thai_business_suite/thai_business_suite/utils/generate_overtime.py:48
 msgid "Automatic overtime generation is disabled in Thai Overtime Settings"
@@ -1451,17 +1500,17 @@ msgstr "สร้างรายการบัญชีแยกประเภ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Automatically create article when triggered"
-msgstr ""
+msgstr "สร้างบทความโดยอัตโนมัติเมื่อถูกกระตุ้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Automatically create content brief when triggered"
-msgstr ""
+msgstr "สร้างสรุปเนื้อหาโดยอัตโนมัติเมื่อมีการทริกเกอร์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Automatically publish if article passes quality checks"
-msgstr ""
+msgstr "เผยแพร่อัตโนมัติหากบทความผ่านการตรวจสอบคุณภาพ"
 
 #. Description of the 'Enable Automated Secret Rotation' (Check) field in
 #. DocType 'TBS General Settings'
@@ -1472,7 +1521,7 @@ msgstr "หมุนเวียนความลับโดยอัตโน
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Automatically run SEO analysis after creation"
-msgstr ""
+msgstr "เรียกใช้การวิเคราะห์ SEO โดยอัตโนมัติหลังจากสร้างแล้ว"
 
 #. Description of the 'Doppler Token Type' (Select) field in DocType 'TBS
 #. General Settings'
@@ -1488,12 +1537,12 @@ msgstr "ระบบอัตโนมัติ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Automation Actions"
-msgstr ""
+msgstr "การดำเนินการอัตโนมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Automation Rules (JSON)"
-msgstr ""
+msgstr "กฎการทำงานอัตโนมัติ (JSON)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1503,82 +1552,82 @@ msgstr "เครื่องพิมพ์ที่มีอยู่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Average Google ranking position for tracked keywords"
-msgstr ""
+msgstr "อันดับเฉลี่ยของ Google สำหรับคำสำคัญที่ติดตาม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Average Progress"
-msgstr ""
+msgstr "ความก้าวหน้าเฉลี่ย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Average percentage of page scrolled"
-msgstr ""
+msgstr "เปอร์เซ็นต์เฉลี่ยของการเลื่อนหน้าจอ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Average time users spent engaging with content"
-msgstr ""
+msgstr "เวลาเฉลี่ยที่ผู้ใช้ใช้ในการมีส่วนร่วมกับเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Avg Engagement Time"
-msgstr ""
+msgstr "เวลาการมีส่วนร่วมเฉลี่ย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Avg Paragraph Length (words)"
-msgstr ""
+msgstr "ความยาวเฉลี่ยของย่อหน้า (คำ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Avg Ranking Position"
-msgstr ""
+msgstr "อันดับเฉลี่ย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Avg Scroll Depth"
-msgstr ""
+msgstr "ความลึกการเลื่อนเฉลี่ย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Avg Sentence Length (words)"
-msgstr ""
+msgstr "ความยาวประโยคเฉลี่ย (คำ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Avg Time on Page"
-msgstr ""
+msgstr "ค่าเฉลี่ยเวลาบนหน้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "B.E."
-msgstr ""
+msgstr "พ.ศ."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "B2B"
-msgstr ""
+msgstr "B2B"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "B2B2C"
-msgstr ""
+msgstr "B2B2C"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "B2C"
-msgstr ""
+msgstr "B2C"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Backlinks Acquired"
-msgstr ""
+msgstr "ลิงก์ย้อนกลับที่ได้รับ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1592,7 +1641,7 @@ msgstr "ยอดคงเหลือได้รับการอัปเด
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bangkok Metropolitan"
-msgstr ""
+msgstr "กรุงเทพมหานคร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1625,7 +1674,7 @@ msgstr "สมุดรายวันธนาคาร"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bank Reports"
-msgstr ""
+msgstr "รายงานธนาคาร"
 
 #. Option for the 'Payment Mode' (Select) field in DocType 'Petty Cash
 #. Request'
@@ -1685,6 +1734,7 @@ msgstr "ยอดรวมภาษีและค่าธรรมเนีย
 msgid ""
 "Base URL of affiliate ERPNext server (e.g., https://affiliate.erpnext.com)"
 msgstr ""
+"URL พื้นฐานของเซิร์ฟเวอร์ ERPNext สาขา (เช่น https://affiliate.erpnext.com)"
 
 #. Description of the 'Pull Frequency (minutes)' (Int) field in DocType
 #. 'ZKTeco
@@ -1726,32 +1776,32 @@ msgstr "หมายเลขชุด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch or Lot number from Manufacturing Order or Purchase Receipt"
-msgstr ""
+msgstr "หมายเลขชุดหรือล็อตจากใบสั่งผลิตหรือใบรับซื้อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch/Lot No"
-msgstr ""
+msgstr "หมายเลขชุด/ล็อต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch/Lot Selection Settings"
-msgstr ""
+msgstr "การตั้งค่าการเลือกชุด/ล็อต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch/Lot Selections"
-msgstr ""
+msgstr "การเลือกชุด/ล็อต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch/Lot Selections (Multiple)"
-msgstr ""
+msgstr "การเลือกชุด/ล็อต (หลายรายการ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Batch/Serial No Tracking"
-msgstr ""
+msgstr "การติดตามหมายเลขชุด/หมายเลขซีเรียล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1759,6 +1809,8 @@ msgid ""
 "Below cache settings affect only to public files and files not returned as "
 "presigned url (directly from your bucket provider)"
 msgstr ""
+"การตั้งค่าหน่วยความจำแคชด้านล่างนี้มีผลเฉพาะกับไฟล์สาธารณะและไฟล์ที่ไม่ได้ส่งคืนเป็น"
+" URL ที่ลงนามล่วงหน้า (โดยตรงจากผู้ให้บริการที่เก็บข้อมูลของคุณ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1768,12 +1820,12 @@ msgstr "ผลประโยชน์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bi-weekly"
-msgstr ""
+msgstr "ทุกสองสัปดาห์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bilingual"
-msgstr ""
+msgstr "สองภาษา"
 
 #. Label of a Section Break field in DocType 'Petty Cash Account'
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
@@ -1820,12 +1872,12 @@ msgstr "สถานะการเรียกเก็บเงิน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Block Save"
-msgstr ""
+msgstr "บล็อกบันทึก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Block Submit"
-msgstr ""
+msgstr "บล็อกการส่งข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1835,7 +1887,7 @@ msgstr "อุดตัน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Blocked Reason"
-msgstr ""
+msgstr "เหตุผลในการระงับ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1866,12 +1918,12 @@ msgstr "ผู้กู้"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Borrower Information"
-msgstr ""
+msgstr "ข้อมูลผู้กู้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Borrower Name"
-msgstr ""
+msgstr "ชื่อผู้ยืม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1886,7 +1938,7 @@ msgstr "ระยะขอบล่าง (มม.)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bounce Rate"
-msgstr ""
+msgstr "อัตราตีกลับ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1929,17 +1981,17 @@ msgstr "ชื่อสาขา (ภาษาไทย)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Brand Awareness"
-msgstr ""
+msgstr "การรับรู้แบรนด์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Branded"
-msgstr ""
+msgstr "ตราสินค้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Breadcrumb"
-msgstr ""
+msgstr "เส้นทางนำทาง"
 
 #. Option for the 'Repair Type' (Select) field in DocType 'Asset Repair
 #. History'
@@ -1950,12 +2002,12 @@ msgstr "การเสีย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Brief Title"
-msgstr ""
+msgstr "หัวข้อย่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Broken Links Count"
-msgstr ""
+msgstr "จำนวนลิงก์เสีย"
 
 #: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.js:23
 msgid "Browse Calendars"
@@ -1967,41 +2019,43 @@ msgid ""
 "Browser API key for Google Maps JavaScript API (restrict to your domain for "
 "security)"
 msgstr ""
+"คีย์ API สำหรับเบราว์เซอร์ของ Google Maps JavaScript API "
+"(จำกัดการใช้งานเฉพาะโดเมนของคุณเพื่อความปลอดภัย)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bucket name"
-msgstr ""
+msgstr "ชื่อบัคเก็ต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Buddhist Calendar Settings"
-msgstr ""
+msgstr "การตั้งปฏิทินพุทธศักราช"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Business Category"
-msgstr ""
+msgstr "หมวดหมู่ธุรกิจ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Business Context"
-msgstr ""
+msgstr "บริบททางธุรกิจ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Business Goal"
-msgstr ""
+msgstr "ธุรกิจสะราย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Business Impact"
-msgstr ""
+msgstr "ผลกระทบทางธุรกิจ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Business Name"
-msgstr ""
+msgstr "ชื่อธุรกิจ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2011,22 +2065,22 @@ msgstr "ประเภทธุรกิจ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Business Type (English)"
-msgstr ""
+msgstr "ประเภทธุรกิจ (ภาษาอังกฤษ)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Business Type (Thai)"
-msgstr ""
+msgstr "ประเภทธุรกิจ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bypass Roles"
-msgstr ""
+msgstr "ข้ามบทบาท"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2041,7 +2095,7 @@ msgstr "CDS-.YYYY.-.####"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "CSG-.YYYY.-"
-msgstr ""
+msgstr "CSG-.YYYY.-"
 
 #. Label of a Code field in DocType 'Thai Document Template'
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.json
@@ -2117,7 +2171,7 @@ msgstr "คอลัมน์ CSV ที่ระบุว่าบัญชี�
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "CSV exported successfully"
-msgstr ""
+msgstr "ส่งออก CSV สำเร็จแล้ว"
 
 #: thai_business_suite/thai_business_suite/doctype/grist_static_report/grist_static_report.js:43
 msgid "CSV file downloaded successfully"
@@ -2126,17 +2180,17 @@ msgstr "ไฟล์ CSV ถูกดาวน์โหลดเรียบร�
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cache files smaller than (bytes)"
-msgstr ""
+msgstr "ไฟล์แคชที่มีขนาดเล็กกว่า (ไบต์)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cached files expiration (seconds)"
-msgstr ""
+msgstr "การหมดอายุของไฟล์แคช (วินาที)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cafe"
-msgstr ""
+msgstr "คาเฟ่"
 
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_replenishment/petty_cash_replenishment.js:12
 msgid "Calculate Replenishment Amount"
@@ -2145,7 +2199,7 @@ msgstr "คำนวณจำนวนเติมสินค้า"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Calculate taxes in real-time with accuracy"
-msgstr ""
+msgstr "คำนวณภาษีแบบเรียลไทม์อย่างแม่นยำ"
 
 #. Description of the 'Net Replenishment Needed' (Currency) field in DocType
 #. 'Petty Cash Replenishment'
@@ -2156,12 +2210,12 @@ msgstr "คำนวณการเติมเงินเพื่อคืน
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Calculated: net_total * (vat_rate / 100)"
-msgstr ""
+msgstr "คำนวณ: net_total * (vat_rate / 100)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Calculated: net_total + vat_amount"
-msgstr ""
+msgstr "คำนวณ: ยอดสุทธิ + จำนวนภาษีมูลค่าเพิ่ม"
 
 #. Label of a Section Break field in DocType 'Thai Overtime Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_overtime_settings/thai_overtime_settings.json
@@ -2217,17 +2271,17 @@ msgstr "ยกเลิกแล้ว"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Canonical URL"
-msgstr ""
+msgstr "URL มาตรฐาน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Capture Date"
-msgstr ""
+msgstr "วันที่บันทึก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Case Study"
-msgstr ""
+msgstr "กรณีศึกษา"
 
 #. Option for the 'Payment Mode' (Select) field in DocType 'Petty Cash
 #. Request'
@@ -2260,12 +2314,12 @@ msgstr "เก็บเงินปลายทาง (COD)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Casual"
-msgstr ""
+msgstr "ไม่เป็นทางการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Categories & Tags"
-msgstr ""
+msgstr "หมวดหมู่ & แท็ก"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2275,12 +2329,12 @@ msgstr "หมวดหมู่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Category Scores"
-msgstr ""
+msgstr "คะแนนหมวดหมู่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Central"
-msgstr ""
+msgstr "ศูนย์กลาง"
 
 #. Option for the 'Document Type' (Select) field in DocType 'Thai Compliance
 #. Document Requirement'
@@ -2337,7 +2391,7 @@ msgstr "ตรวจสอบสถานะบริการ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Check if keyword has seasonal patterns"
-msgstr ""
+msgstr "ตรวจสอบว่าคีย์เวิร์ดมีรูปแบบตามฤดูกาลหรือไม่"
 
 #. Description of the 'Template Available' (Check) field in DocType 'Thai
 #. Compliance Document Requirement'
@@ -2368,32 +2422,32 @@ msgstr "เช็ค"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cheque Book"
-msgstr ""
+msgstr "สมุดเช็ค"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cheque Payment"
-msgstr ""
+msgstr "การชำระเงินด้วยเช็ค"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cheque Received"
-msgstr ""
+msgstr "เช็คที่ได้รับ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Child table row name from voucher"
-msgstr ""
+msgstr "ชื่อแถวตารางย่อยจากใบสำคัญ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Choose whether to limit by total quantity, total amount, or both"
-msgstr ""
+msgstr "เลือกว่าจะจำกัดโดยจำนวนรวม จำนวนเงินรวม หรือทั้งสองอย่าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Choose your descriptive name"
-msgstr ""
+msgstr "กรุณาเลือกชื่อคำอธิบายของคุณ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2403,7 +2457,7 @@ msgstr "เมือง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "City/District"
-msgstr ""
+msgstr "เมือง/อำเภอ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2413,7 +2467,7 @@ msgstr "เมือง/อำเภอ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Claude 3.5 Sonnet"
-msgstr ""
+msgstr "Claude 3.5 Sonnet"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2436,12 +2490,12 @@ msgstr "คลิกปุ่ม \"ตัวอย่าง\" เพื่อด
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Click-Through Rate"
-msgstr ""
+msgstr "อัตราการคลิกผ่าน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Click-through rate from search results"
-msgstr ""
+msgstr "อัตราการคลิกผ่านจากผลการค้นหา"
 
 #: thai_business_suite/page/ai_accounting_assistant/ai_accounting_assistant.js:364
 #: thai_business_suite/public/js/payment_entry.js:67
@@ -2453,7 +2507,7 @@ msgstr "ปิด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Close popup"
-msgstr ""
+msgstr "ปิดหน้าต่างป๊อปอัพ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2472,7 +2526,7 @@ msgstr "ยอดคงเหลือปิดบัญชี: {0}"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Collateral Description"
-msgstr ""
+msgstr "รายละเอียดหลักประกัน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2482,7 +2536,7 @@ msgstr "รายละเอียดหลักประกัน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Collateral Reference"
-msgstr ""
+msgstr "เอกสารอ้างอิงหลักประกัน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2516,17 +2570,19 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comma-separated SEO keywords specific to this business type"
-msgstr ""
+msgstr "คำสำคัญ SEO แยกด้วยเครื่องหมายจุลภาค เฉพาะสำหรับประเภทธุรกิจนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comma-separated Thai stop words to exclude from keyword analysis"
 msgstr ""
+"คำหยุด (Stop words) ภาษาไทยที่คั่นด้วยเครื่องหมายจุลภาค "
+"เพื่อยกเว้นจากการวิเคราะห์คำสำคัญ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comma-separated keywords for this section"
-msgstr ""
+msgstr "คีย์เวิร์ดที่คั่นด้วยเครื่องหมายจุลภาคสำหรับส่วนนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2538,17 +2594,17 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comma-separated list of email addresses"
-msgstr ""
+msgstr "รายชื่อที่อยู่อีเมลคั่นด้วยเครื่องหมายจุลภาค"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comma-separated list of related keywords"
-msgstr ""
+msgstr "รายการคำสำคัญที่เกี่ยวข้อง คั่นด้วยเครื่องหมายจุลภาค"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comma-separated local SEO keywords for this province"
-msgstr ""
+msgstr "คำสำคัญ SEO ท้องถิ่นที่คั่นด้วยเครื่องหมายจุลภาคสำหรับจังหวัดนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2556,6 +2612,8 @@ msgid ""
 "Comma-separated roles that can bypass PO limits (e.g., 'Purchase Manager, "
 "System Manager')"
 msgstr ""
+"รายชื่อบทบาทที่คั่นด้วยเครื่องหมายจุลภาคซึ่งสามารถข้ามข้อจำกัดของใบสั่งซื้อ "
+"(เช่น 'ผู้จัดการฝ่ายจัดซื้อ, ผู้จัดการระบบ')"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2570,7 +2628,7 @@ msgstr "เชิงพาณิชย์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Commercial Intent"
-msgstr ""
+msgstr "ความตั้งใจเชิงพาณิชย์"
 
 #: thai_business_suite/page/ai_accounting_assistant/ai_accounting_assistant.js:419
 msgid "Communication error"
@@ -2637,7 +2695,7 @@ msgstr "เฉพาะบริษัท"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Company to create Purchase Invoices for"
-msgstr ""
+msgstr "บริษัทสำหรับสร้างใบกำกับซื้อ"
 
 #: thai_business_suite/setup/coa_installer.py:34
 msgid ""
@@ -2658,22 +2716,22 @@ msgstr "บริษัท {0} ไม่มีอยู่จริง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Comparison"
-msgstr ""
+msgstr "การเปรียบเทียบ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Competition"
-msgstr ""
+msgstr "การแข่งขัน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Competitor Analysis"
-msgstr ""
+msgstr "การวิเคราะห์คู่แข่ง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Competitor businesses in Thai market"
-msgstr ""
+msgstr "ธุรกิจคู่แข่งในตลาดไทย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2698,17 +2756,17 @@ msgstr "วันที่เสร็จสมบูรณ์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Completion Notes"
-msgstr ""
+msgstr "หมายเหตุการดำเนินการเสร็จสิ้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Completion Tokens"
-msgstr ""
+msgstr "โทเค็นที่ใช้ในการประมวลผล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Complex Words Ratio"
-msgstr ""
+msgstr "อัตราส่วนคำซับซ้อน"
 
 #. Label of a Select field in DocType 'Thai Compliance Event Template'
 #: thai_business_suite/thai_business_suite/doctype/thai_compliance_event_template/thai_compliance_event_template.json
@@ -2729,12 +2787,12 @@ msgstr "ชื่อคอมพิวเตอร์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Conclusion"
-msgstr ""
+msgstr "บทสรุป"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Confidence Level"
-msgstr ""
+msgstr "ระดับความมั่นใจ"
 
 #. Label of a Card Break in the TBS Management Workspace
 #. Label of a Card Break in the Thai Business Suite Workspace
@@ -2763,6 +2821,7 @@ msgstr "ไฟล์การตั้งค่าได้ถูกสร้า
 #: SPA
 msgid "Configure API settings for syncing data to affiliate ERPNext server"
 msgstr ""
+"กำหนดค่าการตั้งค่า API สำหรับการซิงค์ข้อมูลไปยังเซิร์ฟเวอร์ ERPNext สาขา"
 
 #. Description of the 'Google Calendar Integration' (Section Break) field in
 #. DocType 'TBS General Settings'
@@ -2776,6 +2835,8 @@ msgid ""
 "Configure Google Maps JavaScript API for GPS location features in M Capital "
 "loan applications"
 msgstr ""
+"กำหนดค่า Google Maps JavaScript API สำหรับฟีเจอร์ตำแหน่ง GPS "
+"ในใบสมัครสินเชื่อ M Capital"
 
 #. Description of the 'Grist Static Integration' (Section Break) field in
 #. DocType 'TBS General Settings'
@@ -2790,7 +2851,7 @@ msgstr "กำหนดค่าการตั้งค่าอุปกรณ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Configure minimum and maximum limits for Purchase Orders"
-msgstr ""
+msgstr "กำหนดขีดจำกัดขั้นต่ำและสูงสุดสำหรับใบสั่งซื้อ"
 
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.html:98
 #: thai_business_suite/thai_business_suite/page/petty_cash_flowchart/petty_cash_flowchart.py:33
@@ -2809,7 +2870,7 @@ msgstr "กำหนดเวลารวมถึงวิธีการส่
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Configure where users can select batches/lots for inventory tracking"
-msgstr ""
+msgstr "กำหนดค่าที่ผู้ใช้สามารถเลือกล็อต/ชุดสำหรับการติดตามสินค้าคงคลังได้"
 
 #. Description of the 'App Secrets' (Table) field in DocType 'TBS General
 #. Settings'
@@ -2820,7 +2881,7 @@ msgstr "กำหนดค่าความลับที่แต่ละแ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Configure which users can see Thai Business Suite workspaces"
-msgstr ""
+msgstr "กำหนดผู้ใช้ที่สามารถเห็นพื้นที่ทำงานชุดธุรกิจไทย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2871,32 +2932,32 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Consignment"
-msgstr ""
+msgstr "ฝากขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Consignment End Date"
-msgstr ""
+msgstr "วันสิ้นสุดการฝากขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Consignment Item"
-msgstr ""
+msgstr "สินค้าเลือสิน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Consignment Items"
-msgstr ""
+msgstr "สินค้าฝากขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Consignment Start Date"
-msgstr ""
+msgstr "วันที่เริ่มต้นฝากขาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Consignment Type"
-msgstr ""
+msgstr "ประเภทการฝากขาย"
 
 #. Option for the 'Industry' (Select) field in DocType 'TBS CoA Mapping
 #. Template'
@@ -2947,127 +3008,127 @@ msgstr "เบอร์โทรติดต่อ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content (English)"
-msgstr ""
+msgstr "เนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content (Thai)"
-msgstr ""
+msgstr "เนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Analytics"
-msgstr ""
+msgstr "การวิเคราะห์เนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Brief"
-msgstr ""
+msgstr "สรุปเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Brief Template"
-msgstr ""
+msgstr "แม่แบบสรุปเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Brief Template for research workflows"
-msgstr ""
+msgstr "เทมเพลตสรุปเนื้อหาสำหรับกระบวนการทำงานวิจัย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Frequency"
-msgstr ""
+msgstr "ความถี่ของเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Goal"
-msgstr ""
+msgstr "เป้าหมายเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Goals"
-msgstr ""
+msgstr "เป้าหมายเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Guidelines"
-msgstr ""
+msgstr "แนวทางเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content HTML"
-msgstr ""
+msgstr "เนื้อหา HTML"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Keyword"
-msgstr ""
+msgstr "คำสำคัญเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Manager"
-msgstr ""
+msgstr "ผู้จัดการเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Markdown"
-msgstr ""
+msgstr "เนื้อหา Markdown"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Planning"
-msgstr ""
+msgstr "การวางแผนเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Quality"
-msgstr ""
+msgstr "คุณภาพเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Quality (0-100)"
-msgstr ""
+msgstr "คุณภาพเนื้อหา (0-100)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Quality Indicators"
-msgstr ""
+msgstr "ตัวชี้วัดคุณภาพเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Quality Score (0-100)"
-msgstr ""
+msgstr "คะแนนคุณภาพเนื้อหา (0-100)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Reference"
-msgstr ""
+msgstr "การอ้างอิงเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Strategy"
-msgstr ""
+msgstr "กลยุทธ์เนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Structure"
-msgstr ""
+msgstr "โครงสร้างเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Task Queue"
-msgstr ""
+msgstr "คิวงานเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Template"
-msgstr ""
+msgstr "เทมเพลตเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Topics"
-msgstr ""
+msgstr "หัวข้อเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3077,7 +3138,7 @@ msgstr "ประเภทเนื้อหา"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Content Writer"
-msgstr ""
+msgstr "นักเขียนเนื้อหา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3087,12 +3148,12 @@ msgstr "วันสิ่งสิ่งสร้าง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Controls randomness in AI output (0.0-1.0)"
-msgstr ""
+msgstr "ควบคุมความสุ่มในการสร้างผลลัพธ์ของ AI (0.0-1.0)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Conversational"
-msgstr ""
+msgstr "สนทนา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3111,7 +3172,7 @@ msgstr "การแปลงสำเร็จ!"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Conversions & Revenue"
-msgstr ""
+msgstr "การแปลงและรายได้"
 
 #: thai_business_suite/www/coa_mapper.html:125
 msgid "Convert Another File"
@@ -3120,7 +3181,7 @@ msgstr "แปลงไฟล์อื่น"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Convert File"
-msgstr ""
+msgstr "แปลงไฟล์"
 
 #. Description of the 'Enable Buddhist Era Dates' (Check) field in DocType
 #. 'Grist Static Report'
@@ -3225,7 +3286,7 @@ msgstr "คัดลอกไปยังคลิปบอร์ด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Corporate tax withholding"
-msgstr ""
+msgstr "ภาษีหัก ณ ที่จ่ายของบริษัท"
 
 #. Option for the 'Repair Type' (Select) field in DocType 'Asset Repair
 #. History'
@@ -3236,7 +3297,7 @@ msgstr "แก้ไข"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cost (USD)"
-msgstr ""
+msgstr "ต้นทุน (USD)"
 
 #. Label of a Link field in DocType 'Petty Cash Account'
 #. Label of a Link field in DocType 'Petty Cash Replenishment'
@@ -3255,12 +3316,12 @@ msgstr "ศูนย์ต้นทุนจำเป็นสำหรับก
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cost Information"
-msgstr ""
+msgstr "ข้อมูลต้นทุน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Cost Per Click"
-msgstr ""
+msgstr "ต้นทุนต่อคลิก"
 
 #: thai_business_suite/page/ai_accounting_assistant/ai_accounting_assistant.py:89
 msgid ""
@@ -3289,7 +3350,7 @@ msgstr "รหัสประเทศ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Create New Production Order"
-msgstr ""
+msgstr "สร้างใบสั่งผลิตใหม่"
 
 #: thai_business_suite/thai_business_suite/doctype/thai_document_template/thai_document_template.js:7
 msgid "Create Print Format"
@@ -3303,7 +3364,7 @@ msgstr "สร้างโดย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Created Date"
-msgstr ""
+msgstr "วันที่สร้าง"
 
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.py:68
 msgid "Created ERPNext Branch: {0}"
@@ -3322,12 +3383,12 @@ msgstr "กำลังสร้างรายงานวิเคราะห
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Critical"
-msgstr ""
+msgstr "วิกฤต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Critical Issues"
-msgstr ""
+msgstr "ปัญหาสำคัญ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3339,6 +3400,8 @@ msgstr "นิพจน์ Cron"
 msgid ""
 "Cron expression for scheduled workflows (e.g., 0 9 * * * for daily at 9 AM)"
 msgstr ""
+"นิพจน์ Cron สำหรับเวิร์กโฟลว์ที่กำหนดเวลา (เช่น 0 9 * * * สำหรับทุกวันเวลา 9"
+" โมงเช้า)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3353,7 +3416,7 @@ msgstr "สกุลเงิน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Currency Conversion"
-msgstr ""
+msgstr "อัตราแลกเปลี่ยนเงินตรา"
 
 #. Label of a Currency field in DocType 'Petty Cash Account'
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_account/petty_cash_account.json
