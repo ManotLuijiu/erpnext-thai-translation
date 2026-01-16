@@ -1,4 +1,4 @@
-# Translations template for Lending.
+# Thai translations for Lending.
 # Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
 # This file is distributed under the same license as the Lending project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
@@ -7,13 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lending VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2025-09-04 18:48+0642\n"
-"PO-Revision-Date: 2025-09-07 06:08\n"
+"POT-Creation-Date: 2025-10-20 14:04+0642\n"
+"PO-Revision-Date: 2026-01-16 08:30\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: contact@frappe.io\n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.13.1\n"
 
 #: lending/loan_management/report/applicant_wise_loan_security_exposure/applicant_wise_loan_security_exposure.py:83
@@ -34,10 +36,25 @@ msgstr "<span class=\"h4\"><b>รายงานและข้อมูลห�
 msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
 msgstr "<span class=\"h4\"><b>ทางลัดของคุณ</b></span>"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "A"
+msgstr ""
+
 #. Name of a report
 #: lending/loan_management/report/alm_audit_report/alm_audit_report.json
 msgid "ALM Audit Report"
 msgstr "รายงานการตรวจสอบ ALM"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Abbreviation"
+msgstr "ตัวย่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "About"
+msgstr "เกี่ยวกับ"
 
 #. Label of a Link field in DocType 'Loan Disbursement Charge'
 #: lending/loan_management/doctype/loan_disbursement_charge/loan_disbursement_charge.json
@@ -67,7 +84,7 @@ msgstr "การบัญชี"
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Accounting Details"
-msgstr "รายละเอียดทางบัญชี"
+msgstr "รายละเอียดบัญชี"
 
 #. Label of a Section Break field in DocType 'Loan Interest Accrual'
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
@@ -89,7 +106,7 @@ msgstr "มิติทางบัญชี"
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 #: lending/loan_management/doctype/loan_write_off/loan_write_off.json
 msgid "Accounting Dimensions"
-msgstr "มิติทางการบัญชี"
+msgstr "มิติการบัญชี"
 
 #: lending/loan_management/doctype/loan_balance_adjustment/loan_balance_adjustment.js:7
 #: lending/public/js/loan_common.js:12
@@ -100,6 +117,11 @@ msgstr "บัญชีแยกประเภท"
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Accounts"
 msgstr "บัญชี"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Accounts User"
+msgstr "ผู้ใช้บัญชี"
 
 #. Label of a Date field in DocType 'Loan Interest Accrual'
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
@@ -131,7 +153,7 @@ msgstr "เงินต้นค้างรับ"
 #: lending/loan_management/doctype/loan/loan.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Active"
-msgstr "ใช้งานอยู่"
+msgstr "ใช้งาน"
 
 #: lending/loan_management/doctype/loan_security_shortfall/loan_security_shortfall.js:6
 msgid "Add Loan Security"
@@ -157,6 +179,11 @@ msgstr "เพิ่มไปยังการชำระเงินงวด
 msgid "Addition Interest Waiver Account is mandatory"
 msgstr "บัญชีการยกเว้นดอกเบี้ยเพิ่มเติมเป็นข้อบังคับ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Additional Information"
+msgstr "ข้อมูลเพิ่มเติม"
+
 #. Option for the 'Demand Type' (Select) field in DocType 'Loan Demand'
 #. Option for the 'Demand Type' (Select) field in DocType 'Loan Demand Offset
 #. Detail'
@@ -164,6 +191,11 @@ msgstr "บัญชีการยกเว้นดอกเบี้ยเพ
 #: lending/loan_management/doctype/loan_demand_offset_detail/loan_demand_offset_detail.json
 msgid "Additional Interest"
 msgstr "ดอกเบี้ยเพิ่มเติม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Additional Interest Accounts"
+msgstr "บัญชีดอกเบี้ยเพิ่มเติม"
 
 #. Label of a Section Break field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
@@ -216,6 +248,26 @@ msgstr "การยกเว้นดอกเบี้ยเพิ่มเต
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:1988
 msgid "Additional Interest Waiver Account is mandatory"
 msgstr "บัญชีสละสิทธิ์ดอกเบี้ยเพิ่มเติมเป็นข้อมูลที่ต้องระบุ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Additional Requirements"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Additional details or special instructions"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Additional notes about this fee"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Additional requirements or special conditions"
+msgstr ""
 
 #. Label of a Link field in DocType 'Loan Partner Address'
 #: lending/loan_management/doctype/loan_partner_address/loan_partner_address.json
@@ -278,7 +330,7 @@ msgstr "ปรับปรุงบัญชี"
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
 msgid "Advance Payment"
-msgstr "เงินมัดจำล่วงหน้า"
+msgstr "เงินมัดจำ"
 
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2036
 msgid "Against Account is mandatory"
@@ -288,7 +340,7 @@ msgstr "บัญชีเป้าหมายเป็นข้อมูลท
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 #: lending/loan_management/report/loan_repayment_and_closure/loan_repayment_and_closure.py:26
 msgid "Against Loan"
-msgstr "ต่อสินเชื่อ"
+msgstr "ต่อต้านเงินกู้"
 
 #. Label of a Link field in DocType 'Loan Disbursement'
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
@@ -328,6 +380,21 @@ msgstr "วันที่จัดสรร"
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Allocated Demands"
 msgstr "ความต้องการที่จัดสรรแล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Allow NPL Customers"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Allow customers with Non-Performing Loan history"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Allowed Collateral Types"
+msgstr ""
 
 #. Label of a Link field in DocType 'Bulk Repayment Log'
 #. Label of a Link field in DocType 'Loan'
@@ -403,7 +470,7 @@ msgstr "อเมริกา / New_York"
 #: lending/loan_management/doctype/pledge/pledge.json
 #: lending/loan_management/doctype/proposed_pledge/proposed_pledge.json
 msgid "Amount"
-msgstr "จำนวนเงิน"
+msgstr "จำนวน"
 
 #. Label of a Currency field in DocType 'Loan Repayment'
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
@@ -455,6 +522,16 @@ msgstr "จํานวนเงิน"
 msgid "Another Loan Restructure is already initiated for this Loan"
 msgstr "มีการเริ่มต้นการปรับโครงสร้างสินเชื่ออีกครั้งสำหรับสินเชื่อนี้แล้ว"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Any Collateral"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Applicability Range"
+msgstr ""
+
 #. Label of a Dynamic Link field in DocType 'Loan'
 #. Label of a Dynamic Link field in DocType 'Loan Application'
 #. Label of a Dynamic Link field in DocType 'Loan Demand'
@@ -488,7 +565,7 @@ msgstr "มีการเริ่มต้นการปรับโครง
 #: lending/loan_management/report/loan_security_status/loan_security_status.py:25
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Applicant"
-msgstr "ผู้ขอ"
+msgstr "ผู้สมัคร"
 
 #. Label of a Dynamic Link field in DocType 'Loan Balance Adjustment'
 #. Label of a Dynamic Link field in DocType 'Loan Refund'
@@ -562,6 +639,16 @@ msgstr "ประเภทผู้สมัคร"
 msgid "Applicant-Wise Loan Security Exposure"
 msgstr "การเปิดเผยความเสี่ยงด้านหลักประกันเงินกู้ตามผู้สมัคร"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Applies to Loan Amount (Max)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Applies to Loan Amount (Min)"
+msgstr ""
+
 #. Option for the 'Status' (Select) field in DocType 'Loan Application'
 #. Option for the 'Status' (Select) field in DocType 'Loan Restructure'
 #. Option for the 'Status' (Select) field in DocType 'Loan Security Release'
@@ -571,14 +658,41 @@ msgstr "การเปิดเผยความเสี่ยงด้าน
 msgid "Approved"
 msgstr "ได้รับการอนุมัติ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Apps"
+msgstr "แอปส์"
+
 #: lending/loan_management/report/alm_audit_report/alm_audit_report.js:16
 msgid "As on Date"
 msgstr "ณ วันที่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Assigned Territories"
+msgstr "เขตรับผิดชอบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Auto Write Off Amount"
+msgstr "จำนวนตัดจำหน่ายอัตโนมัติ"
 
 #. Label of a Currency field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Auto Write Off Amount "
 msgstr "จำนวนตัดจำหน่ายอัตโนมัติ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Automatically set based on parent product. Sub-products inherit approval "
+"limits from parent."
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Available"
+msgstr "พร้อมใช้งาน"
 
 #. Label of a Currency field in DocType 'Loan Security Deposit'
 #: lending/loan_management/doctype/loan_security_deposit/loan_security_deposit.json
@@ -607,6 +721,16 @@ msgstr "เงินมัดจำประกันที่มีอยู่
 #: lending/loan_management/doctype/loan_security/loan_security.json
 msgid "Available Security Value"
 msgstr "ค่าความปลอดภัยที่ใช้ได้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Average Deal Value"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "B"
+msgstr ""
 
 #. Option for the 'Demand Type' (Select) field in DocType 'Loan Demand'
 #: lending/loan_management/doctype/loan_demand/loan_demand.json
@@ -658,6 +782,11 @@ msgstr "ธนาคาร"
 msgid "Bank Account"
 msgstr "บัญชีธนาคาร"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Bank Statement"
+msgstr "รายการเงินฝากถอนในบัญชีเงินฝาก"
+
 #. Label of a Card Break in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Banking"
@@ -667,6 +796,16 @@ msgstr "ธนาคาร"
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
 msgid "Base Amount"
 msgstr "จำนวนเงินฐาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Basic Information"
+msgstr "ข้อมูลพื้นฐาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Beginner"
+msgstr "ผู้เริ่มต้น"
 
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan'
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan
@@ -720,6 +859,26 @@ msgstr "บัญชีเรียกเก็บดอกเบี้ยช่
 msgid "Bulk Repayment Log"
 msgstr "บันทึกการชำระคืนจำนวนมาก"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Business Registration"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Busy"
+msgstr "ไม่ว่าง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "C"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Cancel Future Accruals and Demands"
+msgstr "ยกเลิกการรับรู้รายได้ค้างรับและความต้องการในอนาคต"
+
 #. Label of a Check field in DocType 'Loan Repayment Repost'
 #: lending/loan_management/doctype/loan_repayment_repost/loan_repayment_repost.json
 msgid "Cancel Future Accruals and Demands "
@@ -743,7 +902,7 @@ msgstr "วันที่ยกเลิก"
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Cancelled"
-msgstr "ยกเลิก"
+msgstr "ยกเลิกแล้ว"
 
 #: lending/loan_management/doctype/loan/loan.py:553
 msgid "Cannot close loan as there is an outstanding of {0}"
@@ -771,6 +930,11 @@ msgstr ""
 "ไม่สามารถยกเลิกการทำเครื่องหมายเป็น NPA "
 "ก่อนวันที่สิ้นสุดระยะเวลาการเฝ้าระวังได้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Capacity Management"
+msgstr ""
+
 #. Option for the 'Treatment of Interest' (Select) field in DocType 'Loan'
 #. Option for the 'Treatment Of Interest' (Select) field in DocType 'Loan
 #. Repayment Schedule'
@@ -791,7 +955,7 @@ msgstr "ขึ้นต้นด้วยตัวพิมพ์ใหญ่"
 #. Option for the 'Charges Treatment' (Select) field in DocType 'Loan
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
 msgid "Carry Forward"
-msgstr "ยกยอดไปข้างหน้า"
+msgstr "Carry Forward"
 
 #. Option for the 'Organization Type' (Select) field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
@@ -856,7 +1020,7 @@ msgstr "ประเภทค่าใช้จ่าย"
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Charges"
-msgstr "ค่าธรรมเนียม"
+msgstr "ค่าใช้จ่าย"
 
 #. Option for the 'Loan Repayment Type' (Select) field in DocType 'Loan
 #. Adjustment Detail'
@@ -881,6 +1045,41 @@ msgstr "การจัดการค่าใช้จ่าย"
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Charges Waiver"
 msgstr "การยกเว้นค่าธรรมเนียม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Check credit bureau (NCB) before approving loan"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Check if fee amount is a percentage of loan amount"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Check if field verification is required"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Check if guarantor is required for this product"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Check if income verification is required"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Check if ownership transfer is required"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Check if this fee is waived (free)"
+msgstr ""
 
 #. Label of a Link field in DocType 'Loan'
 #. Label of a Data field in DocType 'Loan Classification'
@@ -922,7 +1121,7 @@ msgstr "ล้างการจัดสรรความต้องการ
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Clearance Date"
-msgstr "วันที่ ระบส่ง"
+msgstr "วันที่ เป็น"
 
 #: lending/loan_management/doctype/loan/loan.js:107
 msgid "Close Loan"
@@ -935,7 +1134,12 @@ msgstr "ปิดเงินกู้"
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Closed"
-msgstr "ปิดแล้ว"
+msgstr "ปิด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Closed Account Report"
+msgstr ""
 
 #. Label of a Date field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
@@ -973,6 +1177,36 @@ msgstr "ตารางผู้ให้กู้ร่วม"
 msgid "Co-Lending"
 msgstr "การกู้ร่วม"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Collateral Category"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Collateral Photo"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Collateral Requirements"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Collateral Settings"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Collateral Type"
+msgstr "ประเภทหลักประกัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Collateral and guarantor requirements by loan amount tier"
+msgstr ""
+
 #. Label of a Section Break field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Collection Offset Sequence"
@@ -1009,6 +1243,11 @@ msgstr "เปอร์เซ็นต์การเก็บเงิน"
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Collection at partner's percentage"
 msgstr "การเก็บเงินตามเปอร์เซ็นต์ของพันธมิตร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Color theme for highlighted point"
+msgstr ""
 
 #. Label of a Link field in DocType 'Loan'
 #. Label of a Link field in DocType 'Loan Application'
@@ -1067,7 +1306,7 @@ msgstr "เปอร์เซ็นต์การเก็บเงินขอ
 #. Option for the 'Status' (Select) field in DocType 'Loan Security Shortfall'
 #: lending/loan_management/doctype/loan_security_shortfall/loan_security_shortfall.json
 msgid "Completed"
-msgstr "เสร็จสิ้นแล้ว"
+msgstr "เสร็จสมบูรณ์"
 
 #. Label of a Int field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
@@ -1087,6 +1326,21 @@ msgstr "ส่วนประกอบ"
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Connections"
 msgstr "การเชื่อมต่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contract Export Report"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contract Fee"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Conversion Rate"
+msgstr "อัตราการแปลง"
 
 #. Option for the 'Type of FLDG Applicable' (Select) field in DocType 'Loan
 #. Partner'
@@ -1155,6 +1409,16 @@ msgstr "ปรับยอดเครดิต"
 msgid "Credit Adjustment Amount"
 msgstr "จำนวนปรับยอดเครดิต"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Credit Approval Report"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Criteria for loan application screening and approval"
+msgstr ""
+
 #: lending/loan_management/report/applicant_wise_loan_security_exposure/applicant_wise_loan_security_exposure.py:89
 #: lending/loan_management/report/loan_interest_report/loan_interest_report.py:135
 #: lending/loan_management/report/loan_repayment_and_closure/loan_repayment_and_closure.py:70
@@ -1163,10 +1427,20 @@ msgstr "จำนวนปรับยอดเครดิต"
 msgid "Currency"
 msgstr "สกุลเงิน"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Current Deal Count"
+msgstr ""
+
 #. Label of a Currency field in DocType 'Loan Disbursement'
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 msgid "Current Disbursed Amount"
 msgstr "จำนวนเงินที่จ่ายออกปัจจุบัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Current Lead Count"
+msgstr ""
 
 #. Label of a Currency field in DocType 'Loan Repayment Schedule'
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
@@ -1183,18 +1457,49 @@ msgstr "จำนวนการปรับโครงสร้างปัจ
 msgid "Current Value"
 msgstr "ค่าปัจจุบัน"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom Limits"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom Product Code"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom Product Settings"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom Requirements"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom product categorization and requirements"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Custom product code (M, N, O, MC, L, H, RE, One Time) or sub-product code "
+"(e.g., M-01, N-02). Main products: M=Minimal, N=Normal, O=Over, MC=Motor, "
+"L=Land, H=Home, RE=Refinance, One Time=Agricultural"
+msgstr ""
+
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan
 #. Application'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Balance
 #. Adjustment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
 #. Disbursement'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Interest
 #. Accrual'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Refund'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Repayment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
 #. Restructure'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
 #. Assignment'
@@ -1233,6 +1538,11 @@ msgstr "บัญชีคืนเงินลูกค้าเป็นข้
 msgid "Cyclic Day Of the Month"
 msgstr "วันที่หมุนเวียนของเดือน"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "D"
+msgstr ""
+
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan'
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan
 #. Disbursement'
@@ -1242,6 +1552,11 @@ msgstr "วันที่หมุนเวียนของเดือน"
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Daily"
 msgstr "รายวัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Danger"
+msgstr "อันตราย"
 
 #. Label of a shortcut in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
@@ -1303,10 +1618,20 @@ msgstr "ปรับปรุงเดบิต"
 msgid "Debit Adjustment Amount"
 msgstr "จำนวนปรับปรุงเดบิต"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Debts Overview"
+msgstr ""
+
 #. Option for the 'Organization Type' (Select) field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Decentralized"
 msgstr "กระจายอำนาจ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Define minimum and maximum loan periods in months"
+msgstr ""
 
 #. Label of a Check field in DocType 'Loan Repayment Repost'
 #: lending/loan_management/doctype/loan_repayment_repost/loan_repayment_repost.json
@@ -1385,6 +1710,11 @@ msgstr "ประเภทย่อยของความต้องการ
 msgid "Demand Type"
 msgstr "ประเภทความต้องการ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Department"
+msgstr "แผนก"
+
 #. Label of a Currency field in DocType 'Loan Security Deposit'
 #: lending/loan_management/doctype/loan_security_deposit/loan_security_deposit.json
 msgid "Deposit Amount"
@@ -1401,6 +1731,36 @@ msgstr "วันที่การ"
 #: lending/loan_management/doctype/loan_security_release/loan_security_release.json
 msgid "Description"
 msgstr "คำอธิบาย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Description (EN)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Description (English)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Description (TH)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Description (Thai)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Designation"
+msgstr "ตำแหน่งงาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Detailed explanation of this selling point"
+msgstr ""
 
 #. Label of a Long Text field in DocType 'Bulk Repayment Log'
 #. Label of a Section Break field in DocType 'Loan Partner'
@@ -1425,7 +1785,7 @@ msgstr "ปิดใช้งาน"
 #. Option for the 'Status' (Select) field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
 msgid "Disbursed"
-msgstr "จ่ายออกแล้ว"
+msgstr "การเบิกจ่าย"
 
 #. Label of a Currency field in DocType 'Loan'
 #. Label of a Currency field in DocType 'Loan Disbursement'
@@ -1512,6 +1872,16 @@ msgstr "การจ่ายเงินและการชำระคืน
 msgid "Disbursement date is out of approved limit dates"
 msgstr "วันที่เบิกจ่ายอยู่นอกช่วงวันที่ที่ได้รับการอนุมัติ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display Settings"
+msgstr "แสดงการตั้งค่า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display order (lower number shows first)"
+msgstr ""
+
 #: lending/loan_management/doctype/loan/loan.js:244
 msgid "Do you really want to close this loan"
 msgstr "คุณต้องการปิดสินเชื่อนี้จริงหรือไม่"
@@ -1520,6 +1890,36 @@ msgstr "คุณต้องการปิดสินเชื่อนี้
 msgid "Do you really want to release this loan security assignment?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการปล่อยการมอบหมายหลักประกันเงินกู้ฉบับนี้?"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Document Details"
+msgstr "รายละเอียดเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Document Name (English)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Document Name (Thai)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Document Requirements"
+msgstr "ข้อกำหนดเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Document Type"
+msgstr "ประเภทเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Documentation"
+msgstr "เอกสารประกอบ"
+
 #. Option for the 'Status' (Select) field in DocType 'Loan'
 #. Option for the 'Status' (Select) field in DocType 'Loan Disbursement'
 #. Option for the 'Status' (Select) field in DocType 'Loan Repayment Schedule'
@@ -1527,12 +1927,17 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Draft"
-msgstr "ร่าง"
+msgstr "ฉบับร่าง"
 
 #. Label of a Date field in DocType 'Loan Repayment'
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Due Date"
-msgstr "กำหนดชำระเงิน"
+msgstr "วันที่ครบกำหนด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "E"
+msgstr ""
 
 #. Option for the 'Moratorium Type' (Select) field in DocType 'Loan'
 #. Option for the 'Demand Type' (Select) field in DocType 'Loan Demand'
@@ -1561,6 +1966,11 @@ msgstr "ยอดผ่อนชำระแล้ว"
 msgid "EMIs Raised"
 msgstr "การเรียกเก็บ EMI"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Early Repayment Fee"
+msgstr ""
+
 #. Label of a Date field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Effective Date"
@@ -1572,13 +1982,11 @@ msgstr "วันที่มีผลบังคับใช้"
 #. Application'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Balance
 #. Adjustment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
 #. Disbursement'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Interest
 #. Accrual'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Refund'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Repayment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
 #. Restructure'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
 #. Assignment'
@@ -1601,7 +2009,12 @@ msgstr "วันที่มีผลบังคับใช้"
 #: lending/loan_management/doctype/loan_write_off/loan_write_off.json
 #: lending/loan_management/doctype/sanctioned_loan_amount/sanctioned_loan_amount.json
 msgid "Employee"
-msgstr "ทรัพยากรบุคคล"
+msgstr "พนักงาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Employee Self Service"
+msgstr ""
 
 #. Label of a Check field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
@@ -1626,6 +2039,11 @@ msgstr "รายการที่จะยกเลิก"
 #: lending/loan_management/doctype/loan_repayment_repost/loan_repayment_repost.json
 msgid "Entries To Repost"
 msgstr "รายการที่ต้องบันทึกซ้ำ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Entry Fee"
+msgstr ""
 
 #. Label of a Select field in DocType 'Loan Limit Change Log'
 #. Label of a Data field in DocType 'Loan NPA Log'
@@ -1659,6 +2077,16 @@ msgstr "การคืนเงินจำนวนเกินไม่สา
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Excess amount repayment limit during loan closure"
 msgstr "ขีดจำกัดการชำระเงินเกินจำนวนในระหว่างการปิดสินเชื่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Expert"
+msgstr "ผู้เชี่ยวชาญ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Expertise Level"
+msgstr ""
 
 #. Label of a Section Break field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
@@ -1705,6 +2133,56 @@ msgstr "FLDG ถูกกระตุ้น"
 msgid "Failed Repayment"
 msgstr "การชำระคืนล้มเหลว"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Feature this selling point prominently"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Fee Amount"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Fee Details"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Fee Name (English)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Fee Name (Thai)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Fee Type"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Fees"
+msgstr "ค่าธรรมเนียม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Fees, collateral requirements, documents, and selling points"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Field Verification Required"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Financial Statement"
+msgstr "งบการเงิน"
+
 #. Option for the 'Charge Based On' (Select) field in DocType 'Loan Charges'
 #: lending/loan_management/doctype/loan_charges/loan_charges.json
 msgid "Fixed Amount"
@@ -1730,6 +2208,16 @@ msgstr "บังคับอัปเดต DPD ในสินเชื่อ"
 #: lending/loan_management/doctype/loan_adjustment/loan_adjustment.json
 msgid "Foreclosure Type"
 msgstr "ประเภทการยึดทรัพย์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe School"
+msgstr "Frappe School"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe Support"
+msgstr "ฝ่ายสนับสนุน Frappe"
 
 #. Label of a Check field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
@@ -1760,10 +2248,25 @@ msgstr "จากวันที่"
 msgid "Full Settlement"
 msgstr "การชำระเงินเต็มจำนวน"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "General"
+msgstr "ทั่วไป"
+
 #. Label of a Int field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Grace Period in Days"
 msgstr "ระยะเวลาปลอดหนี้เป็นวัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Guarantor Required"
+msgstr "ต้องมีผู้ค้ำประกัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "H"
+msgstr ""
 
 #. Label of a Percent field in DocType 'Unpledge'
 #: lending/loan_management/doctype/unpledge/unpledge.json
@@ -1781,7 +2284,7 @@ msgstr "การตัดผม"
 #: lending/loan_management/doctype/pledge/pledge.json
 #: lending/loan_management/doctype/proposed_pledge/proposed_pledge.json
 msgid "Haircut %"
-msgstr "เปอร์เซ็นต์การตัดลด"
+msgstr "ตัดผม%"
 
 #. Description of the 'Haircut %' (Percent) field in DocType 'Loan Security
 #. Type'
@@ -1793,6 +2296,46 @@ msgid ""
 msgstr ""
 "เปอร์เซ็นต์การตัดผมคือเปอร์เซ็นต์ความแตกต่างระหว่างมูลค่าตลาดของหลักประกันเงินกู้กับมูลค่าที่ระบุไว้กับหลักประกันเงินกู้นั้นเมื่อใช้เป็นหลักประกันสำหรับเงินกู้นั้น"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Highlight Color"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Highlight Settings"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Highlight This Point"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "House Registration"
+msgstr "ทะเบียนบ้าน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "How recent the document must be (e.g., 3 for salary slips)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "ID Card"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Icon"
+msgstr "ไอคอน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Icon name (e.g., clock, dollar-sign, check-circle) for display"
+msgstr ""
+
 #. Label of a Check field in DocType 'Loan Repayment Repost'
 #: lending/loan_management/doctype/loan_repayment_repost/loan_repayment_repost.json
 msgid "Ignore On Cancel Amount Update"
@@ -1803,14 +2346,34 @@ msgstr "ละเว้นการอัปเดตจำนวนเงิน
 msgid "In Process Limit"
 msgstr "ขีดจำกัดระหว่างกระบวนการ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Inactive"
+msgstr "ไม่ใช้งาน"
+
 #. Label of a Link field in DocType 'Loan Charges'
 #: lending/loan_management/doctype/loan_charges/loan_charges.json
 msgid "Income Account"
-msgstr "บัญชีอางาน"
+msgstr "บัญชีรายได้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Income Multiplier"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Income Verification Required"
+msgstr ""
 
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:883
 msgid "Incorrect repayment type, please write off the loan first"
 msgstr "ประเภทการชำระคืนไม่ถูกต้อง กรุณาตัดยอดเงินกู้ก่อน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Info"
+msgstr "ข้อมูล"
 
 #. Option for the 'Status' (Select) field in DocType 'Loan Repayment Schedule'
 #. Option for the 'Status' (Select) field in DocType 'Loan Restructure'
@@ -1822,6 +2385,11 @@ msgstr "เริ่มต้นแล้ว"
 #: lending/loan_management/report/loan_outstanding_report/loan_outstanding_report.py:118
 msgid "Installments Overdue"
 msgstr "งวดชำระค้างชำระ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Insurance Fee"
+msgstr ""
 
 #. Option for the 'Demand Type' (Select) field in DocType 'Loan Demand Offset
 #. Detail'
@@ -1858,7 +2426,7 @@ msgstr "การปรับดอกเบี้ย"
 #: lending/loan_management/report/alm_audit_report/alm_audit_report.py:40
 #: lending/loan_management/report/loan_repayment_and_closure/loan_repayment_and_closure.py:42
 msgid "Interest Amount"
-msgstr "จำนวนดอกเบี้ย"
+msgstr "จำนวนเงินที่น่าสนใจ"
 
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.py:75
 msgid "Interest Amount is mandatory"
@@ -1958,6 +2526,11 @@ msgstr "จำนวนเงินยกเว้นดอกเบี้ยต
 msgid "Interest accrued from {0} to {1} against loan: {2}"
 msgstr "ดอกเบี้ยค้างรับจากวันที่ {0} ถึงวันที่ {1} สำหรับเงินกู้: {2}"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Intermediate"
+msgstr "สื่อกลาง"
+
 #. Option for the 'Foreclosure Type' (Select) field in DocType 'Loan
 #. Adjustment'
 #: lending/loan_management/doctype/loan_adjustment/loan_adjustment.json
@@ -1971,7 +2544,7 @@ msgstr "การเบิกจ่ายเงินกู้ที่เชื
 #. Label of a Date field in DocType 'Loan Demand'
 #: lending/loan_management/doctype/loan_demand/loan_demand.json
 msgid "Invoice Date"
-msgstr "วันที่ ใบแจ้งหนี้"
+msgstr "วันที่ออกใบแจ้งหนี้"
 
 #. Label of a Link in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
@@ -1990,6 +2563,11 @@ msgstr "ย้อนหลังวันที่"
 msgid "Is Excess Amount Refund"
 msgstr "ยอดเงินส่วนเกินที่คืนเงินแล้วหรือไม่"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Is Mandatory"
+msgstr "เป็นข้อบังคับ"
+
 #. Label of a Check field in DocType 'Loan'
 #. Label of a Check field in DocType 'Loan Interest Accrual'
 #. Label of a Check field in DocType 'Loan Repayment'
@@ -2000,6 +2578,16 @@ msgstr "ยอดเงินส่วนเกินที่คืนเงิ
 #: lending/loan_management/doctype/loan_write_off/loan_write_off.json
 msgid "Is NPA"
 msgstr "เป็น NPA"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Is Percentage"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Is Primary"
+msgstr "เป็นหลัก"
 
 #. Label of a Check field in DocType 'Loan'
 #. Label of a Check field in DocType 'Loan Application'
@@ -2018,6 +2606,11 @@ msgstr "ยอดเงินประกันคืน"
 msgid "Is Settlement Write Off"
 msgstr "เป็นการตัดยอดชำระบัญชี"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Is Sub-Product"
+msgstr ""
+
 #. Label of a Check field in DocType 'Loan'
 #. Label of a Check field in DocType 'Loan Application'
 #. Label of a Check field in DocType 'Loan Demand'
@@ -2035,6 +2628,11 @@ msgstr "เป็นการตัดยอดชำระบัญชี"
 msgid "Is Term Loan"
 msgstr "เป็นเงินกู้ระยะยาว"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Is Waived"
+msgstr ""
+
 #. Label of a Check field in DocType 'Loan Repayment'
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Is Write Off Waiver"
@@ -2045,15 +2643,65 @@ msgstr "เป็นการยกเว้นการตัดบัญชี
 msgid "Is Written Off"
 msgstr "ตัดบัญชีแล้ว"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Keyboard Shortcuts"
+msgstr "แป้นพิมพ์ลัด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "L"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "LTV Ratio (Loan-to-Value)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Land"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Land + Property"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Land Title Deed"
+msgstr ""
+
 #. Label of a Date field in DocType 'Loan Interest Accrual'
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
 msgid "Last Accrual Date"
 msgstr "วันที่ค้างรับล่าสุด"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Late Payment Fee"
+msgstr ""
+
 #: lending/loan_management/report/applicant_wise_loan_security_exposure/applicant_wise_loan_security_exposure.py:63
 #: lending/loan_management/report/loan_security_exposure/loan_security_exposure.py:54
 msgid "Latest Price"
 msgstr "ราคาล่าสุด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Leave blank for unlimited"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Leave blank if applies to all amounts"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Leave blank if no upper limit"
+msgstr ""
 
 #. Name of a Workspace
 #: lending/loan_management/workspace/lending/lending.json
@@ -2095,6 +2743,13 @@ msgstr "ขีดจำกัด"
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Line of Credit"
 msgstr "วงเงินเครดิต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Link to parent product if this is a sub-product. Leave blank for main "
+"products."
+msgstr ""
 
 #. Label of a Link field in DocType 'Bulk Repayment Log'
 #. Label of a Link field in DocType 'Days Past Due Log'
@@ -2251,6 +2906,11 @@ msgstr "รายละเอียดจำนวนเงินกู้"
 msgid "Loan Amount Percentage"
 msgstr "เปอร์เซ็นต์จำนวนเงินกู้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Amount Range"
+msgstr ""
+
 #: lending/loan_management/doctype/loan_application/loan_application.py:107
 msgid "Loan Amount cannot exceed Maximum Loan Amount of {0}"
 msgstr "วงเงินกู้ไม่เกินจำนวนเงินกู้สูงสุดของ {0}"
@@ -2348,7 +3008,7 @@ msgstr "ช่วงการจำแนกประเภทเงินกู
 #: lending/loan_management/doctype/loan_adjustment_detail/loan_adjustment_detail.json
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Loan Closure"
-msgstr "ปิดสินเชื่อ"
+msgstr "การปิดสินเชื่อ"
 
 #. Option for the 'Status' (Select) field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
@@ -2429,7 +3089,7 @@ msgstr "รายละเอียดเงินกู้"
 #: lending/loan_management/report/loan_outstanding_report/loan_outstanding_report.py:44
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Loan Disbursement"
-msgstr "การเบิกจ่ายสินเชื่อ"
+msgstr "การเบิกจ่ายเงินกู้"
 
 #. Name of a DocType
 #: lending/loan_management/doctype/loan_disbursement_charge/loan_disbursement_charge.json
@@ -2475,6 +3135,11 @@ msgstr "รายงานดอกเบี้ยเงินกู้"
 msgid "Loan Limit Change Log"
 msgstr "บันทึกการเปลี่ยนแปลงวงเงินกู้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Management"
+msgstr "การจัดการสินเชื่อ"
+
 #. Name of a role
 #: lending/loan_management/doctype/days_past_due_log/days_past_due_log.json
 #: lending/loan_management/doctype/loan/loan.json
@@ -2512,6 +3177,21 @@ msgstr "ผู้จัดการสินเชื่อ"
 #: lending/loan_management/doctype/loan_npa_log/loan_npa_log.json
 msgid "Loan NPA Log"
 msgstr "บันทึกสินเชื่อที่ไม่ก่อให้เกิดรายได้ (NPA)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Officer Product"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Officer Profile"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Officer Territory"
+msgstr ""
 
 #. Name of a report
 #: lending/loan_management/report/loan_outstanding_report/loan_outstanding_report.json
@@ -2592,6 +3272,11 @@ msgstr "หุ้นส่วนเงินกู้ที่สามารถ
 msgid "Loan Partners"
 msgstr "พันธมิตรเงินกู้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Period Limits"
+msgstr ""
+
 #. Label of a Card Break in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Loan Processes"
@@ -2634,10 +3319,30 @@ msgstr "กระบวนการกู้ยืมเงิน"
 msgid "Loan Product"
 msgstr "ผลิตภัณฑ์สินเชื่อ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Product Collateral Requirement"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Product Document Requirement"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Product Fee"
+msgstr ""
+
 #. Name of a DocType
 #: lending/loan_management/doctype/loan_product_loan_partner/loan_product_loan_partner.json
 msgid "Loan Product Loan Partner"
 msgstr "ผลิตภัณฑ์สินเชื่อ หุ้นส่วนสินเชื่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Product Selling Point"
+msgstr ""
 
 #. Name of a DocType
 #. Label of a Link in the Lending Workspace
@@ -2666,7 +3371,7 @@ msgstr "การคืนเงินกู้"
 #: lending/loan_management/report/loan_repayment_and_closure/loan_repayment_and_closure.py:19
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Loan Repayment"
-msgstr "การชำระคืนเงินกู้"
+msgstr "การชำระเงินกู้"
 
 #. Name of a DocType
 #: lending/loan_management/doctype/loan_repayment_charges/loan_repayment_charges.json
@@ -2759,6 +3464,11 @@ msgstr "บันทึกขีดจำกัดการปรับโคร
 msgid "Loan Restructure is in process. Cannot make any loan adjustment"
 msgstr ""
 "การปรับโครงสร้างเงินกู้กำลังดำเนินการ ไม่สามารถปรับเปลี่ยนเงินกู้ได้ในขณะนี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Screening Criteria"
+msgstr ""
 
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.py:103
 msgid ""
@@ -2940,6 +3650,17 @@ msgstr "อัตราส่วนเงินกู้ต่อมูลค่
 msgid "Loan To Value Ratio"
 msgstr "อัตราส่วนสินเชื่อต่อมูลค่า"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Loan To Value Ratio expresses the ratio of the loan amount to the value of "
+"the security pledged. A loan security shortfall will be triggered if this "
+"falls below the specified value for any loan"
+msgstr ""
+"อัตราส่วนเงินกู้ต่อมูลค่าเป็นการแสดงอัตราส่วนของจำนวนเงินกู้ต่อมูลค่าของหลักประกันที่จำนำ"
+" การขาดความปลอดภัยของเงินกู้จะเกิดขึ้นหากต่ำกว่ามูลค่าที่ระบุสำหรับเงินกู้ใด"
+" ๆ"
+
 #. Description of the 'Loan To Value Ratio' (Percent) field in DocType 'Loan
 #. Security Type'
 #: lending/loan_management/doctype/loan_security_type/loan_security_type.json
@@ -3013,7 +3734,7 @@ msgstr "เงินกู้ {0} ปิดแล้ว"
 #: lending/loan_management/doctype/loan_accrual_repost/loan_accrual_repost.json
 #: lending/loan_management/doctype/loan_transfer/loan_transfer.json
 msgid "Loans"
-msgstr "เงินกู้"
+msgstr "เงินให้กู้ยืม"
 
 #. Description of the 'Days Past Due Threshold for NPA' (Int) field in DocType
 #. 'Loan Product'
@@ -3023,6 +3744,72 @@ msgid ""
 "threshold"
 msgstr ""
 "สินเชื่อจะถูกระบุเป็นสินเชื่อด้อยคุณภาพเมื่อจำนวนวันที่ค้างชำระเกินเกณฑ์นี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Log out"
+msgstr "ออกจากระบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Lower number appears first. Use 1, 2, 3, etc. to control display order."
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "M"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "M Capital Limits"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "M Capital Product Code"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "M Capital Product Settings"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "M Capital Requirements"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"M Capital product code (M, N, O, MC, L, H, RE, One Time) or sub-product code"
+" (e.g., M-01, N-02). Main products: M=Minimal, N=Normal, O=Over, MC=Motor, "
+"L=Land, H=Home, RE=Refinance, One Time=Agricultural"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"M Capital specific product categorization (M=Minimal, N=Normal, O=Over, "
+"MC=Motor, L=Land, H=Home, RE=Refinance, One Time=Agricultural)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "M Capital specific product categorization and requirements"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "M Loan Application"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "MC"
+msgstr ""
 
 #. Option for the 'Foreclosure Type' (Select) field in DocType 'Loan
 #. Adjustment'
@@ -3047,15 +3834,50 @@ msgstr "หมายเหตุด้วยตนเอง"
 msgid "Manually marked as NPA"
 msgstr "ทำเครื่องหมายด้วยตนเองว่าเป็น NPA"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Marketing point in English language"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Marketing point in Thai language"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Marketing selling points for this product"
+msgstr ""
+
 #. Label of a Date field in DocType 'Loan Repayment Schedule'
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Maturity Date"
-msgstr "วันที่ครบกำหนด"
+msgstr "วันที่ เป็น"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Max Active Deals"
+msgstr ""
 
 #. Label of a Int field in DocType 'Loan Classification Range'
 #: lending/loan_management/doctype/loan_classification_range/loan_classification_range.json
 msgid "Max DPD Range"
 msgstr "ช่วง DPD สูงสุด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Max Leads Per Day"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Maximum Debt Service Ratio (%)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Maximum LTV Ratio (%)"
+msgstr "อัตราส่วน LTV สูงสุด (%)"
 
 #. Label of a Currency field in DocType 'Loan'
 #. Option for the 'Value Type' (Select) field in DocType 'Loan Limit Change
@@ -3074,23 +3896,66 @@ msgstr "จำนวนวงเงินสูงสุด"
 msgid "Maximum Loan Amount"
 msgstr "จำนวนเงินกู้สูงสุด"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Maximum Loan Period (Months)"
+msgstr "ระยะเวลาสูงสุดของเงินกู้ (เดือน)"
+
 #. Label of a Currency field in DocType 'Loan Security Assignment'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Maximum Loan Value"
 msgstr "มูลค่าสินเชื่อสูงสุด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Maximum Vehicle Age (years)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+#, python-format
+msgid ""
+"Maximum debt service ratio allowed (e.g., 40% means monthly debt payments "
+"cannot exceed 40% of income)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Maximum loan amount as multiple of monthly income (e.g., 10 means max loan ="
+" 10x monthly income)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Maximum loan period in months"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Maximum loan-to-value ratio (leave blank for no limit)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Maximum loan-to-value ratio allowed"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Maximum vehicle age allowed (leave blank for no limit)"
+msgstr ""
 
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan
 #. Application'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Balance
 #. Adjustment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
 #. Disbursement'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Interest
 #. Accrual'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Refund'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Repayment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
 #. Restructure'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
 #. Assignment'
@@ -3120,6 +3985,26 @@ msgstr "สมาชิก"
 msgid "Min DPD Range"
 msgstr "ช่วง DPD ขั้นต่ำ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum Guarantors"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum LTV Ratio (%)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum Loan Amount"
+msgstr "จำนวนเงินกู้ขั้นต่ำ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum Loan Period (Months)"
+msgstr "ระยะเวลาการกู้ยืมขั้นต่ำ (เดือน)"
+
 #. Label of a Percent field in DocType 'Loan Partner Shareable'
 #: lending/loan_management/doctype/loan_partner_shareable/loan_partner_shareable.json
 msgid "Minimum Partner Loan Amount Percentage"
@@ -3129,6 +4014,31 @@ msgstr "เปอร์เซ็นต์จำนวนเงินกู้ข
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Minimum days between Disbursement date and first Repayment date"
 msgstr "จำนวนวันขั้นต่ำระหว่างวันที่เบิกจ่ายและวันที่ชำระเงินคืนครั้งแรก"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum loan amount for this product"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum loan period in months"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum loan-to-value ratio"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum loan-to-value ratio required"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Minimum number of guarantors required"
+msgstr ""
 
 #. Label of a Section Break field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
@@ -3140,7 +4050,7 @@ msgstr "เบ็ดเตล็ด"
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Mode Of Payment"
-msgstr "วิธีการชำระเงิน"
+msgstr "โหมดของการชำระเงิน"
 
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan'
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan
@@ -3206,7 +4116,22 @@ msgstr "ประเภทการระงับชำระหนี้"
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 #: lending/loan_management/doctype/loan_security_release/loan_security_release.json
 msgid "More Information"
-msgstr "ข้อมูลเพิ่มเติม"
+msgstr "ข้อมูลมากกว่านี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Profile"
+msgstr "โปรไฟล์ของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Settings"
+msgstr "การตั้งค่าของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "N"
+msgstr ""
 
 #. Label of a Check field in DocType 'Loan NPA Log'
 #: lending/loan_management/doctype/loan_npa_log/loan_npa_log.json
@@ -3222,6 +4147,11 @@ msgstr "วันที่ NPA"
 #: lending/loan_management/workspace/lending/lending.json
 msgid "NPA Logs"
 msgstr "บันทึก NPA"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "NPL Report"
+msgstr ""
 
 #. Label of a Currency field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
@@ -3323,12 +4253,37 @@ msgstr "การชำระคืนปกติ"
 msgid "Normal Restructure"
 msgstr "ปรับโครงสร้างปกติ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Notes"
+msgstr "บันทึก"
+
 #. Label of a Int field in DocType 'Co-Lender Schedule'
 #. Label of a Int field in DocType 'Repayment Schedule'
 #: lending/loan_management/doctype/co_lender_schedule/co_lender_schedule.json
 #: lending/loan_management/doctype/repayment_schedule/repayment_schedule.json
 msgid "Number Of Days"
 msgstr "จำนวนวัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Number of Guarantors Required"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Number of copies or instances required (e.g., 3 for salary slips)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "O"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Officer Name"
+msgstr ""
 
 #. Label of a Currency field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
@@ -3354,6 +4309,11 @@ msgstr "ความถี่การชำระคืนเดิม"
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
 msgid "Old Tenure"
 msgstr "ระยะเวลาการดำรงตำแหน่งเดิม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "On Leave"
+msgstr "ลา"
 
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan'
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan
@@ -3384,6 +4344,11 @@ msgstr "ประเภทองค์กร"
 msgid "Original Security Value"
 msgstr "ค่าความปลอดภัยต้นฉบับ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Other"
+msgstr "อื่น ๆ"
+
 #. Label of a Currency field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
 msgid "Other Charges Waiver"
@@ -3406,13 +4371,18 @@ msgstr "ล้าสมัย"
 #. Label of a Currency field in DocType 'Loan Demand'
 #: lending/loan_management/doctype/loan_demand/loan_demand.json
 msgid "Outstanding Amount"
-msgstr "ยอดคงเหลือชำระ"
+msgstr "ยอดค้างชำระ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Outstanding Balance Report"
+msgstr ""
 
 #. Option for the 'FLDG Limit Calculation Component' (Select) field in DocType
 #. 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Outstanding Principal"
-msgstr "ยอดเงินต้นค้างชำระ"
+msgstr "เงินต้นคงค้าง"
 
 #. Option for the 'FLDG Limit Calculation Component' (Select) field in DocType
 #. 'Loan Partner'
@@ -3424,6 +4394,11 @@ msgstr "ยอดเงินต้นค้างชำระและดอก
 #: lending/loan_management/doctype/loan_partner_adhoc_charges_shared/loan_partner_adhoc_charges_shared.json
 msgid "Own Ratio"
 msgstr "อัตราส่วนของตนเอง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Ownership Transfer Required"
+msgstr ""
 
 #. Option for the 'Repayment Schedule Type' (Select) field in DocType 'Loan
 #. Partner'
@@ -3438,6 +4413,11 @@ msgstr "การลด POS พร้อมดอกเบี้ยตามอ�
 #: lending/loan_management/report/loan_repayment_and_closure/loan_repayment_and_closure.py:63
 msgid "Paid Amount"
 msgstr "จำนวนเงินที่ชำระแล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Parent Product"
+msgstr ""
 
 #. Label of a Data field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
@@ -3537,7 +4517,7 @@ msgstr "จัดสรรหุ้นหุ้นส่วน"
 #. Label of a Link field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Payable Account"
-msgstr "บัญชีเจ้าหนี้"
+msgstr "เจ้าหนี้การค้า"
 
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2097
 msgid "Payable Account is mandatory"
@@ -3564,7 +4544,7 @@ msgstr "จำนวนเงินต้นเจ้าหนี้"
 #: lending/loan_management/doctype/loan/loan.json
 #: lending/loan_management/doctype/loan_adjustment/loan_adjustment.json
 msgid "Payment Account"
-msgstr "การชำ บัญชี"
+msgstr "บัญชีการชำระเงิน"
 
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:1927
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:2074
@@ -3587,16 +4567,21 @@ msgstr "รายละเอียดการชำระเงิน"
 #. Label of a Link field in DocType 'Process Loan Classification'
 #: lending/loan_management/doctype/process_loan_classification/process_loan_classification.json
 msgid "Payment Reference"
-msgstr "อ้างอิงการชำระเงิน"
+msgstr "หลักฐานการจ่ายเงิน"
 
 #. Label of a Section Break field in DocType 'Loan Repayment'
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Payment References"
-msgstr "เอกสารอ้างอิงการชำระเงิน"
+msgstr "อ้างอิงการชำระเงิน"
 
 #: lending/loan_management/report/loan_repayment_and_closure/loan_repayment_and_closure.py:33
 msgid "Payment Type"
 msgstr "ประเภทการชำระเงิน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Payroll Payable Account"
+msgstr "บัญชีเจ้าหนี้เงินเดือน"
 
 #. Option for the 'Interest Type' (Select) field in DocType 'Loan Interest
 #. Accrual'
@@ -3672,6 +4657,14 @@ msgstr "อัตราดอกเบี้ยค่าปรับ %"
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Penalty Interest Rate (%)"
 msgstr "อัตราดอกเบี้ยค่าปรับ (%)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Penalty Interest Rate is levied on the pending amount on a daily basis in "
+"case of delayed repayment"
+msgstr ""
+"อัตราดอกเบี้ยผิดนัดจะถูกเรียกเก็บจากยอดค้างชำระรายวันในกรณีที่ชำระล่าช้า"
 
 #. Description of the 'Penalty Interest Rate (%)' (Percent) field in DocType
 #. 'Loan Product'
@@ -3750,7 +4743,17 @@ msgstr "ยอดเงินต้นคงค้างสำหรับสิ
 #: lending/loan_management/doctype/loan_charges/loan_charges.json
 #: lending/loan_management/doctype/loan_partner_adhoc_charges_shared/loan_partner_adhoc_charges_shared.json
 msgid "Percentage"
-msgstr "เปอร์เซ็นต์"
+msgstr "ร้อยละ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Performance Metrics"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Performance Rating"
+msgstr ""
 
 #: lending/loan_management/doctype/loan_refund/loan_refund.py:136
 msgid "Please add customer refund account in Loan Product"
@@ -3920,7 +4923,7 @@ msgstr "จำนวนเงินที่โพสต์ตัดผม"
 #: lending/loan_management/doctype/process_loan_restructure_limit/process_loan_restructure_limit.json
 #: lending/loan_management/report/loan_repayment_and_closure/loan_repayment_and_closure.py:17
 msgid "Posting Date"
-msgstr "วันที่ขับ"
+msgstr "วันที่บันทึกข้อมูล"
 
 #. Label of a Datetime field in DocType 'Loan Interest Accrual'
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
@@ -3974,6 +4977,23 @@ msgstr "หลัก"
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Primary Address"
 msgstr "ที่อยู่หลัก"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Primary collateral type for this loan product. Vehicle = cars, motorcycles, "
+"trucks. Land = vacant land with title deed. Property = land with "
+"buildings/structures."
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid ""
+"Primary collateral type for this loan product. Vehicle = cars, motorcycles, "
+"trucks. Land = vacant land with title deed. Property = land with "
+"buildings/structures. General = E-Bikes, electronics, equipment without "
+"registration."
+msgstr ""
 
 #. Option for the 'Moratorium Type' (Select) field in DocType 'Loan'
 #. Option for the 'Demand Type' (Select) field in DocType 'Loan Demand Offset
@@ -4080,15 +5100,100 @@ msgstr "ดำเนินการปรับโครงสร้างวง
 msgid "Process Loan Security Shortfall"
 msgstr "ความล้มเหลวของความปลอดภัยสินเชื่อกระบวนการ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Process Payroll Accounting Entry based on Employee"
+msgstr "บันทึกบัญชีเงินเดือนตามพนักงาน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Processing Fee"
+msgstr "ค่าธรรมเนียมการดำเนินการ"
+
 #. Label of a Data field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Product Code"
 msgstr "รหัสสินค้า"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product Configuration"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product Description"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product Details"
+msgstr ""
+
 #. Label of a Data field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Product Name"
 msgstr "ชื่อสินค้า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product Name (EN)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product Name (English)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product Name (TH)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product Name (Thai)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product Specializations"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product fees and charges"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product name in English language"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product name in Thai language"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Product-specific special requirements and conditions"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Products"
+msgstr "สินค้า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Property"
+msgstr "คุณสมบัติ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Property Deed"
+msgstr ""
 
 #. Name of a DocType
 #: lending/loan_management/doctype/proposed_pledge/proposed_pledge.json
@@ -4126,7 +5231,12 @@ msgstr "จำนวนหรือจำนวนเงินคือ mandatro
 #: lending/loan_management/doctype/unpledge/unpledge.json
 #: lending/loan_management/report/loan_security_status/loan_security_status.py:35
 msgid "Quantity"
-msgstr "จำนวน"
+msgstr "ปริมาณ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Quantity Required"
+msgstr ""
 
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan'
 #. Option for the 'Repayment Frequency' (Select) field in DocType 'Loan
@@ -4136,7 +5246,12 @@ msgstr "จำนวน"
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Quarterly"
-msgstr "ไตรมาส"
+msgstr "รายไตรมาส"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "RE"
+msgstr ""
 
 #. Label of a Float field in DocType 'Loan Interest Accrual'
 #. Label of a Percent field in DocType 'Loan Repayment'
@@ -4160,7 +5275,7 @@ msgstr "อัตราดอกเบี้ย (%) / ปี"
 #. Label of a Percent field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Rate of Interest (%) Yearly"
-msgstr "อัตราดอกเบี้ย (%) ต่อปี"
+msgstr "อัตราดอกเบี้ย (%) ประจำปี"
 
 #. Option for the 'Sharing Parameter' (Select) field in DocType 'Loan Partner
 #. Adhoc Charges Shared'
@@ -4188,7 +5303,7 @@ msgstr "เหตุผลในการปรับโครงสร้าง
 #: lending/loan_management/doctype/loan_charges/loan_charges.json
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Receivable Account"
-msgstr "บัญชี เริ่งสินค้า"
+msgstr "ลูกหนี้การค้า"
 
 #. Label of a Date field in DocType 'Loan Disbursement'
 #. Label of a Date field in DocType 'Loan Repayment'
@@ -4196,6 +5311,11 @@ msgstr "บัญชี เริ่งสินค้า"
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Reference Date"
 msgstr "วันที่อ้างอิง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Reference Doc."
+msgstr ""
 
 #. Label of a Select field in DocType 'Loan Balance Adjustment'
 #: lending/loan_management/doctype/loan_balance_adjustment/loan_balance_adjustment.json
@@ -4223,14 +5343,19 @@ msgstr "เลขอ้างอิง"
 #: lending/loan_management/doctype/loan_refund/loan_refund.json
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Reference Number"
-msgstr "หมายเลขอ้างอิง"
+msgstr "เลขที่อ้างอิง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Reference to M Capital Loan Application"
+msgstr ""
 
 #. Label of a Section Break field in DocType 'Loan Demand'
 #. Label of a Section Break field in DocType 'Loan Interest Accrual'
 #: lending/loan_management/doctype/loan_demand/loan_demand.json
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
 msgid "References"
-msgstr "เอกสารอ้างอิง"
+msgstr "อ้างอิง"
 
 #. Option for the 'Accrual Type' (Select) field in DocType 'Loan Interest
 #. Accrual'
@@ -4317,6 +5442,16 @@ msgstr "เวลาปล่อย"
 msgid "Released"
 msgstr "ปล่อยแล้ว"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Reload"
+msgstr "โหลด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Remaining Debtor Report"
+msgstr ""
+
 #. Label of a Data field in DocType 'Loan Balance Adjustment'
 #: lending/loan_management/doctype/loan_balance_adjustment/loan_balance_adjustment.json
 msgid "Remarks"
@@ -4337,6 +5472,11 @@ msgstr "หมายเหตุ"
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
 msgid "Repay Fixed Amount per Period"
 msgstr "ชำระคืนจำนวนคงที่ต่อปีระยะเวลา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Repay From Salary"
+msgstr "ชำระคืนจากเงินเดือน"
 
 #. Option for the 'Repayment Method' (Select) field in DocType 'Loan'
 #. Option for the 'Repayment Method' (Select) field in DocType 'Loan
@@ -4371,6 +5511,11 @@ msgstr "การชำระคืน"
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Repayment Account"
 msgstr "บัญชี เริ่งระบร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Repayment Amount must be greater than"
+msgstr "จำนวนเงินชำระคืนต้องมากกว่า"
 
 #: lending/loan_management/doctype/loan_application/loan_application.py:170
 msgid "Repayment Amount must be greater than "
@@ -4494,6 +5639,11 @@ msgstr ""
 "ประเภทการชำระคืนสามารถเป็นได้เพียง การตัดหนี้ที่เรียกคืน หรือ "
 "การตัดหนี้ที่ชำระบัญชีเท่านั้น"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Report an Issue"
+msgstr "รายงานปัญหา"
+
 #. Label of a Card Break in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Reports"
@@ -4517,7 +5667,22 @@ msgstr "ขอปิดสินเชื่อ"
 #. Option for the 'Status' (Select) field in DocType 'Loan Security Release'
 #: lending/loan_management/doctype/loan_security_release/loan_security_release.json
 msgid "Requested"
-msgstr "ร้องขอแล้ว"
+msgstr "ร้องขอ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Require Credit Bureau Check"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Required documents for loan application"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Required for loan application"
+msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Loan Repayment Schedule'
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
@@ -4577,6 +5742,11 @@ msgstr "แถว {0}: {1} จาก {2} ถูกจำนำเพื่อเ
 msgid "Row {0}: {1} should be between 1 and 99"
 msgstr "แถว {0}: {1} ควรอยู่ระหว่าง 1 ถึง 99"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Salary Slip"
+msgstr "สลิปเงินเดือน"
+
 #. Label of a Link field in DocType 'Loan Charge Reference'
 #. Label of a Link field in DocType 'Loan Demand'
 #. Label of a Link field in DocType 'Loan Repayment Detail'
@@ -4594,7 +5764,7 @@ msgstr "เหมือนกับบัญชีดอกเบี้ยปก
 #. Option for the 'Status' (Select) field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
 msgid "Sanctioned"
-msgstr "ได้รับอนุมัติ"
+msgstr "ตามทำนองคลองธรรม"
 
 #: lending/loan_management/report/loan_interest_report/loan_interest_report.py:47
 msgid "Sanctioned Amount"
@@ -4652,6 +5822,11 @@ msgstr "การปรับยอดเงินประกัน"
 msgid "Security Type"
 msgstr "ประเภทความปลอดภัย"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Security Value"
+msgstr "ค่าความปลอดภัย"
+
 #. Label of a Currency field in DocType 'Loan Security Shortfall'
 #: lending/loan_management/doctype/loan_security_shortfall/loan_security_shortfall.json
 msgid "Security Value "
@@ -4673,6 +5848,21 @@ msgid ""
 "{1}."
 msgstr "พนักงานที่เลือกอยู่ใน {0} กรุณาเลือกพนักงานจากบริษัท {1}"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Selling Point (English)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Selling Point (TH)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Selling Points"
+msgstr ""
+
 #. Option for the 'Security Type' (Select) field in DocType 'Loan IRAC
 #. Provisioning Configuration'
 #: lending/loan_management/doctype/loan_irac_provisioning_configuration/loan_irac_provisioning_configuration.json
@@ -4684,10 +5874,15 @@ msgstr "กึ่งปลอดภัย"
 msgid "Servicer Fee"
 msgstr "ค่าบริการ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Session Defaults"
+msgstr "ค่าเริ่มต้นของเซสชัน"
+
 #. Option for the 'Status' (Select) field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
 msgid "Settled"
-msgstr "ชำระแล้ว"
+msgstr "ปึกแผ่น"
 
 #. Label of a Date field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
@@ -4732,6 +5927,31 @@ msgstr "เปอร์เซ็นต์ส่วนขาดทุน"
 #: lending/loan_management/doctype/loan_security_shortfall/loan_security_shortfall.json
 msgid "Shortfall Time"
 msgstr "เวลาที่สั้น"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Sort Index"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Sort Order"
+msgstr "เรียง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Special Conditions"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Specify loan amount range where this document is required"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Stamp Duty"
+msgstr ""
 
 #. Label of a Datetime field in DocType 'Loan Interest Accrual'
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
@@ -4787,6 +6007,11 @@ msgstr "บัญชีปรับเงินอุดหนุน"
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Subsidy Adjustments"
 msgstr "การปรับเงินอุดหนุน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Success"
+msgstr "สำเร็จ"
 
 #. Label of a Link field in DocType 'Loan Charges'
 #: lending/loan_management/doctype/loan_charges/loan_charges.json
@@ -4844,6 +6069,11 @@ msgstr "รายได้ดอกเบี้ยค้างรับ"
 msgid "System Manager"
 msgstr "ผู้จัดการระบบ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Tax Return"
+msgstr ""
+
 #. Label of a Link in the Lending Workspace
 #: lending/loan_management/workspace/lending/lending.json
 msgid "Taxes"
@@ -4870,7 +6100,17 @@ msgstr "ระยะเวลาการดำรงตำแหน่งหล
 #: lending/loan_management/doctype/loan/loan.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Term Details"
-msgstr "รายละเอียดคำศัพท์"
+msgstr "รายละเอียดคำ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Territories"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Territory"
+msgstr "เขตแดน"
 
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:919
 msgid "The Loan Disbursement {0} has been closed."
@@ -4909,12 +6149,12 @@ msgstr ""
 #. Label of a Datetime field in DocType 'Bulk Repayment Log'
 #: lending/loan_management/doctype/bulk_repayment_log/bulk_repayment_log.json
 msgid "Timestamp"
-msgstr "เวลาประทับ"
+msgstr "การประทับเวลา"
 
 #. Label of a Data field in DocType 'Loan Demand Offset Order'
 #: lending/loan_management/doctype/loan_demand_offset_order/loan_demand_offset_order.json
 msgid "Title"
-msgstr "หัวข้อ"
+msgstr "ชื่อเรื่อง"
 
 #. Label of a Link field in DocType 'Loan Transfer'
 #: lending/loan_management/doctype/loan_transfer/loan_transfer.json
@@ -4926,9 +6166,19 @@ msgstr "ไปยังสาขา"
 msgid "To Date"
 msgstr "ถึงวันที่"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Full Width"
+msgstr "สลับความกว้างเต็มหน้าจอ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Theme"
+msgstr "สลับธีม"
+
 #: lending/loan_management/report/alm_audit_report/alm_audit_report.py:54
 msgid "Total"
-msgstr "รวมทั้งหมด"
+msgstr "รวม"
 
 #. Label of a Currency field in DocType 'Loan'
 #. Label of a Currency field in DocType 'Loan Restructure'
@@ -4947,6 +6197,21 @@ msgstr "ยอดรวมค่าธรรมเนียมที่ชำร
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Total Charges Payable"
 msgstr "ยอดรวมค่าบริการที่ต้องชำระ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Total Deals Closed"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Total Disbursement"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Total Installments Overdue"
+msgstr "ยอดงวดค้างชำระทั้งหมด"
 
 #. Label of a Int field in DocType 'Loan Repayment Schedule'
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
@@ -4974,9 +6239,14 @@ msgstr "ยอดดอกเบี้ยที่ชำระทั้งหม
 msgid "Total Interest Payable"
 msgstr "ดอกเบี้ยรวมเจ้าหนี้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Total Leads Assigned"
+msgstr ""
+
 #: lending/loan_management/report/loan_interest_report/loan_interest_report.py:103
 msgid "Total Outstanding"
-msgstr "ยอดค้างชำระรวม"
+msgstr "ยอดคงค้างรวม"
 
 #. Label of a Currency field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
@@ -5055,12 +6325,12 @@ msgstr "รหัสติดตาม"
 #. Label of a Long Text field in DocType 'Bulk Repayment Log'
 #: lending/loan_management/doctype/bulk_repayment_log/bulk_repayment_log.json
 msgid "Traceback"
-msgstr "การติดตามข้อผิดพลาด"
+msgstr "ตรวจสอบย้อนกลับ"
 
 #. Label of a Date field in DocType 'Loan Transfer'
 #: lending/loan_management/doctype/loan_transfer/loan_transfer.json
 msgid "Transfer Date"
-msgstr "วันที่โอน"
+msgstr "วันโอน"
 
 #. Label of a Select field in DocType 'Loan Repayment Schedule'
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
@@ -5149,6 +6419,21 @@ msgstr "ไม่มีหลักประกัน"
 msgid "Update Time"
 msgstr "อัปเดตเวลา"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "User"
+msgstr "ผู้ใช้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "User Forum"
+msgstr "ฟอรั่มผู้ใช้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Utility Bill"
+msgstr "บริบทอร์"
+
 #. Label of a Currency field in DocType 'Loan Restructure Limit Log'
 #: lending/loan_management/doctype/loan_restructure_limit_log/loan_restructure_limit_log.json
 msgid "Utilized Limit"
@@ -5170,7 +6455,7 @@ msgstr "มูลค่าความปลอดภัยที่ใช้แ
 #. Label of a Datetime field in DocType 'Loan Security Price'
 #: lending/loan_management/doctype/loan_security_price/loan_security_price.json
 msgid "Valid From"
-msgstr "ใช้ได้ตั้งแต่"
+msgstr "ใช้ได้จาก"
 
 #: lending/loan_management/doctype/loan_security_price/loan_security_price.py:34
 msgid "Valid From Time must be lesser than Valid Upto Time."
@@ -5179,17 +6464,22 @@ msgstr "ใช้งานได้จากเวลาจะต้องน้
 #. Label of a Datetime field in DocType 'Loan Security Price'
 #: lending/loan_management/doctype/loan_security_price/loan_security_price.json
 msgid "Valid Upto"
-msgstr "ใช้ได้ถึง"
+msgstr "ใช้ได้ไม่เกิน"
 
 #. Label of a Check field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Validate Normal Repayment"
 msgstr "ตรวจสอบการชำระเงินปกติ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Validity Period (Months)"
+msgstr ""
+
 #. Label of a Currency field in DocType 'Loan Limit Change Log'
 #: lending/loan_management/doctype/loan_limit_change_log/loan_limit_change_log.json
 msgid "Value Change"
-msgstr "การเปลี่ยนแปลงค่า"
+msgstr "เปลี่ยนแปลงค่า"
 
 #. Label of a Date field in DocType 'Loan Refund'
 #. Label of a Datetime field in DocType 'Loan Repayment'
@@ -5205,10 +6495,40 @@ msgstr "วันที่ ส่าง"
 msgid "Value Type"
 msgstr "ประเภทค่า"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Vehicle"
+msgstr "พาหนะ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Vehicle + Land"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Vehicle + Property"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Vehicle Registration"
+msgstr "การจดทะเบียนรถยนต์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Vehicle/land types allowed for this product"
+msgstr ""
+
 #: lending/loan_management/doctype/loan_balance_adjustment/loan_balance_adjustment.js:16
 #: lending/public/js/loan_common.js:22
 msgid "View"
 msgstr "ดู"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "View Website"
+msgstr "ดูเว็บไซต์"
 
 #. Label of a Check field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
@@ -5245,6 +6565,11 @@ msgstr ""
 msgid "Waiving of Charges applicable"
 msgstr "การยกเว้นค่าธรรมเนียมที่ใช้บังคับ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Warning"
+msgstr "คำเตือน"
+
 #. Label of a Date field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
 msgid "Watch Period End Date"
@@ -5272,7 +6597,7 @@ msgstr "หักเงินประกัน"
 #: lending/loan_management/doctype/loan_product/loan_product.json
 #: lending/loan_management/doctype/loan_write_off/loan_write_off.json
 msgid "Write Off Account"
-msgstr "บัญชีตัดยอดขาดทุน"
+msgstr "เขียนทันทีบัญชี"
 
 #. Label of a Section Break field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
@@ -5282,7 +6607,7 @@ msgstr "บัญชีตัดจำหน่าย"
 #. Label of a Currency field in DocType 'Loan Write Off'
 #: lending/loan_management/doctype/loan_write_off/loan_write_off.json
 msgid "Write Off Amount"
-msgstr "ยอดตัดจำหน่าย"
+msgstr "ตัดเงิน"
 
 #. Label of a Section Break field in DocType 'Loan Write Off'
 #: lending/loan_management/doctype/loan_write_off/loan_write_off.json
@@ -5319,7 +6644,7 @@ msgstr "จำนวนตัดบัญชีต้องเท่ากับ
 #. Option for the 'Status' (Select) field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
 msgid "Written Off"
-msgstr "ตัดหนี้สงสัยจะสูญ"
+msgstr "ตัดจำหน่าย"
 
 #. Label of a Currency field in DocType 'Loan'
 #: lending/loan_management/doctype/loan/loan.json
