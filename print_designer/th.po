@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Print Designer VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-10-20 14:00+0642\n"
-"PO-Revision-Date: 2026-01-17 15:28\n"
+"PO-Revision-Date: 2026-01-17 15:34\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "Language: th\n"
@@ -88,187 +88,187 @@ msgstr "03 - March"
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "03 - มีนาคม (March)"
-msgstr ""
+msgstr "03 - มีนาคม (March)"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "04 - April"
-msgstr ""
+msgstr "04 - April"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "04 - เมษายน (April)"
-msgstr ""
+msgstr "04 - เมษายน (April)"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "05 - May"
-msgstr ""
+msgstr "05 - May"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "05 - พฤษภาคม (May)"
-msgstr ""
+msgstr "05 - พฤษภาคม (May)"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "06 - June"
-msgstr ""
+msgstr "06 - June"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "06 - มิถุนายน (June)"
-msgstr ""
+msgstr "06 - มิถุนายน (June)"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "07 - July"
-msgstr ""
+msgstr "07 - July"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "07 - กรกฎาคม (July)"
-msgstr ""
+msgstr "07 - กรกฎาคม (July)"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "08 - August"
-msgstr ""
+msgstr "08 - August"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "08 - สิงหาคม (August)"
-msgstr ""
+msgstr "08 - สิงหาคม (August)"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "09 - September"
-msgstr ""
+msgstr "09 - September"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "09 - กันยายน (September)"
-msgstr ""
+msgstr "09 - กันยายน (September)"
 
 #. Option for the 'WHT Condition (เงื่อนไขการหัก)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "1. หัก ณ ที่จ่าย (Withhold at Source)"
-msgstr ""
+msgstr "1. หัก ณ ที่จ่าย (Withhold at Source)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "1. เงินเดือน ค่าจ้าง ฯลฯ 40(1) - Salary"
-msgstr ""
+msgstr "1. เงินเดือน ค่าจ้าง ฯลฯ 40(1) - Salary"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "10 - October"
-msgstr ""
+msgstr "10 - October"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "10 - ตุลาคม (October)"
-msgstr ""
+msgstr "10 - ตุลาคม (October)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "10. ค่าขนส่ง - Transportation"
-msgstr ""
+msgstr "10. ค่าขนส่ง - Transportation"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "11 - November"
-msgstr ""
+msgstr "11 - November"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "11 - พฤศจิกายน (November)"
-msgstr ""
+msgstr "11 - พฤศจิกายน (November)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "11. ค่าประกันภัย - Insurance"
-msgstr ""
+msgstr "11. ค่าประกันภัย - Insurance"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "12 - December"
-msgstr ""
+msgstr "12 - December"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "12 - ธันวาคม (December)"
-msgstr ""
+msgstr "12 - ธันวาคม (December)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "12. อื่นๆ - Others"
-msgstr ""
+msgstr "12. อื่นๆ - Others"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "2. ค่าธรรมเนียม ค่านายหน้า ฯลฯ 40(2) - Fee/Commission"
-msgstr ""
+msgstr "2. ค่าธรรมเนียม ค่านายหน้า ฯลฯ 40(2) - Fee/Commission"
 
 #. Option for the 'WHT Condition (เงื่อนไขการหัก)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "2. ออกให้ตลอดไป (Permanent)"
-msgstr ""
+msgstr "2. ออกให้ตลอดไป (Permanent)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "3. ค่าแห่งลิขสิทธิ์ ฯลฯ 40(3) - Royalty"
-msgstr ""
+msgstr "3. ค่าแห่งลิขสิทธิ์ ฯลฯ 40(3) - Royalty"
 
 #. Option for the 'WHT Condition (เงื่อนไขการหัก)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "3. ออกให้ครั้งเดียว (One Time)"
-msgstr ""
+msgstr "3. ออกให้ครั้งเดียว (One Time)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "4. (ก) ดอกเบี้ย ฯลฯ 40(4)ก - Interest"
-msgstr ""
+msgstr "4. (ก) ดอกเบี้ย ฯลฯ 40(4)ก - Interest"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "4. (ข) เงินปันผล เงินส่วนแบ่งกำไร ฯลฯ 40(4)ข - Dividend"
-msgstr ""
+msgstr "4. (ข) เงินปันผล เงินส่วนแบ่งกำไร ฯลฯ 40(4)ข - Dividend"
 
 #. Option for the 'WHT Condition (เงื่อนไขการหัก)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "4. อื่นๆ (Others)"
-msgstr ""
+msgstr "4. อื่นๆ (Others)"
 
 #. Option for the 'Income Type Code' (Select) field in DocType 'Thai
 #. Withholding Tax Detail'
@@ -286,7 +286,7 @@ msgstr "4.2"
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (2) ค่านายหน้า - สมาคม (10%)"
-msgstr ""
+msgstr "40 (2) ค่านายหน้า - สมาคม (10%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
@@ -294,6 +294,7 @@ msgstr ""
 msgid ""
 "40 (3) ค่าแห่งกู้ดวิลล์ ค่าแห่งลิขสิทธิ์ หรือสิทธิอย่างอื่น - บริษัท (3%)"
 msgstr ""
+"40 (3) ค่าแห่งกู้ดวิลล์ ค่าแห่งลิขสิทธิ์ หรือสิทธิอย่างอื่น - บริษัท (3%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
@@ -301,24 +302,25 @@ msgstr ""
 msgid ""
 "40 (3) ค่าแห่งกู้ดวิลล์ ค่าแห่งลิขสิทธิ์ หรือสิทธิอย่างอื่น - สมาคม (10%)"
 msgstr ""
+"40 (3) ค่าแห่งกู้ดวิลล์ ค่าแห่งลิขสิทธิ์ หรือสิทธิอย่างอื่น - สมาคม (10%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (4)(ก) ดอกเบี้ย - บริษัท (1%)"
-msgstr ""
+msgstr "40 (4)(ก) ดอกเบี้ย - บริษัท (1%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (4)(ก) ดอกเบี้ย - สมาคม (10%)"
-msgstr ""
+msgstr "40 (4)(ก) ดอกเบี้ย - สมาคม (10%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (4)(ข) เงินปันผล - บริษัทต่างประเทศ ประกอบการในไทย (10%)"
-msgstr ""
+msgstr "40 (4)(ข) เงินปันผล - บริษัทต่างประเทศ ประกอบการในไทย (10%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
@@ -328,6 +330,9 @@ msgid ""
 "ตามกฎหมายว่าด้วยการส่งเสริมพาณิชย์นาวีที่ใช้ในการขนส่งสินค้าระหว่างประเทศ "
 "(1%)"
 msgstr ""
+"40 (5) ค่าเช่าเรือ "
+"ตามกฎหมายว่าด้วยการส่งเสริมพาณิชย์นาวีที่ใช้ในการขนส่งสินค้าระหว่างประเทศ "
+"(1%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
@@ -335,18 +340,19 @@ msgstr ""
 msgid ""
 "40 (5) ผู้มีหน้าที่เสียภาษีเงินได้บุคคลธรรมดาที่มิได้อยู่ในประเทศไทย (15%)"
 msgstr ""
+"40 (5) ผู้มีหน้าที่เสียภาษีเงินได้บุคคลธรรมดาที่มิได้อยู่ในประเทศไทย (15%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (5)(ก) ค่าเช่าอสังหาฯ - บริษัท (5%)"
-msgstr ""
+msgstr "40 (5)(ก) ค่าเช่าอสังหาฯ - บริษัท (5%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (5)(ก) ค่าเช่าอสังหาฯ - มูลนิธิ (10%)"
-msgstr ""
+msgstr "40 (5)(ก) ค่าเช่าอสังหาฯ - มูลนิธิ (10%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
@@ -354,78 +360,80 @@ msgstr ""
 msgid ""
 "40 (6) ผู้มีหน้าที่เสียภาษีเงินได้บุคคลธรรมดาที่มิได้อยู่ในประเทศไทย (15%)"
 msgstr ""
+"40 (6) ผู้มีหน้าที่เสียภาษีเงินได้บุคคลธรรมดาที่มิได้อยู่ในประเทศไทย (15%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (6) วิชาชีพกฎหมาย"
-msgstr ""
+msgstr "40 (6) วิชาชีพกฎหมาย"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (6) วิชาชีพการบัญชี"
-msgstr ""
+msgstr "40 (6) วิชาชีพการบัญชี"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (6) วิชาชีพประณีตศิลปกรรม"
-msgstr ""
+msgstr "40 (6) วิชาชีพประณีตศิลปกรรม"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (6) วิชาชีพวิศวกรรม"
-msgstr ""
+msgstr "40 (6) วิชาชีพวิศวกรรม"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (6) วิชาชีพสถาปัตยากรรม"
-msgstr ""
+msgstr "40 (6) วิชาชีพสถาปัตยากรรม"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (6) วิชาชีพแพทย์(การประกอบโรคศิลปะ)"
-msgstr ""
+msgstr "40 (6) วิชาชีพแพทย์(การประกอบโรคศิลปะ)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (7) ค่าจ้างทำของ(รับเหมา) (3%)"
-msgstr ""
+msgstr "40 (7) ค่าจ้างทำของ(รับเหมา) (3%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) ค่าจ้างทำของ(อื่นๆ) (3%)"
-msgstr ""
+msgstr "40 (8) ค่าจ้างทำของ(อื่นๆ) (3%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) ค่าเบี้ยประกันวินาศภัย (1%)"
-msgstr ""
+msgstr "40 (8) ค่าเบี้ยประกันวินาศภัย (1%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) ค่าแสดงให้แก่นักแสดงสาธารณะ - ต่างประเทศ (อัตราก้าวหน้า)"
-msgstr ""
+msgstr "40 (8) ค่าแสดงให้แก่นักแสดงสาธารณะ - ต่างประเทศ (อัตราก้าวหน้า)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) ค่าแสดงให้แก่นักแสดงสาธารณะ - ต่างประเทศได้ขออนุญาตถ่ายทำ (10%)"
 msgstr ""
+"40 (8) ค่าแสดงให้แก่นักแสดงสาธารณะ - ต่างประเทศได้ขออนุญาตถ่ายทำ (10%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) ค่าแสดงให้แก่นักแสดงสาธารณะ - ในประเทศ (5%)"
-msgstr ""
+msgstr "40 (8) ค่าแสดงให้แก่นักแสดงสาธารณะ - ในประเทศ (5%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
@@ -434,24 +442,26 @@ msgid ""
 "40 (8) ซื้อยางแผ่น มันสำปะหลัง ปอ ข้าว ข้าวโพด อ้อย เมล็ดกาแฟ ผลปาล์มน้ำมัน "
 "- บริษัท (0.75%)"
 msgstr ""
+"40 (8) ซื้อยางแผ่น มันสำปะหลัง ปอ ข้าว ข้าวโพด อ้อย เมล็ดกาแฟ ผลปาล์มน้ำมัน "
+"- บริษัท (0.75%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) รางวัล ส่วนลด หรือประโยชน์ใด ๆ เนื่องจากการส่งเสริมการขาย (3%)"
-msgstr ""
+msgstr "40 (8) รางวัล ส่วนลด หรือประโยชน์ใด ๆ เนื่องจากการส่งเสริมการขาย (3%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) รางวัลจากการชิงโชค (5%)"
-msgstr ""
+msgstr "40 (8) รางวัลจากการชิงโชค (5%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "40 (8) รางวัลจากการประกวด (5%)"
-msgstr ""
+msgstr "40 (8) รางวัลจากการประกวด (5%)"
 
 #. Option for the 'Income Type (ประเภทเงินได้)' (Select) field in DocType
 #. 'Withholding Tax Certificate'
