@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Print Designer VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2025-10-20 14:00+0642\n"
-"PO-Revision-Date: 2025-10-24 15:38\n"
+"PO-Revision-Date: 2026-01-17 15:27\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "Language: th\n"
@@ -76,7 +76,7 @@ msgstr "02 - February"
 #. Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "02 - กุมภาพันธ์ (February)"
-msgstr ""
+msgstr "02 - กุมภาพันธ์ (February)"
 
 #. Option for the 'Month' (Select) field in DocType 'Employee Tax Ledger
 #. Entry'
@@ -514,6 +514,11 @@ msgstr "เส้นทางสมบูรณ์ไปยังไฟล์ร
 msgid "Absolute path where converted JSON will be saved"
 msgstr "เส้นทางสัมบูรณ์ที่ไฟล์ JSON ที่แปลงแล้วจะถูกบันทึกไว้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Accounting Integration"
+msgstr "การรวมระบบบัญชี"
+
 #. Name of a role
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
@@ -555,7 +560,7 @@ msgstr "การดำเนินการ"
 #: print_designer/print_designer/doctype/employee_tax_ledger/employee_tax_ledger.json
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
 msgid "Active"
-msgstr "ใช้งานอยู่"
+msgstr "ใช้งาน"
 
 #: print_designer/custom/sales_invoice_calculations.py:325
 msgid "Actual WHT will be processed during payment."
@@ -595,7 +600,7 @@ msgstr "แก้ไขจาก"
 #. Label of a Currency field in DocType 'Invoice Item'
 #: print_designer/print_designer/doctype/invoice_item/invoice_item.json
 msgid "Amount"
-msgstr "จำนวนเงิน"
+msgstr "จำนวน"
 
 #. Label of a Section Break field in DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
@@ -672,7 +677,7 @@ msgstr "หน้าการอนุมัติเปิดในแท็บ
 #. Option for the 'Status' (Select) field in DocType 'Delivery Note Approval'
 #: print_designer/print_designer/doctype/delivery_note_approval/delivery_note_approval.json
 msgid "Approved"
-msgstr "อนุมัติแล้ว"
+msgstr "ได้รับการอนุมัติ"
 
 #. Label of a Link field in DocType 'Thai Billing'
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
@@ -783,9 +788,7 @@ msgstr "อัตรา ภาษีหัก ณ ที่จ่าย {0}% ท
 #. Description of the 'Average Tax Rate' (Percent) field in DocType 'PND1
 #. Form'
 #. Description of the 'Average Tax Rate' (Percent) field in DocType 'PND3
-#. Form'
 #. Description of the 'Average Tax Rate' (Percent) field in DocType 'PND53
-#. Form'
 #. Description of the 'Average Tax Rate' (Percent) field in DocType 'PND54
 #: print_designer/print_designer/doctype/pnd1_form/pnd1_form.json
 #: print_designer/print_designer/doctype/pnd3_form/pnd3_form.json
@@ -1036,7 +1039,7 @@ msgstr ""
 #. Label of a Select field in DocType 'Signature Basic Information'
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
 msgid "Category"
-msgstr "ประเภท"
+msgstr "หมวดหมู่"
 
 #. Label of a Date field in DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
@@ -1173,7 +1176,7 @@ msgstr "ข้อมูลบริษัท"
 #. Name of a DocType
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.json
 msgid "Company Retention Settings"
-msgstr "การตั้งค่าการเก็บรักษาของบริษัท"
+msgstr "การตั้งค่า เงินประกันผลงาน"
 
 #. Option for the 'Stamp Type' (Select) field in DocType 'Signature Basic
 #. Information'
@@ -1220,6 +1223,16 @@ msgstr "ชื่อบริษัท/ห้างหุ้นส่วนจ�
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "Company/Juristic Person (PND.53)"
 msgstr "บริษัท/นิติบุคคล (ภงด.53)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Conditions"
+msgstr "เงื่อนไข"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Conditions (Thai)"
+msgstr "เงื่อนไข (ไทย)"
 
 #. Option for the 'Stamp Type' (Select) field in DocType 'Company Stamp'
 #: print_designer/print_designer/doctype/company_stamp/company_stamp.json
@@ -1384,6 +1397,11 @@ msgstr ""
 msgid "Copy on All Pages"
 msgstr "คัดลอกในทุกหน้า"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Corporate"
+msgstr "บริษัท"
+
 #. Label of a Data field in DocType 'PND54 Items'
 #: print_designer/print_designer/doctype/pnd54_items/pnd54_items.json
 msgid "Country"
@@ -1518,7 +1536,7 @@ msgstr "หมายเลขโทรศัพท์มือถือของ
 #: print_designer/print_designer/doctype/delivery_note_approval/delivery_note_approval.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 msgid "Customer Name"
-msgstr "ชื่อผู้ขาย"
+msgstr "ชื่อลูกค้า"
 
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.py:47
 msgid "Customer is required"
@@ -1691,7 +1709,7 @@ msgstr "การอนุมัติใบส่งสินค้า"
 #. Label of a Link field in DocType 'Digital Signature'
 #: print_designer/print_designer/doctype/digital_signature/digital_signature.json
 msgid "Department"
-msgstr "ทรัพยา"
+msgstr "แผนก"
 
 #. Label of a Small Text field in DocType 'Company Stamp'
 #. Label of a Small Text field in DocType 'Digital Signature'
@@ -1735,7 +1753,6 @@ msgstr "ลายมือชื่อดิจิทัล"
 #. Watermark Config'
 #. Description of the 'Bottom (px)' (Int) field in DocType 'Watermark
 #. Settings'
-#. Description of the 'Bottom (px)' (Int) field in DocType 'Watermark
 #. Template'
 #: print_designer/print_designer/doctype/print_format_watermark_config/print_format_watermark_config.json
 #: print_designer/print_designer/doctype/watermark_settings/watermark_settings.json
@@ -1799,7 +1816,7 @@ msgstr "วันที่ เข้าน"
 #. Label of a Link field in DocType 'Thai Billing Item'
 #: print_designer/print_designer/doctype/thai_billing_item/thai_billing_item.json
 msgid "Document Number"
-msgstr "เลขที่เอกสาร"
+msgstr "หมายเลขเอกสาร"
 
 #. Label of a Link field in DocType 'Signature Usage'
 #. Label of a Small Text field in DocType 'Thai Billing Item'
@@ -1862,11 +1879,16 @@ msgstr "วาดตราประทับของคุณ"
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 #: print_designer/print_designer/doctype/thai_billing_item/thai_billing_item.json
 msgid "Due Date"
-msgstr "กำหนดส่ง"
+msgstr "วันที่ครบกำหนด"
 
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.js:110
 msgid "Due Date cannot be before Posting Date"
 msgstr "วันที่ครบกำหนดต้องไม่อยู่ก่อนวันที่บันทึกบัญชี"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Dynamic Images"
+msgstr "รูปภาพไดนามิก"
 
 #: print_designer/print_designer/page/print_designer/print_designer.js:27
 #: print_designer/print_designer/page/print_designer/print_designer.js:83
@@ -2212,6 +2234,11 @@ msgstr "แบบฟอร์ม"
 msgid "Form Number"
 msgstr "หมายเลขแบบฟอร์ม"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Form Type"
+msgstr "ประเภทฟอร์ม"
+
 #: print_designer/print_designer/client_scripts/print.js:910
 msgid "Format"
 msgstr "รูปแบบ"
@@ -2430,6 +2457,16 @@ msgstr "นำเข้าแบบฟอร์มการออกแบบก
 msgid "In Words will be visible once you save the Billing."
 msgstr "ข้อความในรูปแบบคำจะปรากฏเมื่อคุณบันทึกใบวางบิลแล้ว"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Income Category"
+msgstr "หมวดหมู่รายได้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Income Category (Thai)"
+msgstr "หมวดหมู่รายได้ (ไทย)"
+
 #. Label of a Data field in DocType 'PND1 Items'
 #. Label of a Data field in DocType 'PND3 Items'
 #. Label of a Data field in DocType 'PND53 Items'
@@ -2441,10 +2478,20 @@ msgstr "ข้อความในรูปแบบคำจะปรากฏ
 msgid "Income Description"
 msgstr "คำอธิบายรายได้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Income Description (Thai)"
+msgstr "คำอธิบายรายได้ (ไทย)"
+
 #. Label of a Data field in DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "Income Description (รายละเอียด)"
 msgstr "คำอธิบายรายได้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Income Details"
+msgstr "รายละเอียดรายได้"
 
 #. Label of a Currency field in DocType 'Employee Tax Ledger Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
@@ -2483,6 +2530,11 @@ msgstr "ประเภทเงินได้"
 #: print_designer/print_designer/doctype/thai_withholding_tax_detail/thai_withholding_tax_detail.json
 msgid "Income Type Code"
 msgstr "รหัสประเภทรายได้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Individual"
+msgstr "บุคคล"
 
 #. Option for the 'Supplier Type Classification' (Select) field in DocType
 #. 'Withholding Tax Certificate'
@@ -2596,7 +2648,7 @@ msgstr "ข้อมูลใบแจ้งหนี้"
 #. Label of a Date field in DocType 'Invoice Data'
 #: print_designer/print_designer/doctype/invoice_data/invoice_data.json
 msgid "Invoice Date"
-msgstr "วันที่ ใบจ้งหนี้"
+msgstr "วันที่ออกใบแจ้งหนี้"
 
 #. Name of a DocType
 #: print_designer/print_designer/doctype/invoice_item/invoice_item.json
@@ -2692,6 +2744,13 @@ msgstr "ซ้าย (px)"
 #: print_designer/print_designer/client_scripts/print.js:1742
 msgid "Letter Head"
 msgstr "หัวจดหมาย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Link to ERPNext Tax Withholding Category for GL posting"
+msgstr ""
+"ลิงก์ไปยังหมวดหมู่ภาษีหัก ณ ที่จ่ายของ ERPNext "
+"สำหรับการบันทึกบัญชีแยกประเภททั่วไป"
 
 #. Description of the 'User' (Link) field in DocType 'Signature Basic
 #. Information'
@@ -2836,7 +2895,7 @@ msgstr "การตั้งค่าของฉัน"
 #. Label of a Select field in DocType 'Invoice Data'
 #: print_designer/print_designer/doctype/invoice_data/invoice_data.json
 msgid "Naming Series"
-msgstr "ลำดับการตั้งชื่อ"
+msgstr "ชุดการตั้งชื่อ"
 
 #. Label of a Currency field in DocType 'Employee Tax Ledger Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
@@ -3200,6 +3259,11 @@ msgstr "ข้อมูลแบบฟอร์ม ภ.ง.ด.1"
 msgid "PND1 Items"
 msgstr "รายการ ภ.ง.ด.1"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PND3"
+msgstr "ภ.ง.ด.3"
+
 #. Name of a DocType
 #: print_designer/print_designer/doctype/pnd3_form/pnd3_form.json
 msgid "PND3 Form"
@@ -3216,6 +3280,11 @@ msgstr "ข้อมูลแบบฟอร์ม ภ.ง.ด.3"
 #: print_designer/print_designer/doctype/pnd3_items/pnd3_items.json
 msgid "PND3 Items"
 msgstr "รายการ ภ.ง.ด.3"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PND53"
+msgstr "ภ.ง.ด.53"
 
 #. Name of a DocType
 #: print_designer/print_designer/doctype/pnd53_form/pnd53_form.json
@@ -3341,6 +3410,11 @@ msgstr "ไม่ได้รับอนุญาตพร้อมหัวจ
 msgid "Phone"
 msgstr "โทรศัพท์"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Please First remove hidden fields [  ]"
+msgstr "กรุณาลบฟิลด์ที่ซ่อนอยู่ก่อน [  ]"
+
 #: print_designer/custom/withholding_tax.py:796
 msgid "Please add Supplier Tax ID for proper WHT certificate generation"
 msgstr ""
@@ -3369,6 +3443,11 @@ msgid "Please enter Supplier Tax ID before generating WHT certificate."
 msgstr ""
 "กรุณาใส่เลขประจำตัวผู้เสียภาษีของผู้จำหน่ายก่อนสร้างใบรับรองภาษี ณ ที่จ่าย "
 "(WHT)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Please resolve overlapping elements"
+msgstr "กรุณาแก้ไของค์ประกอบที่ซ้อนทับกัน"
 
 #: print_designer/public/js/print_designer/store/ElementStore.js:827
 msgid "Please resolve overlapping elements "
@@ -3434,7 +3513,7 @@ msgstr "ตำแหน่งที่ลายน้ำปรากฏบนห
 #: print_designer/print_designer/doctype/invoice_data/invoice_data.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 msgid "Posting Date"
-msgstr "วันที่บันทึกบัญชี"
+msgstr "วันที่บันทึกข้อมูล"
 
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.py:42
 msgid "Posting Date cannot be greater than Due Date"
@@ -3636,7 +3715,7 @@ msgstr "ใบสั่งซื้อ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Purchase Receipt"
-msgstr "ใบเสร็จรับเงินการสั่งซื้อ"
+msgstr "ใบรับซื้อ"
 
 #: print_designer/public/js/delivery_note/delivery_approval.js:216
 msgid "QR Code Generated Successfully"
@@ -3689,7 +3768,7 @@ msgstr "ใบเสนอราคา"
 #. Label of a Currency field in DocType 'Invoice Item'
 #: print_designer/print_designer/doctype/invoice_item/invoice_item.json
 msgid "Rate"
-msgstr "อัตรา"
+msgstr "อัตรา/ราคา"
 
 #. Option for the 'Submission Status' (Select) field in DocType 'PND1 Form'
 #. Option for the 'Submission Status' (Select) field in DocType 'PND3 Form'
@@ -3714,7 +3793,12 @@ msgstr "ใบรับสินค้า"
 #. Option for the 'Stamp Type' (Select) field in DocType 'Company Stamp'
 #: print_designer/print_designer/doctype/company_stamp/company_stamp.json
 msgid "Received"
-msgstr "ได้รับแล้ว"
+msgstr "ที่ได้รับ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Recipient Type"
+msgstr "ประเภทผู้รับ"
 
 #: print_designer/public/js/print_designer/store/MainStore.js:115
 msgid "Rectangle (R)"
@@ -3907,7 +3991,7 @@ msgstr "ใบสั่งขาย"
 #. Name of a role
 #: print_designer/print_designer/doctype/delivery_note_approval/delivery_note_approval.json
 msgid "Sales User"
-msgstr "ผู้ใช้ขาย"
+msgstr "ผู้ใช้การขาย"
 
 #. Option for the 'Font Family' (Select) field in DocType 'Print Format
 #. Watermark Config'
@@ -3950,7 +4034,7 @@ msgstr "ค้นหาฟิลด์โดยป้ายชื่อ, ชื�
 
 #: print_designer/public/js/print_designer/components/layout/AppImageModal.vue:18
 msgid "Search by filename or extension"
-msgstr "ค้นหาตามชื่อไฟล์หรือสกุลไฟล์"
+msgstr "ค้นหาตามชื่อไฟล์หรือนามสกุล"
 
 #. Label of a Percent field in DocType 'Thai WHT Settings'
 #: print_designer/print_designer/doctype/thai_wht_settings/thai_wht_settings.json
@@ -4043,7 +4127,7 @@ msgstr "หมายเลขลำดับในแบบฟอร์ม ภ.�
 #: print_designer/print_designer/doctype/delivery_note_approval/delivery_note_approval.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 msgid "Series"
-msgstr "ลำดับ"
+msgstr "ชุด"
 
 #: print_designer/public/js/thailand_wht/thailand_wht_item.js:84
 msgid "Service Item Suggestion"
@@ -4119,7 +4203,7 @@ msgstr "ข้อมูลลายเซ็นต์"
 #: print_designer/print_designer/doctype/digital_signature/digital_signature.json
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
 msgid "Signature Image"
-msgstr "รูปภาพลายเซ็น"
+msgstr "รูปภาพลายเซ็นต์"
 
 #: print_designer/public/js/stamps_signatures/designation_signature.js:47
 #: print_designer/public/js/stamps_signatures/designation_signature.js:56
@@ -4585,6 +4669,11 @@ msgstr "สรุปภาษี"
 msgid "Tax Withheld"
 msgstr "ภาษีหัก ณ ที่จ่าย"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Tax Withholding Category"
+msgstr "ประเภทหัก ณ ที่จ่ายภาษี"
+
 #. Label of a Data field in DocType 'Employee Tax Ledger'
 #. Label of a Data field in DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/employee_tax_ledger/employee_tax_ledger.json
@@ -4692,6 +4781,11 @@ msgstr ""
 "เปิดใช้งานการปฏิบัติตามภาษีหัก ณ ที่จ่ายของไทย: กำหนดการจัดการภาษีหัก ณ "
 "ที่จ่ายและภาษีมูลค่าเพิ่มโดยอัตโนมัติ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Thai WHT Income Type"
+msgstr "ประเภทเงินได้หัก ณ ที่จ่าย"
+
 #. Name of a DocType
 #: print_designer/print_designer/doctype/thai_wht_settings/thai_wht_settings.json
 msgid "Thai WHT Settings"
@@ -4798,7 +4892,7 @@ msgstr "Times New Roman"
 #: print_designer/print_designer/doctype/digital_signature/digital_signature.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 msgid "Title"
-msgstr "หัวข้อ"
+msgstr "ชื่อเรื่อง"
 
 #. Label of a Date field in DocType 'Thai Billing'
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
@@ -4878,7 +4972,7 @@ msgstr "Total Amount (รวมจำนวนเงิน)"
 #. Label of a Currency field in DocType 'Thai Withholding Tax Detail'
 #: print_designer/print_designer/doctype/thai_withholding_tax_detail/thai_withholding_tax_detail.json
 msgid "Total Amount Paid"
-msgstr "ยอดชำระทั้งหมด"
+msgstr "จำนวนเงินที่จ่าย"
 
 #. Label of a Currency field in DocType 'PND1 Form'
 #. Label of a Currency field in DocType 'PND3 Form'
@@ -5207,7 +5301,7 @@ msgstr "การแสดงตัวอย่าง ภาษีหัก ณ 
 #: print_designer/print_designer/doctype/pnd53_items/pnd53_items.json
 #: print_designer/print_designer/doctype/pnd54_items/pnd54_items.json
 msgid "WHT Rate (%)"
-msgstr "อัตรา ภาษีหัก ณ ที่จ่าย (%)"
+msgstr "อัตราภาษีหัก ณ ที่จ่าย (%)"
 
 #. Label of a Percent field in DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
