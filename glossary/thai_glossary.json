@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 77,
-  "last_updated": "2026-01-16T08:34:28.838505",
+  "terms_count": 78,
+  "last_updated": "2026-01-19T10:35:25.733128",
   "terms": {
     "1 Google Calendar Event synced.": {
       "translation": "ซิงค์ 1 กิจกรรมบนปฏิทิน Google",
@@ -176,6 +176,13 @@
       "translation": "รายละเอียด",
       "context": "",
       "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Desk Access": {
+      "translation": "การเข้าถึงโต๊ะทำงาน",
+      "context": "Desk is Frappe Application that under \"app/{page_name}\" Route, it is not reality Desk in Physical view. ",
+      "category": "Technical",
       "module": "",
       "is_approved": 1
     },
