@@ -7626,7 +7626,7 @@ msgstr "การแต่งตั้ง"
 #. Label of a Check field in DocType 'Role'
 #: frappe/core/doctype/role/role.json
 msgid "Desk Access"
-msgstr "โต๊ะเขียนหนังสือ"
+msgstr "การเข้าถึง โต๊ะทำงาน"
 
 #. Label of a Section Break field in DocType 'User'
 #: frappe/core/doctype/user/user.json
