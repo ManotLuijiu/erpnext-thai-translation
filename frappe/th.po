@@ -7631,7 +7631,7 @@ msgstr "การเข้าถึง โต๊ะทำงาน"
 #. Label of a Section Break field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Desk Settings"
-msgstr "การตั้งค่าเดสก์"
+msgstr "การตั้งค่า โต๊ะทำงานของคุณ"
 
 #. Label of a Select field in DocType 'User'
 #: frappe/core/doctype/user/user.json
