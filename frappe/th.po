@@ -7636,7 +7636,7 @@ msgstr "การตั้งค่า โต๊ะทำงานของค�
 #. Label of a Select field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Desk Theme"
-msgstr "ธีมเดสก์ท็อป"
+msgstr "ธีมของโต๊ะทำงาน"
 
 #. Name of a role
 #: frappe/automation/doctype/reminder/reminder.json
