@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-10-06 22:51+0642\n"
-"PO-Revision-Date: 2025-10-08 02:03\n"
+"PO-Revision-Date: 2026-01-19 10:32\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -26925,7 +26925,7 @@ msgstr ""
 #: frappe/public/js/frappe/desk.js:128
 msgid ""
 "The application has been updated to a new version, please refresh this page"
-msgstr "ใบสมัครได้รับการปรับปรุงให้เป็นรุ่นใหม่โปรดรีเฟรชหน้านี้"
+msgstr "ตัวโปรแกรมได้รับการปรับปรุงให้เป็นรุ่นใหม่โปรดรีเฟรชหน้านี้"
 
 #. Description of the 'Application Name' (Data) field in DocType 'System
 #. Settings'
