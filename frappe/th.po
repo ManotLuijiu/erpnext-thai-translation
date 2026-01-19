@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-10-06 22:51+0642\n"
-"PO-Revision-Date: 2026-01-19 10:36\n"
+"PO-Revision-Date: 2026-01-19 10:37\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -7671,7 +7671,7 @@ msgstr "ธีมของโต๊ะทำงาน"
 #: frappe/workflow/doctype/workflow_action/workflow_action.json
 #: frappe/workflow/doctype/workflow_state/workflow_state.json
 msgid "Desk User"
-msgstr "ผู้ใช้เดสก์"
+msgstr "ผู้ใช้ โต๊ะทำงาน"
 
 #. Name of a DocType
 #: frappe/desk/doctype/desktop_icon/desktop_icon.json
