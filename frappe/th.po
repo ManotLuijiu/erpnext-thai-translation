@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2025-10-06 22:51+0642\n"
-"PO-Revision-Date: 2026-01-19 10:37\n"
+"PO-Revision-Date: 2026-01-19 10:38\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -26273,7 +26273,7 @@ msgstr "เปลี่ยนธีม"
 
 #: frappe/templates/includes/navbar/navbar_login.html:17
 msgid "Switch To Desk"
-msgstr "สวิทช์ไปที่โต๊ะทำงาน"
+msgstr "ไปที่โต๊ะทำงาน"
 
 #: frappe/public/js/frappe/list/list_sidebar.js:296
 msgid "Switch to Frappe CRM for smarter sales"
