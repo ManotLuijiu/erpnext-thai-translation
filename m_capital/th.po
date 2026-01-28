@@ -27943,7 +27943,7 @@ msgstr "รหัสสายบริการ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Service Line Details"
-msgstr "รายละเอียดรายการบริการ"
+msgstr "รายละเอียดสายบริการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
