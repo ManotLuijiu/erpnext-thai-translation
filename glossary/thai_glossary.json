@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 78,
-  "last_updated": "2026-01-19T10:35:25.733128",
+  "terms_count": 79,
+  "last_updated": "2026-01-29T00:47:54.840146",
   "terms": {
     "1 Google Calendar Event synced.": {
       "translation": "ซิงค์ 1 กิจกรรมบนปฏิทิน Google",
@@ -441,6 +441,13 @@
     "Selling": {
       "translation": "การขาย",
       "context": "",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Service Line": {
+      "translation": "สายบริการ",
+      "context": "Service Line is Sub Branch, each Branch has multiple Service Lines",
       "category": "Business",
       "module": "",
       "is_approved": 1
