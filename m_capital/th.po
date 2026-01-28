@@ -17378,7 +17378,7 @@ msgstr "กำลังโหลดข้อมูลวิเคราะห์
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Loading service lines..."
-msgstr "กำลังโหลดรายการบริการ..."
+msgstr "กำลังโหลดสายบริการ..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
