@@ -27968,7 +27968,7 @@ msgstr "ไฟล์ JSON บัญชีบริการขาดฟิลด
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Service line"
-msgstr "รายการบริการ"
+msgstr "สายบริการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
