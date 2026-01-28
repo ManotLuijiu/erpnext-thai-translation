@@ -1,0 +1,447 @@
+# Translations template for TBS External Storage.
+# Copyright (C) 2026 TBS
+# This file is distributed under the same license as the TBS External Storage project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TBS External Storage VERSION\n"
+"Report-Msgid-Bugs-To: moocoding@gmail.com\n"
+"POT-Creation-Date: 2026-01-27 02:20+0642\n"
+"PO-Revision-Date: 2026-01-28 23:52\n"
+"Last-Translator: moocoding@gmail.com\n"
+"Language-Team: moocoding@gmail.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: tbs_external_storage/install_hooks.py:89
+msgid ""
+"\n"
+"        <h4>TBS External Storage Reinstalled</h4>\n"
+"        <p>It appears that TBS External Storage was previously installed and had cloud files configured.</p>\n"
+"        <p>We found a report of your external files and {0} files that might need reconnection.</p>\n"
+"        <p>You can run the reconnection tool to restore access to your cloud files:</p>\n"
+"        <pre>bench --site {1} execute tbs_external_storage/reconnect.py \"{2}\"</pre>\n"
+"        <p>This will create placeholder storage configurations and reconnect your files.</p>\n"
+"        <p><strong>Note:</strong> You will need to update the storage configurations with your actual credentials.</p>\n"
+"    "
+msgstr ""
+
+#. Paragraph text in the TBS S3 Storage Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid ""
+"- All files to same bucket. Create one \"External Storage\" and select "
+"folder \"Home\". All uploaded files will be placed within that bucket.<br>- "
+"Specific bucket for specific folder. Create one&nbsp;\"External Storage\" "
+"and select your desired folder. All files uploaded to that folder will be "
+"located within that bucket.<br>- Files uploaded to folders without an "
+"associated External Storage will be uploaded to Frappe server "
+"filesystem.<br><br>"
+msgstr ""
+
+#. Header text in the TBS S3 Storage Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "<span class=\"h4\"><b>Options</b></span>"
+msgstr ""
+
+#. Header text in the TBS S3 Storage Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "<span class=\"h4\">TBS S3 External Storage</span>"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:645
+#: tbs_external_storage/gdrive_integration.py:491
+#: tbs_external_storage/onedrive_integration.py:679
+msgid "An error occurred during authentication: {0}"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:563
+#: tbs_external_storage/onedrive_integration.py:593
+msgid "An error occurred during authentication: {0} - {1}"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:437
+#: tbs_external_storage/onedrive_integration.py:615
+msgid "Authentication session expired"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:134
+msgid "Auto Refresh"
+msgstr "รีเฟรซอัตโนมัติ"
+
+#: tbs_external_storage/public/js/file_uploader.js:41
+msgid "Browse S3 Files"
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:150
+msgid "Cancel"
+msgstr ""
+
+#: tbs_external_storage/install_hooks.py:103
+msgid "Cloud Storage Reconnection Available"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:24
+msgid "Configuration issues found: {}"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:74
+msgid "Connection diagnosis failed: "
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:34
+msgid "Connection failed"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:31
+msgid "Connection successful"
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:134
+msgid "Could not generate secure URL"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:24
+msgid "Diagnose Connection"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:56
+msgid "Diagnosing connection..."
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:562
+#: tbs_external_storage/dropbox_integration.py:644
+msgid "Dropbox Authentication Failed"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:635
+msgid "Dropbox Authentication Successful"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:120
+msgid "Dropbox folder found: {0}"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:127
+msgid "Dropbox folder not found"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:7
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:6
+msgid "ETAG"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:274
+msgid "Error"
+msgstr ""
+
+#. Label of a Link in the TBS S3 Storage Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "Error Logs"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:129
+msgid "Error accessing Dropbox folder: {0}"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:123
+msgid "Error accessing Google Drive folder: {0}"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:222
+msgid "Error accessing OneDrive folder: {0}"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:902
+msgid "Error deleting file from Dropbox."
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:968
+msgid "Error downloading and removing file from Dropbox."
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:916
+msgid "Error downloading file from Dropbox"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:276
+msgid "Error fetching files: "
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:546
+msgid "Error generating Dropbox OAuth URL: {0}"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:421
+msgid "Error generating Google Drive OAuth URL: {0}"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:576
+msgid "Error generating OneDrive OAuth URL: {0}"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:206
+msgid "Error getting file type: "
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:177
+msgid "Error getting template value: "
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:247
+msgid "Error rendering template: "
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:861
+msgid "Error saving file to Dropbox: {0}"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:132
+msgid "Error validating Dropbox folder: {0}"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:127
+msgid "Error validating Google Drive folder: {0}"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:225
+msgid "Error validating OneDrive folder: {0}"
+msgstr ""
+
+#. Label of a Link in the TBS S3 Storage Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "External Storages"
+msgstr ""
+
+#: tbs_external_storage/uninstall.py:85
+msgid "External files report generated at: {0}"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:39
+msgid "Failed to diagnose storage connection: {}"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:939
+msgid "Failed to stream file from Dropbox"
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:84
+msgid "File"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:866
+msgid "File saved in local filesystem."
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:23
+msgid "File securely uploaded to S3 storage"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:120
+msgid "File type"
+msgstr ""
+
+#. Label of a Link in the TBS S3 Storage Workspace
+#: tbs_external_storage/public/js/file_uploader.js:77
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "Files"
+msgstr ""
+
+#. Label of a Card Break in the TBS S3 Storage Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "Files management"
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:98
+msgid "Get URL"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:490
+msgid "Google Drive Authentication Failed"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:481
+msgid "Google Drive Authentication Successful"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:113
+msgid "Google Drive folder found: {0}"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:120
+msgid "Google Drive folder not found"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:607
+msgid "Invalid authentication state"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:232
+msgid "Invalid response from server"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:578
+msgid "Invalid state parameter"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:33
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:32
+msgid "Is dir"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:8
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:7
+msgid "Key"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:63
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:62
+msgid "Last refreshed"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:825
+msgid "Local file not found: {0}"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:585
+msgid "Missing app credentials"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:571
+#: tbs_external_storage/gdrive_integration.py:431
+#: tbs_external_storage/onedrive_integration.py:601
+msgid "Missing authorization code"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:11
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:10
+msgid "Modified"
+msgstr ""
+
+#: tbs_external_storage/public/js/app.js:66
+msgid "No external storage name found :("
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:58
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:57
+msgid "No files found on this bucket"
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:125
+msgid "Note: This secure link will expire in ${mins} minutes"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:592
+#: tbs_external_storage/onedrive_integration.py:678
+msgid "OneDrive Authentication Failed"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:669
+msgid "OneDrive Authentication Successful"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:213
+msgid "OneDrive folder found: {0}"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:220
+msgid "OneDrive folder not found"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:52
+msgid "Please select a storage connection first"
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:91
+msgid "Private"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:221
+msgid "Refreshing..."
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:14
+msgid "S3 bucket files"
+msgstr ""
+
+#. Paragraph text in the TBS S3 Storage Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "Save all your files within external S3 compatible buckets."
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:58
+msgid "Select S3 File"
+msgstr ""
+
+#. Label of a Card Break in the TBS S3 Storage Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "Settings"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:9
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:8
+msgid "Size"
+msgstr ""
+
+#: tbs_external_storage/public/js/file_uploader.js:61
+msgid "Storage"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:10
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:9
+msgid "Storage class"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:16
+msgid "Storage name is required"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:194
+msgid "Storage parameter is required"
+msgstr ""
+
+#: tbs_external_storage/config/desktop.py:9
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:82
+msgid "TBS External Storage"
+msgstr ""
+
+#. Name of a Workspace
+#: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
+msgid "TBS S3 Storage"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:115
+msgid "The specified Dropbox path is not a folder"
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:108
+msgid "The specified Google Drive ID is not a folder"
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:208
+msgid "The specified OneDrive ID is not a folder"
+msgstr ""
+
+#: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:107
+msgid "View mode"
+msgstr ""
+
+#: tbs_external_storage/dropbox_integration.py:636
+msgid ""
+"You have successfully authenticated with Dropbox. You can close this window "
+"and return to the app."
+msgstr ""
+
+#: tbs_external_storage/gdrive_integration.py:482
+msgid ""
+"You have successfully authenticated with Google Drive. You can close this "
+"window and return to the app."
+msgstr ""
+
+#: tbs_external_storage/onedrive_integration.py:670
+msgid ""
+"You have successfully authenticated with OneDrive. You can close this window"
+" and return to the app."
+msgstr ""
