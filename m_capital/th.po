@@ -6719,7 +6719,7 @@ msgstr "ไม่สามารถสร้างหมายเลขสัญ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Counter Service"
-msgstr "บริการเคาน์เตอร์"
+msgstr "บริการ 7/11 เคาน์เตอร์"
 
 #. Option for the 'Vehicle Type' (Select) field in DocType 'Vehicle Loan
 #. Application'
