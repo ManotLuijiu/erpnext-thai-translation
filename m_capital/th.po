@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-29 03:23\n"
+"PO-Revision-Date: 2026-01-29 03:27\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -1593,7 +1593,7 @@ msgstr "อุปกรณ์เกษตรกรรม"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Agricultural Loan"
-msgstr "การอายัดเกยร"
+msgstr "สินเชื่อการเกษตร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
