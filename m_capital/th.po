@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-29 03:21\n"
+"PO-Revision-Date: 2026-01-29 03:22\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -32518,7 +32518,7 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Vehicle registration date (Buddhist Era)"
-msgstr "วันที่รางสินรางราง (ปีปี)"
+msgstr "วันที่จดทะเบียน (ปีพ.ศ.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
