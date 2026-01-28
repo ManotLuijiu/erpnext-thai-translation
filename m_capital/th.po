@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-29 00:43\n"
+"PO-Revision-Date: 2026-01-29 00:44\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -1821,7 +1821,7 @@ msgstr "ทั้งหมดฉบับร่างข้าม"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All service lines"
-msgstr "ทั้งหมด สิดริบร"
+msgstr "สายบริการทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
