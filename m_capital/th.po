@@ -25604,7 +25604,7 @@ msgstr "รายได้ค่าเช่า"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Rental Space"
-msgstr "สิดสาราง"
+msgstr "ค่าเช่าพื้นที่"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
