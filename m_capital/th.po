@@ -4451,7 +4451,7 @@ msgstr "ถ่ายภาพด้านหลังบัตรประชา
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Capture the front side with photo and personal information"
-msgstr ""
+msgstr "ถ่ายภาพด้านหน้าบัตรประชาชน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
