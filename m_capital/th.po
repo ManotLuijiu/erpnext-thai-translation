@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-29 00:49\n"
+"PO-Revision-Date: 2026-01-29 03:21\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -251,6 +251,8 @@ msgid ""
 ")},2e3)}else q.error((b==null?void 0:b.message)||s(\"Failed to generate "
 "print bundle\")),m(!1),p(0),_("
 msgstr ""
+")},2e3)}else q.error((b==null?void "
+"0:b.message)||s(\"ไม่สามารถสร้างชุดพิมพ์ได้\"),m(!1),p(0),_("
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1236,6 +1238,7 @@ msgid ""
 "Add a new customer to ERPNext. The customer will be available immediately "
 "after creation."
 msgstr ""
+"เพิ่มลูกค้าใหม่ใน ERPNext ลูกค้าจะพร้อมใช้งานทันทีหลังจากสร้างเสร็จแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1420,7 +1423,7 @@ msgstr "ที่อยู่ได้รับการยืนยันแล
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Address as per ID Card"
-msgstr "สิตระบระดเลิ่งบระดสิตรไทย"
+msgstr "ที่อยู่ตามบัตรประชาชน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1440,12 +1443,13 @@ msgstr "บันทึกข้อมูลที่อยู่เรียบ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Adjust Corners"
-msgstr ""
+msgstr "ปรับมุม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Adjust interest rate and loan term to see different payment options"
 msgstr ""
+"ปรับอัตราดอกเบี้ยและระยะเวลาสินเชื่อเพื่อดูตัวเลือกการชำระเงินที่แตกต่างกัน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1654,7 +1658,7 @@ msgstr "기능 หมวดหมู่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All Documents Uploaded"
-msgstr ""
+msgstr "ทั้งหมดข้าถึงเริ่งที่ยน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1664,7 +1668,7 @@ msgstr "ทั้งหมดข้าถึงสินค้าเสร็จ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All Documents Verified - Proceed"
-msgstr ""
+msgstr "ทั้งสินราคาริบทเลื่อยการ - เลิ่งสร้าง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1694,7 +1698,7 @@ msgstr "สถานะทั้งหมด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All Statuses"
-msgstr ""
+msgstr "สถานะทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1765,12 +1769,13 @@ msgstr ""
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All hours"
-msgstr ""
+msgstr "ชั่วโมงทั้งหมด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All information has been extracted and validated successfully."
 msgstr ""
+"ทั้งหมดข้ามสินค้าสิดการเลื่อนเป็นสินเกลือสิดเป็นเลื่อนเป็นเป็นเป็นเลื่อนเป็นเลื่อนเป็นเลื่อนเป็นเลื่อนเป็นเลื่อนเป็นเลื่อน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1821,7 +1826,7 @@ msgstr "ทั้งหมดฉบับร่างข้าม"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "All service lines"
-msgstr "สายบริการทั้งหมด"
+msgstr "ทั้งหมด สิดริบร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2114,7 +2119,7 @@ msgstr "แอปพลิเคชัน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Application Assignments"
-msgstr ""
+msgstr "การมอบหมายแอปพลิเคชัน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2154,7 +2159,7 @@ msgstr "รหัสประจำตัวแอปพลิเคชันเ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Application Logs"
-msgstr ""
+msgstr "บันทึกข้าถึง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2430,17 +2435,17 @@ msgstr "สมัครออนไลน์หรือเยี่ยมชม
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Applying enhancement..."
-msgstr ""
+msgstr "กำลังดำเนินการปรับปรุง..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Applying perspective transform..."
-msgstr ""
+msgstr "กำลังประยุกต์ใช้การแปลงมุมมอง..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Applying transform..."
-msgstr ""
+msgstr "กำลังใช้การแปลง..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2946,7 +2951,7 @@ msgstr "สร้างอัตโนมัติจากใบสมัคร
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto Crop"
-msgstr ""
+msgstr "ครอปอัตโนมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -2971,7 +2976,7 @@ msgstr "รีเฟรชอัตโนมัติ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto-accept and search after scanning"
-msgstr "ค้นหาอัตโนมัติหลังจากสแกน"
+msgstr "ยอมรับอัตโนมัติและค้นหาหลังจากสแกน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3007,7 +3012,7 @@ msgstr "ผู้กู้ M Loan ที่สร้างโดยอัตโ�
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Auto-enhance"
-msgstr ""
+msgstr "ปรับปรุงอัตโนมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3314,6 +3319,7 @@ msgstr "ย้อนกลับ"
 #: SPA
 msgid "Back Office staff can only access the Disbursement workflow page."
 msgstr ""
+"พนักงานฝ่ายสนับสนุนหลังบ้านสามารถเข้าถึงหน้าเวิร์กโฟลว์การเบิกจ่ายเท่านั้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3323,12 +3329,12 @@ msgstr "หมายเลขย้อนหลัง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Back to Camera"
-msgstr ""
+msgstr "กลับไปที่กล้อง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Back to Playgrounds"
-msgstr ""
+msgstr "กลับไปยังสนามทดลอง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -3510,6 +3516,8 @@ msgid ""
 "Bank book data extracted successfully! Data has been applied to the form "
 "below."
 msgstr ""
+"ข้อมูลสมุดบัญชีธนาคารถูกดึงออกมาเรียบร้อยแล้ว! "
+"ข้อมูลได้ถูกนำไปใช้ในแบบฟอร์มด้านล่างนี้แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -8335,7 +8343,7 @@ msgstr "โทเคน SMS สินสรางสร์สอระบลา�
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Default Service Line"
-msgstr "ค่าปกติของสายบริการ"
+msgstr "บรรทัดบริการเริ่มต้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -10128,7 +10136,7 @@ msgstr "เปิดใช้งานการคำนวณค่าคอม
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Enable/disable service line"
-msgstr "เปิด/ปิด สายบริการ"
+msgstr "เปิด/ปิดใช้งานรายการบริการ"
 
 #. Label of a Check field in DocType 'Google Cloud Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
@@ -14419,7 +14427,7 @@ msgstr "บ้าน"
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
 #: m_capital/m_capital/doctype/vehicle_loan_application/vehicle_loan_application.json
 msgid "House Number"
-msgstr "สินราง"
+msgstr "บ้านเลขที่"
 
 #. Option for the 'Document Type' (Select) field in DocType 'Loan Application
 #. Document'
@@ -17378,7 +17386,7 @@ msgstr "กำลังโหลดข้อมูลวิเคราะห์
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Loading service lines..."
-msgstr "กำลังโหลดสายบริการ..."
+msgstr "กำลังโหลดรายการบริการ..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -27933,7 +27941,7 @@ msgstr "คีย์บัญชีบริการ (Google)"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Service Line"
-msgstr "สายบริการ"
+msgstr "สินเสร็จล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -27943,7 +27951,7 @@ msgstr "รหัสสายบริการ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Service Line Details"
-msgstr "รายละเอียดสายบริการ"
+msgstr "รายละเอียดรายการบริการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -27958,7 +27966,7 @@ msgstr "ชื่อสายบริการ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Service Line for this application"
-msgstr "สายบริการสำหรับแอปพลิเคชันนี้"
+msgstr "รายการบริการสำหรับแอปพลิเคชันนี้"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -27968,7 +27976,7 @@ msgstr "ไฟล์ JSON บัญชีบริการขาดฟิลด
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Service line"
-msgstr "สายบริการ"
+msgstr "รายการบริการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
