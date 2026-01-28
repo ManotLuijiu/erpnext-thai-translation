@@ -2643,7 +2643,7 @@ msgstr "จำนวนเงินกู้ที่ได้รับการ
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Approved Loans"
-msgstr "การอายัดอนุมัต"
+msgstr "อนุมัติสินเชื่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
