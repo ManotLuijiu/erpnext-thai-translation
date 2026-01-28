@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-29 03:27\n"
+"PO-Revision-Date: 2026-01-29 03:28\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -13246,7 +13246,7 @@ msgstr "ทำงานเต็มประสิทธิภาพ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Funds transferred directly to your bank account upon approval"
-msgstr "การอายัดการเบลากสร้างสรับการเล็กเลิก"
+msgstr "บริษัทฯจะโอนเงินกู้เข้าบัญชีธนาคาร เมื่อได้รับการอนุมัติ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
