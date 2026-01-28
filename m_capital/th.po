@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-29 03:22\n"
+"PO-Revision-Date: 2026-01-29 03:23\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -18552,7 +18552,7 @@ msgstr "ทำให้ง่ายขึ้น"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Mailing Address"
-msgstr "สารางสินค้า"
+msgstr "ที่อยู่เพื่อส่งจดหมาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
