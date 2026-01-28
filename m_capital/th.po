@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2025-10-20 14:04+0642\n"
-"PO-Revision-Date: 2026-01-29 00:45\n"
+"PO-Revision-Date: 2026-01-29 00:46\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -10128,7 +10128,7 @@ msgstr "เปิดใช้งานการคำนวณค่าคอม
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Enable/disable service line"
-msgstr "เปิด/ปิดใช้งานรายการบริการ"
+msgstr "เปิด/ปิด สายบริการ"
 
 #. Label of a Check field in DocType 'Google Cloud Settings'
 #: m_capital/m_capital/doctype/google_cloud_settings/google_cloud_settings.json
