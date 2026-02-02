@@ -38739,7 +38739,7 @@ msgstr "ปี"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "years"
-msgstr ""
+msgstr "ปี"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
