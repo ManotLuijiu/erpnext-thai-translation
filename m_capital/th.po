@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
-"POT-Creation-Date: 2026-02-05 05:58+0642\n"
-"PO-Revision-Date: 2026-02-05 14:52\n"
+"POT-Creation-Date: 2026-02-05 19:11+0642\n"
+"PO-Revision-Date: 2026-02-05 19:32\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -323,6 +323,11 @@ msgstr ""
 "\n"
 "ด้วยความเคารพ  \n"
 "ระบบ M Capital"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "#"
+msgstr "#"
 
 #. Description of the 'DSR Percentage' (Percent) field in DocType 'Borrower
 #. Financial Assessment'
@@ -1249,6 +1254,11 @@ msgstr "คะแนนการเข้าถึง (0-10): การเข้
 msgid "Account"
 msgstr "บัญชี"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Account #"
+msgstr "บัญชี #"
+
 #. Label of a Section Break field in DocType 'M Loan Borrower Income'
 #: m_capital/m_capital/doctype/m_loan_borrower_income/m_loan_borrower_income.json
 msgid "Account Details"
@@ -1301,6 +1311,11 @@ msgstr "การชำระเงินปิดบัญชี - {0}"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "Account data has been exported to CSV"
+msgstr "ข้อมูลบัญชีถูกส่งออกเป็นไฟล์ CSV แล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "Account holder name"
 msgstr "ชื่อผู้ถือบัญชี"
 
@@ -1331,6 +1346,11 @@ msgstr "หมายเลขบัญชี/สินเชื่อ"
 msgid "Accounting"
 msgstr "การบัญชี"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Accounts Due"
+msgstr "บัญชีที่ครบกำหนดชำระ"
+
 #. Name of a role
 #: m_capital/m_capital/doctype/agent_commission/agent_commission.json
 msgid "Accounts Manager"
@@ -1343,6 +1363,16 @@ msgstr "ผู้จัดการบัญชี"
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "Accounts Receivable Report"
 msgstr "รายงานลูกหนี้การค้า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Accounts with outstanding balances"
+msgstr "บัญชีที่มียอดค้างชำระ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Accounts with upcoming or past due payments"
+msgstr "บัญชีที่มีการชำระเงินที่กำลังจะมาถึงหรือล่าช้า"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -1484,6 +1514,11 @@ msgstr "ประกันภัยที่ใช้งานอยู่ - ต
 msgid "Activity"
 msgstr "กิจกรรม"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Actual"
+msgstr "ที่จริง"
+
 #: m_capital/m_capital/report/closed_account_report/closed_account_report.py:133
 msgid "Actual Close Date"
 msgstr "วันที่ปิดจริง"
@@ -1519,6 +1554,11 @@ msgstr "จำนวนเงินสำรองจริง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "Actual booking amounts"
+msgstr "จำนวนการจองที่แท้จริง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid ""
 "Actual loan amount and LTV will be determined in the next step based on:"
 msgstr ""
@@ -1529,6 +1569,11 @@ msgstr ""
 #: m_capital/m_capital/doctype/land_title_deed_assessment/land_title_deed_assessment.json
 msgid "Actual price per sqm after adjustments"
 msgstr "ราคาจริงต่อตารางเมตรหลังการปรับปรุง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Actual vs target comparison"
+msgstr "การเปรียบเทียบผลลัพธ์จริงกับเป้าหมาย"
 
 #. Option for the 'Calculation Method' (Select) field in DocType 'Interest
 #. Calculation'
@@ -1669,7 +1714,6 @@ msgid "Additional Data"
 msgstr "ข้อมูลเพิ่มเติม"
 
 #. Label of a Section Break field in DocType 'Interest Calculation'
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:353
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
 msgid "Additional Details"
 msgstr "รายละเอียดเพิ่มเติม"
@@ -1777,7 +1821,6 @@ msgid "Additional remarks or notes about the contract"
 msgstr "หมายเหตุเพิ่มเติมหรือข้อสังเกตเกี่ยวกับสัญญา"
 
 #. Label of a Small Text field in DocType 'Property Appraiser'
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:324
 #: m_capital/m_capital/doctype/property_appraiser/property_appraiser.json
 #: m_capital/m_capital/report/contract_export_report/contract_export_report.py:87
 msgid "Address"
@@ -1951,9 +1994,19 @@ msgstr "รายงานการวิเคราะห์อายุหน
 msgid "Aging Bucket"
 msgstr "ช่วงอายุลูกหนี้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Aging Bucket Distribution"
+msgstr "การแจกแจงช่วงอายุลูกหนี้"
+
 #: m_capital/m_capital/report/loan_provision_report/loan_provision_report.py:58
 msgid "Aging Category"
 msgstr "หมวดหมู่อายุหนี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Aging Distribution (Vertical)"
+msgstr "การกระจายอายุหนี้ (แนวตั้ง)"
 
 #: m_capital/m_capital/report/accounts_receivable_report/accounts_receivable_report.js:50
 #: m_capital/m_capital/report/accounts_receivable_report/accounts_receivable_report.js:179
@@ -2035,6 +2088,11 @@ msgstr "ทั้งหมด"
 #: SPA
 msgid "All Applications"
 msgstr "ทั้งหมด เสร็จ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "All Branches"
+msgstr "สาขาทั้งหมด"
 
 #: m_capital/m_capital/page/market_price_admin/market_price_admin.js:64
 msgid "All Categories"
@@ -2465,7 +2523,6 @@ msgstr "ลิงก์ ผู้สมัคร (ลูกค้า) หาย�
 #: m_capital/m_capital/doctype/disbursement_schedule/disbursement_schedule.json
 #: m_capital/m_capital/doctype/disbursement_task/disbursement_task.json
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:304
 #: m_capital/m_capital/doctype/m_loan_application/m_loan_application.json
 #: m_capital/m_capital/doctype/m_loan_transaction_log/m_loan_transaction_log.json
 #: m_capital/m_capital/doctype/payment_schedule_configuration/payment_schedule_configuration.json
@@ -2548,7 +2605,6 @@ msgstr "บันทึกข้าถึง"
 msgid "Application Not Found"
 msgstr "ไม่พบแอปพลิเคชัน"
 
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:303
 #: m_capital/m_capital/report/closed_account_report/closed_account_report.py:49
 #: m_capital/m_capital/report/credit_approval_report/credit_approval_report.py:41
 #: m_capital/m_capital/report/npl_report/npl_report.py:63
@@ -3333,7 +3389,7 @@ msgstr "ต้องมีรายการตรวจสอบอย่าง
 #: m_capital/m_capital/doctype/loan_application_document/loan_application_document.json
 #: m_capital/m_capital/doctype/vehicle_document/vehicle_document.json
 msgid "Attachment"
-msgstr "ความผูกพัน"
+msgstr "ไฟล์แนบ"
 
 #. Label of a Section Break field in DocType 'GSE Insurance Application'
 #. Label of a Table field in DocType 'GSE Insurance Application'
@@ -3643,6 +3699,11 @@ msgstr "เวลาประมวลผลเฉลี่ย"
 msgid "Avg Score"
 msgstr "คะแนนเฉลี่ย"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Avg Target"
+msgstr "ค่าเฉลี่ยเป้าหมาย"
+
 #: m_capital/m_capital/report/workflow_bottleneck_report/workflow_bottleneck_report.py:336
 msgid "Avg Total Days"
 msgstr "ค่าเฉลี่ยจำนวนวันรวม"
@@ -3791,6 +3852,11 @@ msgstr "เซิร์ฟเวอร์แบ็กเอนด์ที่ป
 #: SPA
 msgid "Badge indicator"
 msgstr "สัญลักษณ์แสดงสถานะ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Balance"
+msgstr "สมดุล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -4167,6 +4233,31 @@ msgstr "สมุดบัญชีธนาคาร"
 msgid "Book Bank Pages"
 msgstr "หน้าบัญชีธนาคาร"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Booking"
+msgstr "การจอง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Booking Performance"
+msgstr "ผลการดำเนินงานการจอง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Booking by Area"
+msgstr "การจองตามพื้นที่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Booking by Branch"
+msgstr "การจองตามสาขา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Booking by Region"
+msgstr "การจองตามภูมิภาค"
+
 #. Label of a Link field in DocType 'Loan Guarantor Application'
 #: m_capital/m_capital/doctype/loan_guarantor_application/loan_guarantor_application.json
 #: m_capital/m_capital/report/closed_account_report/closed_account_report.py:56
@@ -4370,7 +4461,8 @@ msgstr "การตรวจสอบแบรนด์"
 msgid "Brand is required"
 msgstr "ยี่ห้อเป็นข้อมูลที่จำเป็น"
 
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:314
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "Brand/Model"
 msgstr "ยี่ห้อ/รุ่น"
 
@@ -4569,6 +4661,21 @@ msgstr "ประเภทธุรกิจ"
 #: m_capital/m_capital/page/market_price_admin/market_price_admin.js:299
 msgid "By"
 msgstr "โดย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "By Area"
+msgstr "ตามพื้นที่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "By Branch"
+msgstr "ตามสาขา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "By Region"
+msgstr "ตามภูมิภาค"
 
 #: m_capital/m_capital/page/market_price_admin/market_price_admin.js:64
 msgid "CAR"
@@ -5088,6 +5195,11 @@ msgstr "ฟิลด์ที่ถูกเปลี่ยนแปลง"
 #: SPA
 msgid "Changed Only"
 msgstr "เปลี่ยนแปลงเท่านั้น"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Channel"
+msgstr "ช่อง"
 
 #. Option for the 'Title Deed Type' (Select) field in DocType 'Land Title
 #. Deed'
@@ -5869,6 +5981,16 @@ msgstr "วิธีการเก็บค่าปรับ"
 msgid "Collect penalty method - วิธีการเก็บค่าปรับ"
 msgstr "วิธีการเก็บค่าปรับ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Collection"
+msgstr "การเก็บเงิน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Collection %"
+msgstr "เปอร์เซ็นต์การเก็บเงิน"
+
 #. Label of a Card Break in the M Capital Workspace
 #: m_capital/m_capital/workspace/m_capital/m_capital.json
 msgid "Collection & Recovery"
@@ -6242,6 +6364,11 @@ msgstr ""
 #: SPA
 msgid "Complete vehicle year and market value to see LTV estimates"
 msgstr "กรุณากรอกปีรถยนต์และมูลค่าตลาดเพื่อดูการประมาณค่า LTV"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Complete view of all accounts with sorting and filtering"
+msgstr "มุมมองครบถ้วนของบัญชีทั้งหมดพร้อมการจัดเรียงและการกรองข้อมูล"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -6676,6 +6803,11 @@ msgstr "ติดต่อเจ้าหน้าที่"
 msgid "Contact Callback"
 msgstr "ติดต่อกลับ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contact Customer"
+msgstr "ติดต่อ ลูกค้า"
+
 #: m_capital/m_capital/report/contract_export_report/contract_export_report.py:130
 msgid "Contact District"
 msgstr "อำเภอผู้ติดต่อ"
@@ -6695,7 +6827,6 @@ msgstr "ข้อมูลการติดต่อ"
 #. Label of a Section Break field in DocType 'M Loan Borrower'
 #. Label of a Section Break field in DocType 'Property Appraiser'
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:321
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
 #: m_capital/m_capital/doctype/m_loan_borrower/m_loan_borrower.json
 #: m_capital/m_capital/doctype/property_appraiser/property_appraiser.json
@@ -6754,6 +6885,11 @@ msgstr "ติดต่อผู้ดูแลระบบเพื่อขอ
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "Contact customer"
+msgstr "ติดต่อผู้ขาย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "Contact our customer service 24/7 for assistance"
 msgstr "ติดต่อฝ่ายบริการลูกค้าของเราตลอด 24 ชั่วโมงทุกวันเพื่อขอความช่วยเหลือ"
 
@@ -6774,6 +6910,11 @@ msgstr "ติดต่อเราสำหรับการสนับสน
 #: m_capital/m_capital/doctype/follow_up_history/follow_up_history.json
 msgid "Contactable"
 msgstr "สามารถติดต่อได้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Contacting"
+msgstr "กำลังติดต่อ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -6988,6 +7129,11 @@ msgstr "คัดลอกรายการตรวจสอบทั้งห
 #: m_capital/m_capital/doctype/screening_checklist_template/screening_checklist_template.js:179
 msgid "Copy Settings"
 msgstr "คัดลอกการตั้งค่า"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Copy account number"
+msgstr "คัดลอกหมายเลขบัญชี"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -8233,6 +8379,11 @@ msgstr "วัน"
 #: m_capital/m_capital/doctype/m_loan_application/m_loan_application.json
 msgid "Day of month for payment (1-31)"
 msgstr "วันเดือนสนองการชำ (1-31)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Days"
+msgstr "วัน"
 
 #. Label of a Int field in DocType 'Interest Calculation'
 #: m_capital/m_capital/doctype/interest_calculation/interest_calculation.json
@@ -10102,7 +10253,6 @@ msgstr "อิเล็กทรอนิกส์"
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.json
 #: m_capital/m_capital/doctype/employee_position_mapping/employee_position_mapping.json
 #: m_capital/m_capital/doctype/follow_up_history/follow_up_history.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:323
 #: m_capital/m_capital/doctype/loan_application_draft/loan_application_draft.json
 #: m_capital/m_capital/doctype/loan_guarantor/loan_guarantor.json
 #: m_capital/m_capital/doctype/m_loan_borrower_employment/m_loan_borrower_employment.json
@@ -11480,6 +11630,11 @@ msgstr "ส่งออกเสร็จสมบูรณ์: ส่งออ�
 #: m_capital/public/js/centralized-logging-dashboard.js:594
 msgid "Export functionality coming soon"
 msgstr "ฟังก์ชันการส่งออกจะมาในเร็วๆ นี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Export successful"
+msgstr "ส่งออกสำเร็จ"
 
 #: m_capital/m_capital/report/accounts_receivable_report/accounts_receivable_report.js:40
 #: m_capital/m_capital/report/closed_account_report/closed_account_report.js:39
@@ -15111,6 +15266,11 @@ msgstr "วันที่ของ"
 msgid "Inspector Name"
 msgstr "ชื่อผู้ตรวจสอบ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Installment"
+msgstr "งวดผ่อนชำระ"
+
 #. Label of a Int field in DocType 'Payment Schedule Item'
 #: m_capital/m_capital/doctype/payment_schedule_item/payment_schedule_item.json
 msgid "Installment #"
@@ -15183,10 +15343,6 @@ msgstr "สร้างใบสมัครประกันภัยแล้
 msgid "Insurance Application Form"
 msgstr "แบบฟอร์มคำขอประกันภัย"
 
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:299
-msgid "Insurance Application Submitted"
-msgstr "ใบสมัครประกันภัยถูกส่งแล้ว"
-
 #. Option for the 'Valuation Method' (Select) field in DocType 'Lending
 #. Vehicle'
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
@@ -15195,13 +15351,11 @@ msgstr "การประเมินมูลค่าประกันภั
 
 #. Label of a Select field in DocType 'GSE Insurance Application'
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:307
 msgid "Insurance Class"
 msgstr "ประเภทประกันภัย"
 
 #. Label of a Select field in DocType 'GSE Insurance Application'
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:306
 msgid "Insurance Company"
 msgstr "บริษัท ประกันภัย"
 
@@ -15299,7 +15453,6 @@ msgstr "สถานะประกันภัย (พ.ร.บ.)"
 
 #. Label of a Select field in DocType 'GSE Insurance Application'
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:305
 msgid "Insurance Type"
 msgstr "ประเภทประกันภัย"
 
@@ -16881,7 +17034,6 @@ msgid "License Number"
 msgstr "ใบอนุญาตเลขที่"
 
 #. Label of a Data field in DocType 'Lending Vehicle'
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:316
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
 #: m_capital/m_capital/report/vehicle_loan_usage_report/vehicle_loan_usage_report.py:64
 msgid "License Plate"
@@ -17783,6 +17935,11 @@ msgstr "รหัสผลิตภัณฑ์สินเชื่อ"
 msgid "Loan Product Configuration"
 msgstr "การตั้งค่าผลิตภัณฑ์สินเชื่อ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Loan Product Type"
+msgstr "ประเภทผลิตภัณฑ์สินเชื่อ"
+
 #: m_capital/api/loan_product.py:254
 msgid "Loan Product created successfully"
 msgstr "สร้างผลิตภัณฑ์สินเชื่อสำเร็จแล้ว"
@@ -18493,6 +18650,11 @@ msgstr "MCCCL"
 #: SPA
 msgid "MG"
 msgstr "MG"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "MLA-.YY.-.MM.-.#####"
+msgstr "MLA-.YY.-.MM.-.#####"
 
 #. Description of the 'Series' (Select) field in DocType 'M Loan Application'
 #: m_capital/m_capital/doctype/m_loan_application/m_loan_application.json
@@ -20284,6 +20446,11 @@ msgstr "ไม่ได้เลือกเทมเพลต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "No accounts due"
+msgstr "ไม่มีบัญชีค้างชำระ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "No active applications found"
 msgstr "ไม่พบแอปพลิเคชันที่ใช้งานอยู่"
 
@@ -20616,6 +20783,11 @@ msgstr "ขณะนี้ไม่มีงานใหม่ให้รับ
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "No outstanding accounts"
+msgstr "ไม่มีบัญชีค้างชำระ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "No pages uploaded yet"
 msgstr "ยังไม่มีการอัปโหลดหน้าใดๆ"
 
@@ -20686,6 +20858,11 @@ msgstr "ไม่มีราคามาตรฐานสำหรับกา
 #: SPA
 msgid "No repayments scheduled in this period"
 msgstr "ไม่มีการกำหนดการชำระคืนในช่วงเวลานี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "No results found"
+msgstr "ไม่พบผลลัพธ์"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -21958,6 +22135,11 @@ msgstr "นอกประเทศไทย"
 msgid "Outstanding"
 msgstr "ค้างชำระ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Outstanding Accounts"
+msgstr "บัญชีค้างชำระ"
+
 #. Label of a Currency field in DocType 'Collection Schedule'
 #. Label of a Currency field in DocType 'Debt Follow Up'
 #: m_capital/m_capital/doctype/collection_schedule/collection_schedule.json
@@ -21997,6 +22179,16 @@ msgstr "ดอกเบี้ยค้างชำระ"
 #: m_capital/m_capital/report/loan_provision_report/loan_provision_report.py:40
 msgid "Outstanding Principal"
 msgstr "เงินต้นคงค้าง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Outstanding amounts by aging category"
+msgstr "ยอดค้างชำระตามหมวดอายุหนี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Outstanding amounts by days overdue"
+msgstr "ยอดค้างชำระตามจำนวนวันที่เกินกำหนด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -22056,11 +22248,6 @@ msgstr "ความก้าวหน้ารวม"
 msgid "Overdue"
 msgstr "เกินกำหนด"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "Overdue - ค้างชำระ"
-msgstr "ค้างชำระ"
-
 #. Label of a Currency field in DocType 'Collection Schedule'
 #. Label of a Currency field in DocType 'Debt Follow Up'
 #: m_capital/m_capital/doctype/collection_schedule/collection_schedule.json
@@ -22104,6 +22291,11 @@ msgstr "เงินต้นค้างชำระ"
 #: m_capital/m_capital/doctype/m_loan_borrower_employment/m_loan_borrower_employment.json
 msgid "Overtime"
 msgstr "เวลาทำงานล่วงเวลา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Overview"
+msgstr "ภาพรวม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -22336,8 +22528,8 @@ msgstr "ชำระเงินตรงเวลา"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
-msgid "Paid/Current - ชำระแล้ว"
-msgstr "ชำระแล้ว/ปัจจุบัน"
+msgid "Paid/Current"
+msgstr "ชำระเงิน/ปัจจุบัน"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -22783,11 +22975,6 @@ msgstr "รอดำเนินการ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
-msgid "Pending - รอชำระ"
-msgstr "Pending - รอดำเนินการ"
-
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
 msgid "Pending Application Found"
 msgstr "พบใบสมัครที่รอดำเนินการ"
 
@@ -22858,6 +23045,16 @@ msgstr "ร้อยละของรายการบังคับเที
 #: SPA
 msgid "Percentage of successful debt collection by type"
 msgstr "เปอร์เซ็นต์ของการเก็บหนี้ที่ประสบความสำเร็จตามประเภท"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Performance Chart"
+msgstr "แผนภูมิประสิทธิภาพ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Performance ranking by amount"
+msgstr "การจัดอันดับประสิทธิภาพตามจำนวนเงิน"
 
 #: m_capital/m_capital/report/risk_distribution_analysis/risk_distribution_analysis.py:39
 msgid "Period"
@@ -23041,7 +23238,6 @@ msgstr "ปริญญาเอก"
 #: m_capital/m_capital/doctype/debt_follow_up/debt_follow_up.json
 #: m_capital/m_capital/doctype/follow_up_history/follow_up_history.json
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:322
 msgid "Phone"
 msgstr "โทรศัพท์"
 
@@ -23749,10 +23945,6 @@ msgstr "ฟีเจอร์ OCR ภาษาไทยที่ทรงพล�
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
 msgid "Premium"
 msgstr "พรีเมียม"
-
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:309
-msgid "Premium Amount"
-msgstr "จำนวนเงินพรีเมียม"
 
 #. Label of a Link field in DocType 'M Report Access Log'
 #: m_capital/m_capital/doctype/m_report_access_log/m_report_access_log.json
@@ -24723,6 +24915,16 @@ msgstr "ไร่"
 msgid "Rai cannot be negative"
 msgstr "ไร่ต้องไม่เป็นค่าลบ"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Ranked by booking amount"
+msgstr "จัดอันดับตามจำนวนการจอง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Rankings"
+msgstr "อันดับ"
+
 #. Label of a Section Break field in DocType 'Interest Rate Setup'
 #: m_capital/m_capital/doctype/interest_rate_setup/interest_rate_setup.json
 msgid "Rate Adjustments"
@@ -24919,6 +25121,21 @@ msgstr "การตัดสินใจที่แนะนำ"
 #: m_capital/m_capital/doctype/credit_assessment/credit_assessment.json
 msgid "Recommended Interest Rate (%)"
 msgstr "อัตราดอกเบี้ยที่แนะนำ (%)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Record Payment"
+msgstr "บันทึกการชำระเงิน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Record payment"
+msgstr "บันทึกการชำระเงิน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Recording payment for"
+msgstr "กำลังบันทึกการชำระเงินสำหรับ"
 
 #. Label of a Int field in DocType 'Vehicle Price Import Log'
 #: m_capital/m_capital/doctype/vehicle_price_import_log/vehicle_price_import_log.json
@@ -25225,7 +25442,6 @@ msgstr "ข้อมูลการลงทะเบียน"
 #. Label of a Data field in DocType 'GSE Insurance Application'
 #. Label of a Data field in DocType 'Lending Vehicle'
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:317
 #: m_capital/m_capital/doctype/lending_vehicle/lending_vehicle.json
 msgid "Registration Province"
 msgstr "จังหวัดที่ลงทะเบียน"
@@ -26650,6 +26866,11 @@ msgstr "ค้นหาหมายเลขตัวถัง"
 msgid "Search Results"
 msgstr "ผลการค้นหา"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Search accounts..."
+msgstr "ค้นหา บัญชี..."
+
 #. Description of the 'Select Address from ERPNext (Optional)' (Link) field in
 #. DocType 'GSE Insurance Application'
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
@@ -26746,6 +26967,11 @@ msgstr "ค้นหาจังหวัด..."
 #: SPA
 msgid "Search subdistrict..."
 msgstr "ค้นหาตำบล..."
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Search..."
+msgstr "ค้นหา..."
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -27804,6 +28030,11 @@ msgstr "ช็อปเฮาส์"
 msgid "Show"
 msgstr "แสดง"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show Active Only"
+msgstr "แสดงเฉพาะที่ใช้งานอยู่"
+
 #: m_capital/m_capital/report/workflow_bottleneck_report/workflow_bottleneck_report.js:134
 msgid "Show Bottleneck Summary"
 msgstr "แสดงสรุปคอขวด"
@@ -27851,6 +28082,11 @@ msgid ""
 "Show vehicles used more than this many times (default: 1 = show duplicates)"
 msgstr ""
 "แสดงยานพาหนะที่ใช้งานมากกว่าจำนวนครั้งนี้ (ค่าเริ่มต้น: 1 = แสดงรายการซ้ำ)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Showing"
+msgstr "กำลังแสดง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -28832,7 +29068,6 @@ msgstr "ข้อเสนอแนะ"
 
 #. Label of a Currency field in DocType 'GSE Insurance Application'
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:308
 msgid "Sum Insured"
 msgstr "จำนวนเงินเอาประกัน"
 
@@ -29046,6 +29281,11 @@ msgid ""
 "document name"
 msgstr ""
 "ค่าระบบสำหรับการเลือกในฟอร์ม (เช่น vehicle-1, vehicle-2) - ใช้เป็นชื่อเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "THB"
+msgstr "THB"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -29889,11 +30129,6 @@ msgid ""
 msgstr ""
 "ตารางการผ่อนชำระนี้คำนวณโดยใช้วิธีอัตราดอกเบี้ยที่แท้จริง (ยอดคงเหลือลดลง)"
 
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:341
-msgid ""
-"This is an automated notification from M Capital Loan Application System"
-msgstr "นี่คือการแจ้งเตือนอัตโนมัติจากระบบขอสินเชื่อ M Capital"
-
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid ""
@@ -30095,6 +30330,11 @@ msgstr "เครื่องมือ"
 #: SPA
 msgid "Top Half"
 msgstr "ครึ่งบน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Top Performers"
+msgstr "สุรการสางเป็น"
 
 #: m_capital/api/reports.py:156
 #: m_capital/m_capital/doctype/disbursement_schedule/disbursement_schedule.js:118
@@ -30878,11 +31118,6 @@ msgstr "หน่วย/ห้อง"
 msgid "Unknown"
 msgstr "ไม่ทราบ"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "Unknown - ไม่ทราบ"
-msgstr "ไม่ทราบ"
-
 #: m_capital/m_capital/page/market_price_admin/market_price_admin.js:363
 #: m_capital/m_capital/page/market_price_admin/market_price_admin.js:401
 msgid "Unknown error"
@@ -31469,11 +31704,6 @@ msgstr "บริบทอร์"
 msgid "VCA-.YYYY.-"
 msgstr "VCA-.YYYY.-"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "VLA-.YYYY.-"
-msgstr "VLA-.YYYY.-"
-
 #. Option for the 'Collateral Type' (Select) field in DocType 'M Capital
 #. Collateral Type'
 #: m_capital/m_capital/doctype/m_capital_collateral_type/m_capital_collateral_type.json
@@ -31617,6 +31847,11 @@ msgstr "แวน"
 msgid "Variable"
 msgstr "ตัวแปร"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Variance"
+msgstr "ความแปรปรวน"
+
 #. Option for the 'Collateral Type' (Select) field in DocType 'BOT Regulatory
 #. Reports'
 #. Option for the 'Collateral Type' (Select) field in DocType 'Loan Screening'
@@ -31757,7 +31992,6 @@ msgstr "รูปภาพรถยนต์"
 #. Label of a Section Break field in DocType 'M Loan Application'
 #. Label of a Section Break field in DocType 'Vehicle Market Price'
 #: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.json
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:313
 #: m_capital/m_capital/doctype/m_loan_application/m_loan_application.json
 #: m_capital/m_capital/doctype/vehicle_market_price/vehicle_market_price.json
 msgid "Vehicle Information"
@@ -32501,12 +32735,13 @@ msgstr "ดู"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "View Account"
+msgstr "ดูบัญชี"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "View All Drafts in ERPNext"
 msgstr "ดูแบบร่างทั้งหมดใน ERPNext"
-
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:334
-msgid "View Application"
-msgstr "ดูใบสมัคร"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -32608,6 +32843,11 @@ msgstr "ดูและจัดการมอบหมายคำขอกู
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "View details"
+msgstr "ดูรายละเอียด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "View payment schedule for"
 msgstr "ดูตารางการชำระเงินสำหรับ"
 
@@ -32620,6 +32860,11 @@ msgstr "ดูประวัติการชำระเงินของค
 #: m_capital/m_capital/doctype/m_report_access_log/m_report_access_log.json
 msgid "Viewed"
 msgstr "บันทึกเลิก"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Viewing"
+msgstr "กำลังดู"
 
 #. Label of a Data field in DocType 'GSE Insurance Application'
 #. Label of a Data field in DocType 'Land Title Deed'
@@ -33103,7 +33348,6 @@ msgstr "ตัดจำหน่าย"
 msgid "Yamaha"
 msgstr "Yamaha"
 
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:315
 #: m_capital/m_capital/report/vehicle_loan_usage_report/vehicle_loan_usage_report.py:58
 msgid "Year"
 msgstr "ปี"
@@ -33202,10 +33446,6 @@ msgstr "คุณสามารถสลับกลับได้โดยก
 #: SPA
 msgid "You can try"
 msgstr "คุณสามารถลองได้"
-
-#: m_capital/m_capital/doctype/gse_insurance_application/gse_insurance_application.py:330
-msgid "You can view the complete application in the system"
-msgstr "ท่านสามารถดูแอปพลิเคชันทั้งหมดในระบบได้"
 
 #: m_capital/api/loan_application.py:4989
 msgid "You don't have permission to add custom options"
@@ -33313,6 +33553,11 @@ msgstr "[บัญชีธนาคาร/เงินสด - กำหนด�
 #: m_capital/m_capital/doctype/disbursement_schedule/disbursement_schedule.py:1319
 msgid "[Loan Receivable Account - Configure in Loan Product]"
 msgstr "[บัญชีลูกหนี้เงินกู้ - กำหนดค่าในผลิตภัณฑ์เงินกู้]"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "accounts"
+msgstr "บัญชี"
 
 #. Option for the 'Field Name' (Select) field in DocType 'Loan Upload Group'
 #: m_capital/m_capital/doctype/loan_upload_group/loan_upload_group.json
@@ -33703,6 +33948,11 @@ msgstr "เช่น รย.1, รย.2 - กรอกข้อมูลโด�
 #: m_capital/m_capital/doctype/vehicle_document/vehicle_document.json
 msgid "engine_bay"
 msgstr "ช่องเครื่องยนต์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "entries"
+msgstr "รายการ"
 
 #. Option for the 'Insurance Company' (Select) field in DocType 'GSE Insurance
 #. Application'
@@ -34215,11 +34465,6 @@ msgstr "m-ทุน-ประยุกต์ใช้"
 #: m_capital/m_capital/page/m_capital_loan/m_capital_loan.js:4
 msgid "m-capital-loan"
 msgstr "m-เงินกู้ทุน"
-
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "m-logging-dashboard"
-msgstr "m-logging-dashboard"
 
 #. Option for the 'GPS Source' (Select) field in DocType 'Vehicle Document'
 #: m_capital/m_capital/doctype/vehicle_document/vehicle_document.json
@@ -34741,6 +34986,11 @@ msgstr "โฉนด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "to"
+msgstr "ไปยัง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "total"
 msgstr "รวม"
 
@@ -34823,6 +35073,11 @@ msgstr "viriyah"
 #: m_capital/m_capital/doctype/ocr_processing_record/ocr_processing_record.json
 msgid "vision_api"
 msgstr "vision_api"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "vs last month"
+msgstr "เมื่อเทียบกับเดือนที่แล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
