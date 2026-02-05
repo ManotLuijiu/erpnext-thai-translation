@@ -1,14 +1,14 @@
 # Thai translations for Print Designer.
-# Copyright (C) 2025 Frappe Technologies Pvt Ltd.
+# Copyright (C) 2026 Frappe Technologies Pvt Ltd.
 # This file is distributed under the same license as the Print Designer project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Print Designer VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2025-10-20 14:00+0642\n"
-"PO-Revision-Date: 2026-01-17 15:34\n"
+"POT-Creation-Date: 2026-02-05 05:53+0642\n"
+"PO-Revision-Date: 2026-02-05 16:46\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "Language: th\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "\n"
 msgstr "ไม่มีข้อความให้แปล"
 
-#: print_designer/overrides/company.py:150
+#: print_designer/overrides/company.py:158
 msgid ""
 "\n"
 "                        <strong>thai_business_suite not installed</strong><br><br>\n"
@@ -524,14 +524,15 @@ msgstr "เส้นทางสมบูรณ์ไปยังไฟล์ร
 msgid "Absolute path where converted JSON will be saved"
 msgstr "เส้นทางสัมบูรณ์ที่ไฟล์ JSON ที่แปลงแล้วจะถูกบันทึกไว้"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Section Break field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Accounting Integration"
 msgstr "การรวมระบบบัญชี"
 
 #. Name of a role
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "Accounts Manager"
 msgstr "ผู้จัดการบัญชี"
@@ -539,6 +540,7 @@ msgstr "ผู้จัดการบัญชี"
 #. Name of a role
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "Accounts User"
 msgstr "ผู้ใช้บัญชี"
@@ -557,9 +559,9 @@ msgstr "ดำเนินการ"
 #: print_designer/print_designer/doctype/pnd54_form/pnd54_form.js:22
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.js:48
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.js:108
-#: print_designer/public/js/delivery_note/delivery_approval.js:49
-#: print_designer/public/js/delivery_note/delivery_approval.js:139
-#: print_designer/public/js/delivery_note/delivery_approval.js:154
+#: print_designer/public/js/delivery_note/delivery_approval.js:141
+#: print_designer/public/js/delivery_note/delivery_approval.js:153
+#: print_designer/public/js/delivery_note/delivery_approval.js:166
 #: print_designer/public/js/print_format/print_format.js:67
 #: print_designer/public/js/stamps_signatures/signature_basic_information.js:214
 msgid "Actions"
@@ -567,16 +569,18 @@ msgstr "การดำเนินการ"
 
 #. Option for the 'Status' (Select) field in DocType 'Employee Tax Ledger'
 #. Label of a Check field in DocType 'Signature Basic Information'
+#. Label of a Check field in DocType 'Thai WHT Income Type'
 #: print_designer/print_designer/doctype/employee_tax_ledger/employee_tax_ledger.json
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Active"
 msgstr "ใช้งาน"
 
-#: print_designer/custom/sales_invoice_calculations.py:325
+#: print_designer/custom/sales_invoice_calculations.py:371
 msgid "Actual WHT will be processed during payment."
 msgstr "ภาษีหัก ณ ที่จ่ายที่แท้จริงจะถูกดำเนินการในระหว่างการชำระเงิน"
 
-#: print_designer/print_designer/doctype/thai_billing/thai_billing.py:190
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.py:221
 msgid "Added {0} pending invoices"
 msgstr "เพิ่มใบแจ้งหนี้ที่รอดำเนินการ {0} รายการ"
 
@@ -584,7 +588,7 @@ msgstr "เพิ่มใบแจ้งหนี้ที่รอดำเน
 msgid "Advanced"
 msgstr "ขั้นสูง"
 
-#: print_designer/overrides/company.py:158
+#: print_designer/overrides/company.py:166
 msgid "Advanced CSV Import Not Available"
 msgstr "การนำเข้า CSV ขั้นสูงไม่พร้อมใช้งาน"
 
@@ -629,7 +633,7 @@ msgstr ""
 "มีตราประทับ {0} ที่ใช้งานอยู่สำหรับ {1} แล้ว "
 "กรุณาพิจารณาปิดการใช้งานตราประทับที่มีอยู่หรือใช้ประเภทตราประทับอื่นแทน"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:680
+#: print_designer/public/js/delivery_note/delivery_approval.js:810
 msgid ""
 "An error occurred in the delivery approval system. Please refresh the page "
 "and try again."
@@ -638,10 +642,6 @@ msgstr "เกิดข้อผิดพลาดในระบบอนุม
 #: print_designer/public/js/payment_entry_wht_certificate.js:167
 msgid "An error occurred while creating the WHT Certificate"
 msgstr "เกิดข้อผิดพลาดขณะสร้างใบรับรองภาษีหัก ณ ที่จ่าย"
-
-#: print_designer/public/js/delivery_note/delivery_approval.js:252
-msgid "An error occurred while generating the QR code: "
-msgstr "เกิดข้อผิดพลาดขณะสร้างรหัส QR:"
 
 #. Option for the 'Certificate Reason' (Select) field in DocType 'Employee Tax
 #. Ledger'
@@ -652,8 +652,8 @@ msgstr "เกิดข้อผิดพลาดขณะสร้างรห
 msgid "Annual"
 msgstr "ประจำปี"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:48
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:133
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:53
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:144
 msgid "Apply"
 msgstr "ใช้"
 
@@ -672,7 +672,7 @@ msgstr "การอนุมัติ"
 msgid "Approval Token"
 msgstr "โทเค็นอนุมัติ"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:338
+#: print_designer/public/js/delivery_note/delivery_approval.js:481
 msgid "Approval URL copied to clipboard"
 msgstr "ลิงก์การอนุมัติถูกคัดลอกไปยังคลิปบอร์ดแล้ว"
 
@@ -680,7 +680,7 @@ msgstr "ลิงก์การอนุมัติถูกคัดลอก
 msgid "Approval link copied to clipboard"
 msgstr "ลิงก์การอนุมัติถูกคัดลอกไปยังคลิปบอร์ดแล้ว"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:119
+#: print_designer/public/js/delivery_note/delivery_approval.js:254
 msgid "Approval page opened in new tab"
 msgstr "หน้าการอนุมัติเปิดในแท็บใหม่"
 
@@ -704,7 +704,7 @@ msgstr "วันที่อนุมัติ"
 msgid "Approved On"
 msgstr "วันที่อนุมัติ"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:385
+#: print_designer/public/js/delivery_note/delivery_approval.js:548
 msgid "Approved on: "
 msgstr "อนุมัติเมื่อ:"
 
@@ -722,7 +722,7 @@ msgstr ""
 msgid "Are you sure you want to clear all PDF generation logs?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึกการสร้าง PDF ทั้งหมด?"
 
-#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:41
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:43
 msgid "Are you sure you want to clear all invoice items?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบรายการใบแจ้งหนี้ทั้งหมด?"
 
@@ -784,21 +784,23 @@ msgstr "สร้างอัตโนมัติหลังจากส่ง
 msgid "Auto lets server choose the best available generator"
 msgstr "ให้เซิร์ฟเวอร์เลือกเครื่องมือที่ดีที่สุดโดยอัตโนมัติ "
 
-#: print_designer/regional/purchase_order_wht_override.py:191
+#: print_designer/regional/purchase_order_wht_override.py:294
 #, python-format
 msgid "Auto-applied default WHT rate {0}% from Company settings"
 msgstr ""
 "อัตราภาษีหัก ณ ที่จ่ายเริ่มต้น {0}% "
 "ที่ตั้งค่าไว้ในบริษัทถูกนำมาใช้โดยอัตโนมัติ"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:627
+#: print_designer/regional/purchase_invoice_wht_override.py:714
 msgid "Auto-applied {0}% WHT rate for {1} income type"
 msgstr "อัตรา ภาษีหัก ณ ที่จ่าย {0}% ที่ใช้โดยอัตโนมัติสำหรับประเภทรายได้ {1}"
 
 #. Description of the 'Average Tax Rate' (Percent) field in DocType 'PND1
 #. Form'
 #. Description of the 'Average Tax Rate' (Percent) field in DocType 'PND3
+#. Form'
 #. Description of the 'Average Tax Rate' (Percent) field in DocType 'PND53
+#. Form'
 #. Description of the 'Average Tax Rate' (Percent) field in DocType 'PND54
 #: print_designer/print_designer/doctype/pnd1_form/pnd1_form.json
 #: print_designer/print_designer/doctype/pnd3_form/pnd3_form.json
@@ -895,13 +897,13 @@ msgstr ""
 "\"เป็นบริการ\" หากรายการนี้เป็นบริการที่ต้องหักภาษี ณ ที่จ่าย"
 
 #. Label of a Section Break field in DocType 'Signature Basic Information'
+#. Label of a Section Break field in DocType 'Thai WHT Income Type'
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Basic Information"
 msgstr "ข้อมูลพื้นฐาน"
 
 #. Name of a Workspace
-#. Label of a Link in the Billing Workspace
-#. Label of a shortcut in the Billing Workspace
 #: print_designer/print_designer/workspace/billing/billing.json
 msgid "Billing"
 msgstr "การเรียกเก็บเงิน"
@@ -916,11 +918,6 @@ msgstr "ที่อยู่ในการเรียกเก็บเงิ
 msgid "Billing Documents"
 msgstr "เอกสารการวางบิล"
 
-#. Header text in the Billing Workspace
-#: print_designer/print_designer/workspace/billing/billing.json
-msgid "Billing Management"
-msgstr "การจัดการการเรียกเก็บเงิน"
-
 #. Label of a Section Break field in DocType 'Thai Billing'
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 msgid "Billing Period"
@@ -931,7 +928,7 @@ msgid "Billing Period From Date cannot be greater than To Date"
 msgstr ""
 "วันที่เริ่มต้นของช่วงเวลาการเรียกเก็บเงินต้องไม่มากกว่าวันที่สิ้นสุดของช่วงเวลา"
 
-#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:188
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:213
 msgid "Billing Period To Date cannot be before From Date"
 msgstr "วันที่สิ้นสุดรอบบิลต้องไม่อยู่ก่อนวันที่เริ่มต้น"
 
@@ -1041,7 +1038,11 @@ msgstr "Calibri"
 msgid "Cancelled"
 msgstr "ยกเลิกแล้ว"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:216
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.py:279
+msgid "Cannot create payment for {0} Thai Billing"
+msgstr "ไม่สามารถสร้างการชำระเงินสำหรับ {0} ใบแจ้งหนี้ไทยได้"
+
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:228
 msgid "Cash purchase disabled - Thai Tax Compliance section cleared"
 msgstr ""
 "การซื้อด้วยเงินสดถูกปิดใช้งาน - ส่วนการปฏิบัติตามภาษีไทยถูกล้างข้อมูลแล้ว"
@@ -1090,7 +1091,7 @@ msgstr "เหตุผลใบรับรอง"
 msgid "Chart of Accounts CSV File"
 msgstr "ไฟล์ CSV แผนผังบัญชี"
 
-#: print_designer/overrides/company.py:139
+#: print_designer/overrides/company.py:147
 msgid "Chart of Accounts imported successfully from CSV: {0} accounts"
 msgstr "แผนภูมิบัญชีถูกนำเข้าเรียบร้อยจาก CSV: {0} บัญชี"
 
@@ -1108,7 +1109,7 @@ msgstr "การจำแนกประเภทสำหรับการร
 msgid "Clear"
 msgstr "ล้างข้อมูล"
 
-#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:40
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:42
 msgid "Clear All Items"
 msgstr "ล้างรายการทั้งหมด"
 
@@ -1133,13 +1134,13 @@ msgstr "สี"
 msgid "Comma-separated labels for each copy"
 msgstr "ป้ายกำกับแยกด้วยเครื่องหมายจุลภาคสำหรับแต่ละสำเนา"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:493
+#: print_designer/public/js/delivery_note/delivery_approval.js:645
 msgid "Common WHT rates: 3% (services), 1% (rental), 5% (royalty)"
 msgstr ""
 "อัตราภาษีหัก ณ ที่จ่ายทั่วไป: 3% (บริการ), 1% (ค่าเช่า), 5% (ค่าลิขสิทธิ์)"
 
-#: print_designer/install.py:172 print_designer/install.py:981
-#: print_designer/install.py:1120
+#: print_designer/install.py:174 print_designer/install.py:996
+#: print_designer/install.py:1135
 #: print_designer/overrides/erpnext_install.py:18
 msgid "Compact Item Print"
 msgstr "พิมพ์รายการสินค้าแบบกะทัดรัด"
@@ -1234,13 +1235,13 @@ msgstr "ชื่อบริษัท/ห้างหุ้นส่วนจ�
 msgid "Company/Juristic Person (PND.53)"
 msgstr "บริษัท/นิติบุคคล (ภงด.53)"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Data field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Conditions"
 msgstr "เงื่อนไข"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Data field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Conditions (Thai)"
 msgstr "เงื่อนไข (ไทย)"
 
@@ -1249,17 +1250,17 @@ msgstr "เงื่อนไข (ไทย)"
 msgid "Confidential"
 msgstr "เป็นความลับ"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:173
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:94
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:185
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:100
 msgid ""
-"Consider using \"VAT Undue (7%)\" for TDS transactions to comply with Thai "
-"tax regulations"
+"Consider using \"VAT Undue\" for TDS transactions to comply with Thai tax "
+"regulations"
 msgstr ""
-"พิจารณาใช้ \"VAT ไม่ถึงกำหนด (7%)\" สำหรับรายการภาษีหัก ณ "
-"ที่จ่ายเพื่อให้สอดคล้องกับข้อกำหนดทางภาษีของไทย"
+"โปรดพิจารณาใช้ \"VAT Undue\" สำหรับรายการหัก ณ "
+"ที่จ่ายเพื่อให้เป็นไปตามข้อกำหนดทางภาษีของไทย"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:659
-#: print_designer/regional/purchase_order_wht_override.py:207
+#: print_designer/regional/purchase_invoice_wht_override.py:849
+#: print_designer/regional/purchase_order_wht_override.py:386
 msgid ""
 "Consider using 'VAT Undue (7%)' for TDS transactions to comply with Thai tax"
 " regulations"
@@ -1283,8 +1284,8 @@ msgstr ""
 msgid "Contact Person"
 msgstr "Contact Person"
 
-#: print_designer/install.py:267 print_designer/install.py:1074
-#: print_designer/install.py:1215
+#: print_designer/install.py:269 print_designer/install.py:1089
+#: print_designer/install.py:1230
 #: print_designer/overrides/erpnext_install.py:113
 msgid ""
 "Control watermark display: None=no watermarks, Original on First Page=first "
@@ -1329,9 +1330,9 @@ msgid "Copies:"
 msgstr "สำเนา:"
 
 #. Option for the 'Stamp Type' (Select) field in DocType 'Company Stamp'
-#: enable_copy_feature.py:51 print_designer/install.py:238
-#: print_designer/install.py:331 print_designer/install.py:1045
-#: print_designer/install.py:1186 print_designer/install.py:1270
+#: enable_copy_feature.py:51 print_designer/install.py:240
+#: print_designer/install.py:333 print_designer/install.py:1060
+#: print_designer/install.py:1201 print_designer/install.py:1285
 #: print_designer/overrides/erpnext_install.py:84
 #: print_designer/overrides/erpnext_install.py:172
 #: print_designer/overrides/printview_watermark.py:600
@@ -1363,8 +1364,8 @@ msgstr "คัดลอกลิงก์อนุมัติ"
 msgid "Copy From"
 msgstr "คัดลอกจาก"
 
-#: print_designer/install.py:220 print_designer/install.py:1027
-#: print_designer/install.py:1168
+#: print_designer/install.py:222 print_designer/install.py:1042
+#: print_designer/install.py:1183
 #: print_designer/overrides/erpnext_install.py:66
 #: print_designer/print_designer/client_scripts/print.js:2047
 #: print_designer/print_designer/client_scripts/print.js:2108
@@ -1376,13 +1377,13 @@ msgstr "คัดลอกป้ายกำกับ"
 msgid "Copy Options"
 msgstr "คัดลอกตัวเลือก"
 
-#: print_designer/install.py:194 print_designer/install.py:1003
-#: print_designer/install.py:1142
+#: print_designer/install.py:196 print_designer/install.py:1018
+#: print_designer/install.py:1157
 #: print_designer/overrides/erpnext_install.py:40
 msgid "Copy Settings"
 msgstr "คัดลอกการตั้งค่า"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:334
+#: print_designer/public/js/delivery_note/delivery_approval.js:477
 msgid "Copy URL"
 msgstr "คัดลอก URL"
 
@@ -1407,8 +1408,9 @@ msgstr ""
 msgid "Copy on All Pages"
 msgstr "คัดลอกในทุกหน้า"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Option for the 'Recipient Type' (Select) field in DocType 'Thai WHT Income
+#. Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Corporate"
 msgstr "บริษัท"
 
@@ -1428,8 +1430,9 @@ msgstr "ประเทศ"
 msgid "Courier New"
 msgstr "Courier New"
 
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:66
 #: print_designer/print_designer/page/print_designer/print_designer.js:27
-#: print_designer/public/js/delivery_note/delivery_approval.js:468
+#: print_designer/public/js/delivery_note/delivery_approval.js:620
 msgid "Create"
 msgstr "สร้าง"
 
@@ -1440,6 +1443,10 @@ msgstr "สร้างใบรับรอง (ปิดใช้งาน)"
 #: print_designer/print_designer/page/print_designer/print_designer.js:22
 msgid "Create New"
 msgstr "สร้างใหม่"
+
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:53
+msgid "Create Payment Entry"
+msgstr "สร้างรายการชำระเงิน"
 
 #: print_designer/public/js/print_watermark.bundle.js:539
 msgid "Create Template"
@@ -1461,6 +1468,11 @@ msgstr ""
 "สร้างใบรับรองภาษีหัก ณ "
 "ที่จ่ายสำหรับรายการชำระเงินนี้หรือไม่?<br><br>ระบบจะสร้างใบรับรองภาษีหัก ณ "
 "ที่จ่ายอย่างเป็นทางการเพื่อให้เป็นไปตามข้อกำหนดของกรมสรรพากรไทย"
+
+#. Description of a Link in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
+msgid "Create and manage billing notes for customers"
+msgstr "สร้างและจัดการใบแจ้งหนี้สำหรับลูกค้า"
 
 #: print_designer/print_designer/page/print_designer/print_designer.js:15
 msgid "Create or Edit Print Format"
@@ -1515,8 +1527,10 @@ msgstr "ตัวเลือกข้อความกำหนดเอง"
 
 #. Label of a Link field in DocType 'Invoice Data'
 #. Label of a Link field in DocType 'Thai Billing'
+#. Label of a Link in the Billing Workspace
 #: print_designer/print_designer/doctype/invoice_data/invoice_data.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+#: print_designer/print_designer/workspace/billing/billing.json
 msgid "Customer"
 msgstr "ลูกค้า"
 
@@ -1524,12 +1538,6 @@ msgstr "ลูกค้า"
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 msgid "Customer Address"
 msgstr "ที่อยู่ของลูกค้า"
-
-#. Label of a Link in the Billing Workspace
-#. Label of a shortcut in the Billing Workspace
-#: print_designer/print_designer/workspace/billing/billing.json
-msgid "Customer Billing Summary"
-msgstr "สรุปการเรียกเก็บเงินลูกค้า"
 
 #. Label of a Section Break field in DocType 'Thai Billing'
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
@@ -1574,14 +1582,14 @@ msgstr "วันที่"
 msgid "Date when form was submitted to Thai Revenue Department"
 msgstr "วันที่แบบฟอร์มถูกส่งไปยังกรมสรรพากร"
 
-#: print_designer/install.py:211 print_designer/install.py:1018
-#: print_designer/install.py:1159
+#: print_designer/install.py:213 print_designer/install.py:1033
+#: print_designer/install.py:1174
 #: print_designer/overrides/erpnext_install.py:57
 msgid "Default Copy Count"
 msgstr "จำนวนสำเนาเริ่มต้น"
 
-#: print_designer/install.py:235 print_designer/install.py:1042
-#: print_designer/install.py:1183
+#: print_designer/install.py:237 print_designer/install.py:1057
+#: print_designer/install.py:1198
 #: print_designer/overrides/erpnext_install.py:81
 msgid "Default Copy Label"
 msgstr "ป้ายคัดลอกเริ่มต้น"
@@ -1606,8 +1614,8 @@ msgstr "ความสูงเริ่มต้น (px)"
 msgid "Default Opacity"
 msgstr "ความทึบแสงเริ่มต้น"
 
-#: print_designer/install.py:226 print_designer/install.py:1033
-#: print_designer/install.py:1174
+#: print_designer/install.py:228 print_designer/install.py:1048
+#: print_designer/install.py:1189
 #: print_designer/overrides/erpnext_install.py:72
 msgid "Default Original Label"
 msgstr "ป้ายกำกับต้นฉบับเริ่มต้น"
@@ -1659,7 +1667,7 @@ msgstr "อัตราภาษีเริ่มต้น"
 msgid "Default Text Color"
 msgstr "สีข้อความเริ่มต้น"
 
-#: print_designer/commands/install_item_wht_fields.py:21
+#: print_designer/commands/install_item_wht_fields.py:36
 msgid ""
 "Default WHT income type for this item when used in purchase transactions"
 msgstr "ประเภทเงินได้หัก ณ ที่จ่ายเริ่มต้นสำหรับไอเท็มนี้เมื่อใช้ในรายการซื้อ"
@@ -1678,20 +1686,20 @@ msgstr "ความกว้างเริ่มต้น (พิกเซล)
 msgid "Default font size must be between 8 and 72 pixels"
 msgstr "ขนาดตัวอักษรเริ่มต้นต้องอยู่ระหว่าง 8 ถึง 72 พิกเซล"
 
-#: print_designer/install.py:241 print_designer/install.py:1048
-#: print_designer/install.py:1189
+#: print_designer/install.py:243 print_designer/install.py:1063
+#: print_designer/install.py:1204
 #: print_designer/overrides/erpnext_install.py:87
 msgid "Default label for additional copies"
 msgstr "ป้ายกำกับเริ่มต้นสำหรับสำเนาเพิ่มเติม"
 
-#: print_designer/install.py:232 print_designer/install.py:1039
-#: print_designer/install.py:1180
+#: print_designer/install.py:234 print_designer/install.py:1054
+#: print_designer/install.py:1195
 #: print_designer/overrides/erpnext_install.py:78
 msgid "Default label for original copy"
 msgstr "ป้ายกำกับเริ่มต้นสำหรับสำเนาต้นฉบับ"
 
-#: print_designer/install.py:217 print_designer/install.py:1024
-#: print_designer/install.py:1165
+#: print_designer/install.py:219 print_designer/install.py:1039
+#: print_designer/install.py:1180
 #: print_designer/overrides/erpnext_install.py:63
 msgid "Default number of copies to generate"
 msgstr "จำนวนสำเนาเริ่มต้นที่ต้องสร้าง"
@@ -1700,7 +1708,11 @@ msgstr "จำนวนสำเนาเริ่มต้นที่ต้อ
 msgid "Default opacity must be between 0 and 1"
 msgstr "ความทึบแสงเริ่มต้นต้องอยู่ระหว่าง 0 ถึง 1"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:268
+#: print_designer/www/delivery-approval.py:16
+msgid "Delivery Approval"
+msgstr "การอนุมัติใบส่งของ"
+
+#: print_designer/public/js/delivery_note/delivery_approval.js:411
 msgid "Delivery Approval QR Code"
 msgstr "รหัส QR การอนุมัติการส่งมอบ"
 
@@ -1716,6 +1728,13 @@ msgstr "ใบส่งสินค้า"
 msgid "Delivery Note Approval"
 msgstr "การอนุมัติใบส่งสินค้า"
 
+#: print_designer/custom/delivery_note.py:35
+msgid ""
+"Delivery approval QR code generated. View it using 'Show QR Code' button."
+msgstr ""
+"สร้างรหัส QR สำหรับอนุมัติการจัดส่งเรียบร้อยแล้ว สามารถดูได้โดยใช้ปุ่ม "
+"'แสดงรหัส QR'"
+
 #. Label of a Link field in DocType 'Digital Signature'
 #: print_designer/print_designer/doctype/digital_signature/digital_signature.json
 msgid "Department"
@@ -1723,9 +1742,11 @@ msgstr "แผนก"
 
 #. Label of a Small Text field in DocType 'Company Stamp'
 #. Label of a Small Text field in DocType 'Digital Signature'
+#. Label of a Section Break field in DocType 'Thai WHT Income Type'
 #. Label of a Text field in DocType 'Watermark Template'
 #: print_designer/print_designer/doctype/company_stamp/company_stamp.json
 #: print_designer/print_designer/doctype/digital_signature/digital_signature.json
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 #: print_designer/print_designer/doctype/watermark_template/watermark_template.json
 #: print_designer/public/js/print_watermark.bundle.js:536
 msgid "Description"
@@ -1763,6 +1784,7 @@ msgstr "ลายมือชื่อดิจิทัล"
 #. Watermark Config'
 #. Description of the 'Bottom (px)' (Int) field in DocType 'Watermark
 #. Settings'
+#. Description of the 'Bottom (px)' (Int) field in DocType 'Watermark
 #. Template'
 #: print_designer/print_designer/doctype/print_format_watermark_config/print_format_watermark_config.json
 #: print_designer/print_designer/doctype/watermark_settings/watermark_settings.json
@@ -1835,7 +1857,7 @@ msgstr "หมายเลขเอกสาร"
 msgid "Document Type"
 msgstr "ประเภทเอกสาร"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:60
+#: print_designer/regional/purchase_invoice_wht_override.py:62
 msgid "Document not found"
 msgstr "ไม่พบเอกสาร"
 
@@ -1891,14 +1913,9 @@ msgstr "วาดตราประทับของคุณ"
 msgid "Due Date"
 msgstr "วันที่ครบกำหนด"
 
-#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:110
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:131
 msgid "Due Date cannot be before Posting Date"
 msgstr "วันที่ครบกำหนดต้องไม่อยู่ก่อนวันที่บันทึกบัญชี"
-
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "Dynamic Images"
-msgstr "รูปภาพไดนามิก"
 
 #: print_designer/print_designer/page/print_designer/print_designer.js:27
 #: print_designer/print_designer/page/print_designer/print_designer.js:83
@@ -1954,8 +1971,8 @@ msgstr "รายการสมุดรายวันภาษีพนัก
 msgid "Enable Construction Service"
 msgstr "เปิดใช้งานบริการก่อสร้าง"
 
-#: print_designer/install.py:201 print_designer/install.py:1010
-#: print_designer/install.py:1149
+#: print_designer/install.py:203 print_designer/install.py:1025
+#: print_designer/install.py:1164
 #: print_designer/overrides/erpnext_install.py:47
 msgid "Enable Multiple Copies"
 msgstr "เปิดใช้งานสำเนาหลายชุด"
@@ -1977,8 +1994,8 @@ msgstr "เปิดใช้งานระบบลายน้ำ"
 msgid "Enable custom positioning with pixel values"
 msgstr "เปิดใช้งานการกำหนดตำแหน่งแบบกำหนดเองด้วยค่าพิกเซล"
 
-#: print_designer/install.py:206 print_designer/install.py:1015
-#: print_designer/install.py:1154
+#: print_designer/install.py:208 print_designer/install.py:1030
+#: print_designer/install.py:1169
 #: print_designer/overrides/erpnext_install.py:52
 msgid "Enable multiple copy generation for print formats"
 msgstr "เปิดใช้งานการสร้างสำเนาหลายชุดสำหรับรูปแบบการพิมพ์"
@@ -1999,9 +2016,9 @@ msgstr "ป้อนป้ายกำกับ"
 
 #: print_designer/print_designer/client_scripts/global_defaults.js:204
 #: print_designer/print_designer/client_scripts/global_defaults.js:213
-#: print_designer/public/js/delivery_note/delivery_approval.js:79
-#: print_designer/public/js/delivery_note/delivery_approval.js:133
-#: print_designer/public/js/delivery_note/delivery_approval.js:237
+#: print_designer/public/js/delivery_note/delivery_approval.js:195
+#: print_designer/public/js/delivery_note/delivery_approval.js:269
+#: print_designer/public/js/delivery_note/delivery_approval.js:359
 msgid "Error"
 msgstr "ข้อผิดพลาด"
 
@@ -2011,7 +2028,7 @@ msgstr ""
 "เกิดข้อผิดพลาดในการกรอกชื่อบัญชีภาษาไทยโดยอัตโนมัติ "
 "กรุณาตรวจสอบคอนโซลสำหรับรายละเอียดเพิ่มเติม"
 
-#: print_designer/commands/install_account_thai_fields.py:409
+#: print_designer/commands/install_account_thai_fields.py:412
 msgid "Error auto-populating Thai account names: {0}"
 msgstr "เกิดข้อผิดพลาดในการกรอกชื่อบัญชีภาษาไทยโดยอัตโนมัติ: {0}"
 
@@ -2071,6 +2088,14 @@ msgstr "เกิดข้อผิดพลาดในการดึงบั
 msgid "Error retrieving template configuration"
 msgstr "เกิดข้อผิดพลาดในการดึงข้อมูลการตั้งค่าแม่แบบ"
 
+#: print_designer/www/delivery-approval.py:38
+msgid "Error validating approval link"
+msgstr "ข้อผิดพลาดในการตรวจสอบลิงก์อนุมัติ"
+
+#: print_designer/public/js/delivery_note/delivery_approval.js:207
+msgid "Error: {0}"
+msgstr "ข้อผิดพลาด: {0}"
+
 #: print_designer/print_designer/page/print_designer/print_designer.js:149
 msgid "Exit"
 msgstr "ออกจากระบบ"
@@ -2097,6 +2122,10 @@ msgstr "ข้อมูลส่งออกถูกต้อง"
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.js:90
 msgid "Export to Excel"
 msgstr "ส่งออกเป็น Excel"
+
+#: print_designer/public/js/delivery_note/delivery_approval.js:387
+msgid "Failed after {0} attempts: {1}"
+msgstr "ล้มเหลวหลังจากพยายาม {0} ครั้ง: {1}"
 
 #: print_designer/print_designer/client_scripts/global_defaults.js:205
 msgid "Failed to apply typography settings"
@@ -2141,7 +2170,7 @@ msgstr "ไม่สามารถสร้างใบรับรองภา
 msgid "Failed to create template"
 msgstr "ไม่สามารถสร้างแม่แบบได้"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:238
+#: print_designer/public/js/delivery_note/delivery_approval.js:361
 msgid "Failed to generate QR code. Please try again."
 msgstr "ไม่สามารถสร้างรหัส QR ได้ กรุณาลองใหม่อีกครั้ง"
 
@@ -2212,14 +2241,14 @@ msgstr "ขนาดตัวอักษร"
 msgid "Font Size (px)"
 msgstr "ขนาดตัวอักษร (px)"
 
-#: print_designer/install.py:302 print_designer/install.py:1105
-#: print_designer/install.py:1246
+#: print_designer/install.py:304 print_designer/install.py:1120
+#: print_designer/install.py:1261
 #: print_designer/overrides/erpnext_install.py:144
 msgid "Font family for watermark text"
 msgstr "ฟอนต์สำหรับข้อความลายน้ำ"
 
-#: print_designer/install.py:278 print_designer/install.py:1085
-#: print_designer/install.py:1226
+#: print_designer/install.py:280 print_designer/install.py:1100
+#: print_designer/install.py:1241
 #: print_designer/overrides/erpnext_install.py:124
 msgid "Font size for watermark text (e.g., 24px, 2em)"
 msgstr "ขนาดตัวอักษรสำหรับข้อความลายน้ำ (เช่น 24px, 2em)"
@@ -2244,8 +2273,8 @@ msgstr "แบบฟอร์ม"
 msgid "Form Number"
 msgstr "หมายเลขแบบฟอร์ม"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Select field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Form Type"
 msgstr "ประเภทฟอร์ม"
 
@@ -2308,11 +2337,11 @@ msgid "Generate Multiple Copies"
 msgstr "สร้างสำเนาหลายชุด"
 
 #: print_designer/delivery_note/delivery_note.js:4
-#: print_designer/public/js/delivery_note/delivery_approval.js:45
+#: print_designer/public/js/delivery_note/delivery_approval.js:137
 msgid "Generate QR Code"
 msgstr "สร้างรหัส QR"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:464
+#: print_designer/public/js/delivery_note/delivery_approval.js:616
 msgid "Generate WHT Certificate"
 msgstr "สร้างใบรับรองภาษี ณ ที่จ่าย"
 
@@ -2333,7 +2362,7 @@ msgstr "สร้างใบรับรอง {0} ใบสำเร็จแ�
 msgid "Generating PDF..."
 msgstr "กำลังสร้างไฟล์ PDF..."
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:180
+#: print_designer/public/js/delivery_note/delivery_approval.js:280
 msgid "Generating QR Code"
 msgstr "กำลังสร้าง QR Code"
 
@@ -2376,15 +2405,15 @@ msgstr "สวิตช์เปิด/ปิดการทำงานขอ�
 msgid "Go to {0}"
 msgstr "ไปที่ {0}"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:382
+#: print_designer/public/js/delivery_note/delivery_approval.js:545
 msgid "Goods Received: Approved"
 msgstr "สินค้ารับเข้า: อนุมัติแล้ว"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:399
+#: print_designer/public/js/delivery_note/delivery_approval.js:562
 msgid "Goods Received: Pending"
 msgstr "รับสินค้า: รอดำเนินการ"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:391
+#: print_designer/public/js/delivery_note/delivery_approval.js:554
 msgid "Goods Received: Rejected"
 msgstr "สินค้าที่รับ: ถูกปฏิเสธ"
 
@@ -2467,13 +2496,13 @@ msgstr "นำเข้าแบบฟอร์มการออกแบบก
 msgid "In Words will be visible once you save the Billing."
 msgstr "ข้อความในรูปแบบคำจะปรากฏเมื่อคุณบันทึกใบวางบิลแล้ว"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Data field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Income Category"
 msgstr "หมวดหมู่รายได้"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Data field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Income Category (Thai)"
 msgstr "หมวดหมู่รายได้ (ไทย)"
 
@@ -2481,15 +2510,17 @@ msgstr "หมวดหมู่รายได้ (ไทย)"
 #. Label of a Data field in DocType 'PND3 Items'
 #. Label of a Data field in DocType 'PND53 Items'
 #. Label of a Data field in DocType 'PND54 Items'
+#. Label of a Small Text field in DocType 'Thai WHT Income Type'
 #: print_designer/print_designer/doctype/pnd1_items/pnd1_items.json
 #: print_designer/print_designer/doctype/pnd3_items/pnd3_items.json
 #: print_designer/print_designer/doctype/pnd53_items/pnd53_items.json
 #: print_designer/print_designer/doctype/pnd54_items/pnd54_items.json
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Income Description"
 msgstr "คำอธิบายรายได้"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Small Text field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Income Description (Thai)"
 msgstr "คำอธิบายรายได้ (ไทย)"
 
@@ -2498,8 +2529,8 @@ msgstr "คำอธิบายรายได้ (ไทย)"
 msgid "Income Description (รายละเอียด)"
 msgstr "คำอธิบายรายได้"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Section Break field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Income Details"
 msgstr "รายละเอียดรายได้"
 
@@ -2519,11 +2550,11 @@ msgstr "ภาษีเงินได้"
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.js:38
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.py:61
 #: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:28
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:113
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:119
 msgid "Income Type"
 msgstr "ประเภทรายได้"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:647
+#: print_designer/regional/purchase_invoice_wht_override.py:834
 msgid ""
 "Income Type (Revenue Department classification) is required when Subject to "
 "Withholding Tax is enabled for cash purchases"
@@ -2541,8 +2572,9 @@ msgstr "ประเภทเงินได้"
 msgid "Income Type Code"
 msgstr "รหัสประเภทรายได้"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Option for the 'Recipient Type' (Select) field in DocType 'Thai WHT Income
+#. Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Individual"
 msgstr "บุคคล"
 
@@ -2608,7 +2640,7 @@ msgstr "บันทึกภายใน"
 msgid "Invalid Field Mapping"
 msgstr "การจับคู่ฟิลด์ไม่ถูกต้อง"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:807
+#: print_designer/regional/purchase_invoice_wht_override.py:1006
 msgid "Invalid Invoice Date"
 msgstr "วันที่ใบแจ้งหนี้ไม่ถูกต้อง"
 
@@ -2624,6 +2656,10 @@ msgstr "JSON ไม่ถูกต้องในไฟล์ต้นทาง:
 msgid "Invalid JSON: {0}"
 msgstr "JSON ไม่ถูกต้อง: {0}"
 
+#: print_designer/public/js/delivery_note/delivery_approval.js:206
+msgid "Invalid URL"
+msgstr "URL ไม่ถูกต้อง"
+
 #: print_designer/accounting/thailand_wht_integration.py:189
 msgid "Invalid WHT Rate. Please enter a positive percentage"
 msgstr "อัตราภาษีหัก ณ ที่จ่ายไม่ถูกต้อง กรุณาใส่อัตราร้อยละที่เป็นบวก"
@@ -2632,13 +2668,17 @@ msgstr "อัตราภาษีหัก ณ ที่จ่ายไม่�
 msgid "Invalid Withholding Tax Account: {0}"
 msgstr "บัญชีภาษีหัก ณ ที่จ่ายไม่ถูกต้อง: {0}"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:134
+#: print_designer/public/js/delivery_note/delivery_approval.js:270
 msgid "Invalid approval URL format. Error: "
 msgstr "รูปแบบ URL การอนุมัติไม่ถูกต้อง ข้อผิดพลาด:"
 
 #: print_designer/api/print_format_export_import.py:118
 msgid "Invalid export data: missing print_format"
 msgstr "ข้อมูลส่งออกไม่ถูกต้อง: ขาด print_format"
+
+#: print_designer/www/delivery-approval.py:34
+msgid "Invalid or expired approval link"
+msgstr "ลิงก์อนุมัติไม่ถูกต้องหรือหมดอายุแล้ว"
 
 #. Option for the 'Usage Purpose' (Select) field in DocType 'Company Stamp'
 #: print_designer/print_designer/doctype/company_stamp/company_stamp.json
@@ -2755,8 +2795,9 @@ msgstr "ซ้าย (px)"
 msgid "Letter Head"
 msgstr "หัวจดหมาย"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Description of the 'Tax Withholding Category' (Link) field in DocType 'Thai
+#. WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Link to ERPNext Tax Withholding Category for GL posting"
 msgstr ""
 "ลิงก์ไปยังหมวดหมู่ภาษีหัก ณ ที่จ่ายของ ERPNext "
@@ -2776,6 +2817,16 @@ msgstr "กำลังโหลดรูปแบบการพิมพ์"
 #: SPA
 msgid "Log out"
 msgstr "ออกจากระบบ"
+
+#. Paragraph text in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
+msgid "Manage customer billing documents for Thai business requirements."
+msgstr "จัดการเอกสารการเรียกเก็บเงินลูกค้าตามข้อกำหนดทางธุรกิจของไทย"
+
+#. Description of a Link in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
+msgid "Manage customer information"
+msgstr "จัดการข้อมูลลูกค้า"
 
 #: print_designer/public/js/payment_entry_wht_certificate.js:199
 msgid "Manual certificate creation is disabled in automation mode"
@@ -2839,17 +2890,21 @@ msgstr "การย้ายข้อมูลเสร็จสมบูรณ
 msgid "Minimum Invoice Amount for Retention"
 msgstr "จำนวนเงินขั้นต่ำของใบแจ้งหนี้สำหรับการหักเงินงวด"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:539
+#: print_designer/public/js/delivery_note/delivery_approval.js:697
 msgid "Missing Information"
 msgstr "ข้อมูลที่ขาดหาย"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:798
+#: print_designer/regional/purchase_invoice_wht_override.py:996
 msgid "Missing Supplier Invoice Date"
 msgstr "วันที่ใบกำกับซื้อของผู้จำหน่ายหายไป"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:787
+#: print_designer/regional/purchase_invoice_wht_override.py:983
 msgid "Missing Supplier Invoice No"
 msgstr "ไม่มีหมายเลขใบแจ้งหนี้ผู้จำหน่าย"
+
+#: print_designer/www/delivery-approval.py:41
+msgid "Missing approval token"
+msgstr "ขาด {% s %} โทเคน สำหรับการเข้าถึง"
 
 #: print_designer/api/print_format_export_import.py:252
 msgid "Missing print_format in export data"
@@ -2917,11 +2972,16 @@ msgstr "จ่ายสุทธิ"
 msgid "Net Payment Amount (จ่ายสุทธิ)"
 msgstr "จำนวนเงินจ่ายสุทธิ"
 
+#. Label of a shortcut in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
+msgid "New Billing"
+msgstr "บิลใหม่"
+
 #: print_designer/public/js/print_format/print_format.js:143
 msgid "New Format Name"
 msgstr "ชื่อรูปแบบใหม่"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:263
+#: print_designer/public/js/delivery_note/delivery_approval.js:400
 msgid "No QR code available. Please generate one first."
 msgstr "ไม่มีรหัส QR ให้ใช้งาน กรุณาสร้างรหัสก่อนครับ/ค่ะ"
 
@@ -2930,7 +2990,7 @@ msgstr "ไม่มีรหัส QR ให้ใช้งาน กรุณ�
 msgid "No Watermark"
 msgstr "ไม่มีลายน้ำ"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:80
+#: print_designer/public/js/delivery_note/delivery_approval.js:196
 msgid "No approval URL found. Please generate a QR code first."
 msgstr "ไม่พบ URL สำหรับการอนุมัติ กรุณาสร้าง QR code ก่อนดำเนินการต่อ"
 
@@ -2938,8 +2998,8 @@ msgstr "ไม่พบ URL สำหรับการอนุมัติ ก
 msgid "No data to export"
 msgstr "ไม่มีข้อมูลสำหรับส่งออก"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:415
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:291
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:427
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:302
 msgid "No items requiring WHT found. Disable WHT settings?"
 msgstr ""
 "ไม่พบรายการที่ต้องหักภาษี ณ ที่จ่าย ต้องการปิดการตั้งค่าภาษี ณ "
@@ -3026,7 +3086,7 @@ msgstr "ความทึบแสง"
 msgid "Opacity in template '{0}' must be between 0 and 1"
 msgstr "ความทึบในแม่แบบ '{0}' ต้องอยู่ระหว่าง 0 ถึง 1"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:97
+#: print_designer/public/js/delivery_note/delivery_approval.js:223
 msgid "Open the delivery approval page in a new tab?"
 msgstr "เปิดหน้าการอนุมัติใบส่งของในแท็บใหม่หรือไม่?"
 
@@ -3040,9 +3100,9 @@ msgid "Optional"
 msgstr "ไม่บังคับ"
 
 #. Option for the 'Stamp Type' (Select) field in DocType 'Company Stamp'
-#: enable_copy_feature.py:42 print_designer/install.py:229
-#: print_designer/install.py:329 print_designer/install.py:1036
-#: print_designer/install.py:1177 print_designer/install.py:1267
+#: enable_copy_feature.py:42 print_designer/install.py:231
+#: print_designer/install.py:331 print_designer/install.py:1051
+#: print_designer/install.py:1192 print_designer/install.py:1282
 #: print_designer/overrides/erpnext_install.py:75
 #: print_designer/overrides/erpnext_install.py:169
 #: print_designer/overrides/printview_watermark.py:598
@@ -3269,8 +3329,8 @@ msgstr "ข้อมูลแบบฟอร์ม ภ.ง.ด.1"
 msgid "PND1 Items"
 msgstr "รายการ ภ.ง.ด.1"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Option for the 'Form Type' (Select) field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "PND3"
 msgstr "ภ.ง.ด.3"
 
@@ -3291,8 +3351,8 @@ msgstr "ข้อมูลแบบฟอร์ม ภ.ง.ด.3"
 msgid "PND3 Items"
 msgstr "รายการ ภ.ง.ด.3"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Option for the 'Form Type' (Select) field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "PND53"
 msgstr "ภ.ง.ด.53"
 
@@ -3337,6 +3397,11 @@ msgstr "รายการ ภ.ง.ด.54"
 msgid "Paid"
 msgstr "ชำระแล้ว"
 
+#. Option for the 'Status' (Select) field in DocType 'Thai Billing'
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+msgid "Partially Paid"
+msgstr "ชำระเงินบางส่วน"
+
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.js:31
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.py:53
 msgid "Party"
@@ -3356,14 +3421,23 @@ msgstr "แพตช์ไม่ผ่านการตรวจสอบแล
 msgid "Payment"
 msgstr "การชำระเงิน"
 
+#. Label of a Date field in DocType 'Thai Billing'
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+msgid "Payment Collection Date"
+msgstr "วันที่เก็บเงิน"
+
 #. Label of a Date field in DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "Payment Date"
 msgstr "วันจ่าย"
 
+#. Linked DocType in Thai Billing's connections
 #. Label of a Link field in DocType 'Withholding Tax Certificate'
+#. Label of a Link in the Billing Workspace
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.py:47
+#: print_designer/print_designer/workspace/billing/billing.json
 msgid "Payment Entry"
 msgstr "รายการชำระเงิน"
 
@@ -3420,18 +3494,13 @@ msgstr "ไม่ได้รับอนุญาตพร้อมหัวจ
 msgid "Phone"
 msgstr "โทรศัพท์"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "Please First remove hidden fields [  ]"
-msgstr "กรุณาลบฟิลด์ที่ซ่อนอยู่ก่อน [  ]"
-
 #: print_designer/custom/withholding_tax.py:796
 msgid "Please add Supplier Tax ID for proper WHT certificate generation"
 msgstr ""
 "กรุณาเพิ่ม เลขประจำตัวผู้เสียภาษีของผู้จำหน่าย เพื่อการออกใบรับรองภาษี ณ "
 "ที่จ่ายที่ถูกต้อง"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:112
+#: print_designer/public/js/delivery_note/delivery_approval.js:242
 msgid ""
 "Please allow popups for this site and try again. Alternatively, copy this "
 "URL: "
@@ -3448,16 +3517,11 @@ msgstr "กรุณากำหนดบัญชีเก็บรักษา
 msgid "Please enable pop-ups"
 msgstr "กรุณาเปิดใช้งานป๊อปอัป"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:540
+#: print_designer/public/js/delivery_note/delivery_approval.js:698
 msgid "Please enter Supplier Tax ID before generating WHT certificate."
 msgstr ""
 "กรุณาใส่เลขประจำตัวผู้เสียภาษีของผู้จำหน่ายก่อนสร้างใบรับรองภาษี ณ ที่จ่าย "
 "(WHT)"
-
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "Please resolve overlapping elements"
-msgstr "กรุณาแก้ไของค์ประกอบที่ซ้อนทับกัน"
 
 #: print_designer/public/js/print_designer/store/ElementStore.js:827
 msgid "Please resolve overlapping elements "
@@ -3479,15 +3543,23 @@ msgstr "กรุณาเลือกไฟล์เพื่อทำการ
 msgid "Please select rows to generate certificates"
 msgstr "กรุณาเลือกแถวเพื่อสร้างใบรับรอง"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:634
+#: print_designer/regional/purchase_invoice_wht_override.py:723
 msgid "Please set Withholding Tax percentage manually for this transaction"
 msgstr "กรุณาตั้งค่าร้อยละของภาษีหัก ณ ที่จ่ายด้วยตนเองสำหรับรายการนี้"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:180
+#: print_designer/regional/purchase_order_wht_override.py:362
+msgid ""
+"Please set retention percentage or configure a default retention rate in "
+"Company settings"
+msgstr ""
+"กรุณาตั้งค่าร้อยละการเก็บรักษาหรือกำหนดอัตราการเก็บรักษาเริ่มต้นใน "
+"การตั้งค่าบริษัท"
+
+#: print_designer/public/js/delivery_note/delivery_approval.js:283
 msgid "Please wait..."
 msgstr "กรุณารอสักครู่..."
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:111
+#: print_designer/public/js/delivery_note/delivery_approval.js:240
 msgid "Popup Blocked"
 msgstr "ป๊อปอัปถูกบล็อก"
 
@@ -3510,8 +3582,8 @@ msgstr "ตำแหน่ง X"
 msgid "Position Y"
 msgstr "ตำแหน่ง Y"
 
-#: print_designer/install.py:290 print_designer/install.py:1095
-#: print_designer/install.py:1236
+#: print_designer/install.py:292 print_designer/install.py:1110
+#: print_designer/install.py:1251
 #: print_designer/overrides/erpnext_install.py:134
 msgid "Position where watermark appears on the page"
 msgstr "ตำแหน่งที่ลายน้ำปรากฏบนหน้าเอกสาร"
@@ -3570,8 +3642,8 @@ msgid "Previous Month"
 msgstr "เดือนก่อนหน้า"
 
 #: print_designer/print_designer/client_scripts/print.js:1662
-#: print_designer/public/js/delivery_note/delivery_approval.js:169
-#: print_designer/public/js/delivery_note/delivery_approval.js:479
+#: print_designer/public/js/delivery_note/delivery_approval.js:179
+#: print_designer/public/js/delivery_note/delivery_approval.js:631
 #: print_designer/www/print_designer_preview.html:23
 msgid "Print"
 msgstr "พิมพ์"
@@ -3668,13 +3740,13 @@ msgstr "รูปแบบการพิมพ์ {0} นำเข้าเร�
 msgid "Print Manager"
 msgstr "ผู้จัดการงานพิมพ์"
 
-#: print_designer/install.py:179 print_designer/install.py:988
-#: print_designer/install.py:1127
+#: print_designer/install.py:181 print_designer/install.py:1003
+#: print_designer/install.py:1142
 #: print_designer/overrides/erpnext_install.py:25
 msgid "Print UOM after Quantity"
 msgstr "พิมพ์ หน่วยนับ หลังจำนวน"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:475
+#: print_designer/public/js/delivery_note/delivery_approval.js:627
 msgid "Print WHT Certificate"
 msgstr "พิมพ์ใบรับรองภาษีหัก ณ ที่จ่าย"
 
@@ -3682,17 +3754,17 @@ msgstr "พิมพ์ใบรับรองภาษีหัก ณ ที�
 msgid "Print format not found: {0}"
 msgstr "ไม่พบรูปแบบการพิมพ์: {0}"
 
-#: print_designer/install.py:186 print_designer/install.py:995
-#: print_designer/install.py:1134
+#: print_designer/install.py:188 print_designer/install.py:1010
+#: print_designer/install.py:1149
 #: print_designer/overrides/erpnext_install.py:32
 msgid "Print taxes with zero amount"
 msgstr "พิมพ์ภาษีที่มีจำนวนเป็นศูนย์"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:164
+#: print_designer/public/js/delivery_note/delivery_approval.js:174
 msgid "Print with QR"
 msgstr "พิมพ์พร้อม QR"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:329
+#: print_designer/public/js/delivery_note/delivery_approval.js:472
 msgid "Print with QR Code"
 msgstr "พิมพ์พร้อมรหัส QR"
 
@@ -3727,7 +3799,7 @@ msgstr "ใบสั่งซื้อ"
 msgid "Purchase Receipt"
 msgstr "ใบรับซื้อ"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:216
+#: print_designer/public/js/delivery_note/delivery_approval.js:327
 msgid "QR Code Generated Successfully"
 msgstr "สร้างรหัส QR สำเร็จแล้ว"
 
@@ -3735,7 +3807,11 @@ msgstr "สร้างรหัส QR สำเร็จแล้ว"
 msgid "QR Code for Delivery Approval"
 msgstr "รหัส QR สำหรับการอนุมัติการจัดส่ง"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:217
+#: print_designer/public/js/delivery_note/delivery_approval.js:341
+msgid "QR Code generated successfully"
+msgstr "สร้าง QR Code เรียบร้อยแล้ว"
+
+#: print_designer/public/js/delivery_note/delivery_approval.js:328
 msgid ""
 "QR Code has been generated. Customer can scan this code to approve delivery "
 "receipt."
@@ -3743,15 +3819,19 @@ msgstr ""
 "รหัส QR ได้ถูกสร้างขึ้นแล้ว "
 "ลูกค้าสามารถสแกนรหัสนี้เพื่ออนุมัติใบรับสินค้าได้"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:250
-msgid "QR Generation Error"
-msgstr "ข้อผิดพลาดในการสร้าง QR"
+#: print_designer/public/js/delivery_note/delivery_approval.js:386
+msgid "QR Generation Failed"
+msgstr "การสร้าง QR ล้มเหลว"
+
+#: print_designer/custom/sales_invoice_qr.py:179
+msgid "QR code can only be generated for submitted Sales Invoices"
+msgstr "รหัส QR สามารถสร้างได้เฉพาะสำหรับใบกำกับภาษีขายที่ถูกส่งแล้วเท่านั้น"
 
 #: print_designer/custom/delivery_note_qr.py:207
 msgid "QR code can only be generated for submitted delivery notes"
 msgstr "รหัส QR สามารถสร้างได้เฉพาะสำหรับใบส่งของที่ถูกส่งแล้วเท่านั้น"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:230
+#: print_designer/public/js/delivery_note/delivery_approval.js:351
 msgid "QR code generated but failed to save. Error: "
 msgstr "สร้าง QR code แล้วแต่บันทึกไม่สำเร็จ ข้อผิดพลาด:"
 
@@ -3766,7 +3846,7 @@ msgid "Quick Set"
 msgstr "ตั้งค่าอย่างรวดเร็ว"
 
 #: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:23
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:108
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:114
 msgid "Quick TDS Setup"
 msgstr "การตั้งค่า TDS อย่างรวดเร็ว"
 
@@ -3791,7 +3871,7 @@ msgstr "อัตรา/ราคา"
 msgid "Ready for Submission"
 msgstr "พร้อมสำหรับการส่งข้อมูล"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:394
+#: print_designer/public/js/delivery_note/delivery_approval.js:557
 msgid "Reason: "
 msgstr "เหตุผล:"
 
@@ -3805,10 +3885,15 @@ msgstr "ใบรับสินค้า"
 msgid "Received"
 msgstr "ที่ได้รับ"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Select field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Recipient Type"
 msgstr "ประเภทผู้รับ"
+
+#. Description of a Link in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
+msgid "Record payments against billing documents"
+msgstr "บันทึกการชำระเงินกับเอกสารการเรียกเก็บเงิน"
 
 #: print_designer/public/js/print_designer/store/MainStore.js:115
 msgid "Rectangle (R)"
@@ -3844,6 +3929,11 @@ msgstr "หมายเลขทะเบียนหรือหมายเล
 msgid "Rejected"
 msgstr "ไม่อนุมัติ"
 
+#. Label of a Card Break in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
+msgid "Related Documents"
+msgstr "เอกสารที่เกี่ยวข้อง"
+
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Reload"
@@ -3875,11 +3965,6 @@ msgstr "หมายเหตุ"
 msgid "Report an Issue"
 msgstr "รายงานปัญหา"
 
-#. Label of a Card Break in the Billing Workspace
-#: print_designer/print_designer/workspace/billing/billing.json
-msgid "Reports"
-msgstr "รายงาน"
-
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Request for Quotation"
@@ -3910,7 +3995,7 @@ msgstr "รีเซ็ตเป็นค่าเริ่มต้น"
 #: print_designer/print_designer/doctype/employee_tax_ledger/employee_tax_ledger.json
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 msgid "Resignation"
-msgstr "ลาออก"
+msgstr "การลาออก"
 
 #. Label of a Date field in DocType 'Employee Tax Ledger'
 #: print_designer/print_designer/doctype/employee_tax_ledger/employee_tax_ledger.json
@@ -3937,13 +4022,17 @@ msgid "Retention Settings"
 msgstr "การตั้งค่าการหักเงินคงเหลือ"
 
 #: print_designer/custom/quotation_calculations.py:182
-#: print_designer/custom/sales_invoice_calculations.py:284
+#: print_designer/custom/sales_invoice_calculations.py:330
 msgid "Retention amount cannot exceed net total"
 msgstr "จำนวนเงินที่ถูกหักไว้ต้องไม่เกินยอดสุทธิ"
 
 #: print_designer/print_designer/client_scripts/print.js:1244
 msgid "Retrying with {0} generator..."
 msgstr "กำลังลองใหม่ด้วยตัวสร้าง {0}..."
+
+#: print_designer/public/js/delivery_note/delivery_approval.js:374
+msgid "Retrying... (Attempt {0}/{1})"
+msgstr "กำลังลองใหม่... (ครั้งที่ {0}/{1})"
 
 #. Option for the 'Stamp Type' (Select) field in DocType 'Signature Basic
 #. Information'
@@ -3965,8 +4054,8 @@ msgstr "ขวา (px)"
 msgid "Salary Slip"
 msgstr "สลิปเงินเดือน"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Link in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
 msgid "Sales Invoice"
 msgstr "ใบแจ้งหนี้ขาย"
 
@@ -3979,7 +4068,7 @@ msgstr "รหัสใบกำกับภาษีขาย"
 msgid "Sales Invoice is required in row {0}"
 msgstr "ใบกำกับภาษีขายเป็นสิ่งจำเป็นในแถวที่ {0}"
 
-#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:157
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:182
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.py:68
 msgid "Sales Invoice {0} does not belong to customer {1}"
 msgstr "ใบกำกับภาษีขาย {0} ไม่ได้เป็นของลูกค้า {1}"
@@ -4018,7 +4107,7 @@ msgstr "สารบัญ"
 msgid "Save"
 msgstr "บันทึก"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:229
+#: print_designer/public/js/delivery_note/delivery_approval.js:349
 #: print_designer/public/js/print_watermark.bundle.js:426
 #: print_designer/public/js/print_watermark.bundle.js:434
 msgid "Save Error"
@@ -4031,6 +4120,12 @@ msgstr "บันทึกลายเซ็นต์"
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.js:133
 msgid "Save Stamp"
 msgstr "บันทึกตราประทับ"
+
+#. Description of the 'Payment Collection Date' (Date) field in DocType 'Thai
+#. Billing'
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+msgid "Scheduled date for collecting payment from customer"
+msgstr "วันที่กำหนดสำหรับการเก็บเงินจากลูกค้า"
 
 #: print_designer/public/js/print_designer/components/layout/AppBarcodeModal.vue:17
 #: print_designer/public/js/print_designer/components/layout/AppDynamicTextModal.vue:21
@@ -4163,7 +4258,7 @@ msgid "Setup"
 msgstr "การตั้งค่า"
 
 #: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:20
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:105
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:111
 msgid "Setup TDS Fields"
 msgstr "ตั้งค่าฟิลด์ ภาษีหัก ณ ที่จ่าย"
 
@@ -4171,18 +4266,18 @@ msgstr "ตั้งค่าฟิลด์ ภาษีหัก ณ ที่
 msgid "Setup for All Companies"
 msgstr "การตั้งค่าสำหรับทุกบริษัท"
 
-#: print_designer/install.py:244 print_designer/install.py:1051
-#: print_designer/install.py:1192
+#: print_designer/install.py:246 print_designer/install.py:1066
+#: print_designer/install.py:1207
 #: print_designer/overrides/erpnext_install.py:90
 msgid "Show Copy Controls in Toolbar"
 msgstr "แสดงตัวควบคุมคัดลอกในแถบเครื่องมือ"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:149
+#: print_designer/public/js/delivery_note/delivery_approval.js:161
 msgid "Show QR Code"
 msgstr "แสดงรหัส QR"
 
-#: print_designer/install.py:250 print_designer/install.py:1057
-#: print_designer/install.py:1198
+#: print_designer/install.py:252 print_designer/install.py:1072
+#: print_designer/install.py:1213
 #: print_designer/overrides/erpnext_install.py:96
 msgid "Show copy controls in print preview toolbar"
 msgstr "แสดงตัวควบคุมคัดลอกในแถบเครื่องมือแสดงตัวอย่างการพิมพ์"
@@ -4261,8 +4356,8 @@ msgstr "การใช้งานลายเซ็นต์"
 msgid "Signatures"
 msgstr "ลายเซ็นต์"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:367
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:249
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:379
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:260
 msgid "Smart WHT: Auto-configured from item \"{0}\": {1}"
 msgstr "ภาษีหัก ณ ที่จ่ายอัจฉริยะ: กำหนดค่าอัตโนมัติจากสินค้า \"{0}\": {1}"
 
@@ -4324,7 +4419,7 @@ msgstr "ประเภทตราประทับ"
 #. Label of a Select field in DocType 'Withholding Tax Certificate'
 #: print_designer/print_designer/doctype/delivery_note_approval/delivery_note_approval.json
 #: print_designer/print_designer/doctype/employee_tax_ledger/employee_tax_ledger.json
-#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:69
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:90
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
 #: print_designer/print_designer/doctype/withholding_tax_certificate/withholding_tax_certificate.json
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.py:97
@@ -4340,13 +4435,13 @@ msgstr "การตรวจสอบสถานะล้มเหลว: {}"
 msgid "Styling Options"
 msgstr "ตัวเลือกการจัดรูปแบบ"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:44
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:129
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:49
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:140
 msgid "Subject to Retention"
 msgstr "ขึ้นอยู่กับการเก็บรักษา"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:38
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:123
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:43
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:134
 msgid "Subject to Withholding Tax"
 msgstr "ขึ้นอยู่กับภาษีหัก ณ ที่จ่าย"
 
@@ -4410,7 +4505,7 @@ msgstr ""
 "อัปเดตชื่อภาษาไทยสำหรับบัญชีจำนวน ${response.message.accounts_updated} "
 "บัญชีเรียบร้อยแล้ว"
 
-#: print_designer/commands/install_account_thai_fields.py:401
+#: print_designer/commands/install_account_thai_fields.py:404
 msgid "Successfully updated Thai names for {0} accounts"
 msgstr "อัปเดตชื่อภาษาไทยสำหรับบัญชี {0} เรียบร้อยแล้ว"
 
@@ -4450,7 +4545,7 @@ msgstr "ชื่อสาขาผู้จำหน่าย"
 msgid "Supplier Information (ผู้ถูกหักภาษี)"
 msgstr "ข้อมูลผู้จำหน่าย (ผู้ถูกหักภาษี)"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:794
+#: print_designer/regional/purchase_invoice_wht_override.py:990
 msgid ""
 "Supplier Invoice Date (Bill Date) is mandatory for Thai tax compliance. Please either:\n"
 "• Enter the supplier's invoice date, OR\n"
@@ -4460,7 +4555,7 @@ msgstr ""
 "• กรอกวันที่ใบแจ้งหนี้ของผู้จำหน่าย หรือ\n"
 "• เปิดใช้งานช่องทำเครื่องหมาย 'บิลเงินสด' หากผู้จำหน่ายไม่มีระบบใบแจ้งหนี้อย่างเป็นทางการ"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:805
+#: print_designer/regional/purchase_invoice_wht_override.py:1004
 msgid ""
 "Supplier Invoice Date cannot be in the future. Please enter a valid invoice "
 "date."
@@ -4468,7 +4563,7 @@ msgstr ""
 "วันที่ใบกำกับซื้อไม่สามารถเป็นวันที่ในอนาคตได้ "
 "กรุณาใส่วันที่ใบกำกับที่ถูกต้อง"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:783
+#: print_designer/regional/purchase_invoice_wht_override.py:977
 msgid ""
 "Supplier Invoice No (Bill No) is mandatory for Thai tax compliance. Please either:\n"
 "• Enter the supplier's invoice number, OR\n"
@@ -4530,7 +4625,7 @@ msgstr "ซิงค์ไปยังฟิลด์เป้าหมาย"
 msgid "Syncing signatures..."
 msgstr "กำลังซิงค์ลายเซ็น..."
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:679
+#: print_designer/public/js/delivery_note/delivery_approval.js:809
 msgid "System Error"
 msgstr "ข้อผิดพลาดของระบบ"
 
@@ -4550,6 +4645,7 @@ msgstr "ข้อผิดพลาดของระบบ"
 #: print_designer/print_designer/doctype/pnd54_items/pnd54_items.json
 #: print_designer/print_designer/doctype/signature_basic_information/signature_basic_information.json
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 #: print_designer/print_designer/doctype/thai_wht_settings/thai_wht_settings.json
 #: print_designer/print_designer/doctype/thai_withholding_tax_detail/thai_withholding_tax_detail.json
 #: print_designer/print_designer/doctype/watermark_settings/watermark_settings.json
@@ -4574,8 +4670,8 @@ msgstr "TB-.####."
 msgid "TB-.YYYY.-.####."
 msgstr "TB-.YYYY.-.####."
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:68
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:153
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:73
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:164
 msgid "TDS fields configured successfully"
 msgstr "ตั้งค่าฟิลด์ ภาษีหัก ณ ที่จ่าย สำเร็จแล้ว"
 
@@ -4652,6 +4748,8 @@ msgstr "ช่วงระยะเวลาภาษี (เดือน)"
 msgid "Tax Period (Year)"
 msgstr "ระยะเวลาภาษี (ปี)"
 
+#. Label of a Percent field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 #: print_designer/print_designer/report/wht_certificate_register/wht_certificate_register.py:73
 msgid "Tax Rate (%)"
 msgstr "อัตราภาษี (%)"
@@ -4679,8 +4777,8 @@ msgstr "สรุปภาษี"
 msgid "Tax Withheld"
 msgstr "ภาษีหัก ณ ที่จ่าย"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Label of a Link field in DocType 'Thai WHT Income Type'
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Tax Withholding Category"
 msgstr "ประเภทหัก ณ ที่จ่ายภาษี"
 
@@ -4736,9 +4834,17 @@ msgid "Text Signature"
 msgstr "ลายเซ็นข้อความ"
 
 #. Name of a DocType
+#. Label of a Link in the Billing Workspace
+#. Label of a shortcut in the Billing Workspace
 #: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+#: print_designer/print_designer/workspace/billing/billing.json
 msgid "Thai Billing"
 msgstr "การเรียกเก็บเงินภาษาไทย"
+
+#. Header text in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
+msgid "Thai Billing (ใบวางบิล)"
+msgstr "Thai Billing (ใบวางบิล)"
 
 #. Name of a DocType
 #: print_designer/print_designer/doctype/thai_billing_item/thai_billing_item.json
@@ -4750,12 +4856,12 @@ msgstr "รายการบิลลิ่งภาษาไทย"
 msgid "Thai Compliance"
 msgstr "การปฏิบัติตามข้อกำหนดของไทย"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:74
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:159
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:79
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:170
 msgid "Thai Tax"
 msgstr "ภาษีไทย"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:203
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:215
 msgid "Thai Tax Compliance section populated for cash purchase"
 msgstr "ส่วนการปฏิบัติตามภาษีของไทยสำหรับการซื้อเงินสดถูกกรอกข้อมูลแล้ว"
 
@@ -4763,26 +4869,26 @@ msgstr "ส่วนการปฏิบัติตามภาษีของ
 msgid "Thai Tax System Processing Complete"
 msgstr "การประมวลผลระบบภาษีไทยเสร็จสมบูรณ์แล้ว"
 
-#: print_designer/commands/install_account_thai_fields.py:402
+#: print_designer/commands/install_account_thai_fields.py:405
 msgid "Thai Translation Complete"
 msgstr "แปลภาษาไทยเสร็จสมบูรณ์แล้ว"
 
-#: print_designer/commands/install_account_thai_fields.py:441
+#: print_designer/commands/install_account_thai_fields.py:444
 msgid "Thai Translation Disabled"
 msgstr "การแปลภาษาไทยถูกปิดใช้งานแล้ว"
 
-#: print_designer/commands/install_account_thai_fields.py:428
+#: print_designer/commands/install_account_thai_fields.py:431
 msgid "Thai Translation Enabled"
 msgstr "เปิดใช้งานการแปลภาษาไทย"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:132
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:137
 #: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:53
 msgid "Thai WHT Compliance disabled: WHT and VAT settings cleared"
 msgstr ""
 "การปฏิบัติตามภาษีหัก ณ ที่จ่ายของไทยถูกปิดใช้งาน: การตั้งค่าภาษีหัก ณ "
 "ที่จ่ายและภาษีมูลค่าเพิ่มถูกล้างแล้ว"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:116
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:121
 #: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:37
 msgid ""
 "Thai WHT Compliance enabled: Subject to WHT and VAT Treatment automatically "
@@ -4791,8 +4897,8 @@ msgstr ""
 "เปิดใช้งานการปฏิบัติตามภาษีหัก ณ ที่จ่ายของไทย: กำหนดการจัดการภาษีหัก ณ "
 "ที่จ่ายและภาษีมูลค่าเพิ่มโดยอัตโนมัติ"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
+#. Name of a DocType
+#: print_designer/print_designer/doctype/thai_wht_income_type/thai_wht_income_type.json
 msgid "Thai WHT Income Type"
 msgstr "ประเภทเงินได้หัก ณ ที่จ่าย"
 
@@ -4801,7 +4907,7 @@ msgstr "ประเภทเงินได้หัก ณ ที่จ่า�
 msgid "Thai WHT Settings"
 msgstr "การตั้งค่าภาษีหัก ณ ที่จ่าย (WHT)"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:568
+#: print_designer/public/js/delivery_note/delivery_approval.js:726
 msgid ""
 "Thai Withholding Tax Certificate (Form 50 ทวิ) has been generated "
 "successfully."
@@ -4813,11 +4919,11 @@ msgstr ""
 msgid "Thai Withholding Tax Detail"
 msgstr "รายละเอียดภาษีหัก ณ ที่จ่าย"
 
-#: print_designer/commands/install_account_thai_fields.py:440
+#: print_designer/commands/install_account_thai_fields.py:443
 msgid "Thai account translation disabled for {0}"
 msgstr "การแปลบัญชีเป็นภาษาไทยถูกปิดใช้งานสำหรับ {0}"
 
-#: print_designer/commands/install_account_thai_fields.py:427
+#: print_designer/commands/install_account_thai_fields.py:430
 msgid "Thai account translation enabled for {0}"
 msgstr "เปิดใช้งานการแปลบัญชีภาษาไทยสำหรับ {0}"
 
@@ -5010,6 +5116,16 @@ msgstr "ยอดรวมภาษีหัก ณ ที่จ่าย"
 msgid "Total Invoices"
 msgstr "ยอดรวมใบแจ้งหนี้"
 
+#. Label of a Currency field in DocType 'Thai Billing'
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+msgid "Total Outstanding"
+msgstr "ยอดคงค้างรวม"
+
+#. Label of a Currency field in DocType 'Thai Billing'
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.json
+msgid "Total Paid"
+msgstr "ยอดชำระรวม"
+
 #. Label of a Currency field in DocType 'Employee Tax Ledger'
 #: print_designer/print_designer/doctype/employee_tax_ledger/employee_tax_ledger.json
 msgid "Total Provident Fund"
@@ -5056,7 +5172,7 @@ msgstr "ยอดรวมภาษีหัก ณ ที่จ่ายไม�
 msgid "Total deductions ({0}) cannot exceed quotation grand total ({1})"
 msgstr "ยอดหักทั้งหมด ({0}) ต้องไม่เกินยอดรวมทั้งสิ้นของใบเสนอราคา ({1})"
 
-#: print_designer/custom/sales_invoice_calculations.py:294
+#: print_designer/custom/sales_invoice_calculations.py:340
 msgid "Total deductions ({0}) cannot exceed sales invoice grand total ({1})"
 msgstr "ยอดหักรวม ({0}) ต้องไม่เกินยอดรวมทั้งสิ้นของใบกำกับภาษีขาย ({1})"
 
@@ -5151,7 +5267,7 @@ msgstr "ผู้ใช้"
 msgid "User Forum"
 msgstr "ฟอรั่มผู้ใช้"
 
-#: print_designer/overrides/company.py:93
+#: print_designer/overrides/company.py:101
 msgid "Using advanced CSV mapper from thai_business_suite"
 msgstr "การใช้ตัวแมปเปอร์ CSV ขั้นสูงจาก thai_business_suite"
 
@@ -5177,11 +5293,11 @@ msgid "Verdana"
 msgstr "Verdana"
 
 #: print_designer/print_designer/doctype/delivery_note_approval/delivery_note_approval.js:8
-#: print_designer/public/js/delivery_note/delivery_approval.js:62
+#: print_designer/public/js/delivery_note/delivery_approval.js:149
 msgid "View Approval Page"
 msgstr "ดูหน้าการอนุมัติ"
 
-#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:51
+#: print_designer/print_designer/doctype/thai_billing/thai_billing.js:71
 msgid "View Customer Billing Summary"
 msgstr "ดูสรุปการเรียกเก็บเงินของลูกค้า"
 
@@ -5207,6 +5323,11 @@ msgstr "ดูใบรับรองภาษีหัก ณ ที่จ่�
 msgid "View Website"
 msgstr "ดูเว็บไซต์"
 
+#. Description of a Link in the Billing Workspace
+#: print_designer/print_designer/workspace/billing/billing.json
+msgid "View sales invoices to include in billing"
+msgstr "ดูใบแจ้งหนี้ขายเพื่อรวมในบิล"
+
 #: print_designer/public/js/print_watermark.bundle.js:339
 msgid "WATERMARK"
 msgstr "ลายน้ำ"
@@ -5216,11 +5337,11 @@ msgstr "ลายน้ำ"
 msgid "WHT Amount (ภาษีหัก ณ ที่จ่าย)"
 msgstr "จำนวนภาษีหัก ณ ที่จ่าย (WHT Amount)"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:609
+#: print_designer/public/js/delivery_note/delivery_approval.js:771
 msgid "WHT Amount: "
 msgstr "จำนวนภาษีหัก ณ ที่จ่าย:"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:527
+#: print_designer/public/js/delivery_note/delivery_approval.js:679
 msgid "WHT Calculation: {0} × {1}% = {2}"
 msgstr "การคำนวณภาษีหัก ณ ที่จ่าย: {0} × {1}% = {2}"
 
@@ -5237,7 +5358,7 @@ msgstr "การคำนวณภาษีหัก ณ ที่จ่าย:
 msgid "WHT Certificate"
 msgstr "ใบรับรองภาษีหัก ณ ที่จ่าย"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:567
+#: print_designer/public/js/delivery_note/delivery_approval.js:725
 msgid "WHT Certificate Generated"
 msgstr "ใบรับรองภาษีหัก ณ ที่จ่ายถูกสร้างแล้ว"
 
@@ -5255,11 +5376,11 @@ msgstr "ตัวอย่างใบรับรองภาษีหัก �
 msgid "WHT Certificate Register"
 msgstr "ทะเบียนใบรับรองภาษีหัก ณ ที่จ่าย"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:602
+#: print_designer/public/js/delivery_note/delivery_approval.js:764
 msgid "WHT Certificate: Generated"
 msgstr "ใบรับรองภาษีหัก ณ ที่จ่าย: สร้างเรียบร้อยแล้ว"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:604
+#: print_designer/public/js/delivery_note/delivery_approval.js:766
 msgid "WHT Certificate: Pending"
 msgstr "ใบรับรองภาษี ณ ที่จ่าย: รอการอนุมัติ"
 
@@ -5276,17 +5397,17 @@ msgstr "เงื่อนไขการหักภาษี ณ ที่จ�
 msgid "WHT Configuration Updated"
 msgstr "การตั้งค่าภาษีหัก ณ ที่จ่ายได้รับการอัปเดตแล้ว"
 
-#: print_designer/commands/install_item_wht_fields.py:16
+#: print_designer/commands/install_item_wht_fields.py:31
 msgid "WHT Income Type"
 msgstr "ประเภทรายได้ภาษีหัก ณ ที่จ่าย"
 
-#: print_designer/regional/purchase_order_wht_override.py:179
+#: print_designer/regional/purchase_order_wht_override.py:282
 msgid "WHT Income Type is required when Subject to Withholding Tax is enabled"
 msgstr ""
 "ประเภทรายได้ภาษีหัก ณ ที่จ่ายเป็นข้อมูลที่จำเป็นเมื่อเปิดใช้งานการหักภาษี ณ "
 "ที่จ่าย"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:643
+#: print_designer/regional/purchase_invoice_wht_override.py:826
 msgid ""
 "WHT Income Type is required when Subject to Withholding Tax is enabled for "
 "cash purchases"
@@ -5294,11 +5415,11 @@ msgstr ""
 "ประเภทรายได้ภาษีหัก ณ ที่จ่ายเป็นข้อมูลที่จำเป็นเมื่อเปิดใช้งานการหักภาษี ณ "
 "ที่จ่ายสำหรับการซื้อเงินสด"
 
-#: print_designer/custom/sales_invoice_calculations.py:327
+#: print_designer/custom/sales_invoice_calculations.py:373
 msgid "WHT Information"
 msgstr "ข้อมูลภาษีหัก ณ ที่จ่าย"
 
-#: print_designer/custom/sales_invoice_calculations.py:439
+#: print_designer/custom/sales_invoice_calculations.py:485
 msgid "WHT Preview Updated"
 msgstr "การแสดงตัวอย่าง ภาษีหัก ณ ที่จ่าย ได้รับการปรับปรุงแล้ว"
 
@@ -5324,14 +5445,18 @@ msgstr ""
 "ใบรับรองภาษีหัก ณ "
 "ที่จ่ายสามารถสร้างได้เฉพาะสำหรับการชำระเงินให้แก่ผู้จำหน่ายเท่านั้น"
 
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:425
-#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:301
+#: print_designer/commands/install_thai_wht_income_type.py:77
+msgid "WHT data CSV file not found at: {0}"
+msgstr "ไม่พบไฟล์ข้อมูล WHT CSV ที่: {0}"
+
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_invoice.js:437
+#: print_designer/public/js/thailand_wht/thailand_wht_purchase_order.js:312
 msgid "WHT settings cleared as no WHT items remain"
 msgstr ""
 "การตั้งค่า ภาษีหัก ณ ที่จ่าย ถูกล้างเนื่องจากไม่มีรายการภาษีหัก ณ "
 "ที่จ่ายเหลืออยู่"
 
-#: print_designer/public/js/delivery_note/delivery_approval.js:402
+#: print_designer/public/js/delivery_note/delivery_approval.js:565
 msgid "Waiting for customer approval via QR code"
 msgstr "รอการอนุมัติจากลูกค้าผ่านรหัส QR"
 
@@ -5347,6 +5472,14 @@ msgstr ""
 "คำเตือน: "
 "ไม่มีใบกำกับภาษีขายในรายการชำระเงินนี้ที่ถูกระบุว่าเป็นรายการหักภาษี ณ "
 "ที่จ่าย"
+
+#: print_designer/custom/delivery_note.py:47
+msgid ""
+"Warning: QR code generation failed. You can regenerate it later using "
+"'Generate QR Code' button. Error: {0}"
+msgstr ""
+"คำเตือน: การสร้างรหัส QR ล้มเหลว คุณสามารถสร้างใหม่ได้ภายหลังโดยใช้ปุ่ม "
+"'สร้างรหัส QR' ข้อผิดพลาด: {0}"
 
 #: print_designer/print_designer/doctype/company_retention_settings/company_retention_settings.py:40
 msgid "Warning: Retention Account should typically be a Liability account"
@@ -5364,7 +5497,7 @@ msgid ""
 msgstr ""
 "คำเตือน: ยอดหักรวมเกินจำนวนใบเสนอราคา จำนวนเงินชำระถูกตั้งค่าเป็นศูนย์"
 
-#: print_designer/custom/sales_invoice_calculations.py:219
+#: print_designer/custom/sales_invoice_calculations.py:265
 msgid ""
 "Warning: Total deductions exceed sales invoice amount. Payment amount set to"
 " zero."
@@ -5393,14 +5526,14 @@ msgstr "การตั้งค่าน้ำหมึกลายน้ำ"
 msgid "Watermark Error"
 msgstr "ข้อผิดพลาดลายน้ำ"
 
-#: print_designer/install.py:295 print_designer/install.py:1098
-#: print_designer/install.py:1239
+#: print_designer/install.py:297 print_designer/install.py:1113
+#: print_designer/install.py:1254
 #: print_designer/overrides/erpnext_install.py:137
 msgid "Watermark Font Family"
 msgstr "ครอบครัวแบบอักษรลายน้ำ"
 
-#: print_designer/install.py:272 print_designer/install.py:1079
-#: print_designer/install.py:1220
+#: print_designer/install.py:274 print_designer/install.py:1094
+#: print_designer/install.py:1235
 #: print_designer/overrides/erpnext_install.py:118
 msgid "Watermark Font Size"
 msgstr "ขนาดตัวอักษรลายน้ำ"
@@ -5413,15 +5546,15 @@ msgstr "ขนาดตัวอักษรลายน้ำ"
 msgid "Watermark Mode"
 msgstr "โหมดลายน้ำ"
 
-#: print_designer/install.py:283 print_designer/install.py:1088
-#: print_designer/install.py:1229
+#: print_designer/install.py:285 print_designer/install.py:1103
+#: print_designer/install.py:1244
 #: print_designer/overrides/erpnext_install.py:127
 msgid "Watermark Position"
 msgstr "ตำแหน่งลายน้ำ"
 
 #. Name of a DocType
-#: print_designer/install.py:254 print_designer/install.py:1061
-#: print_designer/install.py:1202
+#: print_designer/install.py:256 print_designer/install.py:1076
+#: print_designer/install.py:1217
 #: print_designer/overrides/erpnext_install.py:100
 #: print_designer/print_designer/doctype/watermark_settings/watermark_settings.json
 #: print_designer/public/js/print_watermark.bundle.js:76
@@ -5461,8 +5594,8 @@ msgstr ""
 "ตัวเลือกลายน้ำ: โหมดพื้นฐาน (ไม่มี, ต้นฉบับ, สำเนา, ลำดับ) "
 "หรือแม่แบบที่กำหนดเองจาก การตั้งค่าลายน้ำ"
 
-#: print_designer/install.py:261 print_designer/install.py:1068
-#: print_designer/install.py:1209
+#: print_designer/install.py:263 print_designer/install.py:1083
+#: print_designer/install.py:1224
 #: print_designer/overrides/erpnext_install.py:107
 msgid "Watermark per Page"
 msgstr "ลายน้ำต่อหน้า"
@@ -5540,7 +5673,7 @@ msgstr "ภาษีหัก ณ ที่จ่าย ที่ใช้ใน
 msgid "Withholding Tax for Payment Entry {0}"
 msgstr "ภาษีหัก ณ ที่จ่าย สำหรับ รายการชำระเงิน {0}"
 
-#: print_designer/regional/purchase_order_wht_override.py:195
+#: print_designer/regional/purchase_order_wht_override.py:298
 msgid ""
 "Withholding Tax percentage is required. Please set either in this document "
 "or configure a default rate in Company settings."
@@ -5549,7 +5682,7 @@ msgstr ""
 "กรุณาตั้งค่าในเอกสารนี้หรือกำหนดอัตราเริ่มต้นในการตั้งค่า บริษัท"
 
 #: print_designer/custom/quotation_calculations.py:186
-#: print_designer/custom/sales_invoice_calculations.py:288
+#: print_designer/custom/sales_invoice_calculations.py:334
 msgid "Withholding tax amount cannot exceed net total"
 msgstr "จำนวนภาษีหัก ณ ที่จ่ายต้องไม่เกินยอดสุทธิ"
 
@@ -5620,7 +5753,7 @@ msgstr "ในส่วนหัว"
 msgid "in table, auto layout failed"
 msgstr "ในตาราง การจัดวางอัตโนมัติล้มเหลว"
 
-#: print_designer/overrides/company.py:99
+#: print_designer/overrides/company.py:107
 msgid "thai_business_suite not available - Using basic CSV import"
 msgstr "thai_business_suite ไม่พร้อมใช้งาน - กำลังใช้การนำเข้า CSV พื้นฐาน"
 
@@ -5635,16 +5768,6 @@ msgstr "{0} ต้องเป็นประเภท: {1}"
 #: print_designer/custom/payment_entry_retention.py:798
 msgid "{0} must belong to the same company as the payment"
 msgstr "{0} ต้องเป็นของบริษัทเดียวกับการชำระเงิน"
-
-#. Count format of shortcut in the Billing Workspace
-#: print_designer/print_designer/workspace/billing/billing.json
-msgid "{} Active"
-msgstr "{} สะวด"
-
-#. Count format of shortcut in the Billing Workspace
-#: print_designer/print_designer/workspace/billing/billing.json
-msgid "{} Draft"
-msgstr "{} ฉบับร่าง"
 
 #. Description of the 'WHT Amount (ภาษีหัก ณ ที่จ่าย)' (Currency) field in
 #. DocType 'Withholding Tax Certificate'
@@ -5720,13 +5843,20 @@ msgstr "วันที่ส่งให้กรมสรรพากร"
 msgid "เลขประจำตัวผู้เสียภาษี"
 msgstr "เลขประจำตัวผู้เสียภาษี"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:816
+#: print_designer/regional/purchase_invoice_wht_override.py:1017
 msgid "✅ Thai tax compliance validated: Supplier invoice details recorded"
 msgstr ""
 "✅ การตรวจสอบความถูกต้องตามภาษีไทย: "
 "รายละเอียดใบกำกับภาษีผู้จำหน่ายถูกบันทึกแล้ว"
 
-#: print_designer/regional/purchase_invoice_wht_override.py:771
+#: print_designer/public/js/delivery_note/delivery_approval.js:518
+msgid ""
+"📱 Customer QR approval code is ready. Click 'Show QR Code' button to view."
+msgstr ""
+"📱 รหัสอนุมัติ QR ของลูกค้าพร้อมใช้งานแล้ว คลิกปุ่ม 'แสดงรหัส QR' "
+"เพื่อดูข้อมูล"
+
+#: print_designer/regional/purchase_invoice_wht_override.py:965
 msgid "🔓 บิลเงินสด: Fields unlocked - Supplier invoice details are optional"
 msgstr ""
 "🔓 บิลเงินสด: ปลดล็อกฟิลด์แล้ว - รายละเอียดใบแจ้งหนี้ผู้จำหน่ายเป็นทางเลือก"
