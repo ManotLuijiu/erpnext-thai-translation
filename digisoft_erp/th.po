@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
-"POT-Creation-Date: 2026-01-17 15:24+0642\n"
-"PO-Revision-Date: 2026-01-17 15:40\n"
+"POT-Creation-Date: 2026-02-05 06:01+0642\n"
+"PO-Revision-Date: 2026-02-05 16:38\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
 "MIME-Version: 1.0\n"
@@ -1750,6 +1750,16 @@ msgstr "DGS ไทย ภาษีมูลค่าเพิ่มการซ�
 #: digisoft_erp/digisoft_erp/doctype/dgs_thai_sales_vat/dgs_thai_sales_vat.json
 msgid "DGS Thai Sales VAT"
 msgstr "DGS การขาย VAT ภาษาไทย"
+
+#. Label of a shortcut in the Digisoft ERP Workspace
+#: digisoft_erp/digisoft_erp/workspace/digisoft_erp/digisoft_erp.json
+msgid "DGS Thai VAT"
+msgstr "ภาษีมูลค่าเพิ่ม"
+
+#. Label of a Link in the Digisoft ERP Workspace
+#: digisoft_erp/digisoft_erp/workspace/digisoft_erp/digisoft_erp.json
+msgid "DGS Thai VAT Dashboard"
+msgstr "กระดานข้อมูล ภาษีมูลค่าเพิ่ม"
 
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.js:179
 #: digisoft_erp/digisoft_erp/report/thai_pos_invoice_balance/thai_pos_invoice_balance.js:242
