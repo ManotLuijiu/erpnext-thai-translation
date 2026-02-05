@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2026-02-05 05:58+0642\n"
-"PO-Revision-Date: 2026-02-05 13:04\n"
+"PO-Revision-Date: 2026-02-05 14:50\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -23130,7 +23130,7 @@ msgstr "หมายเลขทะเบียนรถ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Playground"
-msgstr "สนามทดลอง"
+msgstr "พื้นที่ทดสอบ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
