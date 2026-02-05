@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2026-02-05 05:45+0642\n"
-"PO-Revision-Date: 2026-02-05 14:45\n"
+"PO-Revision-Date: 2026-02-05 14:46\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -2564,7 +2564,7 @@ msgstr "App"
 #. Label of a Data field in DocType 'Dropbox Settings'
 #: frappe/integrations/doctype/dropbox_settings/dropbox_settings.json
 msgid "App Access Key"
-msgstr "App คีย์"
+msgstr "App Access Key"
 
 #: frappe/integrations/doctype/dropbox_settings/dropbox_settings.js:22
 msgid "App Access Key and/or Secret Key are not present."
@@ -23867,7 +23867,7 @@ msgstr ""
 #: frappe/public/js/print_format_builder/store.js:36
 #: frappe/public/js/workflow_builder/store.js:73
 msgid "Saving..."
-msgstr "ประหยัด..."
+msgstr "กำลังบันทึก..."
 
 #: frappe/public/js/frappe/scanner/index.js:72
 msgid "Scan QRCode"
