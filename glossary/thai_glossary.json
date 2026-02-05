@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 79,
-  "last_updated": "2026-01-29T00:47:54.840146",
+  "terms_count": 80,
+  "last_updated": "2026-02-05T13:43:29.037234",
   "terms": {
     "1 Google Calendar Event synced.": {
       "translation": "ซิงค์ 1 กิจกรรมบนปฏิทิน Google",
@@ -71,6 +71,13 @@
       "translation": "ให้เซิร์ฟเวอร์เลือกเครื่องมือที่ดีที่สุดโดยอัตโนมัติ ",
       "context": "Server select tools how to generate form/report",
       "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "BE": {
+      "translation": "พ.ศ.",
+      "context": "BE Using for Buddhism Era or พ.ศ. in Thai language",
+      "category": "Date/Time",
       "module": "",
       "is_approved": 1
     },
