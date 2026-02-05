@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe CRM VERSION\n"
 "Report-Msgid-Bugs-To: shariq@frappe.io\n"
-"POT-Creation-Date: 2026-02-05 05:59+0642\n"
-"PO-Revision-Date: 2026-02-05 14:26\n"
+"POT-Creation-Date: 2026-02-05 19:11+0642\n"
+"PO-Revision-Date: 2026-02-05 19:27\n"
 "Last-Translator: shariq@frappe.io\n"
 "Language-Team: shariq@frappe.io\n"
 "Language: th\n"
@@ -147,7 +147,7 @@ msgstr ""
 msgid "<span class=\"h5\"><b>PORTAL</b></span>"
 msgstr "<span class=\"h5\"><b>พอร์ทัล</b></span>"
 
-#: frontend/src/components/CommunicationArea.vue:80
+#: frontend/src/components/CommunicationArea.vue:81
 msgid "@John, can you please check this?"
 msgstr "@John, ช่วยตรวจสอบหน่อยได้ไหมครับ?"
 
@@ -169,10 +169,6 @@ msgstr ""
 #: crm/templates/emails/helpdesk_invitation.html:5
 msgid "A new account has been created for you at {0}"
 msgstr "การบัญชีที่ของค์สินทรัพย์องมีนี่สุดเข้าถึงชา {0}"
-
-#: crm/fcrm/doctype/crm_call_log/crm_call_log.py:242
-msgid "A valid call log is required."
-msgstr "จําเป็นต้องมีบันทึกการโทรที่ถูกต้อง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -302,7 +298,7 @@ msgid "Actions"
 msgstr "การดำเนินการ"
 
 #: frontend/src/pages/Deal.vue:543 frontend/src/pages/Lead.vue:389
-#: frontend/src/pages/MobileDeal.vue:432 frontend/src/pages/MobileLead.vue:337
+#: frontend/src/pages/MobileDeal.vue:432 frontend/src/pages/MobileLead.vue:341
 msgid "Activity"
 msgstr "กิจกรรม"
 
@@ -469,7 +465,7 @@ msgstr "เพิ่มเป้าหมายเวลารอบๆ จุ�
 msgid "Add to holidays"
 msgstr "เพิ่มไปยังวันหยุด"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:437
+#: frontend/src/components/Layouts/AppSidebar.vue:436
 msgid "Add your first comment"
 msgstr "เพิ่มความคิดเห็นแรกของคุณ"
 
@@ -494,8 +490,8 @@ msgstr "ที่อยู่"
 #: frontend/src/components/Settings/Users.vue:82
 #: frontend/src/components/Settings/Users.vue:122
 #: frontend/src/components/Settings/Users.vue:189
-#: frontend/src/components/Settings/Users.vue:237
-#: frontend/src/components/Settings/Users.vue:240
+#: frontend/src/components/Settings/Users.vue:239
+#: frontend/src/components/Settings/Users.vue:242
 msgid "Admin"
 msgstr "ผู้ดูแลระบบ"
 
@@ -518,7 +514,16 @@ msgstr "ตัวแทนไม่พร้อมรับสาย กรุ�
 msgid "Agriculture"
 msgstr "เบิยราค"
 
-#: frontend/src/components/Notifications.vue:115
+#. Name of a role
+#: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.json
+#: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
+#: crm/fcrm/doctype/crm_form_script/crm_form_script.json
+#: crm/fcrm/doctype/crm_industry/crm_industry.json
+#: crm/fcrm/doctype/crm_lead/crm_lead.json
+#: crm/fcrm/doctype/crm_lead_source/crm_lead_source.json
+#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
+#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
+#: frontend/src/components/Notifications.vue:114
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:72
 #: frontend/src/components/Settings/Users.vue:81
 msgid "All"
@@ -591,8 +596,8 @@ msgstr "และ"
 msgid "Annual revenue"
 msgstr "รายได้ประจำปี"
 
-#: frontend/src/components/Modals/DealModal.vue:199
-#: frontend/src/components/Modals/LeadModal.vue:142
+#: frontend/src/components/Modals/DealModal.vue:202
+#: frontend/src/components/Modals/LeadModal.vue:143
 msgid "Annual revenue should be a number"
 msgstr "รายได้ประจำปีควรเป็นตัวเลข"
 
@@ -714,7 +719,7 @@ msgstr "เงื่อนไขการกำหนดไม่ถูกต้
 
 #: frontend/src/components/AssignTo.vue:11
 #: frontend/src/components/AssignToBody.vue:5
-#: frontend/src/components/ListBulkActions.vue:187
+#: frontend/src/components/ListBulkActions.vue:186
 #: frontend/src/components/Modals/AssignmentModal.vue:4
 msgid "Assign to"
 msgstr "กำหนดให้กับ"
@@ -761,7 +766,7 @@ msgstr "เขตรับผิด"
 msgid "Assignment Rule"
 msgstr "เขตรับผิดชอบ"
 
-#: frontend/src/components/ListBulkActions.vue:155
+#: frontend/src/components/ListBulkActions.vue:154
 msgid "Assignment cleared successfully"
 msgstr "การมอบหมายถูกล้างเรียบร้อยแล้ว"
 
@@ -782,7 +787,7 @@ msgstr ""
 msgid "Assignment days are required"
 msgstr "จำเป็นต้องระบุวันมอบหมายงาน"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:580
+#: frontend/src/components/Layouts/AppSidebar.vue:579
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRulesList.vue:16
 msgid "Assignment rule"
 msgstr "เขตรับผิดชอบ"
@@ -851,7 +856,7 @@ msgid "Attach a file"
 msgstr "แนบไฟล์"
 
 #: frontend/src/pages/Deal.vue:583 frontend/src/pages/Lead.vue:429
-#: frontend/src/pages/MobileDeal.vue:468 frontend/src/pages/MobileLead.vue:372
+#: frontend/src/pages/MobileDeal.vue:468 frontend/src/pages/MobileLead.vue:376
 msgid "Attachments"
 msgstr "ไฟล์แนบ"
 
@@ -1331,13 +1336,9 @@ msgstr "รายละเอียดการโทร"
 msgid "Call duration in seconds"
 msgstr "ระยะเวลาการโทรเป็นวินาที"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:554
+#: frontend/src/components/Layouts/AppSidebar.vue:553
 msgid "Call log"
 msgstr "บันทึกการโทร"
-
-#: crm/integrations/twilio/api.py:144 crm/integrations/twilio/api.py:162
-msgid "Call log not found"
-msgstr "ไม่พบบันทึกการโทร"
 
 #. Label of a Link field in DocType 'CRM Call Log'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
@@ -1369,7 +1370,7 @@ msgid "Calling..."
 msgstr "กำลังโทร..."
 
 #: frontend/src/pages/Deal.vue:568 frontend/src/pages/Lead.vue:414
-#: frontend/src/pages/MobileDeal.vue:452 frontend/src/pages/MobileLead.vue:357
+#: frontend/src/pages/MobileDeal.vue:452 frontend/src/pages/MobileLead.vue:361
 msgid "Calls"
 msgstr "การโทร"
 
@@ -1417,15 +1418,11 @@ msgstr "ไม่สามารถลบรายการมาตรฐาน
 msgid "Cannot enable rule without adding users in it"
 msgstr "ไม่สามารถเปิดใช้งานกฎได้โดยไม่เพิ่มผู้ใช้ในนั้น"
 
-#: crm/api/__init__.py:105
-msgid "Cannot invite for this role"
-msgstr "ไม่สามารถเชิญสำหรับบทบาทนี้ได้"
-
 #: frontend/src/components/FilesUploader/FilesUploader.vue:91
 msgid "Capture"
 msgstr "จับภาพ"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:559
+#: frontend/src/components/Layouts/AppSidebar.vue:558
 msgid "Capturing leads"
 msgstr "บันทึกโอกาสทางธุรกิจ"
 
@@ -1440,12 +1437,12 @@ msgid "Category"
 msgstr "หมวดหมู่"
 
 #: frontend/src/components/Controls/ImageUploader.vue:19
-#: frontend/src/components/Layouts/AppSidebar.vue:488
+#: frontend/src/components/Layouts/AppSidebar.vue:487
 msgid "Change"
 msgstr "เปลี่ยนแปลง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:479
-#: frontend/src/components/Layouts/AppSidebar.vue:487
+#: frontend/src/components/Layouts/AppSidebar.vue:478
+#: frontend/src/components/Layouts/AppSidebar.vue:486
 msgid "Change deal status"
 msgstr "เปลี่ยนสถานะดีล"
 
@@ -1537,9 +1534,9 @@ msgstr "ตารางที่ชัดเจน"
 msgid "Clear all filter"
 msgstr "ล้างตัวกรองทั้งหมด"
 
-#: frontend/src/components/ListBulkActions.vue:137
-#: frontend/src/components/ListBulkActions.vue:145
-#: frontend/src/components/ListBulkActions.vue:191
+#: frontend/src/components/ListBulkActions.vue:136
+#: frontend/src/components/ListBulkActions.vue:144
+#: frontend/src/components/ListBulkActions.vue:190
 msgid "Clear assignment"
 msgstr "ล้างการมอบหมายงาน"
 
@@ -1611,13 +1608,13 @@ msgstr "คอลัมน์"
 #. Label of a Link field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
 #: frontend/src/components/CommentBox.vue:78
-#: frontend/src/components/CommunicationArea.vue:15
-#: frontend/src/components/Layouts/AppSidebar.vue:577
+#: frontend/src/components/CommunicationArea.vue:16
+#: frontend/src/components/Layouts/AppSidebar.vue:576
 msgid "Comment"
 msgstr "คิดเห็น"
 
 #: frontend/src/pages/Deal.vue:553 frontend/src/pages/Lead.vue:399
-#: frontend/src/pages/MobileDeal.vue:442 frontend/src/pages/MobileLead.vue:347
+#: frontend/src/pages/MobileDeal.vue:442 frontend/src/pages/MobileLead.vue:351
 msgid "Comments"
 msgstr "ความคิดเห็น"
 
@@ -1744,7 +1741,7 @@ msgstr "เชื่อมต่ออีเมลของคุณ"
 #. Label of a Link field in DocType 'CRM Deal'
 #: crm/fcrm/doctype/crm_contacts/crm_contacts.json
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
-#: frontend/src/components/Layouts/AppSidebar.vue:550
+#: frontend/src/components/Layouts/AppSidebar.vue:549
 #: frontend/src/components/Modals/ConvertToDealModal.vue:51
 #: frontend/src/pages/MobileLead.vue:149
 msgid "Contact"
@@ -1823,20 +1820,20 @@ msgstr "จำเป็นต้องกรอกเนื้อหา"
 msgid "Content type"
 msgstr "ประเภทเนื้อหา"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:378
-#: frontend/src/components/ListBulkActions.vue:89
+#: frontend/src/components/Layouts/AppSidebar.vue:377
+#: frontend/src/components/ListBulkActions.vue:88
 #: frontend/src/components/Modals/ConvertToDealModal.vue:83
 #: frontend/src/pages/MobileLead.vue:54 frontend/src/pages/MobileLead.vue:112
 msgid "Convert"
 msgstr "แปลง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:369
-#: frontend/src/components/Layouts/AppSidebar.vue:377
+#: frontend/src/components/Layouts/AppSidebar.vue:368
+#: frontend/src/components/Layouts/AppSidebar.vue:376
 msgid "Convert lead to deal"
 msgstr "เปลี่ยนโอกาสเป็นข้อตกลง"
 
-#: frontend/src/components/ListBulkActions.vue:81
-#: frontend/src/components/ListBulkActions.vue:198
+#: frontend/src/components/ListBulkActions.vue:80
+#: frontend/src/components/ListBulkActions.vue:197
 #: frontend/src/components/Modals/ConvertToDealModal.vue:7
 #: frontend/src/pages/Lead.vue:38 frontend/src/pages/MobileLead.vue:108
 msgid "Convert to deal"
@@ -1847,7 +1844,7 @@ msgstr "แปลงเป็นดีล"
 msgid "Converted"
 msgstr "แปลงแล้ว"
 
-#: frontend/src/components/ListBulkActions.vue:97
+#: frontend/src/components/ListBulkActions.vue:96
 msgid "Converted successfully"
 msgstr "แปลงเรียบร้อยแล้ว"
 
@@ -1861,10 +1858,10 @@ msgid "Count"
 msgstr "จำนวน"
 
 #: frontend/src/components/Modals/AddressModal.vue:98
-#: frontend/src/components/Modals/CallLogModal.vue:102
+#: frontend/src/components/Modals/CallLogModal.vue:101
 #: frontend/src/components/Modals/ContactModal.vue:41
 #: frontend/src/components/Modals/CreateDocumentModal.vue:92
-#: frontend/src/components/Modals/DealModal.vue:65
+#: frontend/src/components/Modals/DealModal.vue:66
 #: frontend/src/components/Modals/EmailTemplateSelectorModal.vue:20
 #: frontend/src/components/Modals/EventModal.vue:215
 #: frontend/src/components/Modals/LeadModal.vue:37
@@ -1929,15 +1926,15 @@ msgstr "สร้างงาน"
 msgid "Create view"
 msgstr "สร้างมุมมอง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:347
+#: frontend/src/components/Layouts/AppSidebar.vue:346
 msgid "Create your first lead"
 msgstr "สร้างโอกาสทางธุรกิจแรกของคุณ"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:417
+#: frontend/src/components/Layouts/AppSidebar.vue:416
 msgid "Create your first note"
 msgstr "สร้างบันทึกแรกของคุณ"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:397
+#: frontend/src/components/Layouts/AppSidebar.vue:396
 msgid "Create your first task"
 msgstr "สร้างงานแรกของคุณ"
 
@@ -1983,23 +1980,23 @@ msgstr "ตั้งสกุลเงินเป็น {0} เรียบร�
 msgid "Current pipeline distribution"
 msgstr "การกระจายสายงานปัจจุบัน"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:589
+#: frontend/src/components/Layouts/AppSidebar.vue:588
 msgid "Custom actions"
 msgstr "การดำเนินการที่กำหนดเอง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:539
+#: frontend/src/components/Layouts/AppSidebar.vue:538
 msgid "Custom branding"
 msgstr "การสร้างแบรนด์แบบกำหนดเอง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:588
+#: frontend/src/components/Layouts/AppSidebar.vue:587
 msgid "Custom fields"
 msgstr "ฟิลด์กำหนดเอง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:591
+#: frontend/src/components/Layouts/AppSidebar.vue:590
 msgid "Custom list actions"
 msgstr "รายการคำสั่งที่กำหนดเอง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:590
+#: frontend/src/components/Layouts/AppSidebar.vue:589
 msgid "Custom statuses"
 msgstr "สถานะที่กำหนดเอง"
 
@@ -2012,7 +2009,7 @@ msgstr "ลูกค้า"
 msgid "Customer created successfully"
 msgstr "สร้างลูกค้าเรียบร้อยแล้ว"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:585
+#: frontend/src/components/Layouts/AppSidebar.vue:584
 #: frontend/src/components/Settings/Settings.vue:185
 msgid "Customization"
 msgstr "การปรับแต่ง"
@@ -2036,9 +2033,9 @@ msgid "Daily performance of leads, deals, and wins"
 msgstr "ผลการดำเนินงานรายวันของโอกาสขาย ข้อตกลง และการชนะ"
 
 #: frontend/src/components/Activities/DataFields.vue:6
-#: frontend/src/components/Layouts/AppSidebar.vue:578
+#: frontend/src/components/Layouts/AppSidebar.vue:577
 #: frontend/src/pages/Deal.vue:558 frontend/src/pages/Lead.vue:404
-#: frontend/src/pages/MobileDeal.vue:447 frontend/src/pages/MobileLead.vue:352
+#: frontend/src/pages/MobileDeal.vue:447 frontend/src/pages/MobileLead.vue:356
 msgid "Data"
 msgstr "ข้อมูล"
 
@@ -2071,7 +2068,7 @@ msgid "Day"
 msgstr "วัน"
 
 #: frontend/src/components/Calendar/CalendarEventPanel.vue:423
-#: frontend/src/components/Layouts/AppSidebar.vue:549
+#: frontend/src/components/Layouts/AppSidebar.vue:548
 #: frontend/src/components/Settings/AssignmentRules/AssigneeRules.vue:20
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:51
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:59
@@ -2251,7 +2248,7 @@ msgstr "มุมมองเริ่มต้น"
 #: frontend/src/components/DeleteLinkedDocModal.vue:10
 #: frontend/src/components/DeleteLinkedDocModal.vue:90
 #: frontend/src/components/Kanban/KanbanView.vue:222
-#: frontend/src/components/ListBulkActions.vue:180
+#: frontend/src/components/ListBulkActions.vue:179
 #: frontend/src/components/Modals/EventModal.vue:476
 #: frontend/src/components/Modals/EventModal.vue:480
 #: frontend/src/components/PrimaryDropdownItem.vue:42
@@ -2353,7 +2350,7 @@ msgstr "คำอธิบาย"
 msgid "Description is required"
 msgstr "จำเป็นต้องระบุคำอธิบาย"
 
-#: frontend/src/components/Apps.vue:61
+#: frontend/src/components/Apps.vue:63
 msgid "Desk"
 msgstr "โต๊ะทำงาน"
 
@@ -2363,7 +2360,7 @@ msgstr "โต๊ะทำงาน"
 #: crm/fcrm/doctype/crm_lead_source/crm_lead_source.json
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:131
 #: frontend/src/pages/MobileContact.vue:292
-#: frontend/src/pages/MobileDeal.vue:426 frontend/src/pages/MobileLead.vue:331
+#: frontend/src/pages/MobileDeal.vue:426 frontend/src/pages/MobileLead.vue:335
 #: frontend/src/pages/MobileOrganization.vue:335
 msgid "Details"
 msgstr "รายละเอียด"
@@ -2528,7 +2525,7 @@ msgstr "ระยะเวลา"
 msgid "E-Bike"
 msgstr "E-Bike"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:602
+#: frontend/src/components/Layouts/AppSidebar.vue:601
 #: frontend/src/components/Settings/Settings.vue:211
 msgid "ERPNext"
 msgstr "ERPNext"
@@ -2568,7 +2565,7 @@ msgstr "URL สิทร ERPNext"
 #: frontend/src/components/FieldLayout/Field.vue:91
 #: frontend/src/components/FieldLayoutEditor.vue:313
 #: frontend/src/components/FieldLayoutEditor.vue:339
-#: frontend/src/components/ListBulkActions.vue:173
+#: frontend/src/components/ListBulkActions.vue:172
 #: frontend/src/components/PrimaryDropdownItem.vue:35
 #: frontend/src/components/Settings/Sla/SlaHolidays.vue:202
 #: frontend/src/components/Settings/Sla/SlaPriorityList.vue:201
@@ -2582,7 +2579,7 @@ msgid "Edit an event"
 msgstr "แก้ไขกิจกรรม"
 
 #: frontend/src/components/Modals/CallLogDetailModal.vue:39
-#: frontend/src/components/Modals/CallLogModal.vue:98
+#: frontend/src/components/Modals/CallLogModal.vue:97
 msgid "Edit call log"
 msgstr "แก้ไขบันทึกการโทร"
 
@@ -2699,7 +2696,7 @@ msgstr "อัปเดตบัญชีอีเมลเรียบร้อ
 msgid "Email accounts"
 msgstr "บัญชีอีเมล"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:576
+#: frontend/src/components/Layouts/AppSidebar.vue:575
 msgid "Email communication"
 msgstr "การสื่อสารทางอีเมล"
 
@@ -2716,7 +2713,7 @@ msgstr "อีเมลส่งเมื่อ"
 msgid "Email settings"
 msgstr "การตั้งค่าอีเมล"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:555
+#: frontend/src/components/Layouts/AppSidebar.vue:554
 msgid "Email template"
 msgstr "เทมเพลตอีเมล"
 
@@ -2727,7 +2724,7 @@ msgid "Email templates"
 msgstr "เทมเพลตอีเมล"
 
 #: frontend/src/pages/Deal.vue:548 frontend/src/pages/Lead.vue:394
-#: frontend/src/pages/MobileDeal.vue:437 frontend/src/pages/MobileLead.vue:342
+#: frontend/src/pages/MobileDeal.vue:437 frontend/src/pages/MobileLead.vue:346
 msgid "Emails"
 msgstr "อีเมล"
 
@@ -2887,17 +2884,13 @@ msgstr "กรอก {0}"
 msgid "Equals"
 msgstr "เท่ากับ"
 
-#: frontend/src/components/Modals/ConvertToDealModal.vue:176
+#: frontend/src/components/Modals/ConvertToDealModal.vue:177
 msgid "Error converting to deal: {0}"
 msgstr "เกิดข้อผิดพลาดในการแปลงเป็นดีล: {0}"
 
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSourceForm.vue:224
 msgid "Error creating lead sync source"
 msgstr "เกิดข้อผิดพลาดในการสร้างแหล่งข้อมูลซิงค์ลูกค้าเป้าหมาย"
-
-#: frontend/src/components/Modals/CallLogDetailModal.vue:315
-msgid "Error creating lead: {0}"
-msgstr "เกิดข้อผิดพลาดในการสร้างโอกาสทางธุรกิจ: {0}"
 
 #: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:100
 msgid "Error syncing lead"
@@ -2912,11 +2905,11 @@ msgid "Error updating Lead sync source"
 msgstr "ข้อผิดพลาดในการอัปเดตแหล่งที่มาของการซิงค์ลูกค้าเป้าหมาย"
 
 #: frontend/src/pages/Deal.vue:747 frontend/src/pages/Lead.vue:474
-#: frontend/src/pages/MobileDeal.vue:614 frontend/src/pages/MobileLead.vue:412
+#: frontend/src/pages/MobileDeal.vue:614 frontend/src/pages/MobileLead.vue:416
 msgid "Error updating field"
 msgstr "ข้อผิดพลาดในการอัปเดตฟิลด์"
 
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:300
+#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:297
 msgid ""
 "Error while creating customer in ERPNext, check error log for more details"
 msgstr ""
@@ -2988,7 +2981,7 @@ msgstr "การแจ้งเตือนกิจกรรม"
 msgid "Event title"
 msgstr "หัวข้อกิจกรรม"
 
-#: frontend/src/components/Notifications.vue:116
+#: frontend/src/components/Notifications.vue:115
 #: frontend/src/pages/Deal.vue:563 frontend/src/pages/Lead.vue:409
 msgid "Events"
 msgstr "เหตุการณ์"
@@ -3048,7 +3041,7 @@ msgstr "ลูกค้าปัจจุบัน"
 #. Agent'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 #: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
-#: frontend/src/components/Layouts/AppSidebar.vue:600
+#: frontend/src/components/Layouts/AppSidebar.vue:599
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:50
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:99
 msgid "Exotel"
@@ -3210,15 +3203,11 @@ msgstr "ล้มเหลว"
 msgid "Failed Lead Sync Log"
 msgstr "บันทึกการซิงค์ลีดล้มเหลว"
 
-#: frontend/src/components/Activities/WhatsAppArea.vue:243
-msgid "Failed to add reaction to the message"
-msgstr "ไม่สามารถเพิ่มปฏิกิริยาต่อข้อความได้"
-
 #: frontend/src/components/Modals/AddExistingUserModal.vue:111
 msgid "Failed to add users"
 msgstr "ไม่สามารถเพิ่มผู้ใช้ได้"
 
-#: crm/integrations/twilio/api.py:150
+#: crm/integrations/twilio/api.py:130
 msgid "Failed to capture Twilio recording"
 msgstr "ไม่สามารถบันทึกเสียง Twilio ได้สำเร็จ"
 
@@ -3258,15 +3247,7 @@ msgstr "ไม่สามารถเปลี่ยนชื่อแม่แ
 msgid "Failed to save workday: {0}"
 msgstr "ไม่สามารถบันทึกวันทำงานได้: {0}"
 
-#: frontend/src/components/Activities/WhatsAppBox.vue:139
-msgid "Failed to send WhatsApp message"
-msgstr "ไม่สามารถส่งข้อความ WhatsApp ได้"
-
-#: frontend/src/components/Activities/Activities.vue:589
-msgid "Failed to send WhatsApp template"
-msgstr "ไม่สามารถส่งแม่แบบ WhatsApp ได้"
-
-#: crm/integrations/twilio/api.py:177
+#: crm/integrations/twilio/api.py:152
 msgid "Failed to update Twilio call status"
 msgstr "ไม่สามารถอัปเดตสถานะการโทร Twilio ได้"
 
@@ -3376,7 +3357,7 @@ msgstr "กำหนดการตอบกลับครั้งแรก"
 msgid "First name"
 msgstr "ชื่อจริง"
 
-#: frontend/src/components/Modals/LeadModal.vue:135
+#: frontend/src/components/Modals/LeadModal.vue:136
 msgid "First name is mandatory"
 msgstr "ชื่อจริงเป็นข้อมูลที่ต้องระบุ"
 
@@ -3452,7 +3433,7 @@ msgstr "ชื่อแบบฟอร์ม"
 msgid "Frappe CRM"
 msgstr "การบริหารลูกค้าสัมพันธ์"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:606
+#: frontend/src/components/Layouts/AppSidebar.vue:605
 msgid "Frappe CRM mobile"
 msgstr "Frappe การบริหารลูกค้าสัมพันธ์"
 
@@ -3678,7 +3659,7 @@ msgstr "การตั้งค่าศูนย์ช่วยเหลือ
 msgid "Helpdesk site URL"
 msgstr "URL เว็บไซต์ศูนย์ช่วยเหลือ"
 
-#: frontend/src/components/CommunicationArea.vue:56
+#: frontend/src/components/CommunicationArea.vue:57
 msgid "Hi John, \\n\\nCan you please provide more details on this..."
 msgstr ""
 "สวัสดีคุณจอห์น,\\n\\nกรุณาให้รายละเอียดเพิ่มเติมเกี่ยวกับเรื่องนี้ด้วยครับ/ค่ะ..."
@@ -3746,7 +3727,7 @@ msgstr "หน้าหลัก"
 msgid "Home Purchase"
 msgstr "หน้าหลัก การซื้อ"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:540
+#: frontend/src/components/Layouts/AppSidebar.vue:539
 #: frontend/src/components/Settings/HomeActions.vue:7
 #: frontend/src/components/Settings/Settings.vue:188
 msgid "Home actions"
@@ -3860,7 +3841,7 @@ msgstr "กำลังดำเนินการ"
 msgid "In Review"
 msgstr "กำลังตรวจสอบ"
 
-#: frontend/src/components/SLASection.vue:69
+#: frontend/src/components/SLASection.vue:68
 msgid "In less than a minute"
 msgstr "ในเวลาไม่ถึงหนึ่งนาที"
 
@@ -3915,7 +3896,7 @@ msgstr "แทรกแม่แบบอีเมล"
 msgid "Insert emoji"
 msgstr "แทรกอีโมจิ"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:596
+#: frontend/src/components/Layouts/AppSidebar.vue:595
 msgid "Integration"
 msgstr "การบูรณาการ"
 
@@ -3938,8 +3919,8 @@ msgstr "สินค้าที่สนใจ"
 msgid "Internal"
 msgstr "ภายใน"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:527
-#: frontend/src/components/Layouts/AppSidebar.vue:530
+#: frontend/src/components/Layouts/AppSidebar.vue:526
+#: frontend/src/components/Layouts/AppSidebar.vue:529
 msgid "Introduction"
 msgstr "การแนะนำ"
 
@@ -3950,14 +3931,6 @@ msgstr "รหัสบัญชี SID หรือ โทเค็นการ
 #: crm/integrations/exotel/handler.py:89
 msgid "Invalid Exotel Number"
 msgstr "หมายเลข Exotel ไม่ถูกต้อง"
-
-#: crm/integrations/twilio/api.py:19
-msgid "Invalid Twilio account"
-msgstr "บัญชี Twilio ไม่ถูกต้อง"
-
-#: crm/integrations/twilio/api.py:24
-msgid "Invalid Twilio application"
-msgstr "แอปพลิเคชัน Twilio ไม่ถูกต้อง"
 
 #: crm/lead_syncing/doctype/lead_sync_source/facebook.py:149
 msgid "Invalid access token provided for Facebook."
@@ -3975,8 +3948,8 @@ msgstr "ข้อมูลรับรองไม่ถูกต้อง"
 msgid "Invalid email ID"
 msgstr "รหัสอีเมลไม่ถูกต้อง"
 
-#: frontend/src/components/Modals/DealModal.vue:211
-#: frontend/src/components/Modals/LeadModal.vue:154
+#: frontend/src/components/Modals/DealModal.vue:214
+#: frontend/src/components/Modals/LeadModal.vue:155
 msgid "Invalid email address"
 msgstr "ที่อยู่อีเมลไม่ถูกต้อง"
 
@@ -3984,14 +3957,6 @@ msgstr "ที่อยู่อีเมลไม่ถูกต้อง"
 #: frontend/src/components/Settings/Sla/SlaPolicyView.vue:391
 msgid "Invalid fields, check if all are filled in and values are correct."
 msgstr "ฟิลด์ไม่ถูกต้อง กรุณาตรวจสอบว่ากรอกครบถ้วนและค่าถูกต้องแล้วหรือไม่"
-
-#: crm/fcrm/doctype/crm_call_log/crm_call_log.py:254
-msgid "Invalid lead details supplied."
-msgstr "รายละเอียดลูกค้าเป้าหมายไม่ถูกต้องที่ระบุมา"
-
-#: crm/api/__init__.py:80 crm/api/__init__.py:84
-msgid "Invalid or expired key"
-msgstr "รหัสไม่ถูกต้องหรือหมดอายุแล้ว"
 
 #: frontend/src/pages/InvalidPage.vue:6
 msgid "Invalid page or not permitted to access"
@@ -4022,7 +3987,7 @@ msgstr "เชิญผู้ใช้ใหม่"
 msgid "Invite user"
 msgstr "เชิญผู้ใช้"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:541
+#: frontend/src/components/Layouts/AppSidebar.vue:540
 msgid "Invite users"
 msgstr "เชิญผู้ใช้"
 
@@ -4034,7 +3999,7 @@ msgstr ""
 "เชิญผู้ใช้เข้าถึง CRM "
 "ระบุบทบาทของพวกเขาเพื่อควบคุมการเข้าถึงและสิทธิ์การใช้งาน"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:357
+#: frontend/src/components/Layouts/AppSidebar.vue:356
 msgid "Invite your team"
 msgstr "เชิญทีมของคุณ"
 
@@ -4270,7 +4235,7 @@ msgstr "เค้าโครง"
 #. Label of a Link field in DocType 'CRM Deal'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 #: frontend/src/components/Calendar/CalendarEventPanel.vue:419
-#: frontend/src/components/Layouts/AppSidebar.vue:548
+#: frontend/src/components/Layouts/AppSidebar.vue:547
 #: frontend/src/components/Settings/AssignmentRules/AssigneeRules.vue:19
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:55
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:73
@@ -4320,10 +4285,6 @@ msgstr "ข้อมูลลูกค้าเป้าหมาย"
 msgid "Lead details"
 msgstr "รายละเอียดโอกาสทางธุรกิจ"
 
-#: crm/fcrm/doctype/crm_call_log/crm_call_log.py:272
-msgid "Lead from call {0}"
-msgstr "ลีดจากการโทร {0}"
-
 #: crm/api/dashboard.py:974
 msgid "Lead generation channel analysis"
 msgstr "การวิเคราะห์ช่องทางการสร้างโอกาสทางธุรกิจ"
@@ -4365,7 +4326,7 @@ msgstr "กระบวนการแปลงโอกาสเป็นข้
 #. Label of a shortcut in the Frappe CRM Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
 #: frontend/src/pages/InvalidPage.vue:9 frontend/src/pages/Lead.vue:345
-#: frontend/src/pages/MobileLead.vue:291
+#: frontend/src/pages/MobileLead.vue:295
 msgid "Leads"
 msgstr "ลูกค้าเป้าหมาย"
 
@@ -4502,7 +4463,7 @@ msgstr "รหัสบันทึกการเข้าใช้งาน"
 
 #: frontend/src/components/Activities/ActivityHeader.vue:133
 #: frontend/src/components/Activities/ActivityHeader.vue:176
-#: frontend/src/components/Modals/CallLogModal.vue:98
+#: frontend/src/components/Modals/CallLogModal.vue:97
 msgid "Log a call"
 msgstr "บันทึกการโทร"
 
@@ -4636,8 +4597,8 @@ msgstr "จัดการนโยบายข้อตกลงระดับ
 #: frontend/src/components/Settings/InviteUserPage.vue:165
 #: frontend/src/components/Settings/Users.vue:83
 #: frontend/src/components/Settings/Users.vue:190
-#: frontend/src/components/Settings/Users.vue:248
-#: frontend/src/components/Settings/Users.vue:251
+#: frontend/src/components/Settings/Users.vue:250
+#: frontend/src/components/Settings/Users.vue:253
 msgid "Manager"
 msgstr "ผู้จัดการ"
 
@@ -4674,7 +4635,7 @@ msgstr "ทำเครื่องหมายทั้งหมดว่าอ
 msgid "Market Value (฿)"
 msgstr "มูลค่าตลาด (฿)"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:545
+#: frontend/src/components/Layouts/AppSidebar.vue:544
 msgid "Masters"
 msgstr "มาตรฐานข้อมูลหลัก"
 
@@ -4704,7 +4665,7 @@ msgstr "ปานกลาง"
 msgid "Mention"
 msgstr "กล่าวถึง"
 
-#: frontend/src/components/Notifications.vue:117
+#: frontend/src/components/Notifications.vue:116
 msgid "Mentions"
 msgstr "การกล่าวถึง"
 
@@ -4731,7 +4692,7 @@ msgstr "ย่อขนาด"
 msgid "Mobile Number Missing"
 msgstr "หมายเลขโทรศัพท์มือถือหายไป"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:609
+#: frontend/src/components/Layouts/AppSidebar.vue:608
 msgid "Mobile app installation"
 msgstr "การติดตั้งแอปมือถือ"
 
@@ -4745,8 +4706,8 @@ msgstr "การติดตั้งแอปมือถือ"
 msgid "Mobile no"
 msgstr "หมายเลขโทรศัพท์มือถือ"
 
-#: frontend/src/components/Modals/DealModal.vue:207
-#: frontend/src/components/Modals/LeadModal.vue:150
+#: frontend/src/components/Modals/DealModal.vue:210
+#: frontend/src/components/Modals/LeadModal.vue:151
 msgid "Mobile no should be a number"
 msgstr "หมายเลขโทรศัพท์มือถือควรเป็นตัวเลข"
 
@@ -5222,14 +5183,6 @@ msgstr "ไม่อยู่ใน"
 msgid "Not like"
 msgstr "ไม่ชอบ"
 
-#: crm/api/whatsapp.py:27
-msgid "Not permitted to access reference document {0} {1}."
-msgstr "ไม่อนุญาตให้เข้าถึงเอกสารอ้างอิง {0} {1}"
-
-#: crm/api/whatsapp.py:265 crm/api/whatsapp.py:315
-msgid "Not permitted to access the referenced WhatsApp message."
-msgstr "ไม่อนุญาตให้เข้าถึงข้อความ WhatsApp ที่อ้างอิงถึง"
-
 #: frontend/src/components/Controls/GridFieldsEditorModal.vue:10
 #: frontend/src/components/Controls/GridRowFieldsModal.vue:10
 #: frontend/src/components/Modals/DataFieldsModal.vue:10
@@ -5246,12 +5199,12 @@ msgstr "ยังไม่ได้ซิงค์"
 
 #. Label of a Link field in DocType 'CRM Call Log'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
-#: frontend/src/components/Layouts/AppSidebar.vue:552
+#: frontend/src/components/Layouts/AppSidebar.vue:551
 msgid "Note"
 msgstr "หมายเหตุ"
 
 #: frontend/src/pages/Deal.vue:578 frontend/src/pages/Lead.vue:424
-#: frontend/src/pages/MobileDeal.vue:463 frontend/src/pages/MobileLead.vue:367
+#: frontend/src/pages/MobileDeal.vue:463 frontend/src/pages/MobileLead.vue:371
 msgid "Notes"
 msgstr "บันทึก"
 
@@ -5262,7 +5215,7 @@ msgstr "มุมมองบันทึก"
 #: frontend/src/components/Activities/EmailArea.vue:15
 #: frontend/src/components/Calendar/EventNotifications.vue:21
 #: frontend/src/components/Calendar/EventNotifications.vue:89
-#: frontend/src/components/Layouts/AppSidebar.vue:581
+#: frontend/src/components/Layouts/AppSidebar.vue:580
 #: frontend/src/components/Settings/CalendarSettings.vue:83
 #: frontend/src/components/Settings/CalendarSettings.vue:92
 #: frontend/src/components/Settings/CalendarSettings.vue:182
@@ -5345,18 +5298,6 @@ msgstr "ข้อตกลงที่กำลังดำเนินอยู
 msgid "Online Marketplace"
 msgstr "ตลาดออนไลน์"
 
-#: crm/api/user.py:18 crm/api/user.py:51
-msgid "Only System Managers can assign the Sales Manager role"
-msgstr "เฉพาะผู้จัดการระบบเท่านั้นที่สามารถกำหนดบทบาทผู้จัดการฝ่ายขายได้"
-
-#: crm/api/user.py:15 crm/api/user.py:45
-msgid "Only System Managers can assign the System Manager role"
-msgstr "เฉพาะผู้จัดการระบบเท่านั้นที่สามารถกำหนดบทบาทผู้จัดการระบบได้"
-
-#: crm/api/user.py:48 crm/api/user.py:84
-msgid "Only System Managers can modify other System Managers"
-msgstr "เฉพาะผู้จัดการระบบเท่านั้นที่สามารถแก้ไขผู้จัดการระบบคนอื่นได้"
-
 #: frontend/src/utils/index.js:509
 msgid "Only image files are allowed"
 msgstr "อนุญาตเฉพาะไฟล์รูปภาพเท่านั้น"
@@ -5365,10 +5306,6 @@ msgstr "อนุญาตเฉพาะไฟล์รูปภาพเท่
 #: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.py:45
 msgid "Only one {0} can be set as primary."
 msgstr "สามารถตั้งค่า {0} ได้เพียงหนึ่งรายการเป็นหลัก"
-
-#: crm/api/whatsapp.py:16
-msgid "Only sales users can access WhatsApp features."
-msgstr "เฉพาะผู้ใช้ฝ่ายขายเท่านั้นที่สามารถเข้าถึงฟีเจอร์ WhatsApp ได้"
 
 #. Option for the 'Type' (Select) field in DocType 'CRM Deal Status'
 #: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
@@ -5428,7 +5365,7 @@ msgstr "จัดเรียงตาม"
 #. Label of a Data field in DocType 'CRM Lead'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
-#: frontend/src/components/Layouts/AppSidebar.vue:551
+#: frontend/src/components/Layouts/AppSidebar.vue:550
 #: frontend/src/components/Modals/ConvertToDealModal.vue:25
 #: frontend/src/pages/Contact.vue:519 frontend/src/pages/MobileContact.vue:511
 #: frontend/src/pages/MobileLead.vue:122
@@ -5443,10 +5380,6 @@ msgstr "องค์กร"
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 msgid "Organization details"
 msgstr "รายละเอียดองค์กร"
-
-#: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:268
-msgid "Organization is required to create a customer"
-msgstr "จำเป็นต้องระบุองค์กรเพื่อสร้างลูกค้า"
 
 #. Label of a Attach Image field in DocType 'CRM Organization'
 #: crm/fcrm/doctype/crm_organization/crm_organization.json
@@ -5477,7 +5410,7 @@ msgstr "ผู้จัดงาน"
 msgid "Other"
 msgstr "อื่น ๆ"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:573
+#: frontend/src/components/Layouts/AppSidebar.vue:572
 msgid "Other features"
 msgstr "ฟีเจอร์อื่น ๆ"
 
@@ -5616,7 +5549,7 @@ msgstr "ปักหมุดมุมมอง"
 msgid "Pinned"
 msgstr "ปักหมุด"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:569
+#: frontend/src/components/Layouts/AppSidebar.vue:568
 msgid "Pinned view"
 msgstr "มุมมองที่ปักหมุด"
 
@@ -5664,13 +5597,13 @@ msgstr "กรุณาเลือกแบบฟอร์มสร้างโ
 msgid "Please select a priority"
 msgstr "กรุณาเลือกความสำคัญ"
 
-#: frontend/src/components/Modals/ConvertToDealModal.vue:136
-#: frontend/src/pages/MobileLead.vue:431
+#: frontend/src/components/Modals/ConvertToDealModal.vue:137
+#: frontend/src/pages/MobileLead.vue:435
 msgid "Please select an existing contact"
 msgstr "กรุณาเลือกผู้ติดต่อที่มีอยู่แล้ว"
 
-#: frontend/src/components/Modals/ConvertToDealModal.vue:141
-#: frontend/src/pages/MobileLead.vue:436
+#: frontend/src/components/Modals/ConvertToDealModal.vue:142
+#: frontend/src/pages/MobileLead.vue:440
 msgid "Please select an existing organization"
 msgstr "กรุณาเลือกองค์กรที่มีอยู่แล้ว"
 
@@ -5835,7 +5768,7 @@ msgstr "ชื่อสินค้า"
 msgid "Products"
 msgstr "สินค้า"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:538
+#: frontend/src/components/Layouts/AppSidebar.vue:537
 #: frontend/src/components/Settings/Settings.vue:98
 msgid "Profile"
 msgstr "โปรไฟล์"
@@ -5860,7 +5793,7 @@ msgstr "อัตราดอกเบี้ยที่เสนอ (%)"
 msgid "Public"
 msgstr "สาธารณะ"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:568
+#: frontend/src/components/Layouts/AppSidebar.vue:567
 msgid "Public view"
 msgstr "มุมมองสาธารณะ"
 
@@ -5913,7 +5846,7 @@ msgstr "การป้อนข้อมูลอย่างรวดเร็
 msgid "Quick Filters"
 msgstr "ตัวกรองด่วน"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:592
+#: frontend/src/components/Layouts/AppSidebar.vue:591
 msgid "Quick entry layout"
 msgstr "รูปแบบการป้อนข้อมูลด่วน"
 
@@ -5973,10 +5906,6 @@ msgstr "เอกสารอ้างอิง"
 #: crm/fcrm/doctype/fcrm_note/fcrm_note.json
 msgid "Reference document type"
 msgstr "ประเภทเอกสารอ้างอิง"
-
-#: crm/api/whatsapp.py:21
-msgid "Reference document {0} {1} does not exist."
-msgstr "เอกสารอ้างอิง {0} {1} ไม่มีอยู่จริง"
 
 #. Label of a Dynamic Link field in DocType 'CRM Call Log'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
@@ -6068,7 +5997,7 @@ msgid "Remove tab"
 msgstr "ลบแท็บ"
 
 #: frontend/src/components/Activities/EmailArea.vue:34
-#: frontend/src/components/CommunicationArea.vue:9
+#: frontend/src/components/CommunicationArea.vue:10
 msgid "Reply"
 msgstr "ตอบกลับ"
 
@@ -6344,7 +6273,6 @@ msgstr "หัวข้อ"
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 #: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
 #: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.json
-#: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
 #: crm/fcrm/doctype/crm_form_script/crm_form_script.json
 #: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
 #: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
@@ -6356,10 +6284,8 @@ msgstr "หัวข้อ"
 #: crm/fcrm/doctype/crm_lost_reason/crm_lost_reason.json
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
 #: crm/fcrm/doctype/crm_organization/crm_organization.json
-#: crm/fcrm/doctype/crm_product/crm_product.json
 #: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
 #: crm/fcrm/doctype/crm_task/crm_task.json
-#: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
 #: crm/fcrm/doctype/crm_territory/crm_territory.json
 #: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.json
 #: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
@@ -6367,10 +6293,6 @@ msgstr "หัวข้อ"
 #: crm/fcrm/doctype/fcrm_note/fcrm_note.json
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: crm/fcrm/doctype/helpdesk_crm_settings/helpdesk_crm_settings.json
-#: crm/lead_syncing/doctype/facebook_lead_form/facebook_lead_form.json
-#: crm/lead_syncing/doctype/facebook_page/facebook_page.json
-#: crm/lead_syncing/doctype/failed_lead_sync_log/failed_lead_sync_log.json
-#: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
 msgid "Sales Manager"
 msgstr "ผู้จัดการฝ่ายขาย"
 
@@ -6381,8 +6303,6 @@ msgstr "ผู้จัดการฝ่ายขาย"
 #: crm/fcrm/doctype/crm_dashboard/crm_dashboard.json
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 #: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
-#: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
-#: crm/fcrm/doctype/crm_form_script/crm_form_script.json
 #: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
 #: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
 #: crm/fcrm/doctype/crm_industry/crm_industry.json
@@ -6393,12 +6313,10 @@ msgstr "ผู้จัดการฝ่ายขาย"
 #: crm/fcrm/doctype/crm_lost_reason/crm_lost_reason.json
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
 #: crm/fcrm/doctype/crm_organization/crm_organization.json
-#: crm/fcrm/doctype/crm_product/crm_product.json
 #: crm/fcrm/doctype/crm_task/crm_task.json
 #: crm/fcrm/doctype/crm_territory/crm_territory.json
 #: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
 #: crm/fcrm/doctype/fcrm_note/fcrm_note.json
-#: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 msgid "Sales User"
 msgstr "ผู้ใช้การขาย"
 
@@ -6412,8 +6330,8 @@ msgstr "แนวโน้มการขาย"
 #: frontend/src/components/Settings/InviteUserPage.vue:164
 #: frontend/src/components/Settings/Users.vue:84
 #: frontend/src/components/Settings/Users.vue:191
-#: frontend/src/components/Settings/Users.vue:259
-#: frontend/src/components/Settings/Users.vue:262
+#: frontend/src/components/Settings/Users.vue:261
+#: frontend/src/components/Settings/Users.vue:264
 #: frontend/src/pages/Dashboard.vue:93
 msgid "Sales user"
 msgstr "ผู้ใช้ฝ่ายขาย"
@@ -6440,7 +6358,7 @@ msgstr "วันเสาร์"
 #: frontend/src/components/Controls/GridFieldsEditorModal.vue:84
 #: frontend/src/components/Controls/GridRowFieldsModal.vue:26
 #: frontend/src/components/Modals/AddressModal.vue:98
-#: frontend/src/components/Modals/CallLogModal.vue:102
+#: frontend/src/components/Modals/CallLogModal.vue:101
 #: frontend/src/components/Modals/DataFieldsModal.vue:26
 #: frontend/src/components/Modals/LostReasonModal.vue:44
 #: frontend/src/components/Modals/QuickEntryModal.vue:26
@@ -6463,7 +6381,7 @@ msgstr "บันทึก"
 msgid "Save changes"
 msgstr "บันทึกการเปลี่ยนแปลง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:567
+#: frontend/src/components/Layouts/AppSidebar.vue:566
 msgid "Saved view"
 msgstr "มุมมองที่บันทึกแล้ว"
 
@@ -6580,7 +6498,7 @@ msgstr "ส่ง"
 msgid "Send an email"
 msgstr "ส่งอีเมล"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:458
+#: frontend/src/components/Layouts/AppSidebar.vue:457
 msgid "Send email"
 msgstr "ส่งอีเมล"
 
@@ -6606,7 +6524,7 @@ msgstr "ตัวคั่น"
 msgid "Series"
 msgstr "ชุด"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:579
+#: frontend/src/components/Layouts/AppSidebar.vue:578
 msgid "Service level agreement"
 msgstr "ข้อตกลงระดับการให้บริการ"
 
@@ -6668,7 +6586,7 @@ msgstr ""
 "ตั้งค่าวันทำงาน ชั่วโมง "
 "และวันหยุดโดยเลือกตารางเวลาที่กำหนดไว้ล่วงหน้าหรือสร้างตารางเวลาใหม่"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:531
+#: frontend/src/components/Layouts/AppSidebar.vue:530
 msgid "Setting up"
 msgstr "กำลังตั้งค่า"
 
@@ -6735,7 +6653,7 @@ msgstr ""
 
 #. Label of a Tab Break field in DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
-#: frontend/src/components/Layouts/AppSidebar.vue:535
+#: frontend/src/components/Layouts/AppSidebar.vue:534
 msgid "Settings"
 msgstr "การตั้งค่า"
 
@@ -6751,7 +6669,7 @@ msgstr ""
 "ตั้งค่า ผู้ให้บริการอัตราแลกเปลี่ยน เป็น 'Exchangerate Host' ในการตั้งค่า "
 "เนื่องจากผู้ให้บริการเริ่มต้นไม่รองรับการแปลงสกุลเงินจาก {0} เป็น {1}"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:337
+#: frontend/src/components/Layouts/AppSidebar.vue:336
 msgid "Setup your password"
 msgstr "ตั้งค่ารหัสผ่านของคุณ"
 
@@ -6840,8 +6758,7 @@ msgstr "เกิดข้อผิดพลาดขณะอัปเดตน
 msgid "Some error occurred while updating assignment rule"
 msgstr "เกิดข้อผิดพลาดบางประการขณะอัปเดตกฎการมอบหมายงาน"
 
-#: frontend/src/components/Settings/Users.vue:290
-#: frontend/src/components/Settings/Users.vue:303
+#: frontend/src/components/Settings/Users.vue:298
 msgid "Something went wrong"
 msgstr "เกิดข้อผิดพลาดบางอย่าง"
 
@@ -6979,8 +6896,8 @@ msgstr "สถานะ"
 msgid "Status change log"
 msgstr "บันทึกการเปลี่ยนแปลงสถานะ"
 
-#: frontend/src/components/Modals/DealModal.vue:215
-#: frontend/src/components/Modals/LeadModal.vue:158
+#: frontend/src/components/Modals/DealModal.vue:218
+#: frontend/src/components/Modals/LeadModal.vue:159
 msgid "Status is required"
 msgstr "จำเป็นต้องระบุสถานะ"
 
@@ -7059,33 +6976,18 @@ msgstr "กำลังเริ่มซิงค์ในเบื้องห
 
 #. Name of a role
 #. Option for the 'Role' (Select) field in DocType 'CRM Invitation'
-#: crm/fcrm/doctype/crm_call_log/crm_call_log.json
-#: crm/fcrm/doctype/crm_communication_status/crm_communication_status.json
 #: crm/fcrm/doctype/crm_dashboard/crm_dashboard.json
-#: crm/fcrm/doctype/crm_deal/crm_deal.json
-#: crm/fcrm/doctype/crm_deal_status/crm_deal_status.json
 #: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.json
 #: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
-#: crm/fcrm/doctype/crm_form_script/crm_form_script.json
 #: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
-#: crm/fcrm/doctype/crm_holiday_list/crm_holiday_list.json
-#: crm/fcrm/doctype/crm_industry/crm_industry.json
 #: crm/fcrm/doctype/crm_invitation/crm_invitation.json
-#: crm/fcrm/doctype/crm_lead/crm_lead.json
 #: crm/fcrm/doctype/crm_lead_source/crm_lead_source.json
-#: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
 #: crm/fcrm/doctype/crm_lost_reason/crm_lost_reason.json
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
-#: crm/fcrm/doctype/crm_organization/crm_organization.json
 #: crm/fcrm/doctype/crm_product/crm_product.json
-#: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
-#: crm/fcrm/doctype/crm_task/crm_task.json
 #: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
-#: crm/fcrm/doctype/crm_territory/crm_territory.json
 #: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.json
-#: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.json
-#: crm/fcrm/doctype/fcrm_note/fcrm_note.json
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: crm/fcrm/doctype/helpdesk_crm_settings/helpdesk_crm_settings.json
 #: crm/lead_syncing/doctype/facebook_lead_form/facebook_lead_form.json
@@ -7109,12 +7011,12 @@ msgstr "จดบันทึก..."
 
 #. Option for the 'Type' (Select) field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
-#: frontend/src/components/Layouts/AppSidebar.vue:553
+#: frontend/src/components/Layouts/AppSidebar.vue:552
 msgid "Task"
 msgstr "งาน"
 
 #: frontend/src/pages/Deal.vue:573 frontend/src/pages/Lead.vue:419
-#: frontend/src/pages/MobileDeal.vue:458 frontend/src/pages/MobileLead.vue:362
+#: frontend/src/pages/MobileDeal.vue:458 frontend/src/pages/MobileLead.vue:366
 msgid "Tasks"
 msgstr "งาน"
 
@@ -7254,7 +7156,7 @@ msgstr ""
 "สามารถมีค่าเริ่มต้นของระดับความสำคัญได้เพียงค่าเดียวในตารางระดับความสำคัญเท่านั้น"
 
 #: frontend/src/components/Modals/AddressModal.vue:128
-#: frontend/src/components/Modals/CallLogModal.vue:132
+#: frontend/src/components/Modals/CallLogModal.vue:131
 msgid "These fields are required: {0}"
 msgstr "ฟิลด์เหล่านี้จำเป็นต้องกรอก: {0}"
 
@@ -7491,7 +7393,7 @@ msgstr "TwiML SID"
 #. Agent'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 #: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
-#: frontend/src/components/Layouts/AppSidebar.vue:599
+#: frontend/src/components/Layouts/AppSidebar.vue:598
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:49
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:76
 msgid "Twilio"
@@ -7501,10 +7403,6 @@ msgstr "Twilio"
 #: crm/fcrm/doctype/crm_twilio_settings/crm_twilio_settings.py:77
 msgid "Twilio API credential creation error."
 msgstr "เกิดข้อผิดพลาดในการสร้างข้อมูลรับรอง Twilio API"
-
-#: crm/integrations/twilio/api.py:15
-msgid "Twilio configuration is missing"
-msgstr "การตั้งค่า Twilio หายไป"
 
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:168
 msgid "Twilio is not enabled"
@@ -7551,7 +7449,7 @@ msgstr "ประเภท"
 msgid "Type an email address to add attendee"
 msgstr "พิมพ์ที่อยู่อีเมลเพื่อเพิ่มผู้เข้าร่วมประชุม"
 
-#: frontend/src/components/Activities/WhatsAppBox.vue:96
+#: frontend/src/components/Activities/WhatsAppBox.vue:85
 msgid "Type your message here..."
 msgstr "พิมพ์ข้อความของคุณที่นี่..."
 
@@ -7669,11 +7567,11 @@ msgstr "อัปโหลด"
 msgid "Upload attachment"
 msgstr "อัปโหลดไฟล์แนบ"
 
-#: frontend/src/components/Activities/WhatsAppBox.vue:147
+#: frontend/src/components/Activities/WhatsAppBox.vue:132
 msgid "Upload document"
 msgstr "อัปโหลดเอกสาร"
 
-#: frontend/src/components/Activities/WhatsAppBox.vue:155
+#: frontend/src/components/Activities/WhatsAppBox.vue:140
 #: frontend/src/components/Settings/ProfileSettings.vue:27
 #: frontend/src/pages/Contact.vue:48 frontend/src/pages/Lead.vue:93
 #: frontend/src/pages/MobileContact.vue:38
@@ -7682,7 +7580,7 @@ msgstr "อัปโหลดเอกสาร"
 msgid "Upload image"
 msgstr "อัปโหลดรูปภาพ"
 
-#: frontend/src/components/Activities/WhatsAppBox.vue:163
+#: frontend/src/components/Activities/WhatsAppBox.vue:148
 msgid "Upload video"
 msgstr "อัปโหลดวิดีโอ"
 
@@ -7709,11 +7607,6 @@ msgstr "ผู้ใช้"
 msgid "User Forum"
 msgstr "ฟอรั่มผู้ใช้"
 
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "User assigned as loan officer for this lead"
-msgstr "ผู้ใช้ได้รับมอบหมายเป็นเจ้าหน้าที่สินเชื่อสำหรับโอกาสนี้"
-
 #: frontend/src/components/Settings/Settings.vue:136
 msgid "User management"
 msgstr "การจัดการผู้ใช้"
@@ -7723,15 +7616,15 @@ msgstr "การจัดการผู้ใช้"
 msgid "User name"
 msgstr "ชื่อผู้ใช้"
 
-#: crm/api/user.py:88
+#: crm/api/user.py:69
 msgid "User {0} cannot be removed as it has a Role Profile assigned to it."
 msgstr "ไม่สามารถลบผู้ใช้ {0} ได้เนื่องจากมีการกำหนดโปรไฟล์บทบาทไว้แล้ว"
 
-#: frontend/src/components/Settings/Users.vue:299
+#: frontend/src/components/Settings/Users.vue:294
 msgid "User {0} has been removed"
 msgstr "ผู้ใช้ {0} ถูกลบออกแล้ว"
 
-#: crm/api/user.py:97
+#: crm/api/user.py:80
 msgid "User {0} has been removed from CRM roles."
 msgstr "สูกล {0} ไม่หนายกริหารลูกค้า CRM"
 
@@ -7834,7 +7727,7 @@ msgstr "ดูรายชื่อผู้ติดต่อ"
 msgid "View name"
 msgstr "ชื่อมุมมอง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:564
+#: frontend/src/components/Layouts/AppSidebar.vue:563
 msgid "Views"
 msgstr "การดู"
 
@@ -7847,7 +7740,7 @@ msgstr "การมองเห็น"
 msgid "Walk-in"
 msgstr "ลูกค้ามาใช้บริการโดยตรง"
 
-#: frontend/src/components/Layouts/AppSidebar.vue:561
+#: frontend/src/components/Layouts/AppSidebar.vue:560
 msgid "Web form"
 msgstr "เว็บฟอร์ม"
 
@@ -7905,10 +7798,10 @@ msgstr "ยินดีต้อนรับ {0} มาเริ่มเพิ�
 
 #. Option for the 'Type' (Select) field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
-#: frontend/src/components/Layouts/AppSidebar.vue:601
+#: frontend/src/components/Layouts/AppSidebar.vue:600
 #: frontend/src/components/Settings/Settings.vue:205
 #: frontend/src/pages/Deal.vue:588 frontend/src/pages/Lead.vue:434
-#: frontend/src/pages/MobileDeal.vue:473 frontend/src/pages/MobileLead.vue:377
+#: frontend/src/pages/MobileDeal.vue:473 frontend/src/pages/MobileLead.vue:381
 msgid "WhatsApp"
 msgstr "WhatsApp"
 
@@ -7988,31 +7881,15 @@ msgstr "ใช่"
 msgid "Yesterday"
 msgstr "เมื่อวาน"
 
-#: crm/api/whatsapp.py:65 crm/api/whatsapp.py:219 crm/api/whatsapp.py:233
-#: frontend/src/components/Activities/WhatsAppArea.vue:40
-#: frontend/src/components/Activities/WhatsAppBox.vue:16
+#: crm/api/whatsapp.py:190 crm/api/whatsapp.py:204
+#: frontend/src/components/Activities/WhatsAppArea.vue:34
+#: frontend/src/components/Activities/WhatsAppBox.vue:14
 msgid "You"
 msgstr "คุณ"
-
-#: crm/api/__init__.py:102
-msgid "You are not allowed to invite System Managers"
-msgstr "ท่านไม่ได้รับอนุญาตให้เชิญผู้จัดการระบบ"
-
-#: crm/api/session.py:11
-msgid "You are not permitted to access CRM resources."
-msgstr "ท่านไม่ได้รับอนุญาตให้เข้าถึงทรัพยากร CRM"
 
 #: crm/utils/__init__.py:261
 msgid "You are not permitted to access this resource."
 msgstr "คุณไม่ได้รับอนุญาตให้เข้าถึงทรัพยากรนี้"
-
-#: crm/fcrm/doctype/crm_call_log/crm_call_log.py:250
-msgid "You are not permitted to create leads."
-msgstr "ท่านไม่ได้รับอนุญาตให้สร้างโอกาสทางธุรกิจ (Leads)"
-
-#: crm/fcrm/doctype/crm_call_log/crm_call_log.py:247
-msgid "You are not permitted to update this call log."
-msgstr "ท่านไม่ได้รับอนุญาตให้แก้ไขบันทึกการโทรนี้"
 
 #: crm/templates/emails/helpdesk_invitation.html:22
 msgid "You can also copy-paste following link in your browser"
@@ -8030,10 +7907,6 @@ msgstr "คุณสามารถรับ Access Token ของคุณไ�
 msgid ""
 "You can invite multiple users by comma separating their email addresses"
 msgstr "คุณสามารถเชิญผู้ใช้หลายคนได้โดยแยกที่อยู่อีเมลด้วยเครื่องหมายจุลภาค"
-
-#: crm/api/user.py:76
-msgid "You cannot remove yourself."
-msgstr "คุณไม่สามารถลบตัวเองได้"
 
 #: crm/integrations/exotel/handler.py:85
 msgid "You do not have Exotel Number set in your Telephony Agent"
@@ -8078,11 +7951,7 @@ msgstr ""
 "คุณจะต้องมีบัญชีนักพัฒนา Meta และ Access Token เพื่อซิงค์โอกาสทางธุรกิจจาก "
 "Facebook อ่านเพิ่มเติม"
 
-#: crm/api/todo.py:100
-msgid "Your assignment on task {0} has been removed by {1}"
-msgstr "งานที่ได้รับมอบหมายในงาน {0} ของคุณถูกลบโดย {1}"
-
-#: crm/api/todo.py:37 crm/api/todo.py:78
+#: crm/api/todo.py:37
 msgid "Your assignment on {0} {1} has been removed by {2}"
 msgstr "การมอบหมายของคุณใน {0} {1} ถูกลบโดย {2}"
 
@@ -8109,14 +7978,6 @@ msgstr "เพิ่ม a"
 #: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
 msgid "amber"
 msgstr "amber"
-
-#: crm/api/todo.py:109
-msgid "assigned a new task {0} to you"
-msgstr "มอบหมายงานใหม่ {0} ให้กับคุณ"
-
-#: crm/api/todo.py:89
-msgid "assigned a {0} {1} to you"
-msgstr "ได้รับมอบหมาย {0} {1} ให้กับคุณแล้ว"
 
 #: frontend/src/components/Calendar/EventNotifications.vue:33
 msgid "at"
@@ -8345,7 +8206,7 @@ msgstr "ลูกค้าเป้าหมาย"
 msgid "list"
 msgstr "รายการ"
 
-#: crm/api/comment.py:39 frontend/src/components/Notifications.vue:60
+#: frontend/src/components/Notifications.vue:60
 #: frontend/src/pages/MobileNotification.vue:46
 msgid "mentioned you in {0}"
 msgstr "กล่าวถึงคุณใน {0}"
@@ -8416,10 +8277,6 @@ msgstr "สาธารณะ"
 #: crm/fcrm/doctype/crm_lead_status/crm_lead_status.json
 msgid "purple"
 msgstr "สีม่วง"
-
-#: crm/api/whatsapp.py:66
-msgid "received a whatsapp message in {0}"
-msgstr "ได้รับข้อความ WhatsApp ใน {0}"
 
 #. Option for the 'Color' (Select) field in DocType 'CRM Deal Status'
 #. Option for the 'Color' (Select) field in DocType 'CRM Lead Status'
@@ -8526,6 +8383,10 @@ msgstr "{0} วันที่ผ่านมา"
 msgid "{0} h"
 msgstr "{0} ชั่วโมง"
 
+#: frontend/src/components/Settings/Users.vue:283
+msgid "{0} has been granted {1} access"
+msgstr "{0} ได้รับสิทธิ์การเข้าถึง {1} แล้ว"
+
 #: frontend/src/utils/index.js:174
 msgid "{0} hours ago"
 msgstr "{0} ชั่วโมงที่ผ่านมา"
@@ -8543,7 +8404,7 @@ msgstr "{0} วเลา"
 msgid "{0} is an invalid email address"
 msgstr "{0} เป็นที่อยู่อีเมลที่ไม่ถูกต้อง"
 
-#: frontend/src/components/Modals/ConvertToDealModal.vue:172
+#: frontend/src/components/Modals/ConvertToDealModal.vue:173
 msgid "{0} is required"
 msgstr "{0} เป็นสิ่งจำเป็น"
 
