@@ -1,4 +1,4 @@
-# Translations template for TBS External Storage.
+# Thai translations for TBS External Storage.
 # Copyright (C) 2026 TBS
 # This file is distributed under the same license as the TBS External Storage project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
@@ -7,13 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TBS External Storage VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
-"POT-Creation-Date: 2026-01-27 02:20+0642\n"
-"PO-Revision-Date: 2026-01-28 23:52\n"
+"POT-Creation-Date: 2026-02-05 06:00+0642\n"
+"PO-Revision-Date: 2026-02-05 16:43\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.13.1\n"
 
 #: tbs_external_storage/install_hooks.py:89
@@ -28,6 +30,13 @@ msgid ""
 "        <p><strong>Note:</strong> You will need to update the storage configurations with your actual credentials.</p>\n"
 "    "
 msgstr ""
+"<h4>ติดตั้ง TBS External Storage ใหม่</h4>\n"
+"<p>พบว่าเคยติดตั้ง TBS External Storage และมีการตั้งค่าไฟล์คลาวด์ไว้ก่อนหน้านี้</p>\n"
+"<p>เราพบรายงานไฟล์ภายนอกของคุณและไฟล์ {0} ที่อาจต้องเชื่อมต่อใหม่</p>\n"
+"<p>คุณสามารถใช้เครื่องมือเชื่อมต่อใหม่เพื่อกู้คืนการเข้าถึงไฟล์คลาวด์ของคุณได้ดังนี้:</p>\n"
+"<pre>bench --site {1} execute tbs_external_storage/reconnect.py \"{2}\"</pre>\n"
+"<p>คำสั่งนี้จะสร้างการตั้งค่าที่เก็บข้อมูลสำรองและเชื่อมต่อไฟล์ของคุณใหม่</p>\n"
+"<p><strong>หมายเหตุ:</strong> คุณจะต้องอัปเดตการตั้งค่าที่เก็บข้อมูลด้วยข้อมูลรับรองจริงของคุณ</p>"
 
 #. Paragraph text in the TBS S3 Storage Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
@@ -40,408 +49,905 @@ msgid ""
 "associated External Storage will be uploaded to Frappe server "
 "filesystem.<br><br>"
 msgstr ""
+"- ไฟล์ทั้งหมดจะถูกเก็บในบัคเก็ตเดียวกัน สร้าง \"ที่เก็บข้อมูลภายนอก\" "
+"หนึ่งรายการและเลือกโฟลเดอร์ \"Home\" "
+"ไฟล์ที่อัปโหลดทั้งหมดจะถูกจัดเก็บภายในบัคเก็ตนั้น<br>- "
+"บัคเก็ตเฉพาะสำหรับโฟลเดอร์เฉพาะ สร้าง \"ที่เก็บข้อมูลภายนอก\" "
+"หนึ่งรายการและเลือกโฟลเดอร์ที่ต้องการ "
+"ไฟล์ทั้งหมดที่อัปโหลดไปยังโฟลเดอร์นั้นจะถูกจัดเก็บภายในบัคเก็ตนั้น<br>- "
+"ไฟล์ที่อัปโหลดไปยังโฟลเดอร์ที่ไม่มีการเชื่อมโยงกับที่เก็บข้อมูลภายนอกจะถูกอัปโหลดไปยังระบบไฟล์ของเซิร์ฟเวอร์"
+" Frappe<br><br>"
+
+#. Content of the 'html_1' (HTML) field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"<p>Using boto3 (AWS SDK for Python) to perform S3 bucket and object operations. Please refer to boto3 documentation for more info:</p>\n"
+"<ul>\n"
+"<li><strong>endpoint</strong>: Hostname of S3 service (e.g., s3.amazonaws.com, or custom S3-compatible endpoint).</li>\n"
+"<li><strong>access_key</strong>: AWS Access Key ID of your account.</li>\n"
+"<li><strong>secret_key</strong>: AWS Secret Access Key of your account.</li>\n"
+"<li><strong>region</strong>: AWS region name (e.g., us-east-1, ap-southeast-1).</li>\n"
+"<li><strong>secure</strong>: Flag to use secure (HTTPS) connection to S3 service.</li>\n"
+"</ul>"
+msgstr ""
+"<p>การใช้ boto3 (AWS SDK สำหรับภาษา Python) เพื่อดำเนินการกับบัคเก็ตและอ็อบเจ็กต์ใน S3 โปรดดูเอกสาร boto3 สำหรับข้อมูลเพิ่มเติม:</p>\n"
+"<ul>\n"
+"<li><strong>endpoint</strong>: ชื่อโฮสต์ของบริการ S3 (เช่น s3.amazonaws.com หรือ endpoint ที่รองรับ S3 แบบกำหนดเอง)</li>\n"
+"<li><strong>access_key</strong>: AWS Access Key ID ของบัญชีของคุณ</li>\n"
+"<li><strong>secret_key</strong>: AWS Secret Access Key ของบัญชีของคุณ</li>\n"
+"<li><strong>region</strong>: ชื่อภูมิภาค AWS (เช่น us-east-1, ap-southeast-1)</li>\n"
+"<li><strong>secure</strong>: ตัวระบุการใช้การเชื่อมต่อแบบปลอดภัย (HTTPS) กับบริการ S3</li>\n"
+"</ul>"
 
 #. Header text in the TBS S3 Storage Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "<span class=\"h4\"><b>Options</b></span>"
-msgstr ""
+msgstr "<span class=\"h4\"><b>ตัวเลือก</b></span>"
 
 #. Header text in the TBS S3 Storage Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "<span class=\"h4\">TBS S3 External Storage</span>"
+msgstr "<span class=\"h4\">ที่เก็บข้อมูลภายนอก TBS S3</span>"
+
+#. Description of the 'Bucket name' (Data) field in DocType 'TBS External
+#. Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"<strong>Be careful!</strong> Please set up your bucket as private in your "
+"provider and/or remove public access to objects. <strong>Some files you "
+"upload to Frappe will be for sure private!</strong>"
 msgstr ""
+"<strong>โปรดระวัง!</strong> "
+"กรุณาตั้งค่าถังข้อมูลของคุณให้เป็นแบบส่วนตัวในผู้ให้บริการของคุณและ/หรือปิดการเข้าถึงสาธารณะของวัตถุ"
+" <strong>ไฟล์บางส่วนที่คุณอัปโหลดไปยัง Frappe "
+"จะเป็นไฟล์ส่วนตัวอย่างแน่นอน!</strong>"
+
+#. Description of the 'Write enabled' (Check) field in DocType 'TBS External
+#. Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"<ul>\n"
+"<li><strong>enabled</strong>: File will be uploaded to specified bucket when:\n"
+"<ul><li>\"Folder\" defined below and \"File\" is located inside it.</li><li>\"File\" is edited and this external storage is selected.</li></ul> </li>\n"
+"<li><strong>disabled</strong>: If connection is valid, remote files will be used for viewing and downloading tasks, but no files will be uploaded to remote bucket.</li>\n"
+"</ul>\n"
+msgstr ""
+"<ul>\n"
+"<li><strong>เปิดใช้งาน</strong>: ไฟล์จะถูกอัปโหลดไปยังบัคเก็ตที่ระบุเมื่อ:\n"
+"<ul><li>“โฟลเดอร์” ที่กำหนดด้านล่างและ “ไฟล์” อยู่ภายในโฟลเดอร์นั้น</li><li>“ไฟล์” ถูกแก้ไขและเลือกใช้ที่เก็บข้อมูลภายนอกนี้</li></ul> </li>\n"
+"<li><strong>ปิดใช้งาน</strong>: หากการเชื่อมต่อถูกต้อง ไฟล์ระยะไกลจะถูกใช้สำหรับงานการดูและดาวน์โหลด แต่จะไม่มีการอัปโหลดไฟล์ไปยังบัคเก็ตระยะไกล</li>\n"
+"</ul>"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#. Label of a Data field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Access Key"
+msgstr "โทเคน สำหรับการเข้าถึง"
+
+#. Description of the 'Access Key' (Data) field in DocType 'TBS External
+#. Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Access key (aka user ID) of your account in S3 service."
+msgstr "คีย์การเข้าถึง (หรือที่เรียกว่ารหัสผู้ใช้) ของบัญชีของคุณในบริการ S3"
+
+#. Label of a Section Break field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Advanced settings"
+msgstr "การตั้งค่าขั้นสูง"
 
 #: tbs_external_storage/dropbox_integration.py:645
 #: tbs_external_storage/gdrive_integration.py:491
 #: tbs_external_storage/onedrive_integration.py:679
 msgid "An error occurred during authentication: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดระหว่างการตรวจสอบสิทธิ์: {0}"
 
 #: tbs_external_storage/dropbox_integration.py:563
 #: tbs_external_storage/onedrive_integration.py:593
 msgid "An error occurred during authentication: {0} - {1}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดระหว่างการตรวจสอบสิทธิ์: {0} - {1}"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Apps"
+msgstr "แอปส์"
 
 #: tbs_external_storage/gdrive_integration.py:437
 #: tbs_external_storage/onedrive_integration.py:615
 msgid "Authentication session expired"
-msgstr ""
+msgstr "การเข้าสู่ระบบหมดอายุแล้ว"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:134
 msgid "Auto Refresh"
 msgstr "รีเฟรซอัตโนมัติ"
 
+#. Content of the 'html_mtku' (HTML) field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"Below cache settings affect only to public files and files not returned as "
+"presigned url (directly from your bucket provider)"
+msgstr ""
+"การตั้งค่าหน่วยความจำแคชด้านล่างนี้มีผลเฉพาะกับไฟล์สาธารณะและไฟล์ที่ไม่ได้ส่งคืนเป็น"
+" URL ที่ลงนามล่วงหน้า (โดยตรงจากผู้ให้บริการที่เก็บข้อมูลของคุณ)"
+
 #: tbs_external_storage/public/js/file_uploader.js:41
 msgid "Browse S3 Files"
-msgstr ""
+msgstr "เรียกดูไฟล์ S3"
+
+#. Label of a Data field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Bucket name"
+msgstr "ชื่อบัคเก็ต"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:221
+msgid "Bucket not found"
+msgstr "ไม่พบถังข้อมูล"
+
+#. Label of a Int field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Cache files smaller than (bytes)"
+msgstr "ไฟล์แคชที่มีขนาดเล็กกว่า (ไบต์)"
+
+#. Label of a Int field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Cached files expiration (seconds)"
+msgstr "การหมดอายุของไฟล์แคช (วินาที)"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:119
+msgid "Can not be deleted. There are {} files using this bucket."
+msgstr "ไม่สามารถลบได้ มีไฟล์ {} ใช้งานบัคเก็ตนี้อยู่"
 
 #: tbs_external_storage/public/js/file_uploader.js:150
 msgid "Cancel"
-msgstr ""
+msgstr "ยกเลิก"
+
+#. Description of the 'Title or name' (Data) field in DocType 'TBS External
+#. Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Choose your descriptive name"
+msgstr "โปรดเลือกชื่อที่บรรยายลักษณะของคุณ"
 
 #: tbs_external_storage/install_hooks.py:103
 msgid "Cloud Storage Reconnection Available"
-msgstr ""
+msgstr "สามารถเชื่อมต่อที่เก็บข้อมูลบนคลาวด์ใหม่ได้"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:24
 msgid "Configuration issues found: {}"
-msgstr ""
+msgstr "พบปัญหาการกำหนดค่าดังนี้: {}"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:74
 msgid "Connection diagnosis failed: "
-msgstr ""
+msgstr "การวินิจฉัยการเชื่อมต่อล้มเหลว:"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:34
 msgid "Connection failed"
-msgstr ""
+msgstr "การเชื่อมต่อล้มเหลว"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:31
 msgid "Connection successful"
-msgstr ""
+msgstr "เชื่อมต่อสำเร็จ"
 
 #: tbs_external_storage/public/js/file_uploader.js:134
 msgid "Could not generate secure URL"
-msgstr ""
+msgstr "ไม่สามารถสร้าง URL ที่ปลอดภัยได้"
+
+#. Description of the 'Presigned url expiration (seconds)' (Int) field in
+#. DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Default: 10800 seconds = 3 hours"
+msgstr "ค่าเริ่มต้น: 10800 วินาที = 3 ชั่วโมง"
+
+#. Description of the 'Cached files expiration (seconds)' (Int) field in
+#. DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Default: 86400 seconds = 1 day"
+msgstr "ค่าเริ่มต้น: 86400 วินาที = 1 วัน"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:24
 msgid "Diagnose Connection"
-msgstr ""
+msgstr "วินิจฉัยการเชื่อมต่อ"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:56
 msgid "Diagnosing connection..."
+msgstr "กำลังวินิจฉัยการเชื่อมต่อ..."
+
+#. Description of the 'Doctypes ignored for file attachments' (Table
+#. MultiSelect) field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"DocTypes included here will not use this bucket for file storage, so default"
+" functionality will be used. Make sense for some doctypes like: \"Repost "
+"Item Valuation\", \"Data Import\", \"Prepared Report\", etc. (If you "
+"add/remove doctypes here, existent \"File\"s will not be affected unless you"
+" update them)"
 msgstr ""
+"DocType ที่รวมอยู่ที่นี่จะไม่ใช้ bucket นี้สำหรับการจัดเก็บไฟล์ "
+"ดังนั้นฟังก์ชันเริ่มต้นจะถูกใช้งาน เหมาะสำหรับ DocType บางประเภท เช่น "
+"\"Repost Item Valuation\", \"Data Import\", \"Prepared Report\" เป็นต้น "
+"(หากคุณเพิ่ม/ลบ DocType ที่นี่ ไฟล์ \"File\" "
+"ที่มีอยู่จะไม่ถูกกระทบเว้นแต่คุณจะอัปเดตไฟล์เหล่านั้น)"
+
+#. Label of a Table MultiSelect field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Doctypes ignored for file attachments"
+msgstr "Doctype ที่ไม่สนใจสำหรับไฟล์แนบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Documentation"
+msgstr "เอกสารประกอบ"
 
 #: tbs_external_storage/dropbox_integration.py:562
 #: tbs_external_storage/dropbox_integration.py:644
 msgid "Dropbox Authentication Failed"
-msgstr ""
+msgstr "การตรวจสอบสิทธิ์ Dropbox ล้มเหลว"
 
 #: tbs_external_storage/dropbox_integration.py:635
 msgid "Dropbox Authentication Successful"
-msgstr ""
+msgstr "การตรวจสอบสิทธิ์ Dropbox สำเร็จแล้ว"
 
 #: tbs_external_storage/dropbox_integration.py:120
 msgid "Dropbox folder found: {0}"
-msgstr ""
+msgstr "พบโฟลเดอร์ Dropbox: {0}"
 
 #: tbs_external_storage/dropbox_integration.py:127
 msgid "Dropbox folder not found"
-msgstr ""
+msgstr "ไม่พบโฟลเดอร์ Dropbox"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:7
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:6
 msgid "ETAG"
-msgstr ""
+msgstr "ETAG"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:274
 msgid "Error"
-msgstr ""
+msgstr "ข้อผิดพลาด"
 
 #. Label of a Link in the TBS S3 Storage Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "Error Logs"
-msgstr ""
+msgstr "บันทึกข้อผิดพลาด"
 
 #: tbs_external_storage/dropbox_integration.py:129
 msgid "Error accessing Dropbox folder: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการเข้าถึงโฟลเดอร์ Dropbox: {0}"
 
 #: tbs_external_storage/gdrive_integration.py:123
 msgid "Error accessing Google Drive folder: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการเข้าถึงโฟลเดอร์ Google Drive: {0}"
 
 #: tbs_external_storage/onedrive_integration.py:222
 msgid "Error accessing OneDrive folder: {0}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการเข้าถึงโฟลเดอร์ OneDrive: {0}"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:225
+msgid "Error connecting to S3: {}"
+msgstr "ข้อผิดพลาดในการเชื่อมต่อกับ S3: {}"
 
 #: tbs_external_storage/dropbox_integration.py:902
 msgid "Error deleting file from Dropbox."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการลบไฟล์จาก Dropbox"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:560
+msgid "Error deleting file in remote folder."
+msgstr "เกิดข้อผิดพลาดในการลบไฟล์ในโฟลเดอร์ระยะไกล"
 
 #: tbs_external_storage/dropbox_integration.py:968
 msgid "Error downloading and removing file from Dropbox."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการดาวน์โหลดและลบไฟล์จาก Dropbox"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:664
+msgid "Error downloading and removing file from remote folder."
+msgstr "เกิดข้อผิดพลาดในการดาวน์โหลดและลบไฟล์จากโฟลเดอร์ระยะไกล"
 
 #: tbs_external_storage/dropbox_integration.py:916
 msgid "Error downloading file from Dropbox"
+msgstr "เกิดข้อผิดพลาดในการดาวน์โหลดไฟล์จาก Dropbox"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:634
+msgid "Error downloading file from remote folder"
+msgstr "เกิดข้อผิดพลาดในการดาวน์โหลดไฟล์จากโฟลเดอร์ระยะไกล"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:597
+msgid ""
+"Error downloading to file from remote folder. Check Error Log for more "
+"information."
 msgstr ""
+"เกิดข้อผิดพลาดในการดาวน์โหลดไฟล์จากโฟลเดอร์ระยะไกล กรุณาตรวจสอบ "
+"บันทึกข้อผิดพลาด สำหรับข้อมูลเพิ่มเติม"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:276
 msgid "Error fetching files: "
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการดึงไฟล์:"
 
 #: tbs_external_storage/dropbox_integration.py:546
 msgid "Error generating Dropbox OAuth URL: {0}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการสร้าง URL การตรวจสอบสิทธิ์ Dropbox OAuth: {0}"
 
 #: tbs_external_storage/gdrive_integration.py:421
 msgid "Error generating Google Drive OAuth URL: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการสร้าง URL การตรวจสอบสิทธิ์ Google Drive OAuth: {0}"
 
 #: tbs_external_storage/onedrive_integration.py:576
 msgid "Error generating OneDrive OAuth URL: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการสร้าง URL การอนุญาต OneDrive OAuth: {0}"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:206
 msgid "Error getting file type: "
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการดึงประเภทไฟล์:"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:177
 msgid "Error getting template value: "
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการดึงค่าต้นแบบ:"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:829
+msgid "Error putting file from one remote to another."
+msgstr "เกิดข้อผิดพลาดในการย้ายไฟล์จากระยะไกลหนึ่งไปยังอีกระยะไกลหนึ่ง"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:247
 msgid "Error rendering template: "
-msgstr ""
+msgstr "ข้อผิดพลาดในการแสดงผลแม่แบบ:"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:533
+msgid "Error saving file in remote folder: {}"
+msgstr "ข้อผิดพลาดในการบันทึกไฟล์ในโฟลเดอร์ระยะไกล: {}"
 
 #: tbs_external_storage/dropbox_integration.py:861
 msgid "Error saving file to Dropbox: {0}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการบันทึกไฟล์ไปยัง Dropbox: {0}"
 
 #: tbs_external_storage/dropbox_integration.py:132
 msgid "Error validating Dropbox folder: {0}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการตรวจสอบโฟลเดอร์ Dropbox: {0}"
 
 #: tbs_external_storage/gdrive_integration.py:127
 msgid "Error validating Google Drive folder: {0}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการตรวจสอบโฟลเดอร์ Google Drive: {0}"
 
 #: tbs_external_storage/onedrive_integration.py:225
 msgid "Error validating OneDrive folder: {0}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการตรวจสอบโฟลเดอร์ OneDrive: {0}"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:223
+msgid "Error when looking for bucket: {}"
+msgstr "เกิดข้อผิดพลาดขณะค้นหา bucket: {}"
 
 #. Label of a Link in the TBS S3 Storage Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "External Storages"
-msgstr ""
+msgstr "ที่เก็บข้อมูลภายนอก"
 
 #: tbs_external_storage/uninstall.py:85
 msgid "External files report generated at: {0}"
-msgstr ""
+msgstr "รายงานไฟล์ภายนอกถูกสร้างขึ้นที่: {0}"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:39
 msgid "Failed to diagnose storage connection: {}"
-msgstr ""
+msgstr "ไม่สามารถวินิจฉัยการเชื่อมต่อที่เก็บข้อมูลได้: {}"
 
 #: tbs_external_storage/dropbox_integration.py:939
 msgid "Failed to stream file from Dropbox"
-msgstr ""
+msgstr "ไม่สามารถสตรีมไฟล์จาก Dropbox ได้"
 
+#. Linked DocType in TBS External Storage's connections
 #: tbs_external_storage/public/js/file_uploader.js:84
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
 msgid "File"
-msgstr ""
+msgstr "ไฟล์"
 
 #: tbs_external_storage/dropbox_integration.py:866
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:537
 msgid "File saved in local filesystem."
-msgstr ""
+msgstr "บันทึกไฟล์ในระบบไฟล์ภายในเครื่องแล้ว"
 
 #: tbs_external_storage/public/js/file_uploader.js:23
 msgid "File securely uploaded to S3 storage"
-msgstr ""
+msgstr "อัปโหลดไฟล์ไปยังที่เก็บข้อมูล S3 อย่างปลอดภัยแล้ว"
+
+#. Label of a Int field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "File stream buffer size (bytes)"
+msgstr "ขนาดบัฟเฟอร์สตรีมไฟล์ (ไบต์)"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:120
 msgid "File type"
-msgstr ""
+msgstr "ประเภทไฟล์"
 
 #. Label of a Link in the TBS S3 Storage Workspace
 #: tbs_external_storage/public/js/file_uploader.js:77
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "Files"
-msgstr ""
+msgstr "ไฟล์"
+
+#. Label of a Int field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Files inside the bucket / Same as File(s) in top \"Connections\" area"
+msgstr "ไฟล์ภายในบัคเก็ต / เหมือนกับไฟล์ในพื้นที่ \"การเชื่อมต่อ\" ด้านบน"
 
 #. Label of a Card Break in the TBS S3 Storage Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "Files management"
+msgstr "การจัดการไฟล์"
+
+#. Label of a Table MultiSelect field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Folder(s)"
+msgstr "โฟลเดอร์"
+
+#. Description of the 'Use presigned urls only for mime types starting with:
+#. (one per line)' (Small Text) field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "For example, use `videos/` and all videos will be enabled."
+msgstr "ตัวอย่างเช่น ใช้ `videos/` และวิดีโอทั้งหมดจะถูกเปิดใช้งาน"
+
+#. Description of the 'Use S3 file size' (Check) field in DocType 'TBS
+#. External
+#. Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"Frappe DocType File size is limited to INT(11) in database, so if you need "
+"to store files bigger than 2GB check this setting and remote file size will "
+"be used for download/stream. Default: 0 (unchecked)"
 msgstr ""
+"ขนาดไฟล์ของ Frappe DocType ถูกจำกัดไว้ที่ INT(11) ในฐานข้อมูล "
+"ดังนั้นหากคุณต้องการจัดเก็บไฟล์ที่มีขนาดใหญ่กว่า 2GB "
+"กรุณาตรวจสอบการตั้งค่านี้ และขนาดไฟล์ระยะไกลจะถูกใช้สำหรับการดาวน์โหลด/สตรีม"
+" ค่าเริ่มต้น: 0 (ไม่ได้เลือก)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe School"
+msgstr "Frappe School"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe Support"
+msgstr "ฝ่ายสนับสนุน Frappe"
 
 #: tbs_external_storage/public/js/file_uploader.js:98
 msgid "Get URL"
-msgstr ""
+msgstr "รับ URL"
 
 #: tbs_external_storage/gdrive_integration.py:490
 msgid "Google Drive Authentication Failed"
-msgstr ""
+msgstr "การตรวจสอบสิทธิ์ Google Drive ล้มเหลว"
 
 #: tbs_external_storage/gdrive_integration.py:481
 msgid "Google Drive Authentication Successful"
-msgstr ""
+msgstr "การตรวจสอบสิทธิ์ Google Drive สำเร็จแล้ว"
 
 #: tbs_external_storage/gdrive_integration.py:113
 msgid "Google Drive folder found: {0}"
-msgstr ""
+msgstr "พบโฟลเดอร์ Google Drive: {0}"
 
 #: tbs_external_storage/gdrive_integration.py:120
 msgid "Google Drive folder not found"
-msgstr ""
+msgstr "ไม่พบโฟลเดอร์ Google Drive"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:215
+msgid "Great! Bucket is accessible ;)"
+msgstr "ยอดเยี่ยม! สามารถเข้าถึงบัคเก็ตได้แล้ว ;)"
 
 #: tbs_external_storage/onedrive_integration.py:607
 msgid "Invalid authentication state"
-msgstr ""
+msgstr "สถานะการตรวจสอบสิทธิ์ไม่ถูกต้อง"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:232
 msgid "Invalid response from server"
-msgstr ""
+msgstr "การตอบกลับจากเซิร์ฟเวอร์ไม่ถูกต้อง"
 
 #: tbs_external_storage/dropbox_integration.py:578
 msgid "Invalid state parameter"
-msgstr ""
+msgstr "พารามิเตอร์สถานะไม่ถูกต้อง"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:33
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:32
 msgid "Is dir"
-msgstr ""
+msgstr "เป็นไดเรกทอรีหรือไม่"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:8
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:7
 msgid "Key"
-msgstr ""
+msgstr "คีย์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Keyboard Shortcuts"
+msgstr "แป้นพิมพ์ลัด"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:63
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:62
 msgid "Last refreshed"
-msgstr ""
+msgstr "รีเฟรชครั้งล่าสุด"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.js:15
+msgid "List files in bucket"
+msgstr "แสดงรายการไฟล์ในบัคเก็ต"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:514
+msgid "Local file not found"
+msgstr "ไม่พบไฟล์ในเครื่อง"
 
 #: tbs_external_storage/dropbox_integration.py:825
 msgid "Local file not found: {0}"
-msgstr ""
+msgstr "ไม่พบไฟล์ในเครื่อง: {0}"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Log out"
+msgstr "ออกจากระบบ"
 
 #: tbs_external_storage/dropbox_integration.py:585
 msgid "Missing app credentials"
-msgstr ""
+msgstr "ข้อมูลรับรองแอปพลิเคชันหายไป"
 
 #: tbs_external_storage/dropbox_integration.py:571
 #: tbs_external_storage/gdrive_integration.py:431
 #: tbs_external_storage/onedrive_integration.py:601
 msgid "Missing authorization code"
-msgstr ""
+msgstr "รหัสอนุญาตขาดหาย"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:11
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:10
 msgid "Modified"
-msgstr ""
+msgstr "แก้ไขแล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Profile"
+msgstr "โปรไฟล์ของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Settings"
+msgstr "การตั้งค่าของฉัน"
 
 #: tbs_external_storage/public/js/app.js:66
 msgid "No external storage name found :("
-msgstr ""
+msgstr "ไม่พบชื่อที่เก็บข้อมูลภายนอก :("
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:58
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:57
 msgid "No files found on this bucket"
-msgstr ""
+msgstr "ไม่พบไฟล์ในบัคเก็ตนี้"
 
 #: tbs_external_storage/public/js/file_uploader.js:125
 msgid "Note: This secure link will expire in ${mins} minutes"
-msgstr ""
+msgstr "หมายเหตุ: ลิงก์ที่ปลอดภัยนี้จะหมดอายุในอีก ${mins} นาที"
+
+#. Description of the 'File stream buffer size (bytes)' (Int) field in DocType
+#. 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Number of bytes for each iteration. Default: 10000000 bytes = 10Mb"
+msgstr "จำนวนไบต์สำหรับแต่ละรอบการทำงาน ค่าเริ่มต้น: 10000000 ไบต์ = 10Mb"
 
 #: tbs_external_storage/onedrive_integration.py:592
 #: tbs_external_storage/onedrive_integration.py:678
 msgid "OneDrive Authentication Failed"
-msgstr ""
+msgstr "การตรวจสอบสิทธิ์ OneDrive ล้มเหลว"
 
 #: tbs_external_storage/onedrive_integration.py:669
 msgid "OneDrive Authentication Successful"
-msgstr ""
+msgstr "การตรวจสอบสิทธิ์ OneDrive สำเร็จ"
 
 #: tbs_external_storage/onedrive_integration.py:213
 msgid "OneDrive folder found: {0}"
-msgstr ""
+msgstr "พบโฟลเดอร์ OneDrive: {0}"
 
 #: tbs_external_storage/onedrive_integration.py:220
 msgid "OneDrive folder not found"
+msgstr "ไม่พบโฟลเดอร์ OneDrive"
+
+#. Description of the 'host:port' (Data) field in DocType 'TBS External
+#. Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"Only host and port. For example:\n"
+"<ul><li>s3.amazonaws.com</li><li>[id].r2.cloudflarestorage.com:443</li><li>s3.ap-southeast-1.amazonaws.com</li><li>...</li></ul>\n"
+"Read <a href=\"https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html\" target=\"_blank\">boto3 S3 documentation</a> for more info."
 msgstr ""
+"เฉพาะโฮสต์และพอร์ตเท่านั้น ตัวอย่างเช่น:\n"
+"<ul><li>s3.amazonaws.com</li><li>[id].r2.cloudflarestorage.com:443</li><li>s3.ap-southeast-1.amazonaws.com</li><li>...</li></ul>\n"
+"อ่าน <a href=\"https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html\" target=\"_blank\">เอกสาร boto3 S3</a> สำหรับข้อมูลเพิ่มเติม"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:52
 msgid "Please select a storage connection first"
-msgstr ""
+msgstr "กรุณาเลือกการเชื่อมต่อที่เก็บข้อมูลก่อน"
+
+#. Label of a Int field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Presigned url expiration (seconds)"
+msgstr "วันหมดอายุ URL ที่ลงชื่อไว้ล่วงหน้า (วินาที)"
 
 #: tbs_external_storage/public/js/file_uploader.js:91
 msgid "Private"
-msgstr ""
+msgstr "ส่วนตัว"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:221
 msgid "Refreshing..."
-msgstr ""
+msgstr "กำลังปรับปรุง..."
+
+#. Label of a Data field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Region"
+msgstr "สิดชอบ"
+
+#. Description of the 'Region' (Data) field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Region name of buckets in S3 service. Default value: \"auto\"."
+msgstr "ชื่อภูมิภาคของบัคเก็ตในบริการ S3 ค่าปริยาย: \"auto\""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Reload"
+msgstr "โหลด"
+
+#. Group in TBS External Storage's connections
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Remote files using this connection"
+msgstr "ไฟล์ระยะไกลที่ใช้การเชื่อมต่อนี้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Report an Issue"
+msgstr "รายงานปัญหา"
+
+#. Option for the 'Type' (Select) field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "S3"
+msgstr "S3"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:14
 msgid "S3 bucket files"
-msgstr ""
+msgstr "ไฟล์ถัง S3"
 
 #. Paragraph text in the TBS S3 Storage Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "Save all your files within external S3 compatible buckets."
-msgstr ""
+msgstr "บันทึกไฟล์ทั้งหมดของคุณไว้ในบัคเก็ตที่รองรับ S3 ภายนอก"
+
+#. Label of a Password field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Secret Key"
+msgstr "รหัสลับ"
+
+#. Description of the 'Secret Key' (Password) field in DocType 'TBS External
+#. Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Secret Key (aka password) of your account in S3 service."
+msgstr "รหัสลับ (หรือที่เรียกว่ารหัสผ่าน) ของบัญชีของคุณในบริการ S3"
 
 #: tbs_external_storage/public/js/file_uploader.js:58
 msgid "Select S3 File"
+msgstr "เลือกไฟล์ S3"
+
+#. Description of the 'Folder(s)' (Table MultiSelect) field in DocType 'TBS
+#. External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"Select one or more specific folders. Select \"<strong>Home</strong>\" and "
+"ALL files will be uploaded to this remote (If done, you should add some "
+"ignored Doctypes, like mentioned within \"Doctypes ignored for file "
+"attachments\" below advanced settings)."
 msgstr ""
+"เลือกโฟลเดอร์เฉพาะหนึ่งโฟลเดอร์หรือมากกว่า เลือก \"<strong>โฮม</strong>\" "
+"และไฟล์ทั้งหมดจะถูกอัปโหลดไปยังระยะไกลนี้ (หากทำเช่นนี้ คุณควรเพิ่ม Doctype "
+"ที่ไม่ต้องการบางรายการ เช่นที่กล่าวไว้ในหัวข้อ \"Doctypes ignored for file "
+"attachments\" ภายใต้การตั้งค่าขั้นสูง)"
+
+#. Description of the 'Use presigned urls' (Check) field in DocType 'TBS
+#. External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"Serve bucket objects directly from your S3 provider using \"pre-signed\" "
+"urls instead of use your Frappe server as proxy. If files match rules for "
+"being returned as presigned url, then cache settings are ignored. Your S3 "
+"provider offers some streaming capabilities that you may need (streaming "
+"videos for example)"
+msgstr ""
+"ให้บริการวัตถุในบัคเก็ตโดยตรงจากผู้ให้บริการ S3 ของคุณโดยใช้ URL แบบ \"pre-"
+"signed\" แทนการใช้เซิร์ฟเวอร์ Frappe ของคุณเป็นพร็อกซี "
+"หากไฟล์ตรงตามกฎสำหรับการส่งคืนเป็น URL แบบ pre-signed "
+"การตั้งค่าแคชจะถูกละเว้น ผู้ให้บริการ S3 "
+"ของคุณมีความสามารถในการสตรีมบางอย่างที่คุณอาจต้องการ (เช่น การสตรีมวิดีโอ)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Session Defaults"
+msgstr "ค่าเริ่มต้นของเซสชัน"
 
 #. Label of a Card Break in the TBS S3 Storage Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "Settings"
+msgstr "การตั้งค่า"
+
+#. Description of the '¿Secure?' (Check) field in DocType 'TBS External
+#. Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"Should be checked for production environments. Will use secure (HTTPS/TLS) "
+"connection when connecting to S3 server defined in \"host:port\"."
 msgstr ""
+"ควรตรวจสอบสำหรับสภาพแวดล้อมการผลิต จะใช้การเชื่อมต่อที่ปลอดภัย (HTTPS/TLS) "
+"เมื่อเชื่อมต่อกับเซิร์ฟเวอร์ S3 ที่กำหนดใน \"host:port\""
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:9
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:8
 msgid "Size"
-msgstr ""
+msgstr "ขนาด"
 
 #: tbs_external_storage/public/js/file_uploader.js:61
 msgid "Storage"
-msgstr ""
+msgstr "ที่เก็บข้อมูล"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/grid.html:10
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/list.html:9
 msgid "Storage class"
-msgstr ""
+msgstr "คลาสจัดเก็บ"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.py:16
 msgid "Storage name is required"
-msgstr ""
+msgstr "จำเป็นต้องระบุชื่อที่เก็บข้อมูล"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:194
 msgid "Storage parameter is required"
-msgstr ""
+msgstr "ต้องระบุพารามิเตอร์การจัดเก็บข้อมูล"
 
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:97
+msgid "Stream buffer size must be at least of 8192 bytes."
+msgstr "ขนาดบัฟเฟอร์สตรีมต้องไม่น้อยกว่า 8192 ไบต์"
+
+#. Name of a role
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "System Manager"
+msgstr "ผู้จัดการระบบ"
+
+#. Name of a DocType
 #: tbs_external_storage/config/desktop.py:9
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:82
 msgid "TBS External Storage"
-msgstr ""
+msgstr "TBS ที่เก็บข้อมูลภายนอก"
 
 #. Name of a Workspace
 #: tbs_external_storage/tbs_external_storage/workspace/tbs_s3_storage/tbs_s3_storage.json
 msgid "TBS S3 Storage"
-msgstr ""
+msgstr "TBS S3 เสียลาง"
 
 #: tbs_external_storage/dropbox_integration.py:115
 msgid "The specified Dropbox path is not a folder"
-msgstr ""
+msgstr "เส้นทาง Dropbox ที่ระบุไม่ใช่โฟลเดอร์"
 
 #: tbs_external_storage/gdrive_integration.py:108
 msgid "The specified Google Drive ID is not a folder"
-msgstr ""
+msgstr "รหัส Google Drive ที่ระบุไม่ใช่โฟลเดอร์"
 
 #: tbs_external_storage/onedrive_integration.py:208
 msgid "The specified OneDrive ID is not a folder"
+msgstr "OneDrive ID ที่ระบุไม่ใช่โฟลเดอร์"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:107
+msgid ""
+"There are {} files using this bucket. The field you just updated is "
+"critical, be careful!"
 msgstr ""
+"มีไฟล์ {} รายการที่ใช้บัคเก็ตนี้ ฟิลด์ที่คุณเพิ่งอัปเดตเป็นฟิลด์สำคัญ "
+"โปรดระมัดระวัง!"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:471
+msgid ""
+"This doctype does not allow remote files attached to it. Check \"TBS "
+"External Storage\" advanced settings for more details."
+msgstr ""
+"doctype นี้ไม่อนุญาตให้แนบไฟล์ระยะไกล โปรดตรวจสอบการตั้งค่าขั้นสูงของ \"TBS "
+"External Storage\" สำหรับรายละเอียดเพิ่มเติม"
+
+#. Label of a Data field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Title or name"
+msgstr "หัวข้อหรือชื่อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Full Width"
+msgstr "สลับความกว้างเต็มหน้าจอ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Theme"
+msgstr "สลับธีม"
+
+#. Label of a Select field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Type"
+msgstr "ประเภท"
+
+#. Description of the 'Cache files smaller than (bytes)' (Int) field in
+#. DocType
+#. 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid ""
+"Use Frappe cache over Redis to keep files smaller than and avoid calling to "
+"external service several times within time window defined below. Set to 0 to"
+" disable. Default: 5000000 bytes = 5Mb"
+msgstr ""
+"ใช้แคช Frappe แทน Redis "
+"เพื่อเก็บไฟล์ที่มีขนาดเล็กกว่าและหลีกเลี่ยงการเรียกใช้บริการภายนอกซ้ำหลายครั้งภายในช่วงเวลาที่กำหนดด้านล่าง"
+" ตั้งค่าเป็น 0 เพื่อปิดใช้งาน ค่าเริ่มต้น: 5000000 ไบต์ = 5Mb"
+
+#. Label of a Check field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Use S3 file size"
+msgstr "ใช้ขนาดไฟล์ S3"
+
+#. Label of a Check field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Use presigned urls"
+msgstr "ใช้ URL ที่ลงลายมือชื่อล่วงหน้า"
+
+#. Label of a Small Text field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Use presigned urls only for mime types starting with: (one per line)"
+msgstr ""
+"ใช้ URL ที่ลงนามล่วงหน้าเฉพาะสำหรับประเภท MIME ที่ขึ้นต้นด้วย: "
+"(หนึ่งรายการต่อบรรทัด)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "User Forum"
+msgstr "ฟอรั่มผู้ใช้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "View Website"
+msgstr "ดูเว็บไซต์"
 
 #: tbs_external_storage/tbs_external_storage/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:107
 msgid "View mode"
-msgstr ""
+msgstr "โหมดการแสดงผล"
+
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.py:566
+msgid "Write disabled for connection <strong>{}</strong>"
+msgstr "การเขียนถูกปิดใช้งานสำหรับการเชื่อมต่อ <strong>{}</strong>"
+
+#. Label of a Check field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "Write enabled"
+msgstr "เปิดใช้งานการเขียน"
 
 #: tbs_external_storage/dropbox_integration.py:636
 msgid ""
 "You have successfully authenticated with Dropbox. You can close this window "
 "and return to the app."
 msgstr ""
+"คุณได้ทำการยืนยันตัวตนกับ Dropbox เรียบร้อยแล้ว "
+"คุณสามารถปิดหน้าต่างนี้และกลับไปที่แอปได้เลย"
 
 #: tbs_external_storage/gdrive_integration.py:482
 msgid ""
 "You have successfully authenticated with Google Drive. You can close this "
 "window and return to the app."
 msgstr ""
+"คุณได้ทำการยืนยันตัวตนกับ Google Drive สำเร็จแล้ว "
+"คุณสามารถปิดหน้าต่างนี้และกลับไปยังแอปได้เลยค่ะ"
 
 #: tbs_external_storage/onedrive_integration.py:670
 msgid ""
 "You have successfully authenticated with OneDrive. You can close this window"
 " and return to the app."
 msgstr ""
+"คุณได้ทำการยืนยันตัวตนกับ OneDrive สำเร็จแล้ว "
+"คุณสามารถปิดหน้าต่างนี้และกลับไปที่แอปได้เลย"
+
+#. Label of a Data field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "host:port"
+msgstr "โฮสต์:พอร์ต"
+
+#. Label of a Check field in DocType 'TBS External Storage'
+#: tbs_external_storage/tbs_external_storage/doctype/tbs_external_storage/tbs_external_storage.json
+msgid "¿Secure?"
+msgstr "¿Secure?"
