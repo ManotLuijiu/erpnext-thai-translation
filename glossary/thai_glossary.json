@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 80,
-  "last_updated": "2026-02-05T13:43:29.037234",
+  "terms_count": 81,
+  "last_updated": "2026-02-05T16:35:23.680286",
   "terms": {
     "1 Google Calendar Event synced.": {
       "translation": "ซิงค์ 1 กิจกรรมบนปฏิทิน Google",
@@ -63,6 +63,13 @@
     "Assigned Territories": {
       "translation": "เขตรับผิดชอบ",
       "context": "Using in Area that take responsibility by who",
+      "category": "Business",
+      "module": "",
+      "is_approved": 1
+    },
+    "Audit report created successfully": {
+      "translation": "สร้างรายงานผู้สอบบัญชีเรียบร้อยแล้ว",
+      "context": "Using in Business once auditing report have been created, Audit report created -> need to translate from back to front like สร้าง รายงานผู้สอบบัญชี not รายงานผู้สอบบัญชีถูกสร้าง in Thai context",
       "category": "Business",
       "module": "",
       "is_approved": 1
