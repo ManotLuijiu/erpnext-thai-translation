@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2026-02-05 05:45+0642\n"
-"PO-Revision-Date: 2026-02-05 13:54\n"
+"PO-Revision-Date: 2026-02-05 14:45\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -31171,7 +31171,8 @@ msgid ""
 " can enable this if you wish to collect files from user without having them "
 "to log in, for example in job applications web form."
 msgstr ""
-"เมื่อเปิดใช้งานสิ่งนี้จะอนุญาตให้แขกอัปโหลดไฟล์ไปยังแอปพลิเคชันของคุณคุณสามารถเปิดใช้งานสิ่งนี้หากคุณต้องการรวบรวมไฟล์จากผู้ใช้โดยไม่ต้องให้พวกเขาเข้าสู่ระบบตัวอย่างเช่นในเว็บฟอร์มงานของแอปพลิเคชัน"
+"อนุญาตให้ผู้ใช้งานภายนอกอัปโหลดไฟล์ไปยังแอปพลิเคชันของคุณ "
+"คุณสามารถเปิดใช้งานหากคุณต้องการรวบรวมไฟล์จากผู้ใช้โดยไม่ต้องให้พวกเขาเข้าสู่ระบบตัวอย่างเช่นในเว็บฟอร์มงานของแอปพลิเคชัน"
 
 #. Description of the 'Store Attached PDF Document' (Check) field in DocType
 #. 'System Settings'
