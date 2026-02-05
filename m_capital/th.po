@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2026-02-05 05:58+0642\n"
-"PO-Revision-Date: 2026-02-05 14:50\n"
+"PO-Revision-Date: 2026-02-05 14:52\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -3774,7 +3774,7 @@ msgstr "กลับไปที่บ้าน"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Back to Playgrounds"
-msgstr "กลับไปยังสนามทดลอง"
+msgstr "กลับไปยังพื้นที่ทดสอบ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -12248,7 +12248,7 @@ msgstr "หมายเลขแฟกซ์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Feature Playground"
-msgstr "สนามทดลองฟีเจอร์"
+msgstr "ฟีเจอร์ต่าง ๆ ในพื้นที่ทดสอบ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -21542,7 +21542,7 @@ msgstr "เปิด"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Open Playground"
-msgstr "เปิดสนามทดสอบ"
+msgstr "เปิดพื้นที่ทดสอบ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -29802,9 +29802,9 @@ msgid ""
 "These playgrounds are for development testing. They provide isolated "
 "environments to test features before integrating into production workflows."
 msgstr ""
-"สนามทดสอบเหล่านี้ใช้สำหรับการทดสอบพัฒนา "
+"พื้นที่ทดสอบเหล่านี้ใช้สำหรับการทดสอบพัฒนาโปรแกรม "
 "โดยจะจัดเตรียมสภาพแวดล้อมแยกต่างหากเพื่อทดสอบฟีเจอร์ต่าง ๆ "
-"ก่อนนำไปใช้งานจริงในกระบวนการผลิต"
+"ก่อนนำไปใช้งานจริงในกระบวนการผลิตโปรแกรม"
 
 #. Option for the 'Verification Method' (Select) field in DocType 'M Loan
 #. Borrower Employment'
