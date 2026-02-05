@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
 "POT-Creation-Date: 2026-02-05 05:45+0642\n"
-"PO-Revision-Date: 2026-02-05 14:46\n"
+"PO-Revision-Date: 2026-02-05 14:48\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -2252,7 +2252,7 @@ msgstr "อนุญาตให้บันทึกเซสชันแรก
 #. Form'
 #: frappe/website/doctype/web_form/web_form.json
 msgid "Allow saving if mandatory fields are not filled"
-msgstr "อนุญาตให้ประหยัดถ้าข้อมูลที่จำเป็นต้องได้รับการไม่เต็ม"
+msgstr "อนุญาตให้บันทึก แม้ยังไม่ได้ใส่ข้อมูล สำหรับฟีลด์ข้อมูลที่บังคับ"
 
 #: frappe/desk/page/setup_wizard/setup_wizard.js:425
 msgid "Allow sending usage data for improving applications"
