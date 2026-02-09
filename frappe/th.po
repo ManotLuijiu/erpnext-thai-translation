@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2026-02-05 19:06+0642\n"
-"PO-Revision-Date: 2026-02-05 19:29\n"
+"POT-Creation-Date: 2026-02-09 13:22+0642\n"
+"PO-Revision-Date: 2026-02-09 13:34\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -1182,7 +1182,7 @@ msgstr "การควบคุมการเข้าถึง"
 #. Label of a Data field in DocType 'S3 Backup Settings'
 #: frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json
 msgid "Access Key ID"
-msgstr "เลขคีย์ สำหรับการเข้าถึง"
+msgstr "เลขคีย์ สำหรับการเข้าถึง API"
 
 #. Label of a Password field in DocType 'S3 Backup Settings'
 #: frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.json
@@ -18416,7 +18416,7 @@ msgstr "ส่งไม่ได้"
 
 #: frappe/public/js/frappe/list/list_sidebar_group_by.js:219
 msgid "Not Set"
-msgstr "ยังไม่ได้ตั้งค่า"
+msgstr "ไม่ได้ตั้งค่า"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:606
 msgctxt "Field value is not set"
