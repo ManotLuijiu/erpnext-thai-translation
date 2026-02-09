@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Thai Business Suite VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2026-02-09 13:26+0642\n"
-"PO-Revision-Date: 2026-02-09 13:36\n"
+"PO-Revision-Date: 2026-02-09 13:37\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.js:87
 msgid " ZKTeco service..."
-msgstr "บริการสแกนลายนิ้วมือ"
+msgstr "บริการสแกนลายนิ้วมือ ZKTeco"
 
 #: thai_business_suite/thai_business_suite/report/batch_balance_history/batch_balance_history.py:157
 msgid "'From Date' is required"
