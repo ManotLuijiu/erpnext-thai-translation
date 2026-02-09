@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thai Business Suite VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
-"POT-Creation-Date: 2026-02-05 05:54+0642\n"
-"PO-Revision-Date: 2026-02-05 16:32\n"
+"POT-Creation-Date: 2026-02-09 13:26+0642\n"
+"PO-Revision-Date: 2026-02-09 13:36\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -879,7 +879,7 @@ msgstr "ผู้ใช้บัญชี"
 msgid "Accuracy in meters"
 msgstr "ความแม่นยำในหน่วยเมตร"
 
-#: thai_business_suite/public/js/item_po_limits.js:174
+#: thai_business_suite/public/js/item_po_limits.js:178
 #: thai_business_suite/public/js/sales_invoice_external_reference.js:348
 msgid "Action"
 msgstr "ดำเนินการ"
@@ -1413,7 +1413,6 @@ msgstr "การแก้ไข"
 #. Option for the 'Limit Type' (Select) field in DocType 'TBS General
 #. Settings'
 #. Label of a Currency field in DocType 'Thai VAT Recognition Item'
-#: thai_business_suite/api/pos/pos_receipt.py:520
 #: thai_business_suite/public/js/pick_list.js:1984
 #: thai_business_suite/public/js/sales_invoice_external_reference.js:348
 #: thai_business_suite/thai_business_suite/doctype/consignment_item/consignment_item.json
@@ -1476,7 +1475,7 @@ msgstr "เกิดข้อผิดพลาดระหว่างการ
 msgid "An error occurred during authentication: {0} - {1}"
 msgstr "เกิดข้อผิดพลาดระหว่างการตรวจสอบสิทธิ์: {0} - {1}"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:903
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:906
 msgid "An error occurred during import. Please check the error log."
 msgstr "เกิดข้อผิดพลาดระหว่างการนำเข้า กรุณาตรวจสอบบันทึกข้อผิดพลาด"
 
@@ -2757,6 +2756,11 @@ msgstr "วันที่ ใบแจ้ง"
 msgid "Bill No"
 msgstr "เลขที่บิล"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Bill Options"
+msgstr "ตัวเลือกใบแจ้งหนี้"
+
 #. Label of a Data field in DocType 'Thai Purchase VAT'
 #: thai_business_suite/thai_business_suite/doctype/thai_purchase_vat/thai_purchase_vat.json
 msgid "Bill Series"
@@ -2944,7 +2948,7 @@ msgstr "ตราสินค้า"
 #. History'
 #: thai_business_suite/thai_business_suite/doctype/asset_repair_history/asset_repair_history.json
 msgid "Breakdown"
-msgstr "การเสีย"
+msgstr "แยกย่อย"
 
 #: thai_business_suite/thai_business_suite/doctype/seo_content_brief/seo_content_brief.js:479
 msgid "Brief Completed"
@@ -3459,10 +3463,6 @@ msgstr "จ่ายเงินสดสำเร็จ: {0}"
 msgid "Cash on Delivery (COD)"
 msgstr "เก็บเงินปลายทาง (COD)"
 
-#: thai_business_suite/api/pos/pos_receipt.py:510
-msgid "Cashier"
-msgstr "แคชเชียร์"
-
 #: thai_business_suite/api/pos/pos_interface.py:91
 msgid "Cashier already has an active POS session"
 msgstr "พนักงานเก็บเงินมีเซสชัน POS ที่กำลังใช้งานอยู่แล้ว"
@@ -3530,10 +3530,6 @@ msgstr "ใบรับรอง"
 msgid "Certificate Expiry Date"
 msgstr "วันที่หมดอายุใบรับรอง"
 
-#: thai_business_suite/api/pos/pos_receipt.py:583
-msgid "Change"
-msgstr "เปลี่ยนแปลง"
-
 #. Label of a Data field in DocType 'TBS CoA Mapping Template'
 #: thai_business_suite/thai_business_suite/doctype/tbs_coa_mapping_template/tbs_coa_mapping_template.json
 #: thai_business_suite/www/coa_mapper.html:519
@@ -3565,7 +3561,7 @@ msgstr "แผนผังบัญชีถูกนำเข้าจาก Go
 msgid "Chart of Accounts imported successfully"
 msgstr "แผนภูมิบัญชีถูกนำเข้าเรียบร้อยแล้ว"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:884
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:887
 msgid ""
 "Chart of Accounts imported successfully! Would you like to view the "
 "accounts?"
@@ -3757,9 +3753,9 @@ msgstr "คัดลอกแม่แบบ"
 #: thai_business_suite/public/js/sales_invoice.js:456
 #: thai_business_suite/public/js/sales_order_list.js:236
 #: thai_business_suite/thai_business_suite/doctype/thai_business_content_target/thai_business_content_target.js:768
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:638
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:851
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1576
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:641
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:854
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1579
 #: thai_business_suite/www/coa_mapper.html:164
 msgid "Close"
 msgstr "ปิด"
@@ -3988,7 +3984,7 @@ msgstr "ไม่พบบริษัท '{0}'"
 msgid "Company Code"
 msgstr "รหัสบริษัท"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:821
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:824
 msgid "Company Has Accounts"
 msgstr "บริษัทมีบัญชี"
 
@@ -4075,7 +4071,7 @@ msgstr ""
 "บริษัท {0} มีบัญชีอยู่แล้ว {1} บัญชี ไม่สามารถนำเข้าผังบัญชีได้ กรุณาใช้ "
 "force=1 เพื่อบังคับดำเนินการแทนได้"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:822
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:825
 msgid ""
 "Company {0} already has {1} accounts. Please enable 'Force Import' to "
 "continue."
@@ -4258,15 +4254,15 @@ msgid "Configure API settings for syncing data to affiliate ERPNext server"
 msgstr ""
 "กำหนดค่าการตั้งค่า API สำหรับการซิงค์ข้อมูลไปยังเซิร์ฟเวอร์ ERPNext สาขา"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1475
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1478
 msgid "Configure Doppler Secret Management"
 msgstr "กำหนดค่าการจัดการความลับ Doppler"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1476
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1479
 msgid "Configure Doppler Settings"
 msgstr "กำหนดค่าการตั้งค่า Doppler"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1386
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1389
 msgid "Configure Environment Variables"
 msgstr "กำหนดค่าตัวแปรสภาพแวดล้อม"
 
@@ -4286,7 +4282,7 @@ msgstr ""
 "กำหนดค่า Google Maps JavaScript API สำหรับฟีเจอร์ตำแหน่ง GPS "
 "ในใบสมัครสินเชื่อ M Capital"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1417
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1420
 msgid "Configure Google Service Account"
 msgstr "กำหนดค่าบัญชีบริการ Google"
 
@@ -4296,7 +4292,7 @@ msgstr "กำหนดค่าบัญชีบริการ Google"
 msgid "Configure Grist server for invoice analysis and reporting"
 msgstr "กำหนดค่าเซิร์ฟเวอร์ Grist สำหรับการวิเคราะห์และรายงานใบแจ้งหนี้"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1445
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1448
 msgid "Configure Local File"
 msgstr "กำหนดค่าไฟล์ภายในเครื่อง"
 
@@ -4330,6 +4326,11 @@ msgstr "กำหนดเวลารวมถึงวิธีการส่
 msgid "Configure where users can select batches/lots for inventory tracking"
 msgstr "กำหนดค่าที่ผู้ใช้สามารถเลือกล็อต/ชุดสำหรับการติดตามสินค้าคงคลังได้"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Configure which fields to display on printed documents"
+msgstr "กำหนดค่าช่องข้อมูลที่จะแสดงบนเอกสารที่พิมพ์"
+
 #. Description of the 'App Secrets' (Table) field in DocType 'TBS General
 #. Settings'
 #: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
@@ -4352,7 +4353,7 @@ msgstr "ยืนยันการเลือก"
 msgid "Connected"
 msgstr "เชื่อมต่อแล้ว"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1266
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1269
 msgid "Connected but text detection needs verification."
 msgstr "เชื่อมต่อแล้ว แต่ต้องตรวจสอบการตรวจจับข้อความอีกครั้ง"
 
@@ -4399,11 +4400,11 @@ msgstr "เชื่อมต่อสำเร็จ!"
 msgid "Connection successful! Device info: "
 msgstr "เชื่อมต่อสำเร็จ! ข้อมูลอุปกรณ์:"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1265
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1268
 msgid "Connection successful! Text detection is working."
 msgstr "เชื่อมต่อสำเร็จ! การตรวจจับข้อความทำงานได้แล้ว"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1284
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1287
 msgid "Connection test failed: "
 msgstr "การทดสอบการเชื่อมต่อล้มเหลว:"
 
@@ -5006,7 +5007,7 @@ msgstr "สร้างบทความจากเป้าหมาย"
 msgid "Create Article with This Content"
 msgstr "สร้างบทความด้วยเนื้อหานี้"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1418
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1421
 msgid "Create Google Service Account Settings"
 msgstr "สร้างการตั้งค่าบัญชีบริการ Google"
 
@@ -5160,7 +5161,7 @@ msgstr "สกุลเงิน"
 msgid "Currency Conversion"
 msgstr "อัตราแลกเปลี่ยนเงินตรา"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:590
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:593
 msgid "Currency Default Settings"
 msgstr "การตั้งค่าเริ่มต้นสกุลเงิน"
 
@@ -5305,7 +5306,6 @@ msgstr "รายงานที่กำหนดเอง"
 #. Label of a Link field in DocType 'TBS Delivery Service'
 #. Label of a Link field in DocType 'TBS End User Code Mapping'
 #. Label of a Link field in DocType 'Thai VAT Recognition'
-#: thai_business_suite/api/pos/pos_receipt.py:511
 #: thai_business_suite/public/js/pick_list.js:1984
 #: thai_business_suite/public/js/sales_order_list.js:294
 #: thai_business_suite/templates/print_formats/customer_delivery_calendar_print.html:221
@@ -5548,7 +5548,6 @@ msgstr "ส่งข้อมูลเรียบร้อยแล้ว"
 
 #. Label of a Date field in DocType 'TBS Customer Purchase History'
 #. Label of a Date field in DocType 'TBS Customer Quotation'
-#: thai_business_suite/api/pos/pos_receipt.py:508
 #: thai_business_suite/public/js/consignment_integration.js:75
 #: thai_business_suite/public/js/pick_list.js:1984
 #: thai_business_suite/public/js/sales_invoice_external_reference.js:348
@@ -5973,18 +5972,10 @@ msgstr "ปฏิทินกำหนดการจัดส่ง - {0}"
 msgid "Delivery Status"
 msgstr "สถานะการจัดส่งสินค้า"
 
-#: thai_business_suite/overrides/purchase_receipt_tracking.py:536
-msgid "Delivery Status Breakdown"
-msgstr "การแยกสถานะการจัดส่ง"
-
 #. Label of a Select field in DocType 'TBS Delivery Service'
 #: thai_business_suite/thai_business_suite/doctype/tbs_delivery_service/tbs_delivery_service.json
 msgid "Delivery Type"
 msgstr "ประเภทการจัดส่ง"
-
-#: thai_business_suite/overrides/purchase_receipt_tracking.py:504
-msgid "Delivery Variance Summary"
-msgstr "สรุปความคลาดเคลื่อนการจัดส่ง"
 
 #: thai_business_suite/public/js/purchase_order_delivery_calendar.js:208
 msgid "Delivery date updated"
@@ -6032,6 +6023,8 @@ msgstr "ฝ่ายที่รับผิดชอบกองทุนนี
 #. Label of a Small Text field in DocType 'SEO Template'
 #. Label of a Small Text field in DocType 'TBS CoA Mapping Template'
 #. Label of a Data field in DocType 'TBS Collateral Photo'
+#. Label of a Section Break field in DocType 'TBS Home Page Option'
+#. Label of a Small Text field in DocType 'TBS Home Page Option'
 #. Label of a Text Editor field in DocType 'TBS Print Template'
 #. Label of a Small Text field in DocType 'TBS Secret Mapping'
 #. Label of a Small Text field in DocType 'TBS Table Layout'
@@ -6059,6 +6052,7 @@ msgstr "ฝ่ายที่รับผิดชอบกองทุนนี
 #: thai_business_suite/thai_business_suite/doctype/seo_template/seo_template.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_coa_mapping_template/tbs_coa_mapping_template.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_collateral_photo/tbs_collateral_photo.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_print_template/tbs_print_template.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_secret_mapping/tbs_secret_mapping.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_table_layout/tbs_table_layout.json
@@ -6140,9 +6134,11 @@ msgstr "รูปแบบละเอียดพร้อมข้อมูล
 msgid "Detailed production report retrieved successfully"
 msgstr "รายงานการผลิตโดยละเอียดถูกดึงข้อมูลเรียบร้อยแล้ว"
 
+#. Label of a Section Break field in DocType 'TBS Home Page Option'
 #. Label of a Section Break field in DocType 'Thai Compliance Document
 #. Requirement'
 #. Label of a Section Break field in DocType 'Thai Tax Deadline Template'
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
 #: thai_business_suite/thai_business_suite/doctype/thai_compliance_document_requirement/thai_compliance_document_requirement.json
 #: thai_business_suite/thai_business_suite/doctype/thai_tax_deadline_template/thai_tax_deadline_template.json
 msgid "Details"
@@ -6275,10 +6271,6 @@ msgstr "การเบิกจ่าย"
 msgid "Disbursement Date"
 msgstr "วันที่เบิกจ่าย"
 
-#: thai_business_suite/api/pos/pos_receipt.py:556
-msgid "Discount"
-msgstr "ส่วนลด"
-
 #: thai_business_suite/thai_business_suite/page/vat_type_settings/vat_type_settings.js:542
 msgid "Discovering existing VAT types from database..."
 msgstr "กำลังค้นหาประเภท VAT ที่มีอยู่จากฐานข้อมูล..."
@@ -6290,6 +6282,11 @@ msgstr "การค้นหาไม่สำเร็จ"
 #: thai_business_suite/api/pos/cashier_reports.py:399
 msgid "Discrepancy report generated successfully"
 msgstr "รายงานความแตกต่างถูกสร้างเรียบร้อยแล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display GPU code on document"
+msgstr "แสดงรหัส GPU บนเอกสาร"
 
 #. Label of a Int field in DocType 'VAT Type'
 #: thai_business_suite/thai_business_suite/doctype/vat_type/vat_type.json
@@ -6309,6 +6306,31 @@ msgstr "ลำดับการแสดงผล"
 msgid "Display Settings"
 msgstr "แสดงการตั้งค่า"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display TPU code on document"
+msgstr "แสดงรหัส TPU บนเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display barcode on document"
+msgstr "แสดงบาร์โค้ดบนเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display credit terms on document"
+msgstr "แสดงเงื่อนไขเครดิตบนเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display date on document"
+msgstr "แสดงวันที่บนเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display manufacturing and expiry dates for each lot/batch"
+msgstr "แสดงวันที่ผลิตและวันหมดอายุสำหรับแต่ละล็อต/ชุด"
+
 #: thai_business_suite/thai_business_suite/page/vat_type_settings/vat_type_settings.js:258
 msgid "Display name (e.g., \"7% Standard\", \"Inclusive\", \"Exclusive\")"
 msgstr "ชื่อที่แสดง (เช่น \"7% มาตรฐาน\", \"รวมภาษี\", \"ไม่รวมภาษี\")"
@@ -6323,6 +6345,31 @@ msgstr "ชื่อแสดง (เช่น 'รวม', 'ไม่รวม'
 #: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
 msgid "Display name for the affiliate company (for UI labels)"
 msgstr "ชื่อที่แสดงสำหรับบริษัทในเครือ (สำหรับป้ายกำกับในส่วนติดต่อผู้ใช้)"
+
+#. Description of the 'Label' (Data) field in DocType 'TBS Home Page Option'
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid "Display name shown in dropdown"
+msgstr "ชื่อที่แสดงในรายการดรอปดาวน์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display purchase order number on document"
+msgstr "แสดงหมายเลขใบสั่งซื้อบนเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display remarks/notes on document"
+msgstr "แสดงหมายเหตุ/บันทึกในเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display tax identification number on document"
+msgstr "แสดงหมายเลขประจำตัวผู้เสียภาษีบนเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Display trademark code on document"
+msgstr "แสดงรหัสเครื่องหมายการค้าในเอกสาร"
 
 #. Description of the 'Selected Batches' (Data) field in DocType 'Consignment
 #. Item'
@@ -6409,6 +6456,11 @@ msgstr ""
 #: thai_business_suite/thai_business_suite/doctype/tbs_delivery_company/tbs_delivery_company.json
 msgid "Document Envelope"
 msgstr "ซองเอกสาร"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Document Field Display Options"
+msgstr "ตัวเลือกการแสดงผลฟิลด์เอกสาร"
 
 #. Description of the 'Grist Document ID' (Data) field in DocType 'Grist
 #. Static
@@ -6843,7 +6895,7 @@ msgstr "พนักงานที่รับผิดชอบในการ
 msgid "Employee tax withholding"
 msgstr "ภาษีหัก ณ ที่จ่ายของพนักงาน"
 
-#: thai_business_suite/public/js/item_po_limits.js:132
+#: thai_business_suite/public/js/item_po_limits.js:136
 msgid ""
 "Enable 'PO Limits Validation' in TBS General Settings to set default limits "
 "for all items."
@@ -7156,7 +7208,7 @@ msgstr "ตัวแปรสภาพแวดล้อม"
 msgid "Environment Variables Configuration"
 msgstr "การกำหนดค่าตัวแปรสภาพแวดล้อม"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1541
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1544
 msgid "Environment Variables Guide"
 msgstr "คู่มือการตั้งค่าตัวแปรสภาพแวดล้อม"
 
@@ -7180,8 +7232,8 @@ msgstr "ใบอนุญาตสิ่งแวดล้อม"
 #: thai_business_suite/public/js/sales_invoice_grist.js:64
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
 #: thai_business_suite/thai_business_suite/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:274
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:678
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:902
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:681
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:905
 #: thai_business_suite/thai_business_suite/page/vat_type_settings/vat_type_settings.js:378
 #: thai_business_suite/thai_business_suite/page/vat_type_settings/vat_type_settings.js:410
 msgid "Error"
@@ -7331,10 +7383,6 @@ msgstr "เกิดข้อผิดพลาดในการสร้าง
 msgid "Error generating report: {0}"
 msgstr "เกิดข้อผิดพลาดในการสร้างรายงาน: {0}"
 
-#: thai_business_suite/utils/voucher_viewer.py:119
-msgid "Error generating voucher:"
-msgstr "เกิดข้อผิดพลาดในการสร้างบัตรรายการ:"
-
 #: thai_business_suite/thai_business_suite/page/tbs_s3_bucket_list/tbs_s3_bucket_list.js:206
 msgid "Error getting file type: "
 msgstr "เกิดข้อผิดพลาดในการดึงประเภทไฟล์:"
@@ -7403,10 +7451,6 @@ msgstr "ข้อผิดพลาดในการตรวจสอบโฟ
 #: thai_business_suite/thai_business_suite/doctype/tbs_external_storage/tbs_external_storage.py:223
 msgid "Error when looking for bucket: {}"
 msgstr "เกิดข้อผิดพลาดขณะค้นหา bucket: {}"
-
-#: thai_business_suite/utils/voucher_viewer.py:116
-msgid "Error: Voucher generation failed."
-msgstr "ข้อผิดพลาด: การสร้างใบสำคัญจ่ายล้มเหลว"
 
 #: thai_business_suite/accounts/populate_thai_account_names.py:38
 #: thai_business_suite/thai_business_suite/doctype/seo_content_workflow/seo_content_workflow.js:381
@@ -7925,7 +7969,7 @@ msgstr "ไม่สามารถทำงานให้เสร็จสม
 msgid "Failed to connect to Google Calendar: {0}"
 msgstr "ไม่สามารถเชื่อมต่อกับ Google Calendar ได้: {0}"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1294
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1297
 msgid "Failed to connect to Google Cloud Vision API"
 msgstr "ไม่สามารถเชื่อมต่อกับ Google Cloud Vision API ได้"
 
@@ -8150,7 +8194,7 @@ msgstr "ไม่สามารถนำเข้าสาขาไทยได
 msgid "Failed to import VAT types. Please check the error log."
 msgstr "ไม่สามารถนำเข้าประเภท VAT ได้ กรุณาตรวจสอบบันทึกข้อผิดพลาด"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:895
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:898
 msgid "Failed to import chart of accounts"
 msgstr "ไม่สามารถนำเข้าบัญชีแผนผังได้สำเร็จ"
 
@@ -8236,7 +8280,7 @@ msgstr "ไม่สามารถอัปเดตสถานะรายง
 msgid "Failed to update VAT type. Please check the error log."
 msgstr "ไม่สามารถอัปเดตประเภท VAT ได้ กรุณาตรวจสอบบันทึกข้อผิดพลาด"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:681
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:684
 msgid "Failed to update currency defaults"
 msgstr "ไม่สามารถอัปเดตค่าเริ่มต้นสกุลเงินได้"
 
@@ -8342,7 +8386,7 @@ msgstr "คำอธิบายการจับคู่ฟิลด์"
 msgid "Fields Mapping"
 msgstr "การแมปฟิลด์"
 
-#: thai_business_suite/public/js/item_po_limits.js:196
+#: thai_business_suite/public/js/item_po_limits.js:200
 msgid ""
 "Fields below show global values (read-only). Check 'Override PO Limits' to "
 "customize."
@@ -8355,7 +8399,7 @@ msgstr ""
 msgid "File"
 msgstr "แฟ้มข้อมูล"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1561
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1564
 msgid "File Setup Guide"
 msgstr "คู่มือการตั้งค่าไฟล์"
 
@@ -8520,7 +8564,7 @@ msgstr "อันดับหน้าแรก - การมองเห็น
 msgid "First-time visitors to this article"
 msgstr "ผู้เยี่ยมชมบทความนี้เป็นครั้งแรก"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:627
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:630
 msgid "Fix Currency to THB"
 msgstr "แก้ไขสกุลเงินเป็น THB"
 
@@ -8620,7 +8664,7 @@ msgstr ""
 msgid "For month"
 msgstr "สำหรับเดือน"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:833
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:836
 msgid ""
 "Force import {0} into {1}? This will continue adding accounts even though "
 "the company has existing accounts."
@@ -8987,10 +9031,6 @@ msgstr "สร้างจากหัวข้อ"
 msgid "Generate tax reports automatically on schedule"
 msgstr "สร้างรายงานภาษีโดยอัตโนมัติตามกำหนดเวลา"
 
-#: thai_business_suite/api/pos/pos_receipt.py:620
-msgid "Generated"
-msgstr "สร้างขึ้น"
-
 #. Label of a Link field in DocType 'SEO AI Usage Log'
 #: thai_business_suite/thai_business_suite/doctype/seo_ai_usage_log/seo_ai_usage_log.json
 msgid "Generated By"
@@ -9063,11 +9103,11 @@ msgstr "รับรายการจาก"
 msgid "Get from Consignment"
 msgstr "รับจากการฝากขาย"
 
-#: thai_business_suite/public/js/item_po_limits.js:174
+#: thai_business_suite/public/js/item_po_limits.js:178
 msgid "Global PO Limits (General Settings)"
 msgstr "ขีดจำกัดใบสั่งซื้อทั่วโลก (การตั้งค่าทั่วไป)"
 
-#: thai_business_suite/public/js/item_po_limits.js:132
+#: thai_business_suite/public/js/item_po_limits.js:136
 msgid "Global PO Limits: Disabled"
 msgstr "ขีดจำกัดใบสั่งซื้อทั่วโลก: ปิดใช้งาน"
 
@@ -9140,7 +9180,7 @@ msgstr "รหัสโครงการ Google Cloud"
 msgid "Google Cloud Settings"
 msgstr "การตั้งค่า Google Cloud"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1352
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1355
 msgid ""
 "Google Cloud Settings information is not available. Please check system "
 "configuration."
@@ -9752,8 +9792,8 @@ msgstr "ดูภาพ"
 msgid "Impact on Depreciation"
 msgstr "ผลกระทบต่อค่าเสื่อมราคา"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:775
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:793
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:778
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:796
 msgid "Import Chart of Accounts"
 msgstr "นำเข้ารายการบัญชีแยกประเภท"
 
@@ -9783,7 +9823,7 @@ msgstr "นำเข้าข้อมูลใบส่งของจาก Ex
 msgid "Import Error"
 msgstr "ข้อผิดพลาดในการนำเข้า"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:893
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:896
 #: thai_business_suite/thai_business_suite/page/vat_type_settings/vat_type_settings.js:840
 #: thai_business_suite/www/desk-page/delivery-import/index.html:262
 msgid "Import Failed"
@@ -9862,7 +9902,7 @@ msgstr ""
 msgid "Import {0} VAT type(s) into centralized management?"
 msgstr "นำเข้า {0} ประเภท VAT เข้าสู่การจัดการส่วนกลางหรือไม่?"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:837
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:840
 msgid "Import {0} into {1}?"
 msgstr "นำเข้า {0} ไปยัง {1}?"
 
@@ -9886,7 +9926,7 @@ msgstr "ใบอนุญาตนำเข้า/ส่งออก"
 msgid "Imported"
 msgstr "นำเข้าแล้ว"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:867
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:870
 msgid "Importing Chart of Accounts... This may take a few minutes."
 msgstr "กำลังนำเข้ารายการบัญชี... อาจใช้เวลาสักครู่"
 
@@ -10397,7 +10437,6 @@ msgstr "การนับสต็อก"
 
 #. Option for the 'Template Type' (Select) field in DocType 'TBS Print
 #. Template'
-#: thai_business_suite/api/pos/pos_receipt.py:507
 #: thai_business_suite/thai_business_suite/doctype/tbs_print_template/tbs_print_template.json
 msgid "Invoice"
 msgstr "ใบแจ้งหนี้"
@@ -10451,6 +10490,7 @@ msgstr "ใบแจ้งหนี้"
 #. Label of a Check field in DocType 'SEO Template'
 #. Label of a Check field in DocType 'TBS CoA Mapping Template'
 #. Label of a Check field in DocType 'TBS End User Code Mapping'
+#. Label of a Check field in DocType 'TBS Home Page Option'
 #. Label of a Check field in DocType 'TBS Material Code Mapping'
 #. Label of a Check field in DocType 'TBS Restaurant Table'
 #. Label of a Check field in DocType 'TBS Table Layout'
@@ -10468,6 +10508,7 @@ msgstr "ใบแจ้งหนี้"
 #: thai_business_suite/thai_business_suite/doctype/seo_template/seo_template.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_coa_mapping_template/tbs_coa_mapping_template.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_end_user_code_mapping/tbs_end_user_code_mapping.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_material_code_mapping/tbs_material_code_mapping.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_restaurant_table/tbs_restaurant_table.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_table_layout/tbs_table_layout.json
@@ -10580,7 +10621,6 @@ msgstr "พบปัญหา"
 
 #. Label of a Link in the Buying Workspace
 #. Label of a shortcut in the Buying Workspace
-#: thai_business_suite/api/pos/pos_receipt.py:517
 #: thai_business_suite/public/js/pick_list.js:1721
 #: thai_business_suite/public/js/purchase_order_delivery_calendar.js:147
 #: thai_business_suite/public/js/simple_batch_selection_dialog.js:48
@@ -11123,10 +11163,17 @@ msgstr "ส่งการแจ้งเตือน LINE สำเร็จแ
 msgid "LSI"
 msgstr "LSI"
 
+#. Label of a Data field in DocType 'TBS Home Page Option'
 #. Option for the 'Template Type' (Select) field in DocType 'TBS Print
 #. Template'
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_print_template/tbs_print_template.json
 msgid "Label"
+msgstr "ป้ายกำกับ"
+
+#. Label of a Data field in DocType 'TBS Home Page Option'
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid "Label (Thai)"
 msgstr "ป้ายกำกับ"
 
 #: thai_business_suite/overrides/custom_field.py:126
@@ -11389,7 +11436,7 @@ msgstr "เรียนรู้การจัดซื้อจัดจ้า
 msgid "Left Margin (mm)"
 msgstr "ระยะขอบซ้าย (มม.)"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1332
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1335
 msgid "Legacy Credentials Information"
 msgstr "ข้อมูลข้อมูลประจำตัวรุ่นเก่า"
 
@@ -11725,7 +11772,10 @@ msgid "Low competition with low difficulty - Quick win opportunity!"
 msgstr "การแข่งขันต่ำกับความยากต่ำ - โอกาสชนะอย่างรวดเร็ว!"
 
 #. Description of the 'Sort Order' (Int) field in DocType 'Sales Order Type'
+#. Description of the 'Sort Order' (Int) field in DocType 'TBS Home Page
+#. Option'
 #: thai_business_suite/thai_business_suite/doctype/sales_order_type/sales_order_type.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
 #: thai_business_suite/thai_business_suite/page/vat_type_settings/vat_type_settings.js:282
 msgid "Lower numbers appear first in dropdowns"
 msgstr "ตัวเลขที่ต่ำกว่าจะปรากฏก่อนในรายการดรอปดาวน์"
@@ -11923,6 +11973,15 @@ msgstr ""
 "ข้อมูลหลักสำหรับประเภทใบสั่งขาย - "
 "อนุญาตให้ผู้ใช้กำหนดหมวดหมู่ใบสั่งซื้อที่กำหนดเองได้"
 
+#. Description of a DocType
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid ""
+"Master data for website home page options - allows users to define available"
+" landing pages"
+msgstr ""
+"ข้อมูลหลักสำหรับตัวเลือกหน้าหลักเว็บไซต์ - "
+"อนุญาตให้ผู้ใช้กำหนดหน้าลงจอดที่มีให้เลือกใช้งานได้"
+
 #. Label of a Percent field in DocType 'TBS Duplicate Collateral'
 #: thai_business_suite/thai_business_suite/doctype/tbs_duplicate_collateral/tbs_duplicate_collateral.json
 msgid "Match Score"
@@ -11948,7 +12007,7 @@ msgstr "ใบขอเบิกวัสดุ"
 msgid "Material Requests for which Supplier Quotations are not created"
 msgstr "คำขอวัสดุที่ยังไม่ได้สร้างใบเสนอราคาจากผู้จำหน่าย"
 
-#: thai_business_suite/public/js/item_po_limits.js:167
+#: thai_business_suite/public/js/item_po_limits.js:171
 msgid "Max Amount: {0}"
 msgstr "จำนวนสูงสุด: {0}"
 
@@ -11980,7 +12039,7 @@ msgstr "ความหนาแน่นของคำสำคัญสูง
 msgid "Max Paragraph Length"
 msgstr "ความยาวย่อหน้าสูงสุด"
 
-#: thai_business_suite/public/js/item_po_limits.js:152
+#: thai_business_suite/public/js/item_po_limits.js:156
 #: thai_business_suite/public/js/purchase_order_limits.js:253
 msgid "Max Qty: {0}"
 msgstr "ปริมาณสูงสุด: {0}"
@@ -12228,7 +12287,7 @@ msgstr ""
 "การย้ายข้อมูลเสร็จสมบูรณ์พร้อมข้อผิดพลาด {0} รายการ โปรดตรวจสอบ "
 "บันทึกข้อผิดพลาด สำหรับรายละเอียดเพิ่มเติม"
 
-#: thai_business_suite/public/js/item_po_limits.js:162
+#: thai_business_suite/public/js/item_po_limits.js:166
 msgid "Min Amount: {0}"
 msgstr "จำนวนขั้นต่ำ: {0}"
 
@@ -12259,7 +12318,7 @@ msgstr "ความหนาแน่นของคำสำคัญขั้
 msgid "Min Keyword Density must be less than Max Keyword Density"
 msgstr "ความหนาแน่นคำสำคัญขั้นต่ำต้องน้อยกว่าความหนาแน่นคำสำคัญสูงสุด"
 
-#: thai_business_suite/public/js/item_po_limits.js:149
+#: thai_business_suite/public/js/item_po_limits.js:153
 #: thai_business_suite/public/js/purchase_order_limits.js:252
 msgid "Min Qty: {0}"
 msgstr "ปริมาณขั้นต่ำ: {0}"
@@ -12624,7 +12683,7 @@ msgstr "ยอดเติมสินค้าคงคลังสุทธิ
 msgid "Net amount calculation error. Expected: {0}, Actual: {1}"
 msgstr "ข้อผิดพลาดในการคำนวณจำนวนสุทธิ คาดว่า: {0}, จริง: {1}"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1301
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1304
 msgid "Network error during connection test"
 msgstr "เกิดข้อผิดพลาดเครือข่ายระหว่างการทดสอบการเชื่อมต่อ"
 
@@ -12702,7 +12761,7 @@ msgstr "ไม่พบใบส่งของสำหรับรายกา
 msgid "No GPS data found in photo"
 msgstr "ไม่พบข้อมูล GPS ในรูปภาพ"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1370
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1373
 msgid "No Method Selected"
 msgstr "ไม่ได้เลือกวิธีการใด"
 
@@ -12921,7 +12980,7 @@ msgstr "ไม่มีรายการใดตรงกับเกณฑ์
 msgid "No keyword suggestions available"
 msgstr "ไม่มีคำแนะนำคำสำคัญให้เลือกใช้งาน"
 
-#: thai_business_suite/public/js/item_po_limits.js:184
+#: thai_business_suite/public/js/item_po_limits.js:188
 msgid "No limits configured"
 msgstr "ไม่มีการกำหนดขีดจำกัด"
 
@@ -13046,7 +13105,7 @@ msgstr "ไม่ได้รับอนุญาตให้เข้าถึ
 msgid "Not started yet"
 msgstr "ยังไม่เริ่มต้น"
 
-#: thai_business_suite/public/js/item_po_limits.js:199
+#: thai_business_suite/public/js/item_po_limits.js:203
 msgid "Note: 0 = no limit"
 msgstr "หมายเหตุ: 0 = ไม่จำกัด"
 
@@ -13365,11 +13424,6 @@ msgstr ""
 msgid "Open"
 msgstr "เปิด"
 
-#: thai_business_suite/utils/voucher_viewer.py:65
-#: thai_business_suite/utils/voucher_viewer.py:108
-msgid "Open PDF in New Tab"
-msgstr "เปิด PDF ในแท็บใหม่"
-
 #: thai_business_suite/thai_business_suite/page/po_planned_delivery_calendar/po_planned_delivery_calendar.js:431
 msgid "Open Purchase Order"
 msgstr "เปิดใบสั่งซื้อ"
@@ -13671,10 +13725,6 @@ msgstr "ค้างชำระ"
 msgid "Outstanding Amount"
 msgstr "ยอดค้างชำระ"
 
-#: thai_business_suite/commands/install_customer_multi_tabs.py:83
-msgid "Outstanding Bills"
-msgstr "ใบแจ้งหนี้ค้างชำระ"
-
 #: thai_business_suite/public/js/consignment_integration.js:136
 msgid "Outstanding Qty"
 msgstr "ยอดคงเหลือ"
@@ -13691,10 +13741,6 @@ msgstr "วงรี"
 #: thai_business_suite/public/js/asset_repair_po_integration.js:662
 msgid "Over Estimate by {0}%"
 msgstr "เกินประมาณการ {0}%"
-
-#: thai_business_suite/overrides/purchase_receipt_tracking.py:510
-msgid "Overall Progress"
-msgstr "ความก้าวหน้ารวม"
 
 #. Label of a Int field in DocType 'SEO Article'
 #: thai_business_suite/thai_business_suite/doctype/seo_article/seo_article.json
@@ -13756,7 +13802,7 @@ msgstr "งานที่เกินกำหนด"
 msgid "Overpaid/Refundable"
 msgstr "จ่ายเกิน/คืนเงินได้"
 
-#: thai_business_suite/public/js/item_po_limits.js:191
+#: thai_business_suite/public/js/item_po_limits.js:195
 msgid "Override Active"
 msgstr "แทนที่สถานะใช้งาน"
 
@@ -14025,7 +14071,6 @@ msgstr "หน้าต่อช่วงเวลาการใช้งาน
 #. Option for the 'Payment Status' (Select) field in DocType 'TBS Customer
 #. Purchase History'
 #. Option for the 'Status' (Select) field in DocType 'Thai Overtime Request'
-#: thai_business_suite/api/pos/pos_receipt.py:575
 #: thai_business_suite/thai_business_suite/doctype/tbs_customer_purchase_history/tbs_customer_purchase_history.json
 #: thai_business_suite/thai_business_suite/doctype/thai_overtime_request/thai_overtime_request.json
 msgid "Paid"
@@ -14194,10 +14239,6 @@ msgstr "รายการชำระเงิน"
 #: thai_business_suite/thai_business_suite/workspace/thai_business_suite/thai_business_suite.json
 msgid "Payment Gateway"
 msgstr "เกตเวย์การชำระเงิน"
-
-#: thai_business_suite/api/pos/pos_receipt.py:596
-msgid "Payment Methods"
-msgstr "วิธีการชำระเงิน"
 
 #. Label of a Select field in DocType 'Petty Cash Request'
 #: thai_business_suite/thai_business_suite/doctype/petty_cash_request/petty_cash_request.js:154
@@ -14581,7 +14622,6 @@ msgid "Pharmaceutical Regulatory"
 msgstr "ข้อกำหนดทางกฎหมายด้านยา"
 
 #. Label of a Data field in DocType 'Thai Branch'
-#: thai_business_suite/api/pos/pos_receipt.py:502
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid "Phone"
 msgstr "โทรศัพท์"
@@ -14675,7 +14715,6 @@ msgstr "กำหนดสิ้นสุด"
 #. Label of a Float field in DocType 'Customer Delivery Schedule'
 #. Label of a Float field in DocType 'Delivery Schedule'
 #. Label of a Float field in DocType 'PO Planned Delivery'
-#: thai_business_suite/overrides/purchase_receipt_tracking.py:522
 #: thai_business_suite/thai_business_suite/doctype/customer_delivery_schedule/customer_delivery_schedule.json
 #: thai_business_suite/thai_business_suite/doctype/delivery_schedule/delivery_schedule.json
 #: thai_business_suite/thai_business_suite/doctype/po_planned_delivery/po_planned_delivery.json
@@ -14736,7 +14775,7 @@ msgstr "กรุณากำหนดงานนี้ให้กับผู
 msgid "Please check if there is PND3 Form data for month"
 msgstr "กรุณาตรวจสอบว่ามีข้อมูลแบบฟอร์ม PND. สำหรับเดือนนี้หรือไม่"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1542
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1545
 msgid ""
 "Please configure your environment variables as shown in the guide, then test"
 " the connection."
@@ -14798,7 +14837,7 @@ msgstr ""
 "โปรดตรวจสอบให้แน่ใจว่าไฟล์ที่คุณใช้งานมีคอลัมน์ 'บัญชีหลัก' "
 "อยู่ในส่วนหัวของตาราง"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1562
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1565
 msgid ""
 "Please place your service account file in the specified directory, then "
 "create a Google Cloud Settings record."
@@ -14866,11 +14905,11 @@ msgstr "กรุณาเลือกคลังสินค้าก่อน
 msgid "Please select a business type first"
 msgstr "กรุณาเลือกประเภทธุรกิจก่อน"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:803
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:806
 msgid "Please select a chart template"
 msgstr "กรุณาเลือกแม่แบบแผนภูมิ"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:808
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:811
 msgid "Please select a company"
 msgstr "กรุณาเลือกบริษัท"
 
@@ -14906,7 +14945,7 @@ msgstr "กรุณาเลือกประเภทแม่แบบก่
 msgid "Please select an Item first"
 msgstr "กรุณาเลือกไอเท็มก่อน"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1371
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1374
 msgid "Please select an authentication method first."
 msgstr "กรุณาเลือกวิธีการตรวจสอบสิทธิ์ก่อนค่ะ"
 
@@ -15339,10 +15378,6 @@ msgstr "ชุดสินค้ารวม"
 msgid "Product Label Registration"
 msgstr "การลงทะเบียนป้ายสินค้า"
 
-#: thai_business_suite/commands/install_customer_multi_tabs.py:68
-msgid "Product Names"
-msgstr "ชื่อสินค้า"
-
 #. Option for the 'Template Type' (Select) field in DocType 'SEO Template'
 #: thai_business_suite/thai_business_suite/doctype/seo_template/seo_template.json
 msgid "Product Page"
@@ -15561,10 +15596,6 @@ msgstr "สัญญาซื้อขาย"
 msgid "Purchase Analytics"
 msgstr "วิเคราะห์การซื้อขาย"
 
-#: thai_business_suite/commands/install_customer_multi_tabs.py:78
-msgid "Purchase History"
-msgstr "ประวัติการซื้อ"
-
 #. Label of a Link field in DocType 'Asset Repair History'
 #. Label of a Section Break field in DocType 'Thai Purchase VAT'
 #. Label of a Link field in DocType 'Thai Purchase VAT'
@@ -15753,7 +15784,6 @@ msgstr "การแจ้งเตือนแบบพุช"
 
 #. Label of a Float field in DocType 'Consignment Item'
 #. Label of a Float field in DocType 'Thai VAT Recognition Item'
-#: thai_business_suite/api/pos/pos_receipt.py:518
 #: thai_business_suite/public/js/asset_repair_po_integration.js:251
 #: thai_business_suite/public/js/material_request_list.js:212
 #: thai_business_suite/public/js/sales_order_list.js:236
@@ -15904,14 +15934,6 @@ msgstr "คำสั่งด่วน"
 msgid "Quotation"
 msgstr "ใบเสนอราคา"
 
-#: thai_business_suite/commands/install_customer_multi_tabs.py:73
-msgid "Quotations"
-msgstr "ใบเสนอราคา"
-
-#: thai_business_suite/api/pos/pos_receipt.py:491
-msgid "REPRINTED COPY"
-msgstr "สำเนาพิมพ์ซ้ำ"
-
 #. Label of a Percent field in DocType 'Content Analytics'
 #: thai_business_suite/thai_business_suite/doctype/content_analytics/content_analytics.js:341
 #: thai_business_suite/thai_business_suite/doctype/content_analytics/content_analytics.json
@@ -15950,7 +15972,6 @@ msgstr "อันดับและประสิทธิภาพการค
 #. Label of a Currency field in DocType 'Payment Request Purchase Order
 #. Detail'
 #. Label of a Currency field in DocType 'Thai VAT Recognition Item'
-#: thai_business_suite/api/pos/pos_receipt.py:519
 #: thai_business_suite/public/js/asset_repair_po_integration.js:259
 #: thai_business_suite/public/js/consignment_integration.js:136
 #: thai_business_suite/thai_business_suite/doctype/consignment/consignment.js:1019
@@ -16026,10 +16047,6 @@ msgstr "อสังหาริมทรัพย์"
 #: SPA
 msgid "Real-time Calculation"
 msgstr "การคำนวณแบบเรียลไทม์"
-
-#: thai_business_suite/api/pos/pos_receipt.py:492
-msgid "Reason"
-msgstr "เหตุผล"
 
 #: thai_business_suite/thai_business_suite/doctype/content_task_queue/content_task_queue.js:170
 msgid "Reason for Blocking"
@@ -16123,7 +16140,6 @@ msgid "Received By (Thai)"
 msgstr "ผู้รับ (ภาษาไทย)"
 
 #. Label of a Float field in DocType 'PO Receipt History'
-#: thai_business_suite/overrides/purchase_receipt_tracking.py:526
 #: thai_business_suite/thai_business_suite/doctype/po_receipt_history/po_receipt_history.json
 msgid "Received Qty"
 msgstr "จำนวนที่ได้รับ"
@@ -16380,7 +16396,7 @@ msgid "Refresh Receipt Tracking"
 msgstr "รีเฟรชการติดตามใบเสร็จ"
 
 #: thai_business_suite/thai_business_suite/doctype/import_thai_supplier_e_tax_invoice/import_thai_supplier_e_tax_invoice.js:40
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:626
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:629
 #: thai_business_suite/thai_business_suite/page/zkteco_dashboard/zkteco_dashboard.js:29
 msgid "Refresh Status"
 msgstr "รีเฟรชสถานะ"
@@ -16556,7 +16572,6 @@ msgstr "โหลด"
 msgid "Reloading settings..."
 msgstr "กำลังโหลดการตั้งค่าใหม่..."
 
-#: thai_business_suite/overrides/purchase_receipt_tracking.py:530
 #: thai_business_suite/public/js/pick_list.js:1766
 msgid "Remaining"
 msgstr "ที่เหลืออยู่"
@@ -16708,10 +16723,6 @@ msgstr "รายงาน"
 #: thai_business_suite/page/ai_accounting_assistant/ai_accounting_assistant.js:43
 msgid "Reports - Financial statements and analytics"
 msgstr "รายงาน - งบการเงินและการวิเคราะห์"
-
-#: thai_business_suite/api/pos/pos_receipt.py:493
-msgid "Reprint Time"
-msgstr "เวลาพิมพ์ซ้ำ"
 
 #: thai_business_suite/public/js/asset_repair_po_integration.js:730
 msgid "Request Budget Approval"
@@ -17107,6 +17118,11 @@ msgstr "คอลัมน์ประเภทรากฐาน"
 #: thai_business_suite/thai_business_suite/doctype/tbs_restaurant_table/tbs_restaurant_table.json
 msgid "Round"
 msgstr "ปัดเศษ"
+
+#. Label of a Data field in DocType 'TBS Home Page Option'
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid "Route"
+msgstr "เส้นทาง"
 
 #. Description of the 'Grid Row' (Int) field in DocType 'TBS Restaurant Table'
 #: thai_business_suite/thai_business_suite/doctype/tbs_restaurant_table/tbs_restaurant_table.json
@@ -17640,10 +17656,6 @@ msgstr "กำลังบันทึกประเภท VAT..."
 msgid "Saving batch selections..."
 msgstr "กำลังบันทึกการเลือกชุด..."
 
-#: thai_business_suite/api/pos/pos_receipt.py:612
-msgid "Scan for invoice details"
-msgstr "สแกนเพื่อดูรายละเอียดใบแจ้งหนี้"
-
 #: thai_business_suite/public/js/purchase_order_delivery_calendar.js:164
 msgid "Schedule"
 msgstr "กำหนดการ"
@@ -17964,6 +17976,11 @@ msgstr "เลือกแบบอักษรภาษาไทยที่ใ
 #: thai_business_suite/thai_business_suite/doctype/zkteco_biometric_settings/zkteco_biometric_settings.json
 msgid "Select which exceptions to ignore (1,2,3 is recommended)"
 msgstr "เลือกข้อยกเว้นที่ต้องการละเว้น (แนะนำ 1,2,3)"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Select which fields should be displayed on printed documents"
+msgstr "เลือกฟิลด์ที่ควรแสดงบนเอกสารที่พิมพ์"
 
 #. Description of the 'Google Credential Method' (Select) field in DocType
 #. 'Google Cloud Settings'
@@ -18328,7 +18345,7 @@ msgstr "การตั้งค่า"
 msgid "Settings Name"
 msgstr "ชื่อการตั้งค่า"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1351
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1354
 msgid "Settings Not Available"
 msgstr "การตั้งค่าไม่พร้อมใช้งาน"
 
@@ -18433,10 +18450,20 @@ msgstr ""
 msgid "Should be exactly 1"
 msgstr "ควรเป็น 1 เท่านั้น"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show Barcode"
+msgstr "แสดงบาร์โค้ด"
+
 #. Label of a Check field in DocType 'Thai Voucher Settings'
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "Show Bilingual Labels"
 msgstr "แสดงป้ายกำกับสองภาษา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show Credit Terms"
+msgstr "แสดงเงื่อนไขเครดิต"
 
 #: thai_business_suite/overrides/customer.py:35
 #: thai_business_suite/public/js/customer.js:163
@@ -18448,10 +18475,50 @@ msgstr "แสดงรหัสสินค้าของลูกค้า"
 msgid "Show Customer Packing Size"
 msgstr "แสดงขนาดบรรจุภัณฑ์ของลูกค้า"
 
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show Date"
+msgstr "แสดงวันที่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show GPU Code"
+msgstr "แสดงรหัส GPU"
+
 #: thai_business_suite/public/js/material_request_list.js:15
 #: thai_business_suite/public/js/sales_order_list.js:16
 msgid "Show Items"
 msgstr "แสดงรายการ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show MFG/EXP per Lot"
+msgstr "แสดงการผลิต/วันหมดอายุต่อล็อต"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show PO Number"
+msgstr "แสดงหมายเลขใบสั่งซื้อ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show Remarks"
+msgstr "แสดงหมายเหตุ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show TM Code"
+msgstr "แสดงรหัส TM"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show TPU Code"
+msgstr "แสดงรหัส TPU"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Show Tax ID"
+msgstr "แสดงหมายเลขประจำตัวผู้เสียภาษี"
 
 #: thai_business_suite/public/js/material_request_list.js:422
 msgid "Showing {0} Material Request(s) matching: {1}"
@@ -18544,7 +18611,9 @@ msgstr ""
 "สำหรับรายละเอียดเพิ่มเติม"
 
 #. Label of a Int field in DocType 'Sales Order Type'
+#. Label of a Int field in DocType 'TBS Home Page Option'
 #: thai_business_suite/thai_business_suite/doctype/sales_order_type/sales_order_type.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
 msgid "Sort Order"
 msgstr "เรียง"
 
@@ -19058,10 +19127,6 @@ msgstr "ส่งเมื่อ"
 msgid "Submitting..."
 msgstr "กำลังส่ง..."
 
-#: thai_business_suite/api/pos/pos_receipt.py:548
-msgid "Subtotal"
-msgstr "ยอดรวมย่อย"
-
 #. Option for the 'Status' (Select) field in DocType 'Import Thai Supplier
 #. e-Tax Invoice'
 #: thai_business_suite/thai_business_suite/doctype/import_thai_supplier_e_tax_invoice/import_thai_supplier_e_tax_invoice.json
@@ -19395,6 +19460,7 @@ msgstr "ข้อมูลระบบ"
 #: thai_business_suite/thai_business_suite/doctype/tbs_end_user_code_mapping/tbs_end_user_code_mapping.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_external_storage/tbs_external_storage.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_general_settings/tbs_general_settings.json
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_material_code_mapping/tbs_material_code_mapping.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_print_agent/tbs_print_agent.json
 #: thai_business_suite/thai_business_suite/doctype/tbs_print_agent_config/tbs_print_agent_config.json
@@ -19553,6 +19619,11 @@ msgid "TBS General Settings"
 msgstr "การตั้งค่าทั่วไปของ TBS"
 
 #. Name of a DocType
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid "TBS Home Page Option"
+msgstr "ตัวเลือกหน้าหลัก TBS"
+
+#. Name of a DocType
 #: thai_business_suite/thai_business_suite/doctype/tbs_material_code_mapping/tbs_material_code_mapping.json
 msgid "TBS Material Code Mapping"
 msgstr "การจับคู่รหัสวัสดุ TBS"
@@ -19651,28 +19722,28 @@ msgstr "TEST-.DFY.-.#####"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
+msgid "TEST-.DYY.-.DMM.-.#####"
+msgstr "ทดสอบ-.วัน.เดือน.-.#####"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
 msgid "TEST-.DYY.-.DWW.-.####"
 msgstr "ทดสอบ-.วัน.-.สัปดาห์.-.####"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
-msgid "TEST-.DYY.DMM.-.#####"
-msgstr "ทดสอบ-.วัน.เดือน.-.#####"
-
-#. Extracted from SPA (React/TypeScript) files
-#: SPA
-msgid "TEST-.DYYYY.DMM.#####"
+msgid "TEST-.DYYYY.-.DMM.-.#####"
 msgstr "TEST-.DYYYY.DMM.#####"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
-msgid "TEST-.DYYYY.DMM.DDD.-.####"
+msgid "TEST-.DYYYY.-.DMM.-.DDD.-.####"
 msgstr "TEST-.ปปปป.ดด.ววว.-.####"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
-msgid "TEST-.YY.MM.#####"
-msgstr "ทดสอบ-.ปี.ค.ศ.#####"
+msgid "TEST-.YY.-.MM.-.#####"
+msgstr "ทดสอบ-.วัน.เดือน.-.#####"
 
 #. Description of the 'Topic Clusters (JSON)' (Long Text) field in DocType
 #. 'SEO
@@ -19686,10 +19757,6 @@ msgstr "ผลการวิเคราะห์ TF-IDF"
 #: thai_business_suite/thai_business_suite/doctype/thai_voucher_settings/thai_voucher_settings.json
 msgid "TH Sarabun New"
 msgstr "TH Sarabun New"
-
-#: thai_business_suite/api/pos/pos_receipt.py:571
-msgid "TOTAL"
-msgstr "รวม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -19933,10 +20000,6 @@ msgstr "งานเริ่มต้นเรียบร้อยแล้ว
 msgid "Task started: {0}"
 msgstr "งานเริ่มต้น: {0}"
 
-#: thai_business_suite/api/pos/pos_receipt.py:564
-msgid "Tax"
-msgstr "ภาษี"
-
 #. Option for the 'Event Type' (Select) field in DocType 'Thai Compliance
 #. Event
 #. Template'
@@ -19972,7 +20035,6 @@ msgstr "ชื่อแบบฟอร์มภาษี (ภาษาไทย)
 #. Label of a Data field in DocType 'External Sales Invoice'
 #. Label of a Data field in DocType 'Thai Branch'
 #: thai_business_suite/api/business/customers.py:333
-#: thai_business_suite/api/pos/pos_receipt.py:503
 #: thai_business_suite/thai_business_suite/doctype/external_sales_invoice/external_sales_invoice.json
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 #: thai_business_suite/thai_business_suite/report/thai_output_vat_report/thai_output_vat_report.py:68
@@ -20297,11 +20359,11 @@ msgstr "ทดสอบการเชื่อมต่อกับเซิร
 msgid "Testing"
 msgstr "ทดสอบ"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1243
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1246
 msgid "Testing Google Cloud Vision API connection..."
 msgstr "กำลังทดสอบการเชื่อมต่อ Google Cloud Vision API..."
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1257
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1260
 msgid "Testing connection to Google Cloud Vision API..."
 msgstr "กำลังทดสอบการเชื่อมต่อกับ Google Cloud Vision API..."
 
@@ -20387,7 +20449,7 @@ msgstr "ชุดธุรกิจไทย"
 msgid "Thai Business Suite custom document date field (priority 1)"
 msgstr "ฟิลด์วันที่เอกสารกำหนดเองของ Thai Business Suite (ความสำคัญ 1)"
 
-#: thai_business_suite/install.py:189
+#: thai_business_suite/install.py:204
 msgid ""
 "Thai Business Suite installed successfully. Please configure the Thai "
 "Voucher Settings."
@@ -20800,6 +20862,12 @@ msgstr "วันหยุดนักขัตฤกษ์และเทศก
 msgid "Thai template placeholders: {0}"
 msgstr "ตัวแปรแม่แบบภาษาไทย: {0}"
 
+#. Description of the 'Label (Thai)' (Data) field in DocType 'TBS Home Page
+#. Option'
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid "Thai translation of label"
+msgstr "ป้ายกำกับ"
+
 #. Description of the 'Order Type Name (Thai)' (Data) field in DocType 'Sales
 #. Order Type'
 #: thai_business_suite/thai_business_suite/doctype/sales_order_type/sales_order_type.json
@@ -20810,10 +20878,6 @@ msgstr "ประเภทคำสั่งซื้อ"
 #: thai_business_suite/thai_business_suite/doctype/seo_content_brief/seo_content_brief.json
 msgid "Thai-Specific Data"
 msgstr "ข้อมูลเฉพาะสำหรับประเทศไทย"
-
-#: thai_business_suite/api/pos/pos_receipt.py:619
-msgid "Thank you for your business!"
-msgstr "ขอบคุณสำหรับธุรกิจของคุณ!"
 
 #: thai_business_suite/api/pos/pos_receipt.py:661
 msgid ""
@@ -20956,7 +21020,7 @@ msgstr ""
 msgid "This will be set as the default template for {0}"
 msgstr "นี่จะถูกตั้งเป็นแม่แบบเริ่มต้นสำหรับ {0}"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:649
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:652
 msgid ""
 "This will change the global currency default to THB (Thai Baht). Continue?"
 msgstr ""
@@ -21027,10 +21091,6 @@ msgstr "ความเป็นผู้นำทางความคิด"
 #: thai_business_suite/thai_business_suite/doctype/tbs_print_template/tbs_print_template.json
 msgid "Ticket"
 msgstr "ตั๋ว"
-
-#: thai_business_suite/api/pos/pos_receipt.py:509
-msgid "Time"
-msgstr "เวลา"
 
 #. Label of a Section Break field in DocType 'Content Task Queue'
 #: thai_business_suite/thai_business_suite/doctype/content_task_queue/content_task_queue.json
@@ -21316,10 +21376,6 @@ msgstr "ยอดสุทธิรวม"
 #: thai_business_suite/thai_business_suite/report/thai_output_vat_report/thai_output_vat_report.py:324
 msgid "Total Output VAT"
 msgstr "ยอดรวม VAT ออก"
-
-#: thai_business_suite/overrides/purchase_receipt_tracking.py:563
-msgid "Total Planned Value"
-msgstr "มูลค่าที่วางแผนรวม"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -21634,7 +21690,7 @@ msgstr "ทริกเกอร์: {0}"
 
 #. Label of a Select field in DocType 'TBS External Storage'
 #: thai_business_suite/public/js/consignment_integration.js:75
-#: thai_business_suite/public/js/item_po_limits.js:174
+#: thai_business_suite/public/js/item_po_limits.js:178
 #: thai_business_suite/thai_business_suite/doctype/seo_content_brief/seo_content_brief.js:415
 #: thai_business_suite/thai_business_suite/doctype/tbs_external_storage/tbs_external_storage.json
 msgid "Type"
@@ -21686,6 +21742,11 @@ msgstr "URL Slug"
 msgid "URL currently ranking for this keyword"
 msgstr "URL ที่กำลังจัดอันดับสำหรับคำค้นหานี้ในขณะนี้"
 
+#. Description of the 'Route' (Data) field in DocType 'TBS Home Page Option'
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid "URL path (e.g., app, home, login)"
+msgstr "เส้นทาง URL (เช่น app, หน้าแรก, login)"
+
 #. Description of the 'Flesch-Kincaid Grade Level' (Float) field in DocType
 #. 'SEO Analysis Report'
 #: thai_business_suite/thai_business_suite/doctype/seo_analysis_report/seo_analysis_report.json
@@ -21710,6 +21771,12 @@ msgstr "ยกเลิกการเลือกหากเอกสารเ
 #: thai_business_suite/thai_business_suite/doctype/sales_order_type/sales_order_type.json
 msgid "Uncheck to disable this order type"
 msgstr "ยกเลิกการเลือกเพื่อปิดใช้งานประเภทคำสั่งซื้อนี้"
+
+#. Description of the 'Is Active' (Check) field in DocType 'TBS Home Page
+#. Option'
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid "Uncheck to hide this option from the dropdown"
+msgstr "ยกเลิกการเลือกเพื่อซ่อนตัวเลือกนี้จากเมนูดรอปดาวน์"
 
 #. Description of the 'Is Active' (Check) field in DocType 'Thai Compliance
 #. Event Template'
@@ -21858,7 +21925,7 @@ msgstr "อัปเดตการติดตามใบเสร็จสำ
 msgid "Updated {0} accounts with Thai names"
 msgstr "อัปเดตบัญชี {0} รายการด้วยชื่อภาษาไทยแล้ว"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:657
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:660
 msgid "Updating currency defaults..."
 msgstr "กำลังอัปเดตค่าเริ่มต้นสกุลเงิน..."
 
@@ -22135,7 +22202,7 @@ msgstr ""
 "กำลังใช้ขีดจำกัดใบสั่งซื้อทั่วโลกจากการตั้งค่าทั่วไปของ TBS "
 "โปรดทำเครื่องหมายเพื่อแทนที่และปรับแต่งตามต้องการ"
 
-#: thai_business_suite/public/js/item_po_limits.js:191
+#: thai_business_suite/public/js/item_po_limits.js:195
 msgid "Using item-specific values below"
 msgstr "ใช้ค่าที่ระบุเฉพาะสำหรับสินค้าในด้านล่างนี้"
 
@@ -22470,7 +22537,7 @@ msgstr "ดูสรุป"
 msgid "View CSV in Grist"
 msgstr "ดู CSV ใน Grist"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1387
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1390
 msgid "View Environment Guide"
 msgstr "ดูคำแนะนำสภาพแวดล้อม"
 
@@ -22482,7 +22549,7 @@ msgstr "ดูบันทึกข้อผิดพลาด"
 msgid "View Execution Log"
 msgstr "ดูบันทึกการทำงาน"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1446
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:1449
 msgid "View File Setup Guide"
 msgstr "ดูคู่มือการตั้งค่าไฟล์"
 
@@ -22601,10 +22668,6 @@ msgstr "ประเภทใบสำคัญ"
 #: thai_business_suite/utils/voucher_viewer.py:145
 msgid "Voucher file not found."
 msgstr "ไม่พบไฟล์บัตรเงินสด"
-
-#: thai_business_suite/utils/voucher_viewer.py:93
-msgid "Voucher generation not supported for this document type."
-msgstr "ไม่รองรับการสร้างบัตรกำนัลสำหรับประเภทเอกสารนี้"
 
 #: thai_business_suite/overrides/purchase_invoice.py:55
 msgid "WHT Rate is required for withholding tax"
@@ -22793,6 +22856,11 @@ msgstr "Webhook"
 #: thai_business_suite/thai_business_suite/doctype/thai_branch/thai_branch.json
 msgid "Website"
 msgstr "เว็บไซต์"
+
+#. Name of a role
+#: thai_business_suite/thai_business_suite/doctype/tbs_home_page_option/tbs_home_page_option.json
+msgid "Website Manager"
+msgstr "เว็บไซต์ผู้จัดการ"
 
 #. Option for the 'Analysis Period' (Select) field in DocType 'Content
 #. Analytics'
@@ -23969,7 +24037,7 @@ msgstr "✅ เสร็จสมบูรณ์ ({0} การจัดส่�
 msgid "✅ Connection Successful"
 msgstr "✅ การเชื่อมต่อสำเร็จ"
 
-#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:663
+#: thai_business_suite/thai_business_suite/page/tbs_settings/tbs_settings.js:666
 msgid "✅ Currency defaults updated to THB successfully!"
 msgstr "✅ การตั้งค่าเริ่มต้นสกุลเงินได้รับการอัปเดตเป็น THB เรียบร้อยแล้ว!"
 
