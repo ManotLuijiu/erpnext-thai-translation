@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe Framework VERSION\n"
 "Report-Msgid-Bugs-To: developers@frappe.io\n"
-"POT-Creation-Date: 2026-02-09 13:22+0642\n"
-"PO-Revision-Date: 2026-02-09 13:34\n"
+"POT-Creation-Date: 2026-02-10 17:13+0642\n"
+"PO-Revision-Date: 2026-02-10 20:18\n"
 "Last-Translator: developers@frappe.io\n"
 "Language-Team: developers@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -18416,7 +18416,7 @@ msgstr "ส่งไม่ได้"
 
 #: frappe/public/js/frappe/list/list_sidebar_group_by.js:219
 msgid "Not Set"
-msgstr "ไม่ได้ตั้งค่า"
+msgstr "ยังไม่ได้ตั้งค่า"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:606
 msgctxt "Field value is not set"
