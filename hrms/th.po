@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
-"POT-Creation-Date: 2026-02-05 05:51+0642\n"
-"PO-Revision-Date: 2026-02-05 14:42\n"
+"POT-Creation-Date: 2026-02-27 15:05+0642\n"
+"PO-Revision-Date: 2026-03-01 12:34\n"
 "Last-Translator: contact@frappe.io\n"
 "Language-Team: contact@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -962,7 +962,7 @@ msgstr "จำนวนเงินที่จัดสรรแล้ว"
 
 #: hrms/hr/doctype/leave_application/leave_application.js:75
 msgid "Allocated Leaves"
-msgstr "ใบที่จัดสรรไว้"
+msgstr "วันลาที่จัดสรรไว้"
 
 #: hrms/hr/utils.py:418
 msgid ""
