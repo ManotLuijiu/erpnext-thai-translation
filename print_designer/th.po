@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Print Designer VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2026-02-27 15:07+0642\n"
-"PO-Revision-Date: 2026-03-01 15:08\n"
+"PO-Revision-Date: 2026-03-01 15:09\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "Language: th\n"
@@ -70,7 +70,7 @@ msgstr "01 - มกราคม (January)"
 #. Entry'
 #: print_designer/print_designer/doctype/employee_tax_ledger_entry/employee_tax_ledger_entry.json
 msgid "02 - February"
-msgstr "02 - February"
+msgstr "02 - กุมภาพันธ์"
 
 #. Option for the 'Tax Month' (Select) field in DocType 'Withholding Tax
 #. Certificate'
