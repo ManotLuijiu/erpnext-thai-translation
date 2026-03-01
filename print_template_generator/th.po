@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Print Template Generator VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2026-02-27 15:14+0642\n"
-"PO-Revision-Date: 2026-03-01 15:10\n"
+"PO-Revision-Date: 2026-03-01 15:12\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -31,12 +31,12 @@ msgstr "ตั้งค่า AI"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI Conversion Status"
-msgstr ""
+msgstr "สถานะการแปลง AI"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI Converted"
-msgstr ""
+msgstr "แปลงไฟล์โดย AI"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -51,7 +51,7 @@ msgstr "ผู้ให้บริการ AI"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "AI Raw Response"
-msgstr ""
+msgstr "AI Raw Response"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -66,12 +66,12 @@ msgstr "แอปส์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Bound"
-msgstr ""
+msgstr "ผูกมัด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Claude"
-msgstr ""
+msgstr "Claude"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -81,7 +81,7 @@ msgstr "เสร็จสมบูรณ์"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Conversion Log"
-msgstr ""
+msgstr "บันทึกการเข้าถึง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -96,7 +96,7 @@ msgstr "ครอบครัวแบบอักษรเริ่มต้น
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Default Paper Size"
-msgstr ""
+msgstr "ขนาดกระดาษเริ่มต้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -116,12 +116,12 @@ msgstr "ฉบับร่าง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "ERPNext Sync"
-msgstr ""
+msgstr "การซิงค์ ERPNext"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Edited"
-msgstr ""
+msgstr "แก้ไขแล้ว"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -146,32 +146,32 @@ msgstr "ฝ่ายสนับสนุน Frappe"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Generated CSS"
-msgstr ""
+msgstr "สร้าง CSS"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Generated HTML"
-msgstr ""
+msgstr "สร้าง HTML"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Generated Output"
-msgstr ""
+msgstr "ผลลัพธ์ที่สร้างขึ้น"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Grid Snap (mm)"
-msgstr ""
+msgstr "การจับกริด (มม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Half-Letter"
-msgstr ""
+msgstr "ครึ่งจดหมาย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Is Synced"
-msgstr ""
+msgstr "ซิงค์สินรายง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -191,12 +191,12 @@ msgstr "ซิงค์ครั้งล่าสุดที่"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Layout"
-msgstr ""
+msgstr "เค้าโครง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Layout JSON"
-msgstr ""
+msgstr "เค้าโครง JSON"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -206,7 +206,7 @@ msgstr "จดหมาย"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Linked Print Format"
-msgstr ""
+msgstr "รูปแบบการพิมพ์ที่เชื่อมโยง"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -216,32 +216,32 @@ msgstr "ออกจากระบบ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Margin Bottom (mm)"
-msgstr ""
+msgstr "ระยะขอบล่าง (มม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Margin Left (mm)"
-msgstr ""
+msgstr "ระยะขอบซ้าย (มม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Margin Right (mm)"
-msgstr ""
+msgstr "ระยะขอบขวา (มม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Margin Top (mm)"
-msgstr ""
+msgstr "ระยะขอบบน (มม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Margins"
-msgstr ""
+msgstr "ขอบเขต"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Max AI Retries"
-msgstr ""
+msgstr "จำนวนครั้งที่ AI ลองใหม่สูงสุด"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -271,22 +271,22 @@ msgstr "การวางแนว"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "PTG Settings"
-msgstr ""
+msgstr "การตั้งค่า PTG"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "PTG Studio"
-msgstr ""
+msgstr "PTG Studio"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "PTG Template"
-msgstr ""
+msgstr "แม่แบบ PTG"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Paper Height (mm)"
-msgstr ""
+msgstr "ความสูงกระดาษ (มม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -296,7 +296,7 @@ msgstr "ขนาดกระดาษ"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Paper Width (mm)"
-msgstr ""
+msgstr "ความกว้างกระดาษ (มม.)"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -306,7 +306,7 @@ msgstr "แนวตั้ง"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Print Template Generator"
-msgstr ""
+msgstr "สร้างฟอร์ม/รายงานเป็นไทย"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
@@ -356,7 +356,7 @@ msgstr "เป้าหมาย DocType"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Template Info"
-msgstr ""
+msgstr "ข้อมูลแม่แบบ"
 
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
