@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 82,
-  "last_updated": "2026-03-01T12:37:07.810110",
+  "terms_count": 83,
+  "last_updated": "2026-03-01T12:39:39.311183",
   "terms": {
     "1 Google Calendar Event synced.": {
       "translation": "ซิงค์ 1 กิจกรรมบนปฏิทิน Google",
@@ -330,6 +330,13 @@
       "translation": "เดือน",
       "context": "",
       "category": "Date/Time",
+      "module": "",
+      "is_approved": 1
+    },
+    "Open Source Application": {
+      "translation": "แอปพลิเคชัน โอเพนซอร์ส",
+      "context": "We can use like in this way in Thailand we call \"ทับศัพท์\" translate as Karaoke pronounce.",
+      "category": "Technical",
       "module": "",
       "is_approved": 1
     },
