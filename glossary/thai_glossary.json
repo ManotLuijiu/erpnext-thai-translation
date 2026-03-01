@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "language": "th",
-  "terms_count": 81,
-  "last_updated": "2026-02-05T16:35:23.680286",
+  "terms_count": 82,
+  "last_updated": "2026-03-01T12:37:07.810110",
   "terms": {
     "1 Google Calendar Event synced.": {
       "translation": "ซิงค์ 1 กิจกรรมบนปฏิทิน Google",
@@ -50,6 +50,13 @@
       "translation": "ทั้งหมด",
       "context": "",
       "category": "Technical",
+      "module": "",
+      "is_approved": 1
+    },
+    "Allocate Leaves": {
+      "translation": "จัดสรรวันลาหยุด",
+      "context": "Leave and Leaves in HR context mean for instance Sick Leave, Total Sick Leaves etc., in Thai language is วันลา วันหยุด หรือ วันลาหยุด",
+      "category": "Business",
       "module": "",
       "is_approved": 1
     },
