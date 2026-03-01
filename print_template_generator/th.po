@@ -1,0 +1,384 @@
+# Thai translations for Print Template Generator.
+# Copyright (C) 2026 AWS Solution Ltd.
+# This file is distributed under the same license as the Print Template Generator project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Print Template Generator VERSION\n"
+"Report-Msgid-Bugs-To: moocoding@gmail.com\n"
+"POT-Creation-Date: 2026-02-27 15:14+0642\n"
+"PO-Revision-Date: 2026-03-01 15:10\n"
+"Last-Translator: moocoding@gmail.com\n"
+"Language-Team: moocoding@gmail.com\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.13.1\n"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "A4"
+msgstr "A4"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "AI Configuration"
+msgstr "ตั้งค่า AI"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "AI Conversion Status"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "AI Converted"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "AI Model"
+msgstr "โมเดล AI"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "AI Provider"
+msgstr "ผู้ให้บริการ AI"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "AI Raw Response"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Apps"
+msgstr "แอปส์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Bound"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Claude"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Completed"
+msgstr "เสร็จสมบูรณ์"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Conversion Log"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Default Font Family"
+msgstr "ครอบครัวแบบอักษรเริ่มต้น"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Default Paper Size"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Defaults"
+msgstr "เริ่มต้น"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Documentation"
+msgstr "เอกสารประกอบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Draft"
+msgstr "ฉบับร่าง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "ERPNext Sync"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Edited"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Enabled"
+msgstr "เปิดใช้งานแล้ว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Failed"
+msgstr "ล้มเหลว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe School"
+msgstr "Frappe School"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Frappe Support"
+msgstr "ฝ่ายสนับสนุน Frappe"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Generated CSS"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Generated HTML"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Generated Output"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Grid Snap (mm)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Half-Letter"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Is Synced"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Keyboard Shortcuts"
+msgstr "แป้นพิมพ์ลัด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Landscape"
+msgstr "แนวนอน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Last Synced At"
+msgstr "ซิงค์ครั้งล่าสุดที่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Layout"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Layout JSON"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Letter"
+msgstr "จดหมาย"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Linked Print Format"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Log out"
+msgstr "ออกจากระบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Margin Bottom (mm)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Margin Left (mm)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Margin Right (mm)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Margin Top (mm)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Margins"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Max AI Retries"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Profile"
+msgstr "โปรไฟล์ของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "My Settings"
+msgstr "การตั้งค่าของฉัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Not Started"
+msgstr "ยังไม่เริ่มต้น"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "OpenAI"
+msgstr "OpenAI"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Orientation"
+msgstr "การวางแนว"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PTG Settings"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PTG Studio"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "PTG Template"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Paper Height (mm)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Paper Size"
+msgstr "ขนาดกระดาษ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Paper Width (mm)"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Portrait"
+msgstr "แนวตั้ง"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Print Template Generator"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Processing"
+msgstr "การประมวลผล"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Published"
+msgstr "เผยแพร่"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Reload"
+msgstr "โหลด"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Report an Issue"
+msgstr "รายงานปัญหา"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Session Defaults"
+msgstr "ค่าเริ่มต้นของเซสชัน"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Source File"
+msgstr "ไฟล์ต้นฉบับ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Status"
+msgstr "สถานะ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "System Manager"
+msgstr "ผู้จัดการระบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Target DocType"
+msgstr "เป้าหมาย DocType"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Template Info"
+msgstr ""
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Template Name"
+msgstr "ชื่อแม่แบบ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Full Width"
+msgstr "สลับความกว้างเต็มหน้าจอ"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "Toggle Theme"
+msgstr "สลับธีม"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "User Forum"
+msgstr "ฟอรั่มผู้ใช้"
+
+#. Extracted from SPA (React/TypeScript) files
+#: SPA
+msgid "View Website"
+msgstr "ดูเว็บไซต์"
