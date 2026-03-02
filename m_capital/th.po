@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: M Capital VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
 "POT-Creation-Date: 2026-03-02 12:05+0642\n"
-"PO-Revision-Date: 2026-03-02 13:02\n"
+"PO-Revision-Date: 2026-03-02 13:20\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -1831,7 +1831,7 @@ msgstr "กิจกรรม"
 #. Extracted from SPA (React/TypeScript) files
 #: SPA
 msgid "Actual"
-msgstr "ที่จริง"
+msgstr "ยอดจริง"
 
 #: m_capital/m_capital/report/closed_account_report/closed_account_report.py:133
 msgid "Actual Close Date"
