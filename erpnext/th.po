@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2026-03-24 09:06+0642\n"
-"PO-Revision-Date: 2026-03-24 09:06+0642\n"
+"POT-Creation-Date: 2026-03-24 09:59+0642\n"
+"PO-Revision-Date: 2026-03-24 10:12\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -25,6 +25,11 @@ msgid ""
 "\t\t\tHowever, enabling this setting may lead to negative stock in the system.\n"
 "\t\t\tSo please ensure the stock levels are adjusted as soon as possible to maintain the correct valuation rate."
 msgstr ""
+"ล็อตที่ {0} ของสินค้า {1} มีจำนวนคงเหลือติดลบในคลังสินค้า {2}{3}  \n"
+"กรุณาเพิ่มจำนวนคงเหลือ {4} เพื่อดำเนินการบันทึกข้อมูลนี้ต่อไป  \n"
+"หากไม่สามารถทำรายการปรับปรุงได้ กรุณาเปิดใช้งาน 'อนุญาตจำนวนคงเหลือติดลบสำหรับล็อต' ในการตั้งค่าคลังสินค้าเพื่อดำเนินการต่อ  \n"
+"อย่างไรก็ตาม การเปิดใช้งานการตั้งค่านี้อาจทำให้เกิดจำนวนคงเหลือติดลบในระบบได้  \n"
+"ดังนั้น กรุณาตรวจสอบและปรับปรุงระดับสต็อกโดยเร็วที่สุดเพื่อรักษาอัตราค่าประเมินที่ถูกต้อง"
 
 #. Label of the column_break_32 (Column Break) field in DocType 'Email Digest'
 #: erpnext/setup/doctype/email_digest/email_digest.json
@@ -70,7 +75,7 @@ msgstr "ชื่อ"
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:144
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:185
 msgid " Phantom Item"
-msgstr ""
+msgstr "ไอเท็มล่องหน"
 
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:595
 msgid " Rate"
@@ -35146,7 +35151,7 @@ msgstr "หยุดชั่วคราว"
 #. Option for the 'Payment Type' (Select) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Pay"
-msgstr "จ่าย"
+msgstr "ชำระเงิน"
 
 #: erpnext/templates/pages/order.html:43
 msgctxt "Amount"
@@ -47173,7 +47178,7 @@ msgstr "กำหนดการ วันที่"
 
 #: erpnext/public/js/controllers/transaction.js:486
 msgid "Schedule Name"
-msgstr ""
+msgstr "ชื่อกำหนดการ"
 
 #. Label of the scheduled_date (Date) field in DocType 'Maintenance Schedule
 #. Detail'
@@ -59475,7 +59480,7 @@ msgstr ""
 
 #: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:77
 msgid "Warnings"
-msgstr ""
+msgstr "คำเตือน"
 
 #. Label of a Card Break in the Support Workspace
 #: erpnext/support/workspace/support/support.json
