@@ -1,54 +1,58 @@
-# Thai translations for Payments.
-# Copyright (C) 2025 Frappe Technologies
+# Translations template for Payments.
+# Copyright (C) 2026 Frappe Technologies
 # This file is distributed under the same license as the Payments project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Payments VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2025-09-04 18:48+0642\n"
-"PO-Revision-Date: 2025-09-07 06:11\n"
+"POT-Creation-Date: 2026-03-23 00:39+0642\n"
+"PO-Revision-Date: 2026-03-23 00:39+0642\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
-"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.13.1\n"
+"Generated-By: Babel 2.16.0\n"
 
-#. Label of a Password field in DocType 'Mpesa Settings'
+#. Label of the online_passkey (Password) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid " Online PassKey"
 msgstr "รหัส (ออนไลน์)"
 
-#. Label of a Data field in DocType 'Razorpay Settings'
+#. Label of the api_key (Password) field in DocType 'Paymob Settings'
+#. Label of the api_key (Data) field in DocType 'Razorpay Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
 #: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
 msgid "API Key"
 msgstr "API คีย์"
 
-#. Label of a Password field in DocType 'PayPal Settings'
+#. Label of the api_password (Password) field in DocType 'PayPal Settings'
 #: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgid "API Password"
 msgstr "รหัสผ่านสำหรับ API"
 
-#. Label of a Password field in DocType 'Razorpay Settings'
+#. Label of the api_secret (Password) field in DocType 'Razorpay Settings'
 #: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
 msgid "API Secret"
 msgstr "รหัสลับ API"
 
-#. Label of a Data field in DocType 'PayPal Settings'
+#. Label of the api_username (Data) field in DocType 'PayPal Settings'
 #: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgid "API Username"
 msgstr "ชื่อผู้ใช้ API"
 
-#. Label of a Data field in DocType 'GoCardless Settings'
+#. Label of the access_token (Data) field in DocType 'GoCardless Settings'
 #: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
 msgid "Access Token"
 msgstr "โทเค็นการเข้าถึง"
 
-#. Label of a Long Text field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.js:23
+msgid "Access Token Updated"
+msgstr ""
+
+#. Label of the account_balance (Long Text) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Account Balance"
 msgstr "ยอดคงเหลือบัญชี"
@@ -59,11 +63,13 @@ msgstr "ประเภทบัญชี"
 
 #. Name of a role
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
 msgid "Accounts Manager"
 msgstr "ผู้จัดการบัญชี"
 
 #. Name of a role
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
 msgid "Accounts User"
 msgstr "ผู้ใช้บัญชี"
 
@@ -71,7 +77,7 @@ msgstr "ผู้ใช้บัญชี"
 msgid "Amount must be greater than 0."
 msgstr "จำนวนต้องมากกว่า 0"
 
-#: payments/templates/pages/stripe_checkout.html:50
+#: payments/templates/pages/stripe_checkout.html:52
 msgid "An error occured during the payment process. Please contact us."
 msgstr "เกิดข้อผิดพลาดระหว่างกระบวนการชำระเงิน กรุณาติดต่อเรา"
 
@@ -88,12 +94,12 @@ msgstr "รายละเอียดยอดคงเหลือ"
 msgid "Braintree Settings"
 msgstr "การตั้งค่า Braintree"
 
-#. Label of a Data field in DocType 'Mpesa Settings'
+#. Label of the business_shortcode (Data) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Business Shortcode"
 msgstr "รหัสย่อธุรกิจ"
 
-#: payments/templates/pages/stripe_checkout.html:41
+#: payments/templates/pages/stripe_checkout.html:43
 msgid "Card Details"
 msgstr "รายละเอียดบัตร"
 
@@ -102,16 +108,16 @@ msgstr "รายละเอียดบัตร"
 msgid "Check this if you are testing your payment using the Sandbox API"
 msgstr "โปรดตรวจสอบนี้หากคุณกำลังทดสอบการชำระเงินโดยใช้ Sandbox API"
 
-#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.js:7
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.js:6
 msgid "Clear"
 msgstr "ล้างข้อมูล"
 
-#. Label of a Data field in DocType 'Mpesa Settings'
+#. Label of the consumer_key (Data) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Consumer Key"
 msgstr "Consumer Key"
 
-#. Label of a Password field in DocType 'Mpesa Settings'
+#. Label of the consumer_secret (Password) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Consumer Secret"
 msgstr "รหัสลับผู้บริโภค"
@@ -122,72 +128,109 @@ msgstr "รหัสลับผู้บริโภค"
 msgid "Continue"
 msgstr "ดำเนินการต่อ"
 
-#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:564
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:570
 msgid "Controller method get_razorpay_order missing"
 msgstr "เมธอดคอนโทรลเลอร์ get_razorpay_order หายไป"
 
-#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:565
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:155
+msgid "Could not create Paymob order"
+msgstr ""
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:571
 msgid "Could not create Razorpay order. Please contact Administrator"
 msgstr "ไม่สามารถสร้างคำสั่งซื้อ Razorpay ได้ กรุณาติดต่อผู้ดูแลระบบ"
 
-#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:361
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:365
 msgid "Could not create razorpay order"
 msgstr "ไม่สามารถสร้างคำสั่งซื้อ Razorpay ได้"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:112
+msgid "Could not generate Paymob payment URL"
+msgstr ""
+
+#. Label of the credentials_section (Section Break) field in DocType 'Paymob
+#. Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Credentials"
+msgstr ""
 
 #: payments/payment_gateways/doctype/mpesa_settings/account_balance.html:7
 msgid "Current Balance"
 msgstr "ยอดคงเหลือปัจจุบัน"
 
-#. Label of a Check field in DocType 'GoCardless Mandate'
+#. Label of the disabled (Check) field in DocType 'GoCardless Mandate'
 #: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
 msgid "Disabled"
 msgstr "ปิดใช้งาน"
 
-#: payments/templates/pages/stripe_checkout.html:34
+#: payments/templates/pages/stripe_checkout.html:36
 msgid "Email"
 msgstr "อีเมล"
 
-#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:283
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:279
 msgid "Error"
 msgstr "ข้อผิดพลาด"
 
-#: payments/utils/utils.py:10
+#: payments/utils/utils.py:11
 msgid "Expired Token"
 msgstr "โทเค็นหมดอายุ"
 
-#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:451
+#. Label of the expires_in (Datetime) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Expires In"
+msgstr "หมดอายุใน"
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:139
+msgid "Failed to create order in Paymob"
+msgstr ""
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:103
+msgid "Failed to retrieve payment token from Paymob"
+msgstr ""
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:452
 msgid "Failed while amending subscription"
 msgstr "ล้มเหลวขณะแก้ไขการสมัครสมาชิก"
 
-#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:185
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:188
 msgid "For currency {0}, the minimum transaction amount should be {1}"
 msgstr "สำหรับสกุลเงิน {0} จำนวนธุรกรรมขั้นต่ำควรเป็น {1}"
 
-#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.js:6
+#: payments/payment_gateways/doctype/paytm_settings/paytm_settings.js:7
 msgid "For more information, {0}."
 msgstr "สำหรับข้อมูลเพิ่มเติม {0}"
 
-#. Label of a Data field in DocType 'Payment Gateway'
+#. Label of the gateway (Data) field in DocType 'Payment Gateway'
 #: payments/payments/doctype/payment_gateway/payment_gateway.json
 msgid "Gateway"
 msgstr "เกตเวย์"
 
-#. Label of a Dynamic Link field in DocType 'Payment Gateway'
+#. Label of the gateway_controller (Dynamic Link) field in DocType 'Payment
+#. Gateway'
 #: payments/payments/doctype/payment_gateway/payment_gateway.json
 msgid "Gateway Controller"
 msgstr "ตัวควบคุมเกตเวย์"
 
-#. Label of a Link field in DocType 'Payment Gateway'
+#. Label of the gateway_settings (Link) field in DocType 'Payment Gateway'
 #: payments/payments/doctype/payment_gateway/payment_gateway.json
 msgid "Gateway Settings"
 msgstr "การตั้งค่าประตูชำระเงิน"
 
-#. Label of a Button field in DocType 'Mpesa Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.js:6
+msgid "Get Access Token"
+msgstr ""
+
+#. Label of the get_account_balance (Button) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Get Account Balance"
 msgstr "ดูยอดคงเหลือบัญชี"
 
-#. Label of a Data field in DocType 'GoCardless Mandate'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.js:17
+msgid "Getting Access Token ..."
+msgstr ""
+
+#. Label of the gocardless_customer (Data) field in DocType 'GoCardless
+#. Mandate'
 #: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
 msgid "GoCardless Customer"
 msgstr "GoCardless ลูกค้า"
@@ -202,38 +245,54 @@ msgstr "คำสั่ง GoCardless"
 msgid "GoCardless Settings"
 msgstr "การตั้งค่า GoCardless"
 
-#. Label of a Attach Image field in DocType 'Braintree Settings'
-#. Label of a Attach Image field in DocType 'GoCardless Settings'
-#. Label of a Attach Image field in DocType 'Stripe Settings'
+#. Label of the hmac (Password) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "HMAC"
+msgstr ""
+
+#. Label of the header_img (Attach Image) field in DocType 'Braintree
+#. Settings'
+#. Label of the header_img (Attach Image) field in DocType 'GoCardless
+#. Settings'
+#. Label of the header_img (Attach Image) field in DocType 'Stripe Settings'
 #: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
 #: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
 #: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
 msgid "Header Image"
 msgstr "ภาพหัวเรื่อง"
 
-#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:490
+#. Label of the iframe (Data) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Iframe"
+msgstr ""
+
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:491
 msgid "In Valid Request"
 msgstr "คำขอไม่ถูกต้อง"
 
-#. Label of a Data field in DocType 'Paytm Settings'
+#. Label of the industry_type_id (Data) field in DocType 'Paytm Settings'
 #: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgid "Industry Type ID"
 msgstr "รหัสประเภทอุตสาหกรรม"
 
-#. Label of a Data field in DocType 'Mpesa Settings'
+#. Label of the initiator_name (Data) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Initiator Name"
 msgstr "ชื่อผู้เริ่มต้น"
 
-#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:178
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:175
 msgid "Invalid Checkout Request ID"
 msgstr "รหัสคำขอชำระเงินไม่ถูกต้อง"
 
-#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:293
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:289
 msgid "Invalid Conversation ID"
 msgstr "รหัสสนทนาไม่ถูกต้อง"
 
-#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:653
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:172
+msgid "Invalid HMAC"
+msgstr ""
+
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:659
 msgid "Invalid Subscription"
 msgstr "การสมัครสมาชิกไม่ถูกต้อง"
 
@@ -246,7 +305,7 @@ msgstr "โทเค็นไม่ถูกต้อง"
 msgid "Invalid payment gateway credentials"
 msgstr "ข้อมูลรับรองเกตเวย์การชำระเงินไม่ถูกต้อง"
 
-#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:161
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:158
 msgid ""
 "Issue detected with Mpesa configuration, check the error logs for more "
 "details"
@@ -254,7 +313,7 @@ msgstr ""
 "พบปัญหาในการตั้งค่า Mpesa "
 "กรุณาตรวจสอบบันทึกข้อผิดพลาดเพื่อดูรายละเอียดเพิ่มเติม"
 
-#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:209
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:212
 #: payments/payment_gateways/stripe_integration.py:29
 msgid ""
 "It seems that there is an issue with the server's stripe configuration. In "
@@ -263,7 +322,7 @@ msgstr ""
 "ดูเหมือนว่าจะมีปัญหาเกี่ยวกับการตั้งค่า Stripe ของเซิร์ฟเวอร์ "
 "ในกรณีที่ล้มเหลว จำนวนเงินจะถูกคืนให้กับบัญชีของคุณ"
 
-#: payments/templates/pages/stripe_checkout.html:27
+#: payments/templates/pages/stripe_checkout.html:29
 msgid "John Doe"
 msgstr "จอห์น โด (ชื่อสมมุติ)"
 
@@ -271,10 +330,10 @@ msgstr "จอห์น โด (ชื่อสมมุติ)"
 msgid "Loading Payment System"
 msgstr "กำลังโหลดระบบการชำระเงิน"
 
-#: payments/templates/pages/braintree_checkout.py:50
-#: payments/templates/pages/gocardless_checkout.py:48
+#: payments/templates/pages/braintree_checkout.py:48
+#: payments/templates/pages/gocardless_checkout.py:46
 #: payments/templates/pages/gocardless_confirmation.py:28
-#: payments/templates/pages/stripe_checkout.py:59
+#: payments/templates/pages/stripe_checkout.py:54
 msgid ""
 "Looks like someone sent you to an incomplete URL. Please ask them to look "
 "into it."
@@ -282,11 +341,11 @@ msgstr ""
 "ดูเหมือนว่ามีคนส่งลิงก์ที่ไม่สมบูรณ์มาให้คุณ "
 "กรุณาขอให้พวกเขาตรวจสอบอีกครั้งด้วยครับ/ค่ะ"
 
-#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:215
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:216
 msgid "Looks like something is wrong with this site's Paypal configuration."
 msgstr "ดูเหมือนว่าจะมีปัญหากับการตั้งค่า Paypal ของเว็บไซต์นี้"
 
-#: payments/utils/utils.py:39
+#: payments/utils/utils.py:40
 msgid ""
 "Looks like something is wrong with this site's payment gateway "
 "configuration. No payment has been made."
@@ -294,7 +353,7 @@ msgstr ""
 "ดูเหมือนว่าจะมีปัญหากับการตั้งค่าช่องทางการชำระเงินของเว็บไซต์นี้ "
 "ยังไม่มีการชำระเงินใด ๆ เกิดขึ้น"
 
-#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:279
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:280
 msgid ""
 "Looks like something went wrong during the transaction. Since we haven't "
 "confirmed the payment, Paypal will automatically refund you this amount. If "
@@ -305,7 +364,7 @@ msgstr ""
 "จะคืนเงินจำนวนนี้ให้คุณโดยอัตโนมัติ หากไม่ได้รับเงินคืน "
 "กรุณาส่งอีเมลถึงเราและระบุรหัส Correlation ID: {0} ด้วยค่ะ"
 
-#. Label of a Data field in DocType 'GoCardless Mandate'
+#. Label of the mandate (Data) field in DocType 'GoCardless Mandate'
 #: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
 msgid "Mandate"
 msgstr "คำสั่ง"
@@ -318,23 +377,42 @@ msgstr "คำสั่ง"
 msgid "Mention transaction completion page URL"
 msgstr "ระบุ URL ของหน้าการทำรายการเสร็จสมบูรณ์"
 
-#. Label of a Data field in DocType 'Braintree Settings'
-#. Label of a Data field in DocType 'Paytm Settings'
+#. Description of the 'Redirect To' (Data) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid ""
+"Mention transaction completion page URL\n"
+"\n"
+msgstr ""
+
+#. Label of the merchant_id (Data) field in DocType 'Braintree Settings'
+#. Label of the merchant_id (Data) field in DocType 'Paytm Settings'
 #: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
 #: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgid "Merchant ID"
 msgstr "รหัสผู้ค้า"
 
-#. Label of a Password field in DocType 'Paytm Settings'
+#. Label of the merchant_key (Password) field in DocType 'Paytm Settings'
 #: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgid "Merchant Key"
 msgstr "รหัสผู้ค้า"
 
-#: payments/utils/utils.py:209
+#: payments/utils/utils.py:217
 msgid "Missing ERPNext App"
 msgstr "แอป ERPNext หายไป"
 
-#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:162
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:164
+msgid "Missing HMAC"
+msgstr ""
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:192
+msgid "Missing order ID"
+msgstr ""
+
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:69
+msgid "Missing order ID or amount"
+msgstr ""
+
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:159
 msgid "Mpesa Express Error"
 msgstr "ข้อผิดพลาด Mpesa Express"
 
@@ -343,16 +421,20 @@ msgstr "ข้อผิดพลาด Mpesa Express"
 msgid "Mpesa Settings"
 msgstr "การตั้งค่า Mpesa"
 
-#: payments/templates/pages/stripe_checkout.html:26
+#: payments/templates/pages/stripe_checkout.html:28
 msgid "Name"
 msgstr "ชื่อ"
 
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.py:241
+msgid "No Integration Request found for this order"
+msgstr ""
+
 #: payments/templates/pages/braintree_checkout.html:29
-#: payments/templates/pages/stripe_checkout.html:48
+#: payments/templates/pages/stripe_checkout.html:50
 msgid "Pay"
 msgstr "ชำระเงิน"
 
-#: payments/templates/pages/gocardless_checkout.py:89
+#: payments/templates/pages/gocardless_checkout.py:87
 msgid "Pay {0} {1}"
 msgstr "ชำระเงิน {0} {1}"
 
@@ -365,6 +447,12 @@ msgstr "การตั้งค่า PayPal"
 #: payments/templates/pages/payment-cancel.html:9
 msgid "Payment Cancelled"
 msgstr "การชำระเงินถูกยกเลิก"
+
+#. Label of the payment_config (Section Break) field in DocType 'Paymob
+#. Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Payment Config"
+msgstr ""
 
 #: payments/templates/pages/gocardless_confirmation.html:13
 msgid "Payment Confirmation"
@@ -380,16 +468,21 @@ msgstr "การชำระเงินล้มเหลว"
 msgid "Payment Gateway"
 msgstr "เกตเวย์การชำระเงิน"
 
-#. Label of a Data field in DocType 'Braintree Settings'
-#. Label of a Data field in DocType 'GoCardless Settings'
-#. Label of a Data field in DocType 'Mpesa Settings'
-#. Label of a Data field in DocType 'Stripe Settings'
+#. Label of the gateway_name (Data) field in DocType 'Braintree Settings'
+#. Label of the gateway_name (Data) field in DocType 'GoCardless Settings'
+#. Label of the payment_gateway_name (Data) field in DocType 'Mpesa Settings'
+#. Label of the gateway_name (Data) field in DocType 'Stripe Settings'
 #: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
 #: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 #: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
 msgid "Payment Gateway Name"
 msgstr "ชื่อเกตเวย์การชำระเงิน"
+
+#. Label of the payment_integration (Int) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Payment Integration"
+msgstr ""
 
 #: payments/templates/pages/payment-success.html:3
 msgid "Payment Success"
@@ -400,11 +493,16 @@ msgid "Payments"
 msgstr "การชำระเงิน"
 
 #. Name of a DocType
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Paymob Settings"
+msgstr ""
+
+#. Name of a DocType
 #: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgid "Paytm Settings"
 msgstr "การตั้งค่า Paytm"
 
-#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:283
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:279
 msgid "Please check your configuration and try again"
 msgstr "กรุณาตรวจสอบการตั้งค่าของคุณและลองใหม่อีกครั้ง"
 
@@ -412,7 +510,7 @@ msgstr "กรุณาตรวจสอบการตั้งค่าขอ
 msgid "Please select a Amount Field."
 msgstr "กรุณาเลือกฟิลด์จำนวนเงิน"
 
-#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:96
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:94
 msgid ""
 "Please select another payment method. Go Cardless does not support "
 "transactions in currency '{0}'"
@@ -449,17 +547,17 @@ msgstr ""
 "กรุณาเลือกวิธีการชำระเงินอื่น Razorpay ไม่รองรับธุรกรรมในสกุลเงิน '{0}'"
 
 #: payments/payment_gateways/doctype/braintree_settings/braintree_settings.py:183
-#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:176
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:179
 msgid ""
 "Please select another payment method. Stripe does not support transactions "
 "in currency '{0}'"
 msgstr "กรุณาเลือกวิธีการชำระเงินอื่น Stripe ไม่รองรับธุรกรรมในสกุลเงิน '{0}'"
 
-#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.js:18
+#: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.js:19
 msgid "Please set the initiator name and the security credential"
 msgstr "กรุณาตั้งชื่อผู้เริ่มต้นและข้อมูลรับรองความปลอดภัย"
 
-#. Label of a Password field in DocType 'Braintree Settings'
+#. Label of the private_key (Password) field in DocType 'Braintree Settings'
 #: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
 msgid "Private Key"
 msgstr "กุญแจส่วนตัว"
@@ -468,12 +566,14 @@ msgstr "กุญแจส่วนตัว"
 msgid "Processing..."
 msgstr "กำลังประมวลผล..."
 
-#. Label of a Data field in DocType 'Braintree Settings'
+#. Label of the public_key (Data) field in DocType 'Braintree Settings'
+#. Label of the public_key (Password) field in DocType 'Paymob Settings'
 #: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
 msgid "Public Key"
 msgstr "กุญแจสาธารณะ"
 
-#. Label of a Data field in DocType 'Stripe Settings'
+#. Label of the publishable_key (Data) field in DocType 'Stripe Settings'
 #: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
 msgid "Publishable Key"
 msgstr "กุญแจสำหรับเผยแพร่"
@@ -483,18 +583,20 @@ msgstr "กุญแจสำหรับเผยแพร่"
 msgid "Razorpay Settings"
 msgstr "การตั้งค่า Razorpay"
 
-#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:492
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:496
 msgid "Razorpay Signature Verification Failed"
 msgstr "การตรวจสอบลายเซ็น Razorpay ล้มเหลว"
 
-#. Label of a Data field in DocType 'PayPal Settings'
-#. Label of a Data field in DocType 'Razorpay Settings'
+#. Label of the redirect_to (Data) field in DocType 'Paymob Settings'
+#. Label of the redirect_to (Data) field in DocType 'PayPal Settings'
+#. Label of the redirect_to (Data) field in DocType 'Razorpay Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
 #: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
 #: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
 msgid "Redirect To"
 msgstr "เปลี่ยนเส้นทางไปยัง"
 
-#. Label of a Data field in DocType 'Stripe Settings'
+#. Label of the redirect_url (Data) field in DocType 'Stripe Settings'
 #: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
 msgid "Redirect URL"
 msgstr "URL การเปลี่ยนเส้นทาง"
@@ -503,17 +605,20 @@ msgstr "URL การเปลี่ยนเส้นทาง"
 msgid "Reserved Balance"
 msgstr "ยอดเงินสำรอง"
 
-#. Label of a Check field in DocType 'Mpesa Settings'
+#. Label of the sandbox (Check) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Sandbox"
 msgstr "แซนด์บ็อกซ์"
 
-#. Label of a Password field in DocType 'Stripe Settings'
+#. Label of the secret_key (Password) field in DocType 'Paymob Settings'
+#. Label of the secret_key (Password) field in DocType 'Stripe Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
 #: payments/payment_gateways/doctype/stripe_settings/stripe_settings.json
 msgid "Secret Key"
 msgstr "รหัสลับ"
 
-#. Label of a Small Text field in DocType 'Mpesa Settings'
+#. Label of the security_credential (Small Text) field in DocType 'Mpesa
+#. Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Security Credential"
 msgstr "ข้อมูลประจำตัวความปลอดภัย"
@@ -522,11 +627,11 @@ msgstr "ข้อมูลประจำตัวความปลอดภั
 msgid "Seems API Key or API Secret is wrong !!!"
 msgstr "ดูเหมือนว่า API Key หรือ API Secret จะไม่ถูกต้อง!!!"
 
-#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:171
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:174
 msgid "Seems Publishable Key or Secret Key is wrong !!!"
 msgstr "ดูเหมือนว่าคีย์ Publishable หรือคีย์ลับไม่ถูกต้อง!!!"
 
-#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:376
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:380
 msgid ""
 "Seems issue with server's razorpay config. Don't worry, in case of failure "
 "amount will get refunded to your account."
@@ -540,31 +645,31 @@ msgid "Seems token you are using is invalid!"
 msgstr "ดูเหมือนว่ารหัสโทเค็นที่คุณใช้งานไม่ถูกต้อง!"
 
 #: payments/payment_gateways/doctype/braintree_settings/braintree_settings.py:202
-#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:115
-#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:375
-#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:208
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:113
+#: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.py:379
+#: payments/payment_gateways/doctype/stripe_settings/stripe_settings.py:211
 #: payments/payment_gateways/stripe_integration.py:28
 msgid "Server Error"
 msgstr "ข้อผิดพลาดของเซิร์ฟเวอร์"
 
-#. Label of a Data field in DocType 'PayPal Settings'
+#. Label of the signature (Data) field in DocType 'PayPal Settings'
 #: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgid "Signature"
 msgstr "ลายเซ็นต์"
 
-#: payments/templates/pages/braintree_checkout.py:49
-#: payments/templates/pages/gocardless_checkout.py:47
+#: payments/templates/pages/braintree_checkout.py:47
+#: payments/templates/pages/gocardless_checkout.py:45
 #: payments/templates/pages/gocardless_confirmation.py:27
-#: payments/templates/pages/stripe_checkout.py:58
+#: payments/templates/pages/stripe_checkout.py:53
 msgid "Some information is missing"
 msgstr "ข้อมูลบางส่วนขาดหายไป"
 
-#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:278
-#: payments/utils/utils.py:38
+#: payments/payment_gateways/doctype/paypal_settings/paypal_settings.py:279
+#: payments/utils/utils.py:39
 msgid "Something went wrong"
 msgstr "เกิดข้อผิดพลาดบางประการ"
 
-#. Label of a Check field in DocType 'Paytm Settings'
+#. Label of the staging (Check) field in DocType 'Paytm Settings'
 #: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgid "Staging"
 msgstr "การเตรียมการ"
@@ -583,6 +688,7 @@ msgstr "สำเร็จ"
 #: payments/payment_gateways/doctype/gocardless_mandate/gocardless_mandate.json
 #: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
 #: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
 #: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
 #: payments/payment_gateways/doctype/razorpay_settings/razorpay_settings.json
@@ -591,7 +697,7 @@ msgstr "สำเร็จ"
 msgid "System Manager"
 msgstr "ผู้จัดการระบบ"
 
-#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:116
+#: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.py:114
 msgid ""
 "There seems to be an issue with the server's GoCardless configuration. Don't"
 " worry, in case of failure, the amount will get refunded to your account."
@@ -607,16 +713,21 @@ msgstr ""
 "ดูเหมือนว่าจะมีปัญหากับการตั้งค่า braintree ของเซิร์ฟเวอร์ ไม่ต้องกังวล "
 "หากเกิดความล้มเหลว จำนวนเงินจะถูกคืนเข้าสู่บัญชีของคุณ"
 
-#. Label of a Data field in DocType 'Mpesa Settings'
+#. Label of the till_number (Data) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Till Number"
 msgstr "หมายเลขเครื่องเก็บเงินสด"
+
+#. Label of the token (Password) field in DocType 'Paymob Settings'
+#: payments/payment_gateways/doctype/paymob_settings/paymob_settings.json
+msgid "Token"
+msgstr "โทเค็น"
 
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.py:119
 msgid "Transaction Error"
 msgstr "ข้อผิดพลาดในการทำรายการ"
 
-#. Label of a Float field in DocType 'Mpesa Settings'
+#. Label of the transaction_limit (Float) field in DocType 'Mpesa Settings'
 #: payments/payment_gateways/doctype/mpesa_settings/mpesa_settings.json
 msgid "Transaction Limit"
 msgstr "ขีดจำกัดธุรกรรม"
@@ -625,21 +736,21 @@ msgstr "ขีดจำกัดธุรกรรม"
 msgid "Uncleared Balance"
 msgstr "ยอดคงเหลือที่ยังไม่ตัดบัญชี"
 
-#. Label of a Check field in DocType 'Braintree Settings'
-#. Label of a Check field in DocType 'GoCardless Settings'
-#. Label of a Check field in DocType 'PayPal Settings'
+#. Label of the use_sandbox (Check) field in DocType 'Braintree Settings'
+#. Label of the use_sandbox (Check) field in DocType 'GoCardless Settings'
+#. Label of the paypal_sandbox (Check) field in DocType 'PayPal Settings'
 #: payments/payment_gateways/doctype/braintree_settings/braintree_settings.json
 #: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
 #: payments/payment_gateways/doctype/paypal_settings/paypal_settings.json
 msgid "Use Sandbox"
 msgstr "ใช้แซนด์บ็อกซ์"
 
-#. Label of a Data field in DocType 'GoCardless Settings'
+#. Label of the webhooks_secret (Data) field in DocType 'GoCardless Settings'
 #: payments/payment_gateways/doctype/gocardless_settings/gocardless_settings.json
 msgid "Webhooks Secret"
 msgstr "รหัสลับ Webhooks"
 
-#. Label of a Data field in DocType 'Paytm Settings'
+#. Label of the website (Data) field in DocType 'Paytm Settings'
 #: payments/payment_gateways/doctype/paytm_settings/paytm_settings.json
 msgid "Website"
 msgstr "เว็บไซต์"
@@ -652,7 +763,7 @@ msgstr "คุณไม่ได้รับอนุญาตให้แก้
 msgid "You must login to submit this form"
 msgstr "คุณต้องเข้าสู่ระบบเพื่อส่งแบบฟอร์มนี้"
 
-#: payments/templates/pages/stripe_checkout.html:51
+#: payments/templates/pages/stripe_checkout.html:53
 msgid "Your payment has been successfully registered."
 msgstr "การชำระเงินของคุณได้รับการลงทะเบียนเรียบร้อยแล้ว"
 
@@ -668,14 +779,14 @@ msgstr "การชำระเงินของคุณถูกยกเล
 msgid "Your payment was successfully accepted"
 msgstr "การชำระเงินของคุณได้รับการยอมรับเรียบร้อยแล้ว"
 
-#: payments/utils/utils.py:203
+#: payments/utils/utils.py:211
 msgid "erpnext app is not installed. Please install it from {} or {}"
 msgstr "แอป ERPNext ยังไม่ได้ติดตั้ง กรุณาติดตั้งจาก {} หรือ {}"
 
-#: payments/templates/pages/stripe_checkout.html:35
+#: payments/templates/pages/stripe_checkout.html:37
 msgid "john@doe.com"
 msgstr "john@doe.com"
 
-#: payments/utils/utils.py:20 payments/utils/utils.py:25
+#: payments/utils/utils.py:21 payments/utils/utils.py:26
 msgid "{0} Settings not found"
 msgstr "ไม่พบการตั้งค่า {0}"
