@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Digisoft Erp VERSION\n"
 "Report-Msgid-Bugs-To: maleewan@digisofterp.com\n"
-"POT-Creation-Date: 2026-03-23 00:41+0642\n"
+"POT-Creation-Date: 2026-03-24 09:09+0642\n"
 "PO-Revision-Date: 2026-03-23 00:32+0642\n"
 "Last-Translator: maleewan@digisofterp.com\n"
 "Language-Team: maleewan@digisofterp.com\n"
@@ -3676,6 +3676,18 @@ msgstr "เดือน"
 #: digisoft_erp/patches/v1_11_0/migrate_dual_language_labels_to_english.py:338
 msgid "Label Migration Complete"
 msgstr "การย้ายข้อมูลเสร็จสมบูรณ์"
+
+#: digisoft_erp/public/js/account_language_toggle.js:131
+msgid "Language Changed"
+msgstr ""
+
+#: digisoft_erp/overrides/account_utils.py:59
+msgid "Language preference updated successfully"
+msgstr ""
+
+#: digisoft_erp/public/js/account_language_toggle.js:132
+msgid "Language preference updated. Refreshing page..."
+msgstr ""
 
 #. Label of the payee_last_name (Data) field in DocType 'Withholding Tax Cert'
 #: digisoft_erp/digisoft_erp/doctype/withholding_tax_cert/withholding_tax_cert.json

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Translation Tools VERSION\n"
 "Report-Msgid-Bugs-To: moocoding@gmail.com\n"
-"POT-Creation-Date: 2026-03-23 00:40+0642\n"
-"PO-Revision-Date: 2026-03-23 00:40+0642\n"
+"POT-Creation-Date: 2026-03-24 09:09+0642\n"
+"PO-Revision-Date: 2026-03-24 09:09+0642\n"
 "Last-Translator: moocoding@gmail.com\n"
 "Language-Team: moocoding@gmail.com\n"
 "Language: th\n"
@@ -654,7 +654,7 @@ msgstr "การ์ด"
 msgid "Category"
 msgstr "หมวดหมู่"
 
-#: translation_tools/public/js/language_toggle.js:69
+#: translation_tools/public/js/language_toggle.js:85
 msgid "Changing language to "
 msgstr "กำลังเปลี่ยนภาษาเป็น"
 
@@ -1465,7 +1465,7 @@ msgstr "ไม่สามารถบันทึกการตั้งค่
 msgid "Failed to save translations"
 msgstr "ไม่สามารถบันทึกการแปลได้"
 
-#: translation_tools/public/js/language_toggle.js:90
+#: translation_tools/public/js/language_toggle.js:106
 msgid "Failed to update language."
 msgstr "ไม่สามารถอัปเดตภาษาได้"
 
@@ -2021,7 +2021,7 @@ msgstr "การตั้งค่า LDAP"
 msgid "Language"
 msgstr "ภาษา"
 
-#: translation_tools/public/js/language_toggle.js:83
+#: translation_tools/public/js/language_toggle.js:99
 msgid "Language updated. Reloading..."
 msgstr "อัปเดตภาษาแล้ว กำลังโหลดใหม่..."
 
@@ -4319,7 +4319,7 @@ msgstr "คุณไม่มีสิทธิ์ในการแก้ไข
 msgid "You have already requested a trial."
 msgstr "คุณได้ทำการขอทดลองใช้งานแล้ว"
 
-#: translation_tools/api/settings.py:894
+#: translation_tools/api/settings.py:1025
 msgid "You need System Manager role to save API keys"
 msgstr "คุณต้องมีบทบาทผู้จัดการระบบเพื่อบันทึกคีย์ API"
 
